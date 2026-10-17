@@ -4651,7 +4651,7 @@
     "position": 69
    }
   ],
-  "split": "train"
+  "split": "val"
  },
  "BSC2033": {
   "course_code": "BSC2033",
@@ -7327,7 +7327,7 @@
     "position": 58
    }
   ],
-  "split": "val"
+  "split": "train"
  },
  "PCC2016": {
   "course_code": "PCC2016",
@@ -7622,7 +7622,7 @@
     "position": 35
    }
   ],
-  "split": "val"
+  "split": "train"
  },
  "2213112": {
   "course_code": "2213112",

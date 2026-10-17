@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KDG Graph Demo</title>
+<style>
+  :root{--bg:#f6f4ee;--panel:#fffdf8;--ink:#17141f;--mut:#6b6677;--line:#d8d3c4;--green:#1f9d55;--blue:#2457d6;--grey:#a8a49a;--amber:#d98200;--red:#c43d3d;--accent:#7a3cff}
+  @media (prefers-color-scheme: dark){:root{--bg:#14121a;--panel:#1d1a26;--ink:#f1eef8;--mut:#9d98ab;--line:#35304a;--grey:#6f6a80}}
+  *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 system-ui,Segoe UI,Roboto,sans-serif}
+  header{padding:14px 20px;border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+  h1{font-size:18px;margin:0} .tag{font-size:12px;color:var(--mut)}
+  main{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:0;height:calc(100vh - 62px)}
+  #canvasWrap{overflow:auto;border-right:1px solid var(--line);position:relative}
+  aside{overflow:auto;padding:14px 16px;background:var(--panel)}
+  select,button,input{font:inherit;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:5px 10px}
+  button{cursor:pointer} button:hover{border-color:var(--accent)} button.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0}
+  .card{border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:10px 0;background:var(--bg)}
+  .card h3{margin:0 0 6px;font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--mut)}
+  .legend span{display:inline-flex;align-items:center;gap:5px;margin-right:12px;font-size:12px}
+  .dot{width:11px;height:11px;border-radius:3px;display:inline-block}
+  svg text{font-size:11px;fill:var(--ink);pointer-events:none}
+  .node rect{stroke-width:1.5;rx:7;cursor:pointer} .node:hover rect{filter:brightness(1.07)}
+  ol.path{margin:6px 0 0 18px;padding:0;font-size:13px} ol.path li{margin:2px 0} .small{font-size:12px;color:var(--mut)}
+  .bar{height:8px;border-radius:6px;background:var(--line);overflow:hidden}.bar>i{display:block;height:100%;background:var(--green)}
+  #tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--bg);padding:6px 9px;border-radius:7px;font-size:12px;max-width:340px;display:none;z-index:9}
+  .kv{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;font-size:12px}.kv b{font-weight:600}
+  @media (max-width:900px){main{grid-template-columns:1fr;height:auto}#canvasWrap{height:60vh}}
+</style>
+</head>
+<body>
+<header>
+  <h1>KDG &middot; prerequisite graph demo</h1>
+  <label class="tag">Unseen course&nbsp;<select id="course"></select></label>
+  <span class="tag" id="srcTag"></span>
+</header>
+<main>
+  <div id="canvasWrap"><svg id="svg"></svg></div>
+  <aside>
+    <div class="card">
+      <h3>How to use</h3>
+      <div class="small">1. Click a <b style="color:var(--blue)">blue</b> node when you already know it &rarr; it turns green and unlocks what depends on it. 2. Grey nodes are blocked until every prerequisite is green. 3. Click a grey node to see its <b>missing prerequisites</b> and choose to mark them known or set a goal.</div>
+    </div>
+    <div class="card legend">
+      <h3>Legend</h3>
+      <span><i class="dot" style="background:var(--green)"></i>mastered</span><span><i class="dot" style="background:var(--blue)"></i>ready (start here)</span><span><i class="dot" style="background:var(--grey)"></i>blocked</span><br>
+      <span><svg width="26" height="8"><line x1="0" y1="4" x2="26" y2="4" stroke="var(--ink)" stroke-width="2"/></svg>accepted edge</span>
+      <span><svg width="26" height="8"><line x1="0" y1="4" x2="26" y2="4" stroke="var(--amber)" stroke-width="2" stroke-dasharray="4 3"/></svg>uncertain (does not block)</span>
+    </div>
+    <div class="card">
+      <h3>Controls</h3>
+      <div class="row"><label>Blocking confidence &ge; <b id="thrVal"></b></label></div>
+      <div class="row"><input id="thr" type="range" min="0.05" max="0.9" step="0.01" style="width:100%"></div>
+      <div class="row"><label><input type="checkbox" id="showUnc" checked> show uncertain edges</label></div>
+      <div class="row"><label><input type="checkbox" id="hideRed" checked> hide redundant edges (implied by a longer path)</label></div>
+      <div class="row"><label><input type="checkbox" id="cmp"> compare with provisional gold</label></div>
+      <div class="row"><button id="reset">Reset mastery</button><button id="kahnBtn">Show Kahn steps</button></div>
+    </div>
+    <div class="card" id="progressCard"><h3>Progress</h3><div class="bar"><i id="barFill" style="width:0"></i></div><div class="small" id="progressTxt"></div><div class="small" id="nextTxt"></div></div>
+    <div class="card" id="detail"><h3>Selected topic</h3><div class="small">Click a node.</div></div>
+    <div class="card" id="kahnCard" style="display:none"><h3>Kahn's algorithm</h3><div class="small">In-degree counts the blocking prerequisites not yet processed. Nodes with in-degree 0 are queued; each pop lowers the in-degree of its dependants.</div>
+      <div class="row"><button id="kPrev">&larr;</button><button id="kNext" class="primary">Step &rarr;</button><span class="small" id="kStep"></span></div><div class="small" id="kInfo"></div></div>
+    <div class="card" id="cmpCard" style="display:none"><h3>Model vs provisional gold</h3><div class="kv" id="cmpKv"></div><div class="small" style="margin-top:6px">Gold = edges labelled by Claude (not human verified). <span style="color:var(--green)">green</span> = accepted edge present in gold, <span style="color:var(--amber)">orange</span> = accepted edge not in gold, <span style="color:var(--red)">red dotted</span> = gold edge the model missed.</div></div>
+  </aside>
+</main>
+<div id="tip"></div>
+<script>
+const DATA = /*DATA*/null;
+const NS = "http://www.w3.org/2000/svg";
+const $ = id => document.getElementById(id);
+let C, mastered = new Set(), goal = null, selected = null, kahnStep = -1, kahnOn = false;
+const thrEl = $("thr");
+
+DATA.courses.forEach((c, i) => { const o = document.createElement("option"); o.value = i; o.textContent = `${c.code} · ${c.title} (${c.n} topics)`; $("course").appendChild(o); });
+thrEl.value = DATA.model.accepted_threshold; $("thrVal").textContent = (+thrEl.value).toFixed(2);
+
+function el(tag, attrs, parent) { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; }
+const thr = () => +thrEl.value;
+// edges that BLOCK a learner: accepted-band edges whose confidence >= the slider (uncertain edges never block)
+function blockingEdges() { return C.edges.filter(e => e.p >= thr() && e.p >= DATA.model.uncertain_threshold && !(e.band === "uncertain" && e.p < DATA.model.accepted_threshold)); }
+function parentsMap() { const m = C.nodes.map(() => []); blockingEdges().forEach(e => m[e.b].push(e.a)); return m; }
+function childrenMap() { const m = C.nodes.map(() => []); blockingEdges().forEach(e => m[e.a].push(e.b)); return m; }
+function stateOf(i, par) { if (mastered.has(i)) return "mastered"; return par[i].every(p => mastered.has(p)) ? "ready" : "blocked"; }
+function ancestors(i, par) { const seen = new Set(), st = [...par[i]]; while (st.length) { const u = st.pop(); if (seen.has(u)) continue; seen.add(u); par[u].forEach(p => st.push(p)); } return seen; }
+function descendants(i, ch) { const seen = new Set(), st = [...ch[i]]; while (st.length) { const u = st.pop(); if (seen.has(u)) continue; seen.add(u); ch[u].forEach(p => st.push(p)); } return seen; }
+function kahn(par, ch) {            // textbook Kahn: in-degree BFS; also records the steps for the stepper
+  const n = C.nodes.length, indeg = par.map(p => p.length), q = [], order = [], steps = [], level = Array(n).fill(0);
+  for (let i = 0; i < n; i++) if (!indeg[i]) q.push(i);
+  steps.push({ pop: null, queue: [...q], indeg: [...indeg], note: "Start: queue = nodes with in-degree 0 (no blocking prerequisite)." });
+  while (q.length) { const u = q.shift(); order.push(u);
+    ch[u].forEach(v => { indeg[v]--; level[v] = Math.max(level[v], level[u] + 1); if (!indeg[v]) q.push(v); });
+    steps.push({ pop: u, queue: [...q], indeg: [...indeg], note: `Pop "${C.nodes[u].name}" -> lower the in-degree of ${ch[u].length} dependant(s).` }); }
+  return { order, level, steps, ok: order.length === n };
+}
+
+function layout(level) {
+  const cols = {}; C.nodes.forEach((n, i) => (cols[level[i]] = cols[level[i]] || []).push(i));
+  const W = 176, H = 26, GX = 78, GY = 9, pos = [];
+  Object.keys(cols).forEach(l => cols[l].forEach((i, r) => pos[i] = { x: 24 + l * (W + GX), y: 24 + r * (H + GY), w: W, h: H }));
+  return { pos, width: 48 + (Math.max(...Object.keys(cols).map(Number)) + 1) * (W + GX), height: 48 + Math.max(...Object.values(cols).map(a => a.length)) * (H + GY) };
+}
+
+function render() {
+  const par = parentsMap(), ch = childrenMap(), K = kahn(par, ch), svg = $("svg"); svg.innerHTML = "";
+  const L = layout(K.level), pos = L.pos; svg.setAttribute("width", L.width); svg.setAttribute("height", L.height);
+  const cmp = $("cmp").checked, showUnc = $("showUnc").checked, hideRed = $("hideRed").checked;
+  const defs = el("defs", {}, svg), mk = (id, col) => { const m = el("marker", { id, viewBox: "0 0 10 10", refX: 9, refY: 5, markerWidth: 7, markerHeight: 7, orient: "auto-start-reverse" }, defs); el("path", { d: "M0,0 L10,5 L0,10 z", fill: col }, m); };
+  mk("aInk", "var(--ink)"); mk("aAmb", "#d98200"); mk("aGrn", "#1f9d55"); mk("aRed", "#c43d3d");
+  const eg = el("g", {}, svg);
+  const path = (a, b) => { const A = pos[a], B = pos[b], x1 = A.x + A.w, y1 = A.y + A.h / 2, x2 = B.x, y2 = B.y + B.h / 2, dx = Math.max(30, (x2 - x1) / 2); return `M${x1},${y1} C${x1 + dx},${y1} ${x2 - dx},${y2} ${x2},${y2}`; };
+  const focus = selected !== null ? new Set([selected, ...ancestors(selected, par), ...descendants(selected, ch)]) : null;
+  C.edges.forEach(e => {
+    const blocks = e.p >= thr(), isUnc = !blocks; if (isUnc && !showUnc) return; if (!isUnc && e.redundant && hideRed) return;
+    let col = "var(--ink)", mkr = "aInk", dash = null, op = .55;
+    if (isUnc) { col = "#d98200"; mkr = "aAmb"; dash = "5 4"; op = .8; }
+    if (cmp && !isUnc) { col = e.gold ? "#1f9d55" : "#d98200"; mkr = e.gold ? "aGrn" : "aAmb"; op = .85; }
+    if (focus && !(focus.has(e.a) && focus.has(e.b))) op = .07;
+    const p = el("path", { d: path(e.a, e.b), fill: "none", stroke: col, "stroke-width": 1.4 + e.p * 1.6, opacity: op, "marker-end": `url(#${mkr})` }, eg); if (dash) p.setAttribute("stroke-dasharray", dash);
+    p.addEventListener("mousemove", ev => tip(ev, `<b>${esc(C.nodes[e.a].name)}</b> &rarr; <b>${esc(C.nodes[e.b].name)}</b><br>confidence ${(e.p * 100).toFixed(0)}% (${e.band})${e.gold ? "<br>in provisional gold" : "<br>not in provisional gold"}`));
+    p.addEventListener("mouseleave", () => tip());
+  });
+  if (cmp) C.missed_gold.forEach(m => { el("path", { d: path(m.a, m.b), fill: "none", stroke: "#c43d3d", "stroke-width": 1.2, "stroke-dasharray": "2 4", opacity: focus && !(focus.has(m.a) && focus.has(m.b)) ? .05 : .55, "marker-end": "url(#aRed)" }, eg); });
+  const ng = el("g", {}, svg);
+  C.nodes.forEach((n, i) => {
+    const s = stateOf(i, par), P = pos[i], g = el("g", { class: "node", transform: `translate(${P.x},${P.y})`, opacity: focus && !focus.has(i) ? .25 : 1 }, ng);
+    const fill = s === "mastered" ? "#1f9d55" : s === "ready" ? "#2457d6" : "var(--grey)";
+    el("rect", { width: P.w, height: P.h, fill, stroke: selected === i ? "var(--accent)" : goal === i ? "#d98200" : "transparent", "stroke-width": selected === i || goal === i ? 3 : 1.5, opacity: s === "blocked" ? .55 : 1 }, g);
+    const t = el("text", { x: 8, y: 17, fill: "#fff", style: "fill:#fff" }, g); t.textContent = (s === "blocked" ? "\u{1F512} " : s === "mastered" ? "✓ " : "") + trunc(n.name, 25);
+    if (s === "ready" && !par[i].length) { const b = el("text", { x: P.w - 6, y: 17, "text-anchor": "end", style: "fill:#fff;font-weight:700;font-size:9px" }, g); b.textContent = "START"; }
+    if (goal === i) { const b = el("text", { x: P.w - 6, y: 17, "text-anchor": "end", style: "fill:#fff;font-weight:700;font-size:11px" }, g); b.textContent = "⚑"; }
+    if (kahnOn) { const d = el("text", { x: P.w - 6, y: 9, "text-anchor": "end", style: "fill:#fff;font-size:8px" }, g); d.textContent = "in:" + kahnState.indeg[i]; }
+    g.addEventListener("click", () => onNode(i)); g.addEventListener("mousemove", ev => tip(ev, `<b>${esc(n.name)}</b><br>module ${n.module} · Kahn level ${K.level[i]} · ${s}<br>blocking prerequisites: ${par[i].length}`)); g.addEventListener("mouseleave", () => tip());
+  });
+  window._K = K; window._par = par; window._ch = ch; renderSide(par, ch, K);
+}
+let kahnState = { indeg: [] };
+function trunc(s, n) { return s.length > n ? s.slice(0, n - 1) + "…" : s; }
+function esc(s) { return s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
+function tip(ev, html) { const t = $("tip"); if (!ev) { t.style.display = "none"; return; } t.innerHTML = html; t.style.display = "block"; t.style.left = Math.min(ev.clientX + 14, innerWidth - 350) + "px"; t.style.top = (ev.clientY + 14) + "px"; }
+
+function onNode(i) {
+  const par = parentsMap(), ch = childrenMap(), s = stateOf(i, par); selected = i;
+  if (s === "ready") { mastered.add(i); }
+  else if (s === "mastered") { mastered.delete(i); descendants(i, ch).forEach(d => mastered.delete(d)); }   // un-learning a prerequisite re-blocks everything above it
+  render();
+}
+function renderSide(par, ch, K) {
+  const n = C.nodes.length, m = mastered.size, ready = C.nodes.map((_, i) => i).filter(i => stateOf(i, par) === "ready");
+  $("barFill").style.width = (100 * m / n) + "%"; $("progressTxt").textContent = `${m} / ${n} topics mastered · ${ready.length} ready now`;
+  const nextList = K.order.filter(i => ready.includes(i)).slice(0, 5).map(i => C.nodes[i].name);
+  $("nextTxt").innerHTML = ready.length ? "Study next: " + nextList.map(esc).join(" · ") : "Everything reachable is mastered.";
+  const d = $("detail"); d.innerHTML = "<h3>Selected topic</h3>";
+  if (selected === null) { d.innerHTML += '<div class="small">Click a node.</div>'; }
+  else {
+    const s = stateOf(selected, par), anc = [...ancestors(selected, par)], miss = anc.filter(a => !mastered.has(a)).sort((a, b) => K.order.indexOf(a) - K.order.indexOf(b));
+    const inE = blockingEdges().filter(e => e.b === selected).map(e => `${esc(C.nodes[e.a].name)} <span class="small">(${(e.p * 100).toFixed(0)}%)</span>`);
+    d.innerHTML += `<div><b>${esc(C.nodes[selected].name)}</b></div><div class="small">module ${C.nodes[selected].module} · Kahn level ${K.level[selected]} · <b>${s}</b></div>`;
+    d.innerHTML += `<div class="small" style="margin-top:6px">Direct prerequisites: ${inE.length ? inE.join("; ") : "none (a start node)"}</div>`;
+    const pct = anc.length ? Math.round(100 * (anc.length - miss.length) / anc.length) : 100;
+    d.innerHTML += `<div style="margin-top:8px"><b>Missing prerequisites</b> <span class="small">(Ancestors(T) \\ Known): ${miss.length} of ${anc.length} · ${pct}% ready</span></div>`;
+    d.innerHTML += miss.length ? `<ol class="path">${miss.map(a => `<li>${esc(C.nodes[a].name)}</li>`).join("")}</ol>` : '<div class="small">None — all prerequisites are mastered.</div>';
+    d.innerHTML += `<div class="row"><button id="bGoal">Set as goal</button>${miss.length ? '<button id="bKnow">I already know all of these</button>' : ""}</div>`;
+    if (goal !== null) { const ganc = [...ancestors(goal, par)].filter(a => !mastered.has(a)).sort((a, b) => K.order.indexOf(a) - K.order.indexOf(b)); if (!mastered.has(goal)) ganc.push(goal);
+      d.innerHTML += `<div style="margin-top:8px"><b>Path to goal ⚑ ${esc(C.nodes[goal].name)}</b> <span class="small">(Kahn order, unmastered only)</span></div><ol class="path">${ganc.map(a => `<li>${esc(C.nodes[a].name)}</li>`).join("") || "<li>Goal already mastered.</li>"}</ol>`; }
+    setTimeout(() => { const g = $("bGoal"), k = $("bKnow"); if (g) g.onclick = () => { goal = selected; render(); }; if (k) k.onclick = () => { miss.forEach(a => mastered.add(a)); render(); }; }, 0);
+  }
+  const cc = $("cmpCard"); cc.style.display = $("cmp").checked ? "block" : "none";
+  if ($("cmp").checked) { const s = C.stats; $("cmpKv").innerHTML = `<b>accepted edges</b><span>${s.accepted}</span><b>in gold (hits)</b><span>${s.hit} → precision ${(s.precision * 100).toFixed(0)}%</span><b>gold edges</b><span>${s.gold} → recall ${(s.recall * 100).toFixed(0)}%</span><b>missed gold edges</b><span>${C.missed_gold.length}</span>`; }
+}
+function setCourse(i) { C = DATA.courses[i]; mastered = new Set(); goal = null; selected = null; kahnOn = false; $("kahnCard").style.display = "none"; $("srcTag").textContent = `source PDF: ${C.source} · not used for training`; render(); }
+$("course").onchange = e => setCourse(+e.target.value);
+thrEl.oninput = () => { $("thrVal").textContent = (+thrEl.value).toFixed(2); mastered = new Set([...mastered].filter(i => true)); render(); };
+["showUnc", "hideRed", "cmp"].forEach(id => $(id).onchange = render);
+$("reset").onclick = () => { mastered = new Set(); goal = null; selected = null; render(); };
+$("kahnBtn").onclick = () => { kahnOn = !kahnOn; $("kahnCard").style.display = kahnOn ? "block" : "none"; kahnStep = 0; stepKahn(0); };
+function stepKahn(d) {
+  const K = window._K; kahnStep = Math.max(0, Math.min(K.steps.length - 1, kahnStep + d)); const st = K.steps[kahnStep]; kahnState = st;
+  $("kStep").textContent = `step ${kahnStep} / ${K.steps.length - 1}`; $("kInfo").innerHTML = `${esc(st.note)}<br>queue (${st.queue.length}): ${st.queue.slice(0, 6).map(i => esc(trunc(C.nodes[i].name, 22))).join(" · ") || "empty"}`;
+  render(); if (st.pop !== null) { /* highlight popped node by selecting it for the step */ }
+}
+$("kNext").onclick = () => stepKahn(1); $("kPrev").onclick = () => stepKahn(-1);
+const _render = render; render = function () { _render(); if (kahnOn && window._K) { /* keep stepper text in sync after re-render */ } };
+setCourse(0);
+</script>
+</body>
+</html>

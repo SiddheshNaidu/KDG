@@ -26,9 +26,13 @@ for h, rs in by_hash.items():
         mods.append(dict(index=m["number"], name=m["name"], topics=names))
     courses[cid] = dict(course_code=r["course_code"], course_title=r["title"], content_hash=h, n_topics=len(topics),
                         source_pdfs=sorted({x["source_pdf"].split("/")[-1] for x in rs}), modules=mods, topics=topics)
-test = [c for c, v in courses.items() if v["content_hash"] in test_hashes]
-rest = sorted(c for c in courses if c not in test)
-val = rest[::5]; train = [c for c in rest if c not in val]
+# Split by COURSE CODE (variants of the same course in different PDFs must share a split: no leakage)
+test_codes = {v["course_code"] for v in courses.values() if v["content_hash"] in test_hashes}
+test = [c for c, v in courses.items() if v["course_code"] in test_codes]
+rest_codes = sorted({v["course_code"] for c, v in courses.items() if c not in test})
+val_codes = set(rest_codes[::5])
+val = [c for c, v in courses.items() if c not in test and v["course_code"] in val_codes]
+train = [c for c in courses if c not in test and c not in val]
 for c in courses:
     courses[c]["split"] = "test" if c in test else "val" if c in val else "train"
 json.dump(courses, open("data/processed/topics_nep.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)

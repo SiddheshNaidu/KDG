@@ -1,0 +1,229 @@
+{
+"edges": [
+{
+"a": "t4",
+"b": "t9",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t8",
+"b": "t9",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t8",
+"b": "t10",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t12",
+"b": "t13",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t12",
+"b": "t14",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t12",
+"b": "t15",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t12",
+"b": "t16",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t11",
+"b": "t12",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t17",
+"b": "t18",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t18",
+"b": "t20",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t21",
+"b": "t22",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t22",
+"b": "t23",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t23",
+"b": "t24",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t21",
+"b": "t25",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t21",
+"b": "t26",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t27",
+"b": "t28",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t27",
+"b": "t29",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t27",
+"b": "t30",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t27",
+"b": "t31",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t21",
+"b": "t32",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t27",
+"b": "t32",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t32",
+"b": "t33",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t33",
+"b": "t34",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t34",
+"b": "t35",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t35",
+"b": "t36",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t37",
+"b": "t38",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t37",
+"b": "t39",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t40",
+"b": "t41",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t42",
+"b": "t43",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t46",
+"b": "t47",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t54",
+"b": "t55",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t58",
+"b": "t59",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t59",
+"b": "t60",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t62",
+"b": "t63",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t62",
+"b": "t64",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t62",
+"b": "t66",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t67",
+"b": "t68",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t67",
+"b": "t69",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t67",
+"b": "t70",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t68",
+"b": "t70",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t68",
+"b": "t71",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t72",
+"b": "t74",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t72",
+"b": "t75",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t77",
+"b": "t78",
+"why": "foundation precedes dependent"
+},
+{
+"a": "t77",
+"b": "t79",
+"why": "foundation precedes dependent"
+}
+]
+}

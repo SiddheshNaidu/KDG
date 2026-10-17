@@ -5,10 +5,10 @@ os.environ.setdefault("HF_HUB_OFFLINE", "1")
 import networkx as nx
 sys.path.insert(0, ".")
 from app.ml.infer import Bundle, score_pairs, infer_course
-T = json.load(open("data/processed/topics_nep.json", encoding="utf-8")); b = Bundle.get("nep2")
+T = json.load(open("data/processed/topics_nep.json", encoding="utf-8")); MODEL = os.environ.get("MODEL", "nep4"); b = Bundle.get(MODEL)
 LOW = 0.10   # below the accepted threshold but worth showing as "uncertain"
-out = dict(model=dict(name="nep2", accepted_threshold=b.threshold, uncertain_threshold=LOW, calibrated=True,
-                      note="confidence = calibrated probability (isotonic, fitted on validation courses). Gold = provisional labels by Claude, not human verified."), courses=[])
+out = dict(model=dict(name=MODEL, accepted_threshold=b.threshold, uncertain_threshold=LOW, calibrated=True,
+                      note="confidence = calibrated probability (isotonic, fitted on validation courses). Gold = labels from two independent AI passes plus an independent adjudicator, not human verified."), courses=[])
 def kahn(n, edges):
     indeg = [0] * n; adj = [[] for _ in range(n)]
     for a, c in edges: adj[a].append(c); indeg[c] += 1
@@ -24,7 +24,7 @@ for c, v in T.items():
     if v["split"] != "test": continue
     ts = [dict(id=t["id"], name=t["name"], module=t["module_idx"]) for t in v["topics"]]; ids = {t["id"]: i for i, t in enumerate(ts)}; n = len(ts)
     ctx = dict(title=v["course_title"], module_names={m["index"]: m["name"] for m in v["modules"]})
-    gold = {(ids[e["a"]], ids[e["b"]]) for e in json.load(open(f"data/labelling/claude/{c}.json"))["edges"]}
+    gold = {(ids[e["a"]], ids[e["b"]]) for e in json.load(open(os.environ.get("LABEL_DIR", "data/labelling/claude") + f"/{c}.json"))["edges"]}
     S = score_pairs(ts, b, True, ctx=ctx)
     low_edges = infer_course(ts, bundle=b, threshold=LOW, margin=b.margin, reduce=False, scores=S, ctx=ctx)
     E = [(ids[e.a], ids[e.b], e.confidence) for e in low_edges]

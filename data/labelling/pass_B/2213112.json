@@ -1,0 +1,234 @@
+{
+"edges": [
+{
+"a": "t1",
+"b": "t2",
+"why": "prerequisite concept"
+},
+{
+"a": "t1",
+"b": "t3",
+"why": "prerequisite concept"
+},
+{
+"a": "t1",
+"b": "t4",
+"why": "prerequisite concept"
+},
+{
+"a": "t5",
+"b": "t6",
+"why": "prerequisite concept"
+},
+{
+"a": "t2",
+"b": "t6",
+"why": "prerequisite concept"
+},
+{
+"a": "t2",
+"b": "t7",
+"why": "prerequisite concept"
+},
+{
+"a": "t5",
+"b": "t8",
+"why": "prerequisite concept"
+},
+{
+"a": "t9",
+"b": "t10",
+"why": "prerequisite concept"
+},
+{
+"a": "t9",
+"b": "t11",
+"why": "prerequisite concept"
+},
+{
+"a": "t12",
+"b": "t13",
+"why": "prerequisite concept"
+},
+{
+"a": "t13",
+"b": "t14",
+"why": "prerequisite concept"
+},
+{
+"a": "t14",
+"b": "t15",
+"why": "prerequisite concept"
+},
+{
+"a": "t13",
+"b": "t18",
+"why": "prerequisite concept"
+},
+{
+"a": "t13",
+"b": "t20",
+"why": "prerequisite concept"
+},
+{
+"a": "t15",
+"b": "t17",
+"why": "prerequisite concept"
+},
+{
+"a": "t17",
+"b": "t19",
+"why": "prerequisite concept"
+},
+{
+"a": "t22",
+"b": "t23",
+"why": "prerequisite concept"
+},
+{
+"a": "t23",
+"b": "t24",
+"why": "prerequisite concept"
+},
+{
+"a": "t24",
+"b": "t25",
+"why": "prerequisite concept"
+},
+{
+"a": "t24",
+"b": "t26",
+"why": "prerequisite concept"
+},
+{
+"a": "t23",
+"b": "t27",
+"why": "prerequisite concept"
+},
+{
+"a": "t23",
+"b": "t29",
+"why": "prerequisite concept"
+},
+{
+"a": "t30",
+"b": "t31",
+"why": "prerequisite concept"
+},
+{
+"a": "t31",
+"b": "t32",
+"why": "prerequisite concept"
+},
+{
+"a": "t32",
+"b": "t33",
+"why": "prerequisite concept"
+},
+{
+"a": "t33",
+"b": "t34",
+"why": "prerequisite concept"
+},
+{
+"a": "t32",
+"b": "t36",
+"why": "prerequisite concept"
+},
+{
+"a": "t36",
+"b": "t37",
+"why": "prerequisite concept"
+},
+{
+"a": "t38",
+"b": "t39",
+"why": "prerequisite concept"
+},
+{
+"a": "t36",
+"b": "t35",
+"why": "prerequisite concept"
+},
+{
+"a": "t40",
+"b": "t41",
+"why": "prerequisite concept"
+},
+{
+"a": "t41",
+"b": "t42",
+"why": "prerequisite concept"
+},
+{
+"a": "t41",
+"b": "t43",
+"why": "prerequisite concept"
+},
+{
+"a": "t41",
+"b": "t44",
+"why": "prerequisite concept"
+},
+{
+"a": "t37",
+"b": "t43",
+"why": "prerequisite concept"
+},
+{
+"a": "t45",
+"b": "t46",
+"why": "prerequisite concept"
+},
+{
+"a": "t45",
+"b": "t47",
+"why": "prerequisite concept"
+},
+{
+"a": "t45",
+"b": "t48",
+"why": "prerequisite concept"
+},
+{
+"a": "t47",
+"b": "t49",
+"why": "prerequisite concept"
+},
+{
+"a": "t37",
+"b": "t45",
+"why": "prerequisite concept"
+},
+{
+"a": "t50",
+"b": "t51",
+"why": "prerequisite concept"
+},
+{
+"a": "t50",
+"b": "t52",
+"why": "prerequisite concept"
+},
+{
+"a": "t52",
+"b": "t53",
+"why": "prerequisite concept"
+},
+{
+"a": "t52",
+"b": "t54",
+"why": "prerequisite concept"
+},
+{
+"a": "t52",
+"b": "t55",
+"why": "prerequisite concept"
+},
+{
+"a": "t52",
+"b": "t56",
+"why": "prerequisite concept"
+}
+]
+}

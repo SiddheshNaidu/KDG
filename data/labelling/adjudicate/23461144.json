@@ -1,0 +1,903 @@
+{
+"course": "23461144",
+"title": "Augmented Reality / Virtual Reality",
+"topics": [
+{
+"id": "t1",
+"name": "Definition and Scope",
+"module": 1
+},
+{
+"id": "t2",
+"name": "A Brief History of Augmented Reality",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Architecture of AR",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Related Fields of AR (like Mixed Reality, Virtual Reality, Immersive Reality, Extended Reality) and Their comparison",
+"module": 1
+},
+{
+"id": "t5",
+"name": "General Architecture of Mixed Reality System",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Algorithm Steps in Mixed Reality",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Displays (Multimodal Displays, Spatial Display Model, and Visual Displays)",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Strong vs Weak AR",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Augmented Reality Hardware (Sensors, Processors, Displays)",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Ingredients of an AR Experience Dimensionality",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Depth Cues",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Registration and Latency",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Working of Augmented Reality",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Applications of AR",
+"module": 1
+},
+{
+"id": "t15",
+"name": "Challenges in AR",
+"module": 1
+},
+{
+"id": "t16",
+"name": "Software Components",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Software Tools for Content Creation",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Interaction in Augmented Reality",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Augmented Reality Techniques",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Marker based and Marker less tracking",
+"module": 2
+},
+{
+"id": "t21",
+"name": "Markerless Tracking & SLAM",
+"module": 2
+},
+{
+"id": "t22",
+"name": "Mobile Augmented Reality",
+"module": 2
+},
+{
+"id": "t23",
+"name": "Advanced Spatial Concepts",
+"module": 2
+},
+{
+"id": "t24",
+"name": "Output Modalities",
+"module": 2
+},
+{
+"id": "t25",
+"name": "Input Modalities",
+"module": 2
+},
+{
+"id": "t26",
+"name": "Tangible Interfaces",
+"module": 2
+},
+{
+"id": "t27",
+"name": "Virtual User Interfaces on Real Surfaces",
+"module": 2
+},
+{
+"id": "t28",
+"name": "Multi-view Interfaces",
+"module": 2
+},
+{
+"id": "t29",
+"name": "Haptic Interaction",
+"module": 2
+},
+{
+"id": "t30",
+"name": "Multimodal Interaction",
+"module": 2
+},
+{
+"id": "t31",
+"name": "Requirement of AR Authoring",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Elements of Authoring",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Stand-alone",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Authoring Solutions",
+"module": 3
+},
+{
+"id": "t35",
+"name": "Plug-in Approaches",
+"module": 3
+},
+{
+"id": "t36",
+"name": "Web Technology and dynamic content",
+"module": 3
+},
+{
+"id": "t37",
+"name": "AR applications and future visions",
+"module": 3
+},
+{
+"id": "t38",
+"name": "Designing an AR application",
+"module": 3
+},
+{
+"id": "t39",
+"name": "Technology adoption and acceptance",
+"module": 3
+},
+{
+"id": "t40",
+"name": "applications augmented reality",
+"module": 3
+},
+{
+"id": "t41",
+"name": "History of VR and MR",
+"module": 4
+},
+{
+"id": "t42",
+"name": "Classical components and design of a VR system",
+"module": 4
+},
+{
+"id": "t43",
+"name": "Important factors in a virtual reality system",
+"module": 4
+},
+{
+"id": "t44",
+"name": "Types of virtual reality systems",
+"module": 4
+},
+{
+"id": "t45",
+"name": "advantages of virtual reality",
+"module": 4
+},
+{
+"id": "t46",
+"name": "VR Input devices",
+"module": 4
+},
+{
+"id": "t47",
+"name": "Graphics display interfaces",
+"module": 4
+},
+{
+"id": "t48",
+"name": "Sound display and interface",
+"module": 4
+},
+{
+"id": "t49",
+"name": "Examples of input devices",
+"module": 4
+},
+{
+"id": "t50",
+"name": "Haptic feedback",
+"module": 4
+},
+{
+"id": "t51",
+"name": "Graphical rendering pipeline",
+"module": 4
+},
+{
+"id": "t52",
+"name": "Haptic rendering pipeline",
+"module": 4
+},
+{
+"id": "t53",
+"name": "OpenGL rendering pipeline",
+"module": 4
+},
+{
+"id": "t54",
+"name": "Applications of virtual reality",
+"module": 4
+},
+{
+"id": "t55",
+"name": "Representation of Virtual World",
+"module": 5
+},
+{
+"id": "t56",
+"name": "Visual Representation in Virtual Reality",
+"module": 5
+},
+{
+"id": "t57",
+"name": "Aural and Haptic Representation in Virtual Reality",
+"module": 5
+},
+{
+"id": "t58",
+"name": "Rendering Systems",
+"module": 5
+},
+{
+"id": "t59",
+"name": "Visual Rendering Systems",
+"module": 5
+},
+{
+"id": "t60",
+"name": "Visual Rendering Methods",
+"module": 5
+},
+{
+"id": "t61",
+"name": "Geometrically Based Rendering Systems",
+"module": 5
+},
+{
+"id": "t62",
+"name": "Non-geometric Rendering Systems",
+"module": 5
+},
+{
+"id": "t63",
+"name": "Rendering Complex Visual Scenes",
+"module": 5
+},
+{
+"id": "t64",
+"name": "Computer Graphics System Requirements",
+"module": 5
+},
+{
+"id": "t65",
+"name": "Aural Rendering Systems",
+"module": 5
+},
+{
+"id": "t66",
+"name": "Rendering Complex Sounds",
+"module": 5
+},
+{
+"id": "t67",
+"name": "Sound-Generation Hardware",
+"module": 5
+},
+{
+"id": "t68",
+"name": "Internal Computer Representation",
+"module": 5
+},
+{
+"id": "t69",
+"name": "Haptic Rendering Systems",
+"module": 5
+},
+{
+"id": "t70",
+"name": "Haptic Rendering Methods",
+"module": 5
+},
+{
+"id": "t71",
+"name": "Rendering Complex Haptic Scenes with Force Displays",
+"module": 5
+},
+{
+"id": "t72",
+"name": "Haptic Rendering Techniques",
+"module": 5
+},
+{
+"id": "t73",
+"name": "Culling Techniques",
+"module": 5
+},
+{
+"id": "t74",
+"name": "Anti-Aliasing in VR",
+"module": 5
+},
+{
+"id": "t75",
+"name": "Multi- sample Anti-Aliasing (MSAA) vs. Post-processing effects",
+"module": 5
+},
+{
+"id": "t76",
+"name": "Introduction to Real-time rendering techniques",
+"module": 5
+},
+{
+"id": "t77",
+"name": "Graphics processing units (GPU) in VR",
+"module": 5
+},
+{
+"id": "t78",
+"name": "User Interface Metaphors",
+"module": 6
+},
+{
+"id": "t79",
+"name": "manipulating a Virtual World",
+"module": 6
+},
+{
+"id": "t80",
+"name": "Properties of Manipulation",
+"module": 6
+},
+{
+"id": "t81",
+"name": "Manipulation Operations",
+"module": 6
+},
+{
+"id": "t82",
+"name": "navigating in a Virtual World-Way finding and Travelling",
+"module": 6
+},
+{
+"id": "t83",
+"name": "Classes of Travel Methods Interacting with Others-Shared Experience",
+"module": 6
+},
+{
+"id": "t84",
+"name": "Collaborative Interaction",
+"module": 6
+},
+{
+"id": "t85",
+"name": "interacting with the VR System",
+"module": 6
+},
+{
+"id": "t86",
+"name": "Immersion",
+"module": 6
+},
+{
+"id": "t87",
+"name": "distinguishing between technical capabilities (Immersion)",
+"module": 6
+},
+{
+"id": "t88",
+"name": "the psychological state of \"being there\" (Presence)",
+"module": 6
+},
+{
+"id": "t89",
+"name": "Latency & Fidelity",
+"module": 6
+},
+{
+"id": "t90",
+"name": "importance of \"Motion- to-Photon\" latency (the <20ms rule) to maintain immersion",
+"module": 6
+},
+{
+"id": "t91",
+"name": "\"Uncanny Valley\" in XR",
+"module": 6
+},
+{
+"id": "t92",
+"name": "Why hyper-realism can sometimes backfire in user experience",
+"module": 6
+},
+{
+"id": "t93",
+"name": "Musculoskeletal Issues",
+"module": 6
+},
+{
+"id": "t94",
+"name": "Emerging VR Technologies",
+"module": 6
+},
+{
+"id": "t95",
+"name": "Metaverse platforms",
+"module": 6
+},
+{
+"id": "t96",
+"name": "Digital twins",
+"module": 6
+},
+{
+"id": "t97",
+"name": "Spatial computing",
+"module": 6
+},
+{
+"id": "t98",
+"name": "VR in Industry",
+"module": 6
+},
+{
+"id": "t99",
+"name": "Ethics",
+"module": 6
+},
+{
+"id": "t100",
+"name": "Privacy & Safety Standards",
+"module": 6
+},
+{
+"id": "t101",
+"name": "Cybersickness (VRSickness)",
+"module": 6
+},
+{
+"id": "t102",
+"name": "Visual Pathologies",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t18",
+"b": "t19",
+"a_name": "Interaction in Augmented Reality",
+"b_name": "Augmented Reality Techniques"
+},
+{
+"i": 1,
+"a": "t34",
+"b": "t33",
+"a_name": "Authoring Solutions",
+"b_name": "Stand-alone"
+},
+{
+"i": 2,
+"a": "t16",
+"b": "t18",
+"a_name": "Software Components",
+"b_name": "Interaction in Augmented Reality"
+},
+{
+"i": 3,
+"a": "t55",
+"b": "t58",
+"a_name": "Representation of Virtual World",
+"b_name": "Rendering Systems"
+},
+{
+"i": 4,
+"a": "t57",
+"b": "t65",
+"a_name": "Aural and Haptic Representation in Virtual Reality",
+"b_name": "Aural Rendering Systems"
+},
+{
+"i": 5,
+"a": "t59",
+"b": "t73",
+"a_name": "Visual Rendering Systems",
+"b_name": "Culling Techniques"
+},
+{
+"i": 6,
+"a": "t1",
+"b": "t7",
+"a_name": "Definition and Scope",
+"b_name": "Displays (Multimodal Displays, Spatial Display Model, and Visual Displays)"
+},
+{
+"i": 7,
+"a": "t46",
+"b": "t85",
+"a_name": "VR Input devices",
+"b_name": "interacting with the VR System"
+},
+{
+"i": 8,
+"a": "t52",
+"b": "t69",
+"a_name": "Haptic rendering pipeline",
+"b_name": "Haptic Rendering Systems"
+},
+{
+"i": 9,
+"a": "t42",
+"b": "t54",
+"a_name": "Classical components and design of a VR system",
+"b_name": "Applications of virtual reality"
+},
+{
+"i": 10,
+"a": "t10",
+"b": "t12",
+"a_name": "Ingredients of an AR Experience Dimensionality",
+"b_name": "Registration and Latency"
+},
+{
+"i": 11,
+"a": "t47",
+"b": "t51",
+"a_name": "Graphics display interfaces",
+"b_name": "Graphical rendering pipeline"
+},
+{
+"i": 12,
+"a": "t25",
+"b": "t27",
+"a_name": "Input Modalities",
+"b_name": "Virtual User Interfaces on Real Surfaces"
+},
+{
+"i": 13,
+"a": "t3",
+"b": "t13",
+"a_name": "Architecture of AR",
+"b_name": "Working of Augmented Reality"
+},
+{
+"i": 14,
+"a": "t86",
+"b": "t87",
+"a_name": "Immersion",
+"b_name": "distinguishing between technical capabilities (Immersion)"
+},
+{
+"i": 15,
+"a": "t82",
+"b": "t83",
+"a_name": "navigating in a Virtual World-Way finding and Travelling",
+"b_name": "Classes of Travel Methods Interacting with Others-Shared Experience"
+},
+{
+"i": 16,
+"a": "t1",
+"b": "t3",
+"a_name": "Definition and Scope",
+"b_name": "Architecture of AR"
+},
+{
+"i": 17,
+"a": "t23",
+"b": "t24",
+"a_name": "Advanced Spatial Concepts",
+"b_name": "Output Modalities"
+},
+{
+"i": 18,
+"a": "t57",
+"b": "t69",
+"a_name": "Aural and Haptic Representation in Virtual Reality",
+"b_name": "Haptic Rendering Systems"
+},
+{
+"i": 19,
+"a": "t56",
+"b": "t59",
+"a_name": "Visual Representation in Virtual Reality",
+"b_name": "Visual Rendering Systems"
+},
+{
+"i": 20,
+"a": "t31",
+"b": "t38",
+"a_name": "Requirement of AR Authoring",
+"b_name": "Designing an AR application"
+},
+{
+"i": 21,
+"a": "t94",
+"b": "t96",
+"a_name": "Emerging VR Technologies",
+"b_name": "Digital twins"
+},
+{
+"i": 22,
+"a": "t25",
+"b": "t26",
+"a_name": "Input Modalities",
+"b_name": "Tangible Interfaces"
+},
+{
+"i": 23,
+"a": "t88",
+"b": "t89",
+"a_name": "the psychological state of \"being there\" (Presence)",
+"b_name": "Latency & Fidelity"
+},
+{
+"i": 24,
+"a": "t42",
+"b": "t44",
+"a_name": "Classical components and design of a VR system",
+"b_name": "Types of virtual reality systems"
+},
+{
+"i": 25,
+"a": "t66",
+"b": "t67",
+"a_name": "Rendering Complex Sounds",
+"b_name": "Sound-Generation Hardware"
+},
+{
+"i": 26,
+"a": "t42",
+"b": "t50",
+"a_name": "Classical components and design of a VR system",
+"b_name": "Haptic feedback"
+},
+{
+"i": 27,
+"a": "t24",
+"b": "t29",
+"a_name": "Output Modalities",
+"b_name": "Haptic Interaction"
+},
+{
+"i": 28,
+"a": "t61",
+"b": "t73",
+"a_name": "Geometrically Based Rendering Systems",
+"b_name": "Culling Techniques"
+},
+{
+"i": 29,
+"a": "t21",
+"b": "t22",
+"a_name": "Markerless Tracking & SLAM",
+"b_name": "Mobile Augmented Reality"
+},
+{
+"i": 30,
+"a": "t65",
+"b": "t66",
+"a_name": "Aural Rendering Systems",
+"b_name": "Rendering Complex Sounds"
+},
+{
+"i": 31,
+"a": "t42",
+"b": "t45",
+"a_name": "Classical components and design of a VR system",
+"b_name": "advantages of virtual reality"
+},
+{
+"i": 32,
+"a": "t10",
+"b": "t11",
+"a_name": "Ingredients of an AR Experience Dimensionality",
+"b_name": "Depth Cues"
+},
+{
+"i": 33,
+"a": "t61",
+"b": "t63",
+"a_name": "Geometrically Based Rendering Systems",
+"b_name": "Rendering Complex Visual Scenes"
+},
+{
+"i": 34,
+"a": "t41",
+"b": "t42",
+"a_name": "History of VR and MR",
+"b_name": "Classical components and design of a VR system"
+},
+{
+"i": 35,
+"a": "t3",
+"b": "t9",
+"a_name": "Architecture of AR",
+"b_name": "Augmented Reality Hardware (Sensors, Processors, Displays)"
+},
+{
+"i": 36,
+"a": "t94",
+"b": "t97",
+"a_name": "Emerging VR Technologies",
+"b_name": "Spatial computing"
+},
+{
+"i": 37,
+"a": "t94",
+"b": "t95",
+"a_name": "Emerging VR Technologies",
+"b_name": "Metaverse platforms"
+},
+{
+"i": 38,
+"a": "t24",
+"b": "t25",
+"a_name": "Output Modalities",
+"b_name": "Input Modalities"
+},
+{
+"i": 39,
+"a": "t51",
+"b": "t59",
+"a_name": "Graphical rendering pipeline",
+"b_name": "Visual Rendering Systems"
+},
+{
+"i": 40,
+"a": "t13",
+"b": "t15",
+"a_name": "Working of Augmented Reality",
+"b_name": "Challenges in AR"
+},
+{
+"i": 41,
+"a": "t34",
+"b": "t35",
+"a_name": "Authoring Solutions",
+"b_name": "Plug-in Approaches"
+},
+{
+"i": 42,
+"a": "t32",
+"b": "t34",
+"a_name": "Elements of Authoring",
+"b_name": "Authoring Solutions"
+},
+{
+"i": 43,
+"a": "t61",
+"b": "t76",
+"a_name": "Geometrically Based Rendering Systems",
+"b_name": "Introduction to Real-time rendering techniques"
+},
+{
+"i": 44,
+"a": "t25",
+"b": "t28",
+"a_name": "Input Modalities",
+"b_name": "Multi-view Interfaces"
+},
+{
+"i": 45,
+"a": "t12",
+"b": "t89",
+"a_name": "Registration and Latency",
+"b_name": "Latency & Fidelity"
+},
+{
+"i": 46,
+"a": "t1",
+"b": "t2",
+"a_name": "Definition and Scope",
+"b_name": "A Brief History of Augmented Reality"
+},
+{
+"i": 47,
+"a": "t13",
+"b": "t14",
+"a_name": "Working of Augmented Reality",
+"b_name": "Applications of AR"
+},
+{
+"i": 48,
+"a": "t19",
+"b": "t20",
+"a_name": "Augmented Reality Techniques",
+"b_name": "Marker based and Marker less tracking"
+},
+{
+"i": 49,
+"a": "t42",
+"b": "t43",
+"a_name": "Classical components and design of a VR system",
+"b_name": "Important factors in a virtual reality system"
+},
+{
+"i": 50,
+"a": "t32",
+"b": "t33",
+"a_name": "Elements of Authoring",
+"b_name": "Stand-alone"
+},
+{
+"i": 51,
+"a": "t32",
+"b": "t35",
+"a_name": "Elements of Authoring",
+"b_name": "Plug-in Approaches"
+},
+{
+"i": 52,
+"a": "t32",
+"b": "t36",
+"a_name": "Elements of Authoring",
+"b_name": "Web Technology and dynamic content"
+},
+{
+"i": 53,
+"a": "t63",
+"b": "t64",
+"a_name": "Rendering Complex Visual Scenes",
+"b_name": "Computer Graphics System Requirements"
+},
+{
+"i": 54,
+"a": "t59",
+"b": "t74",
+"a_name": "Visual Rendering Systems",
+"b_name": "Anti-Aliasing in VR"
+}
+]
+}

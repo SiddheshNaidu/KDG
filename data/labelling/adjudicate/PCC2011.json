@@ -1,0 +1,322 @@
+{
+"course": "PCC2011",
+"title": "Data Structure",
+"topics": [
+{
+"id": "t1",
+"name": "Introduction to Data Structures",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Concept of ADT",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Types of Data Structures- Linear",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Nonlinear",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Static",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Dynamic and operations on Data Structures",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Introduction to Stack",
+"module": 2
+},
+{
+"id": "t8",
+"name": "Stack as ADT",
+"module": 2
+},
+{
+"id": "t9",
+"name": "ADT Operations on Stack",
+"module": 2
+},
+{
+"id": "t10",
+"name": "Array Implementation of Stack",
+"module": 2
+},
+{
+"id": "t11",
+"name": "Multiple Stacks",
+"module": 2
+},
+{
+"id": "t12",
+"name": "Evaluation of Arithmetic Expressions",
+"module": 2
+},
+{
+"id": "t13",
+"name": "Introduction to Queue",
+"module": 3
+},
+{
+"id": "t14",
+"name": "ADT operations on Queue",
+"module": 3
+},
+{
+"id": "t15",
+"name": "Array Implementation of Queue",
+"module": 3
+},
+{
+"id": "t16",
+"name": "Types of Queues",
+"module": 3
+},
+{
+"id": "t17",
+"name": "Circular Queue",
+"module": 3
+},
+{
+"id": "t18",
+"name": "Priority Queue",
+"module": 3
+},
+{
+"id": "t19",
+"name": "Double Ended Queue and Multiple Queues",
+"module": 3
+},
+{
+"id": "t20",
+"name": "Concept of Linked Lists",
+"module": 4
+},
+{
+"id": "t21",
+"name": "Linked List v/s Array",
+"module": 4
+},
+{
+"id": "t22",
+"name": "Types of Linked List- Singly linked lists",
+"module": 4
+},
+{
+"id": "t23",
+"name": "doubly linked lists and circular linked lists",
+"module": 4
+},
+{
+"id": "t24",
+"name": "Insertion",
+"module": 4
+},
+{
+"id": "t25",
+"name": "deletion",
+"module": 4
+},
+{
+"id": "t26",
+"name": "update and copying operations with Singly linked lists",
+"module": 4
+},
+{
+"id": "t27",
+"name": "doubly linked lists",
+"module": 4
+},
+{
+"id": "t28",
+"name": "Implementation of Stack and Queue using linked list",
+"module": 4
+},
+{
+"id": "t29",
+"name": "Reversing a singly linked list",
+"module": 4
+},
+{
+"id": "t30",
+"name": "Introduction to Trees",
+"module": 5
+},
+{
+"id": "t31",
+"name": "Tree Terminologies",
+"module": 5
+},
+{
+"id": "t32",
+"name": "Binary Tree",
+"module": 5
+},
+{
+"id": "t33",
+"name": "Binary Tree Representation",
+"module": 5
+},
+{
+"id": "t34",
+"name": "Types of Binary Tree",
+"module": 5
+},
+{
+"id": "t35",
+"name": "Binary Tree Traversals",
+"module": 5
+},
+{
+"id": "t36",
+"name": "Binary Search Tree",
+"module": 5
+},
+{
+"id": "t37",
+"name": "Insert",
+"module": 5
+},
+{
+"id": "t38",
+"name": "Delete",
+"module": 5
+},
+{
+"id": "t39",
+"name": "Search Operations on Binary Search Tree",
+"module": 5
+},
+{
+"id": "t40",
+"name": "Stacks",
+"module": 6
+},
+{
+"id": "t41",
+"name": "Conversion of Arithmetic Expressions using Infix",
+"module": 6
+},
+{
+"id": "t42",
+"name": "Prefix and Postfix Notations",
+"module": 6
+},
+{
+"id": "t43",
+"name": "Reversing a String/List",
+"module": 6
+},
+{
+"id": "t44",
+"name": "Parentheses Checker",
+"module": 6
+},
+{
+"id": "t45",
+"name": "Trees",
+"module": 6
+},
+{
+"id": "t46",
+"name": "Representing expressions using of Expression tree and Huffman Encoding",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t41",
+"b": "t42",
+"a_name": "Conversion of Arithmetic Expressions using Infix",
+"b_name": "Prefix and Postfix Notations"
+},
+{
+"i": 1,
+"a": "t16",
+"b": "t19",
+"a_name": "Types of Queues",
+"b_name": "Double Ended Queue and Multiple Queues"
+},
+{
+"i": 2,
+"a": "t12",
+"b": "t41",
+"a_name": "Evaluation of Arithmetic Expressions",
+"b_name": "Conversion of Arithmetic Expressions using Infix"
+},
+{
+"i": 3,
+"a": "t13",
+"b": "t19",
+"a_name": "Introduction to Queue",
+"b_name": "Double Ended Queue and Multiple Queues"
+},
+{
+"i": 4,
+"a": "t22",
+"b": "t26",
+"a_name": "Types of Linked List- Singly linked lists",
+"b_name": "update and copying operations with Singly linked lists"
+},
+{
+"i": 5,
+"a": "t42",
+"b": "t12",
+"a_name": "Prefix and Postfix Notations",
+"b_name": "Evaluation of Arithmetic Expressions"
+},
+{
+"i": 6,
+"a": "t13",
+"b": "t16",
+"a_name": "Introduction to Queue",
+"b_name": "Types of Queues"
+},
+{
+"i": 7,
+"a": "t2",
+"b": "t8",
+"a_name": "Concept of ADT",
+"b_name": "Stack as ADT"
+},
+{
+"i": 8,
+"a": "t16",
+"b": "t17",
+"a_name": "Types of Queues",
+"b_name": "Circular Queue"
+},
+{
+"i": 9,
+"a": "t32",
+"b": "t46",
+"a_name": "Binary Tree",
+"b_name": "Representing expressions using of Expression tree and Huffman Encoding"
+},
+{
+"i": 10,
+"a": "t16",
+"b": "t18",
+"a_name": "Types of Queues",
+"b_name": "Priority Queue"
+},
+{
+"i": 11,
+"a": "t13",
+"b": "t18",
+"a_name": "Introduction to Queue",
+"b_name": "Priority Queue"
+}
+]
+}

@@ -1,0 +1,431 @@
+{
+"course": "BSC102",
+"title": "Applied Physics",
+"topics": [
+{
+"id": "t1",
+"name": "Lasers",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Spontaneous and stimulated emission",
+"module": 1
+},
+{
+"id": "t3",
+"name": "population inversion",
+"module": 1
+},
+{
+"id": "t4",
+"name": "pumping",
+"module": 1
+},
+{
+"id": "t5",
+"name": "active medium & active center",
+"module": 1
+},
+{
+"id": "t6",
+"name": "resonant cavity",
+"module": 1
+},
+{
+"id": "t7",
+"name": "coherence length and coherence time",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Characteristics of lasers",
+"module": 1
+},
+{
+"id": "t9",
+"name": "He-Ne laser",
+"module": 1
+},
+{
+"id": "t10",
+"name": "construction and working",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Fiber laser Construction and working Application",
+"module": 1
+},
+{
+"id": "t12",
+"name": "(i)Elementary knowledge of LiDAR(ii) Barcode reader (iii) Application of laser in metal work",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Optical fibers",
+"module": 2
+},
+{
+"id": "t14",
+"name": "Critical angle",
+"module": 2
+},
+{
+"id": "t15",
+"name": "acceptance angle",
+"module": 2
+},
+{
+"id": "t16",
+"name": "acceptance cone",
+"module": 2
+},
+{
+"id": "t17",
+"name": "numerical aperture",
+"module": 2
+},
+{
+"id": "t18",
+"name": "total internal reflection andpropagation of light",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Types of optical fibers",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Single mode & multimode",
+"module": 2
+},
+{
+"id": "t21",
+"name": "step index & graded index",
+"module": 2
+},
+{
+"id": "t22",
+"name": "attenuation",
+"module": 2
+},
+{
+"id": "t23",
+"name": "attenuation coefficient",
+"module": 2
+},
+{
+"id": "t24",
+"name": "factors affecting attenuation",
+"module": 2
+},
+{
+"id": "t25",
+"name": "Fibre Optic Communication System",
+"module": 2
+},
+{
+"id": "t26",
+"name": "Advantages of optical fiber communication",
+"module": 2
+},
+{
+"id": "t27",
+"name": "Interference in thin film of uniform thickness",
+"module": 3
+},
+{
+"id": "t28",
+"name": "conditions of maxima and minima for reflected system",
+"module": 3
+},
+{
+"id": "t29",
+"name": "Conditions for maxima and minima for wedge shaped film (qualitative)",
+"module": 3
+},
+{
+"id": "t30",
+"name": "engineering applications",
+"module": 3
+},
+{
+"id": "t31",
+"name": "Vector Calculus",
+"module": 4
+},
+{
+"id": "t32",
+"name": "Gradient",
+"module": 4
+},
+{
+"id": "t33",
+"name": "Divergence",
+"module": 4
+},
+{
+"id": "t34",
+"name": "Curl",
+"module": 4
+},
+{
+"id": "t35",
+"name": "Gauss’s law",
+"module": 4
+},
+{
+"id": "t36",
+"name": "Amperes’ circuital Law",
+"module": 4
+},
+{
+"id": "t37",
+"name": "Faraday’s law",
+"module": 4
+},
+{
+"id": "t38",
+"name": "Divergence theorem",
+"module": 4
+},
+{
+"id": "t39",
+"name": "Stokes theorem Maxwell’s equations in point form",
+"module": 4
+},
+{
+"id": "t40",
+"name": "Integral form and their significance(Cartesian coordinate only)",
+"module": 4
+},
+{
+"id": "t41",
+"name": "de Broglie hypothesis of matter waves",
+"module": 5
+},
+{
+"id": "t42",
+"name": "de Broglie wavelength for electron",
+"module": 5
+},
+{
+"id": "t43",
+"name": "Properties of matter waves",
+"module": 5
+},
+{
+"id": "t44",
+"name": "Wave function and probability density",
+"module": 5
+},
+{
+"id": "t45",
+"name": "mathematicalconditions for wave function",
+"module": 5
+},
+{
+"id": "t46",
+"name": "problems on de Broglie wavelength",
+"module": 5
+},
+{
+"id": "t47",
+"name": "Need and significance of Schrödinger’sequations",
+"module": 5
+},
+{
+"id": "t48",
+"name": "Schrödinger’s time independent and time dependent equations",
+"module": 5
+},
+{
+"id": "t49",
+"name": "Energy of a particle enclosed in a rigidbox",
+"module": 5
+},
+{
+"id": "t50",
+"name": "related numerical problems",
+"module": 5
+},
+{
+"id": "t51",
+"name": "Quantum mechanical tunneling",
+"module": 5
+},
+{
+"id": "t52",
+"name": "Principles of quantum computing",
+"module": 5
+},
+{
+"id": "t53",
+"name": "concept of Qubit",
+"module": 5
+},
+{
+"id": "t54",
+"name": "Direct and Indirect Band Gap Semiconductors",
+"module": 6
+},
+{
+"id": "t55",
+"name": "Electrical Conductivity of Semiconductors",
+"module": 6
+},
+{
+"id": "t56",
+"name": "Drift Velocity",
+"module": 6
+},
+{
+"id": "t57",
+"name": "Mobility and Conductivity in Conductors Fermi- Dirac distribution function",
+"module": 6
+},
+{
+"id": "t58",
+"name": "Position of Fermi Level in Intrinsic and Extrinsic Semiconductors",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t55",
+"b": "t56",
+"a_name": "Electrical Conductivity of Semiconductors",
+"b_name": "Drift Velocity"
+},
+{
+"i": 1,
+"a": "t25",
+"b": "t26",
+"a_name": "Fibre Optic Communication System",
+"b_name": "Advantages of optical fiber communication"
+},
+{
+"i": 2,
+"a": "t13",
+"b": "t14",
+"a_name": "Optical fibers",
+"b_name": "Critical angle"
+},
+{
+"i": 3,
+"a": "t18",
+"b": "t25",
+"a_name": "total internal reflection andpropagation of light",
+"b_name": "Fibre Optic Communication System"
+},
+{
+"i": 4,
+"a": "t44",
+"b": "t48",
+"a_name": "Wave function and probability density",
+"b_name": "Schrödinger’s time independent and time dependent equations"
+},
+{
+"i": 5,
+"a": "t28",
+"b": "t30",
+"a_name": "conditions of maxima and minima for reflected system",
+"b_name": "engineering applications"
+},
+{
+"i": 6,
+"a": "t29",
+"b": "t30",
+"a_name": "Conditions for maxima and minima for wedge shaped film (qualitative)",
+"b_name": "engineering applications"
+},
+{
+"i": 7,
+"a": "t6",
+"b": "t9",
+"a_name": "resonant cavity",
+"b_name": "He-Ne laser"
+},
+{
+"i": 8,
+"a": "t27",
+"b": "t29",
+"a_name": "Interference in thin film of uniform thickness",
+"b_name": "Conditions for maxima and minima for wedge shaped film (qualitative)"
+},
+{
+"i": 9,
+"a": "t18",
+"b": "t19",
+"a_name": "total internal reflection andpropagation of light",
+"b_name": "Types of optical fibers"
+},
+{
+"i": 10,
+"a": "t17",
+"b": "t25",
+"a_name": "numerical aperture",
+"b_name": "Fibre Optic Communication System"
+},
+{
+"i": 11,
+"a": "t43",
+"b": "t44",
+"a_name": "Properties of matter waves",
+"b_name": "Wave function and probability density"
+},
+{
+"i": 12,
+"a": "t3",
+"b": "t4",
+"a_name": "population inversion",
+"b_name": "pumping"
+},
+{
+"i": 13,
+"a": "t4",
+"b": "t9",
+"a_name": "pumping",
+"b_name": "He-Ne laser"
+},
+{
+"i": 14,
+"a": "t54",
+"b": "t58",
+"a_name": "Direct and Indirect Band Gap Semiconductors",
+"b_name": "Position of Fermi Level in Intrinsic and Extrinsic Semiconductors"
+},
+{
+"i": 15,
+"a": "t41",
+"b": "t47",
+"a_name": "de Broglie hypothesis of matter waves",
+"b_name": "Need and significance of Schrödinger’sequations"
+},
+{
+"i": 16,
+"a": "t13",
+"b": "t19",
+"a_name": "Optical fibers",
+"b_name": "Types of optical fibers"
+},
+{
+"i": 17,
+"a": "t38",
+"b": "t39",
+"a_name": "Divergence theorem",
+"b_name": "Stokes theorem Maxwell’s equations in point form"
+},
+{
+"i": 18,
+"a": "t54",
+"b": "t55",
+"a_name": "Direct and Indirect Band Gap Semiconductors",
+"b_name": "Electrical Conductivity of Semiconductors"
+}
+]
+}

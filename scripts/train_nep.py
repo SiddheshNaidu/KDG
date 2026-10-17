@@ -20,6 +20,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument("--name", default="nep2"); ap.add_argument("--features", default="nep2", choices=["v5", "nep2"]); ap.add_argument("--no-position", action="store_true"); ap.add_argument("--encoder", default=None, help="fine-tuned encoder folder inside app/ml")
 args = ap.parse_args()
 T = json.load(open("data/processed/topics_nep.json", encoding="utf-8"))
+LABEL_DIR = os.environ.get("LABEL_DIR", "data/labelling/claude")
 embed = lambda names: _embed(names, args.encoder)
 NAMES = features_nep.FEATURE_NAMES if args.features == "nep2" else V5_NAMES
 POS = {"signed_norm_position_gap", "signed_unit_gap", "same_unit", "a_earlier_unit", "gap", "abs_gap", "adj_fwd", "adj_bwd", "same_mod_gap",
@@ -28,7 +29,7 @@ use = [i for i, f in enumerate(NAMES) if not (args.no_position and f in POS)]
 
 def load(c):
     v = T[c]; ts = v["topics"]; ids = {t["id"]: i for i, t in enumerate(ts)}
-    lab = json.load(open(f"data/labelling/claude/{c}.json"))["edges"]
+    lab = json.load(open(f"{LABEL_DIR}/{c}.json"))["edges"]
     mods = {m["index"]: m["name"] for m in v["modules"]}
     names = [t["name"] for t in ts]; units = [t["module_idx"] for t in ts]; n = len(ts)
     pairs = [(i, j) for i in range(n) for j in range(n) if i != j]; gold = {(ids[e["a"]], ids[e["b"]]) for e in lab}

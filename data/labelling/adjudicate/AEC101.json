@@ -1,0 +1,1180 @@
+{
+"course": "AEC101",
+"title": "Professional Communication and Ethics",
+"topics": [
+{
+"id": "t1",
+"name": "Basic Concepts of Communication",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Postulates",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Process of Communication",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Stimulus",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Sender",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Encoding",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Message",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Medium",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Channel",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Receiver",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Decoding",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Feedback",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Methods of Communication",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Verbal (Written & Spoken)",
+"module": 1
+},
+{
+"id": "t15",
+"name": "Non-verbal cues perceived through the five senses (Visual, Auditory, Tactile, Olfactory, Gustatory)",
+"module": 1
+},
+{
+"id": "t16",
+"name": "Non-verbal cues transmitted cues through (The body, Voice, Space, Time, Silence)",
+"module": 1
+},
+{
+"id": "t17",
+"name": "Barriers to Communication",
+"module": 1
+},
+{
+"id": "t18",
+"name": "Mechanical",
+"module": 1
+},
+{
+"id": "t19",
+"name": "Physical",
+"module": 1
+},
+{
+"id": "t20",
+"name": "Semantic & Linguistic",
+"module": 1
+},
+{
+"id": "t21",
+"name": "Psychological",
+"module": 1
+},
+{
+"id": "t22",
+"name": "Socio-cultural",
+"module": 1
+},
+{
+"id": "t23",
+"name": "Organisational Communication",
+"module": 1
+},
+{
+"id": "t24",
+"name": "Formal (Upward, Downward, Horizontal)",
+"module": 1
+},
+{
+"id": "t25",
+"name": "Informal (Grapevine)",
+"module": 1
+},
+{
+"id": "t26",
+"name": "Concepts of Active Listening",
+"module": 2
+},
+{
+"id": "t27",
+"name": "Listening for Details",
+"module": 2
+},
+{
+"id": "t28",
+"name": "Listening for Gist",
+"module": 2
+},
+{
+"id": "t29",
+"name": "Listening for Inference",
+"module": 2
+},
+{
+"id": "t30",
+"name": "Enhancing Listening Proficiency Using Language Labs or on Open Source Platforms",
+"module": 2
+},
+{
+"id": "t31",
+"name": "Conversational Activities",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Monologues",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Introducing yourself",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Introducing others",
+"module": 3
+},
+{
+"id": "t35",
+"name": "One-minute impromptu speeches",
+"module": 3
+},
+{
+"id": "t36",
+"name": "Scaffolded story telling",
+"module": 3
+},
+{
+"id": "t37",
+"name": "Dialogues",
+"module": 3
+},
+{
+"id": "t38",
+"name": "Role plays on everyday interactions",
+"module": 3
+},
+{
+"id": "t39",
+"name": "Interviews (Find out if...)",
+"module": 3
+},
+{
+"id": "t40",
+"name": "Information Gap Activities",
+"module": 3
+},
+{
+"id": "t41",
+"name": "Picture descriptions and feedback",
+"module": 3
+},
+{
+"id": "t42",
+"name": "Situational conversations",
+"module": 3
+},
+{
+"id": "t43",
+"name": "Pronunciation",
+"module": 3
+},
+{
+"id": "t44",
+"name": "Stress & Rhythm",
+"module": 3
+},
+{
+"id": "t45",
+"name": "Intonation",
+"module": 3
+},
+{
+"id": "t46",
+"name": "Neutralisation of accent",
+"module": 3
+},
+{
+"id": "t47",
+"name": "Word stress",
+"module": 3
+},
+{
+"id": "t48",
+"name": "Rhythm & Pauses",
+"module": 3
+},
+{
+"id": "t49",
+"name": "Tonal variations/inflections",
+"module": 3
+},
+{
+"id": "t50",
+"name": "Verbal Aptitude",
+"module": 4
+},
+{
+"id": "t51",
+"name": "Root Words",
+"module": 4
+},
+{
+"id": "t52",
+"name": "Meanings",
+"module": 4
+},
+{
+"id": "t53",
+"name": "Word Forms",
+"module": 4
+},
+{
+"id": "t54",
+"name": "Synonyms",
+"module": 4
+},
+{
+"id": "t55",
+"name": "Antonyms",
+"module": 4
+},
+{
+"id": "t56",
+"name": "Collocations",
+"module": 4
+},
+{
+"id": "t57",
+"name": "Prefixes",
+"module": 4
+},
+{
+"id": "t58",
+"name": "Suffixes at a similar difficulty level of entrance tests like CAT/GRE/GMAT & proficiency tests like TOEFL/IELTS",
+"module": 4
+},
+{
+"id": "t59",
+"name": "Grammar",
+"module": 4
+},
+{
+"id": "t60",
+"name": "Identifying Common Errors (Subject-verb agreement, Articles",
+"module": 4
+},
+{
+"id": "t61",
+"name": "Prepositions, Misplaced modifiers and Punctuations) Redundancies",
+"module": 4
+},
+{
+"id": "t62",
+"name": "Idioms",
+"module": 4
+},
+{
+"id": "t63",
+"name": "Cliches at a similar difficulty level of entrance tests like CAT/GRE/GMAT & proficiency tests like TOEFL/IELTS",
+"module": 4
+},
+{
+"id": "t64",
+"name": "Techniques to Improve Reading Fluency and Comprehension",
+"module": 4
+},
+{
+"id": "t65",
+"name": "Intensive Reading",
+"module": 4
+},
+{
+"id": "t66",
+"name": "Extensive Reading",
+"module": 4
+},
+{
+"id": "t67",
+"name": "Skimming",
+"module": 4
+},
+{
+"id": "t68",
+"name": "Scanning",
+"module": 4
+},
+{
+"id": "t69",
+"name": "SQ5R Method (Survey, Question, Reading, Recording, Recall, Review and Revise)",
+"module": 4
+},
+{
+"id": "t70",
+"name": "Reading &Summarisation Skills",
+"module": 4
+},
+{
+"id": "t71",
+"name": "Summarising text to Graphic Organisers (GO) and visa-versa",
+"module": 4
+},
+{
+"id": "t72",
+"name": "Venn diagrams",
+"module": 4
+},
+{
+"id": "t73",
+"name": "Radial Diagrams (Mindmaps)",
+"module": 4
+},
+{
+"id": "t74",
+"name": "Tree Diagrams",
+"module": 4
+},
+{
+"id": "t75",
+"name": "Cyclic Diagrams",
+"module": 4
+},
+{
+"id": "t76",
+"name": "Flow Charts",
+"module": 4
+},
+{
+"id": "t77",
+"name": "Timelines",
+"module": 4
+},
+{
+"id": "t78",
+"name": "Matrix (Tables)",
+"module": 4
+},
+{
+"id": "t79",
+"name": "Pyramids",
+"module": 4
+},
+{
+"id": "t80",
+"name": "Summarising text in point form",
+"module": 4
+},
+{
+"id": "t81",
+"name": "Summarising text in one-sentence central idea",
+"module": 4
+},
+{
+"id": "t82",
+"name": "Coherence & Cohesion in Writing",
+"module": 5
+},
+{
+"id": "t83",
+"name": "Basic Units of Writing (Words, Sentences, Paragraphs)",
+"module": 5
+},
+{
+"id": "t84",
+"name": "Coherence (Structure of written pieces, CSI Order of Organisation)",
+"module": 5
+},
+{
+"id": "t85",
+"name": "Cohesive Devices",
+"module": 5
+},
+{
+"id": "t86",
+"name": "Structure of a Paragraph (Topic Sentence, Supporting Ideas, Concluding Sentence)",
+"module": 5
+},
+{
+"id": "t87",
+"name": "Seven Cs of Business Writing",
+"module": 5
+},
+{
+"id": "t88",
+"name": "Completeness",
+"module": 5
+},
+{
+"id": "t89",
+"name": "Conciseness",
+"module": 5
+},
+{
+"id": "t90",
+"name": "Consideration",
+"module": 5
+},
+{
+"id": "t91",
+"name": "Concreteness",
+"module": 5
+},
+{
+"id": "t92",
+"name": "Clarity",
+"module": 5
+},
+{
+"id": "t93",
+"name": "Courtesy",
+"module": 5
+},
+{
+"id": "t94",
+"name": "Correctness",
+"module": 5
+},
+{
+"id": "t95",
+"name": "Format & Types of Formal Letters",
+"module": 5
+},
+{
+"id": "t96",
+"name": "Parts of a Formal Letter in Complete Block Style",
+"module": 5
+},
+{
+"id": "t97",
+"name": "Request/Permission Letter",
+"module": 5
+},
+{
+"id": "t98",
+"name": "Claim and Adjustment Letter",
+"module": 5
+},
+{
+"id": "t99",
+"name": "Sales Letter",
+"module": 5
+},
+{
+"id": "t100",
+"name": "E-mails",
+"module": 5
+},
+{
+"id": "t101",
+"name": "Writing User Instructions",
+"module": 5
+},
+{
+"id": "t102",
+"name": "Styles of Instruction Presentation (Impersonal, Indirect, Direct, Imperative)",
+"module": 5
+},
+{
+"id": "t103",
+"name": "Describing general function/purpose of an object/process",
+"module": 5
+},
+{
+"id": "t104",
+"name": "Drawing labelled diagrams",
+"module": 5
+},
+{
+"id": "t105",
+"name": "Describing labelled parts",
+"module": 5
+},
+{
+"id": "t106",
+"name": "Writing Special Notices",
+"module": 5
+},
+{
+"id": "t107",
+"name": "Content Creation for Social Media and e- Commerce Platforms",
+"module": 5
+},
+{
+"id": "t108",
+"name": "Blogs",
+"module": 5
+},
+{
+"id": "t109",
+"name": "Poetry",
+"module": 5
+},
+{
+"id": "t110",
+"name": "Keynote speeches",
+"module": 5
+},
+{
+"id": "t111",
+"name": "Podcast titles",
+"module": 5
+},
+{
+"id": "t112",
+"name": "Landing pages",
+"module": 5
+},
+{
+"id": "t113",
+"name": "Social media posts",
+"module": 5
+},
+{
+"id": "t114",
+"name": "YouTube video description",
+"module": 5
+},
+{
+"id": "t115",
+"name": "Screenwriting/Script Writing (Ensure minimum 3 of these categories are covered in the form of competitions)",
+"module": 5
+},
+{
+"id": "t116",
+"name": "Team building",
+"module": 6
+},
+{
+"id": "t117",
+"name": "Five stages of Team",
+"module": 6
+},
+{
+"id": "t118",
+"name": "(Forming, Storming, Norming, Performing and Adjourning)",
+"module": 6
+},
+{
+"id": "t119",
+"name": "Goal setting",
+"module": 6
+},
+{
+"id": "t120",
+"name": "SMART goals",
+"module": 6
+},
+{
+"id": "t121",
+"name": "short term and long-term goals",
+"module": 6
+},
+{
+"id": "t122",
+"name": "Ethical Considerations for Professional Integrity",
+"module": 6
+},
+{
+"id": "t123",
+"name": "Fairness and Honesty",
+"module": 6
+},
+{
+"id": "t124",
+"name": "Difference between Values and Ethics",
+"module": 6
+},
+{
+"id": "t125",
+"name": "Ethical principles",
+"module": 6
+},
+{
+"id": "t126",
+"name": "Ethical use of AI Tools",
+"module": 6
+},
+{
+"id": "t127",
+"name": "Plagiarism and copyright infringement",
+"module": 6
+},
+{
+"id": "t128",
+"name": "Ethical-dilemma case studies",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t3",
+"b": "t7",
+"a_name": "Process of Communication",
+"b_name": "Message"
+},
+{
+"i": 1,
+"a": "t32",
+"b": "t34",
+"a_name": "Monologues",
+"b_name": "Introducing others"
+},
+{
+"i": 2,
+"a": "t44",
+"b": "t48",
+"a_name": "Stress & Rhythm",
+"b_name": "Rhythm & Pauses"
+},
+{
+"i": 3,
+"a": "t95",
+"b": "t98",
+"a_name": "Format & Types of Formal Letters",
+"b_name": "Claim and Adjustment Letter"
+},
+{
+"i": 4,
+"a": "t31",
+"b": "t32",
+"a_name": "Conversational Activities",
+"b_name": "Monologues"
+},
+{
+"i": 5,
+"a": "t107",
+"b": "t111",
+"a_name": "Content Creation for Social Media and e- Commerce Platforms",
+"b_name": "Podcast titles"
+},
+{
+"i": 6,
+"a": "t50",
+"b": "t54",
+"a_name": "Verbal Aptitude",
+"b_name": "Synonyms"
+},
+{
+"i": 7,
+"a": "t87",
+"b": "t92",
+"a_name": "Seven Cs of Business Writing",
+"b_name": "Clarity"
+},
+{
+"i": 8,
+"a": "t17",
+"b": "t19",
+"a_name": "Barriers to Communication",
+"b_name": "Physical"
+},
+{
+"i": 9,
+"a": "t125",
+"b": "t128",
+"a_name": "Ethical principles",
+"b_name": "Ethical-dilemma case studies"
+},
+{
+"i": 10,
+"a": "t87",
+"b": "t91",
+"a_name": "Seven Cs of Business Writing",
+"b_name": "Concreteness"
+},
+{
+"i": 11,
+"a": "t43",
+"b": "t46",
+"a_name": "Pronunciation",
+"b_name": "Neutralisation of accent"
+},
+{
+"i": 12,
+"a": "t50",
+"b": "t51",
+"a_name": "Verbal Aptitude",
+"b_name": "Root Words"
+},
+{
+"i": 13,
+"a": "t125",
+"b": "t127",
+"a_name": "Ethical principles",
+"b_name": "Plagiarism and copyright infringement"
+},
+{
+"i": 14,
+"a": "t17",
+"b": "t18",
+"a_name": "Barriers to Communication",
+"b_name": "Mechanical"
+},
+{
+"i": 15,
+"a": "t32",
+"b": "t35",
+"a_name": "Monologues",
+"b_name": "One-minute impromptu speeches"
+},
+{
+"i": 16,
+"a": "t31",
+"b": "t37",
+"a_name": "Conversational Activities",
+"b_name": "Dialogues"
+},
+{
+"i": 17,
+"a": "t101",
+"b": "t103",
+"a_name": "Writing User Instructions",
+"b_name": "Describing general function/purpose of an object/process"
+},
+{
+"i": 18,
+"a": "t3",
+"b": "t8",
+"a_name": "Process of Communication",
+"b_name": "Medium"
+},
+{
+"i": 19,
+"a": "t64",
+"b": "t69",
+"a_name": "Techniques to Improve Reading Fluency and Comprehension",
+"b_name": "SQ5R Method (Survey, Question, Reading, Recording, Recall, Review and Revise)"
+},
+{
+"i": 20,
+"a": "t51",
+"b": "t58",
+"a_name": "Root Words",
+"b_name": "Suffixes at a similar difficulty level of entrance tests like CAT/GRE/GMAT & proficiency tests like TOEFL/IELTS"
+},
+{
+"i": 21,
+"a": "t87",
+"b": "t90",
+"a_name": "Seven Cs of Business Writing",
+"b_name": "Consideration"
+},
+{
+"i": 22,
+"a": "t45",
+"b": "t49",
+"a_name": "Intonation",
+"b_name": "Tonal variations/inflections"
+},
+{
+"i": 23,
+"a": "t95",
+"b": "t100",
+"a_name": "Format & Types of Formal Letters",
+"b_name": "E-mails"
+},
+{
+"i": 24,
+"a": "t3",
+"b": "t9",
+"a_name": "Process of Communication",
+"b_name": "Channel"
+},
+{
+"i": 25,
+"a": "t17",
+"b": "t22",
+"a_name": "Barriers to Communication",
+"b_name": "Socio-cultural"
+},
+{
+"i": 26,
+"a": "t125",
+"b": "t126",
+"a_name": "Ethical principles",
+"b_name": "Ethical use of AI Tools"
+},
+{
+"i": 27,
+"a": "t122",
+"b": "t124",
+"a_name": "Ethical Considerations for Professional Integrity",
+"b_name": "Difference between Values and Ethics"
+},
+{
+"i": 28,
+"a": "t3",
+"b": "t6",
+"a_name": "Process of Communication",
+"b_name": "Encoding"
+},
+{
+"i": 29,
+"a": "t51",
+"b": "t52",
+"a_name": "Root Words",
+"b_name": "Meanings"
+},
+{
+"i": 30,
+"a": "t71",
+"b": "t79",
+"a_name": "Summarising text to Graphic Organisers (GO) and visa-versa",
+"b_name": "Pyramids"
+},
+{
+"i": 31,
+"a": "t70",
+"b": "t71",
+"a_name": "Reading &Summarisation Skills",
+"b_name": "Summarising text to Graphic Organisers (GO) and visa-versa"
+},
+{
+"i": 32,
+"a": "t107",
+"b": "t114",
+"a_name": "Content Creation for Social Media and e- Commerce Platforms",
+"b_name": "YouTube video description"
+},
+{
+"i": 33,
+"a": "t31",
+"b": "t42",
+"a_name": "Conversational Activities",
+"b_name": "Situational conversations"
+},
+{
+"i": 34,
+"a": "t62",
+"b": "t63",
+"a_name": "Idioms",
+"b_name": "Cliches at a similar difficulty level of entrance tests like CAT/GRE/GMAT & proficiency tests like TOEFL/IELTS"
+},
+{
+"i": 35,
+"a": "t3",
+"b": "t17",
+"a_name": "Process of Communication",
+"b_name": "Barriers to Communication"
+},
+{
+"i": 36,
+"a": "t1",
+"b": "t13",
+"a_name": "Basic Concepts of Communication",
+"b_name": "Methods of Communication"
+},
+{
+"i": 37,
+"a": "t124",
+"b": "t125",
+"a_name": "Difference between Values and Ethics",
+"b_name": "Ethical principles"
+},
+{
+"i": 38,
+"a": "t95",
+"b": "t99",
+"a_name": "Format & Types of Formal Letters",
+"b_name": "Sales Letter"
+},
+{
+"i": 39,
+"a": "t59",
+"b": "t61",
+"a_name": "Grammar",
+"b_name": "Prepositions, Misplaced modifiers and Punctuations) Redundancies"
+},
+{
+"i": 40,
+"a": "t86",
+"b": "t84",
+"a_name": "Structure of a Paragraph (Topic Sentence, Supporting Ideas, Concluding Sentence)",
+"b_name": "Coherence (Structure of written pieces, CSI Order of Organisation)"
+},
+{
+"i": 41,
+"a": "t96",
+"b": "t98",
+"a_name": "Parts of a Formal Letter in Complete Block Style",
+"b_name": "Claim and Adjustment Letter"
+},
+{
+"i": 42,
+"a": "t10",
+"b": "t11",
+"a_name": "Receiver",
+"b_name": "Decoding"
+},
+{
+"i": 43,
+"a": "t59",
+"b": "t60",
+"a_name": "Grammar",
+"b_name": "Identifying Common Errors (Subject-verb agreement, Articles"
+},
+{
+"i": 44,
+"a": "t83",
+"b": "t84",
+"a_name": "Basic Units of Writing (Words, Sentences, Paragraphs)",
+"b_name": "Coherence (Structure of written pieces, CSI Order of Organisation)"
+},
+{
+"i": 45,
+"a": "t17",
+"b": "t20",
+"a_name": "Barriers to Communication",
+"b_name": "Semantic & Linguistic"
+},
+{
+"i": 46,
+"a": "t32",
+"b": "t33",
+"a_name": "Monologues",
+"b_name": "Introducing yourself"
+},
+{
+"i": 47,
+"a": "t96",
+"b": "t99",
+"a_name": "Parts of a Formal Letter in Complete Block Style",
+"b_name": "Sales Letter"
+},
+{
+"i": 48,
+"a": "t50",
+"b": "t56",
+"a_name": "Verbal Aptitude",
+"b_name": "Collocations"
+},
+{
+"i": 49,
+"a": "t103",
+"b": "t104",
+"a_name": "Describing general function/purpose of an object/process",
+"b_name": "Drawing labelled diagrams"
+},
+{
+"i": 50,
+"a": "t51",
+"b": "t57",
+"a_name": "Root Words",
+"b_name": "Prefixes"
+},
+{
+"i": 51,
+"a": "t87",
+"b": "t93",
+"a_name": "Seven Cs of Business Writing",
+"b_name": "Courtesy"
+},
+{
+"i": 52,
+"a": "t40",
+"b": "t41",
+"a_name": "Information Gap Activities",
+"b_name": "Picture descriptions and feedback"
+},
+{
+"i": 53,
+"a": "t13",
+"b": "t15",
+"a_name": "Methods of Communication",
+"b_name": "Non-verbal cues perceived through the five senses (Visual, Auditory, Tactile, Olfactory, Gustatory)"
+},
+{
+"i": 54,
+"a": "t95",
+"b": "t97",
+"a_name": "Format & Types of Formal Letters",
+"b_name": "Request/Permission Letter"
+},
+{
+"i": 55,
+"a": "t13",
+"b": "t14",
+"a_name": "Methods of Communication",
+"b_name": "Verbal (Written & Spoken)"
+},
+{
+"i": 56,
+"a": "t43",
+"b": "t47",
+"a_name": "Pronunciation",
+"b_name": "Word stress"
+},
+{
+"i": 57,
+"a": "t26",
+"b": "t30",
+"a_name": "Concepts of Active Listening",
+"b_name": "Enhancing Listening Proficiency Using Language Labs or on Open Source Platforms"
+},
+{
+"i": 58,
+"a": "t122",
+"b": "t123",
+"a_name": "Ethical Considerations for Professional Integrity",
+"b_name": "Fairness and Honesty"
+},
+{
+"i": 59,
+"a": "t37",
+"b": "t39",
+"a_name": "Dialogues",
+"b_name": "Interviews (Find out if...)"
+},
+{
+"i": 60,
+"a": "t107",
+"b": "t110",
+"a_name": "Content Creation for Social Media and e- Commerce Platforms",
+"b_name": "Keynote speeches"
+},
+{
+"i": 61,
+"a": "t31",
+"b": "t40",
+"a_name": "Conversational Activities",
+"b_name": "Information Gap Activities"
+},
+{
+"i": 62,
+"a": "t37",
+"b": "t38",
+"a_name": "Dialogues",
+"b_name": "Role plays on everyday interactions"
+},
+{
+"i": 63,
+"a": "t13",
+"b": "t16",
+"a_name": "Methods of Communication",
+"b_name": "Non-verbal cues transmitted cues through (The body, Voice, Space, Time, Silence)"
+},
+{
+"i": 64,
+"a": "t50",
+"b": "t55",
+"a_name": "Verbal Aptitude",
+"b_name": "Antonyms"
+},
+{
+"i": 65,
+"a": "t122",
+"b": "t128",
+"a_name": "Ethical Considerations for Professional Integrity",
+"b_name": "Ethical-dilemma case studies"
+},
+{
+"i": 66,
+"a": "t50",
+"b": "t62",
+"a_name": "Verbal Aptitude",
+"b_name": "Idioms"
+},
+{
+"i": 67,
+"a": "t107",
+"b": "t115",
+"a_name": "Content Creation for Social Media and e- Commerce Platforms",
+"b_name": "Screenwriting/Script Writing (Ensure minimum 3 of these categories are covered in the form of competitions)"
+},
+{
+"i": 68,
+"a": "t71",
+"b": "t78",
+"a_name": "Summarising text to Graphic Organisers (GO) and visa-versa",
+"b_name": "Matrix (Tables)"
+},
+{
+"i": 69,
+"a": "t82",
+"b": "t83",
+"a_name": "Coherence & Cohesion in Writing",
+"b_name": "Basic Units of Writing (Words, Sentences, Paragraphs)"
+},
+{
+"i": 70,
+"a": "t107",
+"b": "t109",
+"a_name": "Content Creation for Social Media and e- Commerce Platforms",
+"b_name": "Poetry"
+},
+{
+"i": 71,
+"a": "t3",
+"b": "t11",
+"a_name": "Process of Communication",
+"b_name": "Decoding"
+},
+{
+"i": 72,
+"a": "t117",
+"b": "t118",
+"a_name": "Five stages of Team",
+"b_name": "(Forming, Storming, Norming, Performing and Adjourning)"
+},
+{
+"i": 73,
+"a": "t32",
+"b": "t36",
+"a_name": "Monologues",
+"b_name": "Scaffolded story telling"
+},
+{
+"i": 74,
+"a": "t17",
+"b": "t21",
+"a_name": "Barriers to Communication",
+"b_name": "Psychological"
+},
+{
+"i": 75,
+"a": "t5",
+"b": "t6",
+"a_name": "Sender",
+"b_name": "Encoding"
+}
+]
+}

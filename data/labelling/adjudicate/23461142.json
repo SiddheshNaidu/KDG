@@ -1,0 +1,550 @@
+{
+"course": "23461142",
+"title": "Natural Language Processing",
+"topics": [
+{
+"id": "t1",
+"name": "Introduction to Natural Language Processing (NLP) system",
+"module": 1
+},
+{
+"id": "t2",
+"name": "levels of NLP",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Knowledge in language processing",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Ambiguity in Natural language",
+"module": 1
+},
+{
+"id": "t5",
+"name": "stages in NLP",
+"module": 1
+},
+{
+"id": "t6",
+"name": "challenges of NLP",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Applications of NLP",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Word Tokenization and Segmentation",
+"module": 2
+},
+{
+"id": "t9",
+"name": "Lemmatization",
+"module": 2
+},
+{
+"id": "t10",
+"name": "Bag of words",
+"module": 2
+},
+{
+"id": "t11",
+"name": "N-gram language model",
+"module": 2
+},
+{
+"id": "t12",
+"name": "N-gram for spelling correction",
+"module": 2
+},
+{
+"id": "t13",
+"name": "Edit distance Dynamic Programming Approach",
+"module": 2
+},
+{
+"id": "t14",
+"name": "Weighted Edit Distance",
+"module": 2
+},
+{
+"id": "t15",
+"name": "Finding Dictionary Entries with Small Edit Distances",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Noisy Channel Model",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Non-word errors Real-word errors",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Evaluation of Language Models",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Morphological Processes",
+"module": 3
+},
+{
+"id": "t20",
+"name": "Morphological Analysis- Inflectional morphology & Derivational morphology",
+"module": 3
+},
+{
+"id": "t21",
+"name": "Regular expression",
+"module": 3
+},
+{
+"id": "t22",
+"name": "Finite State Automata",
+"module": 3
+},
+{
+"id": "t23",
+"name": "Finite State Transducer",
+"module": 3
+},
+{
+"id": "t24",
+"name": "Morphological parsing with FST",
+"module": 3
+},
+{
+"id": "t25",
+"name": "Lexicon free FST Porter stemmer",
+"module": 3
+},
+{
+"id": "t26",
+"name": "Two",
+"module": 3
+},
+{
+"id": "t27",
+"name": "level Morphology",
+"module": 3
+},
+{
+"id": "t28",
+"name": "Introduction to POS Tagging",
+"module": 4
+},
+{
+"id": "t29",
+"name": "Probabilistic Tagging",
+"module": 4
+},
+{
+"id": "t30",
+"name": "Markov Models",
+"module": 4
+},
+{
+"id": "t31",
+"name": "Hidden Markov Models (HMM) for POS Tagging",
+"module": 4
+},
+{
+"id": "t32",
+"name": "Conditional Random Fields (CRF)",
+"module": 4
+},
+{
+"id": "t33",
+"name": "Named Entities and Named Entity Tagging",
+"module": 4
+},
+{
+"id": "t34",
+"name": "Context-Free Grammars-Derivation",
+"module": 4
+},
+{
+"id": "t35",
+"name": "Words and Vectors",
+"module": 5
+},
+{
+"id": "t36",
+"name": "Term Frequency-Inverse Document Frequency (TFIDF)",
+"module": 5
+},
+{
+"id": "t37",
+"name": "Word2vec",
+"module": 5
+},
+{
+"id": "t38",
+"name": "Continuous Bag of Words",
+"module": 5
+},
+{
+"id": "t39",
+"name": "ELMO",
+"module": 5
+},
+{
+"id": "t40",
+"name": "GloVe Vector Visualizing Embedding's",
+"module": 5
+},
+{
+"id": "t41",
+"name": "Semantic properties of embedding's",
+"module": 5
+},
+{
+"id": "t42",
+"name": "Bias and Embedding's Evaluating Vector Models",
+"module": 5
+},
+{
+"id": "t43",
+"name": "Cosine for measuring similarity",
+"module": 5
+},
+{
+"id": "t44",
+"name": "Pointwise Mutual Information (PMI)",
+"module": 5
+},
+{
+"id": "t45",
+"name": "PPMI vector models",
+"module": 5
+},
+{
+"id": "t46",
+"name": "Word Senses -Relations Between Senses",
+"module": 5
+},
+{
+"id": "t47",
+"name": "WordNet",
+"module": 5
+},
+{
+"id": "t48",
+"name": "A Database of Lexical Relations",
+"module": 5
+},
+{
+"id": "t49",
+"name": "Word Sense Disambiguation Alternate WSD algorithms and Tasks",
+"module": 5
+},
+{
+"id": "t50",
+"name": "Constituency Parsing",
+"module": 5
+},
+{
+"id": "t51",
+"name": "Dependency Parsing",
+"module": 5
+},
+{
+"id": "t52",
+"name": "Discourse Coherence",
+"module": 5
+},
+{
+"id": "t53",
+"name": "Coherence Relation",
+"module": 5
+},
+{
+"id": "t54",
+"name": "Discourse Structure Parsing",
+"module": 5
+},
+{
+"id": "t55",
+"name": "Centering and Entity- Based Coherence",
+"module": 5
+},
+{
+"id": "t56",
+"name": "Global Coherence",
+"module": 5
+},
+{
+"id": "t57",
+"name": "Text classification definition and datasets",
+"module": 6
+},
+{
+"id": "t58",
+"name": "Generative text classifiers (Naïve Bayes) Discriminative text classifiers (Support Vector Machine)",
+"module": 6
+},
+{
+"id": "t59",
+"name": "Bag-of-words Generative Classifier",
+"module": 6
+},
+{
+"id": "t60",
+"name": "BOW Discriminative Model",
+"module": 6
+},
+{
+"id": "t61",
+"name": "Multi-class Classification",
+"module": 6
+},
+{
+"id": "t62",
+"name": "Softmax",
+"module": 6
+},
+{
+"id": "t63",
+"name": "Gradient Descent",
+"module": 6
+},
+{
+"id": "t64",
+"name": "Statistical significance testing",
+"module": 6
+},
+{
+"id": "t65",
+"name": "Dataset understanding and creation",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t24",
+"b": "t25",
+"a_name": "Morphological parsing with FST",
+"b_name": "Lexicon free FST Porter stemmer"
+},
+{
+"i": 1,
+"a": "t3",
+"b": "t4",
+"a_name": "Knowledge in language processing",
+"b_name": "Ambiguity in Natural language"
+},
+{
+"i": 2,
+"a": "t37",
+"b": "t38",
+"a_name": "Word2vec",
+"b_name": "Continuous Bag of Words"
+},
+{
+"i": 3,
+"a": "t57",
+"b": "t64",
+"a_name": "Text classification definition and datasets",
+"b_name": "Statistical significance testing"
+},
+{
+"i": 4,
+"a": "t29",
+"b": "t30",
+"a_name": "Probabilistic Tagging",
+"b_name": "Markov Models"
+},
+{
+"i": 5,
+"a": "t58",
+"b": "t61",
+"a_name": "Generative text classifiers (Naïve Bayes) Discriminative text classifiers (Support Vector Machine)",
+"b_name": "Multi-class Classification"
+},
+{
+"i": 6,
+"a": "t37",
+"b": "t39",
+"a_name": "Word2vec",
+"b_name": "ELMO"
+},
+{
+"i": 7,
+"a": "t36",
+"b": "t43",
+"a_name": "Term Frequency-Inverse Document Frequency (TFIDF)",
+"b_name": "Cosine for measuring similarity"
+},
+{
+"i": 8,
+"a": "t52",
+"b": "t55",
+"a_name": "Discourse Coherence",
+"b_name": "Centering and Entity- Based Coherence"
+},
+{
+"i": 9,
+"a": "t10",
+"b": "t60",
+"a_name": "Bag of words",
+"b_name": "BOW Discriminative Model"
+},
+{
+"i": 10,
+"a": "t1",
+"b": "t3",
+"a_name": "Introduction to Natural Language Processing (NLP) system",
+"b_name": "Knowledge in language processing"
+},
+{
+"i": 11,
+"a": "t1",
+"b": "t7",
+"a_name": "Introduction to Natural Language Processing (NLP) system",
+"b_name": "Applications of NLP"
+},
+{
+"i": 12,
+"a": "t13",
+"b": "t16",
+"a_name": "Edit distance Dynamic Programming Approach",
+"b_name": "Noisy Channel Model"
+},
+{
+"i": 13,
+"a": "t35",
+"b": "t44",
+"a_name": "Words and Vectors",
+"b_name": "Pointwise Mutual Information (PMI)"
+},
+{
+"i": 14,
+"a": "t12",
+"b": "t17",
+"a_name": "N-gram for spelling correction",
+"b_name": "Non-word errors Real-word errors"
+},
+{
+"i": 15,
+"a": "t41",
+"b": "t42",
+"a_name": "Semantic properties of embedding's",
+"b_name": "Bias and Embedding's Evaluating Vector Models"
+},
+{
+"i": 16,
+"a": "t28",
+"b": "t31",
+"a_name": "Introduction to POS Tagging",
+"b_name": "Hidden Markov Models (HMM) for POS Tagging"
+},
+{
+"i": 17,
+"a": "t1",
+"b": "t5",
+"a_name": "Introduction to Natural Language Processing (NLP) system",
+"b_name": "stages in NLP"
+},
+{
+"i": 18,
+"a": "t62",
+"b": "t63",
+"a_name": "Softmax",
+"b_name": "Gradient Descent"
+},
+{
+"i": 19,
+"a": "t47",
+"b": "t48",
+"a_name": "WordNet",
+"b_name": "A Database of Lexical Relations"
+},
+{
+"i": 20,
+"a": "t28",
+"b": "t33",
+"a_name": "Introduction to POS Tagging",
+"b_name": "Named Entities and Named Entity Tagging"
+},
+{
+"i": 21,
+"a": "t57",
+"b": "t65",
+"a_name": "Text classification definition and datasets",
+"b_name": "Dataset understanding and creation"
+},
+{
+"i": 22,
+"a": "t62",
+"b": "t61",
+"a_name": "Softmax",
+"b_name": "Multi-class Classification"
+},
+{
+"i": 23,
+"a": "t16",
+"b": "t17",
+"a_name": "Noisy Channel Model",
+"b_name": "Non-word errors Real-word errors"
+},
+{
+"i": 24,
+"a": "t20",
+"b": "t24",
+"a_name": "Morphological Analysis- Inflectional morphology & Derivational morphology",
+"b_name": "Morphological parsing with FST"
+},
+{
+"i": 25,
+"a": "t1",
+"b": "t6",
+"a_name": "Introduction to Natural Language Processing (NLP) system",
+"b_name": "challenges of NLP"
+},
+{
+"i": 26,
+"a": "t29",
+"b": "t31",
+"a_name": "Probabilistic Tagging",
+"b_name": "Hidden Markov Models (HMM) for POS Tagging"
+},
+{
+"i": 27,
+"a": "t37",
+"b": "t40",
+"a_name": "Word2vec",
+"b_name": "GloVe Vector Visualizing Embedding's"
+},
+{
+"i": 28,
+"a": "t40",
+"b": "t41",
+"a_name": "GloVe Vector Visualizing Embedding's",
+"b_name": "Semantic properties of embedding's"
+},
+{
+"i": 29,
+"a": "t61",
+"b": "t62",
+"a_name": "Multi-class Classification",
+"b_name": "Softmax"
+},
+{
+"i": 30,
+"a": "t31",
+"b": "t32",
+"a_name": "Hidden Markov Models (HMM) for POS Tagging",
+"b_name": "Conditional Random Fields (CRF)"
+}
+]
+}

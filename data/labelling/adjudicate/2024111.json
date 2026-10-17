@@ -1,0 +1,481 @@
+{
+"course": "2024111",
+"title": "Computational Theory",
+"topics": [
+{
+"id": "t1",
+"name": "Relations",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Functions",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Discrete Structures",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Importance of TCS",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Alphabets",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Strings",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Languages Regular operations",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Regular Expression",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Arden's theorem",
+"module": 1
+},
+{
+"id": "t10",
+"name": "RE Applications",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Regular Language",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Closure properties",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Decision properties of RLs",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Pumping lemma for RLs",
+"module": 1
+},
+{
+"id": "t15",
+"name": "Finite Automata (FA) & Finite State machine (FSM)",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Deterministic Finite Automata (DFA) and Nondeterministic Finite Automata (NFA)",
+"module": 2
+},
+{
+"id": "t17",
+"name": "transition diagrams and Language recognizers",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Equivalence between NFA with and ε- transitions",
+"module": 2
+},
+{
+"id": "t19",
+"name": "NFA to DFA Conversion",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Minimization of DFA",
+"module": 2
+},
+{
+"id": "t21",
+"name": "FSM with output",
+"module": 2
+},
+{
+"id": "t22",
+"name": "Moore and Mealy machines",
+"module": 2
+},
+{
+"id": "t23",
+"name": "Applications and limitations of FA",
+"module": 2
+},
+{
+"id": "t24",
+"name": "Grammars and Chomsky Hierarchy Regular Grammar (RG)",
+"module": 3
+},
+{
+"id": "t25",
+"name": "Equivalence of Left and Right linear grammar",
+"module": 3
+},
+{
+"id": "t26",
+"name": "Equivalence of RG and FA",
+"module": 3
+},
+{
+"id": "t27",
+"name": "Context Free Grammars (CFG) Definition",
+"module": 3
+},
+{
+"id": "t28",
+"name": "Sentential forms",
+"module": 3
+},
+{
+"id": "t29",
+"name": "Leftmost and Rightmost derivations",
+"module": 3
+},
+{
+"id": "t30",
+"name": "Parse tree",
+"module": 3
+},
+{
+"id": "t31",
+"name": "Ambiguity",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Simplification of CFG",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Eliminating unit productions",
+"module": 3
+},
+{
+"id": "t34",
+"name": "useless production",
+"module": 3
+},
+{
+"id": "t35",
+"name": "useless symbols",
+"module": 3
+},
+{
+"id": "t36",
+"name": "Є-productions",
+"module": 3
+},
+{
+"id": "t37",
+"name": "Normal Forms",
+"module": 3
+},
+{
+"id": "t38",
+"name": "Chomsky Normal Form (CNF) and Greibach Normal Form (GNF)",
+"module": 3
+},
+{
+"id": "t39",
+"name": "Context Free language (CFL)",
+"module": 3
+},
+{
+"id": "t40",
+"name": "Parser",
+"module": 3
+},
+{
+"id": "t41",
+"name": "Markup languages",
+"module": 3
+},
+{
+"id": "t42",
+"name": "Pumping lemma",
+"module": 3
+},
+{
+"id": "t43",
+"name": "Language of PDA",
+"module": 4
+},
+{
+"id": "t44",
+"name": "PDA as generator",
+"module": 4
+},
+{
+"id": "t45",
+"name": "decider and acceptor of CFG",
+"module": 4
+},
+{
+"id": "t46",
+"name": "Deterministic PDA",
+"module": 4
+},
+{
+"id": "t47",
+"name": "Non- Deterministic PDA",
+"module": 4
+},
+{
+"id": "t48",
+"name": "Equivalence of PDA and CFG",
+"module": 4
+},
+{
+"id": "t49",
+"name": "Application of PDA",
+"module": 4
+},
+{
+"id": "t50",
+"name": "Design of TM as generator",
+"module": 5
+},
+{
+"id": "t51",
+"name": "decider and acceptor",
+"module": 5
+},
+{
+"id": "t52",
+"name": "Variants of TM",
+"module": 5
+},
+{
+"id": "t53",
+"name": "Multitrack",
+"module": 5
+},
+{
+"id": "t54",
+"name": "Multitape",
+"module": 5
+},
+{
+"id": "t55",
+"name": "Universal TM",
+"module": 5
+},
+{
+"id": "t56",
+"name": "Power and Limitations of TMs",
+"module": 5
+},
+{
+"id": "t57",
+"name": "Decidability and Undecidability",
+"module": 6
+},
+{
+"id": "t58",
+"name": "Recursive and Recursively Enumerable Language",
+"module": 6
+},
+{
+"id": "t59",
+"name": "Halting Problem",
+"module": 6
+},
+{
+"id": "t60",
+"name": "Rice’s Theorem",
+"module": 6
+},
+{
+"id": "t61",
+"name": "Post Correspondence Problem",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t16",
+"b": "t23",
+"a_name": "Deterministic Finite Automata (DFA) and Nondeterministic Finite Automata (NFA)",
+"b_name": "Applications and limitations of FA"
+},
+{
+"i": 1,
+"a": "t47",
+"b": "t48",
+"a_name": "Non- Deterministic PDA",
+"b_name": "Equivalence of PDA and CFG"
+},
+{
+"i": 2,
+"a": "t7",
+"b": "t11",
+"a_name": "Languages Regular operations",
+"b_name": "Regular Language"
+},
+{
+"i": 3,
+"a": "t39",
+"b": "t48",
+"a_name": "Context Free language (CFL)",
+"b_name": "Equivalence of PDA and CFG"
+},
+{
+"i": 4,
+"a": "t14",
+"b": "t42",
+"a_name": "Pumping lemma for RLs",
+"b_name": "Pumping lemma"
+},
+{
+"i": 5,
+"a": "t27",
+"b": "t40",
+"a_name": "Context Free Grammars (CFG) Definition",
+"b_name": "Parser"
+},
+{
+"i": 6,
+"a": "t19",
+"b": "t20",
+"a_name": "NFA to DFA Conversion",
+"b_name": "Minimization of DFA"
+},
+{
+"i": 7,
+"a": "t8",
+"b": "t10",
+"a_name": "Regular Expression",
+"b_name": "RE Applications"
+},
+{
+"i": 8,
+"a": "t8",
+"b": "t11",
+"a_name": "Regular Expression",
+"b_name": "Regular Language"
+},
+{
+"i": 9,
+"a": "t56",
+"b": "t57",
+"a_name": "Power and Limitations of TMs",
+"b_name": "Decidability and Undecidability"
+},
+{
+"i": 10,
+"a": "t7",
+"b": "t15",
+"a_name": "Languages Regular operations",
+"b_name": "Finite Automata (FA) & Finite State machine (FSM)"
+},
+{
+"i": 11,
+"a": "t7",
+"b": "t24",
+"a_name": "Languages Regular operations",
+"b_name": "Grammars and Chomsky Hierarchy Regular Grammar (RG)"
+},
+{
+"i": 12,
+"a": "t50",
+"b": "t59",
+"a_name": "Design of TM as generator",
+"b_name": "Halting Problem"
+},
+{
+"i": 13,
+"a": "t27",
+"b": "t48",
+"a_name": "Context Free Grammars (CFG) Definition",
+"b_name": "Equivalence of PDA and CFG"
+},
+{
+"i": 14,
+"a": "t43",
+"b": "t48",
+"a_name": "Language of PDA",
+"b_name": "Equivalence of PDA and CFG"
+},
+{
+"i": 15,
+"a": "t43",
+"b": "t50",
+"a_name": "Language of PDA",
+"b_name": "Design of TM as generator"
+},
+{
+"i": 16,
+"a": "t59",
+"b": "t60",
+"a_name": "Halting Problem",
+"b_name": "Rice’s Theorem"
+},
+{
+"i": 17,
+"a": "t43",
+"b": "t49",
+"a_name": "Language of PDA",
+"b_name": "Application of PDA"
+},
+{
+"i": 18,
+"a": "t57",
+"b": "t60",
+"a_name": "Decidability and Undecidability",
+"b_name": "Rice’s Theorem"
+},
+{
+"i": 19,
+"a": "t16",
+"b": "t20",
+"a_name": "Deterministic Finite Automata (DFA) and Nondeterministic Finite Automata (NFA)",
+"b_name": "Minimization of DFA"
+},
+{
+"i": 20,
+"a": "t16",
+"b": "t19",
+"a_name": "Deterministic Finite Automata (DFA) and Nondeterministic Finite Automata (NFA)",
+"b_name": "NFA to DFA Conversion"
+},
+{
+"i": 21,
+"a": "t50",
+"b": "t51",
+"a_name": "Design of TM as generator",
+"b_name": "decider and acceptor"
+},
+{
+"i": 22,
+"a": "t51",
+"b": "t57",
+"a_name": "decider and acceptor",
+"b_name": "Decidability and Undecidability"
+},
+{
+"i": 23,
+"a": "t18",
+"b": "t19",
+"a_name": "Equivalence between NFA with and ε- transitions",
+"b_name": "NFA to DFA Conversion"
+}
+]
+}

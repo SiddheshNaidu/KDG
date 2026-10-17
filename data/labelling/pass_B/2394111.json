@@ -1,0 +1,234 @@
+{
+ "edges": [
+  {
+   "a": "t2",
+   "b": "t3",
+   "why": "steps use FEM terminology"
+  },
+  {
+   "a": "t6",
+   "b": "t7",
+   "why": "stress-strain relates stress to strain"
+  },
+  {
+   "a": "t4",
+   "b": "t7",
+   "why": "constitutive law links stress with strain"
+  },
+  {
+   "a": "t7",
+   "b": "t8",
+   "why": "von Mises computed from stress state"
+  },
+  {
+   "a": "t14",
+   "b": "t19",
+   "why": "determinant uses matrix operations"
+  },
+  {
+   "a": "t14",
+   "b": "t20",
+   "why": "eigenproblem needs matrix algebra"
+  },
+  {
+   "a": "t19",
+   "b": "t20",
+   "why": "eigenvalues use determinants"
+  },
+  {
+   "a": "t14",
+   "b": "t21",
+   "why": "elimination is matrix operations"
+  },
+  {
+   "a": "t10",
+   "b": "t12",
+   "why": "stiffness method from potential energy"
+  },
+  {
+   "a": "t23",
+   "b": "t27",
+   "why": "shape functions derive from displacement function"
+  },
+  {
+   "a": "t26",
+   "b": "t27",
+   "why": "shape functions interpolate primary variables"
+  },
+  {
+   "a": "t27",
+   "b": "t28",
+   "why": "spring matrix uses shape functions"
+  },
+  {
+   "a": "t27",
+   "b": "t29",
+   "why": "bar matrix uses shape functions"
+  },
+  {
+   "a": "t27",
+   "b": "t30",
+   "why": "beam matrix uses shape functions"
+  },
+  {
+   "a": "t29",
+   "b": "t31",
+   "why": "truss built from bar element"
+  },
+  {
+   "a": "t24",
+   "b": "t32",
+   "why": "transformation uses local-global systems"
+  },
+  {
+   "a": "t31",
+   "b": "t32",
+   "why": "transformation applies to truss"
+  },
+  {
+   "a": "t28",
+   "b": "t33",
+   "why": "assembly of element matrices"
+  },
+  {
+   "a": "t29",
+   "b": "t33",
+   "why": "assembly of element matrices"
+  },
+  {
+   "a": "t33",
+   "b": "t34",
+   "why": "properties of assembled matrix"
+  },
+  {
+   "a": "t34",
+   "b": "t35",
+   "why": "bandwidth follows from banded structure"
+  },
+  {
+   "a": "t5",
+   "b": "t36",
+   "why": "BC elimination applies constraints"
+  },
+  {
+   "a": "t33",
+   "b": "t36",
+   "why": "boundary conditions applied to global system"
+  },
+  {
+   "a": "t36",
+   "b": "t37",
+   "why": "symmetry conditions are boundary conditions"
+  },
+  {
+   "a": "t36",
+   "b": "t38",
+   "why": "stress computed after solving displacements"
+  },
+  {
+   "a": "t29",
+   "b": "t39",
+   "why": "problems use bar element"
+  },
+  {
+   "a": "t38",
+   "b": "t39",
+   "why": "bar problems include stress calculation"
+  },
+  {
+   "a": "t40",
+   "b": "t41",
+   "why": "formulation starts from governing equation"
+  },
+  {
+   "a": "t41",
+   "b": "t42",
+   "why": "solving needs the 1D formulation"
+  },
+  {
+   "a": "t42",
+   "b": "t43",
+   "why": "problem applies solution procedure"
+  },
+  {
+   "a": "t45",
+   "b": "t47",
+   "why": "mass idealisation follows equation of motion"
+  },
+  {
+   "a": "t47",
+   "b": "t48",
+   "why": "mass matrices are lumped or consistent"
+  },
+  {
+   "a": "t45",
+   "b": "t49",
+   "why": "free vibration from equation of motion"
+  },
+  {
+   "a": "t49",
+   "b": "t50",
+   "why": "evaluating eigenvalues solves the eigenproblem"
+  },
+  {
+   "a": "t20",
+   "b": "t50",
+   "why": "eigenvalue method required"
+  },
+  {
+   "a": "t48",
+   "b": "t51",
+   "why": "problem uses bar mass matrix"
+  },
+  {
+   "a": "t50",
+   "b": "t51",
+   "why": "problem requires eigen solution"
+  },
+  {
+   "a": "t52",
+   "b": "t53",
+   "why": "variational formulation of 2D equations"
+  },
+  {
+   "a": "t53",
+   "b": "t54",
+   "why": "FE formulation from variational form"
+  },
+  {
+   "a": "t54",
+   "b": "t56",
+   "why": "element matrices from FE formulation"
+  },
+  {
+   "a": "t55",
+   "b": "t56",
+   "why": "shape functions defined on triangles"
+  },
+  {
+   "a": "t56",
+   "b": "t57",
+   "why": "field problems use element matrices"
+  },
+  {
+   "a": "t57",
+   "b": "t58",
+   "why": "torsion is a field problem"
+  },
+  {
+   "a": "t56",
+   "b": "t59",
+   "why": "quadrilateral uses shape function concepts"
+  },
+  {
+   "a": "t56",
+   "b": "t60",
+   "why": "CST stress uses triangle matrices"
+  },
+  {
+   "a": "t60",
+   "b": "t61",
+   "why": "problems apply CST analysis"
+  }
+ ]
+}

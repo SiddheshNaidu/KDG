@@ -1,0 +1,264 @@
+{
+"course": "2013111",
+"title": "Mathematics for Computer Engineering",
+"topics": [
+{
+"id": "t1",
+"name": "Characteristic Equation",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Eigenvalues and Eigenvectors",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Cayley-Hamilton Theorem",
+"module": 1
+},
+{
+"id": "t4",
+"name": "verification and reduction of higher degree polynomials",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Similarity of matrices",
+"module": 1
+},
+{
+"id": "t6",
+"name": "diagonalizable and non- diagonalizable matrices",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Types of solutions",
+"module": 2
+},
+{
+"id": "t8",
+"name": "Standard and Canonical of LPP",
+"module": 2
+},
+{
+"id": "t9",
+"name": "Basic and Feasible solutions",
+"module": 2
+},
+{
+"id": "t10",
+"name": "slack variables",
+"module": 2
+},
+{
+"id": "t11",
+"name": "surplus variables",
+"module": 2
+},
+{
+"id": "t12",
+"name": "Simplex method",
+"module": 2
+},
+{
+"id": "t13",
+"name": "NLPP with one",
+"module": 2
+},
+{
+"id": "t14",
+"name": "two equality constraint (two or three variables) using the method of Lagrange’s multipliers",
+"module": 2
+},
+{
+"id": "t15",
+"name": "Introduction to Congruence",
+"module": 3
+},
+{
+"id": "t16",
+"name": "Linear congruence",
+"module": 3
+},
+{
+"id": "t17",
+"name": "reminder theorem",
+"module": 3
+},
+{
+"id": "t18",
+"name": "solving polynomials",
+"module": 3
+},
+{
+"id": "t19",
+"name": "system of linear congruence",
+"module": 3
+},
+{
+"id": "t20",
+"name": "Eluer’s theorem",
+"module": 3
+},
+{
+"id": "t21",
+"name": "Fermat’s little theorem",
+"module": 3
+},
+{
+"id": "t22",
+"name": "Application of congruence-RSA algorithm",
+"module": 3
+},
+{
+"id": "t23",
+"name": "Dirichlet’s conditions",
+"module": 4
+},
+{
+"id": "t24",
+"name": "Fourier series of periodic function with period 2π and 2l",
+"module": 4
+},
+{
+"id": "t25",
+"name": "Fourier series of even and odd functions",
+"module": 4
+},
+{
+"id": "t26",
+"name": "Karl Pearson’s coefficient of correlation (r)",
+"module": 5
+},
+{
+"id": "t27",
+"name": "Spearman’s Rank correlation coefficient (R) (with repeated and non-repeated ranks)",
+"module": 5
+},
+{
+"id": "t28",
+"name": "Lines of regression",
+"module": 5
+},
+{
+"id": "t29",
+"name": "fitting of first-degree curves",
+"module": 5
+},
+{
+"id": "t30",
+"name": "Moment generating function",
+"module": 6
+},
+{
+"id": "t31",
+"name": "Raw moments",
+"module": 6
+},
+{
+"id": "t32",
+"name": "Poisson Distribution",
+"module": 6
+},
+{
+"id": "t33",
+"name": "Normal Distribution",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t11",
+"b": "t8",
+"a_name": "surplus variables",
+"b_name": "Standard and Canonical of LPP"
+},
+{
+"i": 1,
+"a": "t8",
+"b": "t10",
+"a_name": "Standard and Canonical of LPP",
+"b_name": "slack variables"
+},
+{
+"i": 2,
+"a": "t8",
+"b": "t12",
+"a_name": "Standard and Canonical of LPP",
+"b_name": "Simplex method"
+},
+{
+"i": 3,
+"a": "t15",
+"b": "t20",
+"a_name": "Introduction to Congruence",
+"b_name": "Eluer’s theorem"
+},
+{
+"i": 4,
+"a": "t21",
+"b": "t22",
+"a_name": "Fermat’s little theorem",
+"b_name": "Application of congruence-RSA algorithm"
+},
+{
+"i": 5,
+"a": "t13",
+"b": "t14",
+"a_name": "NLPP with one",
+"b_name": "two equality constraint (two or three variables) using the method of Lagrange’s multipliers"
+},
+{
+"i": 6,
+"a": "t8",
+"b": "t11",
+"a_name": "Standard and Canonical of LPP",
+"b_name": "surplus variables"
+},
+{
+"i": 7,
+"a": "t2",
+"b": "t3",
+"a_name": "Eigenvalues and Eigenvectors",
+"b_name": "Cayley-Hamilton Theorem"
+},
+{
+"i": 8,
+"a": "t10",
+"b": "t8",
+"a_name": "slack variables",
+"b_name": "Standard and Canonical of LPP"
+},
+{
+"i": 9,
+"a": "t10",
+"b": "t12",
+"a_name": "slack variables",
+"b_name": "Simplex method"
+},
+{
+"i": 10,
+"a": "t15",
+"b": "t18",
+"a_name": "Introduction to Congruence",
+"b_name": "solving polynomials"
+},
+{
+"i": 11,
+"a": "t11",
+"b": "t12",
+"a_name": "surplus variables",
+"b_name": "Simplex method"
+},
+{
+"i": 12,
+"a": "t15",
+"b": "t17",
+"a_name": "Introduction to Congruence",
+"b_name": "reminder theorem"
+}
+]
+}

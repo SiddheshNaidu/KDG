@@ -12,7 +12,7 @@ T = json.load(open("data/processed/topics_nep.json", encoding="utf-8"))
 test = [c for c, v in T.items() if v["split"] == "test"]
 def course(c):
     v = T[c]; ts = [dict(id=t["id"], name=t["name"], module=t["module_idx"]) for t in v["topics"]]; ids = {t["id"]: i for i, t in enumerate(ts)}
-    gold = {(ids[e["a"]], ids[e["b"]]) for e in json.load(open(f"data/labelling/claude/{c}.json"))["edges"]}
+    gold = {(ids[e["a"]], ids[e["b"]]) for e in json.load(open(os.environ.get("LABEL_DIR", "data/labelling/claude") + f"/{c}.json"))["edges"]}
     return ts, ids, gold, dict(title=v["course_title"], module_names={m["index"]: m["name"] for m in v["modules"]})
 def prf(tp, pr, gd):
     P = tp / max(1, pr); R = tp / max(1, gd); return P, R, 2 * P * R / max(1e-9, P + R)

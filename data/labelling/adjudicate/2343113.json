@@ -1,0 +1,705 @@
+{
+"course": "2343113",
+"title": "Database Management System & Application",
+"topics": [
+{
+"id": "t1",
+"name": "Characteristics of Databases",
+"module": 1
+},
+{
+"id": "t2",
+"name": "File system v/s Database system",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Data abstraction and Data Independence",
+"module": 1
+},
+{
+"id": "t4",
+"name": "DBMS system architecture",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Database Administrator (DBA)",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Role of DBA",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Banking Systems",
+"module": 1
+},
+{
+"id": "t8",
+"name": "E-Commerce",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Telecommunications",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Healthcare Systems",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Social Media Platforms",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Education Systems",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Airline Reservation Systems",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Government Applications",
+"module": 1
+},
+{
+"id": "t15",
+"name": "Conceptual Modeling of a database",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Entity-Relationship (ER) Model",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Entity Type",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Entity Sets",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Attributes and Keys",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Relationship Types",
+"module": 2
+},
+{
+"id": "t21",
+"name": "Relationship Sets",
+"module": 2
+},
+{
+"id": "t22",
+"name": "Weak entity Types",
+"module": 2
+},
+{
+"id": "t23",
+"name": "Generalization",
+"module": 2
+},
+{
+"id": "t24",
+"name": "Specialization and Aggregation",
+"module": 2
+},
+{
+"id": "t25",
+"name": "Extended Entity-Relationship (EER) Model",
+"module": 2
+},
+{
+"id": "t26",
+"name": "Introduction to Relational Model",
+"module": 3
+},
+{
+"id": "t27",
+"name": "Relational Model Constraints and Relational Database Schemas",
+"module": 3
+},
+{
+"id": "t28",
+"name": "Concept of Keys",
+"module": 3
+},
+{
+"id": "t29",
+"name": "Primary Kay",
+"module": 3
+},
+{
+"id": "t30",
+"name": "Secondary key",
+"module": 3
+},
+{
+"id": "t31",
+"name": "Foreign Key",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Mapping the ER and EER Model to the Relational Model",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Introduction to Relational Algebra",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Relational Algebra expressions for Unary Relational Operations",
+"module": 3
+},
+{
+"id": "t35",
+"name": "Set Theory operations",
+"module": 3
+},
+{
+"id": "t36",
+"name": "Binary Relational operation Relational Algebra Queries",
+"module": 3
+},
+{
+"id": "t37",
+"name": "Overview of SQL",
+"module": 4
+},
+{
+"id": "t38",
+"name": "Data Definition Commands",
+"module": 4
+},
+{
+"id": "t39",
+"name": "Set Operations",
+"module": 4
+},
+{
+"id": "t40",
+"name": "Aggregate Function",
+"module": 4
+},
+{
+"id": "t41",
+"name": "null values",
+"module": 4
+},
+{
+"id": "t42",
+"name": "Data Manipulation commands",
+"module": 4
+},
+{
+"id": "t43",
+"name": "Data Control commands",
+"module": 4
+},
+{
+"id": "t44",
+"name": "Recursive Queries",
+"module": 4
+},
+{
+"id": "t45",
+"name": "nested Queries",
+"module": 4
+},
+{
+"id": "t46",
+"name": "Integrity constraints in SQL",
+"module": 4
+},
+{
+"id": "t47",
+"name": "Database Programming with JDBC",
+"module": 4
+},
+{
+"id": "t48",
+"name": "Security and authorization",
+"module": 4
+},
+{
+"id": "t49",
+"name": "Grant & Revoke in SQL Functions and Procedures in SQL and cursors",
+"module": 4
+},
+{
+"id": "t50",
+"name": "Indexing",
+"module": 4
+},
+{
+"id": "t51",
+"name": "Ordered Indices",
+"module": 4
+},
+{
+"id": "t52",
+"name": "Index Definition in SQL",
+"module": 4
+},
+{
+"id": "t53",
+"name": "Design guidelines for relational Schema",
+"module": 5
+},
+{
+"id": "t54",
+"name": "Functional Dependencies",
+"module": 5
+},
+{
+"id": "t55",
+"name": "Database tables and normalization",
+"module": 5
+},
+{
+"id": "t56",
+"name": "need for normalization",
+"module": 5
+},
+{
+"id": "t57",
+"name": "normalization process",
+"module": 5
+},
+{
+"id": "t58",
+"name": "Improving the design",
+"module": 5
+},
+{
+"id": "t59",
+"name": "Definition of Normal Forms- 1NF",
+"module": 5
+},
+{
+"id": "t60",
+"name": "2NF",
+"module": 5
+},
+{
+"id": "t61",
+"name": "3NF & The Boyce-Codd Normal Form (BCNF)",
+"module": 5
+},
+{
+"id": "t62",
+"name": "Transaction",
+"module": 6
+},
+{
+"id": "t63",
+"name": "Transaction concept",
+"module": 6
+},
+{
+"id": "t64",
+"name": "State Diagram",
+"module": 6
+},
+{
+"id": "t65",
+"name": "ACID Properties",
+"module": 6
+},
+{
+"id": "t66",
+"name": "Transaction Control Commands",
+"module": 6
+},
+{
+"id": "t67",
+"name": "Concurrent Executions",
+"module": 6
+},
+{
+"id": "t68",
+"name": "Serializability",
+"module": 6
+},
+{
+"id": "t69",
+"name": "Conflict and View",
+"module": 6
+},
+{
+"id": "t70",
+"name": "Concurrency Control",
+"module": 6
+},
+{
+"id": "t71",
+"name": "Lock-based-protocols",
+"module": 6
+},
+{
+"id": "t72",
+"name": "Deadlock handling Timestamp-based protocols",
+"module": 6
+},
+{
+"id": "t73",
+"name": "Recovery System",
+"module": 6
+},
+{
+"id": "t74",
+"name": "Recovery Concepts",
+"module": 6
+},
+{
+"id": "t75",
+"name": "Log based recovery",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t73",
+"b": "t75",
+"a_name": "Recovery System",
+"b_name": "Log based recovery"
+},
+{
+"i": 1,
+"a": "t17",
+"b": "t18",
+"a_name": "Entity Type",
+"b_name": "Entity Sets"
+},
+{
+"i": 2,
+"a": "t4",
+"b": "t5",
+"a_name": "DBMS system architecture",
+"b_name": "Database Administrator (DBA)"
+},
+{
+"i": 3,
+"a": "t19",
+"b": "t28",
+"a_name": "Attributes and Keys",
+"b_name": "Concept of Keys"
+},
+{
+"i": 4,
+"a": "t37",
+"b": "t39",
+"a_name": "Overview of SQL",
+"b_name": "Set Operations"
+},
+{
+"i": 5,
+"a": "t16",
+"b": "t23",
+"a_name": "Entity-Relationship (ER) Model",
+"b_name": "Generalization"
+},
+{
+"i": 6,
+"a": "t43",
+"b": "t49",
+"a_name": "Data Control commands",
+"b_name": "Grant & Revoke in SQL Functions and Procedures in SQL and cursors"
+},
+{
+"i": 7,
+"a": "t68",
+"b": "t70",
+"a_name": "Serializability",
+"b_name": "Concurrency Control"
+},
+{
+"i": 8,
+"a": "t37",
+"b": "t44",
+"a_name": "Overview of SQL",
+"b_name": "Recursive Queries"
+},
+{
+"i": 9,
+"a": "t71",
+"b": "t72",
+"a_name": "Lock-based-protocols",
+"b_name": "Deadlock handling Timestamp-based protocols"
+},
+{
+"i": 10,
+"a": "t19",
+"b": "t22",
+"a_name": "Attributes and Keys",
+"b_name": "Weak entity Types"
+},
+{
+"i": 11,
+"a": "t16",
+"b": "t20",
+"a_name": "Entity-Relationship (ER) Model",
+"b_name": "Relationship Types"
+},
+{
+"i": 12,
+"a": "t62",
+"b": "t63",
+"a_name": "Transaction",
+"b_name": "Transaction concept"
+},
+{
+"i": 13,
+"a": "t17",
+"b": "t22",
+"a_name": "Entity Type",
+"b_name": "Weak entity Types"
+},
+{
+"i": 14,
+"a": "t33",
+"b": "t36",
+"a_name": "Introduction to Relational Algebra",
+"b_name": "Binary Relational operation Relational Algebra Queries"
+},
+{
+"i": 15,
+"a": "t1",
+"b": "t3",
+"a_name": "Characteristics of Databases",
+"b_name": "Data abstraction and Data Independence"
+},
+{
+"i": 16,
+"a": "t45",
+"b": "t47",
+"a_name": "nested Queries",
+"b_name": "Database Programming with JDBC"
+},
+{
+"i": 17,
+"a": "t74",
+"b": "t75",
+"a_name": "Recovery Concepts",
+"b_name": "Log based recovery"
+},
+{
+"i": 18,
+"a": "t54",
+"b": "t55",
+"a_name": "Functional Dependencies",
+"b_name": "Database tables and normalization"
+},
+{
+"i": 19,
+"a": "t45",
+"b": "t44",
+"a_name": "nested Queries",
+"b_name": "Recursive Queries"
+},
+{
+"i": 20,
+"a": "t5",
+"b": "t6",
+"a_name": "Database Administrator (DBA)",
+"b_name": "Role of DBA"
+},
+{
+"i": 21,
+"a": "t54",
+"b": "t60",
+"a_name": "Functional Dependencies",
+"b_name": "2NF"
+},
+{
+"i": 22,
+"a": "t35",
+"b": "t39",
+"a_name": "Set Theory operations",
+"b_name": "Set Operations"
+},
+{
+"i": 23,
+"a": "t27",
+"b": "t28",
+"a_name": "Relational Model Constraints and Relational Database Schemas",
+"b_name": "Concept of Keys"
+},
+{
+"i": 24,
+"a": "t24",
+"b": "t25",
+"a_name": "Specialization and Aggregation",
+"b_name": "Extended Entity-Relationship (EER) Model"
+},
+{
+"i": 25,
+"a": "t37",
+"b": "t41",
+"a_name": "Overview of SQL",
+"b_name": "null values"
+},
+{
+"i": 26,
+"a": "t55",
+"b": "t57",
+"a_name": "Database tables and normalization",
+"b_name": "normalization process"
+},
+{
+"i": 27,
+"a": "t16",
+"b": "t25",
+"a_name": "Entity-Relationship (ER) Model",
+"b_name": "Extended Entity-Relationship (EER) Model"
+},
+{
+"i": 28,
+"a": "t42",
+"b": "t43",
+"a_name": "Data Manipulation commands",
+"b_name": "Data Control commands"
+},
+{
+"i": 29,
+"a": "t54",
+"b": "t61",
+"a_name": "Functional Dependencies",
+"b_name": "3NF & The Boyce-Codd Normal Form (BCNF)"
+},
+{
+"i": 30,
+"a": "t3",
+"b": "t4",
+"a_name": "Data abstraction and Data Independence",
+"b_name": "DBMS system architecture"
+},
+{
+"i": 31,
+"a": "t55",
+"b": "t56",
+"a_name": "Database tables and normalization",
+"b_name": "need for normalization"
+},
+{
+"i": 32,
+"a": "t34",
+"b": "t36",
+"a_name": "Relational Algebra expressions for Unary Relational Operations",
+"b_name": "Binary Relational operation Relational Algebra Queries"
+},
+{
+"i": 33,
+"a": "t27",
+"b": "t46",
+"a_name": "Relational Model Constraints and Relational Database Schemas",
+"b_name": "Integrity constraints in SQL"
+},
+{
+"i": 34,
+"a": "t51",
+"b": "t52",
+"a_name": "Ordered Indices",
+"b_name": "Index Definition in SQL"
+},
+{
+"i": 35,
+"a": "t31",
+"b": "t46",
+"a_name": "Foreign Key",
+"b_name": "Integrity constraints in SQL"
+},
+{
+"i": 36,
+"a": "t56",
+"b": "t57",
+"a_name": "need for normalization",
+"b_name": "normalization process"
+},
+{
+"i": 37,
+"a": "t28",
+"b": "t54",
+"a_name": "Concept of Keys",
+"b_name": "Functional Dependencies"
+},
+{
+"i": 38,
+"a": "t16",
+"b": "t19",
+"a_name": "Entity-Relationship (ER) Model",
+"b_name": "Attributes and Keys"
+},
+{
+"i": 39,
+"a": "t26",
+"b": "t37",
+"a_name": "Introduction to Relational Model",
+"b_name": "Overview of SQL"
+},
+{
+"i": 40,
+"a": "t26",
+"b": "t28",
+"a_name": "Introduction to Relational Model",
+"b_name": "Concept of Keys"
+},
+{
+"i": 41,
+"a": "t43",
+"b": "t48",
+"a_name": "Data Control commands",
+"b_name": "Security and authorization"
+},
+{
+"i": 42,
+"a": "t17",
+"b": "t23",
+"a_name": "Entity Type",
+"b_name": "Generalization"
+},
+{
+"i": 43,
+"a": "t53",
+"b": "t54",
+"a_name": "Design guidelines for relational Schema",
+"b_name": "Functional Dependencies"
+},
+{
+"i": 44,
+"a": "t17",
+"b": "t20",
+"a_name": "Entity Type",
+"b_name": "Relationship Types"
+},
+{
+"i": 45,
+"a": "t67",
+"b": "t70",
+"a_name": "Concurrent Executions",
+"b_name": "Concurrency Control"
+}
+]
+}

@@ -12,7 +12,7 @@ NEP syllabus PDF
               app/parser/nep_verify.py   every topic must appear in the raw page text
               scripts/parse_corpus.py    -> data/processed/corpus_v2/{accepted.jsonl, review.jsonl+csv, rejected.csv}
   -> topics   scripts/build_topics_nep.py -> data/processed/topics_nep.json
-  -> edges    app/ml/infer.py            Bundle("nep2"): XGBoost + PCA + isotonic calibrator, offline (no network, no API key)
+  -> edges    app/ml/infer.py            Bundle("nep4"): XGBoost + PCA + isotonic calibrator, offline (no network, no API key)
   -> graph    nodes, edges{a,b,p,band,redundant}, Kahn order and levels   (see section 3, same as demo/graph_data.json)
   -> UI       demo/kdg_demo.html         standalone demo of graph + Kahn + mastery gating (not part of the app)
 ```
@@ -23,33 +23,38 @@ Run order (all offline):
 ```
 python scripts/parse_corpus.py          # PDFs in data/raw -> corpus + reasons
 python scripts/build_topics_nep.py      # corpus -> topics_nep.json, train/val/test split by course code
-python scripts/train_nep.py --name nep2 --features nep2
-python scripts/eval_models.py v5 nep2   # frozen evaluation on the unseen test PDFs
+python scripts/merge_labels.py && python scripts/make_adjudication.py   # then independent adjudication -> scripts/finalize_labels.py
+LABEL_DIR=data/labelling/final python scripts/train_nep.py --name nep4 --features nep2
+LABEL_DIR=data/labelling/final python scripts/eval_models.py v5 nep2 nep4   # frozen evaluation on the unseen test PDFs
 python scripts/export_demo_graph.py && python scripts/build_demo.py   # demo/kdg_demo.html
 ```
 
-## 2. Model facts you must not oversell (measured, see `data/gold/eval_test_v5_vs_nep2.txt`)
+## 2. Model facts you must not oversell (measured; `data/gold/eval_test_final_gold.txt`)
 
-Test = 8 courses from two PDFs (Chemical Engineering 6.40, Mechanical Engineering 6.35) that were never used for training, validation or any setting. Gold = **provisional labels written by Claude, not human verified**; the same author labelled the training data, so the numbers are optimistic.
+Test = 8 courses from two PDFs (Chemical Engineering 6.40, Mechanical Engineering 6.35) that were never used for training, validation or any setting. **Gold is not human verified**: every edge was proposed by two independent AI labelling passes (agreement 58% of the first pass, 82% of the second; direction conflicts only 13 of 3,000 edges) and the disputed ones (1,438) were decided by a third independent AI adjudicator, who kept 28%. Final gold = 1,517 agreed + 404 adjudicated edges over 44 courses.
 
-| | directed P | R | F1 | PR-AUC (all ordered pairs) |
-|---|---|---|---|---|
-| old v5 model (scored forward pairs only) | 0.304 | 0.390 | 0.341 | 0.168 |
-| **nep2 (retrained)** | **0.481** | **0.483** | **0.482** | **0.441** (base rate 0.016) |
-| baseline: adjacent topic in same module | 0.496 | 0.429 | 0.460 | n/a |
+Directed edge quality on the unseen test courses against that final gold:
 
-- Confidence is **calibrated** (isotonic fitted on validation courses): reliability on the unseen test courses is close to the diagonal (expected calibration error 0.003). On the unseen test courses, pairs scored 0.7-1.0 were real edges 73% of the time (62 pairs) and 0.5-0.7 about 55% (31 pairs); small counts, treat as indicative.
-- Direction: 99% of correctly linked pairs have the right direction. 99% of labelled edges point forward in the syllabus, so direction is mostly easy; the model is not proven on backward dependencies.
-- The model beats the "adjacent topic" heuristic only slightly in F1. Its value is calibrated confidence and ranking, not a large accuracy jump. The labels are chain-heavy (42% of edges join neighbouring topics, 92% stay inside a module).
-- Cross-course prerequisites (Maths -> DSA) are **not** modelled; edges are within one course.
-- The old v5 served-threshold mismatch (0.29 in meta vs 0.2 in `decision_threshold.json`) is irrelevant for nep2: one threshold lives in `app/ml/model_artifact_nep2_meta.json` (`threshold`, `margin`, `reduce`).
+| | directed P | R | F1 | PR-AUC (all ordered pairs) | calibration error |
+|---|---|---|---|---|---|
+| old v5 model (scored forward pairs only) | 0.246 | 0.375 | 0.297 | 0.140 | 0.20 |
+| nep2 (trained on pass-A labels) | 0.384 | 0.457 | 0.418 | 0.348 | 0.003 |
+| **nep4 (trained on final labels) - recommended** | 0.395 | 0.419 | 0.406 | 0.347 | 0.004 |
+| baseline: adjacent topic in same module | 0.408 | 0.419 | 0.413 | n/a | n/a |
+
+- **Honest reading:** retraining on cleaner labels did **not** raise F1 (0.418 vs 0.406 is noise at 8 courses). Both new models beat old v5 clearly (0.30 -> ~0.41) and have strong ranking (PR-AUC 0.35 against a base rate of 0.013), but they are **no better than the trivial "adjacent topic" baseline in F1**. Scores are lower than in the first report because the final gold is stricter than my first-pass labels.
+- **Confidence:** nep4 is the better-calibrated model against the stricter gold: pairs it scores 0.5-0.7 are real edges 52% of the time (66 pairs); 0.7-1.0 about 73% (11 pairs, too few to rely on). nep2's high scores were over-confident against the same gold (predicted 0.81, observed 0.53).
+- **Direction:** 99% of correctly linked pairs have the right direction, but 99% of labelled edges point forward in the syllabus, so backward dependencies are untested.
+- Edges are within one course only; cross-course prerequisites (Maths -> DSA) are not modelled.
+- Thresholds live in `app/ml/model_artifact_nep4_meta.json` (`threshold`, `margin`, `reduce`); the old v5 0.29-vs-0.2 mismatch no longer matters.
+- The bottleneck is label quality and quantity, not the classifier: 1,921 final edges from 44 courses, all AI-labelled. New Sem 5/6 PDFs plus human-checked edges (use the feedback button data) are the way to a better model.
 
 ## 3. Data contract (what the API should return per course)
 
 ```json
 {
   "course": {"code": "2074113", "title": "Heat Transfer Operations", "source_pdf": "6.40-N-...pdf"},
-  "model": {"name": "nep2", "accepted_threshold": 0.25, "uncertain_threshold": 0.10, "calibrated": true},
+  "model": {"name": "nep4", "accepted_threshold": 0.25, "uncertain_threshold": 0.10, "calibrated": true},
   "nodes": [{"id": "t1", "name": "Fourier's Law", "module": 1}],
   "edges": [{"a": 3, "b": 5, "p": 0.62, "band": "accepted", "redundant": false}],
   "kahn_order": [0, 1, 2],
@@ -66,13 +71,13 @@ Test = 8 courses from two PDFs (Chemical Engineering 6.40, Mechanical Engineerin
 | Need | Existing reference code | What to do |
 |---|---|---|
 | Upload + parse | `reference/app/api/builder_router.py` (`/pipeline/upload-and-parse`), old parser `reference/app/parser/nep_syllabus_parser.py` | Replace the parser call with `app/parser/*` (table-first). Return, per course: tier (accepted / review / rejected) and `why`. Keep returning HTTP 422 `low_confidence` if nothing passes. |
-| Edge inference | `reference/app/services/relationship_inferencer.py` + `classifier_inference_service.py` (v5, forward pairs only, direction by list order) | Use `app.ml.infer.infer_course(topics, bundle=Bundle.get("nep2"), ctx={"title":..., "module_names":{idx:name}})`. It scores both directions, applies threshold/margin, caps (in <= 3, out <= 6), DAG guard. `reduce` is False for decisions; apply transitive reduction only for display. |
+| Edge inference | `reference/app/services/relationship_inferencer.py` + `classifier_inference_service.py` (v5, forward pairs only, direction by list order) | Use `app.ml.infer.infer_course(topics, bundle=Bundle.get("nep4"), ctx={"title":..., "module_names":{idx:name}})`. It scores both directions, applies threshold/margin, caps (in <= 3, out <= 6), DAG guard. `reduce` is False for decisions; apply transitive reduction only for display. |
 | Kahn ordering | `reference/app/services/sequence_engine.py` `SequenceEngine.get_topological_sequence` (in-degree BFS, raises on cycle) and `/sequence/topological` | Keep. Feed it accepted edges only. The response already needs `kahn_level` for column layout (depth = longest path from a start node). |
 | Missing prerequisites | `reference/app/services/analytics_engine.py` `get_missing_prerequisites` = `Ancestors(T) \ Known`, ordered by the topological sequence, with percentage | Keep. Restrict to accepted edges so uncertain edges never create a "missing" item. |
 | Ready now / next to study | `reference/app/services/recommendation_engine.py` | Keep; a topic is ready when all its accepted parents are known. |
 | Saved mastery | `reference/app/api/persistence_router.py` `POST /persistence/user-progress` | Key mastery by stable topic key `<course_code>:<module>:<slug>` + syllabus hash, not by `t1,t2,...` (ids restart per course). Auth design: decision D5 in the local PRD (anonymous-first accounts) is a proposal, not decided. |
 
-Model loading: `Bundle.get("nep2")` loads `app/ml/model_artifact_nep2.joblib`, `pca_artifact_nep2.joblib`, `calibrator_nep2.joblib`. The sentence encoder `all-MiniLM-L6-v2` must already be in the local Hugging Face cache; `infer.py` sets `HF_HUB_OFFLINE=1`, so inference never touches the network.
+Model loading: `Bundle.get("nep4")` loads `app/ml/model_artifact_nep4.joblib`, `pca_artifact_nep4.joblib`, `calibrator_nep4.joblib`. The sentence encoder `all-MiniLM-L6-v2` must already be in the local Hugging Face cache; `infer.py` sets `HF_HUB_OFFLINE=1`, so inference never touches the network.
 
 ## 5. Frontend plug-in points (to be confirmed against the files you verify)
 

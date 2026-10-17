@@ -1,0 +1,209 @@
+{
+"course": "2073113",
+"title": "Process Calculation",
+"topics": [
+{
+"id": "t1",
+"name": "general material balance equation",
+"module": 1
+},
+{
+"id": "t2",
+"name": "degree of freedom analysis for individual units",
+"module": 1
+},
+{
+"id": "t3",
+"name": "solving material balance problems for various unit operations under steady",
+"module": 1
+},
+{
+"id": "t4",
+"name": "unsteady state conditions",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Concept of limiting and excess reactants",
+"module": 2
+},
+{
+"id": "t6",
+"name": "conversion and yield",
+"module": 2
+},
+{
+"id": "t7",
+"name": "selectivity and degree of completion of reaction",
+"module": 2
+},
+{
+"id": "t8",
+"name": "Material Balance calculations for both with and without chemical reactions",
+"module": 3
+},
+{
+"id": "t9",
+"name": "Heat capacity",
+"module": 4
+},
+{
+"id": "t10",
+"name": "sensible heat",
+"module": 4
+},
+{
+"id": "t11",
+"name": "latent heat",
+"module": 4
+},
+{
+"id": "t12",
+"name": "calculation of enthalpy changes",
+"module": 4
+},
+{
+"id": "t13",
+"name": "General energy balance equation",
+"module": 4
+},
+{
+"id": "t14",
+"name": "Energy balances for process involving chemical reaction including adiabatic reactions",
+"module": 4
+},
+{
+"id": "t15",
+"name": "Combustion theory and equations",
+"module": 5
+},
+{
+"id": "t16",
+"name": "Theoretical excess air and equivalence ratio",
+"module": 5
+},
+{
+"id": "t17",
+"name": "Proximate and ultimate analysis of coal",
+"module": 5
+},
+{
+"id": "t18",
+"name": "Numerical related to calorific values of fuel from composition",
+"module": 5
+},
+{
+"id": "t19",
+"name": "air requirement and composition of flue gases",
+"module": 5
+},
+{
+"id": "t20",
+"name": "Introduction of humidification",
+"module": 5
+},
+{
+"id": "t21",
+"name": "theory of wet bulb and dry bulb temperature",
+"module": 5
+},
+{
+"id": "t22",
+"name": "Material and energy balance for binary distillation",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t9",
+"b": "t11",
+"a_name": "Heat capacity",
+"b_name": "latent heat"
+},
+{
+"i": 1,
+"a": "t7",
+"b": "t8",
+"a_name": "selectivity and degree of completion of reaction",
+"b_name": "Material Balance calculations for both with and without chemical reactions"
+},
+{
+"i": 2,
+"a": "t1",
+"b": "t5",
+"a_name": "general material balance equation",
+"b_name": "Concept of limiting and excess reactants"
+},
+{
+"i": 3,
+"a": "t3",
+"b": "t4",
+"a_name": "solving material balance problems for various unit operations under steady",
+"b_name": "unsteady state conditions"
+},
+{
+"i": 4,
+"a": "t1",
+"b": "t4",
+"a_name": "general material balance equation",
+"b_name": "unsteady state conditions"
+},
+{
+"i": 5,
+"a": "t3",
+"b": "t22",
+"a_name": "solving material balance problems for various unit operations under steady",
+"b_name": "Material and energy balance for binary distillation"
+},
+{
+"i": 6,
+"a": "t5",
+"b": "t15",
+"a_name": "Concept of limiting and excess reactants",
+"b_name": "Combustion theory and equations"
+},
+{
+"i": 7,
+"a": "t5",
+"b": "t8",
+"a_name": "Concept of limiting and excess reactants",
+"b_name": "Material Balance calculations for both with and without chemical reactions"
+},
+{
+"i": 8,
+"a": "t3",
+"b": "t8",
+"a_name": "solving material balance problems for various unit operations under steady",
+"b_name": "Material Balance calculations for both with and without chemical reactions"
+},
+{
+"i": 9,
+"a": "t6",
+"b": "t8",
+"a_name": "conversion and yield",
+"b_name": "Material Balance calculations for both with and without chemical reactions"
+},
+{
+"i": 10,
+"a": "t9",
+"b": "t12",
+"a_name": "Heat capacity",
+"b_name": "calculation of enthalpy changes"
+},
+{
+"i": 11,
+"a": "t8",
+"b": "t15",
+"a_name": "Material Balance calculations for both with and without chemical reactions",
+"b_name": "Combustion theory and equations"
+},
+{
+"i": 12,
+"a": "t8",
+"b": "t22",
+"a_name": "Material Balance calculations for both with and without chemical reactions",
+"b_name": "Material and energy balance for binary distillation"
+}
+]
+}

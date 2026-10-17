@@ -1,0 +1,234 @@
+{
+"course": "BSC2033",
+"title": "Introduction to Computational Chemistry",
+"topics": [
+{
+"id": "t1",
+"name": "Definition and scope",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Importance in modern chemical research",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Computational investigations",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Molecular Mechanics",
+"module": 2
+},
+{
+"id": "t5",
+"name": "Ab initio Calculations",
+"module": 2
+},
+{
+"id": "t6",
+"name": "Semi Empirical methods",
+"module": 2
+},
+{
+"id": "t7",
+"name": "Density Functional Theory",
+"module": 2
+},
+{
+"id": "t8",
+"name": "Molecular dynamics",
+"module": 2
+},
+{
+"id": "t9",
+"name": "Fundamental concepts",
+"module": 3
+},
+{
+"id": "t10",
+"name": "particles",
+"module": 3
+},
+{
+"id": "t11",
+"name": "waves",
+"module": 3
+},
+{
+"id": "t12",
+"name": "quantization",
+"module": 3
+},
+{
+"id": "t13",
+"name": "Schrödinger equation and its significance",
+"module": 3
+},
+{
+"id": "t14",
+"name": "Simple systems",
+"module": 3
+},
+{
+"id": "t15",
+"name": "particle in a box",
+"module": 3
+},
+{
+"id": "t16",
+"name": "hydrogen atom",
+"module": 3
+},
+{
+"id": "t17",
+"name": "Force fields",
+"module": 4
+},
+{
+"id": "t18",
+"name": "definition and components",
+"module": 4
+},
+{
+"id": "t19",
+"name": "Potential energy surfaces and molecular modeling",
+"module": 4
+},
+{
+"id": "t20",
+"name": "Applications of molecular mechanics in predicting molecular properties",
+"module": 4
+},
+{
+"id": "t21",
+"name": "Atomic orbitals and electron configuration",
+"module": 5
+},
+{
+"id": "t22",
+"name": "Molecular orbitals",
+"module": 5
+},
+{
+"id": "t23",
+"name": "formation and significance",
+"module": 5
+},
+{
+"id": "t24",
+"name": "Bonding theories",
+"module": 5
+},
+{
+"id": "t25",
+"name": "Valence Bond Theory (VBT) and Molecular Orbital Theory (MOT)",
+"module": 5
+},
+{
+"id": "t26",
+"name": "Introduction to Hartree-Fock method",
+"module": 6
+},
+{
+"id": "t27",
+"name": "Basis sets and their importance",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t13",
+"b": "t26",
+"a_name": "Schrödinger equation and its significance",
+"b_name": "Introduction to Hartree-Fock method"
+},
+{
+"i": 1,
+"a": "t13",
+"b": "t7",
+"a_name": "Schrödinger equation and its significance",
+"b_name": "Density Functional Theory"
+},
+{
+"i": 2,
+"a": "t21",
+"b": "t24",
+"a_name": "Atomic orbitals and electron configuration",
+"b_name": "Bonding theories"
+},
+{
+"i": 3,
+"a": "t10",
+"b": "t12",
+"a_name": "particles",
+"b_name": "quantization"
+},
+{
+"i": 4,
+"a": "t22",
+"b": "t25",
+"a_name": "Molecular orbitals",
+"b_name": "Valence Bond Theory (VBT) and Molecular Orbital Theory (MOT)"
+},
+{
+"i": 5,
+"a": "t11",
+"b": "t13",
+"a_name": "waves",
+"b_name": "Schrödinger equation and its significance"
+},
+{
+"i": 6,
+"a": "t22",
+"b": "t26",
+"a_name": "Molecular orbitals",
+"b_name": "Introduction to Hartree-Fock method"
+},
+{
+"i": 7,
+"a": "t9",
+"b": "t13",
+"a_name": "Fundamental concepts",
+"b_name": "Schrödinger equation and its significance"
+},
+{
+"i": 8,
+"a": "t22",
+"b": "t24",
+"a_name": "Molecular orbitals",
+"b_name": "Bonding theories"
+},
+{
+"i": 9,
+"a": "t10",
+"b": "t13",
+"a_name": "particles",
+"b_name": "Schrödinger equation and its significance"
+},
+{
+"i": 10,
+"a": "t14",
+"b": "t15",
+"a_name": "Simple systems",
+"b_name": "particle in a box"
+},
+{
+"i": 11,
+"a": "t14",
+"b": "t16",
+"a_name": "Simple systems",
+"b_name": "hydrogen atom"
+},
+{
+"i": 12,
+"a": "t11",
+"b": "t12",
+"a_name": "waves",
+"b_name": "quantization"
+}
+]
+}

@@ -1,0 +1,139 @@
+{
+"edges": [
+{
+"a": "t1",
+"b": "t2",
+"why": "flow form extends non-flow first law"
+},
+{
+"a": "t1",
+"b": "t3",
+"why": "heat and work calc uses first law"
+},
+{
+"a": "t2",
+"b": "t4",
+"why": "transient flow extends steady flow law"
+},
+{
+"a": "t4",
+"b": "t5",
+"why": "tank charging is transient flow application"
+},
+{
+"a": "t1",
+"b": "t6",
+"why": "second law complements first law"
+},
+{
+"a": "t6",
+"b": "t7",
+"why": "heat engine statement of second law"
+},
+{
+"a": "t6",
+"b": "t8",
+"why": "heat pump follows second law"
+},
+{
+"a": "t7",
+"b": "t9",
+"why": "Carnot cycle is ideal heat engine"
+},
+{
+"a": "t8",
+"b": "t9",
+"why": "Carnot applies to refrigerators"
+},
+{
+"a": "t9",
+"b": "t10",
+"why": "Clausius inequality derived from Carnot"
+},
+{
+"a": "t10",
+"b": "t11",
+"why": "entropy defined via Clausius inequality"
+},
+{
+"a": "t11",
+"b": "t12",
+"why": "entropy change estimation needs entropy concept"
+},
+{
+"a": "t11",
+"b": "t13",
+"why": "exergy builds on entropy"
+},
+{
+"a": "t14",
+"b": "t15",
+"why": "virial is a non-ideal EOS form"
+},
+{
+"a": "t14",
+"b": "t16",
+"why": "vdW is non-ideal gas EOS"
+},
+{
+"a": "t16",
+"b": "t17",
+"why": "Redlich-Kwong refines vdW form"
+},
+{
+"a": "t17",
+"b": "t18",
+"why": "RKS and PR modify Redlich-Kwong"
+},
+{
+"a": "t11",
+"b": "t19",
+"why": "Maxwell relations involve entropy"
+},
+{
+"a": "t19",
+"b": "t20",
+"why": "departure functions derived with Maxwell relations"
+},
+{
+"a": "t16",
+"b": "t20",
+"why": "departure functions evaluated using vdW EOS"
+},
+{
+"a": "t19",
+"b": "t21",
+"why": "fugacity derivation uses thermodynamic relations"
+},
+{
+"a": "t16",
+"b": "t21",
+"why": "fugacity coefficient computed from EOS"
+},
+{
+"a": "t11",
+"b": "t22",
+"why": "charts plot entropy and enthalpy"
+},
+{
+"a": "t22",
+"b": "t23",
+"why": "diagrams applications follow charts"
+},
+{
+"a": "t2",
+"b": "t24",
+"why": "flow applications use steady flow first law"
+},
+{
+"a": "t2",
+"b": "t25",
+"why": "throttling uses steady flow energy balance"
+},
+{
+"a": "t12",
+"b": "t25",
+"why": "compressor work uses entropy change"
+}
+]
+}

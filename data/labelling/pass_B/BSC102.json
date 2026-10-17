@@ -1,0 +1,179 @@
+{
+"edges": [
+{
+"a": "t2",
+"b": "t3",
+"why": "inversion from stimulated emission"
+},
+{
+"a": "t3",
+"b": "t9",
+"why": "He-Ne uses inversion"
+},
+{
+"a": "t9",
+"b": "t10",
+"why": "construction of He-Ne"
+},
+{
+"a": "t13",
+"b": "t14",
+"why": "critical angle in fibers"
+},
+{
+"a": "t14",
+"b": "t18",
+"why": "TIR from critical angle"
+},
+{
+"a": "t18",
+"b": "t15",
+"why": "acceptance angle from TIR"
+},
+{
+"a": "t15",
+"b": "t16",
+"why": "cone from acceptance angle"
+},
+{
+"a": "t15",
+"b": "t17",
+"why": "NA from acceptance angle"
+},
+{
+"a": "t13",
+"b": "t19",
+"why": "fiber types"
+},
+{
+"a": "t19",
+"b": "t20",
+"why": "single/multimode"
+},
+{
+"a": "t19",
+"b": "t21",
+"why": "step/graded index"
+},
+{
+"a": "t22",
+"b": "t23",
+"why": "attenuation coefficient"
+},
+{
+"a": "t22",
+"b": "t24",
+"why": "factors of attenuation"
+},
+{
+"a": "t27",
+"b": "t28",
+"why": "maxima/minima conditions"
+},
+{
+"a": "t28",
+"b": "t29",
+"why": "wedge extends uniform film"
+},
+{
+"a": "t31",
+"b": "t32",
+"why": "gradient is vector calculus"
+},
+{
+"a": "t31",
+"b": "t33",
+"why": "divergence"
+},
+{
+"a": "t31",
+"b": "t34",
+"why": "curl"
+},
+{
+"a": "t33",
+"b": "t38",
+"why": "divergence theorem"
+},
+{
+"a": "t34",
+"b": "t39",
+"why": "Stokes theorem uses curl"
+},
+{
+"a": "t35",
+"b": "t39",
+"why": "Maxwell equations include Gauss"
+},
+{
+"a": "t36",
+"b": "t39",
+"why": "Maxwell includes Ampere"
+},
+{
+"a": "t37",
+"b": "t39",
+"why": "Maxwell includes Faraday"
+},
+{
+"a": "t39",
+"b": "t40",
+"why": "integral form of equations"
+},
+{
+"a": "t41",
+"b": "t42",
+"why": "de Broglie wavelength"
+},
+{
+"a": "t41",
+"b": "t43",
+"why": "matter wave properties"
+},
+{
+"a": "t44",
+"b": "t45",
+"why": "conditions on wave function"
+},
+{
+"a": "t41",
+"b": "t47",
+"why": "Schrodinger motivated by matter waves"
+},
+{
+"a": "t47",
+"b": "t48",
+"why": "equations introduced"
+},
+{
+"a": "t48",
+"b": "t49",
+"why": "particle in box solves equation"
+},
+{
+"a": "t48",
+"b": "t51",
+"why": "tunneling from Schrodinger"
+},
+{
+"a": "t52",
+"b": "t53",
+"why": "qubit in quantum computing"
+},
+{
+"a": "t42",
+"b": "t46",
+"why": "problems apply wavelength"
+},
+{
+"a": "t56",
+"b": "t57",
+"why": "mobility from drift velocity"
+},
+{
+"a": "t57",
+"b": "t58",
+"why": "Fermi level from distribution"
+}
+]
+}

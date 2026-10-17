@@ -1,0 +1,88 @@
+{
+  "model_type": "XGBClassifier",
+  "features": [
+    "embedding_similarity",
+    "order_delta",
+    "domain_match",
+    "keyword_overlap"
+  ],
+  "n_train": 797,
+  "n_val": 128,
+  "n_test": 140,
+  "cv_5fold_mean_f1": 0.9344,
+  "cv_5fold_std_f1": 0.0292,
+  "baseline_logistic_regression": {
+    "accuracy": 0.9375,
+    "precision": 1.0,
+    "recall": 0.4667,
+    "f1": 0.6364,
+    "roc_auc": 0.99,
+    "confusion_matrix": [
+      [
+        113,
+        0
+      ],
+      [
+        8,
+        7
+      ]
+    ]
+  },
+  "validation_metrics": {
+    "accuracy": 0.9531,
+    "precision": 1.0,
+    "recall": 0.6,
+    "f1": 0.75,
+    "roc_auc": 0.9587,
+    "confusion_matrix": [
+      [
+        113,
+        0
+      ],
+      [
+        6,
+        9
+      ]
+    ]
+  },
+  "test_metrics": {
+    "accuracy": 0.9857,
+    "precision": 0.9737,
+    "recall": 0.9737,
+    "f1": 0.9737,
+    "roc_auc": 0.9995,
+    "confusion_matrix": [
+      [
+        101,
+        1
+      ],
+      [
+        1,
+        37
+      ]
+    ]
+  },
+  "cross_domain_metrics": {
+    "n_samples": 250,
+    "subjects": [
+      "MECH101",
+      "ELEC101",
+      "CIVIL101"
+    ],
+    "accuracy": 0.664,
+    "precision": 1.0,
+    "recall": 0.16,
+    "f1": 0.2759,
+    "roc_auc": 0.8187,
+    "confusion_matrix": [
+      [
+        150,
+        0
+      ],
+      [
+        84,
+        16
+      ]
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+6.41N-A-I-AI-DS-Sem-III-IV.pdf     pages=72 detail=12 module=11 total_=0 self_l=0 self_s=2 prereq=9 code_7=72 code_w=4 draft_=0 roman_=81 dotted=7 course=7
+6.20N-B.E.-AI-DS.-Sem-III-IV.pdf   pages=82 detail=12 module=10 total_=0 self_l=0 self_s=2 prereq=9 code_7=72 code_w=3 draft_=0 roman_=82 dotted=7 course=7
+6.21-N-B.E.-AI-ML-sem-III-IV.pdf   pages=72 detail=12 module=11 total_=0 self_l=0 self_s=2 prereq=9 code_7=72 code_w=4 draft_=0 roman_=81 dotted=7 course=7
+6.9N-AIML.pdf                      pages=138 detail=22 module=22 total_=0 self_l=0 self_s=0 prereq=11 code_7=0 code_w=147 draft_=5 roman_=145 dotted=69 course=18
+6.40-N-Chemical-Engineering-Sem-II pages=83 detail=17 module=11 total_=0 self_l=2 self_s=0 prereq=6 code_7=68 code_w=8 draft_=0 roman_=47 dotted=45 course=9
+6.23-N-B.E.-Civil-Engineeing-Sem-I pages=82 detail=12 module=0 total_=0 self_l=0 self_s=0 prereq=0 code_7=76 code_w=0 draft_=0 roman_=2 dotted=115 course=7
+6.24-N-B.E.-Computer-Engineering-S pages=72 detail=12 module=11 total_=0 self_l=0 self_s=2 prereq=9 code_7=72 code_w=4 draft_=0 roman_=81 dotted=7 course=7
+6.54-N-B.E-Computer-Science-Engine pages=72 detail=12 module=11 total_=0 self_l=0 self_s=2 prereq=9 code_7=72 code_w=3 draft_=0 roman_=80 dotted=7 course=7
+6.14N-CSE-AIML.pdf                 pages=137 detail=22 module=22 total_=0 self_l=0 self_s=0 prereq=11 code_7=0 code_w=147 draft_=5 roman_=145 dotted=69 course=18
+6.39-N-B.E.-Data-Science-Sem-III-I pages=72 detail=12 module=11 total_=0 self_l=0 self_s=2 prereq=9 code_7=72 code_w=3 draft_=0 roman_=80 dotted=7 course=7
+6.28N-DS.pdf                       pages=136 detail=22 module=22 total_=0 self_l=0 self_s=0 prereq=11 code_7=0 code_w=147 draft_=5 roman_=145 dotted=69 course=18
+6.51N-B.E.-Electrical-Computer-Eng pages=60 detail=12 module=6 total_=0 self_l=0 self_s=0 prereq=4 code_7=60 code_w=8 draft_=0 roman_=42 dotted=7 course=7
+6.29-N-B.E.-Electrical-Engineering pages=60 detail=12 module=6 total_=0 self_l=0 self_s=0 prereq=4 code_7=60 code_w=8 draft_=0 roman_=42 dotted=7 course=7
+6.19-N-EXTC.pdf                    pages=138 detail=22 module=22 total_=0 self_l=0 self_s=0 prereq=10 code_7=0 code_w=148 draft_=5 roman_=135 dotted=69 course=18
+6.22-NIT.pdf                       pages=137 detail=22 module=22 total_=0 self_l=0 self_s=0 prereq=11 code_7=0 code_w=147 draft_=5 roman_=145 dotted=69 course=18
+6.34-N-B.E.-Information-Technology pages=70 detail=13 module=12 total_=0 self_l=7 self_s=0 prereq=9 code_7=60 code_w=8 draft_=0 roman_=76 dotted=25 course=14
+6.44-N-B.E.-Mecanical-Automation-E pages=76 detail=13 module=12 total_=1 self_l=0 self_s=0 prereq=10 code_7=92 code_w=0 draft_=3 roman_=76 dotted=50 course=7
+6.23-NB.E.-Mechanical-Engineering- pages=136 detail=21 module=21 total_=0 self_l=0 self_s=0 prereq=10 code_7=0 code_w=148 draft_=5 roman_=138 dotted=69 course=17
+6.35-N-B.E.-Mechanical-Engineering pages=83 detail=6 module=14 total_=1 self_l=0 self_s=0 prereq=10 code_7=87 code_w=0 draft_=3 roman_=70 dotted=43 course=8
+02 Syllabus.pdf                    pages=5 detail=1 module=1 total_=0 self_l=0 self_s=0 prereq=1 code_7=0 code_w=5 draft_=0 roman_=12 dotted=0 course=1
+Applied Chemistry syllabus 2024-25 pages=6 detail=1 module=1 total_=0 self_l=0 self_s=0 prereq=0 code_7=0 code_w=5 draft_=0 roman_=7 dotted=0 course=2
+NEW EM SYLLABUS 2024-25.pdf        pages=5 detail=1 module=1 total_=0 self_l=0 self_s=0 prereq=1 code_7=0 code_w=5 draft_=0 roman_=10 dotted=6 course=1
+Professional_Comm._Ethics_Theory_S pages=6 detail=0 module=1 total_=0 self_l=0 self_s=0 prereq=0 code_7=0 code_w=0 draft_=0 roman_=0 dotted=0 course=1
+Syllabus-C Prog.pdf                pages=5 detail=1 module=1 total_=0 self_l=0 self_s=0 prereq=0 code_7=0 code_w=1 draft_=0 roman_=1 dotted=13 course=0
+SEM-V.pdf                          pages=128 detail=21 module=21 total_=0 self_l=7 self_s=1 prereq=17 code_7=128 code_w=2 draft_=1 roman_=171 dotted=53 course=15

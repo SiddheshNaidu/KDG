@@ -1,0 +1,50 @@
+pdf,code,title,reasons,trace_rate,n_modules,total_hours
+NEW EM SYLLABUS 2024-25.pdf,ESC101,Engineering Mechanics,module_without_topics,1.0,6,25
+6.9N-AIML_sem1 & sem2.pdf,BSC101,Applied Mathematics-I,module_without_hours,0.961,6,0
+6.9N-AIML_sem1 & sem2.pdf,BSC2021,Physics for Emerging Fields,topic_hard_violation_rate_over_3pct,1.0,6,26
+6.9N-AIML_sem1 & sem2.pdf,BSC2032,Environmental Chemistry and non-conventional energy sources,module_count_2,0.964,2,8
+6.9N-AIML_sem1 & sem2.pdf,BSC2033,Introduction to Computational Chemistry,module_without_topics; overlong_topics_dropped_over_10pct,1.0,6,24
+6.9N-AIML_sem1 & sem2.pdf,ESC201,Engineering Graphics,topic_hard_violation_rate_over_3pct,0.977,6,39
+6.9N-AIML_sem1 & sem2.pdf,IKS201,Indian Knowledge System,"module_numbers_not_sequential:[1, 2, 5, 5, 1]; module_without_hours",1.0,5,26
+6.14N-CSE-AIML.pdf,BSC101,Applied Mathematics-I,module_without_hours,0.961,6,0
+6.14N-CSE-AIML.pdf,BSC2021,Physics for Emerging Fields,topic_hard_violation_rate_over_3pct,1.0,6,26
+6.14N-CSE-AIML.pdf,BSC2032,Environmental Chemistry and non-conventional energy sources,module_count_2,0.964,2,8
+6.14N-CSE-AIML.pdf,BSC2033,Introduction to Computational Chemistry,module_without_topics; overlong_topics_dropped_over_10pct,1.0,6,24
+6.14N-CSE-AIML.pdf,ESC201,Engineering Graphics,topic_hard_violation_rate_over_3pct,0.977,6,39
+6.14N-CSE-AIML.pdf,IKS201,Indian Knowledge System,"module_numbers_not_sequential:[1, 2, 5, 5, 1]; module_without_hours",1.0,5,26
+6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf,2493111,Mathematics for Computer Engineering,"module_numbers_not_sequential:[1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5]; module_count_11",1.0,11,56
+6.28N-DS_sem1 & sem2.pdf,BSC101,Applied Mathematics-I,module_count_3; module_without_hours,0.957,3,0
+6.28N-DS_sem1 & sem2.pdf,BSC2021,Physics for Emerging Fields,topic_hard_violation_rate_over_3pct,1.0,6,26
+6.28N-DS_sem1 & sem2.pdf,BSC2032,Environmental Chemistry and non-conventional energy sources,module_count_2,0.964,2,8
+6.28N-DS_sem1 & sem2.pdf,BSC2033,Introduction to Computational Chemistry,module_without_topics; overlong_topics_dropped_over_10pct,1.0,6,24
+6.28N-DS_sem1 & sem2.pdf,ESC201,Engineering Graphics,topic_hard_violation_rate_over_3pct,0.977,6,39
+6.28N-DS_sem1 & sem2.pdf,IKS201,Indian Knowledge System,"module_numbers_not_sequential:[1, 2, 5, 5, 1]; module_without_hours",1.0,5,26
+6.19-N-EXTC_Sem1 & Sem2.pdf,BSC101,Applied Mathematics-I,module_without_hours,0.961,6,0
+6.19-N-EXTC_Sem1 & Sem2.pdf,BSC2021,Physics for Emerging Fields,topic_hard_violation_rate_over_3pct,1.0,6,26
+6.19-N-EXTC_Sem1 & Sem2.pdf,BSC2032,Environmental Chemistry and non-conventional energy sources,module_count_2,0.964,2,8
+6.19-N-EXTC_Sem1 & Sem2.pdf,BSC2033,Introduction to Computational Chemistry,module_without_topics; overlong_topics_dropped_over_10pct,0.941,6,24
+6.19-N-EXTC_Sem1 & Sem2.pdf,ESC201,Engineering Graphics,topic_hard_violation_rate_over_3pct,1.0,4,23
+6.19-N-EXTC_Sem1 & Sem2.pdf,IKS201,Indian Knowledge System,"module_numbers_not_sequential:[1, 2, 5]; module_count_3",1.0,3,26
+6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf,2213111,Engineering Mathematics for Electrical Circuits,module_without_hours,0.965,6,21
+6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf,2214112,Electromagnetic Fields and Waves,"module_numbers_not_sequential:[1, 2, 3, 4, 5, 6, 1, 2, 3]; module_count_9; module_without_topics",1.0,9,61
+6.29-N-B.E.-Electrical-Engineering-Sem-III-IV.pdf,2223111,Engineering Mathematics for Electrical Circuits,module_without_hours,0.965,6,21
+6.29-N-B.E.-Electrical-Engineering-Sem-III-IV.pdf,2224112,Electromagnetic Fields and Waves,"module_numbers_not_sequential:[1, 2, 3, 4, 5, 6, 1, 2, 3]; module_count_9; module_without_topics",1.0,9,61
+6.22-NIT.pdf,BSC101,Applied Mathematics-I,module_without_hours,0.961,6,0
+6.22-NIT.pdf,BSC2021,Physics for Emerging Fields,topic_hard_violation_rate_over_3pct,1.0,6,26
+6.22-NIT.pdf,BSC2032,Environmental Chemistry and non-conventional energy sources,module_count_2,0.964,2,8
+6.22-NIT.pdf,BSC2033,Introduction to Computational Chemistry,module_without_topics; overlong_topics_dropped_over_10pct,1.0,6,24
+6.22-NIT.pdf,ESC201,Engineering Graphics,topic_hard_violation_rate_over_3pct,0.977,6,39
+6.22-NIT.pdf,IKS201,Indian Knowledge System,"module_numbers_not_sequential:[1, 2, 5, 5, 1]; module_without_hours",1.0,5,26
+6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343111,Applied Mathematics Thinking-I,module_without_topics; overlong_topics_dropped_over_10pct,0.962,6,30
+nep_sem5_6.pdf,2346511,Professional Skill,module_count_3,1.0,3,20
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393112,Strength of Materials,module_count_0; fewer_than_15_topics_in_course; topic_hard_violation_rate_over_3pct; long_topic_share_over_25pct,0.0,0,0
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2394112,Manufacturing Processes,topic_hard_violation_rate_over_3pct,1.0,6,39
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2994511,Business Model Development,module_count_0; fewer_than_15_topics_in_course; topic_hard_violation_rate_over_3pct; long_topic_share_over_25pct,0.0,0,0
+6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2394512,Design Thinking,module_count_0; fewer_than_15_topics_in_course; topic_hard_violation_rate_over_3pct; long_topic_share_over_25pct,0.0,0,0
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC101,Applied Mathematics-I,module_without_hours,0.961,6,0
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC2021,Physics for Emerging Fields,topic_hard_violation_rate_over_3pct,1.0,6,26
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC2032,Environmental Chemistry and non-conventional energy sources,module_count_2,1.0,2,8
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC2033,Introduction to Computational Chemistry,module_without_topics; overlong_topics_dropped_over_10pct,1.0,6,24
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,ESC201,Engineering Graphics,module_count_2; fewer_than_15_topics_in_course; topic_hard_violation_rate_over_3pct,1.0,2,9
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,IKS201,Indian Knowledge System,"module_numbers_not_sequential:[1, 2, 5]; module_count_3",1.0,3,26
+6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2404112,Manufacturing Processes,topic_hard_violation_rate_over_3pct,1.0,6,39

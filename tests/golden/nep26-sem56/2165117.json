@@ -7,7 +7,7 @@
     36,
     37
   ],
-  "status": "DRAFT - needs human sign-off",
+  "status": "AI-REVIEWED, human sign-off pending",
   "modules": [
     {
       "number": "E",
@@ -79,5 +79,10 @@
         "Transparency"
       ]
     }
+  ],
+  "review_notes": [
+    "Checked code/title, module numbers/names (wrapped names already repaired), topic traceability, atomicity, exclusion of self-learning and prerequisite text against source_pages.",
+    "No edits: topics traceable to the 14 experiments and 5 assignments.",
+    "Uncertain: lab has no module table; modules 'E' (experiments) and 'A' (assignments) are synthetic containers."
   ]
 }

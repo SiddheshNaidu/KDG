@@ -1,9 +1,0 @@
-command: PYTHONIOENCODING=utf-8 python spikes/nep26_se_chem_it_runs.py
-regex: (?im)^\s*(?:Text\s*Books?|Textbooks?|References?|Reference\s+Books?|Assessment)\b.*$
-scope: raw lines of every course segment (cut at the next course header only)
-matched/total: 13/13
-failures (verbatim):
-none
-attempt history (max 3 attempts per regex):
-attempt 1: (?m)^\s*(?:Text\s*Books?|Textbooks?)\b.*$ (case-sensitive) -> a 12/17 (2073111, 2073116, 2073611, 2074115, 2074411), b 12/13 (2343114: 'Text books' lower-case b)
-attempt 2 (current): case-insensitive and also References / Reference Books / Assessment as a stop heading -> see matched/total above

@@ -2,13 +2,13 @@
   "family": "nep26-se-chem-it-b",
   "course_code": "2344114",
   "course_title": "Unix Lab",
-  "source_pdf": "data/raw/2019-scheme/Information-Technology/6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf",
+  "source_pdf": "data/raw/NEP_syllabus/Information-Technology/6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf",
   "source_pages": [
     47,
     48,
     49
   ],
-  "status": "DRAFT - needs human sign-off",
+  "status": "AI-REVIEWED, human sign-off pending",
   "modules": [
     {
       "number": "I",
@@ -66,5 +66,10 @@
         "perl scripting"
       ]
     }
+  ],
+  "review_notes": [
+    "Checked code, title, module numbers/names and every topic against source_pages text (PyMuPDF; PDF read from data/raw/NEP_syllabus since data/raw/2019-scheme in source_pdf no longer exists on disk); prerequisite and self-learning text excluded.",
+    "No edits needed. Lab course with module table: topics are concepts derived from the 'a) Study of ...' / 'Execution of ... commands' lines; individual commands (ls, cd, ...) and shell-script exercises deliberately not topics; 'Installation of Unix OS' (procedural) excluded.",
+    "Medium confidence: lab topics are partly inferred from exercise headings (grep/egrep/sed/awk/perl) rather than a concept list."
   ]
 }

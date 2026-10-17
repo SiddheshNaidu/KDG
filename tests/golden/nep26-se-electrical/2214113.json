@@ -2,12 +2,12 @@
   "family": "nep26-se-electrical",
   "course_code": "2214113",
   "course_title": "Power Electronics Devices and Circuits",
-  "source_pdf": "data/raw/2019-scheme/Electrical-Computer-Engineering/6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf",
+  "source_pdf": "data/raw/NEP_syllabus/Electrical-Computer-Engineering/6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf",
   "source_pages": [
     46,
     47
   ],
-  "status": "DRAFT - needs human sign-off",
+  "status": "AI-REVIEWED, human sign-off pending",
   "modules": [
     {
       "number": "I",
@@ -41,7 +41,6 @@
         "GaN devices",
         "Conduction losses",
         "Switching losses",
-        "Loss numericals",
         "MOSFET data sheet",
         "IGBT data sheet"
       ]
@@ -55,7 +54,6 @@
         "Bridge configuration",
         "R load",
         "R-L load",
-        "Output voltage calculation",
         "Rectification mode",
         "Inversion mode",
         "Single phase dual converter",
@@ -113,9 +111,13 @@
         "Level shifters",
         "Bootstrap drivers",
         "Isolated drivers",
-        "Heat sinks",
-        "Heat sink calculation examples"
+        "Heat sinks"
       ]
     }
+  ],
+  "review_notes": [
+    "Checked code, title, module numbers/names and every topic against source_pages text (PyMuPDF); prerequisite text excluded; no self-learning rows present.",
+    "Removed 'Loss numericals', 'Heat sink calculation examples' and 'Output voltage calculation' from modules II, VI, III: these are numerical-exercise tails ('numericals on losses', 'examples on heat sink calculation', 'Numerical for calculation of output voltage'), not concepts.",
+    "'MOSFET data sheet', 'IGBT data sheet', 'Controlled rectifier applications', 'Inverter applications' kept (named PDF items; borderline generic, uncertain)."
   ]
 }

@@ -1,7 +1,0 @@
-command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-core_misc.py (structure vs detail codes)
-A-I-AI-DS: in structure pages(<16) only: ['2483311', '2484311']; in detail starts only: []; structure=19 detail=17
-AI-DS: in structure pages(<16) only: ['2013311', '2014311']; in detail starts only: []; structure=19 detail=17
-AI-ML: in structure pages(<16) only: ['2023311', '2024311']; in detail starts only: []; structure=19 detail=17
-Computer-Engineering: in structure pages(<16) only: ['2113311', '2114311']; in detail starts only: []; structure=19 detail=17
-Computer-Science-Engineering: in structure pages(<16) only: ['2493311', '2494311']; in detail starts only: ['2493116', '2993512']; structure=17 detail=17
-Data-Science: in structure pages(<16) only: ['2173311', '2174311']; in detail starts only: ['2173116', '2993512']; structure=17 detail=17

@@ -2,13 +2,13 @@
   "family": "nep26-fe-sem12",
   "course_code": "IKS201",
   "course_title": "Indian Knowledge System",
-  "source_pdf": "data/raw/2019-scheme/EXTC/6.19-N-EXTC.pdf",
+  "source_pdf": "data/raw/NEP_syllabus/EXTC/6.19-N-EXTC.pdf",
   "source_pages": [
     119,
     120,
     121
   ],
-  "status": "DRAFT - needs human sign-off",
+  "status": "AI-REVIEWED, human sign-off pending",
   "modules": [
     {
       "number": "I",
@@ -67,7 +67,9 @@
         "Vasudhaiva Kutumbkam",
         "Principles of good governance",
         "Artha Sastra",
-        "Kautilyan state"
+        "Kautilyan state",
+        "Ramayana",
+        "Mahabharat"
       ]
     },
     {
@@ -111,5 +113,10 @@
         "Meditation for health"
       ]
     }
+  ],
+  "review_notes": [
+    "Checked code/title, module numbers/names (wrapped names already repaired), topic traceability, atomicity, exclusion of self-learning and prerequisite text against source_pages.",
+    "Edit: added 'Ramayana' and 'Mahabharat' to module IV (PDF: principles of good governance about Ramayana, Mahabharat, Artha Sastra and Kautilyan state).",
+    "Module numerals are split by layout in raw text ('I I', 'I V'); golden numbering is correct. Module V lists 19 names, count matches PDF."
   ]
 }

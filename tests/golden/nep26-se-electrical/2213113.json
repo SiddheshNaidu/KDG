@@ -2,12 +2,12 @@
   "family": "nep26-se-electrical",
   "course_code": "2213113",
   "course_title": "Electronics Engineering",
-  "source_pdf": "data/raw/2019-scheme/Electrical-Computer-Engineering/6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf",
+  "source_pdf": "data/raw/NEP_syllabus/Electrical-Computer-Engineering/6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf",
   "source_pages": [
     22,
     23
   ],
-  "status": "DRAFT - needs human sign-off",
+  "status": "AI-REVIEWED, human sign-off pending",
   "modules": [
     {
       "number": "I",
@@ -103,9 +103,13 @@
         "Special function registers",
         "I/O pins and ports",
         "Addressing modes of 8051",
-        "Instruction set of 8051",
-        "Example programs"
+        "Instruction set of 8051"
       ]
     }
+  ],
+  "review_notes": [
+    "Checked code, title, module numbers/names and every topic against source_pages text (PyMuPDF); prerequisite text excluded; no self-learning rows present.",
+    "Removed 'Example programs' (generic item from 'Instruction set: ..., example programs', not a concept) from module VI.",
+    "Other topics traceable; PDF typos (RSIC and CSIC) not reproduced since topic is 'RISC and CISC' (acceptable normalization)."
   ]
 }

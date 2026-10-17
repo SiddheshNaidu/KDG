@@ -1,8 +1,0 @@
-command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-civil_runs.py
-pdf: data/raw/2019-scheme/Civil-Engineeing/6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf
-regex D1: (?m)^Second Year Civil Engineering\s*$
-regex D2: (?m)^Course Module / Contents\s*$
-regex rule: family detected iff D1 and D2 both match somewhere in whole-PDF page text joined by newline
-matched/total: 1/1
-failures: 0
-negative control: 24 other PDFs in docs/evidence/signatures.csv checked (total rows 25); false positives = 0

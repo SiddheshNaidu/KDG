@@ -1,7 +1,0 @@
-command: PYTHONIOENCODING=utf-8 python spikes/nep26-sem56_runs.py   (pdf=data/raw/_unclassified/SEM-V.pdf)
-regex name: title
-procedure (not one regex): title = text lines after the code line, joined, until a line matching ^[\d\-–—]+$ or a blank line; a line ending in '-' joins without space
-cross-check: normalised (lowercase, &->and, alnum only) equal to the same procedure applied to the p7/p9 scheme-table row; matched/total: 27/29 numeric-code courses (IKS501 has no scheme-table row with that code)
-mismatches (verbatim):
-2165116: detail title='Computer Network' vs scheme-table(p7/p9) title='Computer Network Lab Code Lab Description'
-2166123: detail title='Nature- inspired Optimization Algorithms Lab' vs scheme-table(p7/p9) title='Nature-Inspired Optimization Algorithms Lab Program Electives -III'

@@ -2,16 +2,101 @@
   "family": "nep26-se-mech-b",
   "course_code": "2393111",
   "course_title": "Engineering Mathematics-III",
-  "source_pdf": "data/raw/2019-scheme/Mecanical-Automation-Engineering/6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf",
-  "source_pages": [17, 18],
-  "status": "DRAFT - needs human sign-off",
+  "source_pdf": "data/raw/NEP_syllabus/Mecanical-Automation-Engineering/6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf",
+  "source_pages": [
+    17,
+    18
+  ],
+  "status": "AI-REVIEWED, human sign-off pending",
   "notes": "Layout: module number '0N' alone, then 'Module: <name>', dotted sub-items N.N, 'Self-learning Topics:' paragraph per module (EXCLUDED from topics here; whether self-learning topics count as Topics is UNKNOWN), hours and CO tails split from the module they belong to (they appear before the next module header, with page-break and blank-line gaps). Module 4 self-learning paragraph is on p18 line 0 (page break inside module). Letter-spaced text 'e ve n' on p17 (b only).",
   "modules": [
-    {"number": "1", "name": "Laplace Transform", "topics": ["Definition of Laplace transform", "Condition of existence of Laplace transform", "Laplace transform of standard functions", "Linearity property", "First shifting theorem", "Change of scale property", "Multiplication by t", "Division by t", "Laplace transform of integrals", "Evaluation of integrals by Laplace transformation"]},
-    {"number": "2", "name": "Inverse Laplace Transform", "topics": ["Inverse Laplace transform", "Linearity property", "Standard formulae for inverse Laplace transform", "Inverse Laplace transform using derivative", "Partial fractions method", "First shift property", "Convolution theorem"]},
-    {"number": "3", "name": "Fourier Series", "topics": ["Dirichlet's conditions", "Definition of Fourier series", "Fourier series of periodic function", "Fourier series of even and odd functions", "Half range sine series", "Half range cosine series"]},
-    {"number": "4", "name": "Complex Variables", "topics": ["Function f(z) of complex variable", "Limit of f(z)", "Continuity of f(z)", "Differentiability of f(z)", "Analytic function", "Conditions for analytic function", "Cauchy-Riemann equations in cartesian coordinates", "Milne-Thomson method", "Harmonic function", "Harmonic conjugate"]},
-    {"number": "5", "name": "Matrices", "topics": ["Characteristic equation", "Eigen values and eigen vectors", "Properties of eigen values and eigen vectors", "Cayley-Hamilton theorem", "Inverse of matrix using Cayley-Hamilton theorem", "Similarity of matrices", "Diagonalization of matrices"]},
-    {"number": "6", "name": "Numerical methods for PDE", "topics": ["Partial differential equations", "Method of separation of variables", "Vibrations of string", "Analytical method for one dimensional heat equations", "Crank Nicholson method", "Bender Schmidt method"]}
+    {
+      "number": "1",
+      "name": "Laplace Transform",
+      "topics": [
+        "Definition of Laplace transform",
+        "Condition of existence of Laplace transform",
+        "Laplace transform of standard functions",
+        "Linearity property",
+        "First shifting theorem",
+        "Change of scale property",
+        "Multiplication by t",
+        "Division by t",
+        "Laplace transform of integrals",
+        "Evaluation of integrals by Laplace transformation"
+      ]
+    },
+    {
+      "number": "2",
+      "name": "Inverse Laplace Transform",
+      "topics": [
+        "Inverse Laplace transform",
+        "Linearity property",
+        "Standard formulae for inverse Laplace transform",
+        "Inverse Laplace transform using derivative",
+        "Partial fractions method",
+        "First shift property",
+        "Convolution theorem"
+      ]
+    },
+    {
+      "number": "3",
+      "name": "Fourier Series",
+      "topics": [
+        "Dirichlet's conditions",
+        "Definition of Fourier series",
+        "Fourier series of periodic function",
+        "Fourier series of even and odd functions",
+        "Half range sine series",
+        "Half range cosine series"
+      ]
+    },
+    {
+      "number": "4",
+      "name": "Complex Variables",
+      "topics": [
+        "Function f(z) of complex variable",
+        "Limit of f(z)",
+        "Continuity of f(z)",
+        "Differentiability of f(z)",
+        "Analytic function",
+        "Conditions for analytic function",
+        "Cauchy-Riemann equations in cartesian coordinates",
+        "Milne-Thomson method",
+        "Harmonic function",
+        "Harmonic conjugate"
+      ]
+    },
+    {
+      "number": "5",
+      "name": "Matrices",
+      "topics": [
+        "Characteristic equation",
+        "Eigen values and eigen vectors",
+        "Properties of eigen values and eigen vectors",
+        "Cayley-Hamilton theorem",
+        "Inverse of matrix using Cayley-Hamilton theorem",
+        "Higher degree polynomial matrix using Cayley-Hamilton theorem",
+        "Similarity of matrices",
+        "Diagonalization of matrices"
+      ]
+    },
+    {
+      "number": "6",
+      "name": "Numerical methods for PDE",
+      "topics": [
+        "Partial differential equations",
+        "Method of separation of variables",
+        "Vibrations of string",
+        "Analytical method for one dimensional heat equations",
+        "Crank Nicholson method",
+        "Bender Schmidt method"
+      ]
+    }
+  ],
+  "review_notes": [
+    "Checked code/title, module names 1-6 and all topics vs PDF pp17-18; every topic traceable. Self-learning paragraphs (all 6 modules, incl. M4 on p18 line 0), Term Work text and hours/CO tails excluded; '(without proof)' and 'No questions...' qualifiers dropped; 'e ve n' letter-spacing normalised to 'even'.",
+    "Edit: added 'Higher degree polynomial matrix using Cayley-Hamilton theorem' to module 5 (PDF 5.2 application, previously missing).",
+    "Uncertain: PDF module 6 says 'Crank Nicholson'/'Bender Schmidt' (kept as in PDF); listed standard functions (e^at, sin(at)...) not split out."
   ]
 }

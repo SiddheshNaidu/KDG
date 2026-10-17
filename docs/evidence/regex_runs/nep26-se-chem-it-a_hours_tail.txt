@@ -1,6 +1,0 @@
-command: PYTHONIOENCODING=utf-8 python spikes/nep26_se_chem_it_runs.py
-regex: ^\d{1,2}$
-scope: Hours cell (4th column) of every module row from method B
-matched/total: 71/71
-failures (verbatim):
-none

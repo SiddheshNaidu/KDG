@@ -1,6 +1,0 @@
-command: PYTHONIOENCODING=utf-8 python spikes/nep2425-fe_regex.py
-regex: ^\s*DETAILED SYLLABUS
-matched/total: 5/6
-ESC102 checked on page 1 (its table), the stub on page 5
-failures:
-  AEC101-stub in 02 Syllabus.pdf: no match (page 5 of the PDF holds only the AEC101 header/table rows and 'Rationale'; no module table)

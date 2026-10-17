@@ -1,9 +1,0 @@
-command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-mech_regex.py
-family: nep26-se-mech (courses=34: sub-family a=17 from 6.35 PDF, b=17 from 6.44 PDF)
-regex name: title
-titles: {"a:2403111": "Engineering Mathematics-III", "a:2403112": "Strength of Materials", "a:2403113": "Thermodynamics", "a:2403114": "Material Science", "a:2403115": "Materials Testing", "a:2403116": "Working Drawing- GD & T", "a:2993511": "Entrepreneurship Development", "a:2993512": "Environmental Science", "a:2403611": "Mini Project (Group Project)", "a:2404111": "Finite Element Analysis", "a:2404112": "Manufacturing Processes", "a:2404113": "Theory of Machines", "a:2404115": "Theory of Machines Lab", "a:2404114": "Manufacturing Processes Lab", "a:2404411": "CAD Modelling", "a:2994511": "Business Model Development", "a:2994512": "Design Thinking", "b:2393111": "Engineering Mathematics-III", "b:2393112": "Strength of Materials", "b:2393113": "Thermodynamics", "b:2393114": "Material Science", "b:2393115": "Material Testing Lab", "b:2393116": "Working Drawing- GD & T", "b:2393511": "Entrepreneurship Development", "b:2393512": "Environmental Science for Engineers", "b:2393611": "Mini Project (Group Project)", "b:2394111": "Finite Element Analysis", "b:2394112": "Manufacturing Processes", "b:2394113": "Theory of Machines", "b:2394115": "Theory of Machines Lab", "b:2394114": "Manufacturing Processes Lab", "b:2394411": "CAD Modelling", "b:2394511": "Business Model Development", "b:2394512": "Design Thinking"}
-
---- attempt 1
-regex/predicate: ^\s*(?:\d{1,2}\*?(?:\+\d)?|-{1,2})\s*$  (title = lines between first 7-digit code line and first line matching this; 1-3 lines)
-matched/total: 34/34
-failures (0):

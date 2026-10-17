@@ -2,13 +2,13 @@
   "family": "nep26-fe-sem12",
   "course_code": "ESC101",
   "course_title": "Engineering Mechanics",
-  "source_pdf": "data/raw/2019-scheme/AIML/6.9N-AIML.pdf",
+  "source_pdf": "data/raw/NEP_syllabus/AIML/6.9N-AIML_sem1 & sem2.pdf",
   "source_pages": [
     31,
     32,
     33
   ],
-  "status": "DRAFT - needs human sign-off",
+  "status": "AI-REVIEWED, human sign-off pending",
   "modules": [
     {
       "number": "I",
@@ -88,5 +88,9 @@
         "Homogeneous transformation"
       ]
     }
+  ],
+  "review_notes": [
+    "Checked code/title, module numbers/names (wrapped names already repaired), topic traceability, atomicity, exclusion of self-learning and prerequisite text against source_pages.",
+    "No edits; prerequisite block excluded. Module III text lists 'simple and compound beams' and module I lists concurrent/parallel/general force systems, not added (sub-detail of kept topics)."
   ]
 }

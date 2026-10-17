@@ -1,129 +1,134 @@
 {
- "family": "nep26-se-core",
- "course_code": "2114111",
- "course_title": "Computational Theory",
- "source_pdf": "data/raw/2019-scheme/Computer-Engineering/6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf",
- "source_pages": [
-  33,
-  34,
-  35
- ],
- "status": "DRAFT - needs human sign-off",
- "modules": [
-  {
-   "number": "I",
-   "name": "Basics Concepts and Regular Languages",
-   "topics": [
-    "Sets",
-    "Logic",
-    "Relations",
-    "Functions",
-    "Discrete structures",
-    "Importance of TCS",
-    "Alphabets",
-    "Strings",
-    "Languages",
-    "Regular operations",
-    "Regular expression",
-    "Arden's theorem",
-    "RE applications",
-    "Regular language",
-    "Closure properties",
-    "Decision properties of regular languages",
-    "Pumping lemma for regular languages"
-   ]
-  },
-  {
-   "number": "II",
-   "name": "Finite Automata",
-   "topics": [
-    "Finite automata (FA)",
-    "Finite state machine (FSM)",
-    "Deterministic finite automata (DFA)",
-    "Nondeterministic finite automata (NFA)",
-    "Transition diagrams",
-    "Language recognizers",
-    "Equivalence between NFA with and without epsilon transitions",
-    "NFA to DFA conversion",
-    "Minimization of DFA",
-    "Moore machine",
-    "Mealy machine",
-    "Applications of FA",
-    "Limitations of FA"
-   ]
-  },
-  {
-   "number": "III",
-   "name": "Regular and Context Free Grammars",
-   "topics": [
-    "Grammars",
-    "Chomsky hierarchy",
-    "Regular grammar (RG)",
-    "Equivalence of left and right linear grammar",
-    "Equivalence of RG and FA",
-    "Context free grammars (CFG)",
-    "Sentential forms",
-    "Leftmost derivation",
-    "Rightmost derivation",
-    "Parse tree",
-    "Ambiguity",
-    "Simplification of CFG",
-    "Eliminating unit productions",
-    "Eliminating useless productions",
-    "Eliminating useless symbols",
-    "Eliminating epsilon productions",
-    "Chomsky normal form (CNF)",
-    "Greibach normal form (GNF)",
-    "Context free language (CFL)",
-    "Parser application",
-    "Markup languages application",
-    "Pumping lemma",
-    "Closure properties"
-   ]
-  },
-  {
-   "number": "IV",
-   "name": "Pushdown Automata (PDA)",
-   "topics": [
-    "Definition of PDA",
-    "Language of PDA",
-    "PDA as generator",
-    "PDA as decider",
-    "PDA as acceptor of CFG",
-    "Deterministic PDA",
-    "Non-deterministic PDA",
-    "Equivalence of PDA and CFG",
-    "Application of PDA"
-   ]
-  },
-  {
-   "number": "V",
-   "name": "Turing Machine (TM)",
-   "topics": [
-    "Definition of TM",
-    "Design of TM as generator",
-    "Design of TM as decider",
-    "Design of TM as acceptor",
-    "Multitrack TM",
-    "Multitape TM",
-    "Universal TM",
-    "Applications of TM",
-    "Power of TMs",
-    "Limitations of TMs"
-   ]
-  },
-  {
-   "number": "VI",
-   "name": "Decidability and Computability",
-   "topics": [
-    "Decidability",
-    "Undecidability",
-    "Recursive language",
-    "Recursively enumerable language",
-    "Halting problem",
-    "Rice's theorem",
-    "Post correspondence problem"
-   ]
-  }
- ]
+  "family": "nep26-se-core",
+  "course_code": "2114111",
+  "course_title": "Computational Theory",
+  "source_pdf": "data/raw/NEP_syllabus/Computer-Engineering/6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf",
+  "source_pages": [
+    33,
+    34,
+    35
+  ],
+  "status": "AI-REVIEWED, human sign-off pending",
+  "modules": [
+    {
+      "number": "I",
+      "name": "Basics Concepts and Regular Languages",
+      "topics": [
+        "Sets",
+        "Logic",
+        "Relations",
+        "Functions",
+        "Discrete structures",
+        "Importance of TCS",
+        "Alphabets",
+        "Strings",
+        "Languages",
+        "Regular operations",
+        "Regular expression",
+        "Arden's theorem",
+        "RE applications",
+        "Regular language",
+        "Closure properties",
+        "Decision properties of regular languages",
+        "Pumping lemma for regular languages"
+      ]
+    },
+    {
+      "number": "II",
+      "name": "Finite Automata",
+      "topics": [
+        "Finite automata (FA)",
+        "Finite state machine (FSM)",
+        "Deterministic finite automata (DFA)",
+        "Nondeterministic finite automata (NFA)",
+        "Transition diagrams",
+        "Language recognizers",
+        "Equivalence between NFA with and without epsilon transitions",
+        "NFA to DFA conversion",
+        "Minimization of DFA",
+        "Moore machine",
+        "Mealy machine",
+        "Applications of FA",
+        "Limitations of FA"
+      ]
+    },
+    {
+      "number": "III",
+      "name": "Regular and Context Free Grammars",
+      "topics": [
+        "Grammars",
+        "Chomsky hierarchy",
+        "Regular grammar (RG)",
+        "Equivalence of left and right linear grammar",
+        "Equivalence of RG and FA",
+        "Context free grammars (CFG)",
+        "Sentential forms",
+        "Leftmost derivation",
+        "Rightmost derivation",
+        "Parse tree",
+        "Ambiguity",
+        "Simplification of CFG",
+        "Eliminating unit productions",
+        "Eliminating useless productions",
+        "Eliminating useless symbols",
+        "Eliminating epsilon productions",
+        "Chomsky normal form (CNF)",
+        "Greibach normal form (GNF)",
+        "Context free language (CFL)",
+        "Parser application",
+        "Markup languages application",
+        "Pumping lemma",
+        "Closure properties"
+      ]
+    },
+    {
+      "number": "IV",
+      "name": "Pushdown Automata (PDA)",
+      "topics": [
+        "Definition of PDA",
+        "Language of PDA",
+        "PDA as generator",
+        "PDA as decider",
+        "PDA as acceptor of CFG",
+        "Deterministic PDA",
+        "Non-deterministic PDA",
+        "Equivalence of PDA and CFG",
+        "Application of PDA"
+      ]
+    },
+    {
+      "number": "V",
+      "name": "Turing Machine (TM)",
+      "topics": [
+        "Definition of TM",
+        "Design of TM as generator",
+        "Design of TM as decider",
+        "Design of TM as acceptor",
+        "Multitrack TM",
+        "Multitape TM",
+        "Universal TM",
+        "Applications of TM",
+        "Power of TMs",
+        "Limitations of TMs"
+      ]
+    },
+    {
+      "number": "VI",
+      "name": "Decidability and Computability",
+      "topics": [
+        "Decidability",
+        "Undecidability",
+        "Recursive language",
+        "Recursively enumerable language",
+        "Halting problem",
+        "Rice's theorem",
+        "Post correspondence problem"
+      ]
+    }
+  ],
+  "review_notes": [
+    "Checked code, title, module numbers/names and every topic against source_pages text (PyMuPDF); self-learning and prerequisite text excluded.",
+    "No edits needed. Module table text is interleaved in raw order but module names/numbers match; module III sub-rows (1.,2.) merged into one module as in PDF.",
+    "'Importance of TCS' and 'Basic Mathematical Fundamentals' items kept as listed concepts; low-value but traceable (uncertain whether professor wants them)."
+  ]
 }

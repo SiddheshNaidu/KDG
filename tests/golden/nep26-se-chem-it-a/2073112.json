@@ -2,14 +2,14 @@
   "family": "nep26-se-chem-it-a",
   "course_code": "2073112",
   "course_title": "Fluid Flow Operations",
-  "source_pdf": "data/raw/2019-scheme/Chemical-Engineering/6.40-N-Chemical-Engineering-Sem-III-IV.pdf",
+  "source_pdf": "data/raw/NEP_syllabus/Chemical-Engineering/6.40-N-Chemical-Engineering-Sem-III-IV.pdf",
   "source_pages": [
     19,
     20,
     21,
     22
   ],
-  "status": "DRAFT - needs human sign-off",
+  "status": "AI-REVIEWED, human sign-off pending",
   "modules": [
     {
       "number": "1",
@@ -129,5 +129,9 @@
         "Non-return valve"
       ]
     }
+  ],
+  "review_notes": [
+    "Checked code, title, module numbers/names and every topic against source_pages text (PyMuPDF; PDF read from data/raw/NEP_syllabus since data/raw/2019-scheme in source_pdf no longer exists on disk); prerequisite and self-learning text excluded.",
+    "No edits needed. Module 4 name keeps PDF wording 'Flow of Incompressible fluids: Laminar/Turbulent'. Sub-headings (Pressure and Fluid Statics, Pressure and Flow past immersed bodies) correctly not used as topics."
   ]
 }

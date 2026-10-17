@@ -2,12 +2,12 @@
   "family": "nep26-se-electrical",
   "course_code": "2213114",
   "course_title": "Measurements and Measuring Instruments",
-  "source_pdf": "data/raw/2019-scheme/Electrical-Computer-Engineering/6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf",
+  "source_pdf": "data/raw/NEP_syllabus/Electrical-Computer-Engineering/6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf",
   "source_pages": [
     25,
     26
   ],
-  "status": "DRAFT - needs human sign-off",
+  "status": "AI-REVIEWED, human sign-off pending",
   "modules": [
     {
       "number": "I",
@@ -118,5 +118,10 @@
         "Smart energy meter"
       ]
     }
+  ],
+  "review_notes": [
+    "Checked code, title, module numbers/names and every topic against source_pages text (PyMuPDF); prerequisite text excluded; no self-learning rows present.",
+    "No edits needed. Prerequisite (basic potentiometer circuit, MC/MI instruments) correctly excluded.",
+    "Minor: PDF lists 'capacitive and inductive type' pressure sensors and linear/angular displacement; not split into topics (judged optional, uncertain)."
   ]
 }

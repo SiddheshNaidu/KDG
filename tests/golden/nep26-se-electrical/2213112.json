@@ -2,12 +2,12 @@
   "family": "nep26-se-electrical",
   "course_code": "2213112",
   "course_title": "Electrical Machines -I",
-  "source_pdf": "data/raw/2019-scheme/Electrical-Computer-Engineering/6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf",
+  "source_pdf": "data/raw/NEP_syllabus/Electrical-Computer-Engineering/6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf",
   "source_pages": [
     19,
     20
   ],
-  "status": "DRAFT - needs human sign-off",
+  "status": "AI-REVIEWED, human sign-off pending",
   "modules": [
     {
       "number": "I",
@@ -108,5 +108,9 @@
         "Shaded pole starting"
       ]
     }
+  ],
+  "review_notes": [
+    "Checked code, title, module numbers/names and every topic against source_pages text (PyMuPDF); prerequisite text excluded; no self-learning rows present.",
+    "No edits needed. Sub-items of 'Parallel operation' (no load / on load / equal and unequal voltage) kept as listed in PDF."
   ]
 }

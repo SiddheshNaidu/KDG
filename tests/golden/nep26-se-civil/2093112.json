@@ -1,125 +1,133 @@
 {
- "family": "nep26-se-civil",
- "course_code": "2093112",
- "course_title": "Fluid Mechanics",
- "source_pdf": "data/raw/2019-scheme/Civil-Engineeing/6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf",
- "source_pages": [
-  20,
-  21,
-  22,
-  23
- ],
- "status": "DRAFT - needs human sign-off",
- "modules": [
-  {
-   "number": 1,
-   "name": "Properties of Fluids",
-   "topics": [
-    "Mass density",
-    "Weight density",
-    "Specific gravity",
-    "Specific volume",
-    "Viscosity",
-    "Compressibility",
-    "Elasticity",
-    "Surface tension",
-    "Capillarity",
-    "Vapor pressure",
-    "Types of fluids"
-   ]
-  },
-  {
-   "number": 2,
-   "name": "Fluid Statics",
-   "topics": [
-    "Pascal's law",
-    "Hydrostatic law",
-    "Pressure variation in fluids at rest",
-    "Absolute pressure",
-    "Atmospheric pressure",
-    "Gauge pressure",
-    "U tube differential manometers",
-    "Total pressure",
-    "Center of pressure",
-    "Archimedes principle",
-    "Buoyancy",
-    "Meta-Centre",
-    "Metacentric height"
-   ]
-  },
-  {
-   "number": 3,
-   "name": "Fluid Kinematics and Dynamics",
-   "topics": [
-    "Types of fluid flow",
-    "Description of flow pattern",
-    "Lagrangian method",
-    "Eulerian method",
-    "Continuity equation",
-    "Velocity of fluid particles",
-    "Acceleration of fluid particles",
-    "Control volume",
-    "Control surface",
-    "Forces acting on fluid in motion",
-    "Navier Stokes equation",
-    "Euler's equation of motion",
-    "Bernoulli's theorem",
-    "Bernoulli's equation for real fluid",
-    "Applications of Bernoulli's equation"
-   ]
-  },
-  {
-   "number": 4,
-   "name": "Flow Measurement",
-   "topics": [
-    "Venturimeter",
-    "Orificemeter",
-    "Discharge through Venturimeter",
-    "Orifices",
-    "Mouthpieces",
-    "Hydraulic coefficients",
-    "Flow through large rectangular orifice",
-    "Flow through fully submerged orifice",
-    "Flow through partially submerged orifice",
-    "Notches",
-    "Weirs",
-    "Discharge over rectangular notch",
-    "Discharge over triangular notch",
-    "Discharge over trapezoidal notch",
-    "Velocity of approach"
-   ]
-  },
-  {
-   "number": 5,
-   "name": "Flow Through Pipe",
-   "topics": [
-    "Loss of head through pipes",
-    "Darcy-Weisbach equation",
-    "Major losses",
-    "Minor losses",
-    "Hydraulic gradient line",
-    "Total energy gradient line",
-    "Pipes in series",
-    "Equivalent pipes",
-    "Pipes in parallel",
-    "Siphon",
-    "Water hammer phenomenon",
-    "Power transmission through nozzle"
-   ]
-  },
-  {
-   "number": 6,
-   "name": "Introduction to Laminar and Turbulent Flow",
-   "topics": [
-    "Reynolds experiment",
-    "Critical velocity",
-    "Laminar flow through circular pipes",
-    "Prandtl's mixing length theory",
-    "Smooth and rough boundaries",
-    "Velocity distribution in smooth pipes",
-    "Velocity distribution in rough pipes"
-   ]
-  }
- ],
- "draft_notes": "Normal theory course. Sub-item text uses 'Heading : comma list' (e.g. '2.2 Hydrostatic force on surfaces: ...'); topics here are the listed concepts split by hand. Granularity (e.g. Absolute/Atmospheric/Gauge pressure as separate topics) is a draft judgement. Prerequisite line (Mathematics, Physics, Thermodynamics) not turned into topics."
+  "family": "nep26-se-civil",
+  "course_code": "2093112",
+  "course_title": "Fluid Mechanics",
+  "source_pdf": "data/raw/NEP_syllabus/Civil-Engineeing/6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf",
+  "source_pages": [
+    20,
+    21,
+    22,
+    23
+  ],
+  "status": "AI-REVIEWED, human sign-off pending",
+  "modules": [
+    {
+      "number": 1,
+      "name": "Properties of Fluids",
+      "topics": [
+        "Mass density",
+        "Weight density",
+        "Specific gravity",
+        "Specific volume",
+        "Viscosity",
+        "Compressibility",
+        "Elasticity",
+        "Surface tension",
+        "Capillarity",
+        "Vapor pressure",
+        "Types of fluids"
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Fluid Statics",
+      "topics": [
+        "Pascal's law",
+        "Hydrostatic law",
+        "Pressure variation in fluids at rest",
+        "Pressure scale",
+        "Absolute pressure",
+        "Atmospheric pressure",
+        "Gauge pressure",
+        "U tube differential manometers",
+        "Total pressure",
+        "Center of pressure",
+        "Total pressure on plane surfaces",
+        "Archimedes principle",
+        "Buoyancy",
+        "Meta-Centre",
+        "Metacentric height"
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Fluid Kinematics and Dynamics",
+      "topics": [
+        "Types of fluid flow",
+        "Description of flow pattern",
+        "Lagrangian method",
+        "Eulerian method",
+        "Continuity equation",
+        "Velocity of fluid particles",
+        "Acceleration of fluid particles",
+        "Control volume",
+        "Control surface",
+        "Forces acting on fluid in motion",
+        "Navier Stokes equation",
+        "Euler's equation of motion",
+        "Integration of Euler's equations of motion",
+        "Bernoulli's theorem",
+        "Bernoulli's equation for real fluid",
+        "Applications of Bernoulli's equation"
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Flow Measurement",
+      "topics": [
+        "Venturimeter",
+        "Orificemeter",
+        "Discharge through Venturimeter",
+        "Orifices",
+        "Mouthpieces",
+        "Hydraulic coefficients",
+        "Flow through large rectangular orifice",
+        "Flow through fully submerged orifice",
+        "Flow through partially submerged orifice",
+        "Notches",
+        "Weirs",
+        "Discharge over rectangular notch",
+        "Discharge over triangular notch",
+        "Discharge over trapezoidal notch",
+        "Velocity of approach"
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Flow Through Pipe",
+      "topics": [
+        "Loss of head through pipes",
+        "Darcy-Weisbach equation",
+        "Major losses",
+        "Minor losses",
+        "Hydraulic gradient line",
+        "Total energy gradient line",
+        "Pipes in series",
+        "Equivalent pipes",
+        "Pipes in parallel",
+        "Siphon",
+        "Water hammer phenomenon",
+        "Power transmission through nozzle"
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Introduction to Laminar and Turbulent Flow",
+      "topics": [
+        "Reynolds experiment",
+        "Critical velocity",
+        "Laminar flow through circular pipes",
+        "Prandtl's mixing length theory",
+        "Smooth and rough boundaries",
+        "Velocity distribution in smooth pipes",
+        "Velocity distribution in rough pipes"
+      ]
+    }
+  ],
+  "draft_notes": "Normal theory course. Sub-item text uses 'Heading : comma list' (e.g. '2.2 Hydrostatic force on surfaces: ...'); topics here are the listed concepts split by hand. Granularity (e.g. Absolute/Atmospheric/Gauge pressure as separate topics) is a draft judgement. Prerequisite line (Mathematics, Physics, Thermodynamics) not turned into topics.",
+  "review_notes": [
+    "Checked code/title, modules 1-6 names and all topics vs PDF pp20-23; no topic invented. Prerequisite lines (Mathematics, Physics, Thermodynamics), Rationale/Objectives/Outcomes, Text Books and hours/CO tails excluded; no self-learning in this course.",
+    "Edits: added 'Pressure scale' and 'Total pressure on plane surfaces' (module 2) and 'Integration of Euler's equations of motion' (module 3), all listed in PDF but missing. No removals.",
+    "Uncertain: granularity (Absolute/Atmospheric/Gauge pressure split; 'Experimental method to find metacentric height' folded into 'Metacentric height'); draft_notes kept."
+  ]
 }

@@ -1,4 +1,0 @@
-command: cd /c/Users/Siddhesh/Documents/KDG && PYTHONIOENCODING=utf-8 python spikes/nep26-fe-sem12_regex.py detect
-regex: As Per NEP 2020   (searched pages 1-2, per PDF)
-matched/total: 6/6
-failures (0), verbatim as pdf | page:line | text:

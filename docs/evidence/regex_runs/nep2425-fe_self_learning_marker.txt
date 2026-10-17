@@ -1,6 +1,0 @@
-command: PYTHONIOENCODING=utf-8 python spikes/nep2425-fe_regex.py
-regex: (?i)self[\s-]*(learning|study)
-matched/total: 0/5
-matched = number of hits over all lines of the 5 PDFs (0 = marker never appears)
-failures:
-  (none)

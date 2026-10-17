@@ -2,13 +2,13 @@
   "family": "nep26-se-chem-it-b",
   "course_code": "2343114",
   "course_title": "Automata Theory",
-  "source_pdf": "data/raw/2019-scheme/Information-Technology/6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf",
+  "source_pdf": "data/raw/NEP_syllabus/Information-Technology/6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf",
   "source_pages": [
     26,
     27,
     28
   ],
-  "status": "DRAFT - needs human sign-off",
+  "status": "AI-REVIEWED, human sign-off pending",
   "modules": [
     {
       "number": "I",
@@ -86,5 +86,9 @@
         "Phases of compiler"
       ]
     }
+  ],
+  "review_notes": [
+    "Checked code, title, module numbers/names and every topic against source_pages text (PyMuPDF; PDF read from data/raw/NEP_syllabus since data/raw/2019-scheme in source_pdf no longer exists on disk); prerequisite and self-learning text excluded.",
+    "No edits needed. 'Case Study' / 'Practice exercise' self-learning text excluded; prerequisite (Basic Mathematical Fundamentals) excluded."
   ]
 }

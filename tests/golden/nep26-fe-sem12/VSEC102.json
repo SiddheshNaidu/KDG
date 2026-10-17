@@ -2,13 +2,13 @@
   "family": "nep26-fe-sem12",
   "course_code": "VSEC102",
   "course_title": "C Programming",
-  "source_pdf": "data/raw/2019-scheme/AIML/6.9N-AIML.pdf",
+  "source_pdf": "data/raw/NEP_syllabus/AIML/6.9N-AIML_sem1 & sem2.pdf",
   "source_pages": [
     55,
     56,
     57
   ],
-  "status": "DRAFT - needs human sign-off",
+  "status": "AI-REVIEWED, human sign-off pending",
   "modules": [
     {
       "number": "01",
@@ -62,7 +62,11 @@
         "Function prototype",
         "Passing arguments to a function",
         "Recursion",
-        "Storage classes"
+        "Storage classes",
+        "Auto storage class",
+        "Extern storage class",
+        "Static storage class",
+        "Register storage class"
       ]
     },
     {
@@ -108,5 +112,10 @@
         "File processing"
       ]
     }
+  ],
+  "review_notes": [
+    "Checked code/title, module numbers/names (wrapped names already repaired), topic traceability, atomicity, exclusion of self-learning and prerequisite text against source_pages.",
+    "Edit: added the four storage classes listed in PDF 3.2 (Auto, Extern, Static, Register); consistent with nep2425-fe VSEC102 golden.",
+    "Uncertain: 'Array declaration' / 'Array definition' kept split; PDF 'Array-Concepts' not added."
   ]
 }

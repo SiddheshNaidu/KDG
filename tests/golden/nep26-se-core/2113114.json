@@ -1,114 +1,120 @@
 {
- "family": "nep26-se-core",
- "course_code": "2113114",
- "course_title": "Computer Organization & Architecture",
- "source_pdf": "data/raw/2019-scheme/Computer-Engineering/6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf",
- "source_pages": [
-  24,
-  25,
-  26
- ],
- "status": "DRAFT - needs human sign-off",
- "modules": [
-  {
-   "number": "1",
-   "name": "Computer Fundamentals",
-   "topics": [
-    "Binary number system",
-    "Octal number system",
-    "Hexadecimal number system",
-    "Sign magnitude representation",
-    "1's complement representation",
-    "2's complement representation",
-    "Logic gates",
-    "Basic organization of computer",
-    "Von Neumann model"
-   ]
-  },
-  {
-   "number": "2",
-   "name": "ALU Operations",
-   "topics": [
-    "Addition and subtraction of binary numbers",
-    "Addition and subtraction of octal numbers",
-    "Addition and subtraction of hexadecimal numbers",
-    "Booth's algorithm",
-    "Restoring division algorithm",
-    "Non-restoring division algorithm",
-    "IEEE 754 floating point representation"
-   ]
-  },
-  {
-   "number": "3",
-   "name": "Processor Organization and Control Unit Design",
-   "topics": [
-    "8086 processor architecture",
-    "Register organization",
-    "Instruction formats",
-    "Instruction cycle",
-    "Addressing modes",
-    "Instruction interpretation and sequencing",
-    "Micro-programmed control unit",
-    "Hardwired control unit",
-    "Microinstruction sequencing and execution",
-    "Micro programs",
-    "RISC architecture",
-    "CISC architecture"
-   ]
-  },
-  {
-   "number": "4",
-   "name": "Memory Systems Organization",
-   "topics": [
-    "Memory parameters",
-    "Primary memory classification",
-    "Secondary memory classification",
-    "RAM types",
-    "ROM types",
-    "Memory hierarchy",
-    "Virtual memory",
-    "Segmentation",
-    "Paging",
-    "Cache memory concept",
-    "Cache hierarchy",
-    "Cache mapping techniques",
-    "Cache coherency",
-    "Interleaved memory",
-    "Associative memory"
-   ]
-  },
-  {
-   "number": "5",
-   "name": "I/O Organization",
-   "topics": [
-    "Types of buses",
-    "Bus arbitration",
-    "Bus standards",
-    "I/O interface",
-    "I/O channels",
-    "I/O modules",
-    "I/O processor",
-    "Programmed I/O",
-    "Interrupt driven I/O",
-    "DMA"
-   ]
-  },
-  {
-   "number": "6",
-   "name": "Parallel Processing",
-   "topics": [
-    "80386DX real model",
-    "80386DX protected model",
-    "80386DX virtual model",
-    "Pipeline stages",
-    "Superscalar architecture",
-    "Pipeline hazards",
-    "Branch prediction",
-    "Data forwarding",
-    "Amdahl's law",
-    "Parallel processing concepts",
-    "Flynn's classification"
-   ]
-  }
- ]
+  "family": "nep26-se-core",
+  "course_code": "2113114",
+  "course_title": "Computer Organization & Architecture",
+  "source_pdf": "data/raw/NEP_syllabus/Computer-Engineering/6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf",
+  "source_pages": [
+    24,
+    25,
+    26
+  ],
+  "status": "AI-REVIEWED, human sign-off pending",
+  "modules": [
+    {
+      "number": "1",
+      "name": "Computer Fundamentals",
+      "topics": [
+        "Binary number system",
+        "Octal number system",
+        "Hexadecimal number system",
+        "Sign magnitude representation",
+        "1's complement representation",
+        "2's complement representation",
+        "Logic gates",
+        "Basic organization of computer",
+        "Von Neumann model"
+      ]
+    },
+    {
+      "number": "2",
+      "name": "ALU Operations",
+      "topics": [
+        "Addition and subtraction of binary numbers",
+        "Addition and subtraction of octal numbers",
+        "Addition and subtraction of hexadecimal numbers",
+        "Booth's algorithm",
+        "Restoring division algorithm",
+        "Non-restoring division algorithm",
+        "IEEE 754 floating point representation"
+      ]
+    },
+    {
+      "number": "3",
+      "name": "Processor Organization and Control Unit Design",
+      "topics": [
+        "8086 processor architecture",
+        "Register organization",
+        "Instruction formats",
+        "Instruction cycle",
+        "Addressing modes",
+        "Instruction interpretation and sequencing",
+        "Micro-programmed control unit",
+        "Hardwired control unit",
+        "Microinstruction sequencing and execution",
+        "Micro programs",
+        "RISC architecture",
+        "CISC architecture"
+      ]
+    },
+    {
+      "number": "4",
+      "name": "Memory Systems Organization",
+      "topics": [
+        "Memory parameters",
+        "Primary memory classification",
+        "Secondary memory classification",
+        "RAM types",
+        "ROM types",
+        "Memory hierarchy",
+        "Virtual memory",
+        "Segmentation",
+        "Paging",
+        "Cache memory concept",
+        "Cache hierarchy",
+        "Cache mapping techniques",
+        "Cache coherency",
+        "Interleaved memory",
+        "Associative memory"
+      ]
+    },
+    {
+      "number": "5",
+      "name": "I/O Organization",
+      "topics": [
+        "Types of buses",
+        "Bus arbitration",
+        "Bus standards",
+        "I/O interface",
+        "I/O channels",
+        "I/O modules",
+        "I/O processor",
+        "Programmed I/O",
+        "Interrupt driven I/O",
+        "DMA"
+      ]
+    },
+    {
+      "number": "6",
+      "name": "Parallel Processing",
+      "topics": [
+        "80386DX real model",
+        "80386DX protected model",
+        "80386DX virtual model",
+        "Pipeline stages",
+        "Superscalar architecture",
+        "Pipeline hazards",
+        "Branch prediction",
+        "Data forwarding",
+        "Amdahl's law",
+        "Parallel processing concepts",
+        "Flynn's classification"
+      ]
+    }
+  ],
+  "review_notes": [
+    "Checked code, title, module numbers/names and every topic against source_pages text (PyMuPDF); self-learning and prerequisite text excluded.",
+    "No edits needed. Arabic module numbers match PDF.",
+    "Self-Study (module 4 Pentium cache case study, module 6 GPGPU case study) correctly excluded.",
+    "Some topics are mild expansions of grouped phrases (e.g. 'Binary' -> 'Binary number system'); judged acceptable."
+  ]
 }

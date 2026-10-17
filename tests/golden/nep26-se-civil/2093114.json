@@ -1,97 +1,102 @@
 {
- "family": "nep26-se-civil",
- "course_code": "2093114",
- "course_title": "Mechanics of Structures",
- "source_pdf": "data/raw/2019-scheme/Civil-Engineeing/6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf",
- "source_pages": [
-  28,
-  29,
-  30
- ],
- "status": "DRAFT - needs human sign-off",
- "modules": [
-  {
-   "number": 1,
-   "name": "Stresses and Strains in Elastic members",
-   "topics": [
-    "Stress",
-    "Strain",
-    "Stress-strain curve",
-    "Elastic moduli",
-    "Relationships between elastic moduli",
-    "Three-dimensional stress and strain",
-    "Poisson's ratio",
-    "Factor of safety",
-    "Bars of varying sections",
-    "Composite sections",
-    "Temperature stresses"
-   ]
-  },
-  {
-   "number": 2,
-   "name": "Analysis of beams and portal frames",
-   "topics": [
-    "Axial force",
-    "Shear force",
-    "Bending moment",
-    "AF, SF and BM diagrams for beams",
-    "Beams with internal hinges",
-    "AF, SF and BM diagrams for portal frames"
-   ]
-  },
-  {
-   "number": 3,
-   "name": "Area moment of inertia, Bending and Shear stresses in beams",
-   "topics": [
-    "Area moment of inertia",
-    "Bending stresses in beams",
-    "Shear stresses in beams"
-   ]
-  },
-  {
-   "number": 4,
-   "name": "Torsion in Shafts and Stresses in Columns",
-   "topics": [
-    "Torsion in solid circular shafts",
-    "Torsion in hollow circular shafts",
-    "Shafts with varying cross sections",
-    "Shafts transmitting power",
-    "Direct stresses in columns",
-    "Bending stresses in columns",
-    "Core of section",
-    "Buckling of columns",
-    "Effective length",
-    "Support conditions",
-    "Euler's formula",
-    "Rankine's formula"
-   ]
-  },
-  {
-   "number": 5,
-   "name": "Principal planes and stresses",
-   "topics": [
-    "Transformation of stress",
-    "Principal planes",
-    "Principal stresses",
-    "Maximum shear stress",
-    "Mohr's circle"
-   ]
-  },
-  {
-   "number": 6,
-   "name": "Trusses and three hinged parabolic arches",
-   "topics": [
-    "Perfect coplanar trusses",
-    "Method of joints",
-    "Method of sections",
-    "Three hinged arches",
-    "Normal thrust",
-    "Radial shear",
-    "Bending moment in three hinged arches",
-    "Symmetrical parabolic three hinged arches",
-    "Unsymmetrical parabolic three hinged arches"
-   ]
-  }
- ],
- "draft_notes": "Odd: sub-items 3.1, 3.2 and 3.3 of module 3 each repeat the module title verbatim ('Area moment of inertia, Bending and Shear stresses in beams') in the PDF (pdf page 29, see docs/evidence/dumps/nep26-se-civil_2093114_p29.txt); module 3 topics are therefore derived from the module title only and are UNKNOWN vs the intended syllabus. Module 3 name itself wraps over 2 lines."
+  "family": "nep26-se-civil",
+  "course_code": "2093114",
+  "course_title": "Mechanics of Structures",
+  "source_pdf": "data/raw/NEP_syllabus/Civil-Engineeing/6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf",
+  "source_pages": [
+    28,
+    29,
+    30
+  ],
+  "status": "AI-REVIEWED, human sign-off pending",
+  "modules": [
+    {
+      "number": 1,
+      "name": "Stresses and Strains in Elastic members",
+      "topics": [
+        "Stress",
+        "Strain",
+        "Stress-strain curve",
+        "Elastic moduli",
+        "Relationships between elastic moduli",
+        "Three-dimensional stress and strain",
+        "Poisson's ratio",
+        "Factor of safety",
+        "Bars of varying sections",
+        "Composite sections",
+        "Temperature stresses"
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Analysis of beams and portal frames",
+      "topics": [
+        "Axial force",
+        "Shear force",
+        "Bending moment",
+        "AF, SF and BM diagrams for beams",
+        "Beams with internal hinges",
+        "AF, SF and BM diagrams for portal frames"
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Area moment of inertia, Bending and Shear stresses in beams",
+      "topics": [
+        "Area moment of inertia",
+        "Bending stresses in beams",
+        "Shear stresses in beams"
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Torsion in Shafts and Stresses in Columns",
+      "topics": [
+        "Torsion in solid circular shafts",
+        "Torsion in hollow circular shafts",
+        "Shafts with varying cross sections",
+        "Shafts transmitting power",
+        "Direct stresses in columns",
+        "Bending stresses in columns",
+        "Core of section",
+        "Buckling of columns",
+        "Effective length",
+        "Support conditions",
+        "Euler's formula",
+        "Rankine's formula"
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Principal planes and stresses",
+      "topics": [
+        "Transformation of stress",
+        "Principal planes",
+        "Principal stresses",
+        "Maximum shear stress",
+        "Mohr's circle"
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Trusses and three hinged parabolic arches",
+      "topics": [
+        "Perfect coplanar trusses",
+        "Method of joints",
+        "Method of sections",
+        "Three hinged arches",
+        "Normal thrust",
+        "Radial shear",
+        "Bending moment in three hinged arches",
+        "Symmetrical parabolic three hinged arches",
+        "Unsymmetrical parabolic three hinged arches"
+      ]
+    }
+  ],
+  "draft_notes": "Odd: sub-items 3.1, 3.2 and 3.3 of module 3 each repeat the module title verbatim ('Area moment of inertia, Bending and Shear stresses in beams') in the PDF (pdf page 29, see docs/evidence/dumps/nep26-se-civil_2093114_p29.txt); module 3 topics are therefore derived from the module title only and are UNKNOWN vs the intended syllabus. Module 3 name itself wraps over 2 lines.",
+  "review_notes": [
+    "Checked code/title, modules 1-6 names and topics vs PDF pp28-30 (p29 table). All topics traceable; Rationale/Objectives/Outcomes, Text Books, hours/CO tails excluded; no self-learning or prerequisite in this course.",
+    "Item 8 decision: sub-items 3.1, 3.2, 3.3 each repeat the module title verbatim in the PDF ('Area moment of inertia, Bending and Shear stresses in beams'), so they add no information; module 3 topics kept as the 3 concepts named in that title (Area moment of inertia, Bending stresses in beams, Shear stresses in beams). Nothing added from outside the PDF; true intended sub-syllabus is unknown.",
+    "No edits. Uncertain: module 3 coverage is only as detailed as the title (3 topics); draft_notes kept. Objectives mention thin cylinders/strain energy/deflection that the module table does not list; not added."
+  ]
 }

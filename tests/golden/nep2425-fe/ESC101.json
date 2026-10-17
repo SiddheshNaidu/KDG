@@ -7,7 +7,7 @@
     2,
     3
   ],
-  "status": "DRAFT - needs human sign-off",
+  "status": "AI-REVIEWED, human sign-off pending",
   "modules": [
     {
       "number": "1",
@@ -40,7 +40,8 @@
         "Types of Beams",
         "Types of Supports and Reactions",
         "Reactions at Supports of Beams",
-        "Friction"
+        "Friction",
+        "Simple and Compound Beams"
       ]
     },
     {
@@ -75,5 +76,11 @@
         "Robot Kinematics"
       ]
     }
+  ],
+  "review_notes": [
+    "Checked code/title, module numbers/names (wrapped names already repaired), topic traceability, atomicity, exclusion of self-learning and prerequisite text against source_pages.",
+    "Edit: added 'Simple and Compound Beams' to module 3.",
+    "Known text gaps in the PDF (Centroid, Friction, Robot Kinematics detailed content missing): name-only topics 'Centroid', 'Friction', 'Robot Kinematics' kept as is; module 4 text also stops after 4.1 (no 4.2 text), so no ICR topics.",
+    "Uncertain: 'Reactions at Supports of Beams' overlaps 'Types of Supports and Reactions'; kept."
   ]
 }

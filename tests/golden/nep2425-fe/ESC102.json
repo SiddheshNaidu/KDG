@@ -7,7 +7,7 @@
     1,
     2
   ],
-  "status": "DRAFT - needs human sign-off",
+  "status": "AI-REVIEWED, human sign-off pending",
   "modules": [
     {
       "number": "1",
@@ -34,7 +34,6 @@
         "Generation of Alternating Voltage",
         "Average and RMS Values",
         "Phasor and Phase Difference",
-        "Sums on Phasors",
         "Single-Phase AC Series and Parallel Circuits",
         "Real, Reactive and Apparent Power",
         "Admittance",
@@ -86,5 +85,10 @@
         "BJT and FET Applications"
       ]
     }
+  ],
+  "review_notes": [
+    "Checked code/title, module numbers/names (wrapped names already repaired), topic traceability, atomicity, exclusion of self-learning and prerequisite text against source_pages.",
+    "Edit: removed 'Sums on Phasors' (a numericals/procedure phrase, not a concept).",
+    "Uncertain: R/L/C combinations in AC series-parallel circuits not split out."
   ]
 }

@@ -2,12 +2,12 @@
   "family": "nep26-se-electrical",
   "course_code": "2214112",
   "course_title": "Electromagnetic Fields and Waves",
-  "source_pdf": "data/raw/2019-scheme/Electrical-Computer-Engineering/6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf",
+  "source_pdf": "data/raw/NEP_syllabus/Electrical-Computer-Engineering/6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf",
   "source_pages": [
     43,
     44
   ],
-  "status": "DRAFT - needs human sign-off",
+  "status": "AI-REVIEWED, human sign-off pending",
   "modules": [
     {
       "number": "1",
@@ -118,5 +118,9 @@
         "EMP"
       ]
     }
+  ],
+  "review_notes": [
+    "Checked code, title, module numbers/names and every topic against source_pages text (PyMuPDF); prerequisite text excluded; no self-learning rows present.",
+    "No edits needed. Prerequisite (Basic Electrical Engineering and Basic Vectors) excluded. PDF typos (Maxwells, Bio Savart, Stroke's) kept. Module 1 topic 'Vector analysis' repeats the module name but is traceable."
   ]
 }

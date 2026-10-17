@@ -2,14 +2,14 @@
   "family": "nep26-fe-sem12",
   "course_code": "BSC101",
   "course_title": "Applied Mathematics-I",
-  "source_pdf": "data/raw/2019-scheme/AIML/6.9N-AIML.pdf",
+  "source_pdf": "data/raw/NEP_syllabus/AIML/6.9N-AIML_sem1 & sem2.pdf",
   "source_pages": [
     15,
     16,
     17,
     18
   ],
-  "status": "DRAFT - needs human sign-off",
+  "status": "AI-REVIEWED, human sign-off pending",
   "modules": [
     {
       "number": "01",
@@ -82,5 +82,9 @@
         "Gauss Seidel iteration method"
       ]
     }
+  ],
+  "review_notes": [
+    "Checked code/title, module numbers/names (wrapped names already repaired), topic traceability, atomicity, exclusion of self-learning and prerequisite text against source_pages.",
+    "No edits; prerequisite text (D'Moivre, inverse of matrix etc.) and self-learning topics correctly excluded."
   ]
 }

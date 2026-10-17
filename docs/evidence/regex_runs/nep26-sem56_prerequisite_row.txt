@@ -1,9 +1,0 @@
-command: PYTHONIOENCODING=utf-8 python spikes/nep26-sem56_runs.py   (pdf=data/raw/_unclassified/SEM-V.pdf)
-regex name: prerequisite_row
-regex: first non-blank line of the module region == ^0+$ (Sr.No 0), optionally followed by (?i)^\s*pre-?\s*requisites?\s*$ then free text then a hours cell like '00'/'01'/'-'
-matched/total: 18/21 courses with module table
-label variants: {'labelled Prerequisite': 16, 'labelled Pre-Requisite': 1, 'unlabelled': 1}
-failures (verbatim):
-2165116: region begins [(33, 9, 'I'), (33, 10, 'Introduction To'), (33, 11, 'Computer')]
-IKS501: region begins [(54, 98, '2*+2'), (54, 99, '--'), (54, 100, '--')]
-2166113: region begins [(71, 73, 'I'), (71, 74, 'Introduction to'), (71, 75, 'IoT')]

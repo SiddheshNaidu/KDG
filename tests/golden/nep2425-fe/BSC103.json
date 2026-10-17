@@ -7,7 +7,7 @@
     2,
     3
   ],
-  "status": "DRAFT - needs human sign-off",
+  "status": "AI-REVIEWED, human sign-off pending",
   "modules": [
     {
       "number": "1",
@@ -29,7 +29,21 @@
         "Wet or Electrochemical Corrosion",
         "Factors Affecting Rate of Corrosion",
         "Methods to Control Corrosion",
-        "Corrosion in Electronic Devices"
+        "Corrosion in Electronic Devices",
+        "Position of Metal in Galvanic Series",
+        "Purity of Metal",
+        "Nature of Corrosion Product",
+        "Temperature",
+        "pH of Medium",
+        "Concentration of Medium",
+        "Moisture",
+        "Relative Cathodic and Anodic Area",
+        "Overvoltage",
+        "Selection of Metal",
+        "Proper Designing",
+        "Cathodic Protection",
+        "Corrosion Inhibitors",
+        "Metallic Coating"
       ]
     },
     {
@@ -40,7 +54,8 @@
         "Gibbs Phase Rule",
         "Reduced Phase Rule",
         "Two-Component System",
-        "Merits and Limitations of Phase Rule"
+        "Merits and Limitations of Phase Rule",
+        "Pb-Ag System"
       ]
     },
     {
@@ -55,7 +70,23 @@
         "Glass Transition Temperature",
         "Mechanical Properties of Polymers",
         "Electrical Properties of Polymers",
-        "Optical Properties of Polymers"
+        "Optical Properties of Polymers",
+        "Macromolecular Science",
+        "Number Average Molecular Weight",
+        "Weight Average Molecular Weight",
+        "Crystalline and Amorphous Polymers",
+        "Hardness",
+        "Tensile Strength",
+        "Creep",
+        "Fatigue",
+        "Impact Resistance",
+        "Dielectric Strength",
+        "Insulation Resistance",
+        "Surface Resistivity",
+        "Refractive Index",
+        "Transmittance",
+        "Photoelectric Property",
+        "Colour"
       ]
     },
     {
@@ -82,5 +113,11 @@
         "Ethanol as Green Fuel"
       ]
     }
+  ],
+  "review_notes": [
+    "Checked code/title, module numbers/names (wrapped names already repaired), topic traceability, atomicity, exclusion of self-learning and prerequisite text against source_pages.",
+    "Module 4/5/6 names wrap in the PDF ('Introductio'+'n to Polymers', 'developmen'+'t'); golden holds repaired names.",
+    "Edit: added enumerated sub-items under corrosion factors/control methods and polymer properties (14+16 topics) plus 'Pb-Ag System'; draft had only the A/B/C headings.",
+    "Uncertain: 'Temperature' and 'Moisture' are single generic words but are the PDF's own listed factors; types of calorific value and numerical items not added."
   ]
 }

@@ -9,7 +9,7 @@
     56,
     57
   ],
-  "status": "DRAFT - needs human sign-off",
+  "status": "AI-REVIEWED, human sign-off pending",
   "modules": [
     {
       "number": "I",
@@ -17,7 +17,6 @@
       "topics": [
         "Nada (sound)",
         "Shruti",
-        "Frequency, pitch and harmonic content",
         "Shruti system",
         "Frequency discrimination",
         "Resonance",
@@ -30,7 +29,10 @@
         "Pada, Krama and Ghana patha",
         "Built-in redundancy",
         "Error detection and correction",
-        "Redundancy in digital communication"
+        "Redundancy in digital communication",
+        "Frequency",
+        "Pitch",
+        "Harmonic content"
       ]
     },
     {
@@ -133,5 +135,10 @@
         "Sanskrit digital tools"
       ]
     }
+  ],
+  "review_notes": [
+    "Checked code/title, module numbers/names (wrapped names already repaired), topic traceability, atomicity, exclusion of self-learning and prerequisite text against source_pages.",
+    "Edit: split comma bundle 'Frequency, pitch and harmonic content' into Frequency, Pitch, Harmonic content (PDF lists them separately).",
+    "Uncertain: 'Pada, Krama and Ghana patha' kept as one bundle (PDF writes 'Pada, Krama, Ghana patha' as one phrase); module II name is just 'Tradition' in the PDF."
   ]
 }

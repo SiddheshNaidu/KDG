@@ -2,13 +2,13 @@
   "family": "nep26-se-chem-it-a",
   "course_code": "2073111",
   "course_title": "Chemical Engineering Mathematics",
-  "source_pdf": "data/raw/2019-scheme/Chemical-Engineering/6.40-N-Chemical-Engineering-Sem-III-IV.pdf",
+  "source_pdf": "data/raw/NEP_syllabus/Chemical-Engineering/6.40-N-Chemical-Engineering-Sem-III-IV.pdf",
   "source_pages": [
     15,
     16,
     17
   ],
-  "status": "DRAFT - needs human sign-off",
+  "status": "AI-REVIEWED, human sign-off pending",
   "modules": [
     {
       "number": "01",
@@ -35,7 +35,7 @@
     },
     {
       "number": "03",
-      "name": "Numerical Methods for Ordinary Differential Equations (ODE):",
+      "name": "Numerical Methods for Ordinary Differential Equations (ODE)",
       "topics": [
         "Euler's method",
         "Runge-Kutta second order method"
@@ -77,5 +77,10 @@
         "Applications of Laplace transforms to ODE"
       ]
     }
+  ],
+  "review_notes": [
+    "Checked code, title, module numbers/names and every topic against source_pages text (PyMuPDF; PDF read from data/raw/NEP_syllabus since data/raw/2019-scheme in source_pdf no longer exists on disk); prerequisite and self-learning text excluded.",
+    "Edit: module 03 name had a trailing colon not in the PDF ('(ODE):' -> '(ODE)'); no topic edits.",
+    "Chemical-engineering application prose ('Applying to chemical engineering problems...', 'Application to chemical engineering problems') excluded as non-concept; 'Introduction' items excluded as generic."
   ]
 }

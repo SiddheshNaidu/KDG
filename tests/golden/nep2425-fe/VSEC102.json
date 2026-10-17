@@ -7,7 +7,7 @@
     1,
     2
   ],
-  "status": "DRAFT - needs human sign-off",
+  "status": "AI-REVIEWED, human sign-off pending",
   "modules": [
     {
       "number": "1",
@@ -19,7 +19,6 @@
         "Constants",
         "Variables",
         "Arithmetic Operators",
-        "Relational and Logical Operators",
         "Assignment Operators",
         "Unary Operators",
         "Conditional Operator",
@@ -30,7 +29,9 @@
         "Library Functions",
         "Preprocessor",
         "Data Input and Output Functions",
-        "Structure of C Program"
+        "Structure of C Program",
+        "Relational Operators",
+        "Logical Operators"
       ]
     },
     {
@@ -62,7 +63,8 @@
         "Auto Storage Class",
         "Extern Storage Class",
         "Static Storage Class",
-        "Register Storage Class"
+        "Register Storage Class",
+        "Function Main"
       ]
     },
     {
@@ -108,5 +110,10 @@
         "Processing a File"
       ]
     }
+  ],
+  "review_notes": [
+    "Checked code/title, module numbers/names (wrapped names already repaired), topic traceability, atomicity, exclusion of self-learning and prerequisite text against source_pages.",
+    "Edit: split 'Relational and Logical Operators' into two topics; added 'Function Main' (PDF 3.1).",
+    "Uncertain: 'Array Declaration and Definition' and 'Structure Declaration and Initialization' left as 'A and B' bundles (PDF lists them in one phrase)."
   ]
 }

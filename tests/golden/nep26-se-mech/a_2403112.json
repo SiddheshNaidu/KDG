@@ -2,16 +2,105 @@
   "family": "nep26-se-mech-a",
   "course_code": "2403112",
   "course_title": "Strength of Materials",
-  "source_pdf": "data/raw/2019-scheme/Mechanical-Engineering/6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf",
-  "source_pages": [20, 21],
-  "status": "DRAFT - needs human sign-off",
+  "source_pdf": "data/raw/NEP_syllabus/Mechanical-Engineering/6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf",
+  "source_pages": [
+    20,
+    21
+  ],
+  "status": "AI-REVIEWED, human sign-off pending",
   "notes": "Modules 1 and 2 have no module-title line in the PDF (only dotted sub-items), so name is null. Sub-items 1.1/1.2/2.1/2.2/2.3 carry their own titles; they are NOT modules. Hours/CO tails dropped.",
   "modules": [
-    {"number": "1", "name": null, "topics": ["Deformation in solids", "Hooke's law", "Stress and strain", "Tension stress", "Compression stress", "Shear stress", "Stress strain diagram", "Elastic constants and their relations", "Volumetric strain", "Linear strain", "Shear strain", "Thermal stress and strain", "Principal stresses", "Principal planes", "Mohr's circle"]},
-    {"number": "2", "name": null, "topics": ["Area moment of inertia about centroidal axes", "Parallel axes theorem", "Polar moment of inertia", "Torsion equation", "Torsion of circular shafts", "Stresses in shafts transmitting power", "Strain energy under gradual loads", "Strain energy under sudden loads", "Strain energy under impact loads", "Strain energy due to bending", "Strain energy due to torsion"]},
-    {"number": "3", "name": "Shear Force and Bending Moment Diagrams in Beams", "topics": ["Types of beams", "Supports and loadings", "Bending moment", "Shear force", "Load, shear force and bending moment relationship", "Diagrams for point load", "Diagrams for uniformly distributed loads", "Diagrams for couple and their combinations"]},
-    {"number": "4", "name": "Stresses in Beams and Thin Shells", "topics": ["Theory of bending of beams", "Bending stress distribution", "Shear stress distribution", "Simply supported beams", "Cantilever beams", "Thin cylindrical shells", "Thin spherical shells", "Stresses in thin shells under internal pressure"]},
-    {"number": "5", "name": "Deflection of Beams", "topics": ["Deflection of a beam", "Double integration method", "Macauley's method", "Slopes and deflection in beams"]},
-    {"number": "6", "name": "Columns", "topics": ["Buckling load", "Types of end conditions for column", "Euler's column theory", "Limitations of Euler's theory", "Rankine formula"]}
+    {
+      "number": "1",
+      "name": null,
+      "topics": [
+        "Deformation in solids",
+        "Hooke's law",
+        "Stress and strain",
+        "Tension stress",
+        "Compression stress",
+        "Shear stress",
+        "Stress strain diagram",
+        "Elastic constants and their relations",
+        "Volumetric strain",
+        "Linear strain",
+        "Shear strain",
+        "Thermal stress and strain",
+        "Principal stresses",
+        "Principal planes",
+        "Mohr's circle"
+      ]
+    },
+    {
+      "number": "2",
+      "name": null,
+      "topics": [
+        "Area moment of inertia about centroidal axes",
+        "Parallel axes theorem",
+        "Polar moment of inertia",
+        "Torsion equation",
+        "Torsion of circular shafts",
+        "Stresses in shafts transmitting power",
+        "Strain energy under gradual loads",
+        "Strain energy under sudden loads",
+        "Strain energy under impact loads",
+        "Strain energy due to bending",
+        "Strain energy due to torsion"
+      ]
+    },
+    {
+      "number": "3",
+      "name": "Shear Force and Bending Moment Diagrams in Beams",
+      "topics": [
+        "Types of beams",
+        "Supports and loadings",
+        "Bending moment",
+        "Shear force",
+        "Load, shear force and bending moment relationship",
+        "Diagrams for point load",
+        "Diagrams for uniformly distributed loads",
+        "Diagrams for couple and their combinations"
+      ]
+    },
+    {
+      "number": "4",
+      "name": "Stresses in Beams and Thin Shells",
+      "topics": [
+        "Theory of bending of beams",
+        "Bending stress distribution",
+        "Shear stress distribution",
+        "Simply supported beams",
+        "Cantilever beams",
+        "Thin cylindrical shells",
+        "Thin spherical shells",
+        "Stresses in thin shells under internal pressure"
+      ]
+    },
+    {
+      "number": "5",
+      "name": "Deflection of Beams",
+      "topics": [
+        "Deflection of a beam",
+        "Double integration method",
+        "Macauley's method",
+        "Slopes and deflection in beams"
+      ]
+    },
+    {
+      "number": "6",
+      "name": "Columns",
+      "topics": [
+        "Buckling load",
+        "Types of end conditions for column",
+        "Euler's column theory",
+        "Limitations of Euler's theory",
+        "Rankine formula"
+      ]
+    }
+  ],
+  "review_notes": [
+    "Checked code/title, module numbers 1-6, module 3-6 names against PDF pp20-21; modules 1 and 2 have no title in PDF so name null is correct.",
+    "All topics traced to PDF text; Pre-requisites line (p20), Textbooks and hours/CO tails excluded.",
+    "No edits. Uncertain: granularity (e.g. tension/compression/shear stress split; 'solid and hollow' qualifier in torsion dropped) is a judgement."
   ]
 }

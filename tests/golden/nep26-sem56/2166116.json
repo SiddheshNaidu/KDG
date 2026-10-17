@@ -8,7 +8,7 @@
     86,
     87
   ],
-  "status": "DRAFT - needs human sign-off",
+  "status": "AI-REVIEWED, human sign-off pending",
   "modules": [
     {
       "number": "I",
@@ -110,5 +110,10 @@
         "Autonomous systems"
       ]
     }
+  ],
+  "review_notes": [
+    "Checked code/title, module numbers/names (wrapped names already repaired), topic traceability, atomicity, exclusion of self-learning and prerequisite text against source_pages.",
+    "No edits; stray 'Security in IoT and Edge Systems' line on p86 (self-learning) correctly excluded.",
+    "Uncertain: 'Edge computing use cases' and 'Edge nodes for video analytics' are borderline heading/phrase topics, kept."
   ]
 }

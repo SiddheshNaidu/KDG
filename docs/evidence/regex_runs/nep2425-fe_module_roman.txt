@@ -1,8 +1,0 @@
-command: PYTHONIOENCODING=utf-8 python spikes/nep2425-fe_regex.py
-regex: ^[ \t]*(I|II|III|IV|V|VI)[ \t]*$  (flags re.M, applied to region DETAILED SYLLABUS..stop marker)
-matched/total: 3/3
-ESC102: [('I', 'page 1 line 79'), ('II', 'page 1 line 90'), ('III', 'page 2 line 8'), ('IV', 'page 2 line 18'), ('V', 'page 2 line 27'), ('VI', 'page 2 line 36')]
-BSC103: [('I', 'page 2 line 30'), ('II', 'page 2 line 41'), ('III', 'page 2 line 60'), ('IV', 'page 3 line 7'), ('V', 'page 3 line 28'), ('VI', 'page 3 line 38')]
-ESC101: [('I', 'page 2 line 29'), ('II', 'page 2 line 47'), ('III', 'page 2 line 51'), ('IV', 'page 2 line 67'), ('V', 'page 3 line 2'), ('VI', 'page 3 line 14')]
-failures:
-  (none)

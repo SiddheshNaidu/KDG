@@ -9,7 +9,7 @@
     4,
     5
   ],
-  "status": "DRAFT - needs human sign-off",
+  "status": "AI-REVIEWED, human sign-off pending",
   "modules": [
     {
       "number": "1",
@@ -19,7 +19,29 @@
         "Process of Communication",
         "Methods of Communication",
         "Barriers to Communication",
-        "Organisational Communication"
+        "Organisational Communication",
+        "Definition of Communication",
+        "Objectives of Communication",
+        "Postulates of Communication",
+        "Stimulus",
+        "Sender",
+        "Encoding",
+        "Message",
+        "Medium",
+        "Channel",
+        "Receiver",
+        "Decoding",
+        "Feedback",
+        "Verbal Communication",
+        "Non-verbal Communication",
+        "Mechanical Barriers",
+        "Physical Barriers",
+        "Semantic and Linguistic Barriers",
+        "Psychological Barriers",
+        "Socio-cultural Barriers",
+        "Formal Communication",
+        "Informal Communication",
+        "Grapevine"
       ]
     },
     {
@@ -27,7 +49,10 @@
       "name": "Developing Basic Listening Skills",
       "topics": [
         "Concepts of Active Listening",
-        "Enhancing Listening Proficiency"
+        "Enhancing Listening Proficiency",
+        "Listening for Details",
+        "Listening for Gist",
+        "Listening for Inference"
       ]
     },
     {
@@ -38,7 +63,11 @@
         "Conversational Activities - Dialogues",
         "Pronunciation",
         "Stress and Rhythm",
-        "Intonation"
+        "Intonation",
+        "Neutralisation of Accent",
+        "Word Stress",
+        "Rhythm and Pauses",
+        "Tonal Variations"
       ]
     },
     {
@@ -48,7 +77,34 @@
         "Verbal Aptitude",
         "Grammar",
         "Techniques to Improve Reading Fluency and Comprehension",
-        "Reading and Summarisation Skills"
+        "Reading and Summarisation Skills",
+        "Root Words",
+        "Synonyms",
+        "Antonyms",
+        "Collocations",
+        "Prefixes",
+        "Suffixes",
+        "Subject-Verb Agreement",
+        "Articles",
+        "Prepositions",
+        "Misplaced Modifiers",
+        "Punctuation",
+        "Redundancies",
+        "Idioms",
+        "Cliches",
+        "Intensive Reading",
+        "Extensive Reading",
+        "Skimming",
+        "Scanning",
+        "SQ5R Method",
+        "Graphic Organisers",
+        "Venn Diagrams",
+        "Mindmaps",
+        "Tree Diagrams",
+        "Cyclic Diagrams",
+        "Flow Charts",
+        "Timelines",
+        "Pyramids"
       ]
     },
     {
@@ -59,7 +115,31 @@
         "Seven Cs of Business Writing",
         "Format and Types of Formal Letters",
         "Writing User Instructions",
-        "Social Media and e-Commerce Content Creation"
+        "Social Media and e-Commerce Content Creation",
+        "Coherence",
+        "Cohesive Devices",
+        "Structure of a Paragraph",
+        "Completeness",
+        "Conciseness",
+        "Consideration",
+        "Concreteness",
+        "Clarity",
+        "Courtesy",
+        "Correctness",
+        "Request or Permission Letter",
+        "Claim and Adjustment Letter",
+        "Sales Letter",
+        "E-mails",
+        "Styles of Instruction Presentation",
+        "Special Notices",
+        "Blogs",
+        "Poetry",
+        "Keynote Speeches",
+        "Podcast Titles",
+        "Landing Pages",
+        "Social Media Posts",
+        "YouTube Video Description",
+        "Script Writing"
       ]
     },
     {
@@ -73,8 +153,20 @@
         "Ethical Principles",
         "Ethical Use of AI Tools",
         "Plagiarism and Copyright Infringement",
-        "Ethical-Dilemma Case Studies"
+        "Ethical-Dilemma Case Studies",
+        "Forming",
+        "Storming",
+        "Norming",
+        "Performing",
+        "Adjourning",
+        "SMART Goals"
       ]
     }
+  ],
+  "review_notes": [
+    "Checked code/title, module numbers/names (wrapped names already repaired), topic traceability, atomicity, exclusion of self-learning and prerequisite text against source_pages.",
+    "Title verified on page 1 (AEC 101, Professional Communication & Ethics; golden uses 'and').",
+    "Edit: the draft held only sub-section headings (1.1, 1.2 ...); added 86 atomic concepts listed under them (communication process elements, barriers, listening types, reading techniques, Seven Cs, letter types, content types, team stages, SMART goals), following the convention of other goldens that list enumerated items.",
+    "Uncertain: scope of what to enumerate is a judgement call; 'Definition/Objectives/Postulates of Communication' added as the PDF's own list; graphic organiser list kept to the main types; the human reviewer may prefer a shorter set."
   ]
 }

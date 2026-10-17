@@ -2,16 +2,129 @@
   "family": "nep26-se-mech-b",
   "course_code": "2394112",
   "course_title": "Manufacturing Processes",
-  "source_pdf": "data/raw/2019-scheme/Mecanical-Automation-Engineering/6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf",
-  "source_pages": [55, 56],
-  "status": "DRAFT - needs human sign-off",
+  "source_pdf": "data/raw/NEP_syllabus/Mecanical-Automation-Engineering/6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf",
+  "source_pages": [
+    55,
+    56
+  ],
+  "status": "AI-REVIEWED, human sign-off pending",
   "notes": "Odd layout: Roman numeral alone except 'III Metal Forming' on one line; module names wrap and the tail of a name can appear AFTER the CO tail (module 3 ' and Sheet metal working processes', module 4 'Machining Processes'); CO tail spelled 'C02','C03' (zero) for modules 2-3; glued words ('Introductionandclassificationofmetalworkingproces / ses') in module 3; dotted numbering '1.1.' with trailing dot. Prerequisite row ('0') precedes module I and is excluded. Topic 'CO2 molding' is a real topic but trips rule R7 (false positive).",
   "modules": [
-    {"number": "I", "name": "Introduction to Manufacturing process and Metal Casting", "topics": ["Classification of manufacturing processes", "Pattern making materials", "Types of pattern", "Pattern allowances", "Sand molding", "Machine molding", "Gating system", "Types of riser", "Types of gates", "Solidification", "CO2 molding", "Shell molding", "Investment casting", "Die casting", "Vacuum casting", "Casting inspection", "Casting defects and remedies"]},
-    {"number": "II", "name": "Joining Processes", "topics": ["Classification of joining processes", "Adhesive bonding", "Mechanical fastening", "Welding and allied processes", "Hybrid joining processes", "Classification of welding methods", "Gas welding", "Arc welding", "Chemical welding", "Radiant welding", "Solid state welding", "Welding joints", "Welding positions", "Welding defects and remedies"]},
-    {"number": "III", "name": "Metal Forming Process and Sheet metal working processes", "topics": ["Classification of metal working processes", "Hot and cold working processes", "Forging operations", "Rolling operations", "Defects in rolled and forged components", "Extrusion process", "Wire and tube drawing processes", "Classification of sheet metal operations", "Presses used in sheet metal operations", "Types of dies"]},
-    {"number": "IV", "name": "Machine Tools, Machining Processes", "topics": ["Lathe machines", "Milling machines", "Drilling machines", "Grinding machines", "Selection of grinding wheel", "Broaching machines", "Lapping and honing machines", "Shaping, slotting and planing machines", "Gear milling", "Gear hobbing", "Gear shaping", "Gear shaving", "Gear grinding", "Single point cutting tool geometry", "Speed", "Feed", "Depth of cut", "Chip formation", "Types of chips"]},
-    {"number": "V", "name": "Non Traditional Machining Processes", "topics": ["Electro-chemical machining", "Electric-discharge machining", "Ultrasonic machining", "Laser beam machining"]},
-    {"number": "VI", "name": "Polymer Processing, Powder Metallurgy and Intelligent manufacturing in the context of Industry 4.0", "topics": ["Polymer molding techniques", "Applications of plastics in engineering", "Powder metallurgy", "Powder making processes", "Steps in powder metallurgy", "Compaction processes", "Sintering processes", "Secondary and finishing operations", "Cyber-physical systems", "Internet of Things enabled manufacturing", "Cloud manufacturing"]}
+    {
+      "number": "I",
+      "name": "Introduction to Manufacturing process and Metal Casting",
+      "topics": [
+        "Classification of manufacturing processes",
+        "Pattern making materials",
+        "Types of pattern",
+        "Pattern allowances",
+        "Sand molding",
+        "Machine molding",
+        "Gating system",
+        "Types of riser",
+        "Types of gates",
+        "Solidification",
+        "CO2 molding",
+        "Shell molding",
+        "Investment casting",
+        "Die casting",
+        "Vacuum casting",
+        "Casting inspection",
+        "Casting defects and remedies"
+      ]
+    },
+    {
+      "number": "II",
+      "name": "Joining Processes",
+      "topics": [
+        "Classification of joining processes",
+        "Adhesive bonding",
+        "Mechanical fastening",
+        "Welding and allied processes",
+        "Hybrid joining processes",
+        "Classification of welding methods",
+        "Gas welding",
+        "Arc welding",
+        "Chemical welding",
+        "Radiant welding",
+        "Solid state welding",
+        "Welding joints",
+        "Welding positions",
+        "Welding defects and remedies"
+      ]
+    },
+    {
+      "number": "III",
+      "name": "Metal Forming Process and Sheet metal working processes",
+      "topics": [
+        "Classification of metal working processes",
+        "Hot and cold working processes",
+        "Forging operations",
+        "Rolling operations",
+        "Defects in rolled and forged components",
+        "Extrusion process",
+        "Wire and tube drawing processes",
+        "Classification of sheet metal operations",
+        "Presses used in sheet metal operations",
+        "Types of dies"
+      ]
+    },
+    {
+      "number": "IV",
+      "name": "Machine Tools, Machining Processes",
+      "topics": [
+        "Lathe machines",
+        "Milling machines",
+        "Drilling machines",
+        "Grinding machines",
+        "Selection of grinding wheel",
+        "Broaching machines",
+        "Lapping and honing machines",
+        "Shaping, slotting and planing machines",
+        "Gear milling",
+        "Gear hobbing",
+        "Gear shaping",
+        "Gear shaving",
+        "Gear grinding",
+        "Single point cutting tool geometry",
+        "Speed",
+        "Feed",
+        "Depth of cut",
+        "Chip formation",
+        "Types of chips"
+      ]
+    },
+    {
+      "number": "V",
+      "name": "Non Traditional Machining Processes",
+      "topics": [
+        "Electro-chemical machining",
+        "Electric-discharge machining",
+        "Ultrasonic machining",
+        "Laser beam machining"
+      ]
+    },
+    {
+      "number": "VI",
+      "name": "Polymer Processing, Powder Metallurgy and Intelligent manufacturing in the context of Industry 4.0",
+      "topics": [
+        "Polymer molding techniques",
+        "Applications of plastics in engineering",
+        "Powder metallurgy",
+        "Powder making processes",
+        "Steps in powder metallurgy",
+        "Compaction processes",
+        "Sintering processes",
+        "Secondary and finishing operations",
+        "Cyber-physical systems",
+        "Internet of Things enabled manufacturing",
+        "Cloud manufacturing"
+      ]
+    }
+  ],
+  "review_notes": [
+    "Checked code/title, module I-VI names (including wrapped names and tails of names placed after the CO tail on p55) and all topics vs PDF pp55-56; all topics traceable, none invented. Prerequisite row ('0'), References and hours/CO tails excluded.",
+    "No edits. 'CO2 molding' kept as a real topic (rule R7 false positive). Module 3 name reconstructed from split parts 'Metal Forming Process' + 'and Sheet metal working processes'.",
+    "Uncertain: granularity of 'Gating system' (sub-list 'Types of riser/gates, solidification') and enumerations like 'Gas, Arc, Chemical, Radiant, Solid State' welding split as separate topics is a judgement."
   ]
 }

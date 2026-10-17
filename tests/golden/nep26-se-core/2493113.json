@@ -1,89 +1,93 @@
 {
- "family": "nep26-se-core",
- "course_code": "2493113",
- "course_title": "Analysis of Algorithm",
- "source_pdf": "data/raw/2019-scheme/Computer-Science-Engineering/6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf",
- "source_pages": [
-  22,
-  23
- ],
- "status": "DRAFT - needs human sign-off",
- "modules": [
-  {
-   "number": "I",
-   "name": "Introduction",
-   "topics": [
-    "Performance analysis",
-    "Master method",
-    "Space complexity",
-    "Time complexity",
-    "Growth of function",
-    "Big-Oh notation",
-    "Omega notation",
-    "Theta notation",
-    "Mathematical background for algorithm analysis",
-    "Analysis of selection sort",
-    "Analysis of insertion sort"
-   ]
-  },
-  {
-   "number": "II",
-   "name": "Divide and Conquer Approach",
-   "topics": [
-    "General method",
-    "Merge sort",
-    "Quick sort",
-    "Analysis of binary search"
-   ]
-  },
-  {
-   "number": "III",
-   "name": "Greedy Method Approach",
-   "topics": [
-    "General method",
-    "Single source shortest path",
-    "Dijkstra algorithm",
-    "Fractional knapsack problem",
-    "Minimum cost spanning trees",
-    "Kruskal algorithm",
-    "Prim's algorithm"
-   ]
-  },
-  {
-   "number": "IV",
-   "name": "Dynamic Programming Approach",
-   "topics": [
-    "General method",
-    "Multistage graphs",
-    "All pair shortest path",
-    "Floyd Warshall algorithm",
-    "0/1 knapsack problem",
-    "Travelling salesperson problem",
-    "Longest common subsequence"
-   ]
-  },
-  {
-   "number": "V",
-   "name": "Backtracking and Branch and bound",
-   "topics": [
-    "General method",
-    "Backtracking",
-    "N-queen problem",
-    "Sum of subsets",
-    "Graph coloring",
-    "Branch and bound",
-    "Travelling salesperson problem",
-    "15 puzzle problem"
-   ]
-  },
-  {
-   "number": "VI",
-   "name": "String Matching Algorithms",
-   "topics": [
-    "Naive string-matching algorithm",
-    "Rabin Karp algorithm",
-    "Knuth-Morris-Pratt algorithm"
-   ]
-  }
- ]
+  "family": "nep26-se-core",
+  "course_code": "2493113",
+  "course_title": "Analysis of Algorithm",
+  "source_pdf": "data/raw/NEP_syllabus/Computer-Science-Engineering/6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf",
+  "source_pages": [
+    22,
+    23
+  ],
+  "status": "AI-REVIEWED, human sign-off pending",
+  "modules": [
+    {
+      "number": "I",
+      "name": "Introduction",
+      "topics": [
+        "Performance analysis",
+        "Master method",
+        "Space complexity",
+        "Time complexity",
+        "Growth of function",
+        "Big-Oh notation",
+        "Omega notation",
+        "Theta notation",
+        "Mathematical background for algorithm analysis",
+        "Analysis of selection sort",
+        "Analysis of insertion sort"
+      ]
+    },
+    {
+      "number": "II",
+      "name": "Divide and Conquer Approach",
+      "topics": [
+        "General method",
+        "Merge sort",
+        "Quick sort",
+        "Analysis of binary search"
+      ]
+    },
+    {
+      "number": "III",
+      "name": "Greedy Method Approach",
+      "topics": [
+        "General method",
+        "Single source shortest path",
+        "Dijkstra algorithm",
+        "Fractional knapsack problem",
+        "Minimum cost spanning trees",
+        "Kruskal algorithm",
+        "Prim's algorithm"
+      ]
+    },
+    {
+      "number": "IV",
+      "name": "Dynamic Programming Approach",
+      "topics": [
+        "General method",
+        "Multistage graphs",
+        "All pair shortest path",
+        "Floyd Warshall algorithm",
+        "0/1 knapsack problem",
+        "Travelling salesperson problem",
+        "Longest common subsequence"
+      ]
+    },
+    {
+      "number": "V",
+      "name": "Backtracking and Branch and bound",
+      "topics": [
+        "General method",
+        "Backtracking",
+        "N-queen problem",
+        "Sum of subsets",
+        "Graph coloring",
+        "Branch and bound",
+        "Travelling salesperson problem",
+        "15 puzzle problem"
+      ]
+    },
+    {
+      "number": "VI",
+      "name": "String Matching Algorithms",
+      "topics": [
+        "Naive string-matching algorithm",
+        "Rabin Karp algorithm",
+        "Knuth-Morris-Pratt algorithm"
+      ]
+    }
+  ],
+  "review_notes": [
+    "Checked code, title, module numbers/names and every topic against source_pages text (PyMuPDF); self-learning and prerequisite text excluded.",
+    "No edits needed. Complexity-class and other self-learning text correctly excluded; 'Performance analysis- Master Method' split into two topics."
+  ]
 }

@@ -1,0 +1,437 @@
+{
+"course": "2115116",
+"title": "Internet Programming",
+"modules": [
+{
+"index": 1,
+"name": "Introduction to Internet and web technology"
+},
+{
+"index": 2,
+"name": "Type script"
+},
+{
+"index": 3,
+"name": "Angular JS"
+},
+{
+"index": 4,
+"name": "Backend: Mongo DB"
+},
+{
+"index": 5,
+"name": "Web Extensions – XML Integration using AngularJS and MongoDB"
+},
+{
+"index": 6,
+"name": "Python-based Web Framework: Flask"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Internet fundamentals",
+"module": 1
+},
+{
+"id": "t2",
+"name": "web architecture and protocols. -HTTP request and response messages",
+"module": 1
+},
+{
+"id": "t3",
+"name": "web clients and web servers -HTML",
+"module": 1
+},
+{
+"id": "t4",
+"name": "versions and basic elements -HTML5",
+"module": 1
+},
+{
+"id": "t5",
+"name": "headings",
+"module": 1
+},
+{
+"id": "t6",
+"name": "paragraphs",
+"module": 1
+},
+{
+"id": "t7",
+"name": "colors",
+"module": 1
+},
+{
+"id": "t8",
+"name": "fonts",
+"module": 1
+},
+{
+"id": "t9",
+"name": "links",
+"module": 1
+},
+{
+"id": "t10",
+"name": "lists",
+"module": 1
+},
+{
+"id": "t11",
+"name": "tables",
+"module": 1
+},
+{
+"id": "t12",
+"name": "images",
+"module": 1
+},
+{
+"id": "t13",
+"name": "forms -Difference between HTML and HTML 5 -Git &GitHub",
+"module": 1
+},
+{
+"id": "t14",
+"name": "pushing source code",
+"module": 1
+},
+{
+"id": "t15",
+"name": "pull requests",
+"module": 1
+},
+{
+"id": "t16",
+"name": "collaboration",
+"module": 1
+},
+{
+"id": "t17",
+"name": "Architecture",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Data types",
+"module": 2
+},
+{
+"id": "t19",
+"name": "variables and Operators",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Decision Making and Loops",
+"module": 2
+},
+{
+"id": "t21",
+"name": "Functions Object oriented Programming",
+"module": 2
+},
+{
+"id": "t22",
+"name": "Classes and objects",
+"module": 2
+},
+{
+"id": "t23",
+"name": "Constructors and access modifiers",
+"module": 2
+},
+{
+"id": "t24",
+"name": "Inheritance and method overriding",
+"module": 2
+},
+{
+"id": "t25",
+"name": "Interfaces and abstract classes Advanced Typescript Concepts",
+"module": 2
+},
+{
+"id": "t26",
+"name": "Generics in functions and classes",
+"module": 2
+},
+{
+"id": "t27",
+"name": "Union and intersection types",
+"module": 2
+},
+{
+"id": "t28",
+"name": "Type aliases and utility types",
+"module": 2
+},
+{
+"id": "t29",
+"name": "Type inference Type Script Modules DOM Manipulation and API Integration",
+"module": 2
+},
+{
+"id": "t30",
+"name": "Front End Framework Angular JS-framework using Angular CLI and NPM",
+"module": 3
+},
+{
+"id": "t31",
+"name": "CDN Link in script tag",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Expressions",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Creation of modules",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Data Binding",
+"module": 3
+},
+{
+"id": "t35",
+"name": "Controllers",
+"module": 3
+},
+{
+"id": "t36",
+"name": "Services",
+"module": 3
+},
+{
+"id": "t37",
+"name": "AJAX-$http",
+"module": 3
+},
+{
+"id": "t38",
+"name": "Event",
+"module": 3
+},
+{
+"id": "t39",
+"name": "Form Creation and Validation",
+"module": 3
+},
+{
+"id": "t40",
+"name": "API",
+"module": 3
+},
+{
+"id": "t41",
+"name": "Directives",
+"module": 3
+},
+{
+"id": "t42",
+"name": "Filters",
+"module": 3
+},
+{
+"id": "t43",
+"name": "Animation",
+"module": 3
+},
+{
+"id": "t44",
+"name": "Angular-Templates",
+"module": 3
+},
+{
+"id": "t45",
+"name": "Components",
+"module": 3
+},
+{
+"id": "t46",
+"name": "events",
+"module": 3
+},
+{
+"id": "t47",
+"name": "Conditional Rendering",
+"module": 3
+},
+{
+"id": "t48",
+"name": "List",
+"module": 3
+},
+{
+"id": "t49",
+"name": "Forms",
+"module": 3
+},
+{
+"id": "t50",
+"name": "Router",
+"module": 3
+},
+{
+"id": "t51",
+"name": "Services & Dependency Injection",
+"module": 3
+},
+{
+"id": "t52",
+"name": "Pipes",
+"module": 3
+},
+{
+"id": "t53",
+"name": "Lifecycle Hooks",
+"module": 3
+},
+{
+"id": "t54",
+"name": "Styling",
+"module": 3
+},
+{
+"id": "t55",
+"name": "Difference between Angular Js and Angular",
+"module": 3
+},
+{
+"id": "t56",
+"name": "Introduction of MongoDB",
+"module": 4
+},
+{
+"id": "t57",
+"name": "Why NoSQL? Difference between NoSQL and MongoDB",
+"module": 4
+},
+{
+"id": "t58",
+"name": "Administering User Accounts",
+"module": 4
+},
+{
+"id": "t59",
+"name": "Configuring Access Control Getting Started with MongoDB",
+"module": 4
+},
+{
+"id": "t60",
+"name": "Node.js -Adding the MongoDB Driver to Node.js",
+"module": 4
+},
+{
+"id": "t61",
+"name": "Connecting to MongoDB from Node.js",
+"module": 4
+},
+{
+"id": "t62",
+"name": "Accessing and Manipulating Databases",
+"module": 4
+},
+{
+"id": "t63",
+"name": "Manipulating MongoDB Documents from Node.js",
+"module": 4
+},
+{
+"id": "t64",
+"name": "Accessing MongoDB from Node.js",
+"module": 4
+},
+{
+"id": "t65",
+"name": "Introduction to XML and XML Schema",
+"module": 5
+},
+{
+"id": "t66",
+"name": "Linking XML with DTD",
+"module": 5
+},
+{
+"id": "t67",
+"name": "Validation of XML document using DTD",
+"module": 5
+},
+{
+"id": "t68",
+"name": "XML DOM Parser",
+"module": 5
+},
+{
+"id": "t69",
+"name": "Transformation of XML with HTML using XSLT",
+"module": 5
+},
+{
+"id": "t70",
+"name": "$http service methods",
+"module": 5
+},
+{
+"id": "t71",
+"name": "get () and post ()",
+"module": 5
+},
+{
+"id": "t72",
+"name": "Understanding flow of XML data from AngularJS to MongoDB",
+"module": 5
+},
+{
+"id": "t73",
+"name": "XML in REST web services",
+"module": 5
+},
+{
+"id": "t74",
+"name": "Introduction to Flask & Environment Setup",
+"module": 6
+},
+{
+"id": "t75",
+"name": "Flask Application Structure & Routing",
+"module": 6
+},
+{
+"id": "t76",
+"name": "Flask HTTP Methods & Request Object",
+"module": 6
+},
+{
+"id": "t77",
+"name": "Templates and Jinja2",
+"module": 6
+},
+{
+"id": "t78",
+"name": "Cookies",
+"module": 6
+},
+{
+"id": "t79",
+"name": "Sessions",
+"module": 6
+},
+{
+"id": "t80",
+"name": "Flash Messages",
+"module": 6
+},
+{
+"id": "t81",
+"name": "File Uploading in Flask",
+"module": 6
+}
+]
+}

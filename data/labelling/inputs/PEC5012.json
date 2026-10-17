@@ -1,0 +1,307 @@
+{
+"course": "PEC5012",
+"title": "Data Structure & Algorithms",
+"modules": [
+{
+"index": 1,
+"name": "Introduction to Data Structures"
+},
+{
+"index": 2,
+"name": "Stack and Queues"
+},
+{
+"index": 3,
+"name": "Linked List"
+},
+{
+"index": 4,
+"name": "Trees & Graphs"
+},
+{
+"index": 5,
+"name": "Divide and Conquer Approach & Greedy Method"
+},
+{
+"index": 6,
+"name": "String Matching Algorithms"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Introduction to Data Structures",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Concept of ADT",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Types of Data Structures- Linear and Nonlinear",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Operations on Data Structures",
+"module": 1
+},
+{
+"id": "t5",
+"name": "ADT of Stack",
+"module": 2
+},
+{
+"id": "t6",
+"name": "Operations on Stack",
+"module": 2
+},
+{
+"id": "t7",
+"name": "Array Implementation of Stack",
+"module": 2
+},
+{
+"id": "t8",
+"name": "Applications of Stack-Well form-ness of Parenthesis",
+"module": 2
+},
+{
+"id": "t9",
+"name": "Infix to Postfix Conversion and Postfix Evaluation Introduction",
+"module": 2
+},
+{
+"id": "t10",
+"name": "ADT of Queue",
+"module": 2
+},
+{
+"id": "t11",
+"name": "Operations on Queue",
+"module": 2
+},
+{
+"id": "t12",
+"name": "Array Implementation of Queue",
+"module": 2
+},
+{
+"id": "t13",
+"name": "Types of Queue-Circular Queue",
+"module": 2
+},
+{
+"id": "t14",
+"name": "Priority Queue",
+"module": 2
+},
+{
+"id": "t15",
+"name": "Double Ended Queue",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Applications of Queue",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Representation of Linked List",
+"module": 3
+},
+{
+"id": "t18",
+"name": "Linked List v/s Array",
+"module": 3
+},
+{
+"id": "t19",
+"name": "Types of Linked List",
+"module": 3
+},
+{
+"id": "t20",
+"name": "Singly Linked List",
+"module": 3
+},
+{
+"id": "t21",
+"name": "Circular Linked List",
+"module": 3
+},
+{
+"id": "t22",
+"name": "Doubly Linked List",
+"module": 3
+},
+{
+"id": "t23",
+"name": "Operations on Singly Linked List and Doubly Linked List",
+"module": 3
+},
+{
+"id": "t24",
+"name": "Stack & Queue using Singly Linked List",
+"module": 3
+},
+{
+"id": "t25",
+"name": "Singly Linked List Application- Polynomial Representation & Addition",
+"module": 3
+},
+{
+"id": "t26",
+"name": "Tree Terminologies",
+"module": 4
+},
+{
+"id": "t27",
+"name": "Binary Tree",
+"module": 4
+},
+{
+"id": "t28",
+"name": "Binary Tree Representation",
+"module": 4
+},
+{
+"id": "t29",
+"name": "Types of Binary Tree",
+"module": 4
+},
+{
+"id": "t30",
+"name": "Binary Tree Traversals",
+"module": 4
+},
+{
+"id": "t31",
+"name": "Binary Search Tree",
+"module": 4
+},
+{
+"id": "t32",
+"name": "Operations on Binary Search Tree",
+"module": 4
+},
+{
+"id": "t33",
+"name": "Applications of Binary Tree-Expression Tree",
+"module": 4
+},
+{
+"id": "t34",
+"name": "Huffman Encoding",
+"module": 4
+},
+{
+"id": "t35",
+"name": "Search Trees-AVL",
+"module": 4
+},
+{
+"id": "t36",
+"name": "rotations in AVL Tree",
+"module": 4
+},
+{
+"id": "t37",
+"name": "operations on AVL Tree Introduction",
+"module": 4
+},
+{
+"id": "t38",
+"name": "Graph Terminologies",
+"module": 4
+},
+{
+"id": "t39",
+"name": "Representation of Graph",
+"module": 4
+},
+{
+"id": "t40",
+"name": "Graph Traversals- Depth First Search (DFS)",
+"module": 4
+},
+{
+"id": "t41",
+"name": "Breadth First Search (BFS)",
+"module": 4
+},
+{
+"id": "t42",
+"name": "Graph Application- Topological Sorting",
+"module": 4
+},
+{
+"id": "t43",
+"name": "General method",
+"module": 5
+},
+{
+"id": "t44",
+"name": "Merge sort",
+"module": 5
+},
+{
+"id": "t45",
+"name": "Quick sort",
+"module": 5
+},
+{
+"id": "t46",
+"name": "Finding minimum & maximum algorithms and their Analysis",
+"module": 5
+},
+{
+"id": "t47",
+"name": "Analysis of Binary search",
+"module": 5
+},
+{
+"id": "t48",
+"name": "Single source shortest path",
+"module": 5
+},
+{
+"id": "t49",
+"name": "Dijkstra Algorithm Fractional Knapsack problem",
+"module": 5
+},
+{
+"id": "t50",
+"name": "Job sequencing with deadlines",
+"module": 5
+},
+{
+"id": "t51",
+"name": "Minimum cost spanning trees",
+"module": 5
+},
+{
+"id": "t52",
+"name": "Kruskal and Prim‟s algorithms",
+"module": 5
+},
+{
+"id": "t53",
+"name": "Naïve string-matching algorithm",
+"module": 6
+},
+{
+"id": "t54",
+"name": "Rabin Karp algorithm",
+"module": 6
+},
+{
+"id": "t55",
+"name": "Knuth-Morris-Pratt algorithm",
+"module": 6
+}
+]
+}

@@ -1,0 +1,412 @@
+{
+"course": "2116111",
+"title": "Machine Learning",
+"modules": [
+{
+"index": 1,
+"name": "Introduction to Machine Learning"
+},
+{
+"index": 2,
+"name": "Supervised Learning"
+},
+{
+"index": 3,
+"name": "Unsupervised Learning"
+},
+{
+"index": 4,
+"name": "Ensemble Learning"
+},
+{
+"index": 5,
+"name": "Probabilistic Learning"
+},
+{
+"index": 6,
+"name": "Dimensionality Reduction Techniques"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Machine Learning",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Types of Machine Learning",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Issues in Machine Learning",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Application of Machine Learning",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Steps in developing a Machine Learning Application Training Error",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Generalization error",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Overfitting",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Underfitting",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Bias-Variance trade-off",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Learning with Regression",
+"module": 2
+},
+{
+"id": "t11",
+"name": "Linear Regression",
+"module": 2
+},
+{
+"id": "t12",
+"name": "Multivariate Linear Regression",
+"module": 2
+},
+{
+"id": "t13",
+"name": "Logistic Regression Classification using Decision Tree",
+"module": 2
+},
+{
+"id": "t14",
+"name": "Classification and Regression Trees using GINI Index Support Vector Machine Optimal decision boundary",
+"module": 2
+},
+{
+"id": "t15",
+"name": "Margins and support vectors",
+"module": 2
+},
+{
+"id": "t16",
+"name": "SVM as Constrained optimization problem",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Quadratic Programming",
+"module": 2
+},
+{
+"id": "t18",
+"name": "SVM for linear and nonlinear classification",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Kernel trick",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Performance Evaluation Measures",
+"module": 2
+},
+{
+"id": "t21",
+"name": "Accuracy",
+"module": 2
+},
+{
+"id": "t22",
+"name": "Precision",
+"module": 2
+},
+{
+"id": "t23",
+"name": "Recall",
+"module": 2
+},
+{
+"id": "t24",
+"name": "F1-measure",
+"module": 2
+},
+{
+"id": "t25",
+"name": "ROC AUC",
+"module": 2
+},
+{
+"id": "t26",
+"name": "_ specificity",
+"module": 2
+},
+{
+"id": "t27",
+"name": "Clustering",
+"module": 3
+},
+{
+"id": "t28",
+"name": "Definition of clusters",
+"module": 3
+},
+{
+"id": "t29",
+"name": "motivation Distance and similarity measures",
+"module": 3
+},
+{
+"id": "t30",
+"name": "Manhattan",
+"module": 3
+},
+{
+"id": "t31",
+"name": "Euclidian",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Cosine Similarity",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Inter-cluster distance",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Intra-cluster distance Graph Based Clustering",
+"module": 3
+},
+{
+"id": "t35",
+"name": "Minimum Spanning Tree Centroid based Clustering",
+"module": 3
+},
+{
+"id": "t36",
+"name": "K-Means Density based Clustering",
+"module": 3
+},
+{
+"id": "t37",
+"name": "DBSCAN",
+"module": 3
+},
+{
+"id": "t38",
+"name": "Advantages over K-Means Performance Evaluation Measures",
+"module": 3
+},
+{
+"id": "t39",
+"name": "Silhouette Coefficient",
+"module": 3
+},
+{
+"id": "t40",
+"name": "Davies Bouldin Index (DBI)",
+"module": 3
+},
+{
+"id": "t41",
+"name": "Dunn Index (DI)",
+"module": 3
+},
+{
+"id": "t42",
+"name": "Ensembles",
+"module": 4
+},
+{
+"id": "t43",
+"name": "Motivation for Ensembles",
+"module": 4
+},
+{
+"id": "t44",
+"name": "Ensemble learning and generalization",
+"module": 4
+},
+{
+"id": "t45",
+"name": "Base learners vs Strong Learners",
+"module": 4
+},
+{
+"id": "t46",
+"name": "Hard voting vs Soft voting",
+"module": 4
+},
+{
+"id": "t47",
+"name": "Weighted Averaging Bootstrap aggregating (Bagging)",
+"module": 4
+},
+{
+"id": "t48",
+"name": "Out of Bag Error Estimation",
+"module": 4
+},
+{
+"id": "t49",
+"name": "Random Forest Stacking",
+"module": 4
+},
+{
+"id": "t50",
+"name": "Meta Learning",
+"module": 4
+},
+{
+"id": "t51",
+"name": "Base level and Meta level models",
+"module": 4
+},
+{
+"id": "t52",
+"name": "Blending Boosting",
+"module": 4
+},
+{
+"id": "t53",
+"name": "Stumps",
+"module": 4
+},
+{
+"id": "t54",
+"name": "Adaboost Comparison of Bagging vs Boosting",
+"module": 4
+},
+{
+"id": "t55",
+"name": "Probabilistic modeling",
+"module": 5
+},
+{
+"id": "t56",
+"name": "motivation",
+"module": 5
+},
+{
+"id": "t57",
+"name": "Deterministic vs Probabilistic modeling",
+"module": 5
+},
+{
+"id": "t58",
+"name": "Likelihood",
+"module": 5
+},
+{
+"id": "t59",
+"name": "Prior",
+"module": 5
+},
+{
+"id": "t60",
+"name": "Posterior",
+"module": 5
+},
+{
+"id": "t61",
+"name": "Maximum Likelihood Estimation (MLE) Bayesian Belief Network (BBN)",
+"module": 5
+},
+{
+"id": "t62",
+"name": "Probabilistic Reasoning",
+"module": 5
+},
+{
+"id": "t63",
+"name": "Bayesian network",
+"module": 5
+},
+{
+"id": "t64",
+"name": "Directed Acyclic Graph (DAG) Structure of BBN",
+"module": 5
+},
+{
+"id": "t65",
+"name": "Inference using BBN Expectation Maximization (EM)",
+"module": 5
+},
+{
+"id": "t66",
+"name": "Motivation and Need",
+"module": 5
+},
+{
+"id": "t67",
+"name": "Definition of EM",
+"module": 5
+},
+{
+"id": "t68",
+"name": "EM and MLE",
+"module": 5
+},
+{
+"id": "t69",
+"name": "EM Algorithm",
+"module": 5
+},
+{
+"id": "t70",
+"name": "Curse of Dimensionality Algorithms",
+"module": 6
+},
+{
+"id": "t71",
+"name": "Principal Component Analysis(PCA)",
+"module": 6
+},
+{
+"id": "t72",
+"name": "Singular Value Decomposition (SVD)",
+"module": 6
+},
+{
+"id": "t73",
+"name": "Linear Discriminant Analysis (LDA) Applications of PCA",
+"module": 6
+},
+{
+"id": "t74",
+"name": "Image Compression/Image Classification Applications of SVD",
+"module": 6
+},
+{
+"id": "t75",
+"name": "Image Reconstruction Applications of LDA",
+"module": 6
+},
+{
+"id": "t76",
+"name": "Financial risk assessment/ Customer segmentation",
+"module": 6
+}
+]
+}

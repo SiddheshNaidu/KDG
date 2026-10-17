@@ -1,0 +1,806 @@
+{
+"course": "24051143",
+"title": "PEC-1 - Machinery Diagnostics",
+"topics": [
+{
+"id": "t1",
+"name": "Mechanical Vibration Fundamentals",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Definition of Vibration",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Natural Frequency",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Resonance",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Causes and effects of vibrations",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Importance of vibration analysis in mechanical systems",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Applications of vibration monitoring",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Basic Elements of Vibrating Systems",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Springs",
+"module": 1
+},
+{
+"id": "t10",
+"name": "mass",
+"module": 1
+},
+{
+"id": "t11",
+"name": "damper",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Vibrating motions",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Degree of freedom",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Static equilibrium position",
+"module": 1
+},
+{
+"id": "t15",
+"name": "Types of vibration",
+"module": 1
+},
+{
+"id": "t16",
+"name": "Free Undamped Single Degree of Freedom Vibration System",
+"module": 1
+},
+{
+"id": "t17",
+"name": "Longitudinal",
+"module": 1
+},
+{
+"id": "t18",
+"name": "transverse",
+"module": 1
+},
+{
+"id": "t19",
+"name": "torsional vibratory systems",
+"module": 1
+},
+{
+"id": "t20",
+"name": "Conversion of Physical Systems into Spring",
+"module": 1
+},
+{
+"id": "t21",
+"name": "Damper Model",
+"module": 1
+},
+{
+"id": "t22",
+"name": "Concept of mathematical modelling of mechanical systems",
+"module": 1
+},
+{
+"id": "t23",
+"name": "Need of mathematical modelling",
+"module": 1
+},
+{
+"id": "t24",
+"name": "Idealization of real mechanical systems",
+"module": 1
+},
+{
+"id": "t25",
+"name": "Equivalent spring mass representation",
+"module": 1
+},
+{
+"id": "t26",
+"name": "Lumped parameter systems",
+"module": 1
+},
+{
+"id": "t27",
+"name": "Methods for formulation of differential equations",
+"module": 1
+},
+{
+"id": "t28",
+"name": "Newton",
+"module": 1
+},
+{
+"id": "t29",
+"name": "Energy",
+"module": 1
+},
+{
+"id": "t30",
+"name": "Lagrangian and Rayleigh's method",
+"module": 1
+},
+{
+"id": "t31",
+"name": "Free Damped Single Degree of Freedom Vibration System",
+"module": 2
+},
+{
+"id": "t32",
+"name": "Introduction to different methods of damping",
+"module": 2
+},
+{
+"id": "t33",
+"name": "Study and analysis of viscous damped system (under, critical and overdamped)",
+"module": 2
+},
+{
+"id": "t34",
+"name": "Coulomb's damping (Combined Viscous and Coulomb damping excluded)",
+"module": 2
+},
+{
+"id": "t35",
+"name": "Equivalent Single Degree of Freedom Vibration System",
+"module": 2
+},
+{
+"id": "t36",
+"name": "Conversion of multi springs",
+"module": 2
+},
+{
+"id": "t37",
+"name": "multi masses",
+"module": 2
+},
+{
+"id": "t38",
+"name": "multi-dampers into a single spring",
+"module": 2
+},
+{
+"id": "t39",
+"name": "damper with linear or rotational co-ordinate system",
+"module": 2
+},
+{
+"id": "t40",
+"name": "Forced Single Degree of Freedom Vibratory System",
+"module": 3
+},
+{
+"id": "t41",
+"name": "Analysis of linear and torsional systems subjected to harmonic force excitation and motion excitation",
+"module": 3
+},
+{
+"id": "t42",
+"name": "Vibration Isolation and Transmissibility",
+"module": 3
+},
+{
+"id": "t43",
+"name": "Force Transmissibility",
+"module": 3
+},
+{
+"id": "t44",
+"name": "motion transmissibility",
+"module": 3
+},
+{
+"id": "t45",
+"name": "typical isolators & mounts",
+"module": 3
+},
+{
+"id": "t46",
+"name": "Vibration Measuring Instruments",
+"module": 3
+},
+{
+"id": "t47",
+"name": "Need for vibration measurement",
+"module": 3
+},
+{
+"id": "t48",
+"name": "Measurement Parameters used in vibration analysis",
+"module": 3
+},
+{
+"id": "t49",
+"name": "Units of vibration measurement",
+"module": 3
+},
+{
+"id": "t50",
+"name": "Time domain and frequency domain representation",
+"module": 3
+},
+{
+"id": "t51",
+"name": "Spectral Amplitude Scaling",
+"module": 3
+},
+{
+"id": "t52",
+"name": "RMS",
+"module": 3
+},
+{
+"id": "t53",
+"name": "Peak",
+"module": 3
+},
+{
+"id": "t54",
+"name": "Peak-to-Peak and Peak Particle Velocity",
+"module": 3
+},
+{
+"id": "t55",
+"name": "Selection criteria",
+"module": 3
+},
+{
+"id": "t56",
+"name": "Principle of seismic instruments",
+"module": 3
+},
+{
+"id": "t57",
+"name": "vibrometer",
+"module": 3
+},
+{
+"id": "t58",
+"name": "accelerometer",
+"module": 3
+},
+{
+"id": "t59",
+"name": "undamped and damped",
+"module": 3
+},
+{
+"id": "t60",
+"name": "Vibration Measuring Sensors",
+"module": 3
+},
+{
+"id": "t61",
+"name": "Concept of sensors and transducers",
+"module": 3
+},
+{
+"id": "t62",
+"name": "Role of sensors in condition monitoring and fault detection",
+"module": 3
+},
+{
+"id": "t63",
+"name": "Sensor output signals and signal conditioning",
+"module": 3
+},
+{
+"id": "t64",
+"name": "Types of Vibration Sensors",
+"module": 3
+},
+{
+"id": "t65",
+"name": "Displacement",
+"module": 3
+},
+{
+"id": "t66",
+"name": "Velocity",
+"module": 3
+},
+{
+"id": "t67",
+"name": "acceleration",
+"module": 3
+},
+{
+"id": "t68",
+"name": "proximity & MEMS-Based sensors",
+"module": 3
+},
+{
+"id": "t69",
+"name": "Sensor Selection Criteria",
+"module": 3
+},
+{
+"id": "t70",
+"name": "Measurement range",
+"module": 3
+},
+{
+"id": "t71",
+"name": "Frequency range",
+"module": 3
+},
+{
+"id": "t72",
+"name": "Sensitivity",
+"module": 3
+},
+{
+"id": "t73",
+"name": "Accuracy and resolution",
+"module": 3
+},
+{
+"id": "t74",
+"name": "Environmental conditions",
+"module": 3
+},
+{
+"id": "t75",
+"name": "Mounting requirements",
+"module": 3
+},
+{
+"id": "t76",
+"name": "Cost and reliability",
+"module": 3
+},
+{
+"id": "t77",
+"name": "Introduction to Condition Monitoring Techniques",
+"module": 4
+},
+{
+"id": "t78",
+"name": "Overview of condition monitoring and maintenance principles",
+"module": 4
+},
+{
+"id": "t79",
+"name": "time and frequency domain",
+"module": 4
+},
+{
+"id": "t80",
+"name": "phase and orbit analysis",
+"module": 4
+},
+{
+"id": "t81",
+"name": "vibration signal interpretation",
+"module": 4
+},
+{
+"id": "t82",
+"name": "Goals",
+"module": 4
+},
+{
+"id": "t83",
+"name": "steps",
+"module": 4
+},
+{
+"id": "t84",
+"name": "benefits of vibration based condition monitoring and fault prognosis",
+"module": 4
+},
+{
+"id": "t85",
+"name": "Data Acquisition & Signal Processing",
+"module": 4
+},
+{
+"id": "t86",
+"name": "Classification and analysis of signals",
+"module": 4
+},
+{
+"id": "t87",
+"name": "Fast Fourier Transform (FFT)",
+"module": 4
+},
+{
+"id": "t88",
+"name": "essentials of data acquisition systems",
+"module": 4
+},
+{
+"id": "t89",
+"name": "plot formats",
+"module": 4
+},
+{
+"id": "t90",
+"name": "frequency span",
+"module": 4
+},
+{
+"id": "t91",
+"name": "resolution",
+"module": 4
+},
+{
+"id": "t92",
+"name": "averaging",
+"module": 4
+},
+{
+"id": "t93",
+"name": "windowing",
+"module": 4
+},
+{
+"id": "t94",
+"name": "spectrum scaling",
+"module": 4
+},
+{
+"id": "t95",
+"name": "signal conditioning",
+"module": 4
+},
+{
+"id": "t96",
+"name": "Time and Frequency domain analysis to identify unbalance",
+"module": 5
+},
+{
+"id": "t97",
+"name": "bent shaft",
+"module": 5
+},
+{
+"id": "t98",
+"name": "Misalignment",
+"module": 5
+},
+{
+"id": "t99",
+"name": "Soft foot conditions",
+"module": 5
+},
+{
+"id": "t100",
+"name": "Mechanical looseness",
+"module": 5
+},
+{
+"id": "t101",
+"name": "Case studies based on applications like sugar mill and turbine.@",
+"module": 5
+},
+{
+"id": "t102",
+"name": "Rolling element bearing and Journal Bearing fault diagnosis",
+"module": 6
+},
+{
+"id": "t103",
+"name": "Faults related to Gearbox",
+"module": 6
+},
+{
+"id": "t104",
+"name": "vane defects in pumps",
+"module": 6
+},
+{
+"id": "t105",
+"name": "Fault in Fans and Blowers",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t35",
+"b": "t38",
+"a_name": "Equivalent Single Degree of Freedom Vibration System",
+"b_name": "multi-dampers into a single spring"
+},
+{
+"i": 1,
+"a": "t46",
+"b": "t48",
+"a_name": "Vibration Measuring Instruments",
+"b_name": "Measurement Parameters used in vibration analysis"
+},
+{
+"i": 2,
+"a": "t32",
+"b": "t33",
+"a_name": "Introduction to different methods of damping",
+"b_name": "Study and analysis of viscous damped system (under, critical and overdamped)"
+},
+{
+"i": 3,
+"a": "t64",
+"b": "t67",
+"a_name": "Types of Vibration Sensors",
+"b_name": "acceleration"
+},
+{
+"i": 4,
+"a": "t40",
+"b": "t42",
+"a_name": "Forced Single Degree of Freedom Vibratory System",
+"b_name": "Vibration Isolation and Transmissibility"
+},
+{
+"i": 5,
+"a": "t96",
+"b": "t98",
+"a_name": "Time and Frequency domain analysis to identify unbalance",
+"b_name": "Misalignment"
+},
+{
+"i": 6,
+"a": "t87",
+"b": "t91",
+"a_name": "Fast Fourier Transform (FFT)",
+"b_name": "resolution"
+},
+{
+"i": 7,
+"a": "t35",
+"b": "t36",
+"a_name": "Equivalent Single Degree of Freedom Vibration System",
+"b_name": "Conversion of multi springs"
+},
+{
+"i": 8,
+"a": "t40",
+"b": "t41",
+"a_name": "Forced Single Degree of Freedom Vibratory System",
+"b_name": "Analysis of linear and torsional systems subjected to harmonic force excitation and motion excitation"
+},
+{
+"i": 9,
+"a": "t11",
+"b": "t32",
+"a_name": "damper",
+"b_name": "Introduction to different methods of damping"
+},
+{
+"i": 10,
+"a": "t32",
+"b": "t34",
+"a_name": "Introduction to different methods of damping",
+"b_name": "Coulomb's damping (Combined Viscous and Coulomb damping excluded)"
+},
+{
+"i": 11,
+"a": "t35",
+"b": "t37",
+"a_name": "Equivalent Single Degree of Freedom Vibration System",
+"b_name": "multi masses"
+},
+{
+"i": 12,
+"a": "t81",
+"b": "t98",
+"a_name": "vibration signal interpretation",
+"b_name": "Misalignment"
+},
+{
+"i": 13,
+"a": "t77",
+"b": "t80",
+"a_name": "Introduction to Condition Monitoring Techniques",
+"b_name": "phase and orbit analysis"
+},
+{
+"i": 14,
+"a": "t42",
+"b": "t45",
+"a_name": "Vibration Isolation and Transmissibility",
+"b_name": "typical isolators & mounts"
+},
+{
+"i": 15,
+"a": "t81",
+"b": "t97",
+"a_name": "vibration signal interpretation",
+"b_name": "bent shaft"
+},
+{
+"i": 16,
+"a": "t41",
+"b": "t42",
+"a_name": "Analysis of linear and torsional systems subjected to harmonic force excitation and motion excitation",
+"b_name": "Vibration Isolation and Transmissibility"
+},
+{
+"i": 17,
+"a": "t48",
+"b": "t49",
+"a_name": "Measurement Parameters used in vibration analysis",
+"b_name": "Units of vibration measurement"
+},
+{
+"i": 18,
+"a": "t81",
+"b": "t99",
+"a_name": "vibration signal interpretation",
+"b_name": "Soft foot conditions"
+},
+{
+"i": 19,
+"a": "t22",
+"b": "t27",
+"a_name": "Concept of mathematical modelling of mechanical systems",
+"b_name": "Methods for formulation of differential equations"
+},
+{
+"i": 20,
+"a": "t80",
+"b": "t81",
+"a_name": "phase and orbit analysis",
+"b_name": "vibration signal interpretation"
+},
+{
+"i": 21,
+"a": "t35",
+"b": "t39",
+"a_name": "Equivalent Single Degree of Freedom Vibration System",
+"b_name": "damper with linear or rotational co-ordinate system"
+},
+{
+"i": 22,
+"a": "t31",
+"b": "t33",
+"a_name": "Free Damped Single Degree of Freedom Vibration System",
+"b_name": "Study and analysis of viscous damped system (under, critical and overdamped)"
+},
+{
+"i": 23,
+"a": "t50",
+"b": "t51",
+"a_name": "Time domain and frequency domain representation",
+"b_name": "Spectral Amplitude Scaling"
+},
+{
+"i": 24,
+"a": "t40",
+"b": "t56",
+"a_name": "Forced Single Degree of Freedom Vibratory System",
+"b_name": "Principle of seismic instruments"
+},
+{
+"i": 25,
+"a": "t79",
+"b": "t81",
+"a_name": "time and frequency domain",
+"b_name": "vibration signal interpretation"
+},
+{
+"i": 26,
+"a": "t87",
+"b": "t92",
+"a_name": "Fast Fourier Transform (FFT)",
+"b_name": "averaging"
+},
+{
+"i": 27,
+"a": "t50",
+"b": "t54",
+"a_name": "Time domain and frequency domain representation",
+"b_name": "Peak-to-Peak and Peak Particle Velocity"
+},
+{
+"i": 28,
+"a": "t41",
+"b": "t56",
+"a_name": "Analysis of linear and torsional systems subjected to harmonic force excitation and motion excitation",
+"b_name": "Principle of seismic instruments"
+},
+{
+"i": 29,
+"a": "t77",
+"b": "t78",
+"a_name": "Introduction to Condition Monitoring Techniques",
+"b_name": "Overview of condition monitoring and maintenance principles"
+},
+{
+"i": 30,
+"a": "t50",
+"b": "t79",
+"a_name": "Time domain and frequency domain representation",
+"b_name": "time and frequency domain"
+},
+{
+"i": 31,
+"a": "t25",
+"b": "t35",
+"a_name": "Equivalent spring mass representation",
+"b_name": "Equivalent Single Degree of Freedom Vibration System"
+},
+{
+"i": 32,
+"a": "t50",
+"b": "t53",
+"a_name": "Time domain and frequency domain representation",
+"b_name": "Peak"
+},
+{
+"i": 33,
+"a": "t87",
+"b": "t94",
+"a_name": "Fast Fourier Transform (FFT)",
+"b_name": "spectrum scaling"
+},
+{
+"i": 34,
+"a": "t88",
+"b": "t95",
+"a_name": "essentials of data acquisition systems",
+"b_name": "signal conditioning"
+},
+{
+"i": 35,
+"a": "t81",
+"b": "t100",
+"a_name": "vibration signal interpretation",
+"b_name": "Mechanical looseness"
+},
+{
+"i": 36,
+"a": "t61",
+"b": "t62",
+"a_name": "Concept of sensors and transducers",
+"b_name": "Role of sensors in condition monitoring and fault detection"
+},
+{
+"i": 37,
+"a": "t22",
+"b": "t25",
+"a_name": "Concept of mathematical modelling of mechanical systems",
+"b_name": "Equivalent spring mass representation"
+},
+{
+"i": 38,
+"a": "t31",
+"b": "t34",
+"a_name": "Free Damped Single Degree of Freedom Vibration System",
+"b_name": "Coulomb's damping (Combined Viscous and Coulomb damping excluded)"
+}
+]
+}

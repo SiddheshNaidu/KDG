@@ -10,6 +10,9 @@ sys.path.insert(0, ".")
 from app.ml.infer import Bundle, score_pairs, infer_course
 T = json.load(open("data/processed/topics_nep.json", encoding="utf-8"))
 test = [c for c, v in T.items() if v["split"] == "test"]
+def group(c):
+    f = T[c]["source_pdfs"][0]
+    return "Chemical Sem III-IV" if "6.40" in f else "Mechanical Sem III-IV" if "6.35" in f else "EXTC Sem 5/6 (unseen branch)" if "EXTC" in f else "Mechanical Sem 5/6 (unseen branch)" if "Mechanical" in f else "other"
 def course(c):
     v = T[c]; ts = [dict(id=t["id"], name=t["name"], module=t["module_idx"]) for t in v["topics"]]; ids = {t["id"]: i for i, t in enumerate(ts)}
     gold = {(ids[e["a"]], ids[e["b"]]) for e in json.load(open(os.environ.get("LABEL_DIR", "data/labelling/claude") + f"/{c}.json"))["edges"]}
@@ -17,7 +20,7 @@ def course(c):
 def prf(tp, pr, gd):
     P = tp / max(1, pr); R = tp / max(1, gd); return P, R, 2 * P * R / max(1e-9, P + R)
 def run(name):
-    b = Bundle.get(name); v5 = (name == "v5"); tp = pr = gd = utp = 0; dir_ok = linked = 0; ys = []; ps = []; per = {}; cal = []
+    b = Bundle.get(name); v5 = (name == "v5"); tp = pr = gd = utp = 0; dir_ok = linked = 0; ys = []; ps = []; per = {}; cal = []; grp = {}
     for c in test:
         ts, ids, gold, ctx = course(c)
         S = score_pairs(ts, b, direction_aware=not v5, ctx=ctx)
@@ -26,13 +29,14 @@ def run(name):
         t = len(pred & gold); tp += t; pr += len(pred); gd += len(gold); ut = len(und(pred) & und(gold)); utp += ut
         linked += ut; dir_ok += t
         per[c] = prf(t, len(pred), len(gold))[2]
+        grp.setdefault(group(c), [0, 0, 0]); g = grp[group(c)]; g[0] += t; g[1] += len(pred); g[2] += len(gold)
         for (i, j), p in S.items():
             ys.append(int((i, j) in gold)); ps.append(p)
             cal.append((p, int((i, j) in gold)))
     P, R, F = prf(tp, pr, gd); uP, uR, uF = prf(utp, pr, gd)
     # all-pairs scores exist only for direction-aware bundles (v5 scored forward pairs only: PR-AUC computed on those pairs, gold edges that point backwards count as misses)
     full = sum(1 for c in test for _ in [0])
-    return dict(P=P, R=R, F=F, uF=uF, dir_acc=(dir_ok / max(1, linked)), ap=average_precision_score(ys, ps), per=per, edges=pr, gold=gd, cal=cal, n_pairs=len(ys), base=np.mean(ys))
+    return dict(grp={k: prf(*v) for k, v in grp.items()}, P=P, R=R, F=F, uF=uF, dir_acc=(dir_ok / max(1, linked)), ap=average_precision_score(ys, ps), per=per, edges=pr, gold=gd, cal=cal, n_pairs=len(ys), base=np.mean(ys))
 def baselines():
     tp = pr = gd = 0; tp3 = pr3 = 0
     for c in test:

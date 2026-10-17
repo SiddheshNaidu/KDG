@@ -17,7 +17,8 @@ LAB_TITLE = re.compile(r"(?<![A-Za-z])(?:lab|laboratory|workshop|practical|mini[
 MAX_PAGE_GAP = 4  # a module table further than this from its course header is NOT attached (reported instead)
 STOP_HDR = re.compile(r"Website|Course\s+Outcome|Course\s+Objective|Title\s+of\s+Book|Textbook|Reference|Experiment|Sr\.?\s*No\.?\s*Name\s+of\s+Experiment", re.I)
 HOURS_RE = re.compile(r"^\d{1,2}$")
-END_ROW = re.compile(r"Text\s*Books?|Reference\s*Books?|Textbooks?|Web\s+References?|https?://|www\.|ISBN", re.I)
+END_CELL = re.compile(r"^\s*(?:Text\s*Books?|Reference\s*Books?|Textbooks?|Web\s+References?|Suggested\s+Reading|Books?\s*:)", re.I)
+URL_CELL = re.compile(r"^\s*(?:https?://|www\.)", re.I)
 
 def _norm(c) -> str:
     c = unicodedata.normalize("NFKC", c) if c else c
@@ -96,11 +97,17 @@ def extract_course_tables(pdf_path: str) -> list[CourseTables]:
             head = " ".join(_norm(c) for c in raw[0])
             ch = _course_header(raw)
             if ch:
-                cur = CourseTables(code=ch[0], title=ch[1], header_page=pn + 1)
-                cur.is_lab = bool(LAB_TITLE.search(ch[1]))
-                courses.append(cur); open_table = False
+                if cur is not None and cur.code == ch[0] and cur.header_page == pn + 1:
+                    pass   # second header table of the same course on the same page
+                else:
+                    cur = CourseTables(code=ch[0], title=ch[1], header_page=pn + 1)
+                    cur.is_lab = bool(LAB_TITLE.search(ch[1]))
+                    courses.append(cur); open_table = False
             # The module header may be row 0 or buried inside a bigger mis-detected table (e.g. merged with the exam scheme).
-            hdr_row = next((i for i, r in enumerate(raw) if HDR_MODULE.search(" ".join(_norm(c) for c in r))), None)
+            # The header row must show the text in ONE real cell of a row that has several cells (a merged banner cell also contains the words).
+            hdr_row = next((i for i, r in enumerate(raw)
+                            if any(HDR_MODULE.search(_norm(c)) for c in r)
+                            and sum(1 for c in t.rows[i].cells if c) >= 3), None)
             if cur is None:
                 continue
             if ch and hdr_row is None:
@@ -117,14 +124,14 @@ def extract_course_tables(pdf_path: str) -> list[CourseTables]:
             if hdr_row is not None:
                 cur.has_module_table = True; open_table = True
                 hc = [c for c in t.rows[hdr_row].cells if c]
-                cur.cols = [(c[0], c[2]) for c in hc]; cur.ncols = len(cur.cols); cur.x0, cur.x1 = t.bbox[0], t.bbox[2]
+                cur.cols = [(c[0], c[2]) for c in hc]; cur.ncols = len(cur.cols); cur.x0, cur.x1 = min(c[0] for c in cur.cols), max(c[1] for c in cur.cols)   # extent of the real header cells, not of a merged banner
                 body = _remap(t, raw, cur.cols)[hdr_row + 1:]
             elif open_table:
                 # A continuation must directly follow the previous module-table fragment: below it on the same page,
                 # or near the top of the next page, with the same horizontal extent, and must not look like another section.
                 same_x = abs(t.bbox[0] - cur.x0) < 25 and abs(t.bbox[2] - cur.x1) < 25
                 prev_h = doc[cur.last_page - 1].rect.height
-                reached_bottom = cur.last_y1 > prev_h - 200  # a table only continues on the next page if it ran to the page bottom
+                reached_bottom = cur.last_y1 > prev_h - 300  # a table only continues on the next page if it ran to the page bottom
                 follows = (pn + 1 == cur.last_page and t.bbox[1] >= cur.last_y1 - 2) or (pn + 1 == cur.last_page + 1 and t.bbox[1] < 140 and reached_bottom)
                 if cur.ended or STOP_HDR.search(head) or not same_x or not follows:
                     open_table = False
@@ -136,7 +143,7 @@ def extract_course_tables(pdf_path: str) -> list[CourseTables]:
             trimmed = []
             for r in body:
                 trimmed.append(r)
-                if END_ROW.search(" ".join(_norm(c) for c in r)):
+                if any(END_CELL.match(_norm(c)) or URL_CELL.match(_norm(c)) for c in r):
                     cur.ended = True; open_table = False
                     break
             body = trimmed

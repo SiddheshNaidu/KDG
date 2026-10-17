@@ -1,0 +1,492 @@
+{
+"course": "2073112",
+"title": "Fluid Flow Operations",
+"modules": [
+{
+"index": 1,
+"name": "Introduction and Basic Concepts"
+},
+{
+"index": 2,
+"name": "Fluid Flow Phenomena"
+},
+{
+"index": 3,
+"name": "Basic Equations of Fluid Flow"
+},
+{
+"index": 4,
+"name": "Flow of Incompressible fluids: Laminar/Turbulent"
+},
+{
+"index": 5,
+"name": "Flow of Compressible Fluids"
+},
+{
+"index": 6,
+"name": "Pumps, Valves and Agitators"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Scope and applications of fluid flow",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Properties of fluids",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Types of Fluids",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Pressure and Fluid Statics",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Fluid pressure at a point",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Pascal’s Law",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Pressure variation in a fluid at rest",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Hydrostatic equilibrium",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Measurement of pressure",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Manometers",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Piezometers",
+"module": 1
+},
+{
+"id": "t12",
+"name": "U- tube",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Single column manometer",
+"module": 1
+},
+{
+"id": "t14",
+"name": "tube differential manometer",
+"module": 1
+},
+{
+"id": "t15",
+"name": "Inverted differential U",
+"module": 1
+},
+{
+"id": "t16",
+"name": "tube manometer",
+"module": 1
+},
+{
+"id": "t17",
+"name": "Inclined manometer",
+"module": 1
+},
+{
+"id": "t18",
+"name": "Newton’s law of viscosity",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Kinematic viscosity",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Rheological behavior of fluid",
+"module": 2
+},
+{
+"id": "t21",
+"name": "Reynold’s experiment and Reynold’s number",
+"module": 2
+},
+{
+"id": "t22",
+"name": "Laminar and turbulent flow in boundary layer",
+"module": 2
+},
+{
+"id": "t23",
+"name": "Boundary layer formation in straight tube",
+"module": 2
+},
+{
+"id": "t24",
+"name": "Transition length for laminar and turbulent flow",
+"module": 2
+},
+{
+"id": "t25",
+"name": "Continuity equation",
+"module": 3
+},
+{
+"id": "t26",
+"name": "Bernoulli’s equation",
+"module": 3
+},
+{
+"id": "t27",
+"name": "Euler’s equation",
+"module": 3
+},
+{
+"id": "t28",
+"name": "Modified Bernoulli’s equation",
+"module": 3
+},
+{
+"id": "t29",
+"name": "Practical Application of Bernoulli’s Equation",
+"module": 3
+},
+{
+"id": "t30",
+"name": "Venturi meter",
+"module": 3
+},
+{
+"id": "t31",
+"name": "Horizontal and inclined",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Orifice meter",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Pitot tube",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Differential area flow meter",
+"module": 3
+},
+{
+"id": "t35",
+"name": "Rotameter",
+"module": 3
+},
+{
+"id": "t36",
+"name": "Shear stress distribution and velocity distribution",
+"module": 4
+},
+{
+"id": "t37",
+"name": "Relationship between skin friction and wall shear",
+"module": 4
+},
+{
+"id": "t38",
+"name": "Friction factor",
+"module": 4
+},
+{
+"id": "t39",
+"name": "Darcy- Weisbach equation",
+"module": 4
+},
+{
+"id": "t40",
+"name": "Local velocity",
+"module": 4
+},
+{
+"id": "t41",
+"name": "Maximum velocity",
+"module": 4
+},
+{
+"id": "t42",
+"name": "Average velocity",
+"module": 4
+},
+{
+"id": "t43",
+"name": "Kinetic energy correction factor",
+"module": 4
+},
+{
+"id": "t44",
+"name": "Hagen",
+"module": 4
+},
+{
+"id": "t45",
+"name": "Poiseullie equation",
+"module": 4
+},
+{
+"id": "t46",
+"name": "Moody diagram",
+"module": 4
+},
+{
+"id": "t47",
+"name": "Equivalent diameter for circular and non-circular ducts",
+"module": 4
+},
+{
+"id": "t48",
+"name": "Major and minor losses",
+"module": 4
+},
+{
+"id": "t49",
+"name": "Equivalent length",
+"module": 4
+},
+{
+"id": "t50",
+"name": "Frictional losses in different pipe fittings",
+"module": 4
+},
+{
+"id": "t51",
+"name": "Mach number",
+"module": 5
+},
+{
+"id": "t52",
+"name": "Sonic",
+"module": 5
+},
+{
+"id": "t53",
+"name": "Supersonic and Subsonic flow",
+"module": 5
+},
+{
+"id": "t54",
+"name": "Continuity equation and Bernoulli’s equation",
+"module": 5
+},
+{
+"id": "t55",
+"name": "Stagnation properties",
+"module": 5
+},
+{
+"id": "t56",
+"name": "Acoustic velocity",
+"module": 5
+},
+{
+"id": "t57",
+"name": "Adiabatic flow",
+"module": 5
+},
+{
+"id": "t58",
+"name": "Isothermal flow",
+"module": 5
+},
+{
+"id": "t59",
+"name": "Flow past immersed bodies",
+"module": 5
+},
+{
+"id": "t60",
+"name": "Drag Forces",
+"module": 5
+},
+{
+"id": "t61",
+"name": "Coefficient of Drag",
+"module": 5
+},
+{
+"id": "t62",
+"name": "One dimensional motion of particle through fluid",
+"module": 5
+},
+{
+"id": "t63",
+"name": "Terminal Settling Velocity",
+"module": 5
+},
+{
+"id": "t64",
+"name": "Stoke’s law",
+"module": 5
+},
+{
+"id": "t65",
+"name": "Stagnation Point",
+"module": 5
+},
+{
+"id": "t66",
+"name": "Classification and types",
+"module": 6
+},
+{
+"id": "t67",
+"name": "Centrifugal Pumps",
+"module": 6
+},
+{
+"id": "t68",
+"name": "Construction and Working",
+"module": 6
+},
+{
+"id": "t69",
+"name": "Power Requirement",
+"module": 6
+},
+{
+"id": "t70",
+"name": "Definitions of Heads and Efficiency",
+"module": 6
+},
+{
+"id": "t71",
+"name": "Specific Speed",
+"module": 6
+},
+{
+"id": "t72",
+"name": "Minimum Speed",
+"module": 6
+},
+{
+"id": "t73",
+"name": "Characteristic Curves",
+"module": 6
+},
+{
+"id": "t74",
+"name": "Cavitation",
+"module": 6
+},
+{
+"id": "t75",
+"name": "NPSH",
+"module": 6
+},
+{
+"id": "t76",
+"name": "NPSHA",
+"module": 6
+},
+{
+"id": "t77",
+"name": "NPSHR",
+"module": 6
+},
+{
+"id": "t78",
+"name": "Priming",
+"module": 6
+},
+{
+"id": "t79",
+"name": "Reciprocating Pump",
+"module": 6
+},
+{
+"id": "t80",
+"name": "Classifications and Working",
+"module": 6
+},
+{
+"id": "t81",
+"name": "Power Consumption in Agitation",
+"module": 6
+},
+{
+"id": "t82",
+"name": "Purpose of Agitation",
+"module": 6
+},
+{
+"id": "t83",
+"name": "Types of Impellers",
+"module": 6
+},
+{
+"id": "t84",
+"name": "Prevention of Swirling",
+"module": 6
+},
+{
+"id": "t85",
+"name": "Power Curves",
+"module": 6
+},
+{
+"id": "t86",
+"name": "Power Number Introduction to Compressors",
+"module": 6
+},
+{
+"id": "t87",
+"name": "Fans and Blowers",
+"module": 6
+},
+{
+"id": "t88",
+"name": "Types of Valves",
+"module": 6
+},
+{
+"id": "t89",
+"name": "Globe valve",
+"module": 6
+},
+{
+"id": "t90",
+"name": "Gate valve",
+"module": 6
+},
+{
+"id": "t91",
+"name": "Butterfly valve and Non",
+"module": 6
+},
+{
+"id": "t92",
+"name": "Return valve",
+"module": 6
+}
+]
+}

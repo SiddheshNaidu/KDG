@@ -1,0 +1,147 @@
+{
+ "2165111": {
+  "title": "Statistics for Machine Learning and Data Science",
+  "pdf": "NEP_Sem5_6_CSE-AIML.pdf",
+  "hash": "a360f2ca6d004b7b"
+ },
+ "2165112": {
+  "title": "Artificial Intelligence & Soft Computing",
+  "pdf": "NEP_Sem5_6_CSE-AIML.pdf",
+  "hash": "50a1e98edf1fd5b5"
+ },
+ "2165116": {
+  "title": "Computer Network",
+  "pdf": "NEP_Sem5_6_CSE-AIML.pdf",
+  "hash": "bee0832eda8dca21"
+ },
+ "2166114": {
+  "title": "Cyber Security",
+  "pdf": "NEP_Sem5_6_CSE-AIML.pdf",
+  "hash": "1a05c972e5a32093"
+ },
+ "2166115": {
+  "title": "Nature- Inspired Optimization Algorithms",
+  "pdf": "NEP_Sem5_6_CSE-AIML.pdf",
+  "hash": "ee577fb6f48dd23e"
+ },
+ "2073112": {
+  "title": "Fluid Flow Operations",
+  "pdf": "6.40-N-Chemical-Engineering-Sem-III-IV.pdf",
+  "hash": "431c479d4c2a5047"
+ },
+ "2115111": {
+  "title": "Software Engineering",
+  "pdf": "NEP_Sem5_6_Computer-Engineering.pdf",
+  "hash": "5c6773d5c0b5de8c"
+ },
+ "2115112": {
+  "title": "Computer Network",
+  "pdf": "NEP_Sem5_6_Computer-Engineering.pdf",
+  "hash": "8f00d4e693e5535f"
+ },
+ "2115113": {
+  "title": "Artificial Intelligence & Soft Computing",
+  "pdf": "NEP_Sem5_6_Computer-Engineering.pdf",
+  "hash": "2494d1a6ffedaefa"
+ },
+ "2115114": {
+  "title": "Data Warehousing and Mining",
+  "pdf": "NEP_Sem5_6_Computer-Engineering.pdf",
+  "hash": "626a2c2ae7d5649a"
+ },
+ "2115115": {
+  "title": "Computer Graphics",
+  "pdf": "NEP_Sem5_6_Computer-Engineering.pdf",
+  "hash": "7d7574caeee5d4c4"
+ },
+ "2115116": {
+  "title": "Internet Programming",
+  "pdf": "NEP_Sem5_6_Computer-Engineering.pdf",
+  "hash": "f0d61e4e84c0035e"
+ },
+ "2116111": {
+  "title": "Machine Learning",
+  "pdf": "NEP_Sem5_6_Computer-Engineering.pdf",
+  "hash": "3e717bd732eacddd"
+ },
+ "2116113": {
+  "title": "Internet of Things (IoT)",
+  "pdf": "NEP_Sem5_6_Computer-Engineering.pdf",
+  "hash": "d91b1d798cf863c0"
+ },
+ "2116114": {
+  "title": "Digital Imaging Techniques and Analysis",
+  "pdf": "NEP_Sem5_6_Computer-Engineering.pdf",
+  "hash": "ace3f0e4bd0fe3bc"
+ },
+ "2116117": {
+  "title": "Blockchain Technology",
+  "pdf": "NEP_Sem5_6_Computer-Engineering.pdf",
+  "hash": "efd69a983e818fa6"
+ },
+ "PCC501": {
+  "title": "Computer Communication Networks",
+  "pdf": "NEP_Sem5_6_EXTC.pdf",
+  "hash": "472d88f2b7c61ef1"
+ },
+ "PEC5012": {
+  "title": "Data Structure & Algorithms",
+  "pdf": "NEP_Sem5_6_EXTC.pdf",
+  "hash": "d52587532a3c983f"
+ },
+ "PEC6012": {
+  "title": "Analysis of Algorithm",
+  "pdf": "NEP_Sem5_6_EXTC.pdf",
+  "hash": "71beb1d9d00c28d4"
+ },
+ "PEC6022": {
+  "title": "Robotics",
+  "pdf": "NEP_Sem5_6_EXTC.pdf",
+  "hash": "823eeda615332c09"
+ },
+ "PEC6024": {
+  "title": "Network Management in Telecommunication",
+  "pdf": "NEP_Sem5_6_EXTC.pdf",
+  "hash": "2034d61c41eb2e5e"
+ },
+ "2405112": {
+  "title": "Measurements and Control",
+  "pdf": "NEP_Sem5_6_Mechanical-Engineering.pdf",
+  "hash": "69bed8b330f2a3aa"
+ },
+ "24051142": {
+  "title": "PEC-1 - Vibration Analysis and Control",
+  "pdf": "NEP_Sem5_6_Mechanical-Engineering.pdf",
+  "hash": "7831214f1931e507"
+ },
+ "24051143": {
+  "title": "PEC-1 - Machinery Diagnostics",
+  "pdf": "NEP_Sem5_6_Mechanical-Engineering.pdf",
+  "hash": "6142b0d34d6c8442"
+ },
+ "2405511": {
+  "title": "Indian Knowledge System-II",
+  "pdf": "NEP_Sem5_6_Mechanical-Engineering.pdf",
+  "hash": "b3675d437f825258"
+ },
+ "24061131": {
+  "title": "PEC-2 - Refrigeration & Air- Conditioning",
+  "pdf": "NEP_Sem5_6_Mechanical-Engineering.pdf",
+  "hash": "5b1c1572b5d05918"
+ },
+ "24061132": {
+  "title": "PEC-2 \u2013 Heating, Ventilation, Air-Conditioning & Refrigeration",
+  "pdf": "NEP_Sem5_6_Mechanical-Engineering.pdf",
+  "hash": "9b2455d60681b373"
+ },
+ "24061141": {
+  "title": "PEC-3 - Robotics",
+  "pdf": "NEP_Sem5_6_Mechanical-Engineering.pdf",
+  "hash": "eafab1b4a271cfb9"
+ },
+ "24061142": {
+  "title": "PEC-3 - Internet of Things (IoT)",
+  "pdf": "NEP_Sem5_6_Mechanical-Engineering.pdf",
+  "hash": "0459a8f988b3e7dc"
+ }
+}

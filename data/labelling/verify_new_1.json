@@ -1,0 +1,56 @@
+{
+ "verdicts": {
+  "2165111": {
+   "verdict": "FIXABLE",
+   "note": "6 modules complete; ~5% junk: hyphen/en-dash splits (Mann|Whitney U, Kruskal|Wallis, Davies|Bouldin index, t- SNE), stray '(conceptual)', glued 'Naive Bayes... k-NN classifier'; F1/MSE/R2 lost"
+  },
+  "2165112": {
+   "verdict": "FIXABLE",
+   "note": "6 modules complete; ~10% glued topics at missing separators (e.g. 'present state of AI Introduction to Soft Computing', 'McCulloch Pitt model Supervised Learning algorithms', 'Fuzzy Reasoning Fuzzy Inference System (FIS)', 'Comparative evaluation of Fuzzy'/'Neural')"
+  },
+  "2165116": {
+   "verdict": "OK",
+   "note": "6 modules complete, last not truncated; ~3% junk: 'Design Issues (Services to Network Layer, Framing' half paren + 'Error control, Flow control' fragment, one glued 'Elementary Data Link protocols MAC Sub layer'"
+  },
+  "2166114": {
+   "verdict": "FIXABLE",
+   "note": "6 modules complete; ~10% glued (e.g. 'Information Security (InfoSec) Cyber Security', 'Advanced Encryption Standard Public key cryptography', 'Key Management Hashing Techniques', 'Modes of digital payments Banking Cards', M6 'Data Labeling ... The Dual Role of AI') and split 'Devices-Related...'"
+  },
+  "2166115": {
+   "verdict": "FIXABLE",
+   "note": "6 modules complete; ~9% junk: en-dash splits (PSO|GA hybrid, Firefly|ANN hybrid), 'trade-off analysis. methods of MOO', 'front. solution', lost alpha/beta/delta in GWO, 'classical and evolutionary Evolutionary algorithm framework' glued"
+  },
+  "2073112": {
+   "verdict": "FIXABLE",
+   "note": "6 modules complete; ~8% junk from hyphen splits: 'U- tube','tube differential manometer','Inverted differential U|tube manometer','Hagen|Poiseullie','Butterfly valve and Non|Return valve', glued 'Power Number Introduction to Compressors'"
+  },
+  "2115111": {
+   "verdict": "FIXABLE",
+   "note": "6 modules complete; ~8% glued: 'Scenario based model (Usecase...) Software Requirement Specification...', 'Testing Techniques White-box testing', 'Black-box testing ; Graph based Static Testing'"
+  },
+  "2115112": {
+   "verdict": "FIXABLE",
+   "note": "6 modules complete; ~5% junk: stray '6 Introduction to IEEE standards' (from '2,6'), 'IIPv4 and IPv6' (source typo), glued 'addressing Subnetting and Supernetting', '5G spectrum technologies. 5G architecture'"
+  },
+  "2115113": {
+   "verdict": "FIXABLE",
+   "note": "6 modules complete; ~5% glued: 'History of AI Intelligent Agents', 'Depth First Iterative Deepening (DFID) Informed Search Method', 'syntax and Semantic Knowledge Engineering in FOL Inference in FOL'"
+  },
+  "2115114": {
+   "verdict": "OK",
+   "note": "6 modules complete, last not truncated; ~2% junk ('precision. recall'); nothing important lost"
+  },
+  "2115115": {
+   "verdict": "OK",
+   "note": "6 modules complete; only M4 first item glued '4.1 3D Object Transformation 4.2 3D Viewing pipeline' (~2%)"
+  },
+  "2115116": {
+   "verdict": "FIXABLE",
+   "note": "6 modules complete; ~12% glued at leading '-' bullets and missing separators: 'web architecture and protocols. -HTTP...', 'forms -Difference...', 'Why NoSQL? Difference...', 'Type inference Type Script Modules DOM Manipulation...', 'Front End Framework Angular JS-framework...'"
+  },
+  "2116111": {
+   "verdict": "FIXABLE",
+   "note": "6 modules complete but ~25% glued (headings without colon/after page break): 'Application Training Error' (Training Error split across pages), '_ specificity', 'Logistic Regression Classification using Decision Tree', 'Random Forest Stacking', 'Blending Boosting', 'Inference using BBN Expectation Maximization (EM)', 'Curse of Dimensionality Algorithms', etc.; content present, needs splitting"
+  }
+ }
+}

@@ -1,0 +1,920 @@
+{
+"course": "24051142",
+"title": "PEC-1 - Vibration Analysis and Control",
+"topics": [
+{
+"id": "t1",
+"name": "Mechanical Vibration Fundamentals",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Definition of Vibration",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Natural Frequency",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Resonance",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Causes and effects of vibrations",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Importance of vibration analysis in mechanical systems",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Applications of vibration monitoring",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Basic Elements of Vibrating Systems",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Springs",
+"module": 1
+},
+{
+"id": "t10",
+"name": "mass",
+"module": 1
+},
+{
+"id": "t11",
+"name": "damper",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Vibrating motions",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Degree of freedom",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Static equilibrium position",
+"module": 1
+},
+{
+"id": "t15",
+"name": "Types of vibration",
+"module": 1
+},
+{
+"id": "t16",
+"name": "Free Undamped Single Degree of Freedom Vibration System",
+"module": 1
+},
+{
+"id": "t17",
+"name": "Longitudinal",
+"module": 1
+},
+{
+"id": "t18",
+"name": "transverse",
+"module": 1
+},
+{
+"id": "t19",
+"name": "torsional vibratory systems",
+"module": 1
+},
+{
+"id": "t20",
+"name": "Conversion of Physical Systems into Spring",
+"module": 1
+},
+{
+"id": "t21",
+"name": "Damper Model",
+"module": 1
+},
+{
+"id": "t22",
+"name": "Concept of mathematical modelling of mechanical systems",
+"module": 1
+},
+{
+"id": "t23",
+"name": "Need of mathematical modelling",
+"module": 1
+},
+{
+"id": "t24",
+"name": "Idealization of real mechanical systems",
+"module": 1
+},
+{
+"id": "t25",
+"name": "Equivalent spring mass representation",
+"module": 1
+},
+{
+"id": "t26",
+"name": "Lumped parameter systems",
+"module": 1
+},
+{
+"id": "t27",
+"name": "Methods for formulation of differential equations",
+"module": 1
+},
+{
+"id": "t28",
+"name": "Newton",
+"module": 1
+},
+{
+"id": "t29",
+"name": "Energy",
+"module": 1
+},
+{
+"id": "t30",
+"name": "Lagrangian and Rayleigh's method",
+"module": 1
+},
+{
+"id": "t31",
+"name": "Free Damped Single Degree of Freedom Vibration System",
+"module": 2
+},
+{
+"id": "t32",
+"name": "Introduction to different methods of damping",
+"module": 2
+},
+{
+"id": "t33",
+"name": "Equivalent Single Degree of Freedom Vibration System",
+"module": 2
+},
+{
+"id": "t34",
+"name": "Conversion of multi springs",
+"module": 2
+},
+{
+"id": "t35",
+"name": "multi masses",
+"module": 2
+},
+{
+"id": "t36",
+"name": "multi-dampers into a single spring",
+"module": 2
+},
+{
+"id": "t37",
+"name": "damper with linear or rotational co-ordinate system",
+"module": 2
+},
+{
+"id": "t38",
+"name": "Forced Single Degree of Freedom Vibratory System",
+"module": 3
+},
+{
+"id": "t39",
+"name": "Analysis of linear and torsional systems subjected to harmonic force excitation and motion excitation",
+"module": 3
+},
+{
+"id": "t40",
+"name": "Vibration Isolation and Transmissibility",
+"module": 3
+},
+{
+"id": "t41",
+"name": "Force Transmissibility",
+"module": 3
+},
+{
+"id": "t42",
+"name": "motion transmissibility",
+"module": 3
+},
+{
+"id": "t43",
+"name": "typical isolators & mounts",
+"module": 3
+},
+{
+"id": "t44",
+"name": "Vibration Measuring Instruments",
+"module": 3
+},
+{
+"id": "t45",
+"name": "Need for vibration measurement",
+"module": 3
+},
+{
+"id": "t46",
+"name": "Measurement Parameters used in vibration analysis",
+"module": 3
+},
+{
+"id": "t47",
+"name": "Units of vibration measurement",
+"module": 3
+},
+{
+"id": "t48",
+"name": "Time domain and frequency domain representation",
+"module": 3
+},
+{
+"id": "t49",
+"name": "Spectral Amplitude Scaling",
+"module": 3
+},
+{
+"id": "t50",
+"name": "RMS",
+"module": 3
+},
+{
+"id": "t51",
+"name": "Peak",
+"module": 3
+},
+{
+"id": "t52",
+"name": "Peak-to-Peak and Peak Particle Velocity",
+"module": 3
+},
+{
+"id": "t53",
+"name": "Selection criteria",
+"module": 3
+},
+{
+"id": "t54",
+"name": "Principle of seismic instruments",
+"module": 3
+},
+{
+"id": "t55",
+"name": "vibrometer",
+"module": 3
+},
+{
+"id": "t56",
+"name": "accelerometer",
+"module": 3
+},
+{
+"id": "t57",
+"name": "undamped and damped",
+"module": 3
+},
+{
+"id": "t58",
+"name": "Vibration Measuring Sensors",
+"module": 3
+},
+{
+"id": "t59",
+"name": "Concept of sensors and transducers",
+"module": 3
+},
+{
+"id": "t60",
+"name": "Role of sensors in condition monitoring and fault detection",
+"module": 3
+},
+{
+"id": "t61",
+"name": "Sensor output signals and signal conditioning",
+"module": 3
+},
+{
+"id": "t62",
+"name": "Types of Vibration Sensors",
+"module": 3
+},
+{
+"id": "t63",
+"name": "Displacement",
+"module": 3
+},
+{
+"id": "t64",
+"name": "Velocity",
+"module": 3
+},
+{
+"id": "t65",
+"name": "acceleration",
+"module": 3
+},
+{
+"id": "t66",
+"name": "proximity & MEMS-Based sensors",
+"module": 3
+},
+{
+"id": "t67",
+"name": "Sensor Selection Criteria",
+"module": 3
+},
+{
+"id": "t68",
+"name": "Measurement range",
+"module": 3
+},
+{
+"id": "t69",
+"name": "Frequency range",
+"module": 3
+},
+{
+"id": "t70",
+"name": "Sensitivity",
+"module": 3
+},
+{
+"id": "t71",
+"name": "Accuracy and resolution",
+"module": 3
+},
+{
+"id": "t72",
+"name": "Environmental conditions",
+"module": 3
+},
+{
+"id": "t73",
+"name": "Mounting requirements",
+"module": 3
+},
+{
+"id": "t74",
+"name": "Cost and reliability",
+"module": 3
+},
+{
+"id": "t75",
+"name": "Methods of vibration control",
+"module": 4
+},
+{
+"id": "t76",
+"name": "vibration reduction at source",
+"module": 4
+},
+{
+"id": "t77",
+"name": "factors affecting vibration level",
+"module": 4
+},
+{
+"id": "t78",
+"name": "isolation of the source",
+"module": 4
+},
+{
+"id": "t79",
+"name": "dynamic properties and selection of materials for vibration control",
+"module": 4
+},
+{
+"id": "t80",
+"name": "Vibration Analysis and Control using Absorbers",
+"module": 4
+},
+{
+"id": "t81",
+"name": "Dynamic vibration neutralizers",
+"module": 4
+},
+{
+"id": "t82",
+"name": "self-tuned pendulum neutralizer",
+"module": 4
+},
+{
+"id": "t83",
+"name": "gyroscopic vibration absorbers",
+"module": 4
+},
+{
+"id": "t84",
+"name": "impact absorbers",
+"module": 4
+},
+{
+"id": "t85",
+"name": "absorbers attached to continuous systems",
+"module": 4
+},
+{
+"id": "t86",
+"name": "Semi-active Vibration Control",
+"module": 5
+},
+{
+"id": "t87",
+"name": "Magneto-rheological fluids",
+"module": 5
+},
+{
+"id": "t88",
+"name": "MR models and devices",
+"module": 5
+},
+{
+"id": "t89",
+"name": "semi-active suspension",
+"module": 5
+},
+{
+"id": "t90",
+"name": "semi-active tuned vibration absorbers",
+"module": 5
+},
+{
+"id": "t91",
+"name": "semi-active isolation",
+"module": 5
+},
+{
+"id": "t92",
+"name": "Active Vibration Control",
+"module": 6
+},
+{
+"id": "t93",
+"name": "Classification and modeling",
+"module": 6
+},
+{
+"id": "t94",
+"name": "actuators and sensors for active vibration control",
+"module": 6
+},
+{
+"id": "t95",
+"name": "Active vibration absorption and damping",
+"module": 6
+},
+{
+"id": "t96",
+"name": "classical control",
+"module": 6
+},
+{
+"id": "t97",
+"name": "optimal control",
+"module": 6
+},
+{
+"id": "t98",
+"name": "piezoelectric transducers for active vibration control",
+"module": 6
+},
+{
+"id": "t99",
+"name": "Active tuned vibration absorber",
+"module": 6
+},
+{
+"id": "t100",
+"name": "active mass damper",
+"module": 6
+},
+{
+"id": "t101",
+"name": "Active single-axis base isolation",
+"module": 6
+},
+{
+"id": "t102",
+"name": "Active force isolation system",
+"module": 6
+},
+{
+"id": "t103",
+"name": "Isolator based on piezoelectric stack actuator",
+"module": 6
+},
+{
+"id": "t104",
+"name": "Active control of vehicle suspensions",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t59",
+"b": "t61",
+"a_name": "Concept of sensors and transducers",
+"b_name": "Sensor output signals and signal conditioning"
+},
+{
+"i": 1,
+"a": "t40",
+"b": "t42",
+"a_name": "Vibration Isolation and Transmissibility",
+"b_name": "motion transmissibility"
+},
+{
+"i": 2,
+"a": "t46",
+"b": "t50",
+"a_name": "Measurement Parameters used in vibration analysis",
+"b_name": "RMS"
+},
+{
+"i": 3,
+"a": "t11",
+"b": "t32",
+"a_name": "damper",
+"b_name": "Introduction to different methods of damping"
+},
+{
+"i": 4,
+"a": "t59",
+"b": "t60",
+"a_name": "Concept of sensors and transducers",
+"b_name": "Role of sensors in condition monitoring and fault detection"
+},
+{
+"i": 5,
+"a": "t44",
+"b": "t45",
+"a_name": "Vibration Measuring Instruments",
+"b_name": "Need for vibration measurement"
+},
+{
+"i": 6,
+"a": "t38",
+"b": "t39",
+"a_name": "Forced Single Degree of Freedom Vibratory System",
+"b_name": "Analysis of linear and torsional systems subjected to harmonic force excitation and motion excitation"
+},
+{
+"i": 7,
+"a": "t39",
+"b": "t81",
+"a_name": "Analysis of linear and torsional systems subjected to harmonic force excitation and motion excitation",
+"b_name": "Dynamic vibration neutralizers"
+},
+{
+"i": 8,
+"a": "t39",
+"b": "t40",
+"a_name": "Analysis of linear and torsional systems subjected to harmonic force excitation and motion excitation",
+"b_name": "Vibration Isolation and Transmissibility"
+},
+{
+"i": 9,
+"a": "t41",
+"b": "t42",
+"a_name": "Force Transmissibility",
+"b_name": "motion transmissibility"
+},
+{
+"i": 10,
+"a": "t75",
+"b": "t78",
+"a_name": "Methods of vibration control",
+"b_name": "isolation of the source"
+},
+{
+"i": 11,
+"a": "t80",
+"b": "t82",
+"a_name": "Vibration Analysis and Control using Absorbers",
+"b_name": "self-tuned pendulum neutralizer"
+},
+{
+"i": 12,
+"a": "t33",
+"b": "t34",
+"a_name": "Equivalent Single Degree of Freedom Vibration System",
+"b_name": "Conversion of multi springs"
+},
+{
+"i": 13,
+"a": "t96",
+"b": "t104",
+"a_name": "classical control",
+"b_name": "Active control of vehicle suspensions"
+},
+{
+"i": 14,
+"a": "t48",
+"b": "t49",
+"a_name": "Time domain and frequency domain representation",
+"b_name": "Spectral Amplitude Scaling"
+},
+{
+"i": 15,
+"a": "t80",
+"b": "t84",
+"a_name": "Vibration Analysis and Control using Absorbers",
+"b_name": "impact absorbers"
+},
+{
+"i": 16,
+"a": "t38",
+"b": "t41",
+"a_name": "Forced Single Degree of Freedom Vibratory System",
+"b_name": "Force Transmissibility"
+},
+{
+"i": 17,
+"a": "t49",
+"b": "t52",
+"a_name": "Spectral Amplitude Scaling",
+"b_name": "Peak-to-Peak and Peak Particle Velocity"
+},
+{
+"i": 18,
+"a": "t22",
+"b": "t25",
+"a_name": "Concept of mathematical modelling of mechanical systems",
+"b_name": "Equivalent spring mass representation"
+},
+{
+"i": 19,
+"a": "t62",
+"b": "t65",
+"a_name": "Types of Vibration Sensors",
+"b_name": "acceleration"
+},
+{
+"i": 20,
+"a": "t80",
+"b": "t83",
+"a_name": "Vibration Analysis and Control using Absorbers",
+"b_name": "gyroscopic vibration absorbers"
+},
+{
+"i": 21,
+"a": "t46",
+"b": "t51",
+"a_name": "Measurement Parameters used in vibration analysis",
+"b_name": "Peak"
+},
+{
+"i": 22,
+"a": "t92",
+"b": "t96",
+"a_name": "Active Vibration Control",
+"b_name": "classical control"
+},
+{
+"i": 23,
+"a": "t22",
+"b": "t27",
+"a_name": "Concept of mathematical modelling of mechanical systems",
+"b_name": "Methods for formulation of differential equations"
+},
+{
+"i": 24,
+"a": "t88",
+"b": "t90",
+"a_name": "MR models and devices",
+"b_name": "semi-active tuned vibration absorbers"
+},
+{
+"i": 25,
+"a": "t94",
+"b": "t98",
+"a_name": "actuators and sensors for active vibration control",
+"b_name": "piezoelectric transducers for active vibration control"
+},
+{
+"i": 26,
+"a": "t40",
+"b": "t78",
+"a_name": "Vibration Isolation and Transmissibility",
+"b_name": "isolation of the source"
+},
+{
+"i": 27,
+"a": "t40",
+"b": "t41",
+"a_name": "Vibration Isolation and Transmissibility",
+"b_name": "Force Transmissibility"
+},
+{
+"i": 28,
+"a": "t81",
+"b": "t99",
+"a_name": "Dynamic vibration neutralizers",
+"b_name": "Active tuned vibration absorber"
+},
+{
+"i": 29,
+"a": "t92",
+"b": "t104",
+"a_name": "Active Vibration Control",
+"b_name": "Active control of vehicle suspensions"
+},
+{
+"i": 30,
+"a": "t20",
+"b": "t25",
+"a_name": "Conversion of Physical Systems into Spring",
+"b_name": "Equivalent spring mass representation"
+},
+{
+"i": 31,
+"a": "t25",
+"b": "t33",
+"a_name": "Equivalent spring mass representation",
+"b_name": "Equivalent Single Degree of Freedom Vibration System"
+},
+{
+"i": 32,
+"a": "t95",
+"b": "t99",
+"a_name": "Active vibration absorption and damping",
+"b_name": "Active tuned vibration absorber"
+},
+{
+"i": 33,
+"a": "t33",
+"b": "t35",
+"a_name": "Equivalent Single Degree of Freedom Vibration System",
+"b_name": "multi masses"
+},
+{
+"i": 34,
+"a": "t44",
+"b": "t46",
+"a_name": "Vibration Measuring Instruments",
+"b_name": "Measurement Parameters used in vibration analysis"
+},
+{
+"i": 35,
+"a": "t46",
+"b": "t52",
+"a_name": "Measurement Parameters used in vibration analysis",
+"b_name": "Peak-to-Peak and Peak Particle Velocity"
+},
+{
+"i": 36,
+"a": "t33",
+"b": "t36",
+"a_name": "Equivalent Single Degree of Freedom Vibration System",
+"b_name": "multi-dampers into a single spring"
+},
+{
+"i": 37,
+"a": "t8",
+"b": "t20",
+"a_name": "Basic Elements of Vibrating Systems",
+"b_name": "Conversion of Physical Systems into Spring"
+},
+{
+"i": 38,
+"a": "t88",
+"b": "t91",
+"a_name": "MR models and devices",
+"b_name": "semi-active isolation"
+},
+{
+"i": 39,
+"a": "t75",
+"b": "t77",
+"a_name": "Methods of vibration control",
+"b_name": "factors affecting vibration level"
+},
+{
+"i": 40,
+"a": "t38",
+"b": "t54",
+"a_name": "Forced Single Degree of Freedom Vibratory System",
+"b_name": "Principle of seismic instruments"
+},
+{
+"i": 41,
+"a": "t80",
+"b": "t85",
+"a_name": "Vibration Analysis and Control using Absorbers",
+"b_name": "absorbers attached to continuous systems"
+},
+{
+"i": 42,
+"a": "t93",
+"b": "t94",
+"a_name": "Classification and modeling",
+"b_name": "actuators and sensors for active vibration control"
+},
+{
+"i": 43,
+"a": "t33",
+"b": "t37",
+"a_name": "Equivalent Single Degree of Freedom Vibration System",
+"b_name": "damper with linear or rotational co-ordinate system"
+},
+{
+"i": 44,
+"a": "t48",
+"b": "t50",
+"a_name": "Time domain and frequency domain representation",
+"b_name": "RMS"
+},
+{
+"i": 45,
+"a": "t42",
+"b": "t101",
+"a_name": "motion transmissibility",
+"b_name": "Active single-axis base isolation"
+},
+{
+"i": 46,
+"a": "t40",
+"b": "t43",
+"a_name": "Vibration Isolation and Transmissibility",
+"b_name": "typical isolators & mounts"
+},
+{
+"i": 47,
+"a": "t92",
+"b": "t97",
+"a_name": "Active Vibration Control",
+"b_name": "optimal control"
+},
+{
+"i": 48,
+"a": "t88",
+"b": "t89",
+"a_name": "MR models and devices",
+"b_name": "semi-active suspension"
+},
+{
+"i": 49,
+"a": "t38",
+"b": "t81",
+"a_name": "Forced Single Degree of Freedom Vibratory System",
+"b_name": "Dynamic vibration neutralizers"
+},
+{
+"i": 50,
+"a": "t87",
+"b": "t89",
+"a_name": "Magneto-rheological fluids",
+"b_name": "semi-active suspension"
+},
+{
+"i": 51,
+"a": "t39",
+"b": "t54",
+"a_name": "Analysis of linear and torsional systems subjected to harmonic force excitation and motion excitation",
+"b_name": "Principle of seismic instruments"
+},
+{
+"i": 52,
+"a": "t49",
+"b": "t51",
+"a_name": "Spectral Amplitude Scaling",
+"b_name": "Peak"
+},
+{
+"i": 53,
+"a": "t94",
+"b": "t99",
+"a_name": "actuators and sensors for active vibration control",
+"b_name": "Active tuned vibration absorber"
+},
+{
+"i": 54,
+"a": "t38",
+"b": "t40",
+"a_name": "Forced Single Degree of Freedom Vibratory System",
+"b_name": "Vibration Isolation and Transmissibility"
+},
+{
+"i": 55,
+"a": "t92",
+"b": "t94",
+"a_name": "Active Vibration Control",
+"b_name": "actuators and sensors for active vibration control"
+}
+]
+}

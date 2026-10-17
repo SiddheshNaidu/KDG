@@ -1,0 +1,493 @@
+{
+"course": "PEC5012",
+"title": "Data Structure & Algorithms",
+"topics": [
+{
+"id": "t1",
+"name": "Introduction to Data Structures",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Concept of ADT",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Types of Data Structures- Linear and Nonlinear",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Operations on Data Structures",
+"module": 1
+},
+{
+"id": "t5",
+"name": "ADT of Stack",
+"module": 2
+},
+{
+"id": "t6",
+"name": "Operations on Stack",
+"module": 2
+},
+{
+"id": "t7",
+"name": "Array Implementation of Stack",
+"module": 2
+},
+{
+"id": "t8",
+"name": "Applications of Stack-Well form-ness of Parenthesis",
+"module": 2
+},
+{
+"id": "t9",
+"name": "Infix to Postfix Conversion and Postfix Evaluation Introduction",
+"module": 2
+},
+{
+"id": "t10",
+"name": "ADT of Queue",
+"module": 2
+},
+{
+"id": "t11",
+"name": "Operations on Queue",
+"module": 2
+},
+{
+"id": "t12",
+"name": "Array Implementation of Queue",
+"module": 2
+},
+{
+"id": "t13",
+"name": "Types of Queue-Circular Queue",
+"module": 2
+},
+{
+"id": "t14",
+"name": "Priority Queue",
+"module": 2
+},
+{
+"id": "t15",
+"name": "Double Ended Queue",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Applications of Queue",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Representation of Linked List",
+"module": 3
+},
+{
+"id": "t18",
+"name": "Linked List v/s Array",
+"module": 3
+},
+{
+"id": "t19",
+"name": "Types of Linked List",
+"module": 3
+},
+{
+"id": "t20",
+"name": "Singly Linked List",
+"module": 3
+},
+{
+"id": "t21",
+"name": "Circular Linked List",
+"module": 3
+},
+{
+"id": "t22",
+"name": "Doubly Linked List",
+"module": 3
+},
+{
+"id": "t23",
+"name": "Operations on Singly Linked List and Doubly Linked List",
+"module": 3
+},
+{
+"id": "t24",
+"name": "Stack & Queue using Singly Linked List",
+"module": 3
+},
+{
+"id": "t25",
+"name": "Singly Linked List Application- Polynomial Representation & Addition",
+"module": 3
+},
+{
+"id": "t26",
+"name": "Tree Terminologies",
+"module": 4
+},
+{
+"id": "t27",
+"name": "Binary Tree",
+"module": 4
+},
+{
+"id": "t28",
+"name": "Binary Tree Representation",
+"module": 4
+},
+{
+"id": "t29",
+"name": "Types of Binary Tree",
+"module": 4
+},
+{
+"id": "t30",
+"name": "Binary Tree Traversals",
+"module": 4
+},
+{
+"id": "t31",
+"name": "Binary Search Tree",
+"module": 4
+},
+{
+"id": "t32",
+"name": "Operations on Binary Search Tree",
+"module": 4
+},
+{
+"id": "t33",
+"name": "Applications of Binary Tree-Expression Tree",
+"module": 4
+},
+{
+"id": "t34",
+"name": "Huffman Encoding",
+"module": 4
+},
+{
+"id": "t35",
+"name": "Search Trees-AVL",
+"module": 4
+},
+{
+"id": "t36",
+"name": "rotations in AVL Tree",
+"module": 4
+},
+{
+"id": "t37",
+"name": "operations on AVL Tree Introduction",
+"module": 4
+},
+{
+"id": "t38",
+"name": "Graph Terminologies",
+"module": 4
+},
+{
+"id": "t39",
+"name": "Representation of Graph",
+"module": 4
+},
+{
+"id": "t40",
+"name": "Graph Traversals- Depth First Search (DFS)",
+"module": 4
+},
+{
+"id": "t41",
+"name": "Breadth First Search (BFS)",
+"module": 4
+},
+{
+"id": "t42",
+"name": "Graph Application- Topological Sorting",
+"module": 4
+},
+{
+"id": "t43",
+"name": "General method",
+"module": 5
+},
+{
+"id": "t44",
+"name": "Merge sort",
+"module": 5
+},
+{
+"id": "t45",
+"name": "Quick sort",
+"module": 5
+},
+{
+"id": "t46",
+"name": "Finding minimum & maximum algorithms and their Analysis",
+"module": 5
+},
+{
+"id": "t47",
+"name": "Analysis of Binary search",
+"module": 5
+},
+{
+"id": "t48",
+"name": "Single source shortest path",
+"module": 5
+},
+{
+"id": "t49",
+"name": "Dijkstra Algorithm Fractional Knapsack problem",
+"module": 5
+},
+{
+"id": "t50",
+"name": "Job sequencing with deadlines",
+"module": 5
+},
+{
+"id": "t51",
+"name": "Minimum cost spanning trees",
+"module": 5
+},
+{
+"id": "t52",
+"name": "Kruskal and Prim‟s algorithms",
+"module": 5
+},
+{
+"id": "t53",
+"name": "Naïve string-matching algorithm",
+"module": 6
+},
+{
+"id": "t54",
+"name": "Rabin Karp algorithm",
+"module": 6
+},
+{
+"id": "t55",
+"name": "Knuth-Morris-Pratt algorithm",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t10",
+"b": "t15",
+"a_name": "ADT of Queue",
+"b_name": "Double Ended Queue"
+},
+{
+"i": 1,
+"a": "t5",
+"b": "t7",
+"a_name": "ADT of Stack",
+"b_name": "Array Implementation of Stack"
+},
+{
+"i": 2,
+"a": "t6",
+"b": "t8",
+"a_name": "Operations on Stack",
+"b_name": "Applications of Stack-Well form-ness of Parenthesis"
+},
+{
+"i": 3,
+"a": "t27",
+"b": "t34",
+"a_name": "Binary Tree",
+"b_name": "Huffman Encoding"
+},
+{
+"i": 4,
+"a": "t20",
+"b": "t21",
+"a_name": "Singly Linked List",
+"b_name": "Circular Linked List"
+},
+{
+"i": 5,
+"a": "t14",
+"b": "t34",
+"a_name": "Priority Queue",
+"b_name": "Huffman Encoding"
+},
+{
+"i": 6,
+"a": "t6",
+"b": "t24",
+"a_name": "Operations on Stack",
+"b_name": "Stack & Queue using Singly Linked List"
+},
+{
+"i": 7,
+"a": "t20",
+"b": "t22",
+"a_name": "Singly Linked List",
+"b_name": "Doubly Linked List"
+},
+{
+"i": 8,
+"a": "t6",
+"b": "t7",
+"a_name": "Operations on Stack",
+"b_name": "Array Implementation of Stack"
+},
+{
+"i": 9,
+"a": "t17",
+"b": "t18",
+"a_name": "Representation of Linked List",
+"b_name": "Linked List v/s Array"
+},
+{
+"i": 10,
+"a": "t22",
+"b": "t23",
+"a_name": "Doubly Linked List",
+"b_name": "Operations on Singly Linked List and Doubly Linked List"
+},
+{
+"i": 11,
+"a": "t38",
+"b": "t51",
+"a_name": "Graph Terminologies",
+"b_name": "Minimum cost spanning trees"
+},
+{
+"i": 12,
+"a": "t39",
+"b": "t49",
+"a_name": "Representation of Graph",
+"b_name": "Dijkstra Algorithm Fractional Knapsack problem"
+},
+{
+"i": 13,
+"a": "t39",
+"b": "t48",
+"a_name": "Representation of Graph",
+"b_name": "Single source shortest path"
+},
+{
+"i": 14,
+"a": "t10",
+"b": "t12",
+"a_name": "ADT of Queue",
+"b_name": "Array Implementation of Queue"
+},
+{
+"i": 15,
+"a": "t6",
+"b": "t9",
+"a_name": "Operations on Stack",
+"b_name": "Infix to Postfix Conversion and Postfix Evaluation Introduction"
+},
+{
+"i": 16,
+"a": "t1",
+"b": "t2",
+"a_name": "Introduction to Data Structures",
+"b_name": "Concept of ADT"
+},
+{
+"i": 17,
+"a": "t7",
+"b": "t9",
+"a_name": "Array Implementation of Stack",
+"b_name": "Infix to Postfix Conversion and Postfix Evaluation Introduction"
+},
+{
+"i": 18,
+"a": "t11",
+"b": "t15",
+"a_name": "Operations on Queue",
+"b_name": "Double Ended Queue"
+},
+{
+"i": 19,
+"a": "t7",
+"b": "t8",
+"a_name": "Array Implementation of Stack",
+"b_name": "Applications of Stack-Well form-ness of Parenthesis"
+},
+{
+"i": 20,
+"a": "t10",
+"b": "t16",
+"a_name": "ADT of Queue",
+"b_name": "Applications of Queue"
+},
+{
+"i": 21,
+"a": "t11",
+"b": "t12",
+"a_name": "Operations on Queue",
+"b_name": "Array Implementation of Queue"
+},
+{
+"i": 22,
+"a": "t11",
+"b": "t14",
+"a_name": "Operations on Queue",
+"b_name": "Priority Queue"
+},
+{
+"i": 23,
+"a": "t19",
+"b": "t22",
+"a_name": "Types of Linked List",
+"b_name": "Doubly Linked List"
+},
+{
+"i": 24,
+"a": "t9",
+"b": "t33",
+"a_name": "Infix to Postfix Conversion and Postfix Evaluation Introduction",
+"b_name": "Applications of Binary Tree-Expression Tree"
+},
+{
+"i": 25,
+"a": "t11",
+"b": "t16",
+"a_name": "Operations on Queue",
+"b_name": "Applications of Queue"
+},
+{
+"i": 26,
+"a": "t10",
+"b": "t14",
+"a_name": "ADT of Queue",
+"b_name": "Priority Queue"
+},
+{
+"i": 27,
+"a": "t19",
+"b": "t21",
+"a_name": "Types of Linked List",
+"b_name": "Circular Linked List"
+},
+{
+"i": 28,
+"a": "t27",
+"b": "t33",
+"a_name": "Binary Tree",
+"b_name": "Applications of Binary Tree-Expression Tree"
+},
+{
+"i": 29,
+"a": "t11",
+"b": "t24",
+"a_name": "Operations on Queue",
+"b_name": "Stack & Queue using Singly Linked List"
+}
+]
+}

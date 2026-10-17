@@ -1,0 +1,407 @@
+{
+"course": "2166114",
+"title": "Cyber Security",
+"modules": [
+{
+"index": 1,
+"name": "Introduction to security"
+},
+{
+"index": 2,
+"name": "Cryptography"
+},
+{
+"index": 3,
+"name": "Cybercrime Techniques and Attack Vectors"
+},
+{
+"index": 4,
+"name": "Tools and Methods Used in Cyber"
+},
+{
+"index": 5,
+"name": "E-Commerce and Digital Payments"
+},
+{
+"index": 6,
+"name": "AI in Cyber Security"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Defining Computer security and Network Security",
+"module": 1
+},
+{
+"id": "t2",
+"name": "CIA",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Services",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Mechanisms and attacks",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Information Security (InfoSec) Cyber Security",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Concept of cyber security",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Issues and challenges of cyber security",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Cybercrime definition",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Cybercrime and information security",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Classifications of cybercrime",
+"module": 1
+},
+{
+"id": "t11",
+"name": "a global Perspective on cybercrimes",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Cyber Space",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Cyberspace",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Architecture of cyberspace",
+"module": 1
+},
+{
+"id": "t15",
+"name": "Regulation of cyberspace",
+"module": 1
+},
+{
+"id": "t16",
+"name": "Symmetric key ciphers",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Block ciphers",
+"module": 2
+},
+{
+"id": "t18",
+"name": "stream ciphers",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Data Encryption standard",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Advanced Encryption Standard Public key cryptography",
+"module": 2
+},
+{
+"id": "t21",
+"name": "Principles Public key crypto Systems",
+"module": 2
+},
+{
+"id": "t22",
+"name": "Diffie Hellman Key Exchange",
+"module": 2
+},
+{
+"id": "t23",
+"name": "RSA algorithm",
+"module": 2
+},
+{
+"id": "t24",
+"name": "Key Management Hashing Techniques",
+"module": 2
+},
+{
+"id": "t25",
+"name": "SHA256",
+"module": 2
+},
+{
+"id": "t26",
+"name": "SHA-512",
+"module": 2
+},
+{
+"id": "t27",
+"name": "HMAC and CMAC",
+"module": 2
+},
+{
+"id": "t28",
+"name": "Types of attacks",
+"module": 3
+},
+{
+"id": "t29",
+"name": "Social Engg",
+"module": 3
+},
+{
+"id": "t30",
+"name": "Cyber stalking",
+"module": 3
+},
+{
+"id": "t31",
+"name": "Cyber café and Cybercrimes",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Bot nets",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Attack vector",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Cloud computing",
+"module": 3
+},
+{
+"id": "t35",
+"name": "Proliferation of Mobile and Wireless Devices",
+"module": 3
+},
+{
+"id": "t36",
+"name": "Trends in Mobility",
+"module": 3
+},
+{
+"id": "t37",
+"name": "Credit Card Frauds in Mobile and Wireless Computing Era",
+"module": 3
+},
+{
+"id": "t38",
+"name": "Security Challenges Posed by Mobile Devices",
+"module": 3
+},
+{
+"id": "t39",
+"name": "Registry Settings for Mobile Devices",
+"module": 3
+},
+{
+"id": "t40",
+"name": "Authentication Service Security",
+"module": 3
+},
+{
+"id": "t41",
+"name": "Attacks on Mobile/Cell Phones Mobile Devices",
+"module": 3
+},
+{
+"id": "t42",
+"name": "Security Implications for Organizations",
+"module": 3
+},
+{
+"id": "t43",
+"name": "Organizational Measures for Handling Mobile",
+"module": 3
+},
+{
+"id": "t44",
+"name": "Devices-Related Security Issues",
+"module": 3
+},
+{
+"id": "t45",
+"name": "Phishing",
+"module": 4
+},
+{
+"id": "t46",
+"name": "Password Cracking",
+"module": 4
+},
+{
+"id": "t47",
+"name": "Key loggers and Spywares",
+"module": 4
+},
+{
+"id": "t48",
+"name": "Virus and Worms",
+"module": 4
+},
+{
+"id": "t49",
+"name": "Steganography",
+"module": 4
+},
+{
+"id": "t50",
+"name": "DoS and DoS Attacks",
+"module": 4
+},
+{
+"id": "t51",
+"name": "SQL Injection",
+"module": 4
+},
+{
+"id": "t52",
+"name": "Buffer Over Flow",
+"module": 4
+},
+{
+"id": "t53",
+"name": "Attacks on Wireless Networks",
+"module": 4
+},
+{
+"id": "t54",
+"name": "Identity Theft (ID Theft)",
+"module": 4
+},
+{
+"id": "t55",
+"name": "Penetration Testing Methodologies (OWASP, PTES, NIST)",
+"module": 4
+},
+{
+"id": "t56",
+"name": "Definition of E- Commerce",
+"module": 5
+},
+{
+"id": "t57",
+"name": "Main components of E- Commerce",
+"module": 5
+},
+{
+"id": "t58",
+"name": "Elements of E-Commerce security",
+"module": 5
+},
+{
+"id": "t59",
+"name": "E- Commerce threats",
+"module": 5
+},
+{
+"id": "t60",
+"name": "E-Commerce security best practices",
+"module": 5
+},
+{
+"id": "t61",
+"name": "Introduction to digital payments",
+"module": 5
+},
+{
+"id": "t62",
+"name": "Components of digital payment and stake holders",
+"module": 5
+},
+{
+"id": "t63",
+"name": "Modes of digital payments Banking Cards",
+"module": 5
+},
+{
+"id": "t64",
+"name": "Unified Payment Interface (UPI)",
+"module": 5
+},
+{
+"id": "t65",
+"name": "e-Wallets",
+"module": 5
+},
+{
+"id": "t66",
+"name": "Unstructured Supplementary Service Data (USSD)",
+"module": 5
+},
+{
+"id": "t67",
+"name": "Aadhar enabled payments",
+"module": 5
+},
+{
+"id": "t68",
+"name": "Digital payments related common frauds and preventive measures",
+"module": 5
+},
+{
+"id": "t69",
+"name": "RBI guidelines on digital payments",
+"module": 5
+},
+{
+"id": "t70",
+"name": "customer protection in unauthorized banking transactions",
+"module": 5
+},
+{
+"id": "t71",
+"name": "Need and importance of AI for modern security",
+"module": 6
+},
+{
+"id": "t72",
+"name": "Data Preparation for Security:Cybersecurity data (logs, network traffic, malware samples)",
+"module": 6
+},
+{
+"id": "t73",
+"name": "Feature Engineering (extracting meaningful features like packet size, API calls)",
+"module": 6
+},
+{
+"id": "t74",
+"name": "Data Labeling (creating ground truth for attacks/benign activities) The Dual Role of AI",
+"module": 6
+},
+{
+"id": "t75",
+"name": "Offensive and Defensive",
+"module": 6
+}
+]
+}

@@ -1,0 +1,452 @@
+{
+"course": "PEC6024",
+"title": "Network Management in Telecommunication",
+"modules": [
+{
+"index": 1,
+"name": "Introduction to Telecommunication Network Management"
+},
+{
+"index": 2,
+"name": "OSI Network Management"
+},
+{
+"index": 3,
+"name": "Internet Management"
+},
+{
+"index": 4,
+"name": "Telecommunication Management Networks (TMN)"
+},
+{
+"index": 5,
+"name": "Network Management Tools and Applications"
+},
+{
+"index": 6,
+"name": "Broadband Network Management"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Introduction to Network Management",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Case Histories on Network Management",
+"module": 1
+},
+{
+"id": "t3",
+"name": "System and Service Management",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Challenges of an IT Manager",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Need for NMS",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Goal of Network Management",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Network Management architecture and Organization",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Network Management perspectives",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Network Management Standards",
+"module": 1
+},
+{
+"id": "t10",
+"name": "OSI Network Management Model",
+"module": 2
+},
+{
+"id": "t11",
+"name": "OSI Organizational Model",
+"module": 2
+},
+{
+"id": "t12",
+"name": "Information Model",
+"module": 2
+},
+{
+"id": "t13",
+"name": "OSI Communication Model and Functional Model",
+"module": 2
+},
+{
+"id": "t14",
+"name": "OSI Management protocol and services (CMIP, CMISE)",
+"module": 2
+},
+{
+"id": "t15",
+"name": "Introduction to ASN.1and BER (TLV format)",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Introduction to Internet Management",
+"module": 3
+},
+{
+"id": "t17",
+"name": "Simple Network Management Protocol (SNMP)",
+"module": 3
+},
+{
+"id": "t18",
+"name": "Structure of Management Information (SMI)",
+"module": 3
+},
+{
+"id": "t19",
+"name": "Management Information Base (MIB)",
+"module": 3
+},
+{
+"id": "t20",
+"name": "SNMP message encoding using ASN.1 and BER (TLV format)",
+"module": 3
+},
+{
+"id": "t21",
+"name": "SNMP v1",
+"module": 3
+},
+{
+"id": "t22",
+"name": "SNMP v1 architecture",
+"module": 3
+},
+{
+"id": "t23",
+"name": "SNMP Communication Model",
+"module": 3
+},
+{
+"id": "t24",
+"name": "Administrative model",
+"module": 3
+},
+{
+"id": "t25",
+"name": "SNMP Protocol Specifications and Operations",
+"module": 3
+},
+{
+"id": "t26",
+"name": "SNMPv2",
+"module": 3
+},
+{
+"id": "t27",
+"name": "Major changes in SNMPv2",
+"module": 3
+},
+{
+"id": "t28",
+"name": "SNMPv2 Architecture",
+"module": 3
+},
+{
+"id": "t29",
+"name": "SNMPv2 management information base",
+"module": 3
+},
+{
+"id": "t30",
+"name": "SNMPv2 protocol",
+"module": 3
+},
+{
+"id": "t31",
+"name": "Compatibility with SNMPv1",
+"module": 3
+},
+{
+"id": "t32",
+"name": "SNMPv3",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Key Features and SNMPv3 architecture",
+"module": 3
+},
+{
+"id": "t34",
+"name": "SNMPv3 message format",
+"module": 3
+},
+{
+"id": "t35",
+"name": "SNMPv3 security",
+"module": 3
+},
+{
+"id": "t36",
+"name": "User-based Security Model",
+"module": 3
+},
+{
+"id": "t37",
+"name": "Access control (VACM)",
+"module": 3
+},
+{
+"id": "t38",
+"name": "SNMPv3 applications",
+"module": 3
+},
+{
+"id": "t39",
+"name": "Remote Monitoring",
+"module": 3
+},
+{
+"id": "t40",
+"name": "Introduction to RMON",
+"module": 3
+},
+{
+"id": "t41",
+"name": "comparison of RMON 1 and RMON 2",
+"module": 3
+},
+{
+"id": "t42",
+"name": "Definition and need for Telecommunication Management Network (TMN)",
+"module": 4
+},
+{
+"id": "t43",
+"name": "TMN framework",
+"module": 4
+},
+{
+"id": "t44",
+"name": "TMN functional model",
+"module": 4
+},
+{
+"id": "t45",
+"name": "TMN conceptual model",
+"module": 4
+},
+{
+"id": "t46",
+"name": "mapping of OSI network management functionality within TMN",
+"module": 4
+},
+{
+"id": "t47",
+"name": "TMN management services architecture",
+"module": 4
+},
+{
+"id": "t48",
+"name": "TMN implementation concepts",
+"module": 4
+},
+{
+"id": "t49",
+"name": "overview of eTOM as a business process framework for telecom service management",
+"module": 4
+},
+{
+"id": "t50",
+"name": "Network Management System (NMS)",
+"module": 5
+},
+{
+"id": "t51",
+"name": "Functional requirements",
+"module": 5
+},
+{
+"id": "t52",
+"name": "NMS client",
+"module": 5
+},
+{
+"id": "t53",
+"name": "server architecture",
+"module": 5
+},
+{
+"id": "t54",
+"name": "centralized and distributed management approaches",
+"module": 5
+},
+{
+"id": "t55",
+"name": "Network Operations Center (NOC)",
+"module": 5
+},
+{
+"id": "t56",
+"name": "Role and functions of a NOC",
+"module": 5
+},
+{
+"id": "t57",
+"name": "basic NOC architecture and workflow",
+"module": 5
+},
+{
+"id": "t58",
+"name": "fault detection",
+"module": 5
+},
+{
+"id": "t59",
+"name": "alarms",
+"module": 5
+},
+{
+"id": "t60",
+"name": "escalation",
+"module": 5
+},
+{
+"id": "t61",
+"name": "key performance indicators (KPIs)",
+"module": 5
+},
+{
+"id": "t62",
+"name": "FCAPS Management",
+"module": 5
+},
+{
+"id": "t63",
+"name": "Application of fault",
+"module": 5
+},
+{
+"id": "t64",
+"name": "configuration",
+"module": 5
+},
+{
+"id": "t65",
+"name": "accounting",
+"module": 5
+},
+{
+"id": "t66",
+"name": "performance",
+"module": 5
+},
+{
+"id": "t67",
+"name": "security management in practical network environments",
+"module": 5
+},
+{
+"id": "t68",
+"name": "proactive vs reactive management",
+"module": 5
+},
+{
+"id": "t69",
+"name": "Introduction to AI in Network Management (conceptual)",
+"module": 5
+},
+{
+"id": "t70",
+"name": "Need for AI-assisted management",
+"module": 5
+},
+{
+"id": "t71",
+"name": "anomaly detection and predictive performance/fault management",
+"module": 5
+},
+{
+"id": "t72",
+"name": "overview of automated and self- healing networks",
+"module": 5
+},
+{
+"id": "t73",
+"name": "Event correlation and automation",
+"module": 5
+},
+{
+"id": "t74",
+"name": "Rule-based and AI-assisted correlation",
+"module": 5
+},
+{
+"id": "t75",
+"name": "threshold-based and anomaly-based alerting concepts",
+"module": 5
+},
+{
+"id": "t76",
+"name": "Emerging web-based management technologies (conceptual overview)",
+"module": 5
+},
+{
+"id": "t77",
+"name": "Web-Based Enterprise Management (WBEM)",
+"module": 5
+},
+{
+"id": "t78",
+"name": "Java Management Extensions (JMX)",
+"module": 5
+},
+{
+"id": "t79",
+"name": "XML-based and CORBA-based network management",
+"module": 5
+},
+{
+"id": "t80",
+"name": "comparison with SNMP- based management",
+"module": 5
+},
+{
+"id": "t81",
+"name": "Broadband networks and services",
+"module": 6
+},
+{
+"id": "t82",
+"name": "ATM technology",
+"module": 6
+},
+{
+"id": "t83",
+"name": "virtual path (VP)",
+"module": 6
+},
+{
+"id": "t84",
+"name": "virtual channel",
+"module": 6
+}
+]
+}

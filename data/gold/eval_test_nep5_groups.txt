@@ -1,0 +1,5 @@
+v5 {'Chemical Sem III-IV': (0.239, 0.38, 0.294), 'EXTC Sem 5/6 (unseen branch)': (0.184, 0.372, 0.246), 'Mechanical Sem III-IV': (0.195, 0.323, 0.243), 'Mechanical Sem 5/6 (unseen branch)': (0.111, 0.359, 0.17)}
+nep4 {'Chemical Sem III-IV': (0.404, 0.487, 0.442), 'EXTC Sem 5/6 (unseen branch)': (0.324, 0.585, 0.417), 'Mechanical Sem III-IV': (0.369, 0.333, 0.35), 'Mechanical Sem 5/6 (unseen branch)': (0.281, 0.397, 0.329)}
+nep5 {'Chemical Sem III-IV': (0.427, 0.427, 0.427), 'EXTC Sem 5/6 (unseen branch)': (0.366, 0.564, 0.444), 'Mechanical Sem III-IV': (0.371, 0.328, 0.349), 'Mechanical Sem 5/6 (unseen branch)': (0.259, 0.429, 0.323)}
+adjacent baseline {'Chemical Sem III-IV': (0.398, 0.423, 0.41), 'EXTC Sem 5/6 (unseen branch)': (0.331, 0.489, 0.395), 'Mechanical Sem III-IV': (0.4, 0.424, 0.412), 'Mechanical Sem 5/6 (unseen branch)': (0.206, 0.376, 0.266)}
+gold edges per group {'Chemical Sem III-IV': 234, 'EXTC Sem 5/6 (unseen branch)': 94, 'Mechanical Sem III-IV': 198, 'Mechanical Sem 5/6 (unseen branch)': 287}

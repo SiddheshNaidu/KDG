@@ -1,0 +1,608 @@
+{
+"course": "2115112",
+"title": "Computer Network",
+"topics": [
+{
+"id": "t1",
+"name": "LAN",
+"module": 1
+},
+{
+"id": "t2",
+"name": "MAN",
+"module": 1
+},
+{
+"id": "t3",
+"name": "WAN",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Wireless networks",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Networks Software",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Protocol",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Design issues for the Network layers",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Network Models",
+"module": 1
+},
+{
+"id": "t9",
+"name": "OSI Reference Model",
+"module": 1
+},
+{
+"id": "t10",
+"name": "TCP/IP Model",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Network Topologies",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Types of Transmission Medium",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Network Architectures",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Client- Server",
+"module": 1
+},
+{
+"id": "t15",
+"name": "Peer To Peer",
+"module": 1
+},
+{
+"id": "t16",
+"name": "Network Devices",
+"module": 1
+},
+{
+"id": "t17",
+"name": "Bridge",
+"module": 1
+},
+{
+"id": "t18",
+"name": "Switch",
+"module": 1
+},
+{
+"id": "t19",
+"name": "Router",
+"module": 1
+},
+{
+"id": "t20",
+"name": "Gateway",
+"module": 1
+},
+{
+"id": "t21",
+"name": "Access Point",
+"module": 1
+},
+{
+"id": "t22",
+"name": "functions",
+"module": 2
+},
+{
+"id": "t23",
+"name": "Design Issues",
+"module": 2
+},
+{
+"id": "t24",
+"name": "Services to Network Layer",
+"module": 2
+},
+{
+"id": "t25",
+"name": "Framing",
+"module": 2
+},
+{
+"id": "t26",
+"name": "Error Detection and correction",
+"module": 2
+},
+{
+"id": "t27",
+"name": "Parity Bits",
+"module": 2
+},
+{
+"id": "t28",
+"name": "Checksum",
+"module": 2
+},
+{
+"id": "t29",
+"name": "Hamming Codes and CRC",
+"module": 2
+},
+{
+"id": "t30",
+"name": "Flow Control Protocols",
+"module": 2
+},
+{
+"id": "t31",
+"name": "Unrestricted Simplex",
+"module": 2
+},
+{
+"id": "t32",
+"name": "Stop and Wait",
+"module": 2
+},
+{
+"id": "t33",
+"name": "Sliding Window Protocol",
+"module": 2
+},
+{
+"id": "t34",
+"name": "PPP and HDLC",
+"module": 2
+},
+{
+"id": "t35",
+"name": "Pure and Slotted ALOHA",
+"module": 2
+},
+{
+"id": "t36",
+"name": "CSMA",
+"module": 2
+},
+{
+"id": "t37",
+"name": "CSMA/CD",
+"module": 2
+},
+{
+"id": "t38",
+"name": "CSMA/CA",
+"module": 2
+},
+{
+"id": "t39",
+"name": "6 Introduction to IEEE standards (IEEE 802.3, IEEE 802.11)",
+"module": 2
+},
+{
+"id": "t40",
+"name": "Introduction to Network Layer",
+"module": 3
+},
+{
+"id": "t41",
+"name": "Network Layer Protocols",
+"module": 3
+},
+{
+"id": "t42",
+"name": "Routing Concepts",
+"module": 3
+},
+{
+"id": "t43",
+"name": "IIPv4 and IPv6",
+"module": 3
+},
+{
+"id": "t44",
+"name": "addressing Subnetting and Supernetting",
+"module": 3
+},
+{
+"id": "t45",
+"name": "Routing Algorithms",
+"module": 3
+},
+{
+"id": "t46",
+"name": "Static Routing Algorithms (Non-adaptive)",
+"module": 3
+},
+{
+"id": "t47",
+"name": "Dynamic Routing Algorithms (Adaptive)",
+"module": 3
+},
+{
+"id": "t48",
+"name": "Internet Routing Protocols",
+"module": 3
+},
+{
+"id": "t49",
+"name": "Congestion Control and Quality of Service (QoS)",
+"module": 3
+},
+{
+"id": "t50",
+"name": "Transport Service",
+"module": 4
+},
+{
+"id": "t51",
+"name": "Transport service primitives",
+"module": 4
+},
+{
+"id": "t52",
+"name": "Berkeley Sockets",
+"module": 4
+},
+{
+"id": "t53",
+"name": "TCP Characteristics",
+"module": 4
+},
+{
+"id": "t54",
+"name": "header structure",
+"module": 4
+},
+{
+"id": "t55",
+"name": "TCP Connection management (Handshake)",
+"module": 4
+},
+{
+"id": "t56",
+"name": "TCP timers",
+"module": 4
+},
+{
+"id": "t57",
+"name": "UDP Characteristics",
+"module": 4
+},
+{
+"id": "t58",
+"name": "TCP Flow control (sliding Window)",
+"module": 4
+},
+{
+"id": "t59",
+"name": "TCP Congestion Control",
+"module": 4
+},
+{
+"id": "t60",
+"name": "slow start",
+"module": 4
+},
+{
+"id": "t61",
+"name": "additive- increase/multiplicative-decrease (AIMD )",
+"module": 4
+},
+{
+"id": "t62",
+"name": "Congestion avoidance (DECBit , RED)",
+"module": 4
+},
+{
+"id": "t63",
+"name": "SCTP",
+"module": 4
+},
+{
+"id": "t64",
+"name": "Quality of service",
+"module": 4
+},
+{
+"id": "t65",
+"name": "Application layer Paradigms",
+"module": 5
+},
+{
+"id": "t66",
+"name": "Client-Server Paradigm",
+"module": 5
+},
+{
+"id": "t67",
+"name": "Application Programming Interface",
+"module": 5
+},
+{
+"id": "t68",
+"name": "Standard Client Server applications",
+"module": 5
+},
+{
+"id": "t69",
+"name": "World Wide Web and HTTP",
+"module": 5
+},
+{
+"id": "t70",
+"name": "FTP",
+"module": 5
+},
+{
+"id": "t71",
+"name": "TELNET",
+"module": 5
+},
+{
+"id": "t72",
+"name": "Secure Shell (SSH)",
+"module": 5
+},
+{
+"id": "t73",
+"name": "Domain Name System (DNS)",
+"module": 5
+},
+{
+"id": "t74",
+"name": "MPLS",
+"module": 6
+},
+{
+"id": "t75",
+"name": "header",
+"module": 6
+},
+{
+"id": "t76",
+"name": "working",
+"module": 6
+},
+{
+"id": "t77",
+"name": "advantages and disadvantages",
+"module": 6
+},
+{
+"id": "t78",
+"name": "RADIO SPECTRUM",
+"module": 6
+},
+{
+"id": "t79",
+"name": "5G spectrum landscape and requirements",
+"module": 6
+},
+{
+"id": "t80",
+"name": "Spectrum access modes and sharing scenarios",
+"module": 6
+},
+{
+"id": "t81",
+"name": "5G spectrum technologies. 5G architecture",
+"module": 6
+},
+{
+"id": "t82",
+"name": "Introduction and need to study cyber security",
+"module": 6
+},
+{
+"id": "t83",
+"name": "Cyber Crime",
+"module": 6
+},
+{
+"id": "t84",
+"name": "Cybercrime definition",
+"module": 6
+},
+{
+"id": "t85",
+"name": "Types of Cybercrime",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t76",
+"b": "t77",
+"a_name": "working",
+"b_name": "advantages and disadvantages"
+},
+{
+"i": 1,
+"a": "t53",
+"b": "t59",
+"a_name": "TCP Characteristics",
+"b_name": "TCP Congestion Control"
+},
+{
+"i": 2,
+"a": "t25",
+"b": "t26",
+"a_name": "Framing",
+"b_name": "Error Detection and correction"
+},
+{
+"i": 3,
+"a": "t17",
+"b": "t18",
+"a_name": "Bridge",
+"b_name": "Switch"
+},
+{
+"i": 4,
+"a": "t16",
+"b": "t17",
+"a_name": "Network Devices",
+"b_name": "Bridge"
+},
+{
+"i": 5,
+"a": "t80",
+"b": "t81",
+"a_name": "Spectrum access modes and sharing scenarios",
+"b_name": "5G spectrum technologies. 5G architecture"
+},
+{
+"i": 6,
+"a": "t30",
+"b": "t32",
+"a_name": "Flow Control Protocols",
+"b_name": "Stop and Wait"
+},
+{
+"i": 7,
+"a": "t59",
+"b": "t62",
+"a_name": "TCP Congestion Control",
+"b_name": "Congestion avoidance (DECBit , RED)"
+},
+{
+"i": 8,
+"a": "t49",
+"b": "t62",
+"a_name": "Congestion Control and Quality of Service (QoS)",
+"b_name": "Congestion avoidance (DECBit , RED)"
+},
+{
+"i": 9,
+"a": "t25",
+"b": "t34",
+"a_name": "Framing",
+"b_name": "PPP and HDLC"
+},
+{
+"i": 10,
+"a": "t49",
+"b": "t59",
+"a_name": "Congestion Control and Quality of Service (QoS)",
+"b_name": "TCP Congestion Control"
+},
+{
+"i": 11,
+"a": "t16",
+"b": "t20",
+"a_name": "Network Devices",
+"b_name": "Gateway"
+},
+{
+"i": 12,
+"a": "t49",
+"b": "t64",
+"a_name": "Congestion Control and Quality of Service (QoS)",
+"b_name": "Quality of service"
+},
+{
+"i": 13,
+"a": "t66",
+"b": "t73",
+"a_name": "Client-Server Paradigm",
+"b_name": "Domain Name System (DNS)"
+},
+{
+"i": 14,
+"a": "t6",
+"b": "t8",
+"a_name": "Protocol",
+"b_name": "Network Models"
+},
+{
+"i": 15,
+"a": "t30",
+"b": "t31",
+"a_name": "Flow Control Protocols",
+"b_name": "Unrestricted Simplex"
+},
+{
+"i": 16,
+"a": "t75",
+"b": "t76",
+"a_name": "header",
+"b_name": "working"
+},
+{
+"i": 17,
+"a": "t13",
+"b": "t15",
+"a_name": "Network Architectures",
+"b_name": "Peer To Peer"
+},
+{
+"i": 18,
+"a": "t50",
+"b": "t63",
+"a_name": "Transport Service",
+"b_name": "SCTP"
+},
+{
+"i": 19,
+"a": "t58",
+"b": "t59",
+"a_name": "TCP Flow control (sliding Window)",
+"b_name": "TCP Congestion Control"
+},
+{
+"i": 20,
+"a": "t74",
+"b": "t75",
+"a_name": "MPLS",
+"b_name": "header"
+},
+{
+"i": 21,
+"a": "t16",
+"b": "t21",
+"a_name": "Network Devices",
+"b_name": "Access Point"
+},
+{
+"i": 22,
+"a": "t68",
+"b": "t73",
+"a_name": "Standard Client Server applications",
+"b_name": "Domain Name System (DNS)"
+},
+{
+"i": 23,
+"a": "t13",
+"b": "t14",
+"a_name": "Network Architectures",
+"b_name": "Client- Server"
+},
+{
+"i": 24,
+"a": "t16",
+"b": "t19",
+"a_name": "Network Devices",
+"b_name": "Router"
+}
+]
+}

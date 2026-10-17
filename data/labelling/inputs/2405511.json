@@ -1,0 +1,702 @@
+{
+"course": "2405511",
+"title": "Indian Knowledge System-II",
+"modules": [
+{
+"index": 1,
+"name": "Town Planning and Governance, Vastu shastra – The science of Architecture"
+},
+{
+"index": 2,
+"name": "Irrigation planning, transport systems and Astronomy"
+},
+{
+"index": 3,
+"name": "Traditional Chemical Processes and Industrial Advancements"
+},
+{
+"index": 4,
+"name": "Rasashastra – Ancient Indian Chemical Science and Classical Apparatus"
+},
+{
+"index": 5,
+"name": "Indigenous Metal and Metal Processing Techniques"
+},
+{
+"index": 6,
+"name": "Development of Transmission in India"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Development of ancient text",
+"module": 1
+},
+{
+"id": "t2",
+"name": "principles",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Terminologies",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Indic languages",
+"module": 1
+},
+{
+"id": "t5",
+"name": "various typologies",
+"module": 1
+},
+{
+"id": "t6",
+"name": "social infrastructure- places for gathering",
+"module": 1
+},
+{
+"id": "t7",
+"name": "worship",
+"module": 1
+},
+{
+"id": "t8",
+"name": "entertainment",
+"module": 1
+},
+{
+"id": "t9",
+"name": "cremation etc. Perspective of Arthaśāstra on town planning",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Governance systems and Principles of Town Planning",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Principles of land management",
+"module": 1
+},
+{
+"id": "t12",
+"name": "local and global trade routes and trade centres",
+"module": 1
+},
+{
+"id": "t13",
+"name": "establishment and decay of urban settlements",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Ancient India urbanization",
+"module": 1
+},
+{
+"id": "t15",
+"name": "layouts in terms of geometry",
+"module": 1
+},
+{
+"id": "t16",
+"name": "population",
+"module": 1
+},
+{
+"id": "t17",
+"name": "geography",
+"module": 1
+},
+{
+"id": "t18",
+"name": "various communities",
+"module": 1
+},
+{
+"id": "t19",
+"name": "Evolution of the cities",
+"module": 1
+},
+{
+"id": "t20",
+"name": "Eight limbs of Vastu",
+"module": 1
+},
+{
+"id": "t21",
+"name": "Ancient literature and archaeological evidence of building and building materials",
+"module": 1
+},
+{
+"id": "t22",
+"name": "Fortification and Forts",
+"module": 1
+},
+{
+"id": "t23",
+"name": "Structural Principles in worship places Architecture. marvelous stone architecture for eternity",
+"module": 1
+},
+{
+"id": "t24",
+"name": "Iconography Use of bricks or dressed stone based on logical principals of structural engineering",
+"module": 1
+},
+{
+"id": "t25",
+"name": "Irrigation and water management",
+"module": 2
+},
+{
+"id": "t26",
+"name": "Ancient irrigation systems",
+"module": 2
+},
+{
+"id": "t27",
+"name": "dams",
+"module": 2
+},
+{
+"id": "t28",
+"name": "reservoirs",
+"module": 2
+},
+{
+"id": "t29",
+"name": "sluices",
+"module": 2
+},
+{
+"id": "t30",
+"name": "canals",
+"module": 2
+},
+{
+"id": "t31",
+"name": "embankments",
+"module": 2
+},
+{
+"id": "t32",
+"name": "wells",
+"module": 2
+},
+{
+"id": "t33",
+"name": "water- lifting devices",
+"module": 2
+},
+{
+"id": "t34",
+"name": "etc. from a historical point of view",
+"module": 2
+},
+{
+"id": "t35",
+"name": "Irrigation systems and practices in South India",
+"module": 2
+},
+{
+"id": "t36",
+"name": "Ancient transport systems during various periods",
+"module": 2
+},
+{
+"id": "t37",
+"name": "Indus valley",
+"module": 2
+},
+{
+"id": "t38",
+"name": "Buddhist period",
+"module": 2
+},
+{
+"id": "t39",
+"name": "Mauryan period",
+"module": 2
+},
+{
+"id": "t40",
+"name": "Gupta period",
+"module": 2
+},
+{
+"id": "t41",
+"name": "etc. Shipbuilding",
+"module": 2
+},
+{
+"id": "t42",
+"name": "Indigenous shipbuilding",
+"module": 2
+},
+{
+"id": "t43",
+"name": "materials and methods-Use of local materials",
+"module": 2
+},
+{
+"id": "t44",
+"name": "teak",
+"module": 2
+},
+{
+"id": "t45",
+"name": "bamboo",
+"module": 2
+},
+{
+"id": "t46",
+"name": "coir",
+"module": 2
+},
+{
+"id": "t47",
+"name": "lac- Construction techniques",
+"module": 2
+},
+{
+"id": "t48",
+"name": "Innovations in hull design",
+"module": 2
+},
+{
+"id": "t49",
+"name": "masts",
+"module": 2
+},
+{
+"id": "t50",
+"name": "rigging",
+"module": 2
+},
+{
+"id": "t51",
+"name": "Indian Astronomy",
+"module": 2
+},
+{
+"id": "t52",
+"name": "Planetary System",
+"module": 2
+},
+{
+"id": "t53",
+"name": "Motion of the Planets",
+"module": 2
+},
+{
+"id": "t54",
+"name": "Velocity of Light",
+"module": 2
+},
+{
+"id": "t55",
+"name": "Eclipse",
+"module": 2
+},
+{
+"id": "t56",
+"name": "Astronomy",
+"module": 2
+},
+{
+"id": "t57",
+"name": "Navagrahas",
+"module": 2
+},
+{
+"id": "t58",
+"name": "Important works in Indian Astronomy",
+"module": 2
+},
+{
+"id": "t59",
+"name": "Aryabhata and Nilakantha",
+"module": 2
+},
+{
+"id": "t60",
+"name": "Contribution to Astronomical Studies",
+"module": 2
+},
+{
+"id": "t61",
+"name": "Overview of ancient Indian scientific texts related to chemicals",
+"module": 3
+},
+{
+"id": "t62",
+"name": "Arthashastra",
+"module": 3
+},
+{
+"id": "t63",
+"name": "mining techniques and metallurgy",
+"module": 3
+},
+{
+"id": "t64",
+"name": "Charaka Samhita",
+"module": 3
+},
+{
+"id": "t65",
+"name": "pharmaceutical preparations and fermentation",
+"module": 3
+},
+{
+"id": "t66",
+"name": "Sushruta Samhita",
+"module": 3
+},
+{
+"id": "t67",
+"name": "preparation of alkali and mineral medicines",
+"module": 3
+},
+{
+"id": "t68",
+"name": "traditional chemical operations",
+"module": 3
+},
+{
+"id": "t69",
+"name": "processes such as manual metal extraction methods",
+"module": 3
+},
+{
+"id": "t70",
+"name": "herbal extraction techniques",
+"module": 3
+},
+{
+"id": "t71",
+"name": "small-scale batch production methods",
+"module": 3
+},
+{
+"id": "t72",
+"name": "Production of natural alkali from plant ash",
+"module": 3
+},
+{
+"id": "t73",
+"name": "comparison of traditional metallurgy with modern metallurgical processes",
+"module": 3
+},
+{
+"id": "t74",
+"name": "herbal extraction with solvent extraction and chromatography",
+"module": 3
+},
+{
+"id": "t75",
+"name": "natural alkali production with chlor-alkali industry",
+"module": 3
+},
+{
+"id": "t76",
+"name": "batch processing with continuous processing",
+"module": 3
+},
+{
+"id": "t77",
+"name": "scope of rasashastra in traditional Indian alchemy and medicine",
+"module": 4
+},
+{
+"id": "t78",
+"name": "development of rasashastra",
+"module": 4
+},
+{
+"id": "t79",
+"name": "contributions of Nagarjuna in metallurgical and alchemical practices",
+"module": 4
+},
+{
+"id": "t80",
+"name": "role of mercury (Parada) and metals in classical medicinal formulations",
+"module": 4
+},
+{
+"id": "t81",
+"name": "Various apparatus used in rasashastra such as Dolayantra (boiling and heating setup)",
+"module": 4
+},
+{
+"id": "t82",
+"name": "Patana Yantra (distillation apparatus)",
+"module": 4
+},
+{
+"id": "t83",
+"name": "Puta (system for controlled heating)",
+"module": 4
+},
+{
+"id": "t84",
+"name": "Musha (crucible) used for melting and calcination",
+"module": 4
+},
+{
+"id": "t85",
+"name": "Khalva Yantra (grinding and mixing of materials)",
+"module": 4
+},
+{
+"id": "t86",
+"name": "rasashastra processes such as Shodhana (purification)",
+"module": 4
+},
+{
+"id": "t87",
+"name": "Marana (calcination)",
+"module": 4
+},
+{
+"id": "t88",
+"name": "Jarana (roasting) and Bhavana (levigation)",
+"module": 4
+},
+{
+"id": "t89",
+"name": "Comparison of Dolayantra with modern jacketed reactors",
+"module": 4
+},
+{
+"id": "t90",
+"name": "Patana Yantra with distillation columns",
+"module": 4
+},
+{
+"id": "t91",
+"name": "Marana process with rotary kiln or muffle furnace",
+"module": 4
+},
+{
+"id": "t92",
+"name": "mercury purification methods with modern hydrometallurgical refining techniques",
+"module": 4
+},
+{
+"id": "t93",
+"name": "Early Metals in India Use of copper",
+"module": 5
+},
+{
+"id": "t94",
+"name": "bronze",
+"module": 5
+},
+{
+"id": "t95",
+"name": "gold",
+"module": 5
+},
+{
+"id": "t96",
+"name": "silver",
+"module": 5
+},
+{
+"id": "t97",
+"name": "tin",
+"module": 5
+},
+{
+"id": "t98",
+"name": "lead in Harappan and Vedic periods",
+"module": 5
+},
+{
+"id": "t99",
+"name": "Indigenous mining",
+"module": 5
+},
+{
+"id": "t100",
+"name": "ore beneficiation",
+"module": 5
+},
+{
+"id": "t101",
+"name": "furnace designs",
+"module": 5
+},
+{
+"id": "t102",
+"name": "smelting practices",
+"module": 5
+},
+{
+"id": "t103",
+"name": "Landmark Indian Metallurgical Achievements Wootz Steel",
+"module": 5
+},
+{
+"id": "t104",
+"name": "crucible steelmaking",
+"module": 5
+},
+{
+"id": "t105",
+"name": "carbon control",
+"module": 5
+},
+{
+"id": "t106",
+"name": "carbide banding",
+"module": 5
+},
+{
+"id": "t107",
+"name": "global influence as Damascus steel",
+"module": 5
+},
+{
+"id": "t108",
+"name": "Zawar Zinc Distillation",
+"module": 5
+},
+{
+"id": "t109",
+"name": "world’s earliest large- scale zinc production",
+"module": 5
+},
+{
+"id": "t110",
+"name": "downward distillation furnaces",
+"module": 5
+},
+{
+"id": "t111",
+"name": "Chola Bronze Metallurgy",
+"module": 5
+},
+{
+"id": "t112",
+"name": "alloy design (Cu–Sn– Pb)",
+"module": 5
+},
+{
+"id": "t113",
+"name": "precision lost-wax casting for sculptures",
+"module": 5
+},
+{
+"id": "t114",
+"name": "Aranmula Metal Mirror",
+"module": 5
+},
+{
+"id": "t115",
+"name": "high-tin bronze polishing technology with mirror-grade reflectivity",
+"module": 5
+},
+{
+"id": "t116",
+"name": "Konark Temple Iron Beams & Clamps",
+"module": 5
+},
+{
+"id": "t117",
+"name": "structural iron demonstrating marine corrosion resistance",
+"module": 5
+},
+{
+"id": "t118",
+"name": "Scientific Insights Behind Traditional Metallurgy Delhi Iron Pillar",
+"module": 5
+},
+{
+"id": "t119",
+"name": "natural formation of a passive protective layer",
+"module": 5
+},
+{
+"id": "t120",
+"name": "high‐phosphorus wrought iron",
+"module": 5
+},
+{
+"id": "t121",
+"name": "Microstructure evolution through traditional forming and heat-treatment cycles",
+"module": 5
+},
+{
+"id": "t122",
+"name": "Traditional Indian blacksmiths (Lohar, Vishwakarma, Asari, Kammalar communities)",
+"module": 5
+},
+{
+"id": "t123",
+"name": "Transmission in Early Indian Civilizations Indus Valley Civilization",
+"module": 6
+},
+{
+"id": "t124",
+"name": "evidence of wheel technology",
+"module": 6
+},
+{
+"id": "t125",
+"name": "carts",
+"module": 6
+},
+{
+"id": "t126",
+"name": "pottery wheels",
+"module": 6
+},
+{
+"id": "t127",
+"name": "early bearing surfaces",
+"module": 6
+},
+{
+"id": "t128",
+"name": "Use of pulleys",
+"module": 6
+},
+{
+"id": "t129",
+"name": "levers",
+"module": 6
+},
+{
+"id": "t130",
+"name": "inclined planes in construction and material handling",
+"module": 6
+},
+{
+"id": "t131",
+"name": "Traditional gear and motion Conversion systems Sugarcane crushers",
+"module": 6
+},
+{
+"id": "t132",
+"name": "oil ghanis",
+"module": 6
+},
+{
+"id": "t133",
+"name": "temple clocks",
+"module": 6
+},
+{
+"id": "t134",
+"name": "granaries",
+"module": 6
+}
+]
+}

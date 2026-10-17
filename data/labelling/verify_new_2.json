@@ -1,0 +1,68 @@
+{
+ "verdicts": {
+  "2116113": {
+   "verdict": "FIXABLE",
+   "note": "M5 name parsed as 'd' (should be data/analytics module); minor losses (5G, M2M, 802.15.4); topics otherwise clean"
+  },
+  "2116114": {
+   "verdict": "FIXABLE",
+   "note": "~6 glued items (Adaptive II, 'I. Image Restoration (4 Hours)', Interpolation and Replication Frequency domain..., Color Models ... Image Histogram), ~7% junk; all 6 modules present"
+  },
+  "2116117": {
+   "verdict": "FIXABLE",
+   "note": "Topics clean but module names broken (M3/M4 empty, M2 duplicated, M5 'Decentralized Applications and I t f i'); topic content complete"
+  },
+  "PCC501": {
+   "verdict": "FIXABLE",
+   "note": "M4 truncated: lost 4.7 IPv6, QoS, congestion control algorithms; M5 split 'Connectionless and Connection ; oriented', 'Path vector ; routing'; lost Error control"
+  },
+  "PEC5012": {
+   "verdict": "FIXABLE",
+   "note": "3 glued items (Postfix Evaluation Introduction, AVL Tree Introduction, Dijkstra Algorithm Fractional Knapsack problem) ~6%; all modules complete"
+  },
+  "PEC6012": {
+   "verdict": "OK",
+   "note": "All 6 modules complete; only minor fragments (space ; time complexity); self-learning items excluded"
+  },
+  "PEC6022": {
+   "verdict": "OK",
+   "note": "All modules complete and in order; one glued item (Cell decomposition path planning Potential field...)"
+  },
+  "PEC6024": {
+   "verdict": "FIXABLE",
+   "note": "M6 truncated: only ATM technology/VP/VC kept, lost ATM cells, LAN emulation, ATM network mgmt, ATM MIB, M1-M4 interfaces; minor splits (client ; server)"
+  },
+  "2405112": {
+   "verdict": "FIXABLE",
+   "note": "~4% junk: trailing '*' on last M4 topic, 'Errors in measure- ments', Resistance thermometers glued, 'Desired ; interfering...' split; lost Span & Range, lag"
+  },
+  "24051142": {
+   "verdict": "FIXABLE",
+   "note": "M2 lost viscous-damped and Coulomb damping items and examples list; small splits (Spring ; Damper Model, 'undamped and damped')"
+  },
+  "24051143": {
+   "verdict": "OK",
+   "note": "All 6 modules complete incl. M2 damping; only trailing '@' artifacts and Spring ; Damper Model split"
+  },
+  "2405511": {
+   "verdict": "FIXABLE",
+   "note": "IKS course; ~12% junk/glued sentence fragments (etc. from a historical point of view, Early Metals in India Use of copper, Indus Valley glued headings); content complete"
+  },
+  "24061131": {
+   "verdict": "FIXABLE",
+   "note": "Trailing '*' on M5/M6 last topics, 'RAC components Reciprocating' and 'AC in textile ; Printing pharmaceutical...' glued, hyphen-split words; modules complete"
+  },
+  "24061132": {
+   "verdict": "BAD",
+   "note": "Major loss across page breaks: M1 only 5 topics (lost 1.2 Refrigerants, 1.3 Air Refrigeration/Bell Coleman), M2 truncated (lost VAR details, heat pump), M5 lost AHU/fans, M6 cut"
+  },
+  "24061141": {
+   "verdict": "FIXABLE",
+   "note": "~10% junk: glued headings (Direct Kinematics Dot and Cross products, Dynamics Lagrange's Equation, 'Contents'), M1 intro (definition/history/applications) lost; source has Cyrillic homoglyphs needing normalisation"
+  },
+  "24061142": {
+   "verdict": "OK",
+   "note": "All modules complete; minor: glued 'OPC-UA ... Interfaces', I2C lost, M1 'evolution' dangling"
+  }
+ }
+}

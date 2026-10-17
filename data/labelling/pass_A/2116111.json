@@ -1,0 +1,199 @@
+{
+ "edges": [
+  {
+   "a": "t1",
+   "b": "t2",
+   "why": "basic concept before its types"
+  },
+  {
+   "a": "t6",
+   "b": "t7",
+   "why": "over/underfitting defined via generalization error"
+  },
+  {
+   "a": "t6",
+   "b": "t8",
+   "why": "over/underfitting defined via generalization error"
+  },
+  {
+   "a": "t7",
+   "b": "t9",
+   "why": "bias-variance explains overfitting"
+  },
+  {
+   "a": "t8",
+   "b": "t9",
+   "why": "bias-variance explains underfitting"
+  },
+  {
+   "a": "t10",
+   "b": "t11",
+   "why": "regression framework before linear model"
+  },
+  {
+   "a": "t11",
+   "b": "t12",
+   "why": "multivariate extends simple linear regression"
+  },
+  {
+   "a": "t11",
+   "b": "t13",
+   "why": "logistic regression builds on linear model"
+  },
+  {
+   "a": "t15",
+   "b": "t16",
+   "why": "margin concept before optimization formulation"
+  },
+  {
+   "a": "t16",
+   "b": "t17",
+   "why": "QP is the solver for SVM formulation"
+  },
+  {
+   "a": "t15",
+   "b": "t18",
+   "why": "SVM classification relies on margins"
+  },
+  {
+   "a": "t18",
+   "b": "t19",
+   "why": "kernel trick enables nonlinear SVM"
+  },
+  {
+   "a": "t22",
+   "b": "t24",
+   "why": "F1 combines precision"
+  },
+  {
+   "a": "t23",
+   "b": "t24",
+   "why": "F1 combines recall"
+  },
+  {
+   "a": "t23",
+   "b": "t25",
+   "why": "ROC plots recall against specificity"
+  },
+  {
+   "a": "t26",
+   "b": "t25",
+   "why": "ROC uses specificity"
+  },
+  {
+   "a": "t27",
+   "b": "t28",
+   "why": "clustering before defining clusters"
+  },
+  {
+   "a": "t31",
+   "b": "t36",
+   "why": "K-means uses distance measures"
+  },
+  {
+   "a": "t33",
+   "b": "t39",
+   "why": "silhouette uses inter-cluster distance"
+  },
+  {
+   "a": "t33",
+   "b": "t40",
+   "why": "DBI uses inter-cluster separation"
+  },
+  {
+   "a": "t33",
+   "b": "t41",
+   "why": "Dunn index uses inter-cluster distance"
+  },
+  {
+   "a": "t36",
+   "b": "t37",
+   "why": "DBSCAN contrasted with K-means"
+  },
+  {
+   "a": "t43",
+   "b": "t44",
+   "why": "motivation before generalization view"
+  },
+  {
+   "a": "t45",
+   "b": "t46",
+   "why": "voting combines base learners"
+  },
+  {
+   "a": "t47",
+   "b": "t48",
+   "why": "OOB error derives from bootstrap sampling"
+  },
+  {
+   "a": "t47",
+   "b": "t49",
+   "why": "random forest uses bagging"
+  },
+  {
+   "a": "t14",
+   "b": "t49",
+   "why": "random forest uses decision trees"
+  },
+  {
+   "a": "t50",
+   "b": "t51",
+   "why": "meta learning defines base and meta levels"
+  },
+  {
+   "a": "t53",
+   "b": "t54",
+   "why": "AdaBoost uses stumps as weak learners"
+  },
+  {
+   "a": "t58",
+   "b": "t60",
+   "why": "posterior computed from likelihood"
+  },
+  {
+   "a": "t59",
+   "b": "t60",
+   "why": "posterior computed from prior"
+  },
+  {
+   "a": "t58",
+   "b": "t61",
+   "why": "MLE maximizes likelihood"
+  },
+  {
+   "a": "t62",
+   "b": "t63",
+   "why": "Bayesian networks implement probabilistic reasoning"
+  },
+  {
+   "a": "t63",
+   "b": "t64",
+   "why": "BBN structure is a DAG"
+  },
+  {
+   "a": "t64",
+   "b": "t65",
+   "why": "inference operates on BBN structure"
+  },
+  {
+   "a": "t66",
+   "b": "t67",
+   "why": "motivation before definition"
+  },
+  {
+   "a": "t67",
+   "b": "t69",
+   "why": "definition before algorithm"
+  },
+  {
+   "a": "t61",
+   "b": "t68",
+   "why": "EM extends MLE"
+  },
+  {
+   "a": "t70",
+   "b": "t71",
+   "why": "PCA addresses curse of dimensionality"
+  }
+ ]
+}

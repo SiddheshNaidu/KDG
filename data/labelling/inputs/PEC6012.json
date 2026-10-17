@@ -1,0 +1,207 @@
+{
+"course": "PEC6012",
+"title": "Analysis of Algorithm",
+"modules": [
+{
+"index": 1,
+"name": "Introduction"
+},
+{
+"index": 2,
+"name": "Divide and Conquer Approach"
+},
+{
+"index": 3,
+"name": "Greedy Method Approach"
+},
+{
+"index": 4,
+"name": "Dynamic Programming Approach"
+},
+{
+"index": 5,
+"name": "Backtracking and Branch and bound"
+},
+{
+"index": 6,
+"name": "String Matching Algorithms"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Performance analysis",
+"module": 1
+},
+{
+"id": "t2",
+"name": "space",
+"module": 1
+},
+{
+"id": "t3",
+"name": "time complexity Growth of function",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Big- Oh",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Omega",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Theta Notation Mathematical background for algorithm analysis",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Analysis of selection sort",
+"module": 1
+},
+{
+"id": "t8",
+"name": "insertion sort",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Recurrences",
+"module": 1
+},
+{
+"id": "t10",
+"name": "substitution method",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Master method",
+"module": 1
+},
+{
+"id": "t12",
+"name": "General method",
+"module": 2
+},
+{
+"id": "t13",
+"name": "Merge sort",
+"module": 2
+},
+{
+"id": "t14",
+"name": "Quick sort",
+"module": 2
+},
+{
+"id": "t15",
+"name": "Analysis of Linear Search and Binary search",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Single source shortest path",
+"module": 3
+},
+{
+"id": "t17",
+"name": "Dijkstra Algorithm",
+"module": 3
+},
+{
+"id": "t18",
+"name": "Fractional Knapsack problem",
+"module": 3
+},
+{
+"id": "t19",
+"name": "Minimum cost spanning trees",
+"module": 3
+},
+{
+"id": "t20",
+"name": "Kruskal and Prim’s algorithms",
+"module": 3
+},
+{
+"id": "t21",
+"name": "Multistage graphs",
+"module": 4
+},
+{
+"id": "t22",
+"name": "All pair shortest path",
+"module": 4
+},
+{
+"id": "t23",
+"name": "Floyd Warshall Algorithm",
+"module": 4
+},
+{
+"id": "t24",
+"name": "0/1 knapsack Problem",
+"module": 4
+},
+{
+"id": "t25",
+"name": "Travelling Salesperson problem",
+"module": 4
+},
+{
+"id": "t26",
+"name": "Longest common subsequence",
+"module": 4
+},
+{
+"id": "t27",
+"name": "Backtracking",
+"module": 5
+},
+{
+"id": "t28",
+"name": "N-queen problem",
+"module": 5
+},
+{
+"id": "t29",
+"name": "Sum of subsets",
+"module": 5
+},
+{
+"id": "t30",
+"name": "Graph coloring",
+"module": 5
+},
+{
+"id": "t31",
+"name": "Branch and Bound",
+"module": 5
+},
+{
+"id": "t32",
+"name": "15 Puzzle problem",
+"module": 5
+},
+{
+"id": "t33",
+"name": "Naïve string-matching algorithm",
+"module": 6
+},
+{
+"id": "t34",
+"name": "Rabin Karp algorithm",
+"module": 6
+},
+{
+"id": "t35",
+"name": "Knuth-Morris-Pratt algorithm",
+"module": 6
+}
+]
+}

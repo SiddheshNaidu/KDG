@@ -1,0 +1,457 @@
+{
+"course": "24061142",
+"title": "PEC-3 - Internet of Things (IoT)",
+"modules": [
+{
+"index": 1,
+"name": "Introduction to Internet of Things (IoT)"
+},
+{
+"index": 2,
+"name": "Sensors, Actuators and Controllers"
+},
+{
+"index": 3,
+"name": "Data Acquisition and Signal Conditioning"
+},
+{
+"index": 4,
+"name": "IoT Communication Technologies and Protocols"
+},
+{
+"index": 5,
+"name": "IoT Data Management and Cloud Integration"
+},
+{
+"index": 6,
+"name": "Industrial Applications of IoT"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "evolution of IoT",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Comparison of IoT and Machine-to-Machine (M2M)",
+"module": 1
+},
+{
+"id": "t3",
+"name": "IoT architecture",
+"module": 1
+},
+{
+"id": "t4",
+"name": "IoT Ecosystem and Components",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Key characteristics",
+"module": 1
+},
+{
+"id": "t6",
+"name": "IoT Applications",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Challenges",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Sensors",
+"module": 2
+},
+{
+"id": "t9",
+"name": "Sensor characteristics (static and dynamic characteristics)",
+"module": 2
+},
+{
+"id": "t10",
+"name": "Classification and working principles",
+"module": 2
+},
+{
+"id": "t11",
+"name": "Temperature",
+"module": 2
+},
+{
+"id": "t12",
+"name": "Humidity",
+"module": 2
+},
+{
+"id": "t13",
+"name": "Smoke/Gas",
+"module": 2
+},
+{
+"id": "t14",
+"name": "Pressure",
+"module": 2
+},
+{
+"id": "t15",
+"name": "Vibration",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Displacement",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Proximity",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Actuators",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Based on the type of energy source (electric, hydraulic and pneumatic actuators)",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Based on Type of Motion (Linear actuators (Solenoid), Rotary actuators (Motors: Stepper and Servo motors))",
+"module": 2
+},
+{
+"id": "t21",
+"name": "Controllers",
+"module": 2
+},
+{
+"id": "t22",
+"name": "Role of microcontrollers in IoT",
+"module": 2
+},
+{
+"id": "t23",
+"name": "Conceptual overview of Arduino",
+"module": 2
+},
+{
+"id": "t24",
+"name": "ESP32 Node MCU",
+"module": 2
+},
+{
+"id": "t25",
+"name": "Raspberry Pi as IoT controllers (no programming)",
+"module": 2
+},
+{
+"id": "t26",
+"name": "Data Acquisition (DAQ) system",
+"module": 3
+},
+{
+"id": "t27",
+"name": "Architecture and workflow",
+"module": 3
+},
+{
+"id": "t28",
+"name": "Analog vs. digital signals",
+"module": 3
+},
+{
+"id": "t29",
+"name": "Sampling rate",
+"module": 3
+},
+{
+"id": "t30",
+"name": "ADC resolution",
+"module": 3
+},
+{
+"id": "t31",
+"name": "Signal conditioning fundamentals",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Amplification",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Filtering",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Isolation",
+"module": 3
+},
+{
+"id": "t35",
+"name": "Noise reduction",
+"module": 3
+},
+{
+"id": "t36",
+"name": "Calibration and linearization of sensors",
+"module": 3
+},
+{
+"id": "t37",
+"name": "Communication models",
+"module": 4
+},
+{
+"id": "t38",
+"name": "Device-to-Device",
+"module": 4
+},
+{
+"id": "t39",
+"name": "Device-to- Gateway",
+"module": 4
+},
+{
+"id": "t40",
+"name": "Device-to-Cloud",
+"module": 4
+},
+{
+"id": "t41",
+"name": "Wireless Communication Technologies",
+"module": 4
+},
+{
+"id": "t42",
+"name": "Wi-Fi",
+"module": 4
+},
+{
+"id": "t43",
+"name": "Bluetooth/BLE",
+"module": 4
+},
+{
+"id": "t44",
+"name": "ZigBee",
+"module": 4
+},
+{
+"id": "t45",
+"name": "LoRaWAN",
+"module": 4
+},
+{
+"id": "t46",
+"name": "NB-IoT",
+"module": 4
+},
+{
+"id": "t47",
+"name": "RFID",
+"module": 4
+},
+{
+"id": "t48",
+"name": "Application Protocols",
+"module": 4
+},
+{
+"id": "t49",
+"name": "HTTP",
+"module": 4
+},
+{
+"id": "t50",
+"name": "MQTT (emphasize industrial usage)",
+"module": 4
+},
+{
+"id": "t51",
+"name": "CoAP",
+"module": 4
+},
+{
+"id": "t52",
+"name": "OPC-UA for shop-floor and SCADA communication (overview) Interfaces (Conceptual Only)",
+"module": 4
+},
+{
+"id": "t53",
+"name": "GPIO",
+"module": 4
+},
+{
+"id": "t54",
+"name": "UART",
+"module": 4
+},
+{
+"id": "t55",
+"name": "SPI",
+"module": 4
+},
+{
+"id": "t56",
+"name": "Data flow",
+"module": 5
+},
+{
+"id": "t57",
+"name": "Sensing → Transmission → Cloud → Visualization",
+"module": 5
+},
+{
+"id": "t58",
+"name": "Data storage concepts",
+"module": 5
+},
+{
+"id": "t59",
+"name": "Local",
+"module": 5
+},
+{
+"id": "t60",
+"name": "Edge",
+"module": 5
+},
+{
+"id": "t61",
+"name": "Fog",
+"module": 5
+},
+{
+"id": "t62",
+"name": "Cloud",
+"module": 5
+},
+{
+"id": "t63",
+"name": "Visualization dashboards for real-time monitoring",
+"module": 5
+},
+{
+"id": "t64",
+"name": "Cloud computing models",
+"module": 5
+},
+{
+"id": "t65",
+"name": "IaaS",
+"module": 5
+},
+{
+"id": "t66",
+"name": "PaaS",
+"module": 5
+},
+{
+"id": "t67",
+"name": "SaaS",
+"module": 5
+},
+{
+"id": "t68",
+"name": "IoT Cloud Platforms (overview only)",
+"module": 5
+},
+{
+"id": "t69",
+"name": "AWS IoT",
+"module": 5
+},
+{
+"id": "t70",
+"name": "Azure IoT Hub",
+"module": 5
+},
+{
+"id": "t71",
+"name": "Google IoT",
+"module": 5
+},
+{
+"id": "t72",
+"name": "ThingSpeak",
+"module": 5
+},
+{
+"id": "t73",
+"name": "Security in IoT Systems",
+"module": 5
+},
+{
+"id": "t74",
+"name": "Authentication",
+"module": 5
+},
+{
+"id": "t75",
+"name": "Encryption",
+"module": 5
+},
+{
+"id": "t76",
+"name": "Data integrity",
+"module": 5
+},
+{
+"id": "t77",
+"name": "Common industrial vulnerabilities and mitigation strategies",
+"module": 5
+},
+{
+"id": "t78",
+"name": "Introduction to Industrial IoT (IIoT)",
+"module": 6
+},
+{
+"id": "t79",
+"name": "IoT-driven smart manufacturing and production systems",
+"module": 6
+},
+{
+"id": "t80",
+"name": "Condition monitoring and predictive maintenance",
+"module": 6
+},
+{
+"id": "t81",
+"name": "Energy management and optimization through IoT",
+"module": 6
+},
+{
+"id": "t82",
+"name": "Digital twins and cyber-physical production systems",
+"module": 6
+},
+{
+"id": "t83",
+"name": "Smart transportation and logistics systems",
+"module": 6
+},
+{
+"id": "t84",
+"name": "Case study",
+"module": 6
+},
+{
+"id": "t85",
+"name": "IoT- enabled shop-floor monitoring",
+"module": 6
+}
+]
+}

@@ -4,7 +4,9 @@ import json, pathlib, collections
 M = pathlib.Path("data/labelling/merged"); AD = pathlib.Path("data/labelling/adjudicated"); IN = pathlib.Path("data/labelling/adjudicate"); OUT = pathlib.Path("data/labelling/final"); OUT.mkdir(exist_ok=True)
 T = json.load(open("data/processed/topics_nep.json", encoding="utf-8")); tot = collections.Counter(); rows = []
 for f in sorted(M.glob("*.json")):
-    c = f.stem; m = json.load(open(f)); agree = {tuple(e) for e in m["agree"]}
+    c = f.stem
+    if not (IN / f.name).exists(): continue      # excluded course (no adjudication input)
+    m = json.load(open(f)); agree = {tuple(e) for e in m["agree"]}
     cand = {x["i"]: (x["a"], x["b"]) for x in json.load(open(IN / f.name, encoding="utf-8"))["candidates"]}
     keep = set(json.load(open(AD / f.name))["keep"]) if (AD / f.name).exists() else None
     if keep is None: print("MISSING adjudication for", c); continue

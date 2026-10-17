@@ -1,0 +1,547 @@
+{
+"course": "2165116",
+"title": "Computer Network",
+"modules": [
+{
+"index": 1,
+"name": "Introduction To Computer Networks"
+},
+{
+"index": 2,
+"name": "Data Link Layer"
+},
+{
+"index": 3,
+"name": "Network Layer"
+},
+{
+"index": 4,
+"name": "Transport Layer"
+},
+{
+"index": 5,
+"name": "Application Layer"
+},
+{
+"index": 6,
+"name": "Emerging & Advanced Topics"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Types of Networks",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Local area networks (LAN)",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Metropolitan area networks (MAN)",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Wide area networks (WAN)",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Wireless networks",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Networks Software",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Protocol",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Design issues for the Network layers",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Network Models",
+"module": 1
+},
+{
+"id": "t10",
+"name": "OSI Reference Model",
+"module": 1
+},
+{
+"id": "t11",
+"name": "TCP/IP Model",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Network Topologies",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Types of Transmission Medium",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Network Architectures",
+"module": 1
+},
+{
+"id": "t15",
+"name": "Client-Server",
+"module": 1
+},
+{
+"id": "t16",
+"name": "Peer to Peer",
+"module": 1
+},
+{
+"id": "t17",
+"name": "Hybrid",
+"module": 1
+},
+{
+"id": "t18",
+"name": "Network Devices",
+"module": 1
+},
+{
+"id": "t19",
+"name": "Bridge",
+"module": 1
+},
+{
+"id": "t20",
+"name": "Switch",
+"module": 1
+},
+{
+"id": "t21",
+"name": "Router",
+"module": 1
+},
+{
+"id": "t22",
+"name": "Gateway",
+"module": 1
+},
+{
+"id": "t23",
+"name": "Access Point",
+"module": 1
+},
+{
+"id": "t24",
+"name": "Design Issues (Services to Network Layer, Framing",
+"module": 2
+},
+{
+"id": "t25",
+"name": "Error control, Flow control",
+"module": 2
+},
+{
+"id": "t26",
+"name": "Error Detection and correction",
+"module": 2
+},
+{
+"id": "t27",
+"name": "Parity Bits",
+"module": 2
+},
+{
+"id": "t28",
+"name": "Checksum",
+"module": 2
+},
+{
+"id": "t29",
+"name": "Hamming Codes and CRC",
+"module": 2
+},
+{
+"id": "t30",
+"name": "Flow Control Protocols",
+"module": 2
+},
+{
+"id": "t31",
+"name": "Unrestricted Simplex",
+"module": 2
+},
+{
+"id": "t32",
+"name": "Stop and Wait",
+"module": 2
+},
+{
+"id": "t33",
+"name": "Sliding Window Protocols",
+"module": 2
+},
+{
+"id": "t34",
+"name": "Elementary Data Link protocols MAC Sub layer",
+"module": 2
+},
+{
+"id": "t35",
+"name": "Multiple Access Protocols",
+"module": 2
+},
+{
+"id": "t36",
+"name": "Pure and Slotted ALOHA",
+"module": 2
+},
+{
+"id": "t37",
+"name": "CSMA",
+"module": 2
+},
+{
+"id": "t38",
+"name": "CSMA/CD",
+"module": 2
+},
+{
+"id": "t39",
+"name": "CSMA/CA",
+"module": 2
+},
+{
+"id": "t40",
+"name": "WDMA",
+"module": 2
+},
+{
+"id": "t41",
+"name": "Introduction to IEEE standards (IEEE 802.3, IEEE 802.11)",
+"module": 2
+},
+{
+"id": "t42",
+"name": "Network Layer design issues",
+"module": 3
+},
+{
+"id": "t43",
+"name": "Switching Techniques",
+"module": 3
+},
+{
+"id": "t44",
+"name": "Circuit switching",
+"module": 3
+},
+{
+"id": "t45",
+"name": "Message Switching",
+"module": 3
+},
+{
+"id": "t46",
+"name": "Packet Switching",
+"module": 3
+},
+{
+"id": "t47",
+"name": "IP Protocol",
+"module": 3
+},
+{
+"id": "t48",
+"name": "Classes of IP (Network addressing)",
+"module": 3
+},
+{
+"id": "t49",
+"name": "IPv4",
+"module": 3
+},
+{
+"id": "t50",
+"name": "IPv6",
+"module": 3
+},
+{
+"id": "t51",
+"name": "Network Address Translation",
+"module": 3
+},
+{
+"id": "t52",
+"name": "Sub- netting",
+"module": 3
+},
+{
+"id": "t53",
+"name": "Supernetting",
+"module": 3
+},
+{
+"id": "t54",
+"name": "CIDR",
+"module": 3
+},
+{
+"id": "t55",
+"name": "Network layer Protocols",
+"module": 3
+},
+{
+"id": "t56",
+"name": "ARP",
+"module": 3
+},
+{
+"id": "t57",
+"name": "RARP",
+"module": 3
+},
+{
+"id": "t58",
+"name": "ICMP",
+"module": 3
+},
+{
+"id": "t59",
+"name": "IGMP",
+"module": 3
+},
+{
+"id": "t60",
+"name": "Network Routing and Algorithms",
+"module": 3
+},
+{
+"id": "t61",
+"name": "Static Routing",
+"module": 3
+},
+{
+"id": "t62",
+"name": "Dynamic Routing",
+"module": 3
+},
+{
+"id": "t63",
+"name": "Distance Vector Routing",
+"module": 3
+},
+{
+"id": "t64",
+"name": "Link State Routing",
+"module": 3
+},
+{
+"id": "t65",
+"name": "Routing Protocols",
+"module": 3
+},
+{
+"id": "t66",
+"name": "RIP",
+"module": 3
+},
+{
+"id": "t67",
+"name": "OSPF",
+"module": 3
+},
+{
+"id": "t68",
+"name": "BGP",
+"module": 3
+},
+{
+"id": "t69",
+"name": "Process to Process Delivery",
+"module": 4
+},
+{
+"id": "t70",
+"name": "Services",
+"module": 4
+},
+{
+"id": "t71",
+"name": "Socket Programming",
+"module": 4
+},
+{
+"id": "t72",
+"name": "Elements of Transport Layer Protocols",
+"module": 4
+},
+{
+"id": "t73",
+"name": "Addressing",
+"module": 4
+},
+{
+"id": "t74",
+"name": "Connection establishment",
+"module": 4
+},
+{
+"id": "t75",
+"name": "Connection release",
+"module": 4
+},
+{
+"id": "t76",
+"name": "CP timers and TCP state transition diagram",
+"module": 4
+},
+{
+"id": "t77",
+"name": "Flow control and buffering",
+"module": 4
+},
+{
+"id": "t78",
+"name": "Multiplexing",
+"module": 4
+},
+{
+"id": "t79",
+"name": "Congestion Control",
+"module": 4
+},
+{
+"id": "t80",
+"name": "slow start protocol",
+"module": 4
+},
+{
+"id": "t81",
+"name": "Transport Layer Protocols",
+"module": 4
+},
+{
+"id": "t82",
+"name": "TCP and UDP",
+"module": 4
+},
+{
+"id": "t83",
+"name": "Quality of Service (QoS)",
+"module": 4
+},
+{
+"id": "t84",
+"name": "Web and HTTP",
+"module": 5
+},
+{
+"id": "t85",
+"name": "Web Caching",
+"module": 5
+},
+{
+"id": "t86",
+"name": "DNS",
+"module": 5
+},
+{
+"id": "t87",
+"name": "Email",
+"module": 5
+},
+{
+"id": "t88",
+"name": "SMTP",
+"module": 5
+},
+{
+"id": "t89",
+"name": "POP3",
+"module": 5
+},
+{
+"id": "t90",
+"name": "Webmail",
+"module": 5
+},
+{
+"id": "t91",
+"name": "FTP",
+"module": 5
+},
+{
+"id": "t92",
+"name": "TELNET",
+"module": 5
+},
+{
+"id": "t93",
+"name": "DHCP",
+"module": 5
+},
+{
+"id": "t94",
+"name": "SNMP",
+"module": 5
+},
+{
+"id": "t95",
+"name": "VPN (Virtual Private Networks)",
+"module": 6
+},
+{
+"id": "t96",
+"name": "Types and basic principle",
+"module": 6
+},
+{
+"id": "t97",
+"name": "Software-Defined Networking (SDN)",
+"module": 6
+},
+{
+"id": "t98",
+"name": "Control and Data Planes",
+"module": 6
+},
+{
+"id": "t99",
+"name": "OpenFlow protocols and controllers",
+"module": 6
+},
+{
+"id": "t100",
+"name": "Network Function Virtualization (NFV)",
+"module": 6
+},
+{
+"id": "t101",
+"name": "Concepts and Benefits",
+"module": 6
+},
+{
+"id": "t102",
+"name": "Data Center Networks (DCNs)",
+"module": 6
+},
+{
+"id": "t103",
+"name": "Topologies (Fat Tree - Concept)",
+"module": 6
+}
+]
+}

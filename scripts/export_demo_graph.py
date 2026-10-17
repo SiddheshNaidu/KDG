@@ -5,7 +5,7 @@ os.environ.setdefault("HF_HUB_OFFLINE", "1")
 import networkx as nx
 sys.path.insert(0, ".")
 from app.ml.infer import Bundle, score_pairs, infer_course
-T = json.load(open("data/processed/topics_nep.json", encoding="utf-8")); MODEL = os.environ.get("MODEL", "nep4"); b = Bundle.get(MODEL)
+T = json.load(open("data/processed/topics_nep.json", encoding="utf-8")); MODEL = os.environ.get("MODEL", "nep5"); b = Bundle.get(MODEL)
 LOW = 0.10   # below the accepted threshold but worth showing as "uncertain"
 out = dict(model=dict(name=MODEL, accepted_threshold=b.threshold, uncertain_threshold=LOW, calibrated=True,
                       note="confidence = calibrated probability (isotonic, fitted on validation courses). Gold = labels from two independent AI passes plus an independent adjudicator, not human verified."), courses=[])

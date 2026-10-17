@@ -4,17 +4,25 @@
 - deterministic split by course: TEST = two PDFs the model never sees (unknown-PDF evaluation), VAL = every 5th remaining course, TRAIN = rest"""
 import json, re, pathlib, collections
 ACC = pathlib.Path("data/processed/corpus_v2/accepted.jsonl")
-TEST_PDFS = {"6.40-N-Chemical-Engineering-Sem-III-IV.pdf": "test_chem", "6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf": "test_mech"}
-EXCLUDE = {"BSC2022", "BSC2023", "2394113", "2404113"}   # reviewed as BAD: source text has no separators / lost items (tierA_review_r2)
+TEST_PDFS = {"6.40-N-Chemical-Engineering-Sem-III-IV.pdf": "test_chem", "6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf": "test_mech",
+             "NEP_Sem5_6_EXTC.pdf": "test_extc_sem56", "NEP_Sem5_6_Mechanical-Engineering.pdf": "test_mech_sem56"}   # unseen branches
+EXCLUDE = {"BSC2022", "BSC2023", "2394113", "2404113",
+           "24061132", "PEC6024", "PCC501", "2116111", "2115116", "2405511"}   # reviewed BAD / truncated / >10% junk (verify_new_1/2)   # reviewed as BAD: source text has no separators / lost items (tierA_review_r2)
 rows = [json.loads(l) for l in ACC.open(encoding="utf-8") if json.loads(l)["course_code"] not in EXCLUDE]
 by_hash = collections.OrderedDict()
 for r in rows: by_hash.setdefault(r["content_hash"], []).append(r)
 test_hashes = {h for h, rs in by_hash.items() if any(x["source_pdf"].split("/")[-1] in TEST_PDFS for x in rs)}
-courses, used_ids = {}, set()
+import os
+PREV = next((f for f in ("data/processed/topics_nep_v2.json", "data/processed/topics_nep_v1.json") if os.path.exists(f)), None)
+prev = json.load(open(PREV, encoding="utf-8")) if PREV else {}
+id_for_hash = {v["content_hash"]: k for k, v in prev.items()}   # keep course ids (and therefore labels) stable across rebuilds
+courses, used_ids = {}, set(id_for_hash.values())
 for h, rs in by_hash.items():
     r = rs[0]
-    cid = r["course_code"] if r["course_code"] not in used_ids else f"{r['course_code']}_{h[:6]}"
-    used_ids.add(cid)
+    if h in id_for_hash: cid = id_for_hash[h]
+    else:
+        cid = r["course_code"] if r["course_code"] not in used_ids else f"{r['course_code']}_{h[:6]}"
+        used_ids.add(cid)
     topics, mods, seen = [], [], set()
     for m in r["modules"]:
         names = []

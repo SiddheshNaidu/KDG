@@ -1,0 +1,562 @@
+{
+"course": "24061141",
+"title": "PEC-3 - Robotics",
+"modules": [
+{
+"index": 1,
+"name": "Introduction to Robotics"
+},
+{
+"index": 2,
+"name": "Robot Anatomy and the Components"
+},
+{
+"index": 3,
+"name": "Robot Kinematics"
+},
+{
+"index": 4,
+"name": "Robot Dynamics and Trajectory Planning"
+},
+{
+"index": 5,
+"name": "Robot Control and Vision"
+},
+{
+"index": 6,
+"name": "Robot Task Planning"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "evolution",
+"module": 1
+},
+{
+"id": "t2",
+"name": "types of robots",
+"module": 1
+},
+{
+"id": "t3",
+"name": "drive technologies",
+"module": 1
+},
+{
+"id": "t4",
+"name": "coordinate systems (Cartesian, cylindrical, spherical, SCARA, articulated)",
+"module": 1
+},
+{
+"id": "t5",
+"name": "motion control methods",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Robot specifications",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Number of Axes",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Саpacity and Speed",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Reach and Stroke",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Тоol Orientation",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Repeatability",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Precision",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Accuracy",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Орerating Environment",
+"module": 1
+},
+{
+"id": "t15",
+"name": "Mechanical structure- links",
+"module": 2
+},
+{
+"id": "t16",
+"name": "joints",
+"module": 2
+},
+{
+"id": "t17",
+"name": "frames Sensors",
+"module": 2
+},
+{
+"id": "t18",
+"name": "position",
+"module": 2
+},
+{
+"id": "t19",
+"name": "velocity",
+"module": 2
+},
+{
+"id": "t20",
+"name": "force",
+"module": 2
+},
+{
+"id": "t21",
+"name": "vision Actuators",
+"module": 2
+},
+{
+"id": "t22",
+"name": "hydraulic",
+"module": 2
+},
+{
+"id": "t23",
+"name": "pneumatic",
+"module": 2
+},
+{
+"id": "t24",
+"name": "electric End-effectors- grippers",
+"module": 2
+},
+{
+"id": "t25",
+"name": "tools",
+"module": 2
+},
+{
+"id": "t26",
+"name": "Direct Kinematics Dot and Cross products",
+"module": 3
+},
+{
+"id": "t27",
+"name": "Coordinate Frames",
+"module": 3
+},
+{
+"id": "t28",
+"name": "Rotations (fundamental and composite)",
+"module": 3
+},
+{
+"id": "t29",
+"name": "Homogeneous coordinates",
+"module": 3
+},
+{
+"id": "t30",
+"name": "Homogeneous Coordinate Frames",
+"module": 3
+},
+{
+"id": "t31",
+"name": "Translations and Rotations",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Composite Homogeneous transformations",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Screw Transformations",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Link Coordinates",
+"module": 3
+},
+{
+"id": "t35",
+"name": "Kinematic Parameters",
+"module": 3
+},
+{
+"id": "t36",
+"name": "Normal",
+"module": 3
+},
+{
+"id": "t37",
+"name": "Sliding",
+"module": 3
+},
+{
+"id": "t38",
+"name": "Approach Vectors",
+"module": 3
+},
+{
+"id": "t39",
+"name": "Denavit-Hartenberg (D-H) Representation",
+"module": 3
+},
+{
+"id": "t40",
+"name": "Arm Equation-The Arm Matrix",
+"module": 3
+},
+{
+"id": "t41",
+"name": "Arm Equation",
+"module": 3
+},
+{
+"id": "t42",
+"name": "A Four-Axis SCARA Robot Inverse Kinematics The Inverse Kinematics Problem- General Properties of Solutions",
+"module": 3
+},
+{
+"id": "t43",
+"name": "Existence of Solutions",
+"module": 3
+},
+{
+"id": "t44",
+"name": "Uniqueness of Solutions",
+"module": 3
+},
+{
+"id": "t45",
+"name": "Contents",
+"module": 3
+},
+{
+"id": "t46",
+"name": "Tool Configuration",
+"module": 3
+},
+{
+"id": "t47",
+"name": "Tool Configuration Vector",
+"module": 3
+},
+{
+"id": "t48",
+"name": "a Four-Axis SCARA Robot Inverse Kinematics of a Four-Axis SCARA Robot",
+"module": 3
+},
+{
+"id": "t49",
+"name": "Dynamics Lagrange's Equation",
+"module": 4
+},
+{
+"id": "t50",
+"name": "Kinetic and Potential Energy",
+"module": 4
+},
+{
+"id": "t51",
+"name": "Link Inertia Tensor",
+"module": 4
+},
+{
+"id": "t52",
+"name": "Link Jacobian",
+"module": 4
+},
+{
+"id": "t53",
+"name": "Manipulator Inertia Tensor",
+"module": 4
+},
+{
+"id": "t54",
+"name": "Gravity",
+"module": 4
+},
+{
+"id": "t55",
+"name": "Generalized Force",
+"module": 4
+},
+{
+"id": "t56",
+"name": "Actuators",
+"module": 4
+},
+{
+"id": "t57",
+"name": "Friction",
+"module": 4
+},
+{
+"id": "t58",
+"name": "Dynamic Model of a One-Axis Robot (Inverted Pendulum)",
+"module": 4
+},
+{
+"id": "t59",
+"name": "Lagrange Euler Formulation",
+"module": 4
+},
+{
+"id": "t60",
+"name": "Newton Euler formulations",
+"module": 4
+},
+{
+"id": "t61",
+"name": "Pick and Place Operation",
+"module": 4
+},
+{
+"id": "t62",
+"name": "Pick and Lift Off Points",
+"module": 4
+},
+{
+"id": "t63",
+"name": "Place and Set-Down Points",
+"module": 4
+},
+{
+"id": "t64",
+"name": "Speed Variation",
+"module": 4
+},
+{
+"id": "t65",
+"name": "Continuous Path Motion Paths and Trajectories",
+"module": 4
+},
+{
+"id": "t66",
+"name": "Continuous-Path Control of a Four- Axis SCARA Robot",
+"module": 4
+},
+{
+"id": "t67",
+"name": "Straight-Line Motion",
+"module": 4
+},
+{
+"id": "t68",
+"name": "Interpolated Motion",
+"module": 4
+},
+{
+"id": "t69",
+"name": "Cubic Polynomial Paths",
+"module": 4
+},
+{
+"id": "t70",
+"name": "Linear Interpolation with Parabolic Blends",
+"module": 4
+},
+{
+"id": "t71",
+"name": "Control Open-loop vs closed-loop control",
+"module": 5
+},
+{
+"id": "t72",
+"name": "PID control for joint- level motion",
+"module": 5
+},
+{
+"id": "t73",
+"name": "Advanced control strategies",
+"module": 5
+},
+{
+"id": "t74",
+"name": "adaptive",
+"module": 5
+},
+{
+"id": "t75",
+"name": "robust",
+"module": 5
+},
+{
+"id": "t76",
+"name": "model-based control",
+"module": 5
+},
+{
+"id": "t77",
+"name": "Vision Image Representation",
+"module": 5
+},
+{
+"id": "t78",
+"name": "Template Matching",
+"module": 5
+},
+{
+"id": "t79",
+"name": "Polyhedral Objects- Edge Detection",
+"module": 5
+},
+{
+"id": "t80",
+"name": "Сorner Points",
+"module": 5
+},
+{
+"id": "t81",
+"name": "Run-Length Encoding",
+"module": 5
+},
+{
+"id": "t82",
+"name": "Shape Analysis- Line Descriptors",
+"module": 5
+},
+{
+"id": "t83",
+"name": "Area Descriptors",
+"module": 5
+},
+{
+"id": "t84",
+"name": "Principal Angle",
+"module": 5
+},
+{
+"id": "t85",
+"name": "Segmentation",
+"module": 5
+},
+{
+"id": "t86",
+"name": "Thresholding",
+"module": 5
+},
+{
+"id": "t87",
+"name": "Region Labeling",
+"module": 5
+},
+{
+"id": "t88",
+"name": "Iterative Processing",
+"module": 5
+},
+{
+"id": "t89",
+"name": "Shrink and swell Operators",
+"module": 5
+},
+{
+"id": "t90",
+"name": "Structured Illumination -Light Sources",
+"module": 5
+},
+{
+"id": "t91",
+"name": "Light Patterns",
+"module": 5
+},
+{
+"id": "t92",
+"name": "Triangulation",
+"module": 5
+},
+{
+"id": "t93",
+"name": "Camera Calibration",
+"module": 5
+},
+{
+"id": "t94",
+"name": "Task Level Programming",
+"module": 6
+},
+{
+"id": "t95",
+"name": "Uncertainty",
+"module": 6
+},
+{
+"id": "t96",
+"name": "Configuration Space",
+"module": 6
+},
+{
+"id": "t97",
+"name": "Translations",
+"module": 6
+},
+{
+"id": "t98",
+"name": "Rotations",
+"module": 6
+},
+{
+"id": "t99",
+"name": "Gross-Motion Planning",
+"module": 6
+},
+{
+"id": "t100",
+"name": "Generalized Voronoi Diagrams (GVD)",
+"module": 6
+},
+{
+"id": "t101",
+"name": "Grasp Planning",
+"module": 6
+},
+{
+"id": "t102",
+"name": "Fine-Motion Planning",
+"module": 6
+},
+{
+"id": "t103",
+"name": "A Task Planning Problem",
+"module": 6
+},
+{
+"id": "t104",
+"name": "Source and Goal Scenes",
+"module": 6
+},
+{
+"id": "t105",
+"name": "Task Planning Sub problems",
+"module": 6
+},
+{
+"id": "t106",
+"name": "Task Planner Simulation.",
+"module": 6
+}
+]
+}

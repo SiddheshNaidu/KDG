@@ -1,0 +1,239 @@
+{
+ "edges": [
+  {
+   "a": "t6",
+   "b": "t1",
+   "why": "layering need before OSI/TCP overview"
+  },
+  {
+   "a": "t8",
+   "b": "t9",
+   "why": "addressing overview before types"
+  },
+  {
+   "a": "t10",
+   "b": "t11",
+   "why": "media before DSL and wireless"
+  },
+  {
+   "a": "t10",
+   "b": "t12",
+   "why": "media before DSL and wireless"
+  },
+  {
+   "a": "t13",
+   "b": "t14",
+   "why": "data link services"
+  },
+  {
+   "a": "t13",
+   "b": "t15",
+   "why": "data link services"
+  },
+  {
+   "a": "t13",
+   "b": "t16",
+   "why": "data link services"
+  },
+  {
+   "a": "t16",
+   "b": "t17",
+   "why": "ARQ implements error control"
+  },
+  {
+   "a": "t15",
+   "b": "t19",
+   "why": "piggybacking combines acks with flow control"
+  },
+  {
+   "a": "t20",
+   "b": "t21",
+   "why": "HDLC configurations and frames"
+  },
+  {
+   "a": "t20",
+   "b": "t22",
+   "why": "HDLC configurations and frames"
+  },
+  {
+   "a": "t14",
+   "b": "t23",
+   "why": "bit stuffing is framing technique"
+  },
+  {
+   "a": "t22",
+   "b": "t24",
+   "why": "frame exchanges use frame formats"
+  },
+  {
+   "a": "t25",
+   "b": "t26",
+   "why": "MAC protocols start with ALOHA"
+  },
+  {
+   "a": "t26",
+   "b": "t27",
+   "why": "slotted improves ALOHA"
+  },
+  {
+   "a": "t28",
+   "b": "t29",
+   "why": "CSMA/CD extends CSMA"
+  },
+  {
+   "a": "t30",
+   "b": "t31",
+   "why": "IP provides network services"
+  },
+  {
+   "a": "t31",
+   "b": "t34",
+   "why": "IPv4 packet is IP format"
+  },
+  {
+   "a": "t34",
+   "b": "t35",
+   "why": "addressing in IPv4"
+  },
+  {
+   "a": "t35",
+   "b": "t46",
+   "why": "subnetting needs IPv4 addressing"
+  },
+  {
+   "a": "t46",
+   "b": "t47",
+   "why": "supernetting and VLSM extend subnetting"
+  },
+  {
+   "a": "t46",
+   "b": "t48",
+   "why": "supernetting and VLSM extend subnetting"
+  },
+  {
+   "a": "t35",
+   "b": "t49",
+   "why": "NAT translates IPv4 addresses"
+  },
+  {
+   "a": "t34",
+   "b": "t50",
+   "why": "ICMP carries IP errors"
+  },
+  {
+   "a": "t8",
+   "b": "t51",
+   "why": "ARP maps logical to physical addresses"
+  },
+  {
+   "a": "t51",
+   "b": "t52",
+   "why": "RARP is inverse of ARP"
+  },
+  {
+   "a": "t36",
+   "b": "t37",
+   "why": "routing strategies and algorithms"
+  },
+  {
+   "a": "t36",
+   "b": "t38",
+   "why": "routing strategies and algorithms"
+  },
+  {
+   "a": "t38",
+   "b": "t39",
+   "why": "routing algorithm kinds"
+  },
+  {
+   "a": "t38",
+   "b": "t40",
+   "why": "routing algorithm kinds"
+  },
+  {
+   "a": "t40",
+   "b": "t43",
+   "why": "RIP/BGP use distance/path vector"
+  },
+  {
+   "a": "t40",
+   "b": "t45",
+   "why": "RIP/BGP use distance/path vector"
+  },
+  {
+   "a": "t39",
+   "b": "t44",
+   "why": "OSPF uses link state"
+  },
+  {
+   "a": "t55",
+   "b": "t56",
+   "why": "TCP services, segment, handshake"
+  },
+  {
+   "a": "t55",
+   "b": "t57",
+   "why": "TCP services, segment, handshake"
+  },
+  {
+   "a": "t55",
+   "b": "t58",
+   "why": "TCP services, segment, handshake"
+  },
+  {
+   "a": "t59",
+   "b": "t60",
+   "why": "UDP services and datagram"
+  },
+  {
+   "a": "t59",
+   "b": "t61",
+   "why": "UDP services and datagram"
+  },
+  {
+   "a": "t57",
+   "b": "t62",
+   "why": "checksum over TCP segment"
+  },
+  {
+   "a": "t61",
+   "b": "t62",
+   "why": "checksum over UDP datagram"
+  },
+  {
+   "a": "t15",
+   "b": "t63",
+   "why": "TCP flow control uses flow control concept"
+  },
+  {
+   "a": "t55",
+   "b": "t63",
+   "why": "sliding window in TCP"
+  },
+  {
+   "a": "t63",
+   "b": "t64",
+   "why": "congestion control extends flow control"
+  },
+  {
+   "a": "t64",
+   "b": "t65",
+   "why": "slow start is congestion algorithm"
+  },
+  {
+   "a": "t74",
+   "b": "t75",
+   "why": "security overview before methods"
+  },
+  {
+   "a": "t75",
+   "b": "t76",
+   "why": "IP security and SSH use cryptography"
+  },
+  {
+   "a": "t75",
+   "b": "t72",
+   "why": "IP security and SSH use cryptography"
+  }
+ ]
+}

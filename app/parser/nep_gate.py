@@ -23,8 +23,11 @@ def has_glued_words(t: str) -> bool:
 
 def topic_hard_violation(t: str) -> bool:
     """HARD violations make a topic junk. Long phrases (>8 words) are only SOFT (reported, tolerated up to a share)."""
-    return (has_glued_words(t) or len(t) > 120 or bool(re.search(r"[;:]", t)) or t.lower().strip(" .") in GENERIC
-            or bool(re.match(r"^\d+\.\d+", t)) or bool(re.search(r"(?<![A-Za-z])Hrs?(?![A-Za-z])|(?<![A-Za-z])CO\s?\d", t)) or not re.search(r"[A-Za-z]{2}", t))
+    outside = re.sub(r"\([^()]*\)", "", t)      # ':' or ';' inside a parenthetical is fine
+    return (has_glued_words(t) or len(t) > 120 or bool(re.search(r"[;:]", outside)) or t.lower().strip(" .") in GENERIC
+            or bool(re.match(r"^\d+\.\d+", t))
+            or bool(re.search(r"(?:(?<![A-Za-z])Hrs?\.?|(?<![A-Za-z])CO\s?\d(?:\s*,\s*CO\s?\d)*)\s*$", t))
+            or not re.search(r"[A-Za-z]{2}", t))
 
 def topic_soft_long(t: str) -> bool:
     return len(t.split()) > 8

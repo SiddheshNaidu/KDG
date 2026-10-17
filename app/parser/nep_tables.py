@@ -17,6 +17,7 @@ LAB_TITLE = re.compile(r"(?<![A-Za-z])(?:lab|laboratory|workshop|practical|mini[
 MAX_PAGE_GAP = 4  # a module table further than this from its course header is NOT attached (reported instead)
 STOP_HDR = re.compile(r"Website|Course\s+Outcome|Course\s+Objective|Title\s+of\s+Book|Textbook|Reference|Experiment|Sr\.?\s*No\.?\s*Name\s+of\s+Experiment", re.I)
 HOURS_RE = re.compile(r"^\d{1,2}$")
+END_ROW = re.compile(r"Text\s*Books?|Reference\s*Books?|Textbooks?|Web\s+References?|https?://|www\.|ISBN", re.I)
 
 def _norm(c) -> str:
     c = unicodedata.normalize("NFKC", c) if c else c
@@ -47,6 +48,7 @@ class CourseTables:
     x0: float = 0.0
     x1: float = 0.0
     last_page: int = 0
+    ended: bool = False
     conflict_pages: list[int] = field(default_factory=list)
     last_y1: float = 0.0
 
@@ -124,12 +126,20 @@ def extract_course_tables(pdf_path: str) -> list[CourseTables]:
                 prev_h = doc[cur.last_page - 1].rect.height
                 reached_bottom = cur.last_y1 > prev_h - 200  # a table only continues on the next page if it ran to the page bottom
                 follows = (pn + 1 == cur.last_page and t.bbox[1] >= cur.last_y1 - 2) or (pn + 1 == cur.last_page + 1 and t.bbox[1] < 140 and reached_bottom)
-                if STOP_HDR.search(head) or not same_x or not follows or re.search(r"https?://|www\.|ISBN", " ".join(_norm(c) for r in raw for c in r)):
+                if cur.ended or STOP_HDR.search(head) or not same_x or not follows:
                     open_table = False
                     continue
                 body = _remap(t, raw, cur.cols)
             else:
                 continue
+            # Stop at the first row that starts the book/reference list (it can share a table with the last module row).
+            trimmed = []
+            for r in body:
+                trimmed.append(r)
+                if END_ROW.search(" ".join(_norm(c) for c in r)):
+                    cur.ended = True; open_table = False
+                    break
+            body = trimmed
             cur.last_page, cur.last_y1 = pn + 1, t.bbox[3]
             if pn + 1 not in cur.pages:
                 cur.pages.append(pn + 1)

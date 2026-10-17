@@ -83,6 +83,25 @@ def assemble_modules(ct: CourseTables):
     ct.printed_total = printed_total
     return modules, prereq, skipped
 
+COLON_KEEP = ""   # private-use placeholder: a colon not followed by space (e.g. 'ISO9000:2000') is not a separator
+
+def _sub_outside(pattern, repl, text: str) -> str:
+    """apply a regex substitution only to the parts of `text` that are outside (...) and [...]"""
+    pieces, buf, depth, inside = [], [], 0, False
+    for ch in text:
+        if ch in "([":
+            if depth == 0:
+                pieces.append((False, "".join(buf))); buf = []
+            depth += 1; buf.append(ch)
+        elif ch in ")]" and depth > 0:
+            buf.append(ch); depth -= 1
+            if depth == 0:
+                pieces.append((True, "".join(buf))); buf = []
+        else:
+            buf.append(ch)
+    pieces.append((depth > 0, "".join(buf)))
+    return "".join(seg if inside else pattern.sub(repl, seg) for inside, seg in pieces)
+
 def _split_outside(text: str, seps: str):
     out, buf, depth = [], [], 0
     for ch in text:
@@ -121,15 +140,15 @@ def split_topics(content: str, last_module: bool = False):
     self_txt = m.group(0).strip() if m else ""
     if m: content = content[:m.start()]
     content = DROP_PAREN.sub("", content); content = PAREN_NOTE.sub("", content)
-    content = BULLET_RE.sub(";", content); content = ENUM_SEP.sub(";", content)
-    content = SUBITEM_SEP.sub(";", content); content = LEADNUM_RE.sub(";", content)
-    content = DASH_SEP.sub(";", content)
+    for pat in (BULLET_RE, ENUM_SEP, SUBITEM_SEP, LEADNUM_RE, DASH_SEP):
+        content = _sub_outside(pat, ";", content)
+    content = re.sub(r"(?:(?<=\s)|^)\d{1,2}\]\s*", ";", content)
     parts = []
-    for chunk in _split_outside(content, ";,:"):
+    for chunk in _split_outside(re.sub(r":(?!\s)", COLON_KEEP, content), ";,:"):
         parts.extend(_split_sentences(chunk))
     topics = []
     for p in parts:
-        t = re.sub(r"\s+", " ", p).strip(" .-–—\t")
+        t = re.sub(r"\s+", " ", p.replace(COLON_KEEP, ":")).strip(" .-–—\t")
         t = LEAD_JUNK.sub("", t).strip(" .-–—")
         t = t.strip("()[] ").strip() if t.count("(") != t.count(")") else t
         if not t or not re.search(r"[A-Za-z]{2}", t):
@@ -143,13 +162,13 @@ def split_topics(content: str, last_module: bool = False):
             dropped.append(("overlong", t[:80])); continue
         if t.lower().strip(" .") in GENERIC_FRAG:
             dropped.append(("generic_fragment", t)); continue
-        if len(t.split()) == 1 and len(t) < 4 and not t.isupper():
-            dropped.append(("tiny_fragment", t)); continue
+        if re.fullmatch(r"[\d\W]+", t):
+            dropped.append(("no_letters", t)); continue
         ws = t.split()
         if ws[-1].lower().strip(".,") in STOP_END:
             dropped.append(("dangling_fragment", t)); continue
-        if t[0].islower() and (len(ws) <= 2 or ws[0].lower() in STOP_END):
-            dropped.append(("lowercase_fragment", t)); continue
+        if ws[0].lower() in STOP_END and len(ws) <= 3:
+            dropped.append(("leading_stopword_fragment", t)); continue
         words = t.split()
         if len(words) > 10:
             halves = re.split(r"\s+and\s+", t)

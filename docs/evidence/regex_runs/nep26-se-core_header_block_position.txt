@@ -1,0 +1,9 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-core_hdrpos.py
+measure: line index (0-based, page.get_text() order) of the first teaching-table code line (attempt2 course_start) within its page, per course in list order; threshold 'floating' = index > 45
+sub-family a = header block at top of page for all but at most 1 course/PDF; b = floating for >=5 courses
+A-I-AI-DS: page:idx = 16:13, 19:14, 22:14, 24:13, 27:15, 30:13, 33:12, 36:13, 39:12, 42:13, 44:13, 48:13, 53:13, 56:13, 60:13, 63:13, 67:19 | floating=0/17
+AI-DS: page:idx = 17:14, 20:14, 23:15, 25:14, 28:17, 32:14, 36:13, 39:15, 43:15, 47:14, 49:14, 53:14, 59:14, 63:14, 67:15, 70:14, 76:19 | floating=0/17
+AI-ML: page:idx = 16:13, 19:13, 22:14, 24:13, 27:15, 30:14, 33:44, 36:13, 39:12, 42:13, 44:13, 48:9, 53:13, 56:13, 60:13, 63:13, 68:13 | floating=0/17
+Computer-Engineering: page:idx = 16:13, 19:13, 22:14, 24:13, 27:15, 30:14, 33:45, 36:13, 39:12, 42:14, 44:13, 48:13, 53:13, 56:13, 60:13, 63:13, 68:13 | floating=0/17
+Computer-Science-Engineering: page:idx = 16:66, 19:80, 22:121, 24:127, 27:15, 30:16, 33:138, 36:135, 39:12, 42:14, 44:14, 48:14, 53:16, 56:109, 60:14, 63:14, 68:90 | floating=8/17
+Data-Science: page:idx = 16:59, 19:81, 22:121, 24:127, 27:18, 30:17, 33:138, 36:135, 39:14, 42:15, 44:14, 48:14, 53:16, 56:109, 60:14, 63:14, 68:90 | floating=8/17

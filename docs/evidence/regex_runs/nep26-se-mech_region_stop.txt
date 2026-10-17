@@ -1,0 +1,12 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-mech_regex.py
+family: nep26-se-mech (courses=34: sub-family a=17 from 6.35 PDF, b=17 from 6.44 PDF)
+regex name: region_stop
+
+
+--- attempt 1 (region start = START[2])
+regex/predicate: ^(?:Text ?Books?:?|Reference Books|References:?|Total Hours.*|Online (?:References|Resources):?|Links:|Assessment\s*:?|List of Experiments\.?|Part \(B\))\s*$
+matched/total: 31/34
+failures (3):
+  a:2403611 region=None (no stop marker before end of course pages)
+  b:2393115 region=None (no stop marker before end of course pages)
+  b:2393611 region=None (no stop marker before end of course pages)

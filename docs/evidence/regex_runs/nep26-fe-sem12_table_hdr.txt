@@ -1,0 +1,11 @@
+command: cd /c/Users/Siddhesh/Documents/KDG && PYTHONIOENCODING=utf-8 python spikes/nep26-fe-sem12_regex.py table_hdr
+regex: ^\s*(?:Detailed ?Contents?|Details)\s*$   (denominator = course occurrences whose code is NOT lab-style [A-Z]*L\d)
+matched/total: 126/132
+lab-style courses (code [A-Z]*L\d) total 78; of these with a table_hdr line: 18 -> codes {'AEL101': 6, 'ESL201': 6, 'PCL2011': 4, 'PCL2016': 1, 'PCL2018': 1}
+failures (6), verbatim as pdf | page:line | text:
+  AIML | CC201 | no line matching table_hdr in course segment (pages 116-120)
+  CSE-AIML | CC201 | no line matching table_hdr in course segment (pages 116-120)
+  DS | CC201 | no line matching table_hdr in course segment (pages 115-119)
+  EXTC | CC201 | no line matching table_hdr in course segment (pages 114-119)
+  Information-Technology | CC201 | no line matching table_hdr in course segment (pages 116-120)
+  Mechanical-Engineering | CC201 | no line matching table_hdr in course segment (pages 113-118)

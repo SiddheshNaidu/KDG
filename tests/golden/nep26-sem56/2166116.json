@@ -1,0 +1,114 @@
+{
+  "family": "nep26-sem56",
+  "course_code": "2166116",
+  "course_title": "Edge Computing",
+  "source_pdf": "data/raw/_unclassified/SEM-V.pdf",
+  "source_pages": [
+    85,
+    86,
+    87
+  ],
+  "status": "DRAFT - needs human sign-off",
+  "modules": [
+    {
+      "number": "I",
+      "name": "Introduction to Cloud Computing, Fog Computing And Edge Computing",
+      "topics": [
+        "Cloud computing",
+        "Cloud computing latency limitations",
+        "Round trip time",
+        "Fog computing",
+        "Edge computing",
+        "Moving cloud services to the edge"
+      ]
+    },
+    {
+      "number": "II",
+      "name": "IoT and Edge Architecture",
+      "topics": [
+        "IoT ecosystem",
+        "Device-to-cloud communication models",
+        "Sensors",
+        "Gateways",
+        "Cloud in IoT",
+        "IoT edge architecture components",
+        "Data flow in IoT edge architecture",
+        "IoT devices",
+        "Edge nodes",
+        "Communication interfaces",
+        "Cloud integration"
+      ]
+    },
+    {
+      "number": "III",
+      "name": "Introduction to Raspberry Pi",
+      "topics": [
+        "Raspberry Pi",
+        "Evolution of Raspberry Pi boards",
+        "Raspberry Pi features and capabilities",
+        "Raspberry Pi board layout",
+        "GPIO pinouts",
+        "Hardware components",
+        "Interfaces",
+        "Peripheral connectivity",
+        "Operating systems on Raspberry Pi",
+        "SSH",
+        "Remote access tools",
+        "VNC",
+        "PuTTY",
+        "VS Code Remote",
+        "Remote file transfer"
+      ]
+    },
+    {
+      "number": "IV",
+      "name": "Interfacing Raspberry Pi & Edge - to - Cloud Protocols",
+      "topics": [
+        "DHT temperature-humidity sensor interfacing",
+        "Reading sensor values",
+        "Data logging",
+        "Real-time monitoring",
+        "Lightweight IoT protocols",
+        "MQTT",
+        "CoAP",
+        "HTTP",
+        "Protocol comparison",
+        "MQTT architecture",
+        "MQTT workflow",
+        "MQTT packet structure",
+        "MQTT data formats"
+      ]
+    },
+    {
+      "number": "V",
+      "name": "Edge Computing With Raspberry Pi",
+      "topics": [
+        "Edge computing fundamentals",
+        "Low-latency processing",
+        "Edge versus cloud computing",
+        "Raspberry Pi as edge device",
+        "Data acquisition",
+        "Local processing",
+        "Edge-Fog-Cloud hierarchy",
+        "Edge deployment models"
+      ]
+    },
+    {
+      "number": "VI",
+      "name": "Applications of Edge Computing",
+      "topics": [
+        "Edge computing use cases",
+        "Smart cities",
+        "Industrial automation",
+        "Healthcare",
+        "Transportation",
+        "Agriculture",
+        "Retail",
+        "Edge nodes for video analytics",
+        "Environmental monitoring",
+        "Energy management",
+        "Autonomous systems"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "family": "nep26-se-electrical",
+  "course_code": "2214113",
+  "course_title": "Power Electronics Devices and Circuits",
+  "source_pdf": "data/raw/2019-scheme/Electrical-Computer-Engineering/6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf",
+  "source_pages": [
+    46,
+    47
+  ],
+  "status": "DRAFT - needs human sign-off",
+  "modules": [
+    {
+      "number": "I",
+      "name": "Thyristors (Silicon Controlled Rectifier)",
+      "topics": [
+        "Modes of operation of SCR",
+        "Static V-I characteristics of SCR",
+        "Gate control",
+        "Two transistor analogy",
+        "Thyristor voltage rating",
+        "Thyristor current rating",
+        "Firing circuits",
+        "R triggering",
+        "RC triggering",
+        "Ramp triggering using UJT",
+        "SCR protection circuit"
+      ]
+    },
+    {
+      "number": "II",
+      "name": "Power Semiconductor Devices",
+      "topics": [
+        "Power diode characteristics",
+        "Power BJT characteristics",
+        "Power MOSFET characteristics",
+        "IGBT characteristics",
+        "Safe operation area",
+        "Comparison of Power BJT PMOSFET and IGBT",
+        "Wide band gap devices",
+        "Silicon carbide devices",
+        "GaN devices",
+        "Conduction losses",
+        "Switching losses",
+        "Loss numericals",
+        "MOSFET data sheet",
+        "IGBT data sheet"
+      ]
+    },
+    {
+      "number": "III",
+      "name": "Controlled Rectifiers (AC to DC Converter)",
+      "topics": [
+        "Single phase full wave controlled rectifier",
+        "Mid-point configuration",
+        "Bridge configuration",
+        "R load",
+        "R-L load",
+        "Output voltage calculation",
+        "Rectification mode",
+        "Inversion mode",
+        "Single phase dual converter",
+        "Three phase full converter with R load",
+        "Single phase PWM rectifier",
+        "PWM rectifier working principle",
+        "Controlled rectifier applications"
+      ]
+    },
+    {
+      "number": "IV",
+      "name": "DC-DC switched Mode Converters",
+      "topics": [
+        "Step-down operation of DC-DC converter",
+        "PWM control of DC-DC converter",
+        "Buck converter",
+        "Boost converter",
+        "Buck-boost converter",
+        "Output voltage ripple",
+        "Comparison of non-isolated converters",
+        "Bidirectional DC-DC converters",
+        "Power factor correction circuits",
+        "LED lamp driver"
+      ]
+    },
+    {
+      "number": "V",
+      "name": "DC-AC Converter (Inverter)",
+      "topics": [
+        "Single phase half bridge inverter",
+        "Single phase full bridge inverter",
+        "Voltage control in single phase inverters",
+        "Pulse width modulated inverters",
+        "Multiple PWM",
+        "Sinusoidal PWM",
+        "Three phase VSI",
+        "Conduction mode at 120 degrees",
+        "Conduction mode at 180 degrees",
+        "Single phase current source inverter",
+        "Comparison of VSI and CSI",
+        "Inverter applications"
+      ]
+    },
+    {
+      "number": "VI",
+      "name": "Auxiliary Circuits",
+      "topics": [
+        "Need for snubber circuit",
+        "Function of snubber circuits",
+        "Types of snubber circuits",
+        "Turn-off snubber",
+        "Requirement of gate driver circuits",
+        "Gate drivers for Power MOSFET",
+        "Gate drivers for IGBT",
+        "Level shifters",
+        "Bootstrap drivers",
+        "Isolated drivers",
+        "Heat sinks",
+        "Heat sink calculation examples"
+      ]
+    }
+  ]
+}

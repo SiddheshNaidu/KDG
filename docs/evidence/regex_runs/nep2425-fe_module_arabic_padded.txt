@@ -1,0 +1,7 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep2425-fe_regex.py
+regex: attempt2: ^[ \t]*0([1-6])[ \t]*\n(?![ \t]*(?:\d|CO|LO|\uf0b7|\n)) (attempt1 naive: ^[ \t]*0([1-6])[ \t]*$)
+matched/total: 1/1
+unit: AEC101 only (zero-padded Sr numbers, no Roman numerals). matched/total reports attempt 2; attempt 1 failure kept verbatim.
+failures:
+  attempt 1 regex ^[ \t]*0([1-6])[ \t]*$: 10 matches [('1', 'page 2 line 12'), ('2', 'page 2 line 57'), ('2', 'page 2 line 72'), ('3', 'page 2 line 78'), ('2', 'page 2 line 99'), ('4', 'page 3 line 8'), ('2', 'page 3 line 58'), ('5', 'page 3 line 60'), ('6', 'page 4 line 63'), ('3', 'page 4 line 91')] (expected 6 modules; hours values 02,02,02 collide with module numbers) -> FAIL
+  attempt 2 regex ^[ \t]*0([1-6])[ \t]*\n(?![ \t]*(?:\d|CO|LO|\uf0b7|\n)) (flags re.M): 6 matches [('1', 'page 2 line 12'), ('2', 'page 2 line 57'), ('3', 'page 2 line 78'), ('4', 'page 3 line 8'), ('5', 'page 3 line 60'), ('6', 'page 4 line 63')] -> ok (this is the accepted regex)

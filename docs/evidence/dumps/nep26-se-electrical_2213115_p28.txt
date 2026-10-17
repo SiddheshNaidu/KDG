@@ -1,0 +1,60 @@
+ 
+ 
+ 
+ 
+Lab Objectives: The lab course is aimed to 
+ 
+1. To demonstrate the measurement of resistance, including insulation resistance, using appropriate 
+bridge techniques. 
+2. To apply AC bridge methods for accurate measurement of passive electrical components. 
+3. To experiment with various sensors and transducers for measuring physical parameters. 
+4. Provide hands-on experience in the operation, testing, and analysis of DC machines, transformers, 
+and induction motors. 
+5. Analyze the characteristics, performance, and efficiency of electrical machines through 
+experimental methods. 
+6. Develop practical skills in conducting standard tests for parameter evaluation and troubleshooting 
+electrical machines. 
+ 
+Lab Outcomes: At the end of the lab course, students will be able to 
+ 
+1. Measure medium, low, and high and insulation resistance using appropriate bridge techniques. 
+2. Demonstrate/perform the use of AC bridges for measurements of passive electrical components. 
+3. Analyse various sensors, transducers for measurement of various physical parameters.  
+4. Operate and test DC machines, transformers, and induction motors using appropriate laboratory 
+instruments and techniques. 
+5. Analyze and interpret experimental data to determine the characteristics, performance, and 
+efficiency of electrical machines. 
+6. Perform standard testing procedures such as open circuit, short circuit, load tests, and efficiency 
+evaluation for DC machines, transformers, and induction motors. 
+ 
+Detailed Syllabus:   
+ 
+The Syllabus is same as the Theory Courses “Electrical Machines-I (Course Code: 2213112)” and 
+Course 
+Code 
+Course Name 
+Teaching Scheme  
+(Contact Hours/Week) 
+Credits Assigned 
+Theory 
+Pract. 
+Tut. 
+Theory 
+Pract. 
+Tut. 
+Total 
+2213115 
+ 
+  Electrical Machines 
+and Measurement Lab 
+ 
+- 
+2 
+- 
+- 
+1 
+- 
+1 
+Course 
+Code 
+Course Name 

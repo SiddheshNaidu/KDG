@@ -1,0 +1,111 @@
+{
+  "family": "nep26-se-electrical",
+  "course_code": "2213113",
+  "course_title": "Electronics Engineering",
+  "source_pdf": "data/raw/2019-scheme/Electrical-Computer-Engineering/6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf",
+  "source_pages": [
+    22,
+    23
+  ],
+  "status": "DRAFT - needs human sign-off",
+  "modules": [
+    {
+      "number": "I",
+      "name": "Introduction To Digital Logic",
+      "topics": [
+        "Number systems and conversions",
+        "Binary arithmetic",
+        "Logic gates",
+        "Boolean algebra laws",
+        "Simplification techniques",
+        "De Morgan's theorems",
+        "Karnaugh maps",
+        "K-map simplification up to 4 variables"
+      ]
+    },
+    {
+      "number": "II",
+      "name": "Combinational, Sequential Circuits & Memory Elements",
+      "topics": [
+        "Combinational circuit design",
+        "Adders",
+        "Subtractors",
+        "Multiplexers",
+        "Universal logic modules",
+        "Demultiplexers",
+        "SR flip-flop",
+        "JK flip-flop",
+        "D flip-flop",
+        "T flip-flop",
+        "Synchronous counters",
+        "Asynchronous counters",
+        "ROM types",
+        "RAM types",
+        "Memory operation and differences"
+      ]
+    },
+    {
+      "number": "III",
+      "name": "Semiconductor Devices",
+      "topics": [
+        "P-N junction diodes",
+        "Zener diodes",
+        "Voltage regulation using Zener diodes",
+        "Light emitting diodes",
+        "Opto isolators",
+        "BJT structure and operation",
+        "BJT characteristics",
+        "BJT regions of operation",
+        "JFET construction and operation",
+        "JFET characteristics",
+        "Transconductance",
+        "MOSFET types",
+        "MOSFET operation and characteristics"
+      ]
+    },
+    {
+      "number": "IV",
+      "name": "OP-Amp & Voltage Regulators",
+      "topics": [
+        "Op-amp block diagram",
+        "Ideal op-amp characteristics",
+        "Inverting configuration",
+        "Non-inverting configuration",
+        "Voltage regulators",
+        "Adjustable voltage regulator design"
+      ]
+    },
+    {
+      "number": "V",
+      "name": "Fundamentals of Microcontroller",
+      "topics": [
+        "8-bit microcontrollers",
+        "Microprocessor versus microcontroller",
+        "Harvard architecture",
+        "Von Neumann architecture",
+        "RISC and CISC",
+        "Pipelining",
+        "Selection of microcontrollers",
+        "MCS-51 variants"
+      ]
+    },
+    {
+      "number": "VI",
+      "name": "Architecture And Assembly Language Of 8051",
+      "topics": [
+        "Hardware of 8051",
+        "Oscillator and clock",
+        "PC and DPTR",
+        "Flags and PSW",
+        "CPU registers",
+        "Internal RAM organization",
+        "Internal memory",
+        "Special function registers",
+        "I/O pins and ports",
+        "Addressing modes of 8051",
+        "Instruction set of 8051",
+        "Example programs"
+      ]
+    }
+  ]
+}

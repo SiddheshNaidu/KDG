@@ -1,0 +1,36 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-core_regex_runs.py
+regex: line '^\s*0\s*$' immediately followed by line '^\s*Pre-?requisite[s]?\s*$' (case-insens) inside region
+denominator: module-table courses
+matched/total: 46/77
+failures (31):
+  6.41N-A-I-AI-DS-Sem-III-IV.pdf pages 22-23 2483113 Analysis of Algorithm | no ('0' line immediately before 'Prerequisite' line) in region
+  6.41N-A-I-AI-DS-Sem-III-IV.pdf pages 24-26 2483114 Computer Organization & Architecture | no ('0' line immediately before 'Prerequisite' line) in region
+  6.41N-A-I-AI-DS-Sem-III-IV.pdf pages 27-29 2483115 Analysis of Algorithm Lab | no ('0' line immediately before 'Prerequisite' line) in region
+  6.41N-A-I-AI-DS-Sem-III-IV.pdf pages 33-35 2484111 Computational Theory | no ('0' line immediately before 'Prerequisite' line) in region
+  6.41N-A-I-AI-DS-Sem-III-IV.pdf pages 39-41 2484113 Operating System | no ('0' line immediately before 'Prerequisite' line) in region
+  6.41N-A-I-AI-DS-Sem-III-IV.pdf pages 56-59 2993512 Environmental Science for Engineers | no ('0' line immediately before 'Prerequisite' line) in region
+  6.20N-B.E.-AI-DS.-Sem-III-IV.pdf pages 23-24 2013113 Analysis of Algorithm | no ('0' line immediately before 'Prerequisite' line) in region
+  6.20N-B.E.-AI-DS.-Sem-III-IV.pdf pages 25-27 2013114 Computer Organization & Architecture | no ('0' line immediately before 'Prerequisite' line) in region
+  6.20N-B.E.-AI-DS.-Sem-III-IV.pdf pages 36-38 2014111 Computational Theory | no ('0' line immediately before 'Prerequisite' line) in region
+  6.20N-B.E.-AI-DS.-Sem-III-IV.pdf pages 43-46 2014113 Operating System | no ('0' line immediately before 'Prerequisite' line) in region
+  6.20N-B.E.-AI-DS.-Sem-III-IV.pdf pages 63-66 2993512 Environmental Science for Engineers | no ('0' line immediately before 'Prerequisite' line) in region
+  6.21-N-B.E.-AI-ML-sem-III-IV.pdf pages 22-23 2023113 Analysis of Algorithm | no ('0' line immediately before 'Prerequisite' line) in region
+  6.21-N-B.E.-AI-ML-sem-III-IV.pdf pages 24-26 2023114 Computer Organization & Architecture | no ('0' line immediately before 'Prerequisite' line) in region
+  6.21-N-B.E.-AI-ML-sem-III-IV.pdf pages 33-35 2024111 Computational Theory | no ('0' line immediately before 'Prerequisite' line) in region
+  6.21-N-B.E.-AI-ML-sem-III-IV.pdf pages 39-41 2024113 Operating System | no ('0' line immediately before 'Prerequisite' line) in region
+  6.21-N-B.E.-AI-ML-sem-III-IV.pdf pages 56-59 2993512 Environmental Science for Engineers | no ('0' line immediately before 'Prerequisite' line) in region
+  6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf pages 22-23 2113113 Analysis of Algorithm | no ('0' line immediately before 'Prerequisite' line) in region
+  6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf pages 24-26 2113114 Computer Organization & Architecture | no ('0' line immediately before 'Prerequisite' line) in region
+  6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf pages 33-35 2114111 Computational Theory | no ('0' line immediately before 'Prerequisite' line) in region
+  6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf pages 39-41 2114113 Operating System | no ('0' line immediately before 'Prerequisite' line) in region
+  6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf pages 56-59 2993512 Environmental Science for Engineers | no ('0' line immediately before 'Prerequisite' line) in region
+  6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf pages 22-23 2493113 Analysis of Algorithm | no ('0' line immediately before 'Prerequisite' line) in region
+  6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf pages 24-26 2493114 Computer Organization & Architecture | no ('0' line immediately before 'Prerequisite' line) in region
+  6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf pages 33-35 2494111 Computational Theory | no ('0' line immediately before 'Prerequisite' line) in region
+  6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf pages 39-41 2494113 Operating System | no ('0' line immediately before 'Prerequisite' line) in region
+  6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf pages 56-59 2993512 Environmental Science for Engineers | no ('0' line immediately before 'Prerequisite' line) in region
+  6.39-N-B.E.-Data-Science-Sem-III-IV.pdf pages 22-23 2173113 Analysis of Algorithm | no ('0' line immediately before 'Prerequisite' line) in region
+  6.39-N-B.E.-Data-Science-Sem-III-IV.pdf pages 24-26 2173114 Computer Organization & Architecture | no ('0' line immediately before 'Prerequisite' line) in region
+  6.39-N-B.E.-Data-Science-Sem-III-IV.pdf pages 33-35 2174111 Computational Theory | no ('0' line immediately before 'Prerequisite' line) in region
+  6.39-N-B.E.-Data-Science-Sem-III-IV.pdf pages 39-41 2174113 Operating System | no ('0' line immediately before 'Prerequisite' line) in region
+  6.39-N-B.E.-Data-Science-Sem-III-IV.pdf pages 56-59 2993512 Environmental Science for Engineers | no ('0' line immediately before 'Prerequisite' line) in region

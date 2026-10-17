@@ -1,0 +1,14 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep2425-fe_detect.py
+regex_code: ^[ \t]*(?:ESC|ESL|BSC|BSL|AEC|VSEC|VSEL|VEC)[ ]?1\d{2}[ \t]*(?:\S.*)?$ (re.M) AND regex_iat: IAT-I both present in document text AND page count <= 8 (attempt 2; attempt 1 without the page-count clause matched 5/5 family but 6 false positives: DS/AIML/CSE-AIML/EXTC/IT/Mechanical PDFs under 2019-scheme/ that embed the same FE course codes, 60 code lines each)
+matched/total in family (5 FE pdfs): 5/5
+false positives among 20 other PDFs under data/raw: 0
+failures (family PDFs not matched):
+  (none)
+false positives (other PDFs matched):
+  (none)
+family PDF hit counts:
+  data/raw\2024-25-scheme\FE\02 Syllabus.pdf: 5
+  data/raw\2024-25-scheme\FE\Applied Chemistry syllabus 2024-25.pdf: 6
+  data/raw\2024-25-scheme\FE\NEW EM SYLLABUS 2024-25.pdf: 5
+  data/raw\2024-25-scheme\FE\Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf: 1
+  data/raw\2024-25-scheme\FE\Syllabus-C Prog.pdf: 2

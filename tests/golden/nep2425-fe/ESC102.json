@@ -1,0 +1,90 @@
+{
+  "family": "nep2425-fe",
+  "course_code": "ESC102",
+  "course_title": "Basic Electrical and Electronics Engineering",
+  "source_pdf": "data/raw/2024-25-scheme/FE/02 Syllabus.pdf",
+  "source_pages": [
+    1,
+    2
+  ],
+  "status": "DRAFT - needs human sign-off",
+  "modules": [
+    {
+      "number": "1",
+      "name": "DC Circuits",
+      "topics": [
+        "Kirchhoff's Laws",
+        "Ideal and Practical Voltage Sources",
+        "Ideal and Practical Current Sources",
+        "Source Transformation",
+        "Mesh Analysis",
+        "Nodal Analysis",
+        "Star-Delta Transformation",
+        "Delta-Star Transformation",
+        "Superposition Theorem",
+        "Thevenin's Theorem",
+        "Norton's Theorem",
+        "Maximum Power Transfer Theorem"
+      ]
+    },
+    {
+      "number": "2",
+      "name": "AC Circuits",
+      "topics": [
+        "Generation of Alternating Voltage",
+        "Average and RMS Values",
+        "Phasor and Phase Difference",
+        "Sums on Phasors",
+        "Single-Phase AC Series and Parallel Circuits",
+        "Real, Reactive and Apparent Power",
+        "Admittance",
+        "Series and Parallel Resonance",
+        "Generation of Three-Phase Voltages",
+        "Star and Delta Connections"
+      ]
+    },
+    {
+      "number": "3",
+      "name": "Single Phase Transformer",
+      "topics": [
+        "Working Principle of Single-Phase Transformer",
+        "Types of Single-Phase Transformer",
+        "Transformation Ratio",
+        "Practical and Ideal Transformer",
+        "Transformer Losses",
+        "Transformer Efficiency",
+        "Applications of Transformer"
+      ]
+    },
+    {
+      "number": "4",
+      "name": "Electrical Machines",
+      "topics": [
+        "DC Motor",
+        "Three-Phase Induction Motor",
+        "Single-Phase Induction Motor",
+        "BLDC Motor"
+      ]
+    },
+    {
+      "number": "5",
+      "name": "Special Purpose Diodes",
+      "topics": [
+        "Zener Diode",
+        "Zener Diode as Voltage Regulator",
+        "Structure of LED",
+        "LED in Indicative and Lighting Displays"
+      ]
+    },
+    {
+      "number": "6",
+      "name": "Introduction to Transistors",
+      "topics": [
+        "Structure and Operation of BJT",
+        "BJT Configurations",
+        "FET Structure and Operation",
+        "BJT and FET Applications"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-core_regex_runs.py (stop_marker section); STOP1_RX/STOP_RX defined in spikes/nep26-se-core_extract.py
+ATTEMPT 1 regex: ^\s*(Text\s*Books?|Reference\s*Books?|Textbooks?|Books|Online\s+References?|Suggested\s+List\s+of\s+[Ee]xperiments?|List\s+of\s+Experiments?|Assessment|Term\s+Work)\b\s*[:.]?
+  metric 'region ended on a stop-marker line' = 77/77, but the metric was too weak: it ended AI-DS 2993511 early at topic line 'Assessment and Management ' (6.20N-B.E.-AI-DS.-Sem-III-IV.pdf page 60 line 36), found only through module_row failure (markers I,II,III). 
+ATTEMPT 2 regex (final): ^\s*(Text\s*Books?|Reference\s*Books?|Textbooks?|Books|Online\s+References?|Suggested\s+List\s+of\s+[Ee]xperiments?|List\s+of\s+Experiments?)\s*[:.]?\s*$|^\s*(Assessment|Term\s+Work)\s*:
+  77/77 (see nep26-se-core_stop_marker.txt); module_row then 77/77.

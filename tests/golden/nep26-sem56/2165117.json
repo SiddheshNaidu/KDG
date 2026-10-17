@@ -1,0 +1,83 @@
+{
+  "family": "nep26-sem56",
+  "course_code": "2165117",
+  "course_title": "Statistics for Machine Learning and Data Science Lab",
+  "source_pdf": "data/raw/_unclassified/SEM-V.pdf",
+  "source_pages": [
+    36,
+    37
+  ],
+  "status": "DRAFT - needs human sign-off",
+  "modules": [
+    {
+      "number": "E",
+      "name": "List of Experiments",
+      "topics": [
+        "Exploratory data analysis",
+        "Descriptive statistics",
+        "Histograms",
+        "Correlation matrix",
+        "Data preprocessing",
+        "Missing values",
+        "Encoding",
+        "Scaling",
+        "Outlier detection",
+        "Sampling methods",
+        "Simple random sampling",
+        "Stratified sampling",
+        "Cluster sampling",
+        "Central Limit Theorem",
+        "Hypothesis testing",
+        "t-test",
+        "Chi-square test",
+        "ANOVA",
+        "Bootstrap confidence intervals",
+        "Permutation tests",
+        "Maximum likelihood estimation",
+        "Linear regression",
+        "Regression diagnostics",
+        "VIF",
+        "Residual plots",
+        "Cook's distance",
+        "Ridge regression",
+        "Lasso regression",
+        "Elastic Net",
+        "Hyperparameter tuning",
+        "Classification models",
+        "Logistic regression",
+        "KNN",
+        "Naive Bayes",
+        "ROC analysis",
+        "Decision trees",
+        "Random Forest",
+        "Feature importance",
+        "PCA",
+        "K-means",
+        "Hierarchical clustering",
+        "SHAP",
+        "LIME",
+        "PDP",
+        "ICE",
+        "Fairness and bias detection metrics",
+        "Equalized odds",
+        "Demographic parity"
+      ]
+    },
+    {
+      "number": "A",
+      "name": "List of Assignments / Tutorials",
+      "topics": [
+        "Machine learning pipeline",
+        "Resampling methods comparison",
+        "Bootstrap",
+        "Permutation tests",
+        "Regularization comparison",
+        "Bias-variance tradeoff",
+        "Ethical machine learning",
+        "Fairness",
+        "Interpretability",
+        "Transparency"
+      ]
+    }
+  ]
+}

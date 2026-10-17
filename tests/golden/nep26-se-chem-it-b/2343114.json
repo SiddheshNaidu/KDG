@@ -1,0 +1,90 @@
+{
+  "family": "nep26-se-chem-it-b",
+  "course_code": "2343114",
+  "course_title": "Automata Theory",
+  "source_pdf": "data/raw/2019-scheme/Information-Technology/6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf",
+  "source_pages": [
+    26,
+    27,
+    28
+  ],
+  "status": "DRAFT - needs human sign-off",
+  "modules": [
+    {
+      "number": "I",
+      "name": "Introduction and Regular Languages",
+      "topics": [
+        "Alphabets and strings",
+        "Regular expressions",
+        "Regular languages",
+        "Regular grammars",
+        "RL and LL grammars",
+        "Closure properties of regular languages"
+      ]
+    },
+    {
+      "number": "II",
+      "name": "Finite Automata",
+      "topics": [
+        "Finite automata as language acceptor",
+        "Nondeterministic finite automata",
+        "Deterministic finite automata",
+        "NFA with and without epsilon moves",
+        "RE to NFA conversion",
+        "NFA to DFA conversion",
+        "Reduced DFA",
+        "NFA-DFA equivalence",
+        "FA to RE conversion",
+        "Moore machine",
+        "Mealy machine",
+        "Moore and Mealy machine conversion",
+        "Limitations of finite automata"
+      ]
+    },
+    {
+      "number": "III",
+      "name": "Context Free Grammars",
+      "topics": [
+        "Context free grammars",
+        "Leftmost and rightmost derivations",
+        "Ambiguity",
+        "Simplification of context free grammars",
+        "Chomsky normal form",
+        "Greibach normal form",
+        "Chomsky hierarchy"
+      ]
+    },
+    {
+      "number": "IV",
+      "name": "Push Down Automata",
+      "topics": [
+        "Deterministic pushdown automata",
+        "Equivalence between PDA and CFG",
+        "Power of PDA",
+        "Limitations of PDA"
+      ]
+    },
+    {
+      "number": "V",
+      "name": "Turing Machine",
+      "topics": [
+        "Deterministic Turing machine",
+        "Variants of Turing machine",
+        "Halting problem",
+        "Power of Turing machine"
+      ]
+    },
+    {
+      "number": "VI",
+      "name": "Applications of Automata",
+      "topics": [
+        "Applications of finite automata",
+        "Applications of context free grammars",
+        "Applications of pushdown automata",
+        "Applications of Turing machines",
+        "Introduction to compiler",
+        "Phases of compiler"
+      ]
+    }
+  ]
+}

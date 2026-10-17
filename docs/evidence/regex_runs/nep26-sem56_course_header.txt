@@ -1,0 +1,21 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-sem56_runs.py   (pdf=data/raw/_unclassified/SEM-V.pdf)
+regex name: course_header
+regex: ^\s*(\d{7}|[A-Z]{3}\d{3})\s*$  (first occurrence on pages>=10 starts a course)
+matched: 30 distinct course codes (29 numeric, 1 letters+digits)
+scheme-table cross-check (p6-p9 lines matching ^\s*\d{7}\s*$): 42 distinct codes; in both: 29
+matched/total vs scheme tables: 29/42 scheme codes have a detail course header
+mismatches (verbatim):
+scheme-table code 2165211 (p6 line63) has NO course header on pages>=10 (no detailed syllabus page)
+scheme-table code 2165212 (p6 line111) has NO course header on pages>=10 (no detailed syllabus page)
+scheme-table code 2165311 (p6 line120) has NO course header on pages>=10 (no detailed syllabus page)
+scheme-table code 2165511 (p6 line130) has NO course header on pages>=10 (no detailed syllabus page)
+scheme-table code 2166211 (p8 line64) has NO course header on pages>=10 (no detailed syllabus page)
+scheme-table code 2166212 (p8 line132) has NO course header on pages>=10 (no detailed syllabus page)
+scheme-table code 2166511 (p8 line83) has NO course header on pages>=10 (no detailed syllabus page)
+scheme-table code 2175114 (p6 line171) has NO course header on pages>=10 (no detailed syllabus page)
+scheme-table code 2175115 (p6 line173) has NO course header on pages>=10 (no detailed syllabus page)
+scheme-table code 2175116 (p6 line175) has NO course header on pages>=10 (no detailed syllabus page)
+scheme-table code 2175120 (p6 line179) has NO course header on pages>=10 (no detailed syllabus page)
+scheme-table code 2175121 (p6 line181) has NO course header on pages>=10 (no detailed syllabus page)
+scheme-table code 2175122 (p6 line183) has NO course header on pages>=10 (no detailed syllabus page)
+detail code IKS501 not present in scheme tables p6-p9 as 7 digits alone on a line

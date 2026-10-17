@@ -1,0 +1,22 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-mech_regex.py
+family: nep26-se-mech (courses=34: sub-family a=17 from 6.35 PDF, b=17 from 6.44 PDF)
+regex name: region_start
+
+
+--- attempt 1
+regex/predicate: ^(?:Module\s+)?Detailed Contents?\s*$|^DETAIL(?:ED)? SYLLABUS|^Sr\.\s*$
+matched/total: 29/34
+failures (5):
+  a:2403611 pages 50-53: no line matches START[1]
+  a:2404115 pages 66-66: no line matches START[1]
+  b:2393115 pages 30-31: no line matches START[1]
+  b:2393611 pages 46-48: no line matches START[1]
+  b:2394115 pages 61-61: no line matches START[1]
+
+--- attempt 2
+regex/predicate: ^(?:Module\s+)?Detailed Contents?\s*$|^DETAIL(?:ED)? SYLLABUS|^Sr\.\s*$|^Part \(A\)\s*$
+matched/total: 31/34
+failures (3):
+  a:2403611 pages 50-53: no line matches START[2]
+  b:2393115 pages 30-31: no line matches START[2]
+  b:2393611 pages 46-48: no line matches START[2]

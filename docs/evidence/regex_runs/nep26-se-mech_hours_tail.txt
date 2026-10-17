@@ -1,0 +1,14 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-mech_regex.py
+family: nep26-se-mech (courses=34: sub-family a=17 from 6.35 PDF, b=17 from 6.44 PDF)
+regex name: hours_tail
+(markers,hours) per course: {"a:2403111": [6, 6], "a:2403112": [6, 10], "a:2403113": [6, 7], "a:2403114": [6, 13], "a:2403115": [9, 12], "a:2403116": [6, 7], "a:2993511": [6, 8], "a:2993512": [6, 6], "a:2404111": [6, 7], "a:2404112": [6, 7], "a:2404113": [6, 12], "a:2404115": [0, 0], "a:2404114": [6, 7], "a:2404411": [6, 8], "a:2994511": [6, 8], "a:2994512": [6, 9], "b:2393111": [6, 6], "b:2393112": [6, 10], "b:2393113": [6, 7], "b:2393114": [6, 21], "b:2393116": [6, 7], "b:2393511": [6, 8], "b:2393512": [6, 6], "b:2394111": [6, 7], "b:2394112": [6, 7], "b:2394113": [6, 12], "b:2394115": [0, 0], "b:2394114": [6, 7], "b:2394411": [6, 8], "b:2394511": [6, 14], "b:2394512": [6, 10]}
+
+--- attempt 1
+regex/predicate: ^\d{1,2}\.?\s*$|^-\s*$  (excluding marker lines of the chosen style); predicate: hours-like lines >= modules
+matched/total: 29/34
+failures (5):
+  a:2403611 no region
+  a:2404115 markers=0 hours-like lines=0
+  b:2393115 no region
+  b:2393611 no region
+  b:2394115 markers=0 hours-like lines=0

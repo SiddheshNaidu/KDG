@@ -1,0 +1,11 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep2425-fe_regex.py
+regex: ^\s*Prerequisite\b
+matched/total: 3/5
+ESC102: [(1, 72, 'Prerequisite')]
+BSC103: [(2, 16, 'Prerequisite:'), (5, 6, 'Prerequisite:')]
+ESC101: [(2, 15, 'Prerequisite')]
+AEC101: []
+VSEC102: []
+failures:
+  AEC101 in Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf: no line matched (label absent from text)
+  VSEC102 in Syllabus-C Prog.pdf: no line matched (label absent from text)

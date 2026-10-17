@@ -1,0 +1,7 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26_se_chem_it_runs.py
+regexes (ALL four must match on text of PDF pages 1-6): ['As Per NEP 2020', 'U\\.G\\. Second Year Programme', 'Semester\\s+III\\s*&\\s*IV', 'Name of the Programme\\s*[–-]\\s*B\\.E\\.\\s*\\((?:Chemical Engineering|Information Technology)\\)']
+scope: every PDF under data/raw (25 files)
+PDFs matched: ['data/raw/2019-scheme/Chemical-Engineering/6.40-N-Chemical-Engineering-Sem-III-IV.pdf', 'data/raw/2019-scheme/Information-Technology/6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf']
+expected positives: the two PDFs of this family (Chem-Eng 6.40 = sub-family a, IT 6.34 = sub-family b)
+matched/total: 2/2 expected positives; false positives: []
+note: the detection cannot say a vs b; a = Chemical Engineering programme name, b = Information Technology programme name

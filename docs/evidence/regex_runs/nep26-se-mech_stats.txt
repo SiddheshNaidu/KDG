@@ -1,0 +1,71 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-mech_stats.py
+
+== lines starting (?i)^pre-?requisites?  (text[:40], count, #courses)
+  'Prerequisite' 20 20
+  'Prerequisite:' 12 12
+  'Pre-requisites:' 2 2
+  'Pre-requisite:' 1 1
+  'Prerequisite: Material Science & Strengt' 1 1
+  'Prerequisite:Required Knowledge of Engin' 1 1
+  'Pre-requisite: Applied Mathematics-I, A ' 1 1
+  'Prerequisite: Required Knowledge of Engi' 1 1
+
+== Sr.No '0' row: course has a line '0' immediately followed by a line matching ^Prerequisite
+  20 courses: ['a:2403113', 'a:2403114', 'a:2403116', 'a:2993511', 'a:2404111', 'a:2404112', 'a:2404114', 'a:2404411', 'a:2994511', 'a:2994512', 'b:2393113', 'b:2393114', 'b:2393116', 'b:2393511', 'b:2394111', 'b:2394112', 'b:2394114', 'b:2394411', 'b:2394511', 'b:2394512']
+
+== first STOP line per course (region end)
+  'Text Books:' 16
+  'Online Resources:' 4
+  '<none>' 3
+  'Total Hours' 2
+  'Total Hours 39' 2
+  'Reference Books' 2
+  'List of Experiments' 2
+  'References:' 2
+  'References' 1
+
+== CO/LO tail line spellings (whole-line, all courses)
+  'LON' 70
+  'CON' 50
+  'LN, LN' 14
+  'LN' 8
+  'CNN' 4
+  'LN, LN,' 4
+  'LN, LN, LN' 2
+  'LN, LN, LN,' 2
+
+== table header lines (hours/CO column) spellings
+  'Hrs' 31
+  'Hours' 23
+  'Mapping' 19
+  'CO' 12
+  'LO' 12
+  'Mapp' 4
+  'Hour' 2
+  's' 2
+  'Hrs.' 1
+
+== noise: lines per all courses
+  total raw lines 10667: {'blank-or-space-only': 1265, 'page-number-like (3+ digits)': 234, 'U+25CF bullet': 75, 'U+F0B7 bullet': 25}
+
+== lines present on >=25 pages (a, 83 pages)
+  '2' 38
+
+== lines present on >=25 pages (b, 76 pages)
+  '2' 34
+
+== credits block (line '^Credits\s*$') per course start page  a vs b
+  a: 0/17
+  b: 17/17
+  a: pages<=14 matching course-start regex: []
+  b: pages<=14 matching course-start regex: []
+
+== titles containing 'Lab'
+  a:2404115 Theory of Machines Lab
+  a:2404114 Manufacturing Processes Lab
+  b:2393115 Material Testing Lab
+  b:2394115 Theory of Machines Lab
+  b:2394114 Manufacturing Processes Lab
+
+== raw-order oddity: first line index of region start < first line index of 'Course Code' header (table before header block)
+  b:2393114 region_start_idx=45 first 'Course Code' idx=92

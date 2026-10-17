@@ -1,0 +1,86 @@
+{
+  "family": "nep26-fe-sem12",
+  "course_code": "BSC101",
+  "course_title": "Applied Mathematics-I",
+  "source_pdf": "data/raw/2019-scheme/AIML/6.9N-AIML.pdf",
+  "source_pages": [
+    15,
+    16,
+    17,
+    18
+  ],
+  "status": "DRAFT - needs human sign-off",
+  "modules": [
+    {
+      "number": "01",
+      "name": "Complex Numbers",
+      "topics": [
+        "Expansion of sin nθ and cos nθ",
+        "Expansion in powers of sinθ and cosθ",
+        "Powers and roots of a complex number"
+      ]
+    },
+    {
+      "number": "02",
+      "name": "Hyperbolic Functions & Logarithms of Complex Numbers",
+      "topics": [
+        "Circular functions of complex number",
+        "Hyperbolic functions of complex number",
+        "Inverse circular functions",
+        "Inverse hyperbolic functions",
+        "Separation into real and imaginary parts",
+        "Logarithm of complex number"
+      ]
+    },
+    {
+      "number": "03",
+      "name": "Partial Differentiation",
+      "topics": [
+        "Functions of two and three variables",
+        "Partial derivatives of first and higher order",
+        "Differentiation of composite function",
+        "Euler's theorem on homogeneous functions",
+        "Deductions from Euler's theorem"
+      ]
+    },
+    {
+      "number": "04",
+      "name": "Applications of Partial Differentiation and Successive Differentiation",
+      "topics": [
+        "Maxima and minima of two variables",
+        "Successive differentiation",
+        "nth derivative of standard functions",
+        "Leibnitz's theorem"
+      ]
+    },
+    {
+      "number": "05",
+      "name": "Matrices",
+      "topics": [
+        "Hermitian matrices",
+        "Skew Hermitian matrices",
+        "Unitary matrices",
+        "Orthogonal matrices",
+        "Properties of matrices",
+        "Rank using echelon form",
+        "Reduction to normal form",
+        "PAQ form",
+        "Homogeneous system of equations",
+        "Non-homogeneous system of equations",
+        "Consistency of linear systems"
+      ]
+    },
+    {
+      "number": "06",
+      "name": "Numerical Solutions of Transcendental Equations and System of Linear Equations and Expansion of Function",
+      "topics": [
+        "Solution of transcendental equations",
+        "Newton Raphson method",
+        "Regula Falsi method",
+        "Solution of linear algebraic equations",
+        "Gauss Jacobi iteration method",
+        "Gauss Seidel iteration method"
+      ]
+    }
+  ]
+}

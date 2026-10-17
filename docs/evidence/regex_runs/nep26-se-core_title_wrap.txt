@@ -1,0 +1,5 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-core_regex_runs.py
+regex: title = lines after code line joined by ' ' until first line matching ^[\d\-–]+\s*$ ; compared (alphanumerics, case-folded) with same rule applied at 2nd occurrence of the code
+denominator: all detected courses
+matched/total: 102/102
+failures (0):

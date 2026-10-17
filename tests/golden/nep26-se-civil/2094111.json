@@ -1,0 +1,100 @@
+{
+ "family": "nep26-se-civil",
+ "course_code": "2094111",
+ "course_title": "Applied Mathematics for Civil Engineering-II",
+ "source_pdf": "data/raw/2019-scheme/Civil-Engineeing/6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf",
+ "source_pages": [
+  52,
+  53,
+  54
+ ],
+ "status": "DRAFT - needs human sign-off",
+ "modules": [
+  {
+   "number": 1,
+   "name": "Vector Calculus",
+   "topics": [
+    "Solenoidal vector fields",
+    "Irrotational vector fields",
+    "Conservative vector fields",
+    "Line integrals",
+    "Green's theorem",
+    "Stokes' theorem",
+    "Gauss' divergence theorem"
+   ]
+  },
+  {
+   "number": 2,
+   "name": "Complex Integration",
+   "topics": [
+    "Line integral",
+    "Cauchy's integral theorem",
+    "Cauchy's integral formula",
+    "Taylor's series",
+    "Laurent's series",
+    "Singularity",
+    "Zeroes",
+    "Poles of f(z)",
+    "Residues",
+    "Cauchy's residue theorem"
+   ]
+  },
+  {
+   "number": 3,
+   "name": "Statistical Techniques",
+   "topics": [
+    "Karl Pearson's coefficient of correlation",
+    "Spearman's rank correlation coefficient",
+    "Lines of regression"
+   ]
+  },
+  {
+   "number": 4,
+   "name": "Probability Theory",
+   "topics": [
+    "Discrete random variables",
+    "Continuous random variables",
+    "Probability mass function",
+    "Probability density function",
+    "Probability distribution for random variables",
+    "Expectation",
+    "Variance",
+    "Co-variance",
+    "Moments",
+    "Moment generating functions"
+   ]
+  },
+  {
+   "number": 5,
+   "name": "Probability Distribution and Sampling Theory-I",
+   "topics": [
+    "Poisson distribution",
+    "Normal distribution",
+    "Sampling distribution",
+    "Test of hypothesis",
+    "Level of significance",
+    "Critical region",
+    "One-tailed test",
+    "Two-tailed test",
+    "Degree of freedom",
+    "Student's t-distribution",
+    "Significance of single sample mean",
+    "Significance of two independent sample means",
+    "Paired t-test"
+   ]
+  },
+  {
+   "number": 6,
+   "name": "Sampling theory-II",
+   "topics": [
+    "Chi-square test",
+    "Test of goodness of fit",
+    "Test of independence of attributes",
+    "Contingency table",
+    "Analysis of variance",
+    "F-test"
+   ]
+  }
+ ],
+ "draft_notes": "Self-learning topics (present in every module 1-6 of this course, with spellings 'Self-learning', 'Self- Learning', 'Self- learning', 'Self -learning') are EXCLUDED here; whether they count as topics is UNKNOWN (open_questions.md). Sub-item 3.2 contains letter-spaced text 'r e p e a t e d' (pdf page 53). Parenthetical qualifiers like '(without proof)' dropped."
+}

@@ -1,0 +1,112 @@
+{
+  "family": "nep26-se-electrical",
+  "course_code": "2213112",
+  "course_title": "Electrical Machines -I",
+  "source_pdf": "data/raw/2019-scheme/Electrical-Computer-Engineering/6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf",
+  "source_pages": [
+    19,
+    20
+  ],
+  "status": "DRAFT - needs human sign-off",
+  "modules": [
+    {
+      "number": "I",
+      "name": "DC Machines",
+      "topics": [
+        "Working principles of DC machines",
+        "Back EMF",
+        "Torque equation",
+        "Commutation",
+        "Armature reaction",
+        "Types of DC machines",
+        "Characteristics of DC machines",
+        "Necessity of starter",
+        "Speed control methods",
+        "Losses and efficiency",
+        "Swinburne's test",
+        "Hopkinson's test"
+      ]
+    },
+    {
+      "number": "II",
+      "name": "Single phase Transformer",
+      "topics": [
+        "Working principle of single phase transformer",
+        "EMF equation",
+        "Equivalent circuit",
+        "Phasor diagram",
+        "Voltage regulation",
+        "Losses and efficiency",
+        "Condition for maximum efficiency",
+        "Parallel operation",
+        "No load operation",
+        "On load operation",
+        "Equal and unequal voltage operation",
+        "OC and SC test",
+        "Sumpner's test"
+      ]
+    },
+    {
+      "number": "III",
+      "name": "Three Phase Transformer",
+      "topics": [
+        "Principle of operation",
+        "Connections",
+        "Phasor groups",
+        "Parallel operation",
+        "Harmonics in three phase transformers",
+        "Suppression of harmonics",
+        "Oscillating neutral phenomenon",
+        "Open delta or V connection",
+        "Scott connection"
+      ]
+    },
+    {
+      "number": "IV",
+      "name": "Three Phase Induction Motor",
+      "topics": [
+        "Constructional details",
+        "Principle of operation",
+        "Slip",
+        "Rotor EMF and frequency",
+        "Rotor current and power",
+        "Power stages",
+        "Phasor diagram",
+        "Equivalent circuit",
+        "Torque-speed characteristics",
+        "Losses and efficiency",
+        "No load and blocked rotor test",
+        "Circle diagram"
+      ]
+    },
+    {
+      "number": "V",
+      "name": "Starting and Speed control of Three Phase Induction Motor",
+      "topics": [
+        "Need of starter",
+        "Direct on line starter",
+        "Rotor resistance starter",
+        "Autotransformer starter",
+        "Star delta starter",
+        "Voltage control",
+        "Frequency control",
+        "Pole changing method",
+        "V/f control"
+      ]
+    },
+    {
+      "number": "VI",
+      "name": "Single phase Induction Motor",
+      "topics": [
+        "Principle of operation",
+        "Double field revolving theory",
+        "Equivalent circuit",
+        "Split phase starting",
+        "Resistance split phase starting",
+        "Capacitor split phase starting",
+        "Capacitor start and run",
+        "Shaded pole starting"
+      ]
+    }
+  ]
+}

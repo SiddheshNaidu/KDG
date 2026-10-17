@@ -1,0 +1,6 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-core_regex_runs.py
+regex: roman: ^\s*(I|II|III|IV|V|VI|VII|VIII)\s*$ inside region (header .. stop marker); arabic: ^\s*[1-9]\s*$ preceded by tail/hours/header line and not followed by a pure number
+denominator: module-table courses; success = markers are exactly I..VI (or 1..6); '6 modules' is an observed assumption, see UNKNOWN
+matched/total: 77/77
+failures (0):
+styles among module-table courses: {'roman': 71, 'arabic': 6}

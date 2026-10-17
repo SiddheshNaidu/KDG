@@ -1,0 +1,17 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-sem56_runs.py   (pdf=data/raw/_unclassified/SEM-V.pdf)
+regex name: stop_marker
+population: 21 courses with module table (stop = end of module table)
+attempt1 regex: ^\s*Text\s*Books?\b
+attempt1 matched/total: 18/21
+  failure: 2165115 (pdf data/raw/_unclassified/SEM-V.pdf pages 28-31): no match
+  failure: IKS501 (pdf data/raw/_unclassified/SEM-V.pdf pages 54-61): no match
+  failure: 2166115 (pdf data/raw/_unclassified/SEM-V.pdf pages 80-84): no match
+attempt2 regex: (?i)^\s*(text\s*(and\s+reference\s+)?books?\b|books\s*:)
+attempt2 matched/total: 21/21
+distinct matched line spellings: ['Books:', 'Text Books', 'Text Books:', 'Text and Reference Books or Articles:', 'Textbooks:']
+lines matching ^\s*Total Hours?\s*$ in whole pdf (old-repo hint): 0
+non-module courses (labs with experiment lists / project) matched by attempt2: 5/9
+  note (no Text Books line): 2165121 (pdf data/raw/_unclassified/SEM-V.pdf pages 49-50): no match
+  note (no Text Books line): 2165122 (pdf data/raw/_unclassified/SEM-V.pdf pages 51-53): no match
+  note (no Text Books line): 2166411 (pdf data/raw/_unclassified/SEM-V.pdf pages 97-99): no match
+  note (no Text Books line): 2166125 (pdf data/raw/_unclassified/SEM-V.pdf pages 122-123): no match

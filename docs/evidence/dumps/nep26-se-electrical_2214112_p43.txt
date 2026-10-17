@@ -1,0 +1,60 @@
+ 
+ 
+Course Objectives: This course is aimed   
+ 
+1. To provide the students with a solid foundation in engineering fundamentals required to solve problems and 
+also to pursue higher studies.  
+2. To acquire the knowledge of Electromagnetic field theory that allows the student to have a solid theoretical 
+foundation to be able in the future to design emission, propagation and reception of Electro -magnetic wave 
+systems. 
+3. To acquire the knowledge of time varying Electric Wave that allows the student to have a solid theoretical 
+foundation to be able in the future to design emission, propagation and reception of Electric field 
+4. To acquire the knowledge of time varying magnetic that allows the student to have a solid theoretical 
+foundation to be able in the future to design emission, propagation and reception of Magnetic field 
+5. Apply mathematical techniques and electromagnetic field theory to analyze and design simple 
+electromagnetic system 
+6. Recognize common sources of EMI, including natural and man-made sources. 
+ 
+Course Outcomes: At the end of the course, students will be able to 
+ 
+1. Apply vector calculus concepts along with physical principles and properties to effectively solve problems 
+encountered in everyday life. 
+2. Solve the electrostatic problems using coulombs law and gauss’s law. 
+3. Understand the concept conductors, dielectrics, boundary conditions and capacitance 
+4. Solve the magnetic field problems using the laws of magnetism and vector calculus 
+5. Apply the Maxwell’s equations to understand the electromagnetic wave propagation 
+6. Explain EMC regulation and methods of eliminating interferences 
+               
+Detailed Syllabus:  
+  
+Sr. 
+No. 
+Name of the Module Detail Content 
+Hours 
+CO 
+Mapping 
+--- 
+Prerequisite 
+Basic Electrical Engineering and Basic Vectors 
+--- 
+--- 
+ 
+ 
+ 
+1 
+Vector Analysis 
+Vector analysis, Cartesian, Cylindrical and Spherical 
+coordinate systems, Relationship between the coordinate 
+systems, Properties of coordinate system, Introduction to 
+Gradient, divergence, and curl of a coordinate system 
+4 
+CO1 
+2 
+Electrostatics 
+Coulomb’s law and its applications, Electric field 
+intensity, Electric flux densities for various charge 
+distributions such as line, surface, and volume - Gauss’s 
+law and its applications - Electrostatic potential, 
+Divergence theorem - Convection and Conduction 
+current - Electric field in free space, conductors, and 
+dielectrics, Electrostatic boundary value problems: 

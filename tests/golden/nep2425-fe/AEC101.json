@@ -1,0 +1,80 @@
+{
+  "family": "nep2425-fe",
+  "course_code": "AEC101",
+  "course_title": "Professional Communication and Ethics",
+  "source_pdf": "data/raw/2024-25-scheme/FE/Professional_Comm._Ethics_Theory_Sem_I 2024-25.pdf",
+  "source_pages": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "status": "DRAFT - needs human sign-off",
+  "modules": [
+    {
+      "number": "1",
+      "name": "Fundamentals of Communication",
+      "topics": [
+        "Basic Concepts of Communication",
+        "Process of Communication",
+        "Methods of Communication",
+        "Barriers to Communication",
+        "Organisational Communication"
+      ]
+    },
+    {
+      "number": "2",
+      "name": "Developing Basic Listening Skills",
+      "topics": [
+        "Concepts of Active Listening",
+        "Enhancing Listening Proficiency"
+      ]
+    },
+    {
+      "number": "3",
+      "name": "Developing Basic Speaking Skills",
+      "topics": [
+        "Conversational Activities - Monologues",
+        "Conversational Activities - Dialogues",
+        "Pronunciation",
+        "Stress and Rhythm",
+        "Intonation"
+      ]
+    },
+    {
+      "number": "4",
+      "name": "Developing Basic Reading Skills",
+      "topics": [
+        "Verbal Aptitude",
+        "Grammar",
+        "Techniques to Improve Reading Fluency and Comprehension",
+        "Reading and Summarisation Skills"
+      ]
+    },
+    {
+      "number": "5",
+      "name": "Developing Basic Writing Skills",
+      "topics": [
+        "Coherence and Cohesion in Writing",
+        "Seven Cs of Business Writing",
+        "Format and Types of Formal Letters",
+        "Writing User Instructions",
+        "Social Media and e-Commerce Content Creation"
+      ]
+    },
+    {
+      "number": "6",
+      "name": "Ethical and Managerial Skills for Engineers",
+      "topics": [
+        "Team Building",
+        "Goal Setting",
+        "Fairness and Honesty",
+        "Difference between Values and Ethics",
+        "Ethical Principles",
+        "Ethical Use of AI Tools",
+        "Plagiarism and Copyright Infringement",
+        "Ethical-Dilemma Case Studies"
+      ]
+    }
+  ]
+}

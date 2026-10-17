@@ -1,0 +1,16 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26_se_chem_it_runs.py
+validator: spikes/topic_validity.py validate() (rules R1-R8, docs/formats/topic_validity.md)
+candidate topics: NAIVE spike splitter (not a parser): module content cell split on ';' ',' '. <Capital>' and bullets after cutting at every self-learning marker; module name excluded.
+scope: courses having a module table (12 of 13); excluded (no module table): ['2343116']
+total candidate topics: 986
+candidates violating >=1 rule: 234
+violations by rule id (a candidate may violate several): {'R1_word_count_1_to_8': 116, 'R2_len_over_80_chars': 63, 'R3_contains_colon_or_semicolon': 120, 'R4_generic_heading': 5, 'R5_procedural': 20, 'R6_leading_numbering': 6, 'R8_no_letters': 13}
+candidates per course: {'2343111': 56, '2343112': 62, '2343113': 68, '2343114': 39, '2343115': 33, '2343116': 0, '2344111': 61, '2344112': 99, '2344113': 60, '2344114': 117, '2344115': 35, '2344411': 110, '2343611': 246}
+examples (first 3 per rule):
+R1_word_count_1_to_8: ['2343111: Laplace Transform of derivatives (up to second derivative) and integra', '2343111: use of standard formulae to find inverse Laplace Transform', '2343111: Partial fractions method to find inverse Laplace transform. (only up t']
+R2_len_over_80_chars: ['2343111: Laplace Transform of derivatives (up to second derivative) and integra', '2343111: Partial fractions method to find inverse Laplace transform. (only up t', '2343111: Partial fractions method to find inverse Laplace transform. (with s4 i']
+R3_contains_colon_or_semicolon: ['2343111: Properties of Laplace Transform: Linearity', '2343112: Fundamentals of the analysis of algorithms: Time and Space complexity', '2343112: Recurrence Relations: Methods to solve recurrence relations in algorit']
+R4_generic_heading: ['2343112: Introduction', '2343112: Introduction', '2343113: Introduction']
+R5_procedural: ['2343115: Implement Merge sort and Quicksort for the given list of integer value', '2343115: Implement Insert', '2343115: Implement solution for a 0-1 knapsack problem using dynamic programmin']
+R6_leading_numbering: ['2344111: 1.1 Characteristic Equation', '2344111: 2.1 Cauchy’s theorem', '2344111: 3.1 Definition and Region of convergence']
+R8_no_letters: ['2343111: 𝑠𝑖𝑛(𝑎𝑡)', '2343111: 𝑐𝑜𝑠(𝑎𝑡)', '2343111: 𝑠𝑖𝑛ℎ(𝑎𝑡)']

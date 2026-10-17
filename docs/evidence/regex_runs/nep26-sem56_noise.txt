@@ -1,0 +1,12 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-sem56_noise.py   (pdf=data/raw/_unclassified/SEM-V.pdf)
+regex (?i)^\s*note for qp setters : question-paper template pages (noise, no syllabus content): 14 pages: [15, 19, 23, 27, 31, 35, 65, 70, 74, 79, 84, 88, 92, 96]
+regex (?i)draft over all lines: 1 hits: [(41, 14, '3. Sebastian Raschka — Build a Large Language Model (From Scratch) (MIT Press Dr')]
+non-trivial (len>12) lines repeated >=60 times across the 128 pages (running header/footer/watermark candidates): []
+lines matching ^\s*Total Hours?\s*$ : 0
+inserted 'Course / Code / Course Name ...' scheme-table blocks found INSIDE module regions (strip_tables rule; block = line 'Course' + line 'Code' ... code line, title, run of numeric/dash cells): per course (blocks, lines): {'2165111': (0, 0), '2165112': (0, 0), '2165113': (1, 26), '2165114': (0, 0), '2165115': (2, 61), '2165116': (0, 0), '2165119': (0, 0), 'IKS501': (1, 17), '2166111': (0, 0), '2166112': (1, 26), '2166113': (1, 25), '2166114': (0, 0), '2166115': (0, 0), '2166116': (1, 24), '2166117': (0, 0), '2166118': (1, 26), '2166120': (0, 0), '2166121': (0, 0), '2166122': (1, 25), '2166124': (0, 0), '2166126': (0, 0)}
+numbering style 'arabic dotted 1.1 / 4.1' (regex ^\s*\d+\.\d+\s?\S): 48 lines in 3 courses: {'IKS501': 15, '2166111': 18, '2166115': 15}
+numbering style 'roman dotted I.1' (regex ^\s*[IVX]+\.\d+\s): 3 lines in 1 courses: {'IKS501': 3}
+numbering style 'arabic 1. / 2.' (regex ^\s*\d+\.\s?\S): 88 lines in 6 courses: {'2165114': 3, 'IKS501': 18, '2166111': 21, '2166112': 14, '2166115': 16, '2166120': 16}
+numbering style 'letter a) b)' (regex ^\s*[a-e]\)\s): 4 lines in 1 courses: {'IKS501': 4}
+numbering style 'bullet only line' (regex ^\s*[•●]\s*$): 43 lines in 1 courses: {'IKS501': 43}
+numbering style 'dash bullet' (regex ^\s*-\s+\S): 0 lines in 0 courses: {}

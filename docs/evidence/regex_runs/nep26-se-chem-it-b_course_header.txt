@@ -1,0 +1,12 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26_se_chem_it_runs.py
+regex: (?m)^Course\s*\nCode\s*\n(?:.*\n){0,38}?[ \t]*(\d{7})[ \t]*\n
+scope: page.get_text() of every non-overview page of data/raw/2019-scheme/Information-Technology/6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf; overview pages (>=3 distinct 7-digit lines) = [11, 12, 13, 14]
+oracle: distinct 7-digit codes on overview pages = 17
+matched/total: 13/17 (oracle codes that have a detail header)
+detail headers found: 13; codes found in detail pages but not in oracle: []
+attempts: 1
+failures (verbatim):
+code 2993511: no header match on any detail page; appears only on overview pages [11, 12, 13, 14]
+code 2993512: no header match on any detail page; appears only on overview pages [11, 12, 13, 14]
+code 2994511: no header match on any detail page; appears only on overview pages [11, 12, 13, 14]
+code 2994512: no header match on any detail page; appears only on overview pages [11, 12, 13, 14]

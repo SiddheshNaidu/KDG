@@ -1,0 +1,13 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-sem56_runs.py   (pdf=data/raw/_unclassified/SEM-V.pdf)
+regex name: prerequisite_frontmatter
+regex: (?i)^\s*pre-?\s*requisites?\s*:
+courses with a front-matter 'Prerequisite:' line: 9/30
+2165111 p11 line72: 'Prerequisite: Basic Probability, Linear Algebra, Python Prog'
+2165116 p32 line38: 'Prerequisite: Operating System Fundamentals'
+2165117 p36 line90: 'Prerequisite: Python'
+2166113 p71 line37: 'Prerequisite: Basics of Microcontrollers, computer networks'
+2166114 p75 line71: 'Prerequisite: Computer Networks'
+2166116 p85 line57: 'Prerequisite:'
+2166117 p89 line66: 'Prerequisite: Mathematics for Computer Science, Computationa'
+2166121 p108 line82: 'Prerequisite: Knowledge of Basic sensors and Arduino Boards'
+2166122 p112 line53: 'Prerequisite: Computer Network, Cryptography, Various Operat'

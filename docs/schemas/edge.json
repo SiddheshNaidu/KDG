@@ -1,0 +1,77 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "kdg/edge.json",
+ "type": "object",
+ "title": "Edge",
+ "required": [
+  "from_topic_key",
+  "to_topic_key",
+  "score",
+  "confidence",
+  "band",
+  "provenance"
+ ],
+ "properties": {
+  "from_topic_key": {
+   "type": "string",
+   "description": "prerequisite"
+  },
+  "to_topic_key": {
+   "type": "string",
+   "description": "dependent"
+  },
+  "score": {
+   "type": "number",
+   "minimum": 0,
+   "maximum": 1,
+   "description": "raw model probability"
+  },
+  "confidence": {
+   "type": "number",
+   "minimum": 0,
+   "maximum": 1,
+   "description": "calibrated probability"
+  },
+  "band": {
+   "enum": [
+    "accepted",
+    "uncertain",
+    "rejected"
+   ]
+  },
+  "provenance": {
+   "type": "object",
+   "required": [
+    "model_version",
+    "feature_set",
+    "calibration_id",
+    "label_source"
+   ],
+   "properties": {
+    "model_version": {
+     "type": "string"
+    },
+    "feature_set": {
+     "type": "string"
+    },
+    "calibration_id": {
+     "type": "string"
+    },
+    "label_source": {
+     "enum": [
+      "llm-teacher",
+      "human-gold",
+      "llm-teacher+human-gold"
+     ]
+    },
+    "structural_rules_applied": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   }
+  }
+ },
+ "additionalProperties": false
+}

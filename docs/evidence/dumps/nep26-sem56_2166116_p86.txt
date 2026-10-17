@@ -1,0 +1,59 @@
+Protocols 
+IInterfacing DHT temperature –humidity sensor 
+with Raspberry Pi, reading sensor values, data 
+logging, and real-time monitoring. 
+Need 
+for 
+lightweight 
+protocols 
+for 
+IoT 
+communication; Comparison of protocols: MQTT, 
+CoAP, HTTP for IoT environments. Introduction to 
+MQTT protocol and its role in IoT; Detailed MQTT 
+architecture and workflow. 
+MQTT Packet Structure & Data Formats. 
+ 
+Self-learning Topics: Introduction to Mosquitto 
+MQTT Broker installation on Raspberry Pi, Using 
+Node-RED for MQTT-based IoT workflows, Cloud 
+MQTT services (AWS IoT Core, Azure IoT Hub, 
+Google IoT Core) 
+08 
+CO4 
+V 
+Edge Computing 
+With Raspberry 
+Pi 
+Fundamentals of edge computing, need for low-
+latency 
+processing, 
+comparison 
+with 
+cloud 
+computing. 
+Raspberry Pi as an edge device for data acquisition 
+and local processing. 
+Edge–Fog–Cloud hierarchy and deployment models. 
+ 
+Self-learning Topics: Setting up Docker containers 
+on Raspberry Pi for edge deployments, Edge security 
+techniques (device authentication, secure boot, 
+encrypted communication) 
+08 
+CO5 
+VI 
+Applications of 
+Edge Computing 
+Study of edge computing use cases in smart cities, 
+industrial automation, healthcare, transportation, 
+agriculture, and retail. Implementation of edge nodes 
+for video analytics, environmental monitoring, 
+energy management, and autonomous systems. 
+ 
+Self-learning Topics: Hands-On Exploration of 
+Edge AI Tools and Platforms, Experimenting with 
+TensorFlow Lite, NVIDIA Jetson, Google Coral, or 
+EdgeX Foundry to develop AI-enabled edge 
+06 
+ 

@@ -1,0 +1,6 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-civil_runs.py
+pdf: data/raw/2019-scheme/Civil-Engineeing/6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf
+regex TITLE_STOP: ^(\d+[*#]?(\+\d+)?|[-–—]+|\(.*)\s*$  (title = lines after code line joined by space until first line matching TITLE_STOP; checked by comparing table 1 (teaching scheme) vs table 2 (exam scheme) on the same page, case/whitespace-insensitive)
+matched/total: 17/17
+failures: 0
+titles (table1): 2093111=Applied Mathematics for Civil Engineering-I || 2093112=Fluid Mechanics || 2093113=Building Materials and Concrete Technology || 2093114=Mechanics of Structures || 2093115=Fluid Mechanics lab || 2093116=Building Materials and Concrete Technology Lab || 2993511=Entrepreneurship Development || 2993512=Environmental Science || 2093611=Mini Project || 2094111=Applied Mathematics for Civil Engineering-II || 2094112=Surveying || 2094113=Structural Analysis || 2094114=Surveying Lab || 2094115=Structural Analysis Lab || 2094411=Computer Aided Architectural Planning, and Building Design || 2994511=Business Model Development || 2994512=Design Thinking

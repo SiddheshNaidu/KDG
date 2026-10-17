@@ -1,0 +1,131 @@
+{
+  "family": "nep26-sem56",
+  "course_code": "2165119",
+  "course_title": "Agile Software Development & DevOps Lab",
+  "source_pdf": "data/raw/_unclassified/SEM-V.pdf",
+  "source_pages": [
+    43,
+    44
+  ],
+  "status": "DRAFT - needs human sign-off",
+  "modules": [
+    {
+      "number": "I",
+      "name": "Agile Project Management & DevOps Integration",
+      "topics": [
+        "Agile",
+        "Scrum",
+        "Jira",
+        "Agile project lifecycle management",
+        "Epics",
+        "User stories",
+        "Tasks",
+        "Sprints",
+        "Sprint planning",
+        "Sprint progress tracking",
+        "Jira integration with CI/CD pipelines",
+        "Agile reporting",
+        "Burndown chart",
+        "Velocity chart"
+      ]
+    },
+    {
+      "number": "II",
+      "name": "Version Control & Collaboration using Git",
+      "topics": [
+        "Git",
+        "GitHub",
+        "Basic Git operations",
+        "Clone",
+        "Commit",
+        "Push",
+        "Pull",
+        "Branching strategies",
+        "Merging",
+        "Git workflows",
+        "Feature branching",
+        "Git Flow",
+        "Merge conflicts",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "number": "III",
+      "name": "CI/CD Automation using Jenkins & Containerization using Docker",
+      "topics": [
+        "CI/CD",
+        "DevOps pipelines",
+        "Jenkins",
+        "Jenkins job creation",
+        "GitHub webhook integration",
+        "CI pipeline",
+        "Docker fundamentals",
+        "Images",
+        "Containers",
+        "Dockerfiles",
+        "Multi-service deployment",
+        "Docker Compose"
+      ]
+    },
+    {
+      "number": "IV",
+      "name": "Configuration Automation, Orchestration & Cloud Provisioning",
+      "topics": [
+        "Ansible",
+        "Inventory",
+        "Playbooks",
+        "Roles",
+        "Application provisioning",
+        "Application configuration",
+        "Kubernetes",
+        "Pods",
+        "Deployment",
+        "Service",
+        "Ingress",
+        "Containerized app management",
+        "Terraform",
+        "Providers",
+        "Resources",
+        "State files",
+        "Cloud infrastructure automation"
+      ]
+    },
+    {
+      "number": "V",
+      "name": "Monitoring, Serverless Computing & MLOps Fundamentals",
+      "topics": [
+        "Monitoring tools",
+        "Prometheus",
+        "Grafana",
+        "Nagios",
+        "Exporters",
+        "Dashboards",
+        "Alerting",
+        "AWS Lambda",
+        "MLOps lifecycle",
+        "MLflow",
+        "Tracking ML runs",
+        "Model versioning and deployment",
+        "Airflow",
+        "DAGs",
+        "Tasks",
+        "Operators",
+        "Scheduling"
+      ]
+    },
+    {
+      "number": "VI",
+      "name": "End-to-End DevOps Pipeline",
+      "topics": [
+        "DevOps automation pipeline design",
+        "Agile to monitoring integration",
+        "Cloud deployment",
+        "AWS",
+        "GCP",
+        "Azure",
+        "Pipeline security",
+        "DevSecOps"
+      ]
+    }
+  ]
+}

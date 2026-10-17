@@ -1,0 +1,9 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep2425-fe_regex.py
+regex: attempt2 = ROW applied to text before first 'List of\s+Assignments'; ROW=(?m)^(\d{2})[ \t]*\n((?:(?![ \t]*\d{2}[ \t]*\n).*\n){1,6}?)[ \t]*(\d{2})[ \t]*\n[ \t]*LO\d
+matched/total: 2/2
+ESL102 attempt 1 (whole pdf text): expected 13 got 14 ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '01']
+ESL102 attempt 2 (text truncated at first 'List of Assignments'): expected 13 got 13 ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13']
+BSL102 attempt 1 (whole pdf text): expected 11 got 11 ['10', '11', '01', '02', '03', '04', '05', '06', '07', '08', '09']
+BSL102 attempt 2 (text truncated at first 'List of Assignments'): expected 11 got 11 ['10', '11', '01', '02', '03', '04', '05', '06', '07', '08', '09']
+failures:
+  attempt 1 ESL102 in 02 Syllabus.pdf: expected 13 got 14: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '01'] (extra match comes from the 'List of Assignments / Tutorials' table, whose first row '01 / Assignment on Basic electrical safety practices / 02 / LO1' has the same shape)

@@ -1,0 +1,5 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep2425-fe_regex.py
+regex: ^\s*(Text Books?|Recommended Books|References?)\s*:?\s*$
+matched/total: 5/6
+failures:
+  AEC101-stub in 02 Syllabus.pdf: no match

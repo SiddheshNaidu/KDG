@@ -1,0 +1,43 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "kdg/module.json",
+ "type": "object",
+ "title": "Module",
+ "required": [
+  "module_no",
+  "name",
+  "topics"
+ ],
+ "properties": {
+  "module_no": {
+   "type": "integer",
+   "minimum": 1
+  },
+  "name": {
+   "type": "string"
+  },
+  "hours": {
+   "type": [
+    "integer",
+    "null"
+   ]
+  },
+  "co_mapping": {
+   "type": [
+    "array",
+    "null"
+   ],
+   "items": {
+    "type": "string"
+   },
+   "description": "only if parsed from the syllabus table, else null"
+  },
+  "topics": {
+   "type": "array",
+   "items": {
+    "$ref": "topic.json"
+   }
+  }
+ },
+ "additionalProperties": false
+}

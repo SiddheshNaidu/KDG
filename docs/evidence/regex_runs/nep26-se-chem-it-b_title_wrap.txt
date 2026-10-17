@@ -1,0 +1,23 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26_se_chem_it_runs.py
+regex (terminator line after the code line; lines before it are joined with a space): ^\s*(?:\d{1,2}|--|–|\d\*\+\d)\s*$
+oracle: the same title rebuilt from the SECOND header table on the same page (repeated code line), compared ignoring spaces and hyphens
+matched/total: 13/13
+titles (table 1 reconstruction):
+2343111	Applied Mathematics Thinking-I
+2343112	Advance Data Structure & Analysis
+2343113	Database Management System & Application
+2343114	Automata Theory
+2343115	ADSA Lab
+2343116	SQL Lab
+2344111	Applied Mathematics Thinking-II
+2344112	Operating System
+2344113	Computer Network & Network Design
+2344114	Unix Lab
+2344115	Network Design Lab
+2344411	Mini-Project - Programming Paradigm
+2343611	Mini-Project - Full Stack Java Programming
+failures (verbatim):
+none
+attempt history (max 3 attempts per regex):
+attempt 1: terminator ^\s*(?:\d{1,2}|--?|–|\d\*\+\d)\s*$ (lone '-' counted as terminator) -> a 16/17 (2994512: second table has no code line, oracle missing), b 12/13 (2344411: table1='Mini-Project - Programming Paradigm' vs table2='Mini-Project', the lone '-' line cut the title)
+attempt 2 (current): lone '-' removed from terminator; oracle falls back to the overview-table title when no second table exists -> see matched/total above

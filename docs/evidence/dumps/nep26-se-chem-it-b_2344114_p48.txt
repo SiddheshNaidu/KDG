@@ -1,0 +1,60 @@
+ 
+ 
+System 
+I 
+Introduction to 
+Unix 
+Case Study: Brief History of UNIX, Unix Architecture; 
+Installation of Unix Operating System 
+03 
+LO1 
+II 
+Basic Commands 
+a) Execution 
+of 
+Unix 
+General 
+Purpose 
+Utility 
+Commands like echo, clear, exit, date, time, uptime, 
+cal, cat, tty, man, which, history, id, pwd, whoami, 
+ping, ifconfig, pr, lp, lpr, lpstat, lpq, lprm, cancel, 
+mail, etc. 
+b) Working with Editor Vi/other editor. 
+03 
+LO2 
+III 
+Commands for 
+File System 
+Management and 
+User Management 
+a) Study of Unix file system (tree structure), file and 
+directory 
+permissions, 
+single 
+and 
+multiuser 
+environment. 
+b) Execution of File System Management Commands 
+like ls, cd, pwd, cat, mkdir, rmdir, rm, cp, mv, chmod, 
+wc, piping and redirection, grep, tr, echo, sort, head, 
+tail, diff, comm, less, more, file, type, wc, split, cmp, 
+tar, find, vim, gzip, bzip2, unzip, locate, etc. 
+c) Execution of User Management Commands like who, 
+whoami, su, sudo, login, logout, exit, passwd, 
+useradd/adduser, 
+usermod, 
+userdel, 
+groupadd, 
+groupmod, groupdel, gpasswd, chown, chage, chgrp, 
+chfn, etc. 
+04 
+LO3 
+IV 
+Commands for 
+Process 
+Management and 
+Memory 
+Management 
+a) Execution of Process Management Commands like 
+ps, pstree, nice, kill, pkill, killall, xkill, fg, bg, pgrep, 

@@ -1,0 +1,60 @@
+31 
+ 
+Lab Outcomes: 
+1) Interpret and analyze the behavior of DC circuits using network theorems. 
+2) Perform and infer experiments on single-phase and three-phase AC circuits 
+3) Illustrate the performance of a single-phase transformer 
+4)  Illustrate the performance of A.C. machine and DC Motor 
+5)  Perform an experiment on voltage regulation characteristics of Special diode  
+6) Perform an experiment on the VI characteristic Transistor. 
+ 
+List of Experiments. 
+ 
+ 
+ 
+Online Resources: 
+Sr. No. 
+Website Name 
+5.  
+All About Circuits (https://www.allaboutcircuits.com) 
+Sr No 
+List of Experiments 
+Hrs 
+LO Mapping 
+01 
+Basic safety precautions. Introduction and use of measuring 
+instruments - voltmeter, ammeter, multi-meter, oscilloscope. Real-
+life resistors, capacitors, and inductors 
+01 
+LO1 
+02 
+To measure output voltage across load resistor/current through load 
+resistor and verify the result using Mesh and Nodal analysis 
+01 
+LO1 
+03 
+Verification of Superposition Theorem. 
+02 
+LO1 
+04 
+Verification Thevenin’s and Norton's theorem  
+02 
+LO1 
+05 
+Verification Maximum Power Transfer Theorem. 
+02 
+LO1 
+06 
+To find the resistance and inductance of a coil connected in series 
+with a pure resistance using the voltmeter method 
+02 
+LO2 
+07 
+To measure the relationship between phase and line, currents and 
+voltages in three-phase system (star & delta) 
+02 
+LO2 
+08 
+To demonstrate cut-out sections of the single-phase transformer. 
+02 
+LO3 

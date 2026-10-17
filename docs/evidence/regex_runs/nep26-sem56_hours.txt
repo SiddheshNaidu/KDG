@@ -1,0 +1,7 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-sem56_runs.py   (pdf=data/raw/_unclassified/SEM-V.pdf)
+regex name: hours
+regex: ^\s*\d{1,2}\s*$ on the non-blank line immediately before the CO tail line (theory courses only: they have an 'Hours' column)
+matched/total: 89/90 theory modules (15 courses)
+failures (verbatim):
+2166116 module VI (p86 line81): no digit-only line directly before a CO tail (tail=None)
+lab-with-modules rows (LO tail, no Hours column): 36 modules; hours extracted: 0 (must be 0; a digit line before an LO tail is content, e.g. 'OWASP Top / 10' in 2166122)

@@ -1,0 +1,11 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-sem56_runs.py   (pdf=data/raw/_unclassified/SEM-V.pdf)
+regex name: module_roman
+regex: ^\s*(I|II|III|IV|V|VI|VII|VIII)\s*$ , rows must appear in order I,II,...
+population: courses with DETAILED SYLLABUS marker (21)
+attempt1 (region starts right after the DETAILED SYLLABUS line): 19/21 courses give the same rows as the final rule; failures:
+attempt1 2165115: Roman row start differs from attempt2: [(1, (28, 99), (29, 2))] (a table-header cell such as 'IAT-I' on the course's first page is read as module I)
+attempt1 2166111: Roman row start differs from attempt2: [(0, (62, 85), (63, 15)), (1, (62, 90), (63, 48))] (a table-header cell such as 'IAT-I' on the course's first page is read as module I)
+attempt2 (region starts after the first lone CO/LO[ Mapping] line = column-header end; regex ^\s*(C[O0]|LO)(\s+mapping)?\s*$): consecutive I..N in 21/21 courses
+modules per course: [6] ; total module rows: 126
+failures attempt2:
+none

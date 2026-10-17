@@ -1,0 +1,9 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-mech_regex.py
+family: nep26-se-mech (courses=34: sub-family a=17 from 6.35 PDF, b=17 from 6.44 PDF)
+regex name: course_code
+
+
+--- attempt 1
+regex/predicate: ^\s*(\d{7})\s*$  (first match must be on the course-start page)
+matched/total: 34/34
+failures (0):

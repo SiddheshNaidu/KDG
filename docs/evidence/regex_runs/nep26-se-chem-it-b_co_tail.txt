@@ -1,0 +1,9 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26_se_chem_it_runs.py
+regex: ^(?:(?:CO|LO|L0|L)?\s?\d+)(?:\s*,\s*(?:CO|LO|L0|L)?\s?\d+)*$
+scope: CO/LO Mapping cell (5th column, whitespace-collapsed) of every module row from method B
+matched/total: 78/78
+failures (verbatim):
+none
+attempt history (max 3 attempts per regex):
+attempt 1: ^(?:(?:CO|LO|L0|L)\s?\d+)(?:\s*,\s*(?:CO|LO|L0|L)\s?\d+)*$ -> chem-it-a 65/71 (all 6 failures: 2074112 modules 1-6, cell is a bare digit '1'..'6'); chem-it-b 78/78
+attempt 2 (current): bare digit allowed via optional prefix (final regex above) -> see matched/total above

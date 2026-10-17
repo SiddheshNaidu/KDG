@@ -1,0 +1,15 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-electrical_regex_runs.py detect
+script: spikes/nep26-se-electrical_regex_runs.py
+Detect NEP 2020 text on early pages.
+
+--- attempt 1 ---
+regex: As [Pp]er NEP 2020
+
+matched/total: 2/2  (PDFs, first 8 pages, per line .strip())
+failures (0):
+
+--- attempt 2 ---
+regex: ^\(?As [Pp]er NEP 2020\)?$
+
+matched/total: 2/2  (PDFs, first 8 pages, per line .strip())
+failures (0):

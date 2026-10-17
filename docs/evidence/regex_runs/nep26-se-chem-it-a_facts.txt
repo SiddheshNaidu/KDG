@@ -1,0 +1,40 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26_se_chem_it_facts.py
+pdf: data/raw/2019-scheme/Chemical-Engineering/6.40-N-Chemical-Engineering-Sem-III-IV.pdf pages=83
+cover pages (first non-empty lines match Semester|Sem.|Vertical in first 3 lines, page>8): [(10, ['Program Structure for Second Year of Chemical Engineering', 'UNIVERSITY OF MUMBAI (With Effect from 2025-2026)', 'SEMESTER III', 'Course', 'Code']), (12, ['Program Structure for Second Year of Chemical Engineering', 'UNIVERSITY OF MUMBAI (With Effect from 2025-2026)', 'SEMESTER IV', 'Course', 'Code']), (14, ['Semester III', 'Vertical – 1', 'Major', 'Detail Syllabus']), (38, ['SEMESTER III', 'Vertical - 5', 'Detail Syllabus']), (47, ['SEMESTER III', 'Vertical - 6', 'Detail Syllabus', '43']), (51, ['Semester IV', 'Vertical – 1', 'Major', 'Detail Syllabus']), (70, ['Vertical – 4', 'VSC', 'Detailed syllabus']), (74, ['Vertical – 5', 'Detailed syllabus'])]
+page heads (first 3 non-empty lines; pages 1-14 and last two): [(1, []), (2, ['Copy forwarded for information and necessary actio', '1', 'The Deputy Registrar, (Admissions, Enrolment, Elig']), (3, ['To,', '1', 'The Chairman, Board of Deans']), (4, ['Faculty of  Science & Technology', 'Offg. Dean', '1. Prof. Shivram Garje']), (5, ['University of Mumbai', '1', 'AC –20/5/2025']), (6, ['University of Mumbai', '(As per NEP 2020)', 'Sr.']), (7, ['Preamble', 'To meet the challenge of ensuring excellence and N', 'be addressed, debated, and taken forward systemati']), (8, ['Under Graduate Diploma in Engineering- Chemical En', 'Credit Structure (Sem. III & IV)', 'R: TEU-610C']), (9, ['S.E.Chemical Engineering', 'Scheme']), (10, ['Program Structure for Second Year of Chemical Engi', 'UNIVERSITY OF MUMBAI (With Effect from 2025-2026)', 'SEMESTER III']), (11, ['Course', 'Code', 'Course Description']), (12, ['Program Structure for Second Year of Chemical Engi', 'UNIVERSITY OF MUMBAI (With Effect from 2025-2026)', 'SEMESTER IV']), (13, ['Course', 'Code', 'Course']), (14, ['Semester III', 'Vertical – 1', 'Major']), (82, ['Sr No', 'List of Assignments (Any two)', 'Hrs']), (83, ['Letter Grades and Grade Points:', 'Semester GPA/ Programme', 'CGPA Semester/ Programme'])]
+pages 14..82 whose last non-empty line is a bare 1-3 digit number: 30 of 69: [(17, '13'), (19, '15'), (21, '17'), (23, '19'), (25, '21'), (27, '23'), (29, '25'), (31, '27'), (33, '29'), (35, '31'), (37, '33'), (39, '35'), (41, '37'), (43, '39'), (45, '41'), (47, '43'), (49, '45'), (57, '53'), (59, '55'), (61, '57'), (63, '59'), (65, '61'), (67, '63'), (69, '65'), (71, '67'), (73, '69'), (75, '71'), (77, '73'), (79, '75'), (81, '77')]
+bullet glyph counts over whole PDF: {'0x25cf': 52, '0xf0b7': 4, '0xf0d8': 1, '0xf0a7': 6}
+per course: code | pages | module-table rows (first cells) | header cells (col1,col3,col4) | hours list
+2073111 | 15-18 | ['01', '02', '03', '04', '05', '06'] | ['Sr. No.', 'Name of Module', 'Detailed Content', 'Hrs', 'CO Mapping'] | ['5', '4', '4', '5', '4', '4']
+2073112 | 19-24 | ['1', '2', '3', '4', '5', '6'] | ['Sr. No', 'Name of Module', 'Detailed Content', 'Hours', 'CO Mapping'] | ['07', '04', '06', '08', '06', '08']
+2073113 | 24-26 | ['1', '2', '3', '4', '5', '6'] | ['Sr. No.', 'Name of Module', 'Detailed Content', 'Hours', 'CO Mapping'] | ['08', '08', '06', '08', '07', '02']
+2073114 | 27-30 | ['1', '2', '3', '4', '5', '6'] | ['Sr. No.', 'Name of Module', 'Detailed Content', 'Hours', 'CO Mapping'] | ['08', '05', '06', '08', '08', '04']
+2073115 | 31-36 | ['1', '2', '3', '4', '5', '6'] | ['Sr. No.', 'Module', 'Detailed Content', 'Hours', 'LO Mappin g'] | ['02', '02', '02', '02', '02', '02']
+2073116 | 36-38 | [] |  | []
+2993511 | 39-43 | ['I', 'II', 'III', 'IV', 'V', 'VI'] | ['Sr. No.', 'Module', 'Detailed Content', 'Hours', 'LO Mapping'] | ['02', '04', '04', '05', '05', '05']
+2993512 | 43-48 | ['I', 'II', 'III', 'IV', 'VI'] | ['Unit Name', 'Topic Name', 'Topic Description', 'Hours', 'LO Mapping'] | ['03', '04', '05', '05', '04']
+2073611 | 48-52 | [] |  | []
+2074111 | 52-56 | ['1', '2', '3', '4', '5', '6'] | ['Sr. No.', 'Name of Module', 'Detailed Content', 'Hours', 'CO Mapping'] | ['03', '04', '03', '05', '07', '04']
+2074112 | 57-60 | ['1', '2', '3', '4', '5', '6'] | ['Sr. No.', 'Name of Module', 'Detailed Content', 'Hours', 'CO Mapping'] | ['05', '07', '05', '10', '08', '05']
+2074113 | 61-64 | ['1', '2', '3', '4', '5', '6'] | ['Sr. No.', 'Name of Module', 'Detailed Content', 'Hours', 'CO Mapping'] | ['8', '7', '3', '4', '14', '3']
+2074114 | 64-67 | [] |  | []
+2074115 | 67-71 | [] |  | []
+2074411 | 71-75 | [] | ['Sr. No.', 'Module', 'Detailed Content', 'Hours', 'LO Mapping'] | []
+2994511 | 75-79 | ['I', 'II', 'III', 'IV', 'V', 'VI'] | ['Sr. No.', 'Module', 'Detailed Content', 'Hours', 'LO Mapping'] | ['04', '05', '04', '04', '04', '04']
+2994512 | 79-82 | ['I', 'II', 'III', 'IV', 'V', 'VI'] | ['Sr. No.', 'Module', 'Detailed Content', 'Hours', 'LO Mapping'] | ['05', '05', '05', '05', '03', '03']
+probe 'Mappin': 16 hits, first [(16, 22), (21, 6), (25, 8)]
+probe 'Scmidt': 1 hits, first [(17, 15)]
+probe 'Synchronizatio': 0 hits, first []
+probe 'Mmultithreading': 0 hits, first []
+probe 'Free Online Courses': 0 hits, first []
+probe 'and Applications': 0 hits, first []
+probe 'L02': 0 hits, first []
+probe 'REV2024': 2 hits, first [(37, 96), (79, 111)]
+probe 'Prerequisite:': 7 hits, first [(16, 11), (20, 12), (28, 12)]
+probe 'Note: No questions': 0 hits, first []
+course 2994511 has 2 tables with an Hours header: [(75, ['Module', 'LO Mapping', 'LO Mapping']), (79, ['Module', 'LO Mapping', 'LO Mapping'])]
+self-learning/self-study mentions that are sentences about policy (not a Topics marker): 4
+2073111 p17 l40: No Questions to be asked from Self-learning Topics.
+2073111 p18 l8: 4-6 students should be assigned a self-learning topic.
+2073611 p49 l18: ● Mini Projects should focus on self-learning, innovation, solving societal problems, and
+2074411 p72 l18: ● Mini Projects should focus on self-learning, innovation, solving societal problems, and

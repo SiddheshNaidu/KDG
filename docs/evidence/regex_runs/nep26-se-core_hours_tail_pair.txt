@@ -1,0 +1,16 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-core_regex_runs.py
+regex: cleaned block lines i,i+1 with ^\s*\d{1,2}\s*$ then tail regex
+denominator: module blocks of module-table courses
+matched/total: 451/462
+failures (11):
+  6.41N-A-I-AI-DS-Sem-III-IV.pdf pages 19-21 2483112 Discrete Structures and Graph Theory module II: no (hours line ^\s*\d{1,2}\s*$ immediately followed by CO/LO/L tail line) in cleaned module block
+  6.41N-A-I-AI-DS-Sem-III-IV.pdf pages 27-29 2483115 Analysis of Algorithm Lab module I: no (hours line ^\s*\d{1,2}\s*$ immediately followed by CO/LO/L tail line) in cleaned module block
+  6.41N-A-I-AI-DS-Sem-III-IV.pdf pages 27-29 2483115 Analysis of Algorithm Lab module II: no (hours line ^\s*\d{1,2}\s*$ immediately followed by CO/LO/L tail line) in cleaned module block
+  6.41N-A-I-AI-DS-Sem-III-IV.pdf pages 27-29 2483115 Analysis of Algorithm Lab module III: no (hours line ^\s*\d{1,2}\s*$ immediately followed by CO/LO/L tail line) in cleaned module block
+  6.20N-B.E.-AI-DS.-Sem-III-IV.pdf pages 20-22 2013112 Discrete Structures and Graph Theory module II: no (hours line ^\s*\d{1,2}\s*$ immediately followed by CO/LO/L tail line) in cleaned module block
+  6.21-N-B.E.-AI-ML-sem-III-IV.pdf pages 19-21 2023112 Discrete Structures and Graph Theory module II: no (hours line ^\s*\d{1,2}\s*$ immediately followed by CO/LO/L tail line) in cleaned module block
+  6.21-N-B.E.-AI-ML-sem-III-IV.pdf pages 33-35 2024111 Computational Theory module I: no (hours line ^\s*\d{1,2}\s*$ immediately followed by CO/LO/L tail line) in cleaned module block
+  6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf pages 19-21 2113112 Discrete Structures and Graph Theory module II: no (hours line ^\s*\d{1,2}\s*$ immediately followed by CO/LO/L tail line) in cleaned module block
+  6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf pages 33-35 2114111 Computational Theory module I: no (hours line ^\s*\d{1,2}\s*$ immediately followed by CO/LO/L tail line) in cleaned module block
+  6.54-N-B.E-Computer-Science-EngineeringSem-III-IV.pdf pages 19-21 2493112 Discrete Structures and Graph Theory module II: no (hours line ^\s*\d{1,2}\s*$ immediately followed by CO/LO/L tail line) in cleaned module block
+  6.39-N-B.E.-Data-Science-Sem-III-IV.pdf pages 19-21 2173112 Discrete Structures and Graph Theory module II: no (hours line ^\s*\d{1,2}\s*$ immediately followed by CO/LO/L tail line) in cleaned module block

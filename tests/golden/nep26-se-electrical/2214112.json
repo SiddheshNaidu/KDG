@@ -1,0 +1,122 @@
+{
+  "family": "nep26-se-electrical",
+  "course_code": "2214112",
+  "course_title": "Electromagnetic Fields and Waves",
+  "source_pdf": "data/raw/2019-scheme/Electrical-Computer-Engineering/6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf",
+  "source_pages": [
+    43,
+    44
+  ],
+  "status": "DRAFT - needs human sign-off",
+  "modules": [
+    {
+      "number": "1",
+      "name": "Vector Analysis",
+      "topics": [
+        "Vector analysis",
+        "Cartesian coordinate system",
+        "Cylindrical coordinate system",
+        "Spherical coordinate system",
+        "Relationship between coordinate systems",
+        "Properties of coordinate system",
+        "Gradient",
+        "Divergence",
+        "Curl"
+      ]
+    },
+    {
+      "number": "2",
+      "name": "Electrostatics",
+      "topics": [
+        "Coulomb's law",
+        "Electric field intensity",
+        "Electric flux density",
+        "Line charge distribution",
+        "Surface charge distribution",
+        "Volume charge distribution",
+        "Gauss's law",
+        "Electrostatic potential",
+        "Divergence theorem",
+        "Convection current",
+        "Conduction current",
+        "Electric field in free space",
+        "Electric field in conductors",
+        "Electric field in dielectrics",
+        "Electrostatic boundary value problems",
+        "Poisson's equation",
+        "Laplace's equation"
+      ]
+    },
+    {
+      "number": "3",
+      "name": "Electrostatics Applications",
+      "topics": [
+        "Current and current density",
+        "Continuity of current",
+        "Conductor properties",
+        "Conductor boundary conditions",
+        "Nature of dielectric materials",
+        "Boundary conditions for perfect dielectric materials",
+        "Capacitance",
+        "Types of capacitances",
+        "Energy density in electric field"
+      ]
+    },
+    {
+      "number": "4",
+      "name": "Magnetostatic Fields",
+      "topics": [
+        "Magnetic field intensity",
+        "Bio Savart's law",
+        "Ampere's circuit law",
+        "Magnetic flux",
+        "Magnetic flux density",
+        "Magnetic flux density in free space",
+        "Magnetic flux density in conductor",
+        "Magnetic flux density in magnetic materials",
+        "Magnetic force",
+        "Magnetic vector potential",
+        "Stroke's theorem"
+      ]
+    },
+    {
+      "number": "5",
+      "name": "Maxwells Equations and Electromagnetic Waves",
+      "topics": [
+        "Faraday's law",
+        "Lenz's law",
+        "Maxwell's equations in differential form",
+        "Maxwell's equations in integral form",
+        "Displacement current",
+        "Electromagnetic wave equations",
+        "Wave parameters",
+        "Velocity",
+        "Intrinsic impedance",
+        "Propagation constant",
+        "Waves in free space",
+        "Waves in lossy dielectric",
+        "Waves in lossless dielectric",
+        "Waves in conductors",
+        "Skin depth",
+        "Poynting theorem"
+      ]
+    },
+    {
+      "number": "6",
+      "name": "Applications of Electromagnetic Waves",
+      "topics": [
+        "EMI and EMC",
+        "EMI sources",
+        "Effects of EMI",
+        "Testing methods for EMI and EMC",
+        "Methods to suppress EMI",
+        "Grounding and shielding",
+        "EMC standards",
+        "EMI and EMC non compliance issues",
+        "Biological effects of EMI and EMC",
+        "ESD",
+        "EMP"
+      ]
+    }
+  ]
+}

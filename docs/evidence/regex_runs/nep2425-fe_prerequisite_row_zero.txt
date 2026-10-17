@@ -1,0 +1,6 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep2425-fe_regex.py
+regex: ^\s*0\s*\n\s*Prerequisite (flags re.M)
+matched/total: 2/2
+units: the two courses whose module table has the 'Sr No 0 / Prerequisite' row (ESC102, ESC101)
+failures:
+  (none)

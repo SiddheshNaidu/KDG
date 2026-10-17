@@ -1,0 +1,6 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep2425-fe_regex.py
+regex: ^\s*([A-Z]{3,4})\s?(\d{3})\s*$
+matched/total: 9/9
+scope: every course code incl. labs; 'AEC 101' (with space) in the Professional_Comm pdf is matched by \s?
+failures:
+  (none)

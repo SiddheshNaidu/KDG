@@ -1,0 +1,13 @@
+{
+ "family": "nep26-se-civil",
+ "course_code": "2093115",
+ "course_title": "Fluid Mechanics lab",
+ "source_pdf": "data/raw/2019-scheme/Civil-Engineeing/6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf",
+ "source_pages": [
+  31,
+  32
+ ],
+ "status": "DRAFT - needs human sign-off",
+ "modules": [],
+ "draft_notes": "Lab with NO Module table: the detailed syllabus is a 'List of Experiments (Any 6)' table (11 rows, columns Sr No / title / Hrs / LO Mapping) plus a 'List of Assignments / Tutorials' table (6 rows) on pdf page 32 (docs/evidence/dumps/nep26-se-civil_2093115_p32.txt). The schema has no place for experiments; whether experiments/assignments become modules/topics is UNKNOWN (open_questions.md), so modules is [] and no topic is drafted."
+}

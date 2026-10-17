@@ -1,0 +1,18 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-civil_runs.py
+pdf: data/raw/2019-scheme/Civil-Engineeing/6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf
+regex HDR1: ^Page \| \d+ $
+regex HDR2: ^University of Mumbai $
+regex HDR3: ^Second Year Civil Engineering $
+regex rule: lines 0..2 of every pdf page 6..82 (pages 1-5 are cover/front matter, see extras)
+regex NOISE2: ^(Semester (III|IV)|Vertical . \d+)\s*$ (stray single lines, listed below)
+matched/total: 77/77
+failures: 0
+pdf page 1 line count=1, page 5 first lines=[' ', 'University of Mumbai ', '       ']
+NOISE2 pdf page 15 line 7 'Vertical – 1 '
+NOISE2 pdf page 16 line 95 'Semester III '
+NOISE2 pdf page 36 line 5 'Vertical – 5 '
+NOISE2 pdf page 45 line 7 'Vertical – 6 '
+NOISE2 pdf page 51 line 6 'Vertical – 1 '
+NOISE2 pdf page 52 line 101 'Semester IV '
+NOISE2 pdf page 69 line 7 'Vertical – 4 '
+NOISE2 pdf page 74 line 29 'Vertical – 5 '

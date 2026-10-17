@@ -1,0 +1,60 @@
+2. 
+2.1 Area Moment of Inertia 
+Area Moment of Inertia about centroidal axes, Parallel Axes theorem, Polar 
+Moment of Inertia. 
+02 
+CO2 
+2.2 Torsion: 
+Torsion equation, Torsion of circular shafts-solid and hollow, stresses in shafts 
+when transmitting power 
+05 
+2.3 Strain Energy: 
+Strain energy stored in the member due to gradual, sudden and impact loads, 
+Strain energy due to bending and torsion. 
+03 
+3. 
+Shear Force and Bending Moment Diagrams in Beams 
+05 
+CO3 
+Introduction to types of beams, supports and loadings. Definition of bending 
+moment and shear force, relationship between load intensity, bending moment 
+and shear force. Shear force and bending moment diagrams for statically 
+determinate beams subjected to point load, uniformly distributed loads, couple 
+and their combinations. 
+4. 
+Stresses in Beams and Thin Shells 
+CO4 
+4.1 Bending and Shear Stresses in Beams 
+Theory of bending of beams, bending stress distribution, shear stress distribution 
+for point and distributed loads in simply supported and cantilever beams. 
+04 
+4.2 Thin Shells 
+Stresses and deformation in Thin Cylindrical and Spherical Shells subjected to 
+internal pressure. 
+02 
+5. 
+Deflection of Beams 
+Deflection of a beam: Double integration method, Macauley's method for 
+computation of slopes and deflection in beams for point and distributed loads. 
+05 
+CO5 
+6. 
+Columns 
+Buckling load, Types of end conditions for column, Euler’s column theory and 
+its limitations and Rankine formula. 
+05 
+CO6 
+Total Hours 39 
+ 
+Textbooks 
+1. James M. Gere and Barry J. Goodno: Mechanics of Materials, 2nd Edition, Cengage 
+Learning (2009) 
+2. S. Ramamrutham: Strength of Materials, 14th Edition, Dhanpat Rai Pvt. Ltd. (2014) 
+3. S. B. Junnarkar: Mechanics of Structures, 24th Edition, Charotar Publication. (2015) 
+4. S. S. Ratan: Mechanics of Materials, 2nd Edition, Tata McGraw Hill Pvt. Ltd. (2011) 
+Reference Books 
+1. W. Nash, Schaum’s Outline Series: Strength of Materials, 5th Edition, McGraw Hill 
+Publication, Special Indian Edition. (2015) 
+2. Beer, Johnston, DeWolf and Mazurek: Mechanics of Materials, 8th Edition, TMH Pvt Ltd, 
+New Delhi. (2020) 
+3. Ryder: Strength of Materials, 3rd Edition, Macmillan (Publisher) (1969) 

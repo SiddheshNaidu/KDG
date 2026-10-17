@@ -1,0 +1,23 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-civil_runs.py
+pdf: data/raw/2019-scheme/Civil-Engineeing/6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf
+regex SELF: Self[\s-]*learning\s+topics?\s*:  (flags re.I)
+matched/total: 11/11
+failures: 0
+2093111 RE_SELF occurrences in module section=5, captured lines containing marker=5, any 'self-learning' spelling=5
+2093112 RE_SELF occurrences in module section=0, captured lines containing marker=0, any 'self-learning' spelling=0
+2093113 RE_SELF occurrences in module section=0, captured lines containing marker=0, any 'self-learning' spelling=0
+2093114 RE_SELF occurrences in module section=0, captured lines containing marker=0, any 'self-learning' spelling=0
+2993511 RE_SELF occurrences in module section=0, captured lines containing marker=0, any 'self-learning' spelling=0
+2993512 RE_SELF occurrences in module section=0, captured lines containing marker=0, any 'self-learning' spelling=0
+2094111 RE_SELF occurrences in module section=6, captured lines containing marker=6, any 'self-learning' spelling=6
+2094112 RE_SELF occurrences in module section=0, captured lines containing marker=0, any 'self-learning' spelling=0
+2094113 RE_SELF occurrences in module section=0, captured lines containing marker=0, any 'self-learning' spelling=0
+2994511 RE_SELF occurrences in module section=4, captured lines containing marker=4, any 'self-learning' spelling=4
+2994512 RE_SELF occurrences in module section=4, captured lines containing marker=4, any 'self-learning' spelling=4
+ATTEMPT HISTORY (failures of earlier attempts, kept verbatim):
+attempt 1 regex: Self[- ]?learning\s+[Tt]opics?\s*:  (re.I) -> 10/11; FAIL 2094111 | RE_SELF=2 captured=2 any-spelling=6; unmatched lines:
+  attempt1 FAIL 2094111 | pdf page 53 line 23 | 'Self- Learning Topics: '
+  attempt1 FAIL 2094111 | pdf page 53 line 66 | 'Self- learning Topics: Conditional probability, Total Probability '
+  attempt1 FAIL 2094111 | pdf page 54 line 16 | 'Self -learning Topics: Test of significance of large samples, '
+  attempt1 FAIL 2094111 | pdf page 54 line 28 | 'Self- learning Topics: ANOVA: One way classification, Two- '
+attempt 2 regex: Self[\s-]*learning\s+topics?\s*:  (re.I) -> see matched/total above

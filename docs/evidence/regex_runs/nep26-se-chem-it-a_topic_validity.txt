@@ -1,0 +1,16 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26_se_chem_it_runs.py
+validator: spikes/topic_validity.py validate() (rules R1-R8, docs/formats/topic_validity.md)
+candidate topics: NAIVE spike splitter (not a parser): module content cell split on ';' ',' '. <Capital>' and bullets after cutting at every self-learning marker; module name excluded.
+scope: courses having a module table (12 of 17); excluded (no module table): ['2073116', '2073611', '2074114', '2074115', '2074411']
+total candidate topics: 450
+candidates violating >=1 rule: 109
+violations by rule id (a candidate may violate several): {'R1_word_count_1_to_8': 52, 'R2_len_over_80_chars': 33, 'R3_contains_colon_or_semicolon': 59, 'R4_generic_heading': 10, 'R5_procedural': 1, 'R6_leading_numbering': 12, 'R8_no_letters': 5}
+candidates per course: {'2073111': 46, '2073112': 80, '2073113': 22, '2073114': 11, '2073115': 18, '2073116': 0, '2993511': 29, '2993512': 48, '2073611': 0, '2074111': 8, '2074112': 35, '2074113': 70, '2074114': 0, '2074115': 0, '2074411': 0, '2994511': 43, '2994512': 40}
+examples (first 3 per rule):
+R1_word_count_1_to_8: ['2073111: Properties of Eigen values and Eigen vectors. (No theorems/ proof) Sim', '2073111: Applications of Eigen values and eigen vectors in Chemical Engineering', '2073111: Applying to chemical engineering problems related to momentum transfer']
+R2_len_over_80_chars: ['2073111: Properties of Eigen values and Eigen vectors. (No theorems/ proof) Sim', '2073111: Applications of Runge-Kutta Fourth order Method and Adam Bashford Pred', '2073111: Solution of Linear Difference Equations (up to order two) using Compli']
+R3_contains_colon_or_semicolon: ['2073112: Pressure and Fluid Statics: Fluid pressure at a point', '2073112: Practical Application of Bernoulli’s Equation: Venturi meter: Horizont', '2073112: Differential area flow meter: Rotameter']
+R4_generic_heading: ['2073111: Introduction', '2073112: Introduction', '2073113: Introduction']
+R5_procedural: ['2073112: Practical Application of Bernoulli’s Equation: Venturi meter: Horizont']
+R6_leading_numbering: ['2073114: 1.1 First law of Thermodynamics for non-flow processes. 1.2 First law ', '2073114: 2.1 Second Law of Thermodynamics. 2.2 Concepts of heat engine', '2073114: 3.1 Clausius Inequality 3.2 Concept of Entropy and estimation of entro']
+R8_no_letters: ['2073111: ∇', '2073111: ∆', '2073111: ∇']

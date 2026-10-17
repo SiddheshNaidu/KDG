@@ -1,0 +1,46 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "kdg/mastery.json",
+ "type": "object",
+ "title": "UserTopicState",
+ "required": [
+  "topic_key",
+  "state",
+  "updated_at"
+ ],
+ "properties": {
+  "topic_key": {
+   "type": "string"
+  },
+  "state": {
+   "enum": [
+    "unknown",
+    "learning",
+    "mastered",
+    "archived"
+   ]
+  },
+  "mastery": {
+   "type": [
+    "number",
+    "null"
+   ],
+   "minimum": 0,
+   "maximum": 1
+  },
+  "source": {
+   "enum": [
+    "self",
+    "quiz"
+   ]
+  },
+  "syllabus_hash": {
+   "type": "string"
+  },
+  "updated_at": {
+   "type": "string",
+   "format": "date-time"
+  }
+ },
+ "additionalProperties": false
+}

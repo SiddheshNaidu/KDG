@@ -1,0 +1,60 @@
+3. Find coefficient of discharge for various flow measuring devices. 
+4. Evaluate minor losses and frictional losses for various pipe fittings and networks. 
+5. Calculate power required and efficiency for various pumps. 
+6. Find power requirements for various impellers in agitated vessels. 
+Prerequisite: 
+1. Knowledge of physical sciences and units and dimensions. 
+2. Knowledge of properties of fluids, law of conservation of mass and law of momentum. 
+3. Knowledge of flow and pressure measurement devices. 
+4. Knowledge of different flow patterns and pumps. 
+ 
+DETAILED SYLLABUS: 
+ 
+Sr. 
+No. 
+Module 
+Detailed Content 
+Hours 
+LO 
+Mappin 
+g 
+0 
+Prerequisite 
+– 
+– 
+– 
+1 
+Viscosity 
+Properties of fluids, Viscosity and its Measurement. 
+Various units of viscosity. 
+02 
+CO1 
+2 
+Fluid Flow 
+Phenomena 
+Types of flow (Laminar/Turbulent), Reynolds 
+experiment. 
+02 
+CO2 
+3 
+Flow measuring 
+devices 
+Bernoulli’s 
+theorem 
+and 
+its 
+applications, 
+Venturimeter and Orificemeter and its discharge 
+coefficient. Pitot tube 
+02 
+CO3 
+4 
+Flow of 
+Incompressible 
+fluids 
+Flow through pipe, Major and Minor losses in pipe 
+and pipe fittings 
+02 
+CO4 
+5 
+Pumps 

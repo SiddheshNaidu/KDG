@@ -1,0 +1,37 @@
+command: cd /c/Users/Siddhesh/Documents/KDG && PYTHONIOENCODING=utf-8 python spikes/nep26-fe-sem12_regex.py draft_watermark
+regex: \bDRAFT\b (case-sensitive, every line of every PDF)
+regex: (?i)\bdraft (case-insensitive, for comparison)
+matched/total: 0/6 PDFs scanned (matched = lines containing the DRAFT token; 0 means no DRAFT watermark text in get_text() output)
+case-sensitive 'DRAFT' lines found: 0
+case-insensitive 'draft' lines found (all are the word 'Drafting'/'drafting'): 30
+failures (30), verbatim as pdf | page:line | text:
+  AIML | p106:77 | Drafting
+  AIML | p106:80 | Basic information about the drafting software
+  AIML | p108:49 | drafting software.
+  AIML | p108:58 | drafting software.
+  AIML | p108:71 | Minimum two problems on Isometric Projections using drafting
+  CSE-AIML | p106:77 | Drafting
+  CSE-AIML | p106:80 | Basic information about the drafting software
+  CSE-AIML | p108:49 | drafting software.
+  CSE-AIML | p108:58 | drafting software.
+  CSE-AIML | p108:71 | Minimum two problems on Isometric Projections using drafting
+  DS | p105:77 | Drafting
+  DS | p105:80 | Basic information about the drafting software
+  DS | p107:49 | drafting software.
+  DS | p107:58 | drafting software.
+  DS | p107:71 | Minimum two problems on Isometric Projections using drafting
+  EXTC | p105:75 | Drafting
+  EXTC | p105:78 | Basic information about the drafting software
+  EXTC | p107:49 | drafting software.
+  EXTC | p107:58 | drafting software.
+  EXTC | p107:71 | Minimum two problems on Isometric Projections using drafting
+  Information-Technology | p106:77 | Drafting
+  Information-Technology | p106:80 | Basic information about the drafting software
+  Information-Technology | p108:49 | drafting software.
+  Information-Technology | p108:58 | drafting software.
+  Information-Technology | p108:71 | Minimum two problems on Isometric Projections using drafting
+  Mechanical-Engineering | p104:81 | Drafting
+  Mechanical-Engineering | p104:84 | Basic information about the drafting software
+  Mechanical-Engineering | p106:54 | drafting software.
+  Mechanical-Engineering | p106:63 | drafting software.
+  Mechanical-Engineering | p106:76 | Minimum two problems on Isometric Projections using drafting

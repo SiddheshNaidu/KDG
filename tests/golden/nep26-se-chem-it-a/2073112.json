@@ -1,0 +1,133 @@
+{
+  "family": "nep26-se-chem-it-a",
+  "course_code": "2073112",
+  "course_title": "Fluid Flow Operations",
+  "source_pdf": "data/raw/2019-scheme/Chemical-Engineering/6.40-N-Chemical-Engineering-Sem-III-IV.pdf",
+  "source_pages": [
+    19,
+    20,
+    21,
+    22
+  ],
+  "status": "DRAFT - needs human sign-off",
+  "modules": [
+    {
+      "number": "1",
+      "name": "Introduction and Basic Concepts",
+      "topics": [
+        "Scope and applications of fluid flow",
+        "Properties of fluids",
+        "Types of fluids",
+        "Fluid pressure at a point",
+        "Pascal's law",
+        "Pressure variation in a fluid at rest",
+        "Hydrostatic equilibrium",
+        "Measurement of pressure",
+        "Piezometers",
+        "U-tube manometer",
+        "Single column manometer",
+        "U-tube differential manometer",
+        "Inverted differential U-tube manometer",
+        "Inclined manometer"
+      ]
+    },
+    {
+      "number": "2",
+      "name": "Fluid Flow Phenomena",
+      "topics": [
+        "Newton's law of viscosity",
+        "Kinematic viscosity",
+        "Rheological behavior of fluid",
+        "Reynolds experiment",
+        "Reynolds number",
+        "Laminar and turbulent flow in boundary layer",
+        "Boundary layer formation in straight tube",
+        "Transition length for laminar and turbulent flow"
+      ]
+    },
+    {
+      "number": "3",
+      "name": "Basic Equations of Fluid Flow",
+      "topics": [
+        "Continuity equation",
+        "Bernoulli's equation",
+        "Euler's equation",
+        "Modified Bernoulli's equation",
+        "Venturi meter",
+        "Orifice meter",
+        "Pitot tube",
+        "Rotameter"
+      ]
+    },
+    {
+      "number": "4",
+      "name": "Flow of Incompressible fluids: Laminar/Turbulent",
+      "topics": [
+        "Shear stress distribution",
+        "Velocity distribution",
+        "Relationship between skin friction and wall shear",
+        "Friction factor",
+        "Darcy-Weisbach equation",
+        "Local velocity",
+        "Maximum velocity",
+        "Average velocity",
+        "Kinetic energy correction factor",
+        "Hagen-Poiseuille equation",
+        "Moody diagram",
+        "Equivalent diameter for circular and non-circular ducts",
+        "Major and minor losses",
+        "Equivalent length",
+        "Frictional losses in pipe fittings"
+      ]
+    },
+    {
+      "number": "5",
+      "name": "Flow of Compressible Fluids",
+      "topics": [
+        "Mach number",
+        "Sonic, supersonic and subsonic flow",
+        "Continuity equation in compressible flow",
+        "Bernoulli's equation in compressible flow",
+        "Stagnation properties",
+        "Acoustic velocity",
+        "Adiabatic flow",
+        "Isothermal flow",
+        "Drag forces",
+        "Coefficient of drag",
+        "One dimensional motion of particle through fluid",
+        "Terminal settling velocity",
+        "Stokes law",
+        "Stagnation point"
+      ]
+    },
+    {
+      "number": "6",
+      "name": "Pumps, Valves and Agitators",
+      "topics": [
+        "Classification and types of pumps",
+        "Centrifugal pump construction and working",
+        "Power requirement of pump",
+        "Heads and efficiency of pump",
+        "Specific speed",
+        "Minimum speed",
+        "Characteristic curves",
+        "Cavitation",
+        "NPSH",
+        "NPSHA",
+        "NPSHR",
+        "Priming",
+        "Reciprocating pump classification and working",
+        "Purpose of agitation",
+        "Types of impellers",
+        "Prevention of swirling",
+        "Power curves",
+        "Power number",
+        "Compressors, fans and blowers",
+        "Globe valve",
+        "Gate valve",
+        "Butterfly valve",
+        "Non-return valve"
+      ]
+    }
+  ]
+}

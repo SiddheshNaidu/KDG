@@ -1,0 +1,81 @@
+{
+  "family": "nep26-se-chem-it-a",
+  "course_code": "2073111",
+  "course_title": "Chemical Engineering Mathematics",
+  "source_pdf": "data/raw/2019-scheme/Chemical-Engineering/6.40-N-Chemical-Engineering-Sem-III-IV.pdf",
+  "source_pages": [
+    15,
+    16,
+    17
+  ],
+  "status": "DRAFT - needs human sign-off",
+  "modules": [
+    {
+      "number": "01",
+      "name": "Probability and Statistics",
+      "topics": [
+        "Discrete random variables",
+        "Continuous random variables",
+        "Probability mass function",
+        "Correlation",
+        "Karl Pearson's coefficient of correlation",
+        "Lines of regression",
+        "Fitting of first-degree curves"
+      ]
+    },
+    {
+      "number": "02",
+      "name": "Matrices",
+      "topics": [
+        "Eigen values and eigen vectors",
+        "Properties of eigen values and eigen vectors",
+        "Similarity of matrices",
+        "Diagonalization of matrices"
+      ]
+    },
+    {
+      "number": "03",
+      "name": "Numerical Methods for Ordinary Differential Equations (ODE):",
+      "topics": [
+        "Euler's method",
+        "Runge-Kutta second order method"
+      ]
+    },
+    {
+      "number": "04",
+      "name": "Finite Difference Equations",
+      "topics": [
+        "Forward difference operator",
+        "Backward difference operator",
+        "Shift operator",
+        "Relation between shift and difference operators",
+        "Solution of linear difference equations",
+        "Complementary function and particular integral"
+      ]
+    },
+    {
+      "number": "05",
+      "name": "Numerical Techniques for Models Producing PDEs",
+      "topics": [
+        "Classification of partial differential equations",
+        "Boundary and initial conditions",
+        "Bender-Schmidt method",
+        "Crank-Nicolson method"
+      ]
+    },
+    {
+      "number": "06",
+      "name": "Laplace Transform",
+      "topics": [
+        "Laplace transform of standard functions",
+        "Inverse Laplace transform of standard functions",
+        "First shifting theorem",
+        "Laplace transform of derivatives",
+        "Laplace transform of integrals",
+        "Inverse Laplace transform using first shifting theorem",
+        "Partial fractions method",
+        "Applications of Laplace transforms to ODE"
+      ]
+    }
+  ]
+}

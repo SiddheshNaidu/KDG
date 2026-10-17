@@ -1,0 +1,6 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26_se_chem_it_runs.py
+regex: (?s)Item No\.\s*[–-]\s*6\.\d+\s*\(N\).*?As Per NEP 2020|As Per NEP 2020.*?Item No\.\s*[–-]\s*6\.\d+\s*\(N\)
+scope: text of PDF pages 1-6, data/raw/2019-scheme/Information-Technology/6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf
+matched/total: 1/1 PDF (positive test only; no other-family PDF tested here)
+item_no_found: ['Item No. – 6.34 (N)']
+failures: none

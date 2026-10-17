@@ -1,0 +1,60 @@
+Page | 25 
+University of Mumbai 
+Second Year Civil Engineering 
+ 
+Detailed Syllabus 
+Module 
+Course Module / Contents 
+Hours
+CO 
+Mapping 
+1 
+Stresses and Strains in Elastic members 
+06 
+CO1 
+1.1 
+Types of Stresses and Strains, stress-strain curve, different 
+types of elastic moduli and relationships between them. 
+Three-dimensional stress and strain, Poisson’s ratio, 
+factor of safety. 
+1.2 
+Bars of varying sections, composite sections, temperature 
+stresses. 
+2 
+Analysis of beams and portal frames 
+08 
+CO2 
+2.1 Concept of Axial Force, Shear Force and Bending Moment. 
+AF, SF and BM Diagrams for statically determinate beams 
+with and without internal hinges. 
+2.2 AF, SF and BM Diagrams for statically determinate three- 
+member Portal frames with or without internal hinges. 
+3 
+Area moment of inertia, Bending and Shear stresses in 
+beams 
+09 
+CO3 
+3.1 
+Area moment of inertia, Bending and Shear stresses in 
+beams 
+3.2 Area moment of inertia, Bending and Shear stresses in 
+beams 
+3.3 Area moment of inertia, Bending and Shear stresses in 
+beams 
+4 
+Torsion in Shafts and Stresses in Columns 
+07 
+CO4 
+4.1 Torsion in solid and hollow circular shafts, shafts with 
+varying cross sections, Shafts transmitting and receiving 
+power at different points. Stresses in shafts while 
+transmitting power. 
+4.2 Direct and bending stresses in columns, Core of section. 
+4.3 Buckling of Columns, Members subjected to axial loading, 
+concept of buckling, effective length, different support 
+conditions, Euler’s and Rankine’s formula. 
+5 
+Principal planes and stresses 
+04 
+CO5 
+5.1 General equation for transformation of stress, principal 

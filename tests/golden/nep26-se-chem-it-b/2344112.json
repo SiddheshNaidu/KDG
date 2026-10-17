@@ -1,0 +1,139 @@
+{
+  "family": "nep26-se-chem-it-b",
+  "course_code": "2344112",
+  "course_title": "Operating System",
+  "source_pdf": "data/raw/2019-scheme/Information-Technology/6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf",
+  "source_pages": [
+    40,
+    41,
+    42
+  ],
+  "status": "DRAFT - needs human sign-off",
+  "modules": [
+    {
+      "number": "I",
+      "name": "Introduction to Operating Systems",
+      "topics": [
+        "Definition of operating system",
+        "Types of operating systems",
+        "OS structure and operations",
+        "Process management",
+        "Memory management",
+        "Storage management",
+        "Operating system services and interface",
+        "System calls and types",
+        "System boot",
+        "Operating system design and implementation",
+        "Virtual machines"
+      ]
+    },
+    {
+      "number": "II",
+      "name": "Process Management",
+      "topics": [
+        "Process definition",
+        "Process states",
+        "Process state transitions",
+        "Process control block",
+        "Context switching",
+        "Threads",
+        "Multithreading",
+        "Thread models",
+        "Benefits of threads",
+        "Process scheduling objectives",
+        "Types of schedulers",
+        "Scheduling criteria",
+        "CPU utilization",
+        "Throughput",
+        "Turnaround time",
+        "Waiting time",
+        "Response time",
+        "Preemptive scheduling algorithms",
+        "Non-preemptive scheduling algorithms",
+        "Thread scheduling",
+        "Multiple processor scheduling"
+      ]
+    },
+    {
+      "number": "III",
+      "name": "Process Synchronization",
+      "topics": [
+        "Inter-process communication",
+        "Process synchronization",
+        "Race condition",
+        "Critical section problem",
+        "Peterson's solution",
+        "Synchronization hardware",
+        "Semaphores",
+        "Producer consumer problem",
+        "Message passing",
+        "System model for deadlocks",
+        "Deadlock characterization",
+        "Methods for handling deadlocks",
+        "Deadlock prevention",
+        "Deadlock avoidance",
+        "Deadlock detection",
+        "Recovery from deadlock"
+      ]
+    },
+    {
+      "number": "IV",
+      "name": "Memory Management",
+      "topics": [
+        "Logical and physical address map",
+        "Contiguous memory allocation",
+        "Fixed and variable partition",
+        "Internal and external fragmentation",
+        "Compaction",
+        "Swapping",
+        "Paging",
+        "Structure of the page table",
+        "Segmentation",
+        "Virtual memory basics",
+        "Hardware and control structures",
+        "Locality of reference",
+        "Demand paging",
+        "Page replacement algorithms",
+        "Thrashing"
+      ]
+    },
+    {
+      "number": "V",
+      "name": "File Management",
+      "topics": [
+        "File concept",
+        "Access methods",
+        "Directory and disk structure",
+        "File-system mounting",
+        "File sharing",
+        "File protection",
+        "File-system structure",
+        "File-system implementation",
+        "Directory implementation",
+        "Allocation methods",
+        "Free-space management",
+        "Efficiency and performance",
+        "Recovery",
+        "Mass storage structure",
+        "Disk scheduling",
+        "RAID structure",
+        "I/O systems"
+      ]
+    },
+    {
+      "number": "VI",
+      "name": "Special-purpose Operating Systems",
+      "topics": [
+        "Open-source and proprietary operating systems",
+        "Distributed operating system",
+        "Network operating system",
+        "Embedded operating systems",
+        "Cloud and IoT operating systems",
+        "Real-time operating system",
+        "Mobile operating system",
+        "Multimedia operating system",
+        "Comparison of special-purpose operating systems"
+      ]
+    }
+  ]
+}

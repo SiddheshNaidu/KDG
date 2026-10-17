@@ -1,0 +1,13 @@
+{
+ "family": "nep26-se-core",
+ "course_code": "2113116",
+ "course_title": "Computer Organization & Architecture Lab",
+ "source_pdf": "data/raw/2019-scheme/Computer-Engineering/6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf",
+ "source_pages": [
+  30,
+  31,
+  32
+ ],
+ "status": "DRAFT - needs human sign-off",
+ "modules": []
+}

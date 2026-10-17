@@ -1,0 +1,95 @@
+{
+ "family": "nep26-se-civil",
+ "course_code": "2994511",
+ "course_title": "Business Model Development",
+ "source_pdf": "data/raw/2019-scheme/Civil-Engineeing/6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf",
+ "source_pages": [
+  75,
+  76,
+  77
+ ],
+ "status": "DRAFT - needs human sign-off",
+ "modules": [
+  {
+   "number": 1,
+   "name": "Introduction to Entrepreneurship",
+   "topics": [
+    "Role of entrepreneurship in economic development",
+    "Entrepreneurial process",
+    "Women entrepreneurs",
+    "Corporate entrepreneurship",
+    "Entrepreneurial mindset"
+   ]
+  },
+  {
+   "number": 2,
+   "name": "Entrepreneurship Development",
+   "topics": [
+    "Types of business ownerships",
+    "Proprietorship",
+    "Public companies",
+    "Private companies",
+    "Co-operative businesses",
+    "Micro, Small and Medium Enterprises",
+    "Role of MSMEs in economic development"
+   ]
+  },
+  {
+   "number": 3,
+   "name": "Start-up financing",
+   "topics": [
+    "Cost and revenue models",
+    "Sources of start-up funding",
+    "Angel investors",
+    "Venture capitalists",
+    "Crowd funding",
+    "Government schemes for start-up funding"
+   ]
+  },
+  {
+   "number": 4,
+   "name": "Intellectual Property Rights (IPR)",
+   "topics": [
+    "Types of IPR",
+    "Patents",
+    "Trademarks",
+    "Copyrights",
+    "Patent search and analysis",
+    "Strategies for IPR protection",
+    "Ethics in technology and innovation"
+   ]
+  },
+  {
+   "number": 5,
+   "name": "Business Model Development",
+   "topics": [
+    "Types of business models",
+    "Value proposition",
+    "Customer segments",
+    "Customer relationships",
+    "Channels",
+    "Key partners",
+    "Key activities",
+    "Key resources",
+    "Prototyping",
+    "MVP"
+   ]
+  },
+  {
+   "number": 6,
+   "name": "Digital Business Management",
+   "topics": [
+    "Digital business models",
+    "Subscription model",
+    "Freemium model",
+    "Digital marketing",
+    "Search Engine Optimization",
+    "Search Engine Marketing",
+    "Social media marketing",
+    "Influencer marketing",
+    "Disruption and innovation in digital business"
+   ]
+  }
+ ],
+ "draft_notes": "Odd: 'LO' (lab outcome) tails instead of CO, and a module's LO tail may span several lines ('LO2,' / 'LO3,' / 'LO4'); this is a lab-category course (2*+2 contact hours, 'Lab Outcomes:') that still has a Module table. Self-learning items (URLs and book titles, modules 1,3,5,6) are EXCLUDED; their status is UNKNOWN."
+}

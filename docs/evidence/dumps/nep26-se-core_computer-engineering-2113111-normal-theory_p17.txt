@@ -1,0 +1,60 @@
+DETAILED SYLLABUS: 
+ 
+Sr. 
+No 
+Name of 
+Module 
+Detailed Content 
+Hours 
+CO 
+Mapping 
+0 
+Prerequisite 
+Complex Numbers, Probability, Central tendencies and 
+dispersion in Statistical techniques, Baye’s theorem, 
+Random variable, Discrete and Continuous random 
+variables. 
+1.  Characteristic 
+Equation, 
+Eigenvalues 
+and 
+Eigenvectors, and properties (without proof) 
+2.  Cayley-Hamilton 
+Theorem 
+(without 
+proof), 
+I 
+Linear 
+Algebra 
+(Theory of 
+Matrices) 
+verification and reduction of higher degree 
+polynomials 
+3. Similarity of matrices, diagonalizable and non- 
+diagonalizable matrices 
+ 
+5 
+ 
+CO1 
+Self-learning Topics: Derogatory and non-derogatory 
+matrices, 
+Functions 
+of 
+Square 
+Matrix, 
+Linear 
+Transformations, Quadratic forms. 
+II 
+Linear and 
+Non-Linear 
+Programming 
+Problems 
+1. Types of solutions, Standard and Canonical of LPP, 
+Basic and Feasible solutions, slack variables, 
+surplus variables, Simplex method. 
+2. NLPP with one and two equality constraint (two or 
+three variables) using the method of Lagrange’s 
+multipliers 
+Self-learning Topics: Sensitivity Analysis, Big-M 
+method, Artificial variables, Kuhn-Tucker conditions 
+ 

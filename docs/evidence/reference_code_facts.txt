@@ -1,0 +1,37 @@
+## cmd: grep supabase/table usage
+app/api/persistence_router.py:10:router = APIRouter(prefix="/persistence", tags=["Database Persistence Engine (Supabase & Neo4j)"])
+app/api/persistence_router.py:13:@router.post("/sync-to-neo4j", status_code=status.HTTP_200_OK)
+app/api/persistence_router.py:27:@router.post("/user-progress", status_code=status.HTTP_200_OK)
+app/api/persistence_router.py:44:@router.get("/status", response_model=PersistenceStatusResponse, status_code=status.HTTP_200_OK)
+## cmd: router prefixes
+app/api/analytics_router.py:13:router = APIRouter(prefix="/analytics", tags=["Graph Analytics & Diagnostics Engine"])
+app/api/builder_router.py:49:router = APIRouter(prefix="/pipeline", tags=["End-to-End Syllabus -> Graph Pipeline"])
+app/api/gemini_router.py:17:router = APIRouter(prefix="/gemini", tags=["Gemini Syllabus Analysis"])
+app/api/graph_router.py:17:router = APIRouter(prefix="/graph", tags=["Knowledge Graph Engine"])
+app/api/inference_router.py:6:router = APIRouter(prefix="/graph", tags=["AI & NLP Relationship Inference"])
+app/api/metrics_router.py:5:router = APIRouter(prefix="/metrics", tags=["Model Evaluation Metrics"])
+app/api/parser_router.py:6:router = APIRouter(prefix="/syllabus", tags=["Syllabus PDF Parser Engine"])
+app/api/persistence_router.py:10:router = APIRouter(prefix="/persistence", tags=["Database Persistence Engine (Supabase & Neo4j)"])
+app/api/recommendation_router.py:11:router = APIRouter(prefix="/recommendations", tags=["Personalized Recommendation Engine"])
+app/api/sequence_router.py:11:router = APIRouter(prefix="/sequence", tags=["Learning-Sequence Engine"])
+## cmd: frontend api fetch paths
+8:fetch(url, {
+21:fetch(`${API_BASE_URL}/syllabus/parse-text`, {
+34:fetch(`${API_BASE_URL}/pipeline/build-graph-from-syllabus`, {
+47:fetch(`${API_BASE_URL}/graph/summary`
+55:fetch(`${API_BASE_URL}/graph/infer-relationships`, {
+72:fetch(`${API_BASE_URL}/sequence/topological`
+81:fetch(`${API_BASE_URL}/analytics/missing-prerequisites`, {
+97:fetch(`${API_BASE_URL}/analytics/bottlenecks?top_n=${topN}`
+105:fetch(`${API_BASE_URL}/recommendations/generate`, {
+126:fetch(`${API_BASE_URL}/pipeline/upload-and-parse`, {
+144:fetch(`${API_BASE_URL}/pipeline/build-and-infer`, {
+165:fetch(`${API_BASE_URL}/pipeline/analyze`, {
+## cmd: CORS in main.py
+4:from fastapi.middleware.cors import CORSMiddleware
+41:# ── CORS ──────────────────────────────────────────────────────────────────────
+43:app.add_middleware(
+44:    CORSMiddleware,
+45:    allow_origins=[
+## cmd: dangerouslySetInnerHTML in frontend
+(end)

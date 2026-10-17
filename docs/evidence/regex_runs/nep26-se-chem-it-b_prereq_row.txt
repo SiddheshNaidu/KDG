@@ -1,0 +1,12 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26_se_chem_it_runs.py
+regex row: (?m)^0[ \t]*\n[ \t]*Prerequisites?\.?[ \t]*\n
+regex heading: (?m)^Prerequisites?[ \t]*:[ \t]*$
+scope: raw lines of each course segment
+oracle: table-based extraction (find_tables) row whose first cell is '0'
+matched/total (raw row regex agrees with table oracle, courses having a module table): 12/12
+courses with a Prerequisite row (table oracle): ['2343111', '2343112', '2343113', '2343114', '2344112', '2344113', '2344114', '2344411']
+courses with module table but no row 0: ['2343115', '2344111', '2344115', '2343611']
+courses with a 'Prerequisite:' heading line: ['2344411']
+courses with neither: ['2343115', '2343116', '2344111', '2344115', '2343611']
+failures (verbatim):
+none

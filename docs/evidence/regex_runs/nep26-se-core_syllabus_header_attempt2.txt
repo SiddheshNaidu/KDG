@@ -1,0 +1,6 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-core_regex_runs.py
+regex: ^\s*(DETAIL(ED)?\s+SYLLABUS\s*:?|Name of Module)\s*$
+denominator: courses with a line ^\s*(Detailed Content|Topics|Topic Description|Mapping)\s*$ (module-table courses)
+matched/total: 77/77
+failures (0):
+note: in Computational Theory the line 'Name of Module' comes AFTER the first roman numerals I and II in line order (see dump), so it is a detection signal only, not a region start

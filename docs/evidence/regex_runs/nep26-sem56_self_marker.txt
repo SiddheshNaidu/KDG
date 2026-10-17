@@ -1,0 +1,21 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-sem56_runs.py   (pdf=data/raw/_unclassified/SEM-V.pdf)
+regex name: self_marker
+regex: (?i)\bself[\s\-–]*(learning|study)\b
+matched/total: 125/126 module rows contain the marker; the 1 misses are modules whose PDF text has no marker (verified by dump, not a regex failure)
+distinct spellings of the marker word (count): {'Self-learning': 109, 'Self-Learning': 11, 'Self-Study': 1, 'Self- learning': 4}
+marker + following 9 chars, non-standard continuations (verbatim):
+  'Self- learning Topics:': 4
+  'Self-Learning : Hybrid': 1
+  'Self-Learning : Quantu': 1
+  'Self-Learning : Semi-S': 1
+  'Self-Learning : Suppor': 1
+  'Self-Learning : Transf': 1
+  'Self-Learning : t-SNE': 1
+  'Self-Learning Topics a': 3
+  'Self-Learning:': 1
+  'Self-Learning: Overvie': 1
+  'Self-Study:': 1
+  'Self-learning': 16
+  'Self-learning Toics: P': 1
+modules without marker:
+IKS501 module II (p55 line33): no self-learning/self-study text inside row

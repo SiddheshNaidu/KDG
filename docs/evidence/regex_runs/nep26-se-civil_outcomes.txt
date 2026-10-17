@@ -1,0 +1,12 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-civil_runs.py
+pdf: data/raw/2019-scheme/Civil-Engineeing/6.23-N-B.E.-Civil-Engineeing-Sem-III-IV.pdf
+regex OUT_HDR: ^(?:(?:Course|Lab) )?Outcomes:
+regex OUT_ITEM: ^\d+(?:[.)]|[ ]*$) (counted after header until OUT_END)
+regex OUT_END: ^(?:Semester|Detailed|DETAILED|Prerequisite|Pre[- ]?[Rr]equisite|Module|Sr\. ?No)
+matched/total: 17/17
+failures: 0
+ATTEMPT HISTORY (failures of earlier attempts, kept verbatim):
+attempt 1 regexes: header ^(Course|Lab) Outcomes:  item ^\d+\.  -> 15/17
+  attempt1 FAIL 2093611 | pdf pages 46-51 | header line is 'Outcomes: ' (pdf page 46 line 80), items are a bare number on its own line ('1', '2', ...)
+  attempt1 FAIL 2094411 | pdf pages 70-74 | header 'Lab Outcomes:' matched but items numbered '1) ...' (pdf page 70 line 82), item regex found 0
+attempt 2 regexes: OUT_HDR / OUT_ITEM / OUT_END above -> see matched/total above

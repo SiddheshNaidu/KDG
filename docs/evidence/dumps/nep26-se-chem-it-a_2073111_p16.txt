@@ -1,0 +1,60 @@
+2. Understand the matrix algebra and its applications in solving linear systems and related 
+problems in engineering. 
+3. Apply numerical methods to solve ordinary differential equations arising in heat, mass transfer 
+models. 
+4. Apply the concept of difference equations to Chemical Engineering problems and find 
+solutions. 
+5. Apply numerical techniques to solve partial differential equations arising in Chemical 
+Engineering. 
+6. Understand Laplace Transform and its application in solving ordinary differential equations 
+related to Chemical Engineering. 
+ 
+Prerequisite: 
+Applied Mathematics-I 
+Applied Mathematics-II 
+ 
+DETAILED SYLLABUS: 
+Sr. 
+No. 
+Name of Module 
+Detailed Content 
+Hrs 
+CO 
+Mapping 
+01 
+Probability and 
+Statistics 
+Discrete 
+and 
+Continuous 
+random 
+variables, 
+Probability 
+mass 
+function, 
+Correlation, 
+Karl 
+Pearson’s Coefficient of Correlation Lines of 
+regression, fitting of first-degree curves (use 
+Chemical engineering examples.) 
+Self-Learning Topics: 
+Conditional 
+probability, 
+Baye’s 
+Theorem, 
+Spearman’s Rank Correlation Coefficient 
+5 
+CO1 
+02 
+Matrices 
+Eigen values and Eigen vectors, Properties of Eigen 
+values and Eigen vectors. (No theorems/ proof) 
+Similarity of matrices, Diagonalization of matrices. 
+Self -Learning Topics: 
+Applications of Eigen values and eigen vectors in 
+Chemical Engineering 
+4 
+CO2 
+03 
+Numerical 
+Methods for 

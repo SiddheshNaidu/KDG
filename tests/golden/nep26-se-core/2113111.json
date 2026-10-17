@@ -1,0 +1,89 @@
+{
+ "family": "nep26-se-core",
+ "course_code": "2113111",
+ "course_title": "Mathematics for Computer Engineering",
+ "source_pdf": "data/raw/2019-scheme/Computer-Engineering/6.24-N-B.E.-Computer-Engineering-Sem-III-IV.pdf",
+ "source_pages": [
+  16,
+  17,
+  18
+ ],
+ "status": "DRAFT - needs human sign-off",
+ "modules": [
+  {
+   "number": "I",
+   "name": "Linear Algebra (Theory of Matrices)",
+   "topics": [
+    "Characteristic equation",
+    "Eigenvalues",
+    "Eigenvectors",
+    "Properties of eigenvalues and eigenvectors",
+    "Cayley-Hamilton theorem",
+    "Reduction of higher degree polynomials",
+    "Similarity of matrices",
+    "Diagonalizable matrices",
+    "Non-diagonalizable matrices"
+   ]
+  },
+  {
+   "number": "II",
+   "name": "Linear and Non-Linear Programming Problems",
+   "topics": [
+    "Types of solutions",
+    "Standard form of LPP",
+    "Canonical form of LPP",
+    "Basic and feasible solutions",
+    "Slack variables",
+    "Surplus variables",
+    "Simplex method",
+    "NLPP with equality constraints",
+    "Lagrange's multipliers method"
+   ]
+  },
+  {
+   "number": "III",
+   "name": "Modular Arithmetic",
+   "topics": [
+    "Congruence",
+    "Linear congruence",
+    "Remainder theorem",
+    "Solving polynomials",
+    "System of linear congruence",
+    "Euler's theorem",
+    "Fermat's little theorem",
+    "RSA algorithm"
+   ]
+  },
+  {
+   "number": "IV",
+   "name": "Fourier Series",
+   "topics": [
+    "Dirichlet's conditions",
+    "Fourier series of periodic functions",
+    "Fourier series with period 2l",
+    "Fourier series of even functions",
+    "Fourier series of odd functions"
+   ]
+  },
+  {
+   "number": "V",
+   "name": "Statistical Techniques",
+   "topics": [
+    "Karl Pearson's coefficient of correlation",
+    "Spearman's rank correlation coefficient",
+    "Lines of regression",
+    "Fitting of first-degree curves"
+   ]
+  },
+  {
+   "number": "VI",
+   "name": "Probability",
+   "topics": [
+    "Moment generating function",
+    "Raw moments",
+    "Poisson distribution",
+    "Normal distribution"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-core_regex_runs.py
+regex: PDF-level: count(^\s*Self-learning\s+Topics?\s*:)>=40 AND count(^\s*Self-Study\s*:)>=2 AND count(^\d{7}\s*$)>=60 over line-joined get_text()
+denominator: 6 family PDFs
+matched/total: 6/6
+failures (0):
+false positives among the 19 other PDFs in data/raw: 0
+

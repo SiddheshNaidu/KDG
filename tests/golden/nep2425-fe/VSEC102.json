@@ -1,0 +1,112 @@
+{
+  "family": "nep2425-fe",
+  "course_code": "VSEC102",
+  "course_title": "C Programming",
+  "source_pdf": "data/raw/2024-25-scheme/FE/Syllabus-C Prog.pdf",
+  "source_pages": [
+    1,
+    2
+  ],
+  "status": "DRAFT - needs human sign-off",
+  "modules": [
+    {
+      "number": "1",
+      "name": "Fundamentals of C-Programming",
+      "topics": [
+        "Character Set",
+        "Identifiers and Keywords",
+        "Data Types",
+        "Constants",
+        "Variables",
+        "Arithmetic Operators",
+        "Relational and Logical Operators",
+        "Assignment Operators",
+        "Unary Operators",
+        "Conditional Operator",
+        "Bitwise Operators",
+        "Comma Operator",
+        "Expressions",
+        "Statements",
+        "Library Functions",
+        "Preprocessor",
+        "Data Input and Output Functions",
+        "Structure of C Program"
+      ]
+    },
+    {
+      "number": "2",
+      "name": "Control Structures",
+      "topics": [
+        "If Statement",
+        "If-Else Statement",
+        "Multiway Decision",
+        "While Loop",
+        "Do-While Loop",
+        "For Loop",
+        "Nested Control Structure",
+        "Switch Statement",
+        "Continue Statement",
+        "Break Statement",
+        "Goto Statement"
+      ]
+    },
+    {
+      "number": "3",
+      "name": "Functions and Parameter",
+      "topics": [
+        "Function Definition",
+        "Accessing a Function",
+        "Function Prototype",
+        "Passing Arguments to a Function",
+        "Recursion",
+        "Auto Storage Class",
+        "Extern Storage Class",
+        "Static Storage Class",
+        "Register Storage Class"
+      ]
+    },
+    {
+      "number": "4",
+      "name": "Arrays, String Structure",
+      "topics": [
+        "Array Declaration and Definition",
+        "Accessing Array Elements",
+        "One-Dimensional Array",
+        "Multidimensional Array",
+        "Strings",
+        "Array of Strings",
+        "String.h Functions",
+        "Structure Declaration and Initialization",
+        "Structure within Structure",
+        "Operations on Structures",
+        "Array of Structures"
+      ]
+    },
+    {
+      "number": "5",
+      "name": "Pointer",
+      "topics": [
+        "Pointers",
+        "Address Operator",
+        "Pointer Variables",
+        "Dereferencing Pointer",
+        "Void Pointer",
+        "Pointer Arithmetic",
+        "Pointers to Pointers",
+        "Pointers and Arrays"
+      ]
+    },
+    {
+      "number": "6",
+      "name": "Files",
+      "topics": [
+        "File Operations",
+        "Opening a File",
+        "Closing a File",
+        "Creating a File",
+        "Reading a File",
+        "Processing a File"
+      ]
+    }
+  ]
+}

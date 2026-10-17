@@ -1,0 +1,19 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-electrical_regex_runs.py code
+script: spikes/nep26-se-electrical_regex_runs.py
+Course code line.
+
+--- attempt 1 ---
+regex: ^\d{7}$
+
+matched/total: 22/26  (courses (13 per PDF); code = k-th distinct bare 7-digit line on pages>=16 assigned to k-th objectives marker; window=segment only)
+failures (4):
+  data/raw/2019-scheme/Electrical-Computer-Engineering/6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf | assigned code 2213611 | objective marker p34 line 'Lab Objective:': code line not in window
+  data/raw/2019-scheme/Electrical-Computer-Engineering/6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf | assigned code 2214411 | objective marker p55 line 'Lab objective:': code line not in window
+  data/raw/2019-scheme/Electrical-Engineering/6.29-N-B.E.-Electrical-Engineering-Sem-III-IV.pdf | assigned code 2223611 | objective marker p34 line 'Lab Objective:': code line not in window
+  data/raw/2019-scheme/Electrical-Engineering/6.29-N-B.E.-Electrical-Engineering-Sem-III-IV.pdf | assigned code 2224411 | objective marker p55 line 'Lab objective:': code line not in window
+
+--- attempt 2 ---
+regex: ^\d{7}$
+
+matched/total: 26/26  (courses (13 per PDF); code = k-th distinct bare 7-digit line on pages>=16 assigned to k-th objectives marker; window=segment + previous page)
+failures (0):

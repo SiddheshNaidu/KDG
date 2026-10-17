@@ -1,0 +1,86 @@
+{
+  "family": "nep2425-fe",
+  "course_code": "BSC103",
+  "course_title": "Applied Chemistry",
+  "source_pdf": "data/raw/2024-25-scheme/FE/Applied Chemistry syllabus 2024-25.pdf",
+  "source_pages": [
+    2,
+    3
+  ],
+  "status": "DRAFT - needs human sign-off",
+  "modules": [
+    {
+      "number": "1",
+      "name": "Fuels and Combustion",
+      "topics": [
+        "Characteristics of Good Fuel",
+        "Calorific Value",
+        "Proximate Analysis of Coal",
+        "Ultimate Analysis of Coal",
+        "Combustion of Coal"
+      ]
+    },
+    {
+      "number": "2",
+      "name": "Corrosion",
+      "topics": [
+        "Types of Corrosion",
+        "Dry or Atmospheric Corrosion",
+        "Wet or Electrochemical Corrosion",
+        "Factors Affecting Rate of Corrosion",
+        "Methods to Control Corrosion",
+        "Corrosion in Electronic Devices"
+      ]
+    },
+    {
+      "number": "3",
+      "name": "Alloys",
+      "topics": [
+        "Purpose of Making Alloys",
+        "Gibbs Phase Rule",
+        "Reduced Phase Rule",
+        "Two-Component System",
+        "Merits and Limitations of Phase Rule"
+      ]
+    },
+    {
+      "number": "4",
+      "name": "Introduction to Polymers",
+      "topics": [
+        "Basic Concepts of Polymers",
+        "Chemical Bonding in Polymers",
+        "Classification of Polymers",
+        "Molecular Weight of Polymers",
+        "Crystallinity of Polymers",
+        "Glass Transition Temperature",
+        "Mechanical Properties of Polymers",
+        "Electrical Properties of Polymers",
+        "Optical Properties of Polymers"
+      ]
+    },
+    {
+      "number": "5",
+      "name": "Introduction to Composites",
+      "topics": [
+        "Characteristics of Composites",
+        "Constituents of Composites",
+        "Matrix Phase",
+        "Dispersed Phase",
+        "Classification of Composites"
+      ]
+    },
+    {
+      "number": "6",
+      "name": "Green Chemistry for Sustainable Development",
+      "topics": [
+        "Green Synthesis of Indigo Dye",
+        "Green Synthesis of Adipic Acid",
+        "Green Synthesis of Carbaryl",
+        "Supercritical Solvents",
+        "Ionic Liquids",
+        "Biodiesel",
+        "Ethanol as Green Fuel"
+      ]
+    }
+  ]
+}

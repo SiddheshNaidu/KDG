@@ -1,0 +1,10 @@
+command: cd /c/Users/Siddhesh/Documents/KDG && PYTHONIOENCODING=utf-8 python spikes/nep26-fe-sem12_regex.py lab_hdr
+regex: ^\s*List of Experiments   (denominator = lab-style code occurrences)
+matched/total: 72/78
+failures (6), verbatim as pdf | page:line | text:
+  AIML | AEL101 | no 'List of Experiments' line
+  CSE-AIML | AEL101 | no 'List of Experiments' line
+  DS | AEL101 | no 'List of Experiments' line
+  EXTC | AEL101 | no 'List of Experiments' line
+  Information-Technology | AEL101 | no 'List of Experiments' line
+  Mechanical-Engineering | AEL101 | no 'List of Experiments' line

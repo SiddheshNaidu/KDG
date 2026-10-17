@@ -1,0 +1,60 @@
+I 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+II 
+Name of Module 
+ 
+Prerequisite 
+ 
+Basics Concepts 
+and Regular 
+Languages 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Finite Automata 
+ 
+Basic 
+Mathematical 
+Fundamentals: 
+Sets, 
+Logic, 
+Relations, Functions, Discrete Structures. 
+Importance of TCS, Alphabets, Strings, Languages 
+Regular operations, Regular Expression, Arden's theorem, 
+RE Applications, Regular Language, Closure properties. 
+Decision properties of RLs, Pumping lemma for RLs. 
+Self-learning Topics: 
+RE in text search and replace, Application of Regular 
+Languages in Compiler Design, Text Processing, and 
+Natural Language Processing (NLP). 
+Finite Automata (FA) & Finite State machine (FSM). 
+Deterministic 
+Finite 
+Automata 
+(DFA) 
+and 
+Nondeterministic Finite Automata (NFA): Definitions, 
+transition 
+diagrams 
+and 
+Language 
+recognizers, 
+Equivalence between NFA with and ϵ- transitions, NFA 
+to DFA Conversion, Minimization of DFA, FSM with 
+Hrs 
+ 
+ 
+ 
+1 
+ 

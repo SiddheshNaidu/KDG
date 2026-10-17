@@ -1,0 +1,28 @@
+command: cd /c/Users/Siddhesh/Documents/KDG && PYTHONIOENCODING=utf-8 python spikes/nep26-fe-sem12_regex.py module_row
+regex: ^\s*(I|II|III|IV|V|VI|VII|VIII)\s*$
+regex: ^\s*0?([1-9])\.?\s*$
+regex: ^\s*Trade[\s-]*(\d)?\s*$
+regex: rule: module n starts at the first line (after table_hdr, before stop) that equals n (Roman, or Arabic with optional leading 0 / trailing '.', or 'Trade-n' possibly split over two lines; Roman numeral may be split over two adjacent non-blank lines) and whose next non-blank line has letters, is not a tail line and is not itself a Roman numeral
+matched/total: 140/144
+denominator = course occurrences that have a table_hdr line (144); matched = contiguous module numbers 1..K with K>=1 AND (unless Trade-style) K >= max CO/LO index seen in whole-line tails of the table region
+module styles found (count of course occurrences): {('arabic',): 56, ('roman',): 76, ('trade',): 12}
+informational: K == max CO/LO tail index: 121/131; K != max index list:
+    AIML | VSEC101 | modules found 5 vs max CO/LO tail index 6
+    AIML | IKS201 | modules found 5 vs max CO/LO tail index 6
+    CSE-AIML | VSEC101 | modules found 5 vs max CO/LO tail index 6
+    CSE-AIML | IKS201 | modules found 5 vs max CO/LO tail index 6
+    DS | VSEC101 | modules found 5 vs max CO/LO tail index 6
+    DS | IKS201 | modules found 5 vs max CO/LO tail index 6
+    EXTC | VSEC101 | modules found 5 vs max CO/LO tail index 6
+    Information-Technology | VSEC101 | modules found 5 vs max CO/LO tail index 6
+    Information-Technology | IKS201 | modules found 5 vs max CO/LO tail index 6
+    Mechanical-Engineering | VSEC101 | modules found 5 vs max CO/LO tail index 6
+failures (4), verbatim as pdf | page:line | text:
+  AIML | IKS201 | found 5 modules, max CO/LO tail index in table region = 6 (table at p122:9)
+  CSE-AIML | IKS201 | found 5 modules, max CO/LO tail index in table region = 6 (table at p122:9)
+  DS | IKS201 | found 5 modules, max CO/LO tail index in table region = 6 (table at p121:9)
+  Information-Technology | IKS201 | found 5 modules, max CO/LO tail index in table region = 6 (table at p122:9)
+refinement history:
+  attempt 1 (Roman + 0N/N markers only, no sequence guard): false accept on AIML ESC201 where hours '01' preceding Roman 'I' was taken as module 1 (modules came out ['01','II','III',...]); VSEC101 and VSEC201 gave 0 modules (rows are 'Trade-n'); PCC2018 gave no table (header is 'Details', marker '1.'); IKS201 gave 2 modules.
+  attempt 2: reject an Arabic marker whose next non-blank line is itself a Roman numeral; added Trade-n (number may be on the next line), 'Details' table header and trailing '.' on Arabic markers; allowed a Roman numeral split over two adjacent non-blank lines (IKS201: 'II'+'I', 'I'+'V').
+  attempt 3 not made. IKS201 stays PARTIAL (fails in AIML, CSE-AIML, DS, Information-Technology; passes with K=6 in EXTC and Mechanical-Engineering): in the failing PDFs numeral VI is 'V' at p122:147 (AIML) and 'I' at p123:3, not adjacent (page break + content between), so module VI is not detected (K=5 vs 6 module titles visible in the dump docs/evidence/dumps/nep26-fe-sem12_IKS201_p122.txt and the p123 text). Trade-style VSEC101: 5 Trade rows, CO-1..CO-7 mapped to trades (so max CO index 6 > 5 trades is expected, not a miss).

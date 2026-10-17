@@ -1,0 +1,20 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-core_misc.py
+courses: 102; with module table (Detailed Content|Topics|Topic Description|Mapping column line): 77; without: 25
+courses without module table (title: count over 6 PDFs): Analysis of Algorithm Lab=1; Computer Organization & Architecture Lab=6; Database Management System Lab=6; Mini Project=6; Operating System Lab=6
+prerequisite-like lines (page>=16), normalised first 18 chars: {'Prerequisite': 54, 'Prerequisite: Data': 6, 'Pre-requisite.': 6, 'Prerequisite: Basi': 6, 'Prerequisite: C/C+': 6, 'Prerequisite:': 6, 'No perquisites': 6}
+column-header words among first 40 region lines, per module-table course: 
+  24: Name of Module | Detailed Content | Hours | CO
+  22: Module | Detailed Content | Hours | LO
+  12: Module | Detailed Content | Hours | CO
+  6: Name of the Module | Topics | Hrs | CO
+  6: Unit | Topic Description | Hours | LO
+  4: 
+  2: Name of Module
+  1: Module | LO
+dotted numbering lines like '1.1' (excluding grade-point ranges): 0
+A-I-AI-DS: last course 2483611 pages 67-72; 'Letter Grades and Grade Points' at [(72, 0)]
+AI-DS: last course 2013611 pages 76-82; 'Letter Grades and Grade Points' at [(82, 0)]
+AI-ML: last course 2023611 pages 68-72; 'Letter Grades and Grade Points' at [(72, 0)]
+Computer-Engineering: last course 2113611 pages 68-72; 'Letter Grades and Grade Points' at [(72, 0)]
+Computer-Science-Engineering: last course 2493611 pages 68-72; 'Letter Grades and Grade Points' at [(72, 6)]
+Data-Science: last course 2173611 pages 68-72; 'Letter Grades and Grade Points' at [(72, 5)]

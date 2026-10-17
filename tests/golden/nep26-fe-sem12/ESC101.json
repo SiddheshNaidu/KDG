@@ -1,0 +1,92 @@
+{
+  "family": "nep26-fe-sem12",
+  "course_code": "ESC101",
+  "course_title": "Engineering Mechanics",
+  "source_pdf": "data/raw/2019-scheme/AIML/6.9N-AIML.pdf",
+  "source_pages": [
+    31,
+    32,
+    33
+  ],
+  "status": "DRAFT - needs human sign-off",
+  "modules": [
+    {
+      "number": "I",
+      "name": "System of Forces",
+      "topics": [
+        "Classification of force systems",
+        "Principle of transmissibility",
+        "Composition of forces",
+        "Resolution of forces",
+        "Resultant of coplanar force system",
+        "Moment of force about a point",
+        "Couples",
+        "Varignon's theorem",
+        "Resultant of non-coplanar force system"
+      ]
+    },
+    {
+      "number": "II",
+      "name": "Centroid",
+      "topics": [
+        "Centroids of plane laminas"
+      ]
+    },
+    {
+      "number": "III",
+      "name": "Equilibrium of Force system and Friction",
+      "topics": [
+        "Conditions of equilibrium",
+        "Equilibrium of rigid bodies",
+        "Free body diagrams",
+        "Types of beams",
+        "Types of supports",
+        "Reactions at supports",
+        "Laws of friction",
+        "Cone of friction",
+        "Angle of repose",
+        "Angle of friction",
+        "Equilibrium on inclined plane"
+      ]
+    },
+    {
+      "number": "IV",
+      "name": "Kinematics of particle and rigid bodies",
+      "topics": [
+        "Motion with variable acceleration",
+        "Motion along plane curved path",
+        "Rectangular components of velocity and acceleration",
+        "Tangential and normal acceleration",
+        "General plane motion",
+        "Instantaneous center method"
+      ]
+    },
+    {
+      "number": "V",
+      "name": "Kinetics of particle",
+      "topics": [
+        "Force and acceleration",
+        "D'Alembert's principle",
+        "Inertia force",
+        "Equations of dynamic equilibrium",
+        "Linear impulse and momentum",
+        "Impact and collision",
+        "Coefficient of restitution",
+        "Direct central impact",
+        "Oblique central impact",
+        "Loss of kinetic energy in collision"
+      ]
+    },
+    {
+      "number": "VI",
+      "name": "Introduction to Robot Kinematics",
+      "topics": [
+        "Fundamentals of robot mechanics",
+        "Degree of freedom",
+        "D-H parameters",
+        "Forward kinematics",
+        "Homogeneous transformation"
+      ]
+    }
+  ]
+}

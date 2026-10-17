@@ -1,0 +1,9 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-electrical_regex_runs.py objectives
+script: spikes/nep26-se-electrical_regex_runs.py
+Objectives marker starts each course body.
+
+--- attempt 1 ---
+regex: ^(Course|Lab) [Oo]bjectives?:
+
+matched/total: 26/26  (courses (total = distinct codes on pages>=16))
+failures (0):

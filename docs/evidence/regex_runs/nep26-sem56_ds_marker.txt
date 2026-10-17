@@ -1,0 +1,14 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-sem56_runs.py   (pdf=data/raw/_unclassified/SEM-V.pdf)
+regex name: ds_marker
+regex: (?i)^\s*detailed\s+syllabus\s*:?\s*$ (on each course's pages)
+matched/total: 21/30 courses; census signature (signatures.csv detailed_syllabus_hdr) for this PDF = 21
+the 9 non-matching courses (verbatim):
+2165117 'Statistics for Machine Learning and Data Science Lab': no DS marker; independent evidence marker: [(37, 1, 'Suggested List of Experiments (10-12 Experime'), (37, 34, 'List of Experiments')]
+2165118 'Artificial Intelligence & Soft Computing Lab': no DS marker; independent evidence marker: [(41, 28, 'List of Experiments.'), (41, 34, 'List of Experiments')]
+2165120 'Web and Mobile Application Development Lab': no DS marker; independent evidence marker: [(47, 1, 'Suggested List of experiments:')]
+2165121 'User Experience Design with VR Lab': no DS marker; independent evidence marker: [(49, 78, 'Suggested List of Experiments'), (49, 81, 'Suggested List of Experiments')]
+2165122 'Computer Network Lab': no DS marker; independent evidence marker: [(51, 84, 'List of Experiments.'), (51, 86, 'List of Experiments')]
+2166411 'Mini Project-II': no DS marker; independent evidence marker: [(98, 7, 'Guidelines for Min Project-II')]
+2166119 'Machine Learning & Swarm Intelligence Lab': no DS marker; independent evidence marker: [(101, 1, 'Suggested List of Experiments:'), (101, 17, 'List of Experiments')]
+2166123 'Nature- inspired Optimization Algorithms Lab': no DS marker; independent evidence marker: [(115, 32, 'Suggested list of experiments'), (117, 3, 'Suggested list of assignments')]
+2166125 'Digital Imaging Techniques and Analysis Lab': no DS marker; independent evidence marker: [(122, 75, 'List of Experiments.'), (122, 77, 'List of Experiments')]

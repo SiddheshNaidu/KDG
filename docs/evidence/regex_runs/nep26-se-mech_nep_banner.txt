@@ -1,0 +1,9 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-mech_regex.py
+family: nep26-se-mech (courses=34: sub-family a=17 from 6.35 PDF, b=17 from 6.44 PDF)
+regex name: nep_banner
+unit = PDF
+
+--- attempt 1
+regex/predicate: As Per NEP 2020 (re.I, pages 1-6)
+matched/total: 2/2
+failures (0):

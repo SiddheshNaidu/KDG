@@ -1,0 +1,122 @@
+{
+  "family": "nep26-se-electrical",
+  "course_code": "2213114",
+  "course_title": "Measurements and Measuring Instruments",
+  "source_pdf": "data/raw/2019-scheme/Electrical-Computer-Engineering/6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf",
+  "source_pages": [
+    25,
+    26
+  ],
+  "status": "DRAFT - needs human sign-off",
+  "modules": [
+    {
+      "number": "I",
+      "name": "Philosophy of Measurement",
+      "topics": [
+        "Measurement",
+        "Methods of measurement",
+        "Classification of instruments",
+        "Types of errors",
+        "Standardization of instruments",
+        "Calibration of instruments"
+      ]
+    },
+    {
+      "number": "II",
+      "name": "Analog Measurement of Electrical Quantities",
+      "topics": [
+        "Classification of analog instruments",
+        "Operating torque",
+        "Controlling torque",
+        "Damping torque",
+        "Range extension of ammeter",
+        "Range extension of voltmeter",
+        "Electro-dynamometer wattmeter",
+        "Electro-dynamometer power factor meter",
+        "Current transformer",
+        "Types of CT",
+        "Potential transformer",
+        "Instrument range extension",
+        "Clamp on ammeter",
+        "High voltage potential transformer"
+      ]
+    },
+    {
+      "number": "III",
+      "name": "AC-DC Bridges and Potentiometer",
+      "topics": [
+        "Wheatstone bridge",
+        "Kelvins double bridge",
+        "Megger",
+        "Earth resistance measurement",
+        "Earth tester",
+        "Maxwell's bridge",
+        "Schering bridge",
+        "Potentiometer applications",
+        "Calibration of ammeter",
+        "Calibration of voltmeter",
+        "Calibration of wattmeter"
+      ]
+    },
+    {
+      "number": "IV",
+      "name": "Measurement of Non-electrical Quantities",
+      "topics": [
+        "Transducers",
+        "Resistive transducers",
+        "Capacitive transducers",
+        "Inductive transducers",
+        "Optical transducers",
+        "Digital transducers",
+        "Temperature measurement",
+        "Thermocouple",
+        "Thermistor",
+        "Resistance temperature detector",
+        "Displacement measurement",
+        "Potentiometer displacement sensor",
+        "LVDT",
+        "Pressure measurement",
+        "Piezoelectric sensor",
+        "Strain gauge",
+        "Speed measurement",
+        "Hall effect sensor"
+      ]
+    },
+    {
+      "number": "V",
+      "name": "Digital Measurement of Electrical Quantities",
+      "topics": [
+        "Block diagram of digital instruments",
+        "Digital versus analog instruments",
+        "Resolution of digital meters",
+        "Sensitivity of digital meters",
+        "Digital voltmeter",
+        "Ramp type digital voltmeter",
+        "Digital ammeter",
+        "Multi-meter",
+        "Digital frequency meter",
+        "Digital tachometer",
+        "Digital megger",
+        "Digital storage oscilloscope",
+        "Current sensor ACS712",
+        "Voltage sensor B25"
+      ]
+    },
+    {
+      "number": "VI",
+      "name": "Signal Conditioning and Advanced Measuring Instruments",
+      "topics": [
+        "AC signal conditioning circuits",
+        "DC signal conditioning circuits",
+        "Data acquisition system",
+        "Power analyzer",
+        "Harmonic analyzer",
+        "Signal generator",
+        "Q-meter",
+        "Smart sensor",
+        "IoT based measuring instrument",
+        "Smart energy meter"
+      ]
+    }
+  ]
+}

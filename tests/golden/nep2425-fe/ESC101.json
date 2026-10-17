@@ -1,0 +1,79 @@
+{
+  "family": "nep2425-fe",
+  "course_code": "ESC101",
+  "course_title": "Engineering Mechanics",
+  "source_pdf": "data/raw/2024-25-scheme/FE/NEW EM SYLLABUS 2024-25.pdf",
+  "source_pages": [
+    2,
+    3
+  ],
+  "status": "DRAFT - needs human sign-off",
+  "modules": [
+    {
+      "number": "1",
+      "name": "System of Forces",
+      "topics": [
+        "Classification of Force Systems",
+        "Principle of Transmissibility",
+        "Composition of Forces",
+        "Resolution of Forces",
+        "Resultant of Coplanar Force System",
+        "Moment of Force",
+        "Resultant of Non-Coplanar Space Force"
+      ]
+    },
+    {
+      "number": "2",
+      "name": "Centroid",
+      "topics": [
+        "Centroid"
+      ]
+    },
+    {
+      "number": "3",
+      "name": "Equilibrium of Force system and Friction",
+      "topics": [
+        "Conditions of Equilibrium",
+        "Couples",
+        "Equilibrium of Rigid Bodies",
+        "Free Body Diagrams",
+        "Types of Beams",
+        "Types of Supports and Reactions",
+        "Reactions at Supports of Beams",
+        "Friction"
+      ]
+    },
+    {
+      "number": "4",
+      "name": "Kinematics of particle and rigid bodies",
+      "topics": [
+        "Motion of Particle with Variable Acceleration",
+        "Motion Along Plane Curved Path",
+        "Velocity and Acceleration in Rectangular Components",
+        "Tangential and Normal Components of Acceleration"
+      ]
+    },
+    {
+      "number": "5",
+      "name": "Kinetics of particle",
+      "topics": [
+        "Force and Acceleration",
+        "Equations of Dynamic Equilibrium",
+        "Principle of Linear Impulse and Momentum",
+        "Impact and Collision",
+        "Law of Conservation of Momentum",
+        "Coefficient of Restitution",
+        "Direct Central Impact",
+        "Oblique Central Impact",
+        "Loss of Kinetic Energy in Collision"
+      ]
+    },
+    {
+      "number": "6",
+      "name": "Introduction to Robot Kinematics",
+      "topics": [
+        "Robot Kinematics"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep2425-fe_regex.py
+regex: ^[ \t]*([1-6])[ \t]*$ (flags re.M, region scope)
+matched/total: 1/1
+matches: [('1', 'page 2 line 3'), ('2', 'page 2 line 31'), ('3', 'page 2 line 48'), ('4', 'page 2 line 67'), ('5', 'page 2 line 91'), ('6', 'page 2 line 101')]
+failures:
+  (none)

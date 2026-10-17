@@ -1,0 +1,137 @@
+{
+  "family": "nep26-sem56",
+  "course_code": "IKS501",
+  "course_title": "Indian Knowledge System",
+  "source_pdf": "data/raw/_unclassified/SEM-V.pdf",
+  "source_pages": [
+    54,
+    55,
+    56,
+    57
+  ],
+  "status": "DRAFT - needs human sign-off",
+  "modules": [
+    {
+      "number": "I",
+      "name": "Acoustic Science in Vedic Chanting and Indian Music",
+      "topics": [
+        "Nada (sound)",
+        "Shruti",
+        "Frequency, pitch and harmonic content",
+        "Shruti system",
+        "Frequency discrimination",
+        "Resonance",
+        "Architectural acoustics",
+        "Temple architecture and echo control",
+        "Natural acoustic amplification",
+        "Reverberation time",
+        "Standing waves",
+        "Structured sound encoding in Vedic recitation",
+        "Pada, Krama and Ghana patha",
+        "Built-in redundancy",
+        "Error detection and correction",
+        "Redundancy in digital communication"
+      ]
+    },
+    {
+      "number": "II",
+      "name": "Tradition",
+      "topics": [
+        "IKS in renewable energy",
+        "Ancient Indian use of renewable energy",
+        "Solar architecture",
+        "Solar heating systems",
+        "Ancient windmills",
+        "Wind-powered water lifting",
+        "Ancient watermills",
+        "Irrigation systems",
+        "Biomass fuel",
+        "Bioenergy production",
+        "Integration of traditional knowledge with modern technologies",
+        "Gujarat windmills",
+        "Watermills in the Indus Valley",
+        "Konark Sun Temple"
+      ]
+    },
+    {
+      "number": "III",
+      "name": "Linguistics, Number Systems, and rainfall Prediction",
+      "topics": [
+        "Components of language",
+        "Panini's work on Sanskrit grammar",
+        "Sanskrit in natural language processing",
+        "Number system in India",
+        "Decimal system",
+        "Katapayadi system",
+        "Pingala and the binary system",
+        "Units of measurement",
+        "Rainfall prediction techniques",
+        "Elements of the Indian calendar",
+        "Panchang and Nakshatras",
+        "Non-bio indicators",
+        "Bio indicators"
+      ]
+    },
+    {
+      "number": "IV",
+      "name": "Mathematics Foundations in Ancient India and Its Relevance to Information Technology",
+      "topics": [
+        "Historical context of number ideas",
+        "Development of numeration",
+        "Zero as placeholder and number",
+        "Decimal place value",
+        "Major contributors to Indian mathematics",
+        "Procedural mathematics",
+        "Algorithmic thinking",
+        "Flowcharts",
+        "Decomposition",
+        "Computational logic",
+        "Modular arithmetic",
+        "Binary-style ideas",
+        "Data representation",
+        "Clock arithmetic",
+        "Remainders",
+        "Cyclic reasoning",
+        "Bits and bytes",
+        "Binary conversion",
+        "Checksums and parity",
+        "Simple cryptography"
+      ]
+    },
+    {
+      "number": "V",
+      "name": "Indian Logic and its applications in Information Technology",
+      "topics": [
+        "Indian logic",
+        "Language and computation",
+        "Knowledge organization",
+        "Data and decision-making",
+        "Ethics and society",
+        "Sustainability",
+        "Responsible digital systems",
+        "IKS-inspired application design"
+      ]
+    },
+    {
+      "number": "VI",
+      "name": "Sanskrit Grammar and Computational Modules",
+      "topics": [
+        "Sanskrit as structured language",
+        "Sounds",
+        "Words",
+        "Roots",
+        "Suffixes",
+        "Sandhi",
+        "Sentence structure",
+        "Paninian grammar",
+        "Rule-based grammar systems",
+        "Tokenization",
+        "Morphology",
+        "Parsing",
+        "Language rules",
+        "NLP examples",
+        "Sanskrit digital tools"
+      ]
+    }
+  ]
+}

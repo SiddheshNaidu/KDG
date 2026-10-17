@@ -1,0 +1,33 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-electrical_regex_runs.py module_start
+script: spikes/nep26-se-electrical_regex_runs.py
+
+
+--- attempt 1 ---
+regex: ^(I|II|III|IV|V|VI)$
+
+matched/total: 8/16  (courses with a module table (14 theory + 2 Electrical Workshop); success = exactly 6 modules numbered 1..6 in order)
+failures (8):
+  6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf | 2213111 | p16: extracted ['I', 'I', 'II', 'II', 'III', 'IV', 'V', 'VI']
+  6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf | 2214111 | p40: extracted ['I', 'II', 'I', 'II', 'III', 'IV', 'V', 'VI']
+  6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf | 2214112 | p43: extracted []
+  6.29-N-B.E.-Electrical-Engineering-Sem-III-IV.pdf | 2223111 | p16: extracted ['I', 'I', 'II', 'II', 'III', 'IV', 'V', 'VI']
+  6.29-N-B.E.-Electrical-Engineering-Sem-III-IV.pdf | 2224111 | p40: extracted ['I', 'II', 'I', 'II', 'III', 'IV', 'V', 'VI']
+  6.29-N-B.E.-Electrical-Engineering-Sem-III-IV.pdf | 2224112 | p43: extracted []
+  6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf | 2214411 | p55: extracted []
+  6.29-N-B.E.-Electrical-Engineering-Sem-III-IV.pdf | 2224411 | p55: extracted []
+
+--- attempt 2 ---
+regex: ^(I|II|III|IV|V|VI)$ with condition: previous line != 'IAT-'
+
+matched/total: 12/16  (courses with a module table (14 theory + 2 Electrical Workshop); success = exactly 6 modules numbered 1..6 in order)
+failures (4):
+  6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf | 2214112 | p43: extracted []
+  6.29-N-B.E.-Electrical-Engineering-Sem-III-IV.pdf | 2224112 | p43: extracted []
+  6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf | 2214411 | p55: extracted []
+  6.29-N-B.E.-Electrical-Engineering-Sem-III-IV.pdf | 2224411 | p55: extracted []
+
+--- attempt 3 ---
+regex: ^((I|II|III|IV|V|VI)|[1-6])$ with conditions: previous line != 'IAT-' AND line x0 < 95 (bbox, not line order only)
+
+matched/total: 16/16  (courses with a module table (14 theory + 2 Electrical Workshop); success = exactly 6 modules numbered 1..6 in order)
+failures (0):

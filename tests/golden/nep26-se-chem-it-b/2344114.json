@@ -1,0 +1,70 @@
+{
+  "family": "nep26-se-chem-it-b",
+  "course_code": "2344114",
+  "course_title": "Unix Lab",
+  "source_pdf": "data/raw/2019-scheme/Information-Technology/6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf",
+  "source_pages": [
+    47,
+    48,
+    49
+  ],
+  "status": "DRAFT - needs human sign-off",
+  "modules": [
+    {
+      "number": "I",
+      "name": "Introduction to Unix",
+      "topics": [
+        "History of UNIX",
+        "Unix architecture"
+      ]
+    },
+    {
+      "number": "II",
+      "name": "Basic Commands",
+      "topics": [
+        "Unix general purpose utility commands",
+        "Vi editor"
+      ]
+    },
+    {
+      "number": "III",
+      "name": "Commands for File System Management and User Management",
+      "topics": [
+        "Unix file system",
+        "File and directory permissions",
+        "Single and multiuser environment",
+        "File system management commands",
+        "Piping and redirection",
+        "User management commands"
+      ]
+    },
+    {
+      "number": "IV",
+      "name": "Commands for Process Management and Memory Management",
+      "topics": [
+        "Process management commands",
+        "Memory management commands"
+      ]
+    },
+    {
+      "number": "V",
+      "name": "Basic Scripts",
+      "topics": [
+        "Shell",
+        "Types of shell",
+        "Variables and operators in shell"
+      ]
+    },
+    {
+      "number": "VI",
+      "name": "Advanced Scripts",
+      "topics": [
+        "grep command",
+        "egrep command",
+        "sed command",
+        "awk scripting",
+        "perl scripting"
+      ]
+    }
+  ]
+}

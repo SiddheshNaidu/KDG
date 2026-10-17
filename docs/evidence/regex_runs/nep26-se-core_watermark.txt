@@ -1,0 +1,6 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-core_regex_runs.py
+regex: (?i)draft|watermark|confidential|specimen
+denominator: all lines of 6 PDFs; matched = number of PDFs-lines hit (0 means no watermark text observed)
+matched/total: 0/36546
+failures (0):
+noise lines found by UNIVERSITY OF MUMBAI \(With Effect from 2025-2026\)|^\s*AC\s*[–-]\s*20/5/2025|^\s*Item No\. (pdf,page): {('A-I-AI-DS', 5): 2, ('A-I-AI-DS', 11): 1, ('A-I-AI-DS', 12): 1, ('A-I-AI-DS', 13): 1, ('A-I-AI-DS', 14): 1, ('AI-DS', 5): 2, ('AI-DS', 12): 1, ('AI-DS', 13): 1, ('AI-DS', 14): 1, ('AI-DS', 15): 1, ('AI-ML', 5): 2, ('AI-ML', 11): 1, ('AI-ML', 12): 1, ('AI-ML', 13): 1, ('AI-ML', 14): 1, ('Computer-Engineering', 5): 2, ('Computer-Engineering', 11): 1, ('Computer-Engineering', 12): 1, ('Computer-Engineering', 13): 1, ('Computer-Engineering', 14): 1, ('Computer-Science-Engineering', 5): 2, ('Computer-Science-Engineering', 11): 1, ('Computer-Science-Engineering', 12): 1, ('Computer-Science-Engineering', 13): 1, ('Computer-Science-Engineering', 14): 1, ('Data-Science', 5): 2, ('Data-Science', 11): 1, ('Data-Science', 12): 1, ('Data-Science', 13): 1, ('Data-Science', 14): 1}

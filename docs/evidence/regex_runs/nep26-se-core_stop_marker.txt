@@ -1,0 +1,5 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-core_regex_runs.py
+regex: ^\s*(Text\s*Books?|Reference\s*Books?|Textbooks?|Books|Online\s+References?|Suggested\s+List\s+of\s+[Ee]xperiments?|List\s+of\s+Experiments?)\s*[:.]?\s*$|^\s*(Assessment|Term\s+Work)\s*:
+denominator: module-table courses
+matched/total: 77/77
+failures (0):

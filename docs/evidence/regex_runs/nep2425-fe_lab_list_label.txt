@@ -1,0 +1,5 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep2425-fe_regex.py
+regex: ^\s*(List of\s+Experiments|Suggested List of)\b
+matched/total: 4/4
+failures:
+  (none)

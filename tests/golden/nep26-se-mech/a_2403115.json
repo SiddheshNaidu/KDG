@@ -1,0 +1,12 @@
+{
+  "family": "nep26-se-mech-a",
+  "course_code": "2403115",
+  "course_title": "Materials Testing",
+  "source_pdf": "data/raw/2019-scheme/Mechanical-Engineering/6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf",
+  "source_pages": [30, 31, 32, 33],
+  "status": "DRAFT - needs human sign-off",
+  "notes": "LAB course. The PDF has no modules: p31-32 table lists 10 numbered experiments (paragraph descriptions, hours 02, LO1-LO6) and p33 'List of Experiments' gives the short titles (Group A 1-5, Group B 6-10). The single pseudo-module 'LAB' holds experiment titles condensed to <=8 words. Group C assignments (p34) not included. Whether experiments should be Topics at all is UNKNOWN (see docs/open_questions.md).",
+  "modules": [
+    {"number": "LAB", "name": "List of Experiments", "topics": ["Metallographic sample preparation and etching", "Microstructure and hardness after heat treatment", "Tempering characteristics of hardened steel", "Hardenability by Jominy end quench test", "Fatigue test using rotating beam specimen", "Tension test on mild steel bar", "Torsion test on mild steel bar", "Izod and Charpy impact tests", "Brinell and Rockwell hardness tests", "Flexural test on beam"]}
+  ]
+}

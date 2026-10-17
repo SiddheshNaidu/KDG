@@ -1,0 +1,9 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-core_selfspell.py
+pdf | spelling counts (first matching spelling wins; 'other anchored' = anchored but none of the first three)
+A-I-AI-DS | Self-learning Topics:=50; Self-learning (bare, 'Topics:' on following line)=3; Self-Study :/Self-Study:=2 | bare-marker followers: {"next line == 'Topics:'": 3}
+AI-DS | Self-learning Topics:=48; Self-learning (bare, 'Topics:' on following line)=5; Self-Study :/Self-Study:=2 | bare-marker followers: {"next line == 'Topics:'": 5}
+AI-ML | Self-learning Topics:=50; Self-learning (bare, 'Topics:' on following line)=3; Self-Study :/Self-Study:=2 | bare-marker followers: {"next line == 'Topics:'": 3}
+Computer-Engineering | Self-learning Topics:=50; Self-learning (bare, 'Topics:' on following line)=3; Self-Study :/Self-Study:=2 | bare-marker followers: {"next line == 'Topics:'": 3}
+Computer-Science-Engineering | Self-learning Topics:=50; Self-learning (bare, 'Topics:' on following line)=3; Self-Study :/Self-Study:=2 | bare-marker followers: {"next line == 'Topics:'": 3}
+Data-Science | Self-learning Topics:=50; Self-learning (bare, 'Topics:' on following line)=3; Self-Study :/Self-Study:=2 | bare-marker followers: {"next line == 'Topics:'": 3}
+other anchored (0):

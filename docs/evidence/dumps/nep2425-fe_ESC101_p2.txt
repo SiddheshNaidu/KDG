@@ -1,0 +1,60 @@
+24 
+ 
+6. Establish the relation between robot joints and parameters (L2)
+ 
+ 
+DETAILED SYLLABUS:  
+Sr. 
+No. 
+Name of 
+Module 
+Detailed Content 
+Hours 
+CO 
+Mapping 
+0 
+Prerequisite 
+Resolution of a force. Use of trigonometry functions. 
+Parallelogram law of forces. Law of triangle. Polygon 
+Algebra. 
+Uniformly accelerated motion along a straight line, 
+motion under gravity, projectile motion, Time of flight, 
+Horizontal range, Maximum height of a projectile. 
+Law of conservation of Energy, Law of conservation of 
+Momentum, and Collision of Elastic Bodies. Work-
+Energy Principle 
+(Note: There will be no questions from the prerequisite 
+in the theory examination) 
+01 
+CO1 
+I 
+System of 
+Forces 
+Classification 
+of 
+force 
+systems, 
+Principle 
+of 
+transmissibility, composition and resolution of forces. 
+Resultant of coplanar force system (Concurrent forces, 
+parallel forces and general system of forces). Moment 
+of forc
+ 
+Resultant of Non-Coplanar (Space Force): Concurrent 
+force system 
+04 
+CO1 
+II 
+Centroid 
+03 
+CO2 
+III 
+Equilibrium of 
+Force system 
+and Friction 
+3.1 Equilibrium:  
+Conditions of equilibrium for concurrent forces, 
+parallel forces and general forces, Couples. Equilibrium 
+of rigid bodies, free body diagrams. 
+3.2 Equilibrium of Beams: 

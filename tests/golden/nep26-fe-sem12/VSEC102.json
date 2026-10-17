@@ -1,0 +1,112 @@
+{
+  "family": "nep26-fe-sem12",
+  "course_code": "VSEC102",
+  "course_title": "C Programming",
+  "source_pdf": "data/raw/2019-scheme/AIML/6.9N-AIML.pdf",
+  "source_pages": [
+    55,
+    56,
+    57
+  ],
+  "status": "DRAFT - needs human sign-off",
+  "modules": [
+    {
+      "number": "01",
+      "name": "Fundamentals of C-Programming",
+      "topics": [
+        "Character set",
+        "Identifiers and keywords",
+        "Data types",
+        "Constants",
+        "Variables",
+        "Arithmetic operators",
+        "Relational operators",
+        "Logical operators",
+        "Assignment operators",
+        "Unary operators",
+        "Conditional operator",
+        "Bitwise operators",
+        "Comma operator",
+        "Expressions",
+        "Statements",
+        "Library functions",
+        "Preprocessor",
+        "Data input and output",
+        "Structure of C program"
+      ]
+    },
+    {
+      "number": "02",
+      "name": "Control Structures",
+      "topics": [
+        "If statement",
+        "If-else statement",
+        "Multiway decision",
+        "While loop",
+        "Do-while loop",
+        "For loop",
+        "Nested control structure",
+        "Switch statement",
+        "Continue statement",
+        "Break statement",
+        "Goto statement"
+      ]
+    },
+    {
+      "number": "03",
+      "name": "Functions and Parameter",
+      "topics": [
+        "Function main",
+        "Defining a function",
+        "Accessing a function",
+        "Function prototype",
+        "Passing arguments to a function",
+        "Recursion",
+        "Storage classes"
+      ]
+    },
+    {
+      "number": "04",
+      "name": "Arrays, String, Structure",
+      "topics": [
+        "Array declaration",
+        "Array definition",
+        "Accessing array element",
+        "One-dimensional array",
+        "Multidimensional array",
+        "Basics of string",
+        "Array of string",
+        "String.h functions",
+        "Structure declaration",
+        "Structure initialization",
+        "Structure within structure",
+        "Operations on structures",
+        "Array of structure"
+      ]
+    },
+    {
+      "number": "05",
+      "name": "Pointer",
+      "topics": [
+        "Pointer variables",
+        "Address operator",
+        "Dereferencing pointer",
+        "Void pointer",
+        "Pointer arithmetic",
+        "Pointers to pointers",
+        "Pointers and array"
+      ]
+    },
+    {
+      "number": "06",
+      "name": "Files",
+      "topics": [
+        "File opening",
+        "File closing",
+        "File creation",
+        "File reading",
+        "File processing"
+      ]
+    }
+  ]
+}

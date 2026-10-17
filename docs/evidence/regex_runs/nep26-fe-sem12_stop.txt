@@ -1,0 +1,8 @@
+command: cd /c/Users/Siddhesh/Documents/KDG && PYTHONIOENCODING=utf-8 python spikes/nep26-fe-sem12_regex.py stop
+regex: ^\s*(?:Text\s?[Bb]ooks?|TEXT/REFERENCE BOOKS|References?|Online (?:References|Resources)|Assessment\s*:|Term ?[Ww]ork|List of Assignments|Sr\.? ?No\.? Website Name|Website Name)\b
+matched/total: 144/144
+stop-line spellings (first 24 chars): {'References:': 18, 'Text Books:': 65, 'Online References:': 24, 'List of Assignments': 6, 'Term Work: Term Work sha': 6, 'Text Books': 6, 'Textbooks:': 12, 'Term Work in a group of ': 6, 'TEXT/REFERENCE BOOKS:-': 1}
+failures (0), verbatim as pdf | page:line | text:
+refinement history:
+  attempt 1: 143/144; the failure was Mechanical-Engineering PCC2018 whose heading is spelled 'TEXT/REFERENCE BOOKS:-' (p109:11). Also observed in attempt 1: 'Internal Assessment' used as a stop marker fired early on AIML VSEC201 (p127:42, a following course's examination-scheme header interleaved before the Trade rows) -> 0 modules; removed from the regex (replaced by 'Assessment:' with colon).
+  attempt 2 (current): added 'TEXT/REFERENCE BOOKS' alternative -> 144/144.

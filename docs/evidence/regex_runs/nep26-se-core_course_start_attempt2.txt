@@ -1,0 +1,5 @@
+command: PYTHONIOENCODING=utf-8 python spikes/nep26-se-core_regex_runs.py
+regex: attempt2: line ^\d{7}\s*$ whose previous line stripped ends with 'Total' and 'Credits Assigned' within 14 lines before
+denominator: distinct 7-digit code lines on pages>=16 per PDF (page 15/16 is the end of the program structure in every PDF) (sum over 6 PDFs)
+matched/total: 102/102
+failures (0):

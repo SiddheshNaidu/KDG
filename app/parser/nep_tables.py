@@ -6,6 +6,7 @@ topic cleaning lives in nep_topics.py and the accept/reject gate in nep_gate.py.
 No network, no LLM. Family quirks are handled by explicit, tested rules, never silently."""
 from __future__ import annotations
 import re
+import unicodedata
 from dataclasses import dataclass, field
 import fitz
 
@@ -18,6 +19,7 @@ STOP_HDR = re.compile(r"Website|Course\s+Outcome|Course\s+Objective|Title\s+of\s
 HOURS_RE = re.compile(r"^\d{1,2}$")
 
 def _norm(c) -> str:
+    c = unicodedata.normalize("NFKC", c) if c else c
     return re.sub(r"[ \t\r\f\v]+", " ", (c or "").replace("\n", " ")).strip()
 
 @dataclass
@@ -45,6 +47,7 @@ class CourseTables:
     x0: float = 0.0
     x1: float = 0.0
     last_page: int = 0
+    conflict_pages: list[int] = field(default_factory=list)
     last_y1: float = 0.0
 
 def _course_header(rows):
@@ -103,6 +106,11 @@ def extract_course_tables(pdf_path: str) -> list[CourseTables]:
             if pn + 1 - cur.header_page > MAX_PAGE_GAP and (hdr_row is not None or open_table):
                 if hdr_row is not None: cur.orphan_tables.append(pn + 1)
                 open_table = False
+                continue
+            if hdr_row is not None and cur.has_module_table and cur.rows:
+                # a second module header under the same course header = a course whose header table was not recognised.
+                # Never merge it into this course; report it.
+                cur.conflict_pages.append(pn + 1); open_table = False
                 continue
             if hdr_row is not None:
                 cur.has_module_table = True; open_table = True

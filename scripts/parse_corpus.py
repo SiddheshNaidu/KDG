@@ -14,9 +14,12 @@ OUT = pathlib.Path("data/processed/corpus_v2"); OUT.mkdir(parents=True, exist_ok
 def tier(c, g, tr):
     if not g["accepted"]: return "rejected"
     hrs = [m["hours"] for m in c["modules"]]
+    if c.get("conflict_pages"): return "review"
     if tr["trace_rate"] < 0.97: return "review"
     if not all(1 <= h <= 15 for h in hrs): return "review"
-    if g["total_hours"] not in TYPICAL_HOURS: return "review"
+    if g.get("printed_total") is not None:
+        pass  # printed Total Hours equals the parsed sum (the gate rejects mismatches): strongest evidence available
+    elif g["total_hours"] not in TYPICAL_HOURS: return "review"
     return "accepted"
 
 def main():

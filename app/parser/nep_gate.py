@@ -38,8 +38,13 @@ def gate_course(c: dict) -> dict:
     if LAB_TITLE.search(c["title"]) or LAB_CODE.match(c["course_code"]) or any(LAB_CO.search(m["co"]) for m in mods): reasons.append("lab_course")
     nums = [m["number"] for m in mods]
     if nums != list(range(1, len(nums) + 1)): reasons.append(f"module_numbers_not_sequential:{nums}")
-    if not 4 <= len(mods) <= 8: reasons.append(f"module_count_{len(mods)}")
+    pt = c.get("printed_total_hours")
+    ph = c.get("prereq_hours", 0)
+    # Completeness: NEP theory courses have 6 modules; fewer/more is accepted only when the PDF's printed total confirms the sum.
+    if pt is None and len(mods) != 6: reasons.append(f"module_count_{len(mods)}_without_printed_total")
+    if pt is not None and not 4 <= len(mods) <= 8: reasons.append(f"module_count_{len(mods)}")
     if any(m["hours"] <= 0 for m in mods): reasons.append("module_without_hours")
+    if pt is not None and pt != sum(m["hours"] for m in mods) + ph: reasons.append(f"printed_total_hours_mismatch:{pt}!={sum(m['hours'] for m in mods)}+{ph}")
     if any(len(m["topics"]) < 1 for m in mods): reasons.append("module_without_topics")
     if sum(len(m["topics"]) for m in mods) < 15: reasons.append("fewer_than_15_topics_in_course")
     dropped_over = sum(1 for d in c.get("dropped", []) if d[0] == "overlong"); n_all = sum(len(m["topics"]) for m in mods) + dropped_over
@@ -52,5 +57,5 @@ def gate_course(c: dict) -> dict:
     if long_share > 0.25: reasons.append("long_topic_share_over_25pct")
     if any(OTHER_LEAK.search(m["content_raw"]) for m in mods): reasons.append("other_section_leak")
     if not re.search(r"[A-Za-z]{3}", c["title"]): reasons.append("no_title")
-    return dict(long_share=round(long_share, 3), accepted=not reasons, reasons=reasons, n_topics=len(topics), invalid_rate=round(rate, 3),
+    return dict(printed_total=pt, long_share=round(long_share, 3), accepted=not reasons, reasons=reasons, n_topics=len(topics), invalid_rate=round(rate, 3),
                 total_hours=sum(m["hours"] for m in mods))

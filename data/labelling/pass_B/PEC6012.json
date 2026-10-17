@@ -1,1 +1,134 @@
-{"edges": [{"a": "t1", "b": "t3", "why": "prerequisite"}, {"a": "t3", "b": "t4", "why": "prerequisite"}, {"a": "t3", "b": "t5", "why": "prerequisite"}, {"a": "t3", "b": "t6", "why": "prerequisite"}, {"a": "t4", "b": "t7", "why": "prerequisite"}, {"a": "t4", "b": "t8", "why": "prerequisite"}, {"a": "t9", "b": "t10", "why": "prerequisite"}, {"a": "t9", "b": "t11", "why": "prerequisite"}, {"a": "t12", "b": "t13", "why": "prerequisite"}, {"a": "t12", "b": "t14", "why": "prerequisite"}, {"a": "t12", "b": "t15", "why": "prerequisite"}, {"a": "t16", "b": "t17", "why": "prerequisite"}, {"a": "t19", "b": "t20", "why": "prerequisite"}, {"a": "t22", "b": "t23", "why": "prerequisite"}, {"a": "t27", "b": "t28", "why": "prerequisite"}, {"a": "t27", "b": "t29", "why": "prerequisite"}, {"a": "t27", "b": "t30", "why": "prerequisite"}, {"a": "t27", "b": "t31", "why": "prerequisite"}, {"a": "t31", "b": "t32", "why": "prerequisite"}, {"a": "t33", "b": "t34", "why": "prerequisite"}, {"a": "t33", "b": "t35", "why": "prerequisite"}]}
+{
+"edges": [
+{
+"a": "t1",
+"b": "t3",
+"why": "growth of function from complexity"
+},
+{
+"a": "t3",
+"b": "t4",
+"why": "Big-Oh notation"
+},
+{
+"a": "t3",
+"b": "t5",
+"why": "Omega notation"
+},
+{
+"a": "t3",
+"b": "t6",
+"why": "Theta notation"
+},
+{
+"a": "t4",
+"b": "t7",
+"why": "analysing sort uses notation"
+},
+{
+"a": "t4",
+"b": "t8",
+"why": "analysing sort uses notation"
+},
+{
+"a": "t6",
+"b": "t9",
+"why": "recurrences analyse recursion"
+},
+{
+"a": "t9",
+"b": "t10",
+"why": "substitution solves recurrences"
+},
+{
+"a": "t9",
+"b": "t11",
+"why": "master method solves recurrences"
+},
+{
+"a": "t11",
+"b": "t13",
+"why": "merge sort recurrence"
+},
+{
+"a": "t12",
+"b": "t13",
+"why": "merge sort is divide conquer"
+},
+{
+"a": "t12",
+"b": "t14",
+"why": "quick sort is divide conquer"
+},
+{
+"a": "t11",
+"b": "t15",
+"why": "binary search recurrence"
+},
+{
+"a": "t16",
+"b": "t17",
+"why": "Dijkstra solves shortest path"
+},
+{
+"a": "t19",
+"b": "t20",
+"why": "Kruskal Prim compute MST"
+},
+{
+"a": "t16",
+"b": "t21",
+"why": "multistage graph is shortest path"
+},
+{
+"a": "t16",
+"b": "t22",
+"why": "all pair extends single source"
+},
+{
+"a": "t22",
+"b": "t23",
+"why": "Floyd Warshall solves all pair"
+},
+{
+"a": "t22",
+"b": "t25",
+"why": "TSP related to path problems"
+},
+{
+"a": "t27",
+"b": "t28",
+"why": "N-queen uses backtracking"
+},
+{
+"a": "t27",
+"b": "t29",
+"why": "sum of subsets uses backtracking"
+},
+{
+"a": "t27",
+"b": "t30",
+"why": "graph coloring uses backtracking"
+},
+{
+"a": "t27",
+"b": "t31",
+"why": "branch bound refines backtracking"
+},
+{
+"a": "t31",
+"b": "t32",
+"why": "15 puzzle uses branch bound"
+},
+{
+"a": "t33",
+"b": "t34",
+"why": "Rabin Karp improves naive"
+},
+{
+"a": "t33",
+"b": "t35",
+"why": "KMP improves naive"
+}
+]
+}

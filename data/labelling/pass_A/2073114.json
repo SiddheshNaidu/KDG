@@ -1,0 +1,124 @@
+{
+ "edges": [
+  {
+   "a": "t1",
+   "b": "t2",
+   "why": "flow form extends non-flow first law"
+  },
+  {
+   "a": "t1",
+   "b": "t3",
+   "why": "heat and work calculated from first law"
+  },
+  {
+   "a": "t2",
+   "b": "t4",
+   "why": "transient flow extends steady flow balance"
+  },
+  {
+   "a": "t1",
+   "b": "t5",
+   "why": "second law follows first law"
+  },
+  {
+   "a": "t5",
+   "b": "t6",
+   "why": "heat engine expresses second law"
+  },
+  {
+   "a": "t5",
+   "b": "t7",
+   "why": "heat pump expresses second law"
+  },
+  {
+   "a": "t6",
+   "b": "t8",
+   "why": "Carnot cycle is ideal heat engine"
+  },
+  {
+   "a": "t8",
+   "b": "t9",
+   "why": "Clausius inequality derives from Carnot"
+  },
+  {
+   "a": "t9",
+   "b": "t10",
+   "why": "entropy defined via Clausius inequality"
+  },
+  {
+   "a": "t10",
+   "b": "t11",
+   "why": "entropy change estimation needs entropy"
+  },
+  {
+   "a": "t10",
+   "b": "t12",
+   "why": "exergy uses entropy"
+  },
+  {
+   "a": "t13",
+   "b": "t14",
+   "why": "virial is a non-ideal EOS"
+  },
+  {
+   "a": "t13",
+   "b": "t15",
+   "why": "vdW is a non-ideal EOS"
+  },
+  {
+   "a": "t15",
+   "b": "t16",
+   "why": "RK modifies vdW"
+  },
+  {
+   "a": "t16",
+   "b": "t17",
+   "why": "RKS and PR modify RK"
+  },
+  {
+   "a": "t10",
+   "b": "t18",
+   "why": "Maxwell relations used with entropy"
+  },
+  {
+   "a": "t18",
+   "b": "t19",
+   "why": "departure functions derived via Maxwell relations"
+  },
+  {
+   "a": "t15",
+   "b": "t19",
+   "why": "departure functions evaluated with EOS"
+  },
+  {
+   "a": "t18",
+   "b": "t20",
+   "why": "fugacity derived using thermodynamic relations"
+  },
+  {
+   "a": "t19",
+   "b": "t21",
+   "why": "charts built from property functions"
+  },
+  {
+   "a": "t21",
+   "b": "t22",
+   "why": "diagrams use charts"
+  },
+  {
+   "a": "t2",
+   "b": "t23",
+   "why": "flow applications use flow first law"
+  },
+  {
+   "a": "t2",
+   "b": "t24",
+   "why": "throttling uses flow energy balance"
+  },
+  {
+   "a": "t22",
+   "b": "t24",
+   "why": "compressors analysed on property diagrams"
+  }
+ ]
+}

@@ -1,0 +1,338 @@
+{
+"course": "2343112",
+"title": "Advance Data Structure & Analysis",
+"topics": [
+{
+"id": "t1",
+"name": "Fundamentals of the analysis of algorithms",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Time and Space complexity",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Asymptotic notation",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Recurrence Relations",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Methods to solve recurrence relations in algorithms (Substitution, Recursion tree, Master theorem)",
+"module": 1
+},
+{
+"id": "t6",
+"name": "AVL trees",
+"module": 2
+},
+{
+"id": "t7",
+"name": "B tree",
+"module": 2
+},
+{
+"id": "t8",
+"name": "B tree operations",
+"module": 2
+},
+{
+"id": "t9",
+"name": "Red- Black Trees",
+"module": 2
+},
+{
+"id": "t10",
+"name": "tries data structures",
+"module": 2
+},
+{
+"id": "t11",
+"name": "time complexity analysis of all problems",
+"module": 2
+},
+{
+"id": "t12",
+"name": "Graphs",
+"module": 2
+},
+{
+"id": "t13",
+"name": "Representation",
+"module": 2
+},
+{
+"id": "t14",
+"name": "Graph Traversals",
+"module": 2
+},
+{
+"id": "t15",
+"name": "Breadth First Search",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Depth First Search",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Introduction and properties of greedy algorithms",
+"module": 3
+},
+{
+"id": "t18",
+"name": "Fractional Knapsack problem",
+"module": 3
+},
+{
+"id": "t19",
+"name": "Minimum Spanning Trees (Prim’s and Kruskal’s algorithms)",
+"module": 3
+},
+{
+"id": "t20",
+"name": "Job sequencing with deadlines",
+"module": 3
+},
+{
+"id": "t21",
+"name": "Optimal storage on tapes",
+"module": 3
+},
+{
+"id": "t22",
+"name": "Analysis of All problems",
+"module": 3
+},
+{
+"id": "t23",
+"name": "Backtracking Techniques",
+"module": 4
+},
+{
+"id": "t24",
+"name": "N-Queens problem",
+"module": 4
+},
+{
+"id": "t25",
+"name": "sum of subsets problem",
+"module": 4
+},
+{
+"id": "t26",
+"name": "graph coloring",
+"module": 4
+},
+{
+"id": "t27",
+"name": "Hamiltonian cycles",
+"module": 4
+},
+{
+"id": "t28",
+"name": "Introduction to flow networks",
+"module": 4
+},
+{
+"id": "t29",
+"name": "Augmenting Paths Residual Network",
+"module": 4
+},
+{
+"id": "t30",
+"name": "Ford Fulkerson method",
+"module": 4
+},
+{
+"id": "t31",
+"name": "Applications of Flow Networks in real-world problems",
+"module": 4
+},
+{
+"id": "t32",
+"name": "Introduction Dynamic algorithms",
+"module": 5
+},
+{
+"id": "t33",
+"name": "Greedy vs. Dynamic algorithms",
+"module": 5
+},
+{
+"id": "t34",
+"name": "Single source shortest path- Dijkstra's Algorithm",
+"module": 5
+},
+{
+"id": "t35",
+"name": "Bellman Ford Algorithm",
+"module": 5
+},
+{
+"id": "t36",
+"name": "All pair shortest path- Floyd Warshall Algorithm",
+"module": 5
+},
+{
+"id": "t37",
+"name": "0/1 knapsack problem",
+"module": 5
+},
+{
+"id": "t38",
+"name": "Travelling salesman problem",
+"module": 5
+},
+{
+"id": "t39",
+"name": "Naïve string matching algorithm",
+"module": 6
+},
+{
+"id": "t40",
+"name": "Rabin-Karp algorithm",
+"module": 6
+},
+{
+"id": "t41",
+"name": "Knuth-Morris-Pratt(KMP) algorithm",
+"module": 6
+},
+{
+"id": "t42",
+"name": "Longest common subsequence(LCS)",
+"module": 6
+},
+{
+"id": "t43",
+"name": "Text searching",
+"module": 6
+},
+{
+"id": "t44",
+"name": "DNA sequencing",
+"module": 6
+},
+{
+"id": "t45",
+"name": "data compression",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t13",
+"b": "t19",
+"a_name": "Representation",
+"b_name": "Minimum Spanning Trees (Prim’s and Kruskal’s algorithms)"
+},
+{
+"i": 1,
+"a": "t39",
+"b": "t43",
+"a_name": "Naïve string matching algorithm",
+"b_name": "Text searching"
+},
+{
+"i": 2,
+"a": "t1",
+"b": "t3",
+"a_name": "Fundamentals of the analysis of algorithms",
+"b_name": "Asymptotic notation"
+},
+{
+"i": 3,
+"a": "t28",
+"b": "t30",
+"a_name": "Introduction to flow networks",
+"b_name": "Ford Fulkerson method"
+},
+{
+"i": 4,
+"a": "t3",
+"b": "t4",
+"a_name": "Asymptotic notation",
+"b_name": "Recurrence Relations"
+},
+{
+"i": 5,
+"a": "t2",
+"b": "t11",
+"a_name": "Time and Space complexity",
+"b_name": "time complexity analysis of all problems"
+},
+{
+"i": 6,
+"a": "t12",
+"b": "t35",
+"a_name": "Graphs",
+"b_name": "Bellman Ford Algorithm"
+},
+{
+"i": 7,
+"a": "t2",
+"b": "t3",
+"a_name": "Time and Space complexity",
+"b_name": "Asymptotic notation"
+},
+{
+"i": 8,
+"a": "t41",
+"b": "t43",
+"a_name": "Knuth-Morris-Pratt(KMP) algorithm",
+"b_name": "Text searching"
+},
+{
+"i": 9,
+"a": "t42",
+"b": "t44",
+"a_name": "Longest common subsequence(LCS)",
+"b_name": "DNA sequencing"
+},
+{
+"i": 10,
+"a": "t6",
+"b": "t9",
+"a_name": "AVL trees",
+"b_name": "Red- Black Trees"
+},
+{
+"i": 11,
+"a": "t32",
+"b": "t35",
+"a_name": "Introduction Dynamic algorithms",
+"b_name": "Bellman Ford Algorithm"
+},
+{
+"i": 12,
+"a": "t3",
+"b": "t11",
+"a_name": "Asymptotic notation",
+"b_name": "time complexity analysis of all problems"
+},
+{
+"i": 13,
+"a": "t32",
+"b": "t34",
+"a_name": "Introduction Dynamic algorithms",
+"b_name": "Single source shortest path- Dijkstra's Algorithm"
+},
+{
+"i": 14,
+"a": "t13",
+"b": "t14",
+"a_name": "Representation",
+"b_name": "Graph Traversals"
+}
+]
+}

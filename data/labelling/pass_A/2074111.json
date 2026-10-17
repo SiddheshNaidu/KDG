@@ -1,0 +1,129 @@
+{
+ "edges": [
+  {
+   "a": "t1",
+   "b": "t2",
+   "why": "non-ideality defined against ideal solution"
+  },
+  {
+   "a": "t3",
+   "b": "t4",
+   "why": "chemical potential is partial molar Gibbs energy"
+  },
+  {
+   "a": "t4",
+   "b": "t5",
+   "why": "activity defined from chemical potential"
+  },
+  {
+   "a": "t3",
+   "b": "t6",
+   "why": "Gibbs-Duhem relates partial molar properties"
+  },
+  {
+   "a": "t3",
+   "b": "t7",
+   "why": "mixing property changes from partial molar properties"
+  },
+  {
+   "a": "t7",
+   "b": "t8",
+   "why": "excess properties extend mixing properties"
+  },
+  {
+   "a": "t4",
+   "b": "t9",
+   "why": "phase equilibrium criterion is equal potential"
+  },
+  {
+   "a": "t1",
+   "b": "t10",
+   "why": "Raoult's law describes ideal solutions"
+  },
+  {
+   "a": "t9",
+   "b": "t11",
+   "why": "phase diagrams depict phase equilibrium"
+  },
+  {
+   "a": "t10",
+   "b": "t11",
+   "why": "diagrams use Raoult law"
+  },
+  {
+   "a": "t9",
+   "b": "t12",
+   "why": "VLE is phase equilibrium"
+  },
+  {
+   "a": "t5",
+   "b": "t12",
+   "why": "non-ideal VLE needs activity coefficients"
+  },
+  {
+   "a": "t8",
+   "b": "t13",
+   "why": "Margules fits excess Gibbs energy"
+  },
+  {
+   "a": "t8",
+   "b": "t14",
+   "why": "van Laar fits excess Gibbs energy"
+  },
+  {
+   "a": "t6",
+   "b": "t16",
+   "why": "consistency tests use Gibbs-Duhem"
+  },
+  {
+   "a": "t12",
+   "b": "t16",
+   "why": "consistency tests apply to VLE data"
+  },
+  {
+   "a": "t17",
+   "b": "t18",
+   "why": "stoichiometry needed for reaction equilibrium"
+  },
+  {
+   "a": "t18",
+   "b": "t19",
+   "why": "equilibrium needs standard Gibbs change"
+  },
+  {
+   "a": "t19",
+   "b": "t20",
+   "why": "K computed from standard Gibbs change"
+  },
+  {
+   "a": "t20",
+   "b": "t21",
+   "why": "conversion computed from equilibrium constant"
+  },
+  {
+   "a": "t17",
+   "b": "t22",
+   "why": "DOF for reactions needs stoichiometry"
+  },
+  {
+   "a": "t23",
+   "b": "t24",
+   "why": "vapour compression is a refrigeration cycle"
+  },
+  {
+   "a": "t23",
+   "b": "t25",
+   "why": "absorption is a refrigeration cycle"
+  },
+  {
+   "a": "t24",
+   "b": "t26",
+   "why": "COP computed for the cycle"
+  },
+  {
+   "a": "t24",
+   "b": "t27",
+   "why": "flow rate and power from cycle"
+  }
+ ]
+}

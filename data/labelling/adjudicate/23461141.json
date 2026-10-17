@@ -446,283 +446,220 @@
 "candidates": [
 {
 "i": 0,
-"a": "t10",
-"b": "t11",
-"a_name": "Verification and Validation concept",
-"b_name": "activities"
+"a": "t25",
+"b": "t26",
+"a_name": "Logic Coverage Criteria",
+"b_name": "Basis Path Testing"
 },
 {
 "i": 1,
-"a": "t45",
-"b": "t46",
-"a_name": "test organization",
-"b_name": "structure and of testing group"
-},
-{
-"i": 2,
-"a": "t37",
-"b": "t43",
-"a_name": "Regression Testing",
-"b_name": "Regression Testing Techniques"
-},
-{
-"i": 3,
-"a": "t82",
-"b": "t83",
-"a_name": "Software Quality Management",
-"b_name": "Relationship between Testing"
-},
-{
-"i": 4,
-"a": "t7",
-"b": "t47",
-"a_name": "Software Testing Life Cycle (STLC)",
-"b_name": "test planning"
-},
-{
-"i": 5,
-"a": "t57",
-"b": "t60",
-"a_name": "Efficient Test Suite Management",
-"b_name": "test suite prioritization its type"
-},
-{
-"i": 6,
-"a": "t50",
-"b": "t52",
-"a_name": "definition and Classification of software matrices",
-"b_name": "attributes and corresponding metrics"
-},
-{
-"i": 7,
-"a": "t8",
-"b": "t62",
-"a_name": "Classification of Bugs and its Life Cycle",
-"b_name": "Root Cause Analysis (RCA)"
-},
-{
-"i": 8,
-"a": "t37",
-"b": "t38",
-"a_name": "Regression Testing",
-"b_name": "Progressive vs. Regressive"
-},
-{
-"i": 9,
-"a": "t53",
-"b": "t56",
-"a_name": "estimation model for testing effort",
-"b_name": "function point and test point analysis"
-},
-{
-"i": 10,
-"a": "t83",
-"b": "t84",
-"a_name": "Relationship between Testing",
-"b_name": "Quality Assurance"
-},
-{
-"i": 11,
-"a": "t82",
-"b": "t84",
-"a_name": "Software Quality Management",
-"b_name": "Quality Assurance"
-},
-{
-"i": 12,
-"a": "t35",
-"b": "t37",
-"a_name": "System",
-"b_name": "Regression Testing"
-},
-{
-"i": 13,
-"a": "t13",
-"b": "t14",
-"a_name": "Verification requirements",
-"b_name": "Verification of high level design"
-},
-{
-"i": 14,
-"a": "t10",
-"b": "t15",
-"a_name": "Verification and Validation concept",
-"b_name": "Verification of low level design"
-},
-{
-"i": 15,
-"a": "t85",
-"b": "t88",
-"a_name": "Quality Management Product Quality",
-"b_name": "Overview of ISO9000:2000 and SIX sigma"
-},
-{
-"i": 16,
-"a": "t65",
-"b": "t66",
-"a_name": "selection and cost in testing tool",
-"b_name": "Test Automation Strategy & ROI"
-},
-{
-"i": 17,
-"a": "t63",
-"b": "t66",
-"a_name": "Automation and Testing Tools",
-"b_name": "Test Automation Strategy & ROI"
-},
-{
-"i": 18,
-"a": "t9",
-"b": "t10",
-"a_name": "Software Testing methodology Verification and Validation",
-"b_name": "Verification and Validation concept"
-},
-{
-"i": 19,
-"a": "t17",
-"b": "t32",
-"a_name": "Dynamic Testing",
-"b_name": "Unit validation"
-},
-{
-"i": 20,
-"a": "t82",
-"b": "t87",
-"a_name": "Software Quality Management",
-"b_name": "Process Quality"
-},
-{
-"i": 21,
-"a": "t37",
-"b": "t39",
-"a_name": "Regression Testing",
-"b_name": "Regression Testability"
-},
-{
-"i": 22,
-"a": "t14",
-"b": "t15",
-"a_name": "Verification of high level design",
-"b_name": "Verification of low level design"
-},
-{
-"i": 23,
-"a": "t51",
-"b": "t52",
-"a_name": "Testing Metrics for Monitoring and Controlling the Testing Process",
-"b_name": "attributes and corresponding metrics"
-},
-{
-"i": 24,
-"a": "t82",
-"b": "t85",
-"a_name": "Software Quality Management",
-"b_name": "Quality Management Product Quality"
-},
-{
-"i": 25,
-"a": "t34",
-"b": "t35",
-"a_name": "Function",
-"b_name": "System"
-},
-{
-"i": 26,
-"a": "t84",
-"b": "t85",
-"a_name": "Quality Assurance",
-"b_name": "Quality Management Product Quality"
-},
-{
-"i": 27,
 "a": "t77",
 "b": "t78",
 "a_name": "Web based system",
 "b_name": "web technology evaluation"
 },
 {
-"i": 28,
-"a": "t10",
-"b": "t14",
-"a_name": "Verification and Validation concept",
-"b_name": "Verification of high level design"
-},
-{
-"i": 29,
-"a": "t63",
-"b": "t67",
-"a_name": "Automation and Testing Tools",
-"b_name": "guidelines for testing tools"
-},
-{
-"i": 30,
-"a": "t58",
-"b": "t60",
-"a_name": "minimizing the test suite and its benefits",
-"b_name": "test suite prioritization its type"
-},
-{
-"i": 31,
-"a": "t75",
-"b": "t76",
-"a_name": "Testing in Scrum phases",
-"b_name": "Challenges in Agile Testing Testing Web based Systems"
-},
-{
-"i": 32,
+"i": 2,
 "a": "t49",
 "b": "t53",
 "a_name": "Software Metrics",
 "b_name": "estimation model for testing effort"
 },
 {
-"i": 33,
+"i": 3,
+"a": "t68",
+"b": "t72",
+"a_name": "Study of testing tools",
+"b_name": "Selenium"
+},
+{
+"i": 4,
+"a": "t24",
+"b": "t26",
+"a_name": "White Box Testing Techniques",
+"b_name": "Basis Path Testing"
+},
+{
+"i": 5,
+"a": "t36",
+"b": "t37",
+"a_name": "Acceptance Testing",
+"b_name": "Regression Testing"
+},
+{
+"i": 6,
+"a": "t65",
+"b": "t66",
+"a_name": "selection and cost in testing tool",
+"b_name": "Test Automation Strategy & ROI"
+},
+{
+"i": 7,
+"a": "t10",
+"b": "t13",
+"a_name": "Verification and Validation concept",
+"b_name": "Verification requirements"
+},
+{
+"i": 8,
+"a": "t63",
+"b": "t72",
+"a_name": "Automation and Testing Tools",
+"b_name": "Selenium"
+},
+{
+"i": 9,
+"a": "t63",
+"b": "t70",
+"a_name": "Automation and Testing Tools",
+"b_name": "Bugzilla"
+},
+{
+"i": 10,
+"a": "t37",
+"b": "t43",
+"a_name": "Regression Testing",
+"b_name": "Regression Testing Techniques"
+},
+{
+"i": 11,
+"a": "t68",
+"b": "t69",
+"a_name": "Study of testing tools",
+"b_name": "JIRA"
+},
+{
+"i": 12,
+"a": "t65",
+"b": "t67",
+"a_name": "selection and cost in testing tool",
+"b_name": "guidelines for testing tools"
+},
+{
+"i": 13,
+"a": "t63",
+"b": "t69",
+"a_name": "Automation and Testing Tools",
+"b_name": "JIRA"
+},
+{
+"i": 14,
+"a": "t45",
+"b": "t46",
+"a_name": "test organization",
+"b_name": "structure and of testing group"
+},
+{
+"i": 15,
+"a": "t10",
+"b": "t16",
+"a_name": "Verification and Validation concept",
+"b_name": "validation"
+},
+{
+"i": 16,
+"a": "t2",
+"b": "t1",
+"a_name": "Software Testing Definitions (Error, Defect, Failure, Root Cause)",
+"b_name": "Goals of Software Testing"
+},
+{
+"i": 17,
+"a": "t77",
+"b": "t80",
+"a_name": "Web based system",
+"b_name": "challenges in testing for web based software"
+},
+{
+"i": 18,
+"a": "t63",
+"b": "t68",
+"a_name": "Automation and Testing Tools",
+"b_name": "Study of testing tools"
+},
+{
+"i": 19,
+"a": "t18",
+"b": "t23",
+"a_name": "Black Box Testing",
+"b_name": "Error Guessing"
+},
+{
+"i": 20,
+"a": "t41",
+"b": "t43",
+"a_name": "Regression Testing Types",
+"b_name": "Regression Testing Techniques"
+},
+{
+"i": 21,
+"a": "t33",
+"b": "t35",
+"a_name": "Integration",
+"b_name": "System"
+},
+{
+"i": 22,
+"a": "t68",
+"b": "t70",
+"a_name": "Study of testing tools",
+"b_name": "Bugzilla"
+},
+{
+"i": 23,
 "a": "t87",
 "b": "t88",
 "a_name": "Process Quality",
 "b_name": "Overview of ISO9000:2000 and SIX sigma"
 },
 {
-"i": 34,
-"a": "t51",
-"b": "t53",
-"a_name": "Testing Metrics for Monitoring and Controlling the Testing Process",
-"b_name": "estimation model for testing effort"
+"i": 24,
+"a": "t63",
+"b": "t66",
+"a_name": "Automation and Testing Tools",
+"b_name": "Test Automation Strategy & ROI"
 },
 {
-"i": 35,
-"a": "t10",
-"b": "t12",
-"a_name": "Verification and Validation concept",
-"b_name": "their role in early defect prevention"
+"i": 25,
+"a": "t33",
+"b": "t34",
+"a_name": "Integration",
+"b_name": "Function"
 },
 {
-"i": 36,
-"a": "t85",
-"b": "t87",
-"a_name": "Quality Management Product Quality",
-"b_name": "Process Quality"
+"i": 26,
+"a": "t82",
+"b": "t84",
+"a_name": "Software Quality Management",
+"b_name": "Quality Assurance"
 },
 {
-"i": 37,
-"a": "t37",
-"b": "t57",
-"a_name": "Regression Testing",
-"b_name": "Efficient Test Suite Management"
+"i": 27,
+"a": "t6",
+"b": "t7",
+"a_name": "Software Testing Terminology",
+"b_name": "Software Testing Life Cycle (STLC)"
 },
 {
-"i": 38,
+"i": 28,
+"a": "t79",
+"b": "t80",
+"a_name": "differences between traditional software and web based software",
+"b_name": "challenges in testing for web based software"
+},
+{
+"i": 29,
+"a": "t34",
+"b": "t35",
+"a_name": "Function",
+"b_name": "System"
+},
+{
+"i": 30,
 "a": "t2",
-"b": "t6",
+"b": "t62",
 "a_name": "Software Testing Definitions (Error, Defect, Failure, Root Cause)",
-"b_name": "Software Testing Terminology"
-},
-{
-"i": 39,
-"a": "t1",
-"b": "t4",
-"a_name": "Goals of Software Testing",
-"b_name": "Effective Software Testing vs Exhaustive Software Testing"
+"b_name": "Root Cause Analysis (RCA)"
 }
 ]
 }

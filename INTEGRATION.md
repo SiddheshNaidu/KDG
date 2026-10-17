@@ -12,7 +12,7 @@ NEP syllabus PDF
               app/parser/nep_verify.py   every topic must appear in the raw page text
               scripts/parse_corpus.py    -> data/processed/corpus_v2/{accepted.jsonl, review.jsonl+csv, rejected.csv}
   -> topics   scripts/build_topics_nep.py -> data/processed/topics_nep.json
-  -> edges    app/ml/infer.py            Bundle("nep5"): XGBoost + PCA + isotonic calibrator, offline (no network, no API key)
+  -> edges    app/ml/infer.py            Bundle("nep6"): XGBoost + PCA + isotonic calibrator, offline (no network, no API key)
   -> graph    nodes, edges{a,b,p,band,redundant}, Kahn order and levels   (see section 3, same as demo/graph_data.json)
   -> UI       demo/kdg_demo.html         standalone demo of graph + Kahn + mastery gating (not part of the app)
 ```
@@ -24,28 +24,28 @@ Run order (all offline):
 python scripts/parse_corpus.py          # PDFs in data/raw -> corpus + reasons
 python scripts/build_topics_nep.py      # corpus -> topics_nep.json, train/val/test split by course code
 python scripts/merge_labels.py && python scripts/make_adjudication.py   # then independent adjudication -> scripts/finalize_labels.py
-LABEL_DIR=data/labelling/final python scripts/train_nep.py --name nep5 --features nep2
-LABEL_DIR=data/labelling/final python scripts/eval_models.py v5 nep4 nep5   # frozen evaluation on the unseen test PDFs
+LABEL_DIR=data/labelling/final python scripts/train_nep.py --name nep6 --features nep2
+LABEL_DIR=data/labelling/final python scripts/eval_models.py v5 nep4 nep6   # frozen evaluation on the unseen test PDFs
 python scripts/export_demo_graph.py && python scripts/build_demo.py   # demo/kdg_demo.html
 ```
 
 ## 2. Model facts you must not oversell
 
-Full report: **`MODEL_REPORT.md`** (numbers in `data/gold/eval_test_nep5*.txt`). Headline, measured on 18 courses from PDFs/branches never used for training (Chemical and Mechanical Sem III-IV, E&TC Sem 5/6, Mechanical Sem 5/6):
+Full report: **`MODEL_REPORT.md`** (numbers in `data/gold/eval_test_nep6*.txt`). Headline, measured on 18 courses from PDFs/branches never used for training (Chemical and Mechanical Sem III-IV, E&TC Sem 5/6, Mechanical Sem 5/6):
 
-- Directed edge F1 **0.37** for the current model `nep5` vs **0.22** for the old v5, but only **0.35** for the trivial "adjacent topic in the same module" rule; on Mechanical Sem III-IV the trivial rule is better (0.41 vs 0.35). The model is only slightly better than that rule.
+- Directed edge F1 **0.40** for the current model `nep6` vs **0.25** for the old v5, but **0.37** for the trivial "adjacent topic in the same module" rule; the model is only slightly better than that rule.
 - Confidence is **calibrated** (error 0.002): pairs scored 0.7-1.0 were in the reference labels 77% of the time, 0.5-0.7 about 46%. Treat edges below 0.5 as uncertain.
-- **The reference labels are written by AI, not people** (two independent labelling passes + an independent adjudicator; 3,118 final edges over 67 courses). Every score is softer than a human-checked test would be.
-- Known parser defects (hyphenated names split in two, some glued list items, a few truncated last modules) were not changed in this run; fixing them and relabelling is the next planned task.
+- **The reference labels are written by AI, not people** (two independent labelling passes + an independent adjudicator; 2,447 final edges over 55 courses). Every score is softer than a human-checked test would be.
+- Splitter/truncation defects were fixed and everything was re-parsed and relabelled in round 2; residual junk from typos in the source PDFs remains.
 - Edges are within one course only; backward dependencies are untested (99% of labelled edges point forward).
-- Thresholds live in `app/ml/model_artifact_nep5_meta.json` (`threshold`, `margin`, `reduce`).
+- Thresholds live in `app/ml/model_artifact_nep6_meta.json` (`threshold`, `margin`, `reduce`).
 
 ## 3. Data contract (what the API should return per course)
 
 ```json
 {
   "course": {"code": "2074113", "title": "Heat Transfer Operations", "source_pdf": "6.40-N-...pdf"},
-  "model": {"name": "nep5", "accepted_threshold": 0.25, "uncertain_threshold": 0.10, "calibrated": true},
+  "model": {"name": "nep6", "accepted_threshold": 0.25, "uncertain_threshold": 0.10, "calibrated": true},
   "nodes": [{"id": "t1", "name": "Fourier's Law", "module": 1}],
   "edges": [{"a": 3, "b": 5, "p": 0.62, "band": "accepted", "redundant": false}],
   "kahn_order": [0, 1, 2],
@@ -62,13 +62,13 @@ Full report: **`MODEL_REPORT.md`** (numbers in `data/gold/eval_test_nep5*.txt`).
 | Need | Existing reference code | What to do |
 |---|---|---|
 | Upload + parse | `reference/app/api/builder_router.py` (`/pipeline/upload-and-parse`), old parser `reference/app/parser/nep_syllabus_parser.py` | Replace the parser call with `app/parser/*` (table-first). Return, per course: tier (accepted / review / rejected) and `why`. Keep returning HTTP 422 `low_confidence` if nothing passes. |
-| Edge inference | `reference/app/services/relationship_inferencer.py` + `classifier_inference_service.py` (v5, forward pairs only, direction by list order) | Use `app.ml.infer.infer_course(topics, bundle=Bundle.get("nep5"), ctx={"title":..., "module_names":{idx:name}})`. It scores both directions, applies threshold/margin, caps (in <= 3, out <= 6), DAG guard. `reduce` is False for decisions; apply transitive reduction only for display. |
+| Edge inference | `reference/app/services/relationship_inferencer.py` + `classifier_inference_service.py` (v5, forward pairs only, direction by list order) | Use `app.ml.infer.infer_course(topics, bundle=Bundle.get("nep6"), ctx={"title":..., "module_names":{idx:name}})`. It scores both directions, applies threshold/margin, caps (in <= 3, out <= 6), DAG guard. `reduce` is False for decisions; apply transitive reduction only for display. |
 | Kahn ordering | `reference/app/services/sequence_engine.py` `SequenceEngine.get_topological_sequence` (in-degree BFS, raises on cycle) and `/sequence/topological` | Keep. Feed it accepted edges only. The response already needs `kahn_level` for column layout (depth = longest path from a start node). |
 | Missing prerequisites | `reference/app/services/analytics_engine.py` `get_missing_prerequisites` = `Ancestors(T) \ Known`, ordered by the topological sequence, with percentage | Keep. Restrict to accepted edges so uncertain edges never create a "missing" item. |
 | Ready now / next to study | `reference/app/services/recommendation_engine.py` | Keep; a topic is ready when all its accepted parents are known. |
 | Saved mastery | `reference/app/api/persistence_router.py` `POST /persistence/user-progress` | Key mastery by stable topic key `<course_code>:<module>:<slug>` + syllabus hash, not by `t1,t2,...` (ids restart per course). Auth design: decision D5 in the local PRD (anonymous-first accounts) is a proposal, not decided. |
 
-Model loading: `Bundle.get("nep5")` loads `app/ml/model_artifact_nep5.joblib`, `pca_artifact_nep5.joblib`, `calibrator_nep5.joblib`. The sentence encoder `all-MiniLM-L6-v2` must already be in the local Hugging Face cache; `infer.py` sets `HF_HUB_OFFLINE=1`, so inference never touches the network.
+Model loading: `Bundle.get("nep6")` loads `app/ml/model_artifact_nep6.joblib`, `pca_artifact_nep6.joblib`, `calibrator_nep6.joblib`. The sentence encoder `all-MiniLM-L6-v2` must already be in the local Hugging Face cache; `infer.py` sets `HF_HUB_OFFLINE=1`, so inference never touches the network.
 
 ## 5. Frontend plug-in points (to be confirmed against the files you verify)
 

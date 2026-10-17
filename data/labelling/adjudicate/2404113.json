@@ -1,0 +1,340 @@
+{
+"course": "2404113",
+"title": "Theory of Machines",
+"topics": [
+{
+"id": "t1",
+"name": "Basic Kinematics Kinematic link & its types",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Kinematic pairs",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Types of Kinematic pairs",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Kinematic chains",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Types of constrained motions",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Mechanism",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Machine",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Structure",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Types of joints",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Degree of freedom (mobility)",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Kutzbach mobility criterion",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Grűbler's criterion & its limitations",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Four bar chain and its inversions",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Slider crank chain and its inversions",
+"module": 1
+},
+{
+"id": "t15",
+"name": "Double slider crank chain and its inversions",
+"module": 1
+},
+{
+"id": "t16",
+"name": "Hooks Joint (Single and double)",
+"module": 1
+},
+{
+"id": "t17",
+"name": "Velocity Analysis of Mechanisms (mechanisms up to 6 links)",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Velocity analysis by relative velocity method (Graphical approach)",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Cam and follower",
+"module": 3
+},
+{
+"id": "t20",
+"name": "Classification Cam and follower terminology",
+"module": 3
+},
+{
+"id": "t21",
+"name": "Motions of the follower",
+"module": 3
+},
+{
+"id": "t22",
+"name": "Uniform Velocity",
+"module": 3
+},
+{
+"id": "t23",
+"name": "SHM",
+"module": 3
+},
+{
+"id": "t24",
+"name": "Constant acceleration and deceleration (parabolic)",
+"module": 3
+},
+{
+"id": "t25",
+"name": "Cycloidal. (Displacement, Velocity and acceleration Plots)",
+"module": 3
+},
+{
+"id": "t26",
+"name": "Power Transmission Belts",
+"module": 4
+},
+{
+"id": "t27",
+"name": "Chains",
+"module": 4
+},
+{
+"id": "t28",
+"name": "Belts",
+"module": 4
+},
+{
+"id": "t29",
+"name": "Dynamic analysis –belt tensions",
+"module": 4
+},
+{
+"id": "t30",
+"name": "condition of maximum power transmission",
+"module": 4
+},
+{
+"id": "t31",
+"name": "Introduction to Chain Drives",
+"module": 4
+},
+{
+"id": "t32",
+"name": "Classification of chains",
+"module": 4
+},
+{
+"id": "t33",
+"name": "length of chain",
+"module": 4
+},
+{
+"id": "t34",
+"name": "Types of brakes Introduction and Classification",
+"module": 4
+},
+{
+"id": "t35",
+"name": "Gears",
+"module": 5
+},
+{
+"id": "t36",
+"name": "Law of gearing",
+"module": 5
+},
+{
+"id": "t37",
+"name": "Forms of tooth",
+"module": 5
+},
+{
+"id": "t38",
+"name": "Details of gear terminology",
+"module": 5
+},
+{
+"id": "t39",
+"name": "Path of contact",
+"module": 5
+},
+{
+"id": "t40",
+"name": "Arc of contact",
+"module": 5
+},
+{
+"id": "t41",
+"name": "Contact ratio",
+"module": 5
+},
+{
+"id": "t42",
+"name": "Interference in involutes gears",
+"module": 5
+},
+{
+"id": "t43",
+"name": "Minimum number of teeth for interference free motion",
+"module": 5
+},
+{
+"id": "t44",
+"name": "Governors",
+"module": 6
+},
+{
+"id": "t45",
+"name": "Introduction to Centrifugal and Inertia governors",
+"module": 6
+},
+{
+"id": "t46",
+"name": "Study and Force analysis of Porter and Hartnell governors",
+"module": 6
+},
+{
+"id": "t47",
+"name": "Gyroscope",
+"module": 6
+},
+{
+"id": "t48",
+"name": "Gyroscopic couple and its effect on spinning bodies",
+"module": 6
+},
+{
+"id": "t49",
+"name": "naval ship during steering",
+"module": 6
+},
+{
+"id": "t50",
+"name": "pitching",
+"module": 6
+},
+{
+"id": "t51",
+"name": "rolling and their stabilization",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t6",
+"b": "t13",
+"a_name": "Mechanism",
+"b_name": "Four bar chain and its inversions"
+},
+{
+"i": 1,
+"a": "t17",
+"b": "t18",
+"a_name": "Velocity Analysis of Mechanisms (mechanisms up to 6 links)",
+"b_name": "Velocity analysis by relative velocity method (Graphical approach)"
+},
+{
+"i": 2,
+"a": "t13",
+"b": "t17",
+"a_name": "Four bar chain and its inversions",
+"b_name": "Velocity Analysis of Mechanisms (mechanisms up to 6 links)"
+},
+{
+"i": 3,
+"a": "t14",
+"b": "t17",
+"a_name": "Slider crank chain and its inversions",
+"b_name": "Velocity Analysis of Mechanisms (mechanisms up to 6 links)"
+},
+{
+"i": 4,
+"a": "t13",
+"b": "t18",
+"a_name": "Four bar chain and its inversions",
+"b_name": "Velocity analysis by relative velocity method (Graphical approach)"
+},
+{
+"i": 5,
+"a": "t2",
+"b": "t5",
+"a_name": "Kinematic pairs",
+"b_name": "Types of constrained motions"
+},
+{
+"i": 6,
+"a": "t6",
+"b": "t10",
+"a_name": "Mechanism",
+"b_name": "Degree of freedom (mobility)"
+},
+{
+"i": 7,
+"a": "t38",
+"b": "t43",
+"a_name": "Details of gear terminology",
+"b_name": "Minimum number of teeth for interference free motion"
+},
+{
+"i": 8,
+"a": "t2",
+"b": "t10",
+"a_name": "Kinematic pairs",
+"b_name": "Degree of freedom (mobility)"
+},
+{
+"i": 9,
+"a": "t36",
+"b": "t39",
+"a_name": "Law of gearing",
+"b_name": "Path of contact"
+},
+{
+"i": 10,
+"a": "t6",
+"b": "t17",
+"a_name": "Mechanism",
+"b_name": "Velocity Analysis of Mechanisms (mechanisms up to 6 links)"
+}
+]
+}

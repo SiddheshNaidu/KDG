@@ -1,0 +1,184 @@
+{
+"edges": [
+{
+"a": "t1",
+"b": "t3",
+"why": "resolving needs force classification"
+},
+{
+"a": "t3",
+"b": "t4",
+"why": "resultant uses composition"
+},
+{
+"a": "t5",
+"b": "t7",
+"why": "Varignon theorem about moments"
+},
+{
+"a": "t5",
+"b": "t6",
+"why": "couple is moment pair"
+},
+{
+"a": "t5",
+"b": "t4",
+"why": "resultant of general system uses moment"
+},
+{
+"a": "t3",
+"b": "t9",
+"why": "concurrent system resultant uses composition"
+},
+{
+"a": "t9",
+"b": "t8",
+"why": "space forces extend concurrent"
+},
+{
+"a": "t10",
+"b": "t11",
+"why": "composite shapes use basic centroids"
+},
+{
+"a": "t4",
+"b": "t12",
+"why": "equilibrium means zero resultant"
+},
+{
+"a": "t12",
+"b": "t13",
+"why": "conditions of equilibrium"
+},
+{
+"a": "t13",
+"b": "t14",
+"why": "extend to general forces"
+},
+{
+"a": "t16",
+"b": "t15",
+"why": "FBD for rigid body equilibrium"
+},
+{
+"a": "t15",
+"b": "t17",
+"why": "beams are rigid body equilibrium"
+},
+{
+"a": "t18",
+"b": "t17",
+"why": "beam types for analysis"
+},
+{
+"a": "t20",
+"b": "t21",
+"why": "reactions from supports"
+},
+{
+"a": "t16",
+"b": "t21",
+"why": "FBD to find reactions"
+},
+{
+"a": "t22",
+"b": "t23",
+"why": "laws of friction"
+},
+{
+"a": "t23",
+"b": "t25",
+"why": "angle of friction from laws"
+},
+{
+"a": "t25",
+"b": "t24",
+"why": "cone defined by angle of friction"
+},
+{
+"a": "t25",
+"b": "t26",
+"why": "inclined plane analysis uses friction angle"
+},
+{
+"a": "t27",
+"b": "t28",
+"why": "curved path motion extends particle motion"
+},
+{
+"a": "t28",
+"b": "t29",
+"why": "rectangular components"
+},
+{
+"a": "t29",
+"b": "t30",
+"why": "tangential normal components"
+},
+{
+"a": "t32",
+"b": "t35",
+"why": "inertia force from force and acceleration"
+},
+{
+"a": "t35",
+"b": "t34",
+"why": "DAlembert uses inertia force"
+},
+{
+"a": "t34",
+"b": "t36",
+"why": "dynamic equilibrium follows DAlembert"
+},
+{
+"a": "t32",
+"b": "t37",
+"why": "impulse momentum from force acceleration"
+},
+{
+"a": "t37",
+"b": "t39",
+"why": "conservation follows from impulse-momentum"
+},
+{
+"a": "t39",
+"b": "t38",
+"why": "collision uses momentum conservation"
+},
+{
+"a": "t38",
+"b": "t40",
+"why": "restitution describes impacts"
+},
+{
+"a": "t40",
+"b": "t41",
+"why": "direct and oblique impact use restitution"
+},
+{
+"a": "t40",
+"b": "t42",
+"why": "energy loss depends on restitution"
+},
+{
+"a": "t43",
+"b": "t44",
+"why": "DOF is robot mechanics concept"
+},
+{
+"a": "t44",
+"b": "t46",
+"why": "forward kinematics requires DOF"
+},
+{
+"a": "t45",
+"b": "t46",
+"why": "DH parameters used in kinematics"
+},
+{
+"a": "t46",
+"b": "t47",
+"why": "transformations carry forward kinematics"
+}
+]
+}

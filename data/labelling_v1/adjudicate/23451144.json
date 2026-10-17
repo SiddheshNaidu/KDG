@@ -1,0 +1,605 @@
+{
+"course": "23451144",
+"title": "Image Processing",
+"topics": [
+{
+"id": "t1",
+"name": "Image Fundamentals",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Image Definition",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Steps and Components of Image Processing",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Image Sensing and Acquisition",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Image Sampling and Quantization",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Relationship Between Pixels",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Adjacency",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Connectivity",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Distance Measures",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Point Processing Techniques",
+"module": 2
+},
+{
+"id": "t11",
+"name": "Image Negative",
+"module": 2
+},
+{
+"id": "t12",
+"name": "Contrast Stretching",
+"module": 2
+},
+{
+"id": "t13",
+"name": "Thresholding",
+"module": 2
+},
+{
+"id": "t14",
+"name": "Gray Level Slicing",
+"module": 2
+},
+{
+"id": "t15",
+"name": "Bit Plane Slicing",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Mask Processing Techniques",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Filtering in Spatial Domain",
+"module": 2
+},
+{
+"id": "t18",
+"name": "2D Correlation and Convolution",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Smoothing Filters (Average, Weighted Average)",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Sharpening Filters",
+"module": 2
+},
+{
+"id": "t21",
+"name": "Order Statistic Filters (Min, Max, Median)",
+"module": 2
+},
+{
+"id": "t22",
+"name": "Histogram Processing",
+"module": 2
+},
+{
+"id": "t23",
+"name": "Histogram Equalization and Histogram Specification/Matching",
+"module": 2
+},
+{
+"id": "t24",
+"name": "Discrete Fourier Transform (DFT)",
+"module": 3
+},
+{
+"id": "t25",
+"name": "2D-DFT Transform Pair",
+"module": 3
+},
+{
+"id": "t26",
+"name": "Properties (Translation, Rotation, Periodicity)",
+"module": 3
+},
+{
+"id": "t27",
+"name": "Filtering in the Frequency Domain (Low-pass and High-pass)",
+"module": 3
+},
+{
+"id": "t28",
+"name": "Other Discrete Transforms",
+"module": 3
+},
+{
+"id": "t29",
+"name": "Discrete Cosine Transform (DCT)",
+"module": 3
+},
+{
+"id": "t30",
+"name": "Discrete Hadamard Transform",
+"module": 3
+},
+{
+"id": "t31",
+"name": "Discrete Haar Transform",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Entropy",
+"module": 4
+},
+{
+"id": "t33",
+"name": "Redundancy (Coding, Inter-pixel, Psycho-visual)",
+"module": 4
+},
+{
+"id": "t34",
+"name": "Compression Ratio",
+"module": 4
+},
+{
+"id": "t35",
+"name": "Fidelity Criteria",
+"module": 4
+},
+{
+"id": "t36",
+"name": "Lossless Compression",
+"module": 4
+},
+{
+"id": "t37",
+"name": "Run-Length Encoding",
+"module": 4
+},
+{
+"id": "t38",
+"name": "Huffman Coding",
+"module": 4
+},
+{
+"id": "t39",
+"name": "Arithmetic Coding",
+"module": 4
+},
+{
+"id": "t40",
+"name": "LZW Coding",
+"module": 4
+},
+{
+"id": "t41",
+"name": "Lossless Predictive Coding",
+"module": 4
+},
+{
+"id": "t42",
+"name": "Lossy Compression",
+"module": 4
+},
+{
+"id": "t43",
+"name": "Lossy Predictive Coding",
+"module": 4
+},
+{
+"id": "t44",
+"name": "Vector Quantization",
+"module": 4
+},
+{
+"id": "t45",
+"name": "Introduction to JPEG Compression Standard",
+"module": 4
+},
+{
+"id": "t46",
+"name": "Image Segmentation",
+"module": 5
+},
+{
+"id": "t47",
+"name": "Point",
+"module": 5
+},
+{
+"id": "t48",
+"name": "Line",
+"module": 5
+},
+{
+"id": "t49",
+"name": "Edge Detection Methods (Gradient operators: Sobel, Prewitt)",
+"module": 5
+},
+{
+"id": "t50",
+"name": "Hough Transform for line detection",
+"module": 5
+},
+{
+"id": "t51",
+"name": "Region-Based Segmentation (Region Growing, Region Splitting and Merging)",
+"module": 5
+},
+{
+"id": "t52",
+"name": "Image Representation",
+"module": 5
+},
+{
+"id": "t53",
+"name": "Chain Codes",
+"module": 5
+},
+{
+"id": "t54",
+"name": "Shape Numbers",
+"module": 5
+},
+{
+"id": "t55",
+"name": "Polygon Approximation",
+"module": 5
+},
+{
+"id": "t56",
+"name": "Statistical Moments",
+"module": 5
+},
+{
+"id": "t57",
+"name": "Basic Morphological Methods",
+"module": 6
+},
+{
+"id": "t58",
+"name": "Structuring Elements",
+"module": 6
+},
+{
+"id": "t59",
+"name": "Erosion",
+"module": 6
+},
+{
+"id": "t60",
+"name": "Dilation",
+"module": 6
+},
+{
+"id": "t61",
+"name": "Opening",
+"module": 6
+},
+{
+"id": "t62",
+"name": "Closing",
+"module": 6
+},
+{
+"id": "t63",
+"name": "Hit-or-Miss Transformation",
+"module": 6
+},
+{
+"id": "t64",
+"name": "Advanced Morphological Methods",
+"module": 6
+},
+{
+"id": "t65",
+"name": "Boundary Extraction",
+"module": 6
+},
+{
+"id": "t66",
+"name": "Thinning",
+"module": 6
+},
+{
+"id": "t67",
+"name": "Thickening",
+"module": 6
+},
+{
+"id": "t68",
+"name": "Pruning",
+"module": 6
+},
+{
+"id": "t69",
+"name": "Skeletonization",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t46",
+"b": "t47",
+"a_name": "Image Segmentation",
+"b_name": "Point"
+},
+{
+"i": 1,
+"a": "t32",
+"b": "t39",
+"a_name": "Entropy",
+"b_name": "Arithmetic Coding"
+},
+{
+"i": 2,
+"a": "t60",
+"b": "t67",
+"a_name": "Dilation",
+"b_name": "Thickening"
+},
+{
+"i": 3,
+"a": "t5",
+"b": "t10",
+"a_name": "Image Sampling and Quantization",
+"b_name": "Point Processing Techniques"
+},
+{
+"i": 4,
+"a": "t7",
+"b": "t8",
+"a_name": "Adjacency",
+"b_name": "Connectivity"
+},
+{
+"i": 5,
+"a": "t17",
+"b": "t20",
+"a_name": "Filtering in Spatial Domain",
+"b_name": "Sharpening Filters"
+},
+{
+"i": 6,
+"a": "t32",
+"b": "t33",
+"a_name": "Entropy",
+"b_name": "Redundancy (Coding, Inter-pixel, Psycho-visual)"
+},
+{
+"i": 7,
+"a": "t53",
+"b": "t54",
+"a_name": "Chain Codes",
+"b_name": "Shape Numbers"
+},
+{
+"i": 8,
+"a": "t1",
+"b": "t3",
+"a_name": "Image Fundamentals",
+"b_name": "Steps and Components of Image Processing"
+},
+{
+"i": 9,
+"a": "t57",
+"b": "t64",
+"a_name": "Basic Morphological Methods",
+"b_name": "Advanced Morphological Methods"
+},
+{
+"i": 10,
+"a": "t33",
+"b": "t36",
+"a_name": "Redundancy (Coding, Inter-pixel, Psycho-visual)",
+"b_name": "Lossless Compression"
+},
+{
+"i": 11,
+"a": "t24",
+"b": "t28",
+"a_name": "Discrete Fourier Transform (DFT)",
+"b_name": "Other Discrete Transforms"
+},
+{
+"i": 12,
+"a": "t60",
+"b": "t63",
+"a_name": "Dilation",
+"b_name": "Hit-or-Miss Transformation"
+},
+{
+"i": 13,
+"a": "t35",
+"b": "t42",
+"a_name": "Fidelity Criteria",
+"b_name": "Lossy Compression"
+},
+{
+"i": 14,
+"a": "t63",
+"b": "t66",
+"a_name": "Hit-or-Miss Transformation",
+"b_name": "Thinning"
+},
+{
+"i": 15,
+"a": "t5",
+"b": "t22",
+"a_name": "Image Sampling and Quantization",
+"b_name": "Histogram Processing"
+},
+{
+"i": 16,
+"a": "t17",
+"b": "t21",
+"a_name": "Filtering in Spatial Domain",
+"b_name": "Order Statistic Filters (Min, Max, Median)"
+},
+{
+"i": 17,
+"a": "t63",
+"b": "t67",
+"a_name": "Hit-or-Miss Transformation",
+"b_name": "Thickening"
+},
+{
+"i": 18,
+"a": "t38",
+"b": "t45",
+"a_name": "Huffman Coding",
+"b_name": "Introduction to JPEG Compression Standard"
+},
+{
+"i": 19,
+"a": "t59",
+"b": "t63",
+"a_name": "Erosion",
+"b_name": "Hit-or-Miss Transformation"
+},
+{
+"i": 20,
+"a": "t46",
+"b": "t48",
+"a_name": "Image Segmentation",
+"b_name": "Line"
+},
+{
+"i": 21,
+"a": "t18",
+"b": "t20",
+"a_name": "2D Correlation and Convolution",
+"b_name": "Sharpening Filters"
+},
+{
+"i": 22,
+"a": "t64",
+"b": "t65",
+"a_name": "Advanced Morphological Methods",
+"b_name": "Boundary Extraction"
+},
+{
+"i": 23,
+"a": "t18",
+"b": "t49",
+"a_name": "2D Correlation and Convolution",
+"b_name": "Edge Detection Methods (Gradient operators: Sobel, Prewitt)"
+},
+{
+"i": 24,
+"a": "t6",
+"b": "t8",
+"a_name": "Relationship Between Pixels",
+"b_name": "Connectivity"
+},
+{
+"i": 25,
+"a": "t34",
+"b": "t35",
+"a_name": "Compression Ratio",
+"b_name": "Fidelity Criteria"
+},
+{
+"i": 26,
+"a": "t58",
+"b": "t63",
+"a_name": "Structuring Elements",
+"b_name": "Hit-or-Miss Transformation"
+},
+{
+"i": 27,
+"a": "t13",
+"b": "t46",
+"a_name": "Thresholding",
+"b_name": "Image Segmentation"
+},
+{
+"i": 28,
+"a": "t33",
+"b": "t34",
+"a_name": "Redundancy (Coding, Inter-pixel, Psycho-visual)",
+"b_name": "Compression Ratio"
+},
+{
+"i": 29,
+"a": "t2",
+"b": "t4",
+"a_name": "Image Definition",
+"b_name": "Image Sensing and Acquisition"
+},
+{
+"i": 30,
+"a": "t1",
+"b": "t2",
+"a_name": "Image Fundamentals",
+"b_name": "Image Definition"
+},
+{
+"i": 31,
+"a": "t60",
+"b": "t66",
+"a_name": "Dilation",
+"b_name": "Thinning"
+},
+{
+"i": 32,
+"a": "t17",
+"b": "t49",
+"a_name": "Filtering in Spatial Domain",
+"b_name": "Edge Detection Methods (Gradient operators: Sobel, Prewitt)"
+},
+{
+"i": 33,
+"a": "t4",
+"b": "t5",
+"a_name": "Image Sensing and Acquisition",
+"b_name": "Image Sampling and Quantization"
+},
+{
+"i": 34,
+"a": "t32",
+"b": "t36",
+"a_name": "Entropy",
+"b_name": "Lossless Compression"
+},
+{
+"i": 35,
+"a": "t18",
+"b": "t21",
+"a_name": "2D Correlation and Convolution",
+"b_name": "Order Statistic Filters (Min, Max, Median)"
+}
+]
+}

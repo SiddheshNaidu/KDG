@@ -1,289 +1,294 @@
 {
- "edges": [
-  {
-   "a": "t2",
-   "b": "t3",
-   "why": "formation before sampling"
-  },
-  {
-   "a": "t7",
-   "b": "t8",
-   "why": "point operations are gray level transforms"
-  },
-  {
-   "a": "t8",
-   "b": "t9",
-   "why": "point operation techniques"
-  },
-  {
-   "a": "t8",
-   "b": "t10",
-   "why": "point operation techniques"
-  },
-  {
-   "a": "t8",
-   "b": "t11",
-   "why": "point operation techniques"
-  },
-  {
-   "a": "t8",
-   "b": "t12",
-   "why": "point operation techniques"
-  },
-  {
-   "a": "t14",
-   "b": "t15",
-   "why": "equalization uses histogram processing"
-  },
-  {
-   "a": "t17",
-   "b": "t18",
-   "why": "spatial filtering uses neighbourhood ops"
-  },
-  {
-   "a": "t18",
-   "b": "t19",
-   "why": "smoothing/sharpening are spatial filters"
-  },
-  {
-   "a": "t5",
-   "b": "t24",
-   "why": "DFT is frequency domain"
-  },
-  {
-   "a": "t26",
-   "b": "t27",
-   "why": "degradation concepts before causes and noise"
-  },
-  {
-   "a": "t26",
-   "b": "t28",
-   "why": "degradation concepts before causes and noise"
-  },
-  {
-   "a": "t28",
-   "b": "t29",
-   "why": "noise model family"
-  },
-  {
-   "a": "t28",
-   "b": "t30",
-   "why": "noise model family"
-  },
-  {
-   "a": "t28",
-   "b": "t31",
-   "why": "noise model family"
-  },
-  {
-   "a": "t28",
-   "b": "t32",
-   "why": "noise model family"
-  },
-  {
-   "a": "t28",
-   "b": "t33",
-   "why": "noise model family"
-  },
-  {
-   "a": "t18",
-   "b": "t34",
-   "why": "mean/median are spatial filters"
-  },
-  {
-   "a": "t18",
-   "b": "t35",
-   "why": "mean/median are spatial filters"
-  },
-  {
-   "a": "t24",
-   "b": "t38",
-   "why": "frequency filters use DFT"
-  },
-  {
-   "a": "t38",
-   "b": "t39",
-   "why": "inverse filter is frequency filter"
-  },
-  {
-   "a": "t39",
-   "b": "t40",
-   "why": "Wiener improves on inverse filtering"
-  },
-  {
-   "a": "t43",
-   "b": "t44",
-   "why": "compression model exploits redundancies"
-  },
-  {
-   "a": "t44",
-   "b": "t45",
-   "why": "lossless/lossy exploit redundancy"
-  },
-  {
-   "a": "t44",
-   "b": "t50",
-   "why": "lossless/lossy exploit redundancy"
-  },
-  {
-   "a": "t45",
-   "b": "t46",
-   "why": "lossless techniques"
-  },
-  {
-   "a": "t45",
-   "b": "t47",
-   "why": "lossless techniques"
-  },
-  {
-   "a": "t45",
-   "b": "t48",
-   "why": "lossless techniques"
-  },
-  {
-   "a": "t45",
-   "b": "t49",
-   "why": "lossless techniques"
-  },
-  {
-   "a": "t50",
-   "b": "t51",
-   "why": "lossy techniques"
-  },
-  {
-   "a": "t50",
-   "b": "t52",
-   "why": "lossy techniques"
-  },
-  {
-   "a": "t56",
-   "b": "t57",
-   "why": "PSNR derived from MSE"
-  },
-  {
-   "a": "t58",
-   "b": "t59",
-   "why": "segmentation approaches"
-  },
-  {
-   "a": "t58",
-   "b": "t61",
-   "why": "segmentation approaches"
-  },
-  {
-   "a": "t58",
-   "b": "t62",
-   "why": "segmentation approaches"
-  },
-  {
-   "a": "t14",
-   "b": "t61",
-   "why": "Otsu uses histogram"
-  },
-  {
-   "a": "t59",
-   "b": "t60",
-   "why": "boundary detection uses discontinuities"
-  },
-  {
-   "a": "t65",
-   "b": "t64",
-   "why": "dilation uses structuring element"
-  },
-  {
-   "a": "t64",
-   "b": "t66",
-   "why": "composed from dilation and erosion"
-  },
-  {
-   "a": "t64",
-   "b": "t67",
-   "why": "composed from dilation and erosion"
-  },
-  {
-   "a": "t64",
-   "b": "t68",
-   "why": "composed from dilation and erosion"
-  },
-  {
-   "a": "t64",
-   "b": "t70",
-   "why": "composed from dilation and erosion"
-  },
-  {
-   "a": "t66",
-   "b": "t69",
-   "why": "top-hat uses opening"
-  },
-  {
-   "a": "t71",
-   "b": "t72",
-   "why": "features overview first"
-  },
-  {
-   "a": "t71",
-   "b": "t73",
-   "why": "features overview first"
-  },
-  {
-   "a": "t76",
-   "b": "t77",
-   "why": "GLCM is texture method"
-  },
-  {
-   "a": "t77",
-   "b": "t78",
-   "why": "Haralick features derive from GLCM"
-  },
-  {
-   "a": "t73",
-   "b": "t84",
-   "why": "matching compares descriptors"
-  },
-  {
-   "a": "t75",
-   "b": "t86",
-   "why": "SIFT extracts features"
-  },
-  {
-   "a": "t86",
-   "b": "t87",
-   "why": "SURF speeds up SIFT"
-  },
-  {
-   "a": "t88",
-   "b": "t89",
-   "why": "analysis via classification"
-  },
-  {
-   "a": "t89",
-   "b": "t90",
-   "why": "classifiers and recognition"
-  },
-  {
-   "a": "t89",
-   "b": "t91",
-   "why": "classifiers and recognition"
-  },
-  {
-   "a": "t89",
-   "b": "t92",
-   "why": "classifiers and recognition"
-  },
-  {
-   "a": "t89",
-   "b": "t93",
-   "why": "classifiers and recognition"
-  },
-  {
-   "a": "t94",
-   "b": "t95",
-   "why": "DL intro before CNNs"
-  },
-  {
-   "a": "t95",
-   "b": "t96",
-   "why": "transfer learning uses CNNs"
-  }
- ]
+"edges": [
+{
+"a": "t2",
+"b": "t3",
+"why": "image must be formed before sampled"
+},
+{
+"a": "t3",
+"b": "t4",
+"why": "sampling/quantization precedes color representation"
+},
+{
+"a": "t3",
+"b": "t13",
+"why": "bit planes require quantized pixel values"
+},
+{
+"a": "t6",
+"b": "t7",
+"why": "basics before gray transforms"
+},
+{
+"a": "t7",
+"b": "t9",
+"why": "negative is a gray transform"
+},
+{
+"a": "t7",
+"b": "t10",
+"why": "contrast stretching is gray transform"
+},
+{
+"a": "t7",
+"b": "t11",
+"why": "dynamic range compression is gray transform"
+},
+{
+"a": "t7",
+"b": "t12",
+"why": "slicing is gray transform"
+},
+{
+"a": "t4",
+"b": "t14",
+"why": "histogram basics before histogram processing"
+},
+{
+"a": "t14",
+"b": "t15",
+"why": "equalization built on histograms"
+},
+{
+"a": "t17",
+"b": "t18",
+"why": "neighbourhood processing underlies spatial filtering"
+},
+{
+"a": "t18",
+"b": "t19",
+"why": "filtering needed for smoothing/sharpening"
+},
+{
+"a": "t19",
+"b": "t21",
+"why": "specific filters follow smoothing/sharpening concepts"
+},
+{
+"a": "t5",
+"b": "t24",
+"why": "frequency domain fundamentals before DFT"
+},
+{
+"a": "t16",
+"b": "t28",
+"why": "noise concepts before noise models"
+},
+{
+"a": "t26",
+"b": "t28",
+"why": "degradation concepts before noise models"
+},
+{
+"a": "t28",
+"b": "t29",
+"why": "noise models include Gaussian"
+},
+{
+"a": "t28",
+"b": "t30",
+"why": "salt and pepper model"
+},
+{
+"a": "t28",
+"b": "t31",
+"why": "uniform noise model"
+},
+{
+"a": "t28",
+"b": "t32",
+"why": "Rayleigh noise model"
+},
+{
+"a": "t28",
+"b": "t33",
+"why": "exponential noise model"
+},
+{
+"a": "t28",
+"b": "t34",
+"why": "mean filters restore noisy images"
+},
+{
+"a": "t24",
+"b": "t38",
+"why": "frequency filtering needs DFT"
+},
+{
+"a": "t38",
+"b": "t39",
+"why": "inverse filter is frequency filter"
+},
+{
+"a": "t38",
+"b": "t40",
+"why": "Wiener is frequency filter"
+},
+{
+"a": "t43",
+"b": "t44",
+"why": "compression model introduces redundancies"
+},
+{
+"a": "t44",
+"b": "t45",
+"why": "lossless removes redundancies"
+},
+{
+"a": "t44",
+"b": "t50",
+"why": "lossy exploits redundancies"
+},
+{
+"a": "t45",
+"b": "t47",
+"why": "Huffman is lossless coding"
+},
+{
+"a": "t45",
+"b": "t46",
+"why": "RLC is lossless"
+},
+{
+"a": "t45",
+"b": "t49",
+"why": "LZW is lossless"
+},
+{
+"a": "t50",
+"b": "t51",
+"why": "transform coding is lossy"
+},
+{
+"a": "t50",
+"b": "t52",
+"why": "DPCM is lossy"
+},
+{
+"a": "t56",
+"b": "t57",
+"why": "PSNR derived from MSE"
+},
+{
+"a": "t58",
+"b": "t59",
+"why": "segmentation uses discontinuity detection"
+},
+{
+"a": "t59",
+"b": "t60",
+"why": "edge linking follows detection"
+},
+{
+"a": "t58",
+"b": "t61",
+"why": "thresholding is segmentation method"
+},
+{
+"a": "t58",
+"b": "t62",
+"why": "region segmentation"
+},
+{
+"a": "t64",
+"b": "t66",
+"why": "opening/closing use dilation and erosion"
+},
+{
+"a": "t64",
+"b": "t67",
+"why": "gradient uses dilation and erosion"
+},
+{
+"a": "t64",
+"b": "t68",
+"why": "hit-or-miss uses erosion"
+},
+{
+"a": "t66",
+"b": "t69",
+"why": "top-hat uses opening/closing"
+},
+{
+"a": "t64",
+"b": "t70",
+"why": "reconstruction uses dilation"
+},
+{
+"a": "t65",
+"b": "t64",
+"why": "dilation/erosion need structuring element"
+},
+{
+"a": "t71",
+"b": "t72",
+"why": "features before local/global distinction"
+},
+{
+"a": "t71",
+"b": "t75",
+"why": "features before extraction"
+},
+{
+"a": "t76",
+"b": "t77",
+"why": "GLCM is texture method"
+},
+{
+"a": "t77",
+"b": "t78",
+"why": "Haralick features from GLCM"
+},
+{
+"a": "t76",
+"b": "t80",
+"why": "LBP is texture method"
+},
+{
+"a": "t81",
+"b": "t82",
+"why": "PCA is dimensionality reduction"
+},
+{
+"a": "t75",
+"b": "t86",
+"why": "SIFT extracts features"
+},
+{
+"a": "t86",
+"b": "t87",
+"why": "SURF builds on SIFT"
+},
+{
+"a": "t73",
+"b": "t84",
+"why": "matching uses descriptors"
+},
+{
+"a": "t89",
+"b": "t90",
+"why": "KNN is classifier"
+},
+{
+"a": "t89",
+"b": "t91",
+"why": "SVM is classifier"
+},
+{
+"a": "t89",
+"b": "t92",
+"why": "decision tree is classifier"
+},
+{
+"a": "t94",
+"b": "t95",
+"why": "DL concepts before CNN"
+},
+{
+"a": "t95",
+"b": "t96",
+"why": "transfer learning uses CNNs"
+}
+]
 }

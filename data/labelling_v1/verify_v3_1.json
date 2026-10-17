@@ -1,0 +1,70 @@
+{
+ "verdicts": {
+  "BSC2033|b9b3c645ce62dd97": {
+   "verdict": "FIXABLE",
+   "topics": 27,
+   "junk": 2,
+   "note": "dangling qualifiers split from parent ('definition and components','formation and significance')"
+  },
+  "PCC2011|e54a4f31c734f808": {
+   "verdict": "BAD",
+   "topics": 46,
+   "junk": 15,
+   "note": "comma/colon lists exploded into fragments ('Linear','Nonlinear','Static','Dynamic and operations on Data Structures'; 'Insertion','deletion'; 'Insert','Delete'); glued 'Representing expressions using of Expression tree and Huffman Encoding'"
+  },
+  "2165111|105d6a317ab03c8c": {
+   "verdict": "FIXABLE",
+   "topics": 167,
+   "junk": 6,
+   "note": "glued 'Naive Bayes (...). k-NN classifier', stray 'conceptual overview', 'backward (overview)'; MISSING F1, R2 (plain), 'numerical' data type"
+  },
+  "2165112|50a1e98edf1fd5b5": {
+   "verdict": "FIXABLE",
+   "topics": 67,
+   "junk": 8,
+   "note": "sub-heading glued to next item ('present state of AI Introduction to Soft Computing','McCulloch Pitt model Supervised Learning algorithms','Back Propagation algorithm Un-Supervised Learning algorithms'); split 'Fuzzy'|'Neural'|'Neuro-Fuzzy models'"
+  },
+  "2165116|bee0832eda8dca21": {
+   "verdict": "FIXABLE",
+   "topics": 103,
+   "junk": 6,
+   "note": "split parenthetical ('Design Issues (Services to Network Layer, Framing' | 'Error control, Flow control'); glued 'Elementary Data Link protocols MAC Sub layer'; 'Sub- netting'; dangling 'Concepts and Benefits'"
+  },
+  "2166114|1a05c972e5a32093": {
+   "verdict": "BAD",
+   "topics": 76,
+   "junk": 10,
+   "note": "MODULE 6 TRUNCATED (5 topics; missing adversarial AI attacks, phishing/deepfake detection, ML/DL threat detection, vuln scanning, etc.); glued 'Advanced Encryption Standard Public key cryptography', duplicates Cyber Space/Cyberspace"
+  },
+  "2166115|676bb874ed16f76c": {
+   "verdict": "FIXABLE",
+   "topics": 86,
+   "junk": 7,
+   "note": "glued 'trade-off analysis. methods of MOO', 'classical and evolutionary Evolutionary algorithm framework for MOO'; 'bio- inspired'; fragment 'omega hierarchy guides search around prey' (alpha,beta,delta lost)"
+  },
+  "2073112|431c479d4c2a5047": {
+   "verdict": "FIXABLE",
+   "topics": 92,
+   "junk": 10,
+   "note": "split hyphenated names ('Hagen'|'Poiseullie equation'; 'Butterfly valve and Non'|'Return valve'; 'tube differential manometer','Inverted differential U'|'tube manometer'); glued 'Power Number Introduction to Compressors'"
+  },
+  "2073113|8fb7188862397180": {
+   "verdict": "FIXABLE",
+   "topics": 22,
+   "junk": 2,
+   "note": "sentence split mid-phrase ('...under steady' | 'unsteady state conditions')"
+  },
+  "2073114|d9e7466bec13b804": {
+   "verdict": "FIXABLE",
+   "topics": 25,
+   "junk": 3,
+   "note": "glued 'Throttling Process (Joule- Thomson Expansion) and Compressors', 'Redlich-Kwong- Soave and Peng-Robinson...'; half 'Diagrams and their applications'"
+  },
+  "2074111|a13dc82d1bdf516c": {
+   "verdict": "FIXABLE",
+   "topics": 28,
+   "junk": 3,
+   "note": "list halves ('van Laar equation and Wilson equation' split from Margules; 'equilibrium constant of a reaction'; 'refrigerant flow rate and power consumption')"
+  }
+ }
+}

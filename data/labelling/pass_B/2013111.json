@@ -3,117 +3,107 @@
 {
 "a": "t1",
 "b": "t2",
-"why": "char eq gives eigenvalues"
+"why": "foundation concept needed first"
 },
 {
 "a": "t1",
 "b": "t3",
-"why": "theorem is about characteristic equation"
+"why": "foundation concept needed first"
 },
 {
 "a": "t3",
 "b": "t4",
-"why": "theorem applied to compute powers/inverse"
-},
-{
-"a": "t2",
-"b": "t5",
-"why": "eigen-based similarity invariants"
+"why": "foundation concept needed first"
 },
 {
 "a": "t2",
 "b": "t6",
-"why": "diagonalization uses eigenvectors"
+"why": "foundation concept needed first"
 },
 {
 "a": "t5",
 "b": "t6",
-"why": "diagonalization is similarity to diagonal"
-},
-{
-"a": "t10",
-"b": "t8",
-"why": "slack variables convert to standard form"
-},
-{
-"a": "t11",
-"b": "t8",
-"why": "surplus variables convert to standard form"
+"why": "foundation concept needed first"
 },
 {
 "a": "t8",
 "b": "t9",
-"why": "basic solutions defined for standard form"
+"why": "foundation concept needed first"
+},
+{
+"a": "t10",
+"b": "t8",
+"why": "foundation concept needed first"
+},
+{
+"a": "t11",
+"b": "t8",
+"why": "foundation concept needed first"
 },
 {
 "a": "t9",
 "b": "t12",
-"why": "simplex moves between basic feasible solutions"
+"why": "foundation concept needed first"
 },
 {
-"a": "t8",
+"a": "t10",
 "b": "t12",
-"why": "simplex needs standard form"
+"why": "foundation concept needed first"
 },
 {
-"a": "t13",
-"b": "t14",
-"why": "constraint cases extend Lagrange single constraint"
+"a": "t11",
+"b": "t12",
+"why": "foundation concept needed first"
+},
+{
+"a": "t14",
+"b": "t15",
+"why": "foundation concept needed first"
 },
 {
 "a": "t15",
-"b": "t16",
-"why": "linear congruence uses congruence"
+"b": "t18",
+"why": "foundation concept needed first"
 },
 {
-"a": "t15",
-"b": "t17",
-"why": "remainders underlie congruence"
-},
-{
-"a": "t16",
+"a": "t14",
 "b": "t19",
-"why": "systems built from linear congruences"
+"why": "foundation concept needed first"
 },
 {
-"a": "t15",
-"b": "t21",
-"why": "Fermat theorem stated with congruence"
-},
-{
-"a": "t21",
+"a": "t14",
 "b": "t20",
-"why": "Euler generalizes Fermat"
+"why": "foundation concept needed first"
+},
+{
+"a": "t19",
+"b": "t21",
+"why": "foundation concept needed first"
 },
 {
 "a": "t20",
-"b": "t22",
-"why": "RSA decryption uses Euler theorem"
+"b": "t21",
+"why": "foundation concept needed first"
+},
+{
+"a": "t22",
+"b": "t23",
+"why": "foundation concept needed first"
 },
 {
 "a": "t23",
 "b": "t24",
-"why": "Dirichlet conditions needed for Fourier series"
+"why": "foundation concept needed first"
 },
 {
-"a": "t24",
-"b": "t25",
-"why": "even/odd are special cases of series"
+"a": "t25",
+"b": "t27",
+"why": "foundation concept needed first"
 },
 {
-"a": "t26",
-"b": "t28",
-"why": "regression lines use correlation coefficient"
-},
-{
-"a": "t28",
+"a": "t30",
 "b": "t29",
-"why": "curve fitting uses least-squares regression"
-},
-{
-"a": "t31",
-"b": "t30",
-"why": "mgf generates raw moments"
+"why": "foundation concept needed first"
 }
 ]
 }

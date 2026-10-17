@@ -1,0 +1,169 @@
+{
+"edges": [
+{
+"a": "t1",
+"b": "t2",
+"why": "characteristics concern fuel"
+},
+{
+"a": "t1",
+"b": "t3",
+"why": "calorific value of fuel"
+},
+{
+"a": "t4",
+"b": "t5",
+"why": "analysis applies to coal"
+},
+{
+"a": "t5",
+"b": "t6",
+"why": "proximate is coal analysis"
+},
+{
+"a": "t5",
+"b": "t7",
+"why": "ultimate is coal analysis"
+},
+{
+"a": "t7",
+"b": "t8",
+"why": "combustion numericals use ultimate analysis"
+},
+{
+"a": "t9",
+"b": "t10",
+"why": "dry is type of corrosion"
+},
+{
+"a": "t9",
+"b": "t11",
+"why": "wet is type of corrosion"
+},
+{
+"a": "t11",
+"b": "t12",
+"why": "factors affect electrochemical corrosion"
+},
+{
+"a": "t11",
+"b": "t16",
+"why": "pH affects electrochemical corrosion"
+},
+{
+"a": "t11",
+"b": "t19",
+"why": "area ratio affects electrochemical corrosion"
+},
+{
+"a": "t11",
+"b": "t20",
+"why": "overvoltage in electrochemical corrosion"
+},
+{
+"a": "t11",
+"b": "t24",
+"why": "cathodic protection exploits electrochemical corrosion"
+},
+{
+"a": "t11",
+"b": "t25",
+"why": "inhibitors alter electrochemical process"
+},
+{
+"a": "t28",
+"b": "t29",
+"why": "phase rule studies alloys"
+},
+{
+"a": "t29",
+"b": "t30",
+"why": "terms needed to apply phase rule"
+},
+{
+"a": "t29",
+"b": "t31",
+"why": "reduced rule derived from phase rule"
+},
+{
+"a": "t30",
+"b": "t32",
+"why": "applying phase rule needs terms"
+},
+{
+"a": "t31",
+"b": "t32",
+"why": "condensed rule used for Pb-Ag"
+},
+{
+"a": "t29",
+"b": "t33",
+"why": "limitations of phase rule"
+},
+{
+"a": "t35",
+"b": "t36",
+"why": "bonding in polymers"
+},
+{
+"a": "t35",
+"b": "t37",
+"why": "classify polymers"
+},
+{
+"a": "t35",
+"b": "t39",
+"why": "molecular weight needs polymer concept"
+},
+{
+"a": "t39",
+"b": "t40",
+"why": "weight average parallels number average"
+},
+{
+"a": "t35",
+"b": "t41",
+"why": "crystallinity of polymers"
+},
+{
+"a": "t41",
+"b": "t42",
+"why": "Tg relates to amorphous regions"
+},
+{
+"a": "t43",
+"b": "t44",
+"why": "hardness is mechanical property"
+},
+{
+"a": "t43",
+"b": "t45",
+"why": "tensile strength is mechanical property"
+},
+{
+"a": "t49",
+"b": "t50",
+"why": "dielectric strength electrical property"
+},
+{
+"a": "t53",
+"b": "t54",
+"why": "refractive index optical property"
+},
+{
+"a": "t59",
+"b": "t60",
+"why": "phases are constituents"
+},
+{
+"a": "t59",
+"b": "t61",
+"why": "classification by constituents"
+},
+{
+"a": "t64",
+"b": "t65",
+"why": "supercritical solvents are green solvents"
+}
+]
+}

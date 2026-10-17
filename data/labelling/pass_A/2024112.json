@@ -1,0 +1,204 @@
+{
+"edges": [
+{
+"a": "t5",
+"b": "t6",
+"why": "weak entity relative to entity types"
+},
+{
+"a": "t7",
+"b": "t8",
+"why": "attributes describe entities"
+},
+{
+"a": "t8",
+"b": "t9",
+"why": "keys built from attributes"
+},
+{
+"a": "t7",
+"b": "t10",
+"why": "relationship constraints involve entity sets"
+},
+{
+"a": "t10",
+"b": "t11",
+"why": "cardinality is relationship constraint"
+},
+{
+"a": "t5",
+"b": "t12",
+"why": "EER extends ER"
+},
+{
+"a": "t12",
+"b": "t13",
+"why": "generalization in EER"
+},
+{
+"a": "t12",
+"b": "t14",
+"why": "specialization in EER"
+},
+{
+"a": "t15",
+"b": "t16",
+"why": "schema and keys in relational model"
+},
+{
+"a": "t16",
+"b": "t17",
+"why": "mapping targets relational schema"
+},
+{
+"a": "t11",
+"b": "t17",
+"why": "mapping uses cardinality"
+},
+{
+"a": "t15",
+"b": "t18",
+"why": "algebra operates on relations"
+},
+{
+"a": "t19",
+"b": "t20",
+"why": "DDL part of SQL"
+},
+{
+"a": "t20",
+"b": "t21",
+"why": "constraints declared in DDL"
+},
+{
+"a": "t21",
+"b": "t22",
+"why": "key constraints are integrity constraints"
+},
+{
+"a": "t21",
+"b": "t23",
+"why": "domain constraints are integrity constraints"
+},
+{
+"a": "t21",
+"b": "t24",
+"why": "referential integrity is integrity constraint"
+},
+{
+"a": "t21",
+"b": "t25",
+"why": "check constraints are integrity constraints"
+},
+{
+"a": "t20",
+"b": "t26",
+"why": "DML acts on defined tables"
+},
+{
+"a": "t18",
+"b": "t29",
+"why": "joins from relational algebra"
+},
+{
+"a": "t29",
+"b": "t30",
+"why": "nested queries build on joins"
+},
+{
+"a": "t26",
+"b": "t31",
+"why": "views defined by queries"
+},
+{
+"a": "t26",
+"b": "t33",
+"why": "triggers act on DML"
+},
+{
+"a": "t19",
+"b": "t34",
+"why": "PL/SQL extends SQL"
+},
+{
+"a": "t35",
+"b": "t36",
+"why": "pitfalls motivate normalization"
+},
+{
+"a": "t37",
+"b": "t38",
+"why": "closure computed over FDs"
+},
+{
+"a": "t37",
+"b": "t39",
+"why": "normal forms defined via FDs"
+},
+{
+"a": "t39",
+"b": "t40",
+"why": "2NF extends 1NF"
+},
+{
+"a": "t40",
+"b": "t41",
+"why": "3NF extends 2NF"
+},
+{
+"a": "t41",
+"b": "t42",
+"why": "BCNF stricter than 3NF"
+},
+{
+"a": "t42",
+"b": "t43",
+"why": "4NF beyond BCNF"
+},
+{
+"a": "t44",
+"b": "t45",
+"why": "states of a transaction"
+},
+{
+"a": "t44",
+"b": "t46",
+"why": "concurrent executions of transactions"
+},
+{
+"a": "t46",
+"b": "t47",
+"why": "serializability judges concurrent schedules"
+},
+{
+"a": "t47",
+"b": "t48",
+"why": "concurrency control ensures serializability"
+},
+{
+"a": "t48",
+"b": "t49",
+"why": "lock-based protocol"
+},
+{
+"a": "t48",
+"b": "t50",
+"why": "timestamp protocol"
+},
+{
+"a": "t44",
+"b": "t51",
+"why": "recovery of transactions"
+},
+{
+"a": "t51",
+"b": "t52",
+"why": "log-based recovery technique"
+},
+{
+"a": "t49",
+"b": "t53",
+"why": "deadlocks arise with locking"
+}
+]
+}

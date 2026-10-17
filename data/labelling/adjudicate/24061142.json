@@ -194,7 +194,7 @@
 },
 {
 "id": "t39",
-"name": "Device-to- Gateway",
+"name": "Device-to-Gateway",
 "module": 4
 },
 {
@@ -424,31 +424,108 @@
 },
 {
 "id": "t85",
-"name": "IoT- enabled shop-floor monitoring",
+"name": "IoT-enabled shop-floor monitoring",
 "module": 6
 }
 ],
 "candidates": [
 {
 "i": 0,
-"a": "t8",
-"b": "t26",
-"a_name": "Sensors",
-"b_name": "Data Acquisition (DAQ) system"
+"a": "t68",
+"b": "t71",
+"a_name": "IoT Cloud Platforms (overview only)",
+"b_name": "Google IoT"
 },
 {
 "i": 1,
-"a": "t56",
-"b": "t57",
-"a_name": "Data flow",
-"b_name": "Sensing → Transmission → Cloud → Visualization"
+"a": "t48",
+"b": "t51",
+"a_name": "Application Protocols",
+"b_name": "CoAP"
 },
 {
 "i": 2,
-"a": "t78",
-"b": "t85",
-"a_name": "Introduction to Industrial IoT (IIoT)",
-"b_name": "IoT- enabled shop-floor monitoring"
+"a": "t74",
+"b": "t77",
+"a_name": "Authentication",
+"b_name": "Common industrial vulnerabilities and mitigation strategies"
+},
+{
+"i": 3,
+"a": "t62",
+"b": "t68",
+"a_name": "Cloud",
+"b_name": "IoT Cloud Platforms (overview only)"
+},
+{
+"i": 4,
+"a": "t73",
+"b": "t77",
+"a_name": "Security in IoT Systems",
+"b_name": "Common industrial vulnerabilities and mitigation strategies"
+},
+{
+"i": 5,
+"a": "t62",
+"b": "t64",
+"a_name": "Cloud",
+"b_name": "Cloud computing models"
+},
+{
+"i": 6,
+"a": "t57",
+"b": "t63",
+"a_name": "Sensing → Transmission → Cloud → Visualization",
+"b_name": "Visualization dashboards for real-time monitoring"
+},
+{
+"i": 7,
+"a": "t1",
+"b": "t2",
+"a_name": "evolution of IoT",
+"b_name": "Comparison of IoT and Machine-to-Machine (M2M)"
+},
+{
+"i": 8,
+"a": "t22",
+"b": "t53",
+"a_name": "Role of microcontrollers in IoT",
+"b_name": "GPIO"
+},
+{
+"i": 9,
+"a": "t62",
+"b": "t63",
+"a_name": "Cloud",
+"b_name": "Visualization dashboards for real-time monitoring"
+},
+{
+"i": 10,
+"a": "t49",
+"b": "t51",
+"a_name": "HTTP",
+"b_name": "CoAP"
+},
+{
+"i": 11,
+"a": "t8",
+"b": "t80",
+"a_name": "Sensors",
+"b_name": "Condition monitoring and predictive maintenance"
+},
+{
+"i": 12,
+"a": "t48",
+"b": "t52",
+"a_name": "Application Protocols",
+"b_name": "OPC-UA for shop-floor and SCADA communication (overview) Interfaces (Conceptual Only)"
+},
+{
+"i": 13,
+"a": "t53",
+"b": "t54",
+"a_name": "GPIO",
+"b_name": "UART"
 }
 ]
 }

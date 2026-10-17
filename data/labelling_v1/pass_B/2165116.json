@@ -1,0 +1,504 @@
+{
+"edges": [
+{
+"a": "t1",
+"b": "t2",
+"why": "direct prerequisite"
+},
+{
+"a": "t1",
+"b": "t3",
+"why": "direct prerequisite"
+},
+{
+"a": "t1",
+"b": "t4",
+"why": "direct prerequisite"
+},
+{
+"a": "t1",
+"b": "t5",
+"why": "direct prerequisite"
+},
+{
+"a": "t7",
+"b": "t10",
+"why": "direct prerequisite"
+},
+{
+"a": "t7",
+"b": "t11",
+"why": "direct prerequisite"
+},
+{
+"a": "t10",
+"b": "t11",
+"why": "direct prerequisite"
+},
+{
+"a": "t7",
+"b": "t8",
+"why": "direct prerequisite"
+},
+{
+"a": "t10",
+"b": "t18",
+"why": "direct prerequisite"
+},
+{
+"a": "t18",
+"b": "t19",
+"why": "direct prerequisite"
+},
+{
+"a": "t18",
+"b": "t20",
+"why": "direct prerequisite"
+},
+{
+"a": "t18",
+"b": "t21",
+"why": "direct prerequisite"
+},
+{
+"a": "t18",
+"b": "t22",
+"why": "direct prerequisite"
+},
+{
+"a": "t18",
+"b": "t23",
+"why": "direct prerequisite"
+},
+{
+"a": "t12",
+"b": "t14",
+"why": "direct prerequisite"
+},
+{
+"a": "t14",
+"b": "t15",
+"why": "direct prerequisite"
+},
+{
+"a": "t14",
+"b": "t16",
+"why": "direct prerequisite"
+},
+{
+"a": "t14",
+"b": "t17",
+"why": "direct prerequisite"
+},
+{
+"a": "t15",
+"b": "t17",
+"why": "direct prerequisite"
+},
+{
+"a": "t16",
+"b": "t17",
+"why": "direct prerequisite"
+},
+{
+"a": "t24",
+"b": "t25",
+"why": "direct prerequisite"
+},
+{
+"a": "t24",
+"b": "t26",
+"why": "direct prerequisite"
+},
+{
+"a": "t26",
+"b": "t27",
+"why": "direct prerequisite"
+},
+{
+"a": "t26",
+"b": "t28",
+"why": "direct prerequisite"
+},
+{
+"a": "t26",
+"b": "t29",
+"why": "direct prerequisite"
+},
+{
+"a": "t25",
+"b": "t30",
+"why": "direct prerequisite"
+},
+{
+"a": "t30",
+"b": "t31",
+"why": "direct prerequisite"
+},
+{
+"a": "t30",
+"b": "t32",
+"why": "direct prerequisite"
+},
+{
+"a": "t30",
+"b": "t33",
+"why": "direct prerequisite"
+},
+{
+"a": "t25",
+"b": "t33",
+"why": "direct prerequisite"
+},
+{
+"a": "t24",
+"b": "t34",
+"why": "direct prerequisite"
+},
+{
+"a": "t34",
+"b": "t35",
+"why": "direct prerequisite"
+},
+{
+"a": "t35",
+"b": "t36",
+"why": "direct prerequisite"
+},
+{
+"a": "t35",
+"b": "t37",
+"why": "direct prerequisite"
+},
+{
+"a": "t37",
+"b": "t38",
+"why": "direct prerequisite"
+},
+{
+"a": "t37",
+"b": "t39",
+"why": "direct prerequisite"
+},
+{
+"a": "t36",
+"b": "t37",
+"why": "direct prerequisite"
+},
+{
+"a": "t35",
+"b": "t40",
+"why": "direct prerequisite"
+},
+{
+"a": "t35",
+"b": "t41",
+"why": "direct prerequisite"
+},
+{
+"a": "t34",
+"b": "t41",
+"why": "direct prerequisite"
+},
+{
+"a": "t42",
+"b": "t43",
+"why": "direct prerequisite"
+},
+{
+"a": "t43",
+"b": "t44",
+"why": "direct prerequisite"
+},
+{
+"a": "t43",
+"b": "t45",
+"why": "direct prerequisite"
+},
+{
+"a": "t43",
+"b": "t46",
+"why": "direct prerequisite"
+},
+{
+"a": "t47",
+"b": "t48",
+"why": "direct prerequisite"
+},
+{
+"a": "t47",
+"b": "t49",
+"why": "direct prerequisite"
+},
+{
+"a": "t47",
+"b": "t50",
+"why": "direct prerequisite"
+},
+{
+"a": "t48",
+"b": "t52",
+"why": "direct prerequisite"
+},
+{
+"a": "t52",
+"b": "t53",
+"why": "direct prerequisite"
+},
+{
+"a": "t52",
+"b": "t54",
+"why": "direct prerequisite"
+},
+{
+"a": "t53",
+"b": "t54",
+"why": "direct prerequisite"
+},
+{
+"a": "t47",
+"b": "t51",
+"why": "direct prerequisite"
+},
+{
+"a": "t49",
+"b": "t52",
+"why": "direct prerequisite"
+},
+{
+"a": "t55",
+"b": "t56",
+"why": "direct prerequisite"
+},
+{
+"a": "t56",
+"b": "t57",
+"why": "direct prerequisite"
+},
+{
+"a": "t47",
+"b": "t55",
+"why": "direct prerequisite"
+},
+{
+"a": "t55",
+"b": "t58",
+"why": "direct prerequisite"
+},
+{
+"a": "t55",
+"b": "t59",
+"why": "direct prerequisite"
+},
+{
+"a": "t42",
+"b": "t47",
+"why": "direct prerequisite"
+},
+{
+"a": "t43",
+"b": "t60",
+"why": "direct prerequisite"
+},
+{
+"a": "t60",
+"b": "t61",
+"why": "direct prerequisite"
+},
+{
+"a": "t60",
+"b": "t62",
+"why": "direct prerequisite"
+},
+{
+"a": "t62",
+"b": "t63",
+"why": "direct prerequisite"
+},
+{
+"a": "t62",
+"b": "t64",
+"why": "direct prerequisite"
+},
+{
+"a": "t62",
+"b": "t65",
+"why": "direct prerequisite"
+},
+{
+"a": "t63",
+"b": "t66",
+"why": "direct prerequisite"
+},
+{
+"a": "t64",
+"b": "t67",
+"why": "direct prerequisite"
+},
+{
+"a": "t65",
+"b": "t66",
+"why": "direct prerequisite"
+},
+{
+"a": "t65",
+"b": "t67",
+"why": "direct prerequisite"
+},
+{
+"a": "t65",
+"b": "t68",
+"why": "direct prerequisite"
+},
+{
+"a": "t62",
+"b": "t68",
+"why": "direct prerequisite"
+},
+{
+"a": "t69",
+"b": "t70",
+"why": "direct prerequisite"
+},
+{
+"a": "t69",
+"b": "t71",
+"why": "direct prerequisite"
+},
+{
+"a": "t70",
+"b": "t72",
+"why": "direct prerequisite"
+},
+{
+"a": "t72",
+"b": "t73",
+"why": "direct prerequisite"
+},
+{
+"a": "t72",
+"b": "t74",
+"why": "direct prerequisite"
+},
+{
+"a": "t74",
+"b": "t75",
+"why": "direct prerequisite"
+},
+{
+"a": "t72",
+"b": "t77",
+"why": "direct prerequisite"
+},
+{
+"a": "t72",
+"b": "t78",
+"why": "direct prerequisite"
+},
+{
+"a": "t77",
+"b": "t79",
+"why": "direct prerequisite"
+},
+{
+"a": "t79",
+"b": "t80",
+"why": "direct prerequisite"
+},
+{
+"a": "t79",
+"b": "t82",
+"why": "direct prerequisite"
+},
+{
+"a": "t81",
+"b": "t82",
+"why": "direct prerequisite"
+},
+{
+"a": "t72",
+"b": "t81",
+"why": "direct prerequisite"
+},
+{
+"a": "t82",
+"b": "t83",
+"why": "direct prerequisite"
+},
+{
+"a": "t84",
+"b": "t85",
+"why": "direct prerequisite"
+},
+{
+"a": "t84",
+"b": "t86",
+"why": "direct prerequisite"
+},
+{
+"a": "t87",
+"b": "t88",
+"why": "direct prerequisite"
+},
+{
+"a": "t87",
+"b": "t89",
+"why": "direct prerequisite"
+},
+{
+"a": "t88",
+"b": "t90",
+"why": "direct prerequisite"
+},
+{
+"a": "t89",
+"b": "t90",
+"why": "direct prerequisite"
+},
+{
+"a": "t93",
+"b": "t47",
+"why": "direct prerequisite"
+},
+{
+"a": "t91",
+"b": "t92",
+"why": "direct prerequisite"
+},
+{
+"a": "t95",
+"b": "t96",
+"why": "direct prerequisite"
+},
+{
+"a": "t97",
+"b": "t98",
+"why": "direct prerequisite"
+},
+{
+"a": "t98",
+"b": "t99",
+"why": "direct prerequisite"
+},
+{
+"a": "t100",
+"b": "t101",
+"why": "direct prerequisite"
+},
+{
+"a": "t102",
+"b": "t103",
+"why": "direct prerequisite"
+},
+{
+"a": "t97",
+"b": "t99",
+"why": "direct prerequisite"
+},
+{
+"a": "t100",
+"b": "t97",
+"why": "direct prerequisite"
+}
+]
+}

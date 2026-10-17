@@ -336,297 +336,213 @@
 "candidates": [
 {
 "i": 0,
-"a": "t61",
-"b": "t62",
-"a_name": "Types of Evaporators",
-"b_name": "Performance"
-},
-{
-"i": 1,
-"a": "t2",
-"b": "t44",
-"a_name": "Concept of Thermal Resistance",
-"b_name": "individual and Overall Heat Transfer Coefficients"
-},
-{
-"i": 2,
-"a": "t44",
-"b": "t45",
-"a_name": "individual and Overall Heat Transfer Coefficients",
-"b_name": "LMTD"
-},
-{
-"i": 3,
-"a": "t47",
-"b": "t59",
-"a_name": "Classification of Heat Exchangers",
-"b_name": "Plate Heat Exchanger"
-},
-{
-"i": 4,
-"a": "t61",
-"b": "t66",
-"a_name": "Types of Evaporators",
-"b_name": "Process design aspects of evaporators"
-},
-{
-"i": 5,
-"a": "t47",
-"b": "t48",
-"a_name": "Classification of Heat Exchangers",
-"b_name": "Preliminary process design of Double pipe heat exchangers"
-},
-{
-"i": 6,
-"a": "t24",
-"b": "t44",
-"a_name": "Empirical correlations",
-"b_name": "individual and Overall Heat Transfer Coefficients"
-},
-{
-"i": 7,
-"a": "t44",
-"b": "t52",
-"a_name": "individual and Overall Heat Transfer Coefficients",
-"b_name": "Design of Shell & tube heat exchangers"
-},
-{
-"i": 8,
-"a": "t4",
-"b": "t10",
-"a_name": "Fourier's Law",
-"b_name": "Conduction through hollow sphere"
-},
-{
-"i": 9,
-"a": "t3",
-"b": "t17",
-"a_name": "Heat Transfer Coefficient Steady State Conduction",
-"b_name": "Natural Convection"
-},
-{
-"i": 10,
-"a": "t31",
-"b": "t32",
-"a_name": "Boiling",
-"b_name": "Heat transfer to boiling liquids"
-},
-{
-"i": 11,
 "a": "t2",
 "b": "t7",
 "a_name": "Concept of Thermal Resistance",
 "b_name": "composite slab"
 },
 {
-"i": 12,
-"a": "t42",
-"b": "t45",
-"a_name": "energy balance",
-"b_name": "LMTD"
+"i": 1,
+"a": "t45",
+"b": "t52",
+"a_name": "LMTD",
+"b_name": "Design of Shell & tube heat exchangers"
 },
 {
-"i": 13,
-"a": "t4",
-"b": "t13",
-"a_name": "Fourier's Law",
-"b_name": "Unsteady state conduction:-Lumped Parameter Analysis"
-},
-{
-"i": 14,
-"a": "t63",
-"b": "t66",
-"a_name": "Capacity and Economy",
-"b_name": "Process design aspects of evaporators"
-},
-{
-"i": 15,
-"a": "t14",
-"b": "t15",
-"a_name": "systems with negligible internal resistance",
-"b_name": "Biot number"
-},
-{
-"i": 16,
+"i": 2,
 "a": "t1",
-"b": "t2",
+"b": "t4",
 "a_name": "Basic Fundamentals and Modes of Heat Transfer with its rate expressions",
-"b_name": "Concept of Thermal Resistance"
+"b_name": "Fourier's Law"
 },
 {
-"i": 17,
-"a": "t42",
-"b": "t43",
-"a_name": "energy balance",
-"b_name": "rate of heat transfer"
+"i": 3,
+"a": "t27",
+"b": "t28",
+"a_name": "types of condensation",
+"b_name": "Nusselt’s theory of condensation"
 },
 {
-"i": 18,
-"a": "t45",
-"b": "t54",
-"a_name": "LMTD",
-"b_name": "Effectiveness-NTU method"
-},
-{
-"i": 19,
+"i": 4,
 "a": "t4",
-"b": "t8",
+"b": "t10",
 "a_name": "Fourier's Law",
-"b_name": "conduction through a cylinder wall"
+"b_name": "Conduction through hollow sphere"
 },
 {
-"i": 20,
-"a": "t23",
-"b": "t19",
-"a_name": "Significance of various dimensionless numbers",
-"b_name": "Heat transfer correlations"
-},
-{
-"i": 21,
-"a": "t61",
-"b": "t63",
-"a_name": "Types of Evaporators",
-"b_name": "Capacity and Economy"
-},
-{
-"i": 22,
-"a": "t15",
-"b": "t13",
-"a_name": "Biot number",
-"b_name": "Unsteady state conduction:-Lumped Parameter Analysis"
-},
-{
-"i": 23,
-"a": "t3",
-"b": "t20",
-"a_name": "Heat Transfer Coefficient Steady State Conduction",
-"b_name": "Forced Convection"
-},
-{
-"i": 24,
-"a": "t45",
-"b": "t48",
-"a_name": "LMTD",
-"b_name": "Preliminary process design of Double pipe heat exchangers"
-},
-{
-"i": 25,
-"a": "t13",
-"b": "t14",
-"a_name": "Unsteady state conduction:-Lumped Parameter Analysis",
-"b_name": "systems with negligible internal resistance"
-},
-{
-"i": 26,
+"i": 5,
 "a": "t47",
 "b": "t60",
 "a_name": "Classification of Heat Exchangers",
 "b_name": "Spiral Heat Exchanger"
 },
 {
-"i": 27,
-"a": "t1",
-"b": "t3",
-"a_name": "Basic Fundamentals and Modes of Heat Transfer with its rate expressions",
-"b_name": "Heat Transfer Coefficient Steady State Conduction"
+"i": 6,
+"a": "t32",
+"b": "t33",
+"a_name": "Heat transfer to boiling liquids",
+"b_name": "Pool Boiling Curve"
 },
 {
-"i": 28,
-"a": "t26",
-"b": "t27",
-"a_name": "Condensation",
-"b_name": "types of condensation"
+"i": 7,
+"a": "t22",
+"b": "t24",
+"a_name": "Heat transfer in laminar and turbulent boundary layers",
+"b_name": "Empirical correlations"
 },
 {
-"i": 29,
-"a": "t41",
-"b": "t45",
-"a_name": "Types of flow",
-"b_name": "LMTD"
+"i": 8,
+"a": "t63",
+"b": "t66",
+"a_name": "Capacity and Economy",
+"b_name": "Process design aspects of evaporators"
 },
 {
-"i": 30,
-"a": "t3",
+"i": 9,
+"a": "t47",
+"b": "t59",
+"a_name": "Classification of Heat Exchangers",
+"b_name": "Plate Heat Exchanger"
+},
+{
+"i": 10,
+"a": "t31",
+"b": "t33",
+"a_name": "Boiling",
+"b_name": "Pool Boiling Curve"
+},
+{
+"i": 11,
+"a": "t43",
 "b": "t44",
-"a_name": "Heat Transfer Coefficient Steady State Conduction",
+"a_name": "rate of heat transfer",
 "b_name": "individual and Overall Heat Transfer Coefficients"
 },
 {
-"i": 31,
-"a": "t17",
-"b": "t19",
-"a_name": "Natural Convection",
-"b_name": "Heat transfer correlations"
+"i": 12,
+"a": "t44",
+"b": "t45",
+"a_name": "individual and Overall Heat Transfer Coefficients",
+"b_name": "LMTD"
 },
 {
-"i": 32,
-"a": "t50",
-"b": "t51",
-"a_name": "nomenclature",
-"b_name": "choice of exchanger type"
+"i": 13,
+"a": "t14",
+"b": "t15",
+"a_name": "systems with negligible internal resistance",
+"b_name": "Biot number"
 },
 {
-"i": 33,
-"a": "t57",
-"b": "t58",
-"a_name": "Fin efficiency and fin effectiveness",
-"b_name": "calculation of rate of heat transfer"
-},
-{
-"i": 34,
-"a": "t6",
-"b": "t8",
-"a_name": "conduction through a flat slab",
-"b_name": "conduction through a cylinder wall"
-},
-{
-"i": 35,
+"i": 14,
 "a": "t44",
 "b": "t54",
 "a_name": "individual and Overall Heat Transfer Coefficients",
 "b_name": "Effectiveness-NTU method"
 },
 {
-"i": 36,
-"a": "t6",
-"b": "t10",
-"a_name": "conduction through a flat slab",
-"b_name": "Conduction through hollow sphere"
+"i": 15,
+"a": "t4",
+"b": "t5",
+"a_name": "Fourier's Law",
+"b_name": "thermal conductivity"
 },
 {
-"i": 37,
-"a": "t47",
-"b": "t49",
-"a_name": "Classification of Heat Exchangers",
-"b_name": "TEMA exchanger types"
-},
-{
-"i": 38,
-"a": "t13",
-"b": "t16",
-"a_name": "Unsteady state conduction:-Lumped Parameter Analysis",
-"b_name": "Fourier number"
-},
-{
-"i": 39,
+"i": 16,
 "a": "t61",
 "b": "t65",
 "a_name": "Types of Evaporators",
 "b_name": "Methods of Feeding for MEE"
 },
 {
-"i": 40,
-"a": "t49",
-"b": "t51",
-"a_name": "TEMA exchanger types",
-"b_name": "choice of exchanger type"
+"i": 17,
+"a": "t4",
+"b": "t8",
+"a_name": "Fourier's Law",
+"b_name": "conduction through a cylinder wall"
 },
 {
-"i": 41,
-"a": "t2",
-"b": "t6",
-"a_name": "Concept of Thermal Resistance",
-"b_name": "conduction through a flat slab"
+"i": 18,
+"a": "t37",
+"b": "t40",
+"a_name": "Radiative heat exchange between surfaces",
+"b_name": "Heat Transfer in Furnaces"
+},
+{
+"i": 19,
+"a": "t21",
+"b": "t20",
+"a_name": "thermal and hydrodynamic boundary layer",
+"b_name": "Forced Convection"
+},
+{
+"i": 20,
+"a": "t13",
+"b": "t15",
+"a_name": "Unsteady state conduction:-Lumped Parameter Analysis",
+"b_name": "Biot number"
+},
+{
+"i": 21,
+"a": "t32",
+"b": "t34",
+"a_name": "Heat transfer to boiling liquids",
+"b_name": "Correlations for estimating the boiling heat transfer coefficients"
+},
+{
+"i": 22,
+"a": "t26",
+"b": "t28",
+"a_name": "Condensation",
+"b_name": "Nusselt’s theory of condensation"
+},
+{
+"i": 23,
+"a": "t61",
+"b": "t62",
+"a_name": "Types of Evaporators",
+"b_name": "Performance"
+},
+{
+"i": 24,
+"a": "t65",
+"b": "t66",
+"a_name": "Methods of Feeding for MEE",
+"b_name": "Process design aspects of evaporators"
+},
+{
+"i": 25,
+"a": "t33",
+"b": "t34",
+"a_name": "Pool Boiling Curve",
+"b_name": "Correlations for estimating the boiling heat transfer coefficients"
+},
+{
+"i": 26,
+"a": "t44",
+"b": "t48",
+"a_name": "individual and Overall Heat Transfer Coefficients",
+"b_name": "Preliminary process design of Double pipe heat exchangers"
+},
+{
+"i": 27,
+"a": "t43",
+"b": "t45",
+"a_name": "rate of heat transfer",
+"b_name": "LMTD"
+},
+{
+"i": 28,
+"a": "t45",
+"b": "t54",
+"a_name": "LMTD",
+"b_name": "Effectiveness-NTU method"
+},
+{
+"i": 29,
+"a": "t36",
+"b": "t40",
+"a_name": "Laws of radiations",
+"b_name": "Heat Transfer in Furnaces"
 }
 ]
 }

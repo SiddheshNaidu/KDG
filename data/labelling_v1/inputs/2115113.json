@@ -1,0 +1,422 @@
+{
+"course": "2115113",
+"title": "Artificial Intelligence & Soft Computing",
+"modules": [
+{
+"index": 1,
+"name": "Introduction to Artificial Intelligence and Soft Computing"
+},
+{
+"index": 2,
+"name": "Problem Solving and Search Techniques"
+},
+{
+"index": 3,
+"name": "Knowledge Representation, Reasoning and Planning"
+},
+{
+"index": 4,
+"name": "Artificial Neural Network"
+},
+{
+"index": 5,
+"name": "Associative Memory Network"
+},
+{
+"index": 6,
+"name": "Fuzzy System"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Definition of Artificial Intelligence",
+"module": 1
+},
+{
+"id": "t2",
+"name": "History of AI Intelligent Agents",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Agents and Environments",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Rationality",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Nature of Environment",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Structure of Agent",
+"module": 1
+},
+{
+"id": "t7",
+"name": "types of Agent",
+"module": 1
+},
+{
+"id": "t8",
+"name": "PEAS Properties",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Soft Computing",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Introduction of soft computing",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Randomness",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Vagueness",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Approximation",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Uncertainty",
+"module": 1
+},
+{
+"id": "t15",
+"name": "soft computing vs. hard computing",
+"module": 1
+},
+{
+"id": "t16",
+"name": "various types of soft computing techniques",
+"module": 1
+},
+{
+"id": "t17",
+"name": "Applications of AI",
+"module": 1
+},
+{
+"id": "t18",
+"name": "Applications of Soft Computing",
+"module": 1
+},
+{
+"id": "t19",
+"name": "Problem Formulation",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Uninformed Search Methods",
+"module": 2
+},
+{
+"id": "t21",
+"name": "Depth Limited Search",
+"module": 2
+},
+{
+"id": "t22",
+"name": "Depth First Iterative Deepening (DFID) Informed Search Method",
+"module": 2
+},
+{
+"id": "t23",
+"name": "Hill climbing Search",
+"module": 2
+},
+{
+"id": "t24",
+"name": "A* Search",
+"module": 2
+},
+{
+"id": "t25",
+"name": "Constraint Satisfaction Problem Solving",
+"module": 2
+},
+{
+"id": "t26",
+"name": "Water Jug Problem",
+"module": 2
+},
+{
+"id": "t27",
+"name": "Zero-Sum Game",
+"module": 2
+},
+{
+"id": "t28",
+"name": "Min-Max Algorithm",
+"module": 2
+},
+{
+"id": "t29",
+"name": "Alpha- Beta Pruning",
+"module": 2
+},
+{
+"id": "t30",
+"name": "Knowledge based agents",
+"module": 3
+},
+{
+"id": "t31",
+"name": "First order logic",
+"module": 3
+},
+{
+"id": "t32",
+"name": "syntax and Semantic Knowledge Engineering in FOL Inference in FOL",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Unification",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Forward Chaining",
+"module": 3
+},
+{
+"id": "t35",
+"name": "Backward Chaining and Resolution",
+"module": 3
+},
+{
+"id": "t36",
+"name": "Partial Order Planning",
+"module": 3
+},
+{
+"id": "t37",
+"name": "Hierarchical Planning and Conditional Planning",
+"module": 3
+},
+{
+"id": "t38",
+"name": "Biological Neural System",
+"module": 4
+},
+{
+"id": "t39",
+"name": "Elements of Artificial Neural Networks",
+"module": 4
+},
+{
+"id": "t40",
+"name": "McCulloch- Pitts Neuron",
+"module": 4
+},
+{
+"id": "t41",
+"name": "Activation Functions",
+"module": 4
+},
+{
+"id": "t42",
+"name": "Unipolar and Bipolar Functions",
+"module": 4
+},
+{
+"id": "t43",
+"name": "Learning Rules",
+"module": 4
+},
+{
+"id": "t44",
+"name": "Hebbian Learning",
+"module": 4
+},
+{
+"id": "t45",
+"name": "Perceptron",
+"module": 4
+},
+{
+"id": "t46",
+"name": "Delta learning rule",
+"module": 4
+},
+{
+"id": "t47",
+"name": "Competitive Learning",
+"module": 4
+},
+{
+"id": "t48",
+"name": "Neural Network Architecture",
+"module": 4
+},
+{
+"id": "t49",
+"name": "Single layer Feed Forward ANN",
+"module": 4
+},
+{
+"id": "t50",
+"name": "Multilayer Feed Forward ANN",
+"module": 4
+},
+{
+"id": "t51",
+"name": "Back Propagation algorithm",
+"module": 4
+},
+{
+"id": "t52",
+"name": "Un-Supervised Learning algorithm",
+"module": 4
+},
+{
+"id": "t53",
+"name": "Kohonen Self Organizing Maps",
+"module": 4
+},
+{
+"id": "t54",
+"name": "Learning VQ",
+"module": 4
+},
+{
+"id": "t55",
+"name": "Introduction to Associative Memory",
+"module": 5
+},
+{
+"id": "t56",
+"name": "Auto associative and Hetero associative Memory Network",
+"module": 5
+},
+{
+"id": "t57",
+"name": "Bidirectional Associative Memory (BAM)",
+"module": 5
+},
+{
+"id": "t58",
+"name": "Hopfield network",
+"module": 5
+},
+{
+"id": "t59",
+"name": "Introduction to Fuzzy Sets",
+"module": 6
+},
+{
+"id": "t60",
+"name": "Fuzzy set theory",
+"module": 6
+},
+{
+"id": "t61",
+"name": "Fuzzy set versus crisp set",
+"module": 6
+},
+{
+"id": "t62",
+"name": "fuzzy relations",
+"module": 6
+},
+{
+"id": "t63",
+"name": "membership functions",
+"module": 6
+},
+{
+"id": "t64",
+"name": "Triangular",
+"module": 6
+},
+{
+"id": "t65",
+"name": "Trapezoid",
+"module": 6
+},
+{
+"id": "t66",
+"name": "Sigmoid",
+"module": 6
+},
+{
+"id": "t67",
+"name": "Gaussian",
+"module": 6
+},
+{
+"id": "t68",
+"name": "Fuzzy Logic",
+"module": 6
+},
+{
+"id": "t69",
+"name": "Fuzzy Logic basics",
+"module": 6
+},
+{
+"id": "t70",
+"name": "Fuzzy Rules and Fuzzy Reasoning",
+"module": 6
+},
+{
+"id": "t71",
+"name": "Fuzzy inference systems",
+"module": 6
+},
+{
+"id": "t72",
+"name": "Fuzzification Methods",
+"module": 6
+},
+{
+"id": "t73",
+"name": "Defuzzification Methods",
+"module": 6
+},
+{
+"id": "t74",
+"name": "Centre of Gravity",
+"module": 6
+},
+{
+"id": "t75",
+"name": "Mean- of-Max(MoM)",
+"module": 6
+},
+{
+"id": "t76",
+"name": "Smallest of Max",
+"module": 6
+},
+{
+"id": "t77",
+"name": "Largest of Max",
+"module": 6
+},
+{
+"id": "t78",
+"name": "Mamdani Model for fuzzy controllers",
+"module": 6
+}
+]
+}

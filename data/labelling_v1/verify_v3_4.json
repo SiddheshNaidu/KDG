@@ -1,0 +1,70 @@
+{
+ "verdicts": {
+  "2213113|c9536078967ae7b7": {
+   "verdict": "BAD",
+   "topics": 65,
+   "junk": 22,
+   "note": "list items split into fragments (NOT/NAND/NOR/XOR; SR/JK/T; \"basic operation\"), AND/OR and D flip-flop and MOSFET types lost, M4/M5 glued or collapsed"
+  },
+  "2213114|3fe0e91654e02348": {
+   "verdict": "BAD",
+   "topics": 70,
+   "junk": 12,
+   "note": "comma-split of phrases (\"Introduction to operating\",\"controlling and damping torque\"; \"AC\",\"DC Bridges\"), glued earth-tester+inductance item, \"ammeter\"/\"multi-meter\" fragments"
+  },
+  "2343112|aa770fac0ca23536": {
+   "verdict": "OK",
+   "topics": 48,
+   "junk": 3,
+   "note": "minor: \"Representation\", repeated \"Analysis of All problems\""
+  },
+  "2343113|5d6e7a0178ab1352": {
+   "verdict": "FIXABLE",
+   "topics": 75,
+   "junk": 6,
+   "note": "glued items across sentence breaks (Deadlock handling Timestamp-based; Grant & Revoke ... cursors), 1NF/2NF/3NF split; \"Complex Retrieval Queries using Group By\" missing"
+  },
+  "2343114|d8bc308d207b2987": {
+   "verdict": "FIXABLE",
+   "topics": 39,
+   "junk": 4,
+   "note": "glued Simplification...Chomsky Hierarchy, \"PDA & TM\"/\"CFG\" fragments, duplicate Regular Languages"
+  },
+  "2344112|8bd681506448a74d": {
+   "verdict": "OK",
+   "topics": 97,
+   "junk": 3,
+   "note": "only source typos and duplicate Contiguous Memory allocation"
+  },
+  "2344113|9de664a5efb96a93": {
+   "verdict": "BAD",
+   "topics": 86,
+   "junk": 8,
+   "note": "7 topics glued at heading boundary (ARP Ethernet Protocol; JPEG Application Layer; TCP Timers ... Session Layer); Routing Algorithms (DV/LS/PV) missing"
+  },
+  "2345111|679ac63eebf0c8b8": {
+   "verdict": "BAD",
+   "topics": 71,
+   "junk": 9,
+   "note": "glued at heading boundary (RMMM Software Configuration management; Walkthrough Maintenance Types; COCOMO II Model Project scheduling); Unit testing missing"
+  },
+  "2345112|34eb7f22f6712541": {
+   "verdict": "FIXABLE",
+   "topics": 61,
+   "junk": 4,
+   "note": "fragments \"Types and Architectures\",\"Finance\",\"Smart Cities\"; hyphen-space splits k- Nearest, Trade- off; Classification heading dropped"
+  },
+  "2345113|1680f1fdafaf17fd": {
+   "verdict": "OK",
+   "topics": 63,
+   "junk": 3,
+   "note": "\"Functional components- Refs\" glued, \"Web pack\" split, \"using properties and methods of built -in- objects\""
+  },
+  "23451141|92ab9ed3332c1a2d": {
+   "verdict": "BAD",
+   "topics": 98,
+   "junk": 28,
+   "note": "M3 source block duplicated (topics repeated), split parentheticals (\"RSA algorithm steps (key generation, encryption,\"/\"decryption...\"), many Heading-Topic glued items, ISO/IEC 27001, CSP, SQL Injection missing"
+  }
+ }
+}

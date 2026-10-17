@@ -1,0 +1,272 @@
+{
+"course": "2115111",
+"title": "Software Engineering",
+"modules": [
+{
+"index": 1,
+"name": "Introduction To Software Engineering and Process Models"
+},
+{
+"index": 2,
+"name": "Software Requirements Analysis and Modeling"
+},
+{
+"index": 3,
+"name": "Software Estimation Metrics"
+},
+{
+"index": 4,
+"name": "Software Design"
+},
+{
+"index": 5,
+"name": "Software Testing"
+},
+{
+"index": 6,
+"name": "Software Configuration Management, Quality Assurance and Maintenance"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Nature of Software",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Software Engineering",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Software Process",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Capability Maturity Model (CMM)",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Prescriptive Process Models",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Waterfall",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Incremental Process Models",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Evolutionary Process Models",
+"module": 1
+},
+{
+"id": "t9",
+"name": "RAD & Spiral",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Agile process model",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Extreme Programming (XP)",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Scrum",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Kanban",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Introduction to AI/ML concepts in software Engineering",
+"module": 1
+},
+{
+"id": "t15",
+"name": "Advanced trends in software engineering",
+"module": 1
+},
+{
+"id": "t16",
+"name": "Requirement Engineering",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Requirement Modeling",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Scenario based model. (Usecase & Activity diagram) Software Requirement Specification document format(IEEE)",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Data flow diagram",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Software Metrics",
+"module": 3
+},
+{
+"id": "t21",
+"name": "Software Project Estimation (LOC, FP, COCOMO)",
+"module": 3
+},
+{
+"id": "t22",
+"name": "Project Scheduling using Gantt & PERT Chart",
+"module": 3
+},
+{
+"id": "t23",
+"name": "Design Principles & Concepts",
+"module": 4
+},
+{
+"id": "t24",
+"name": "Effective Modular Design",
+"module": 4
+},
+{
+"id": "t25",
+"name": "Cohesion and Coupling",
+"module": 4
+},
+{
+"id": "t26",
+"name": "Architectural design",
+"module": 4
+},
+{
+"id": "t27",
+"name": "UML Diagrams",
+"module": 4
+},
+{
+"id": "t28",
+"name": "Unit testing",
+"module": 5
+},
+{
+"id": "t29",
+"name": "Integration testing",
+"module": 5
+},
+{
+"id": "t30",
+"name": "validation testing",
+"module": 5
+},
+{
+"id": "t31",
+"name": "System testing",
+"module": 5
+},
+{
+"id": "t32",
+"name": "Testing Techniques White-box testing",
+"module": 5
+},
+{
+"id": "t33",
+"name": "Basis path",
+"module": 5
+},
+{
+"id": "t34",
+"name": "Control structure testing Black-box testing",
+"module": 5
+},
+{
+"id": "t35",
+"name": "Graph based Static Testing",
+"module": 5
+},
+{
+"id": "t36",
+"name": "Equivalence",
+"module": 5
+},
+{
+"id": "t37",
+"name": "Boundary Value analysis",
+"module": 5
+},
+{
+"id": "t38",
+"name": "Risk Analysis & Management",
+"module": 6
+},
+{
+"id": "t39",
+"name": "Risk Mitigation",
+"module": 6
+},
+{
+"id": "t40",
+"name": "Monitoring and Management Plan (RMMM)",
+"module": 6
+},
+{
+"id": "t41",
+"name": "Quality Concepts and Software Quality assurance Metrics",
+"module": 6
+},
+{
+"id": "t42",
+"name": "Formal Technical Reviews",
+"module": 6
+},
+{
+"id": "t43",
+"name": "Software Reliability",
+"module": 6
+},
+{
+"id": "t44",
+"name": "Software Configuration Management (SCM)",
+"module": 6
+},
+{
+"id": "t45",
+"name": "Version Control and Change Control",
+"module": 6
+},
+{
+"id": "t46",
+"name": "Types of Software Maintenance",
+"module": 6
+},
+{
+"id": "t47",
+"name": "Re- Engineering",
+"module": 6
+},
+{
+"id": "t48",
+"name": "Reverse Engineering",
+"module": 6
+}
+]
+}

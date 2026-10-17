@@ -1,0 +1,309 @@
+{
+"edges": [
+{
+"a": "t3",
+"b": "t4",
+"why": "rationality defined for agents"
+},
+{
+"a": "t3",
+"b": "t5",
+"why": "environment of agents"
+},
+{
+"a": "t3",
+"b": "t6",
+"why": "agent structure"
+},
+{
+"a": "t6",
+"b": "t7",
+"why": "agent types are structures"
+},
+{
+"a": "t5",
+"b": "t8",
+"why": "PEAS describes task environment"
+},
+{
+"a": "t9",
+"b": "t15",
+"why": "compare soft with hard computing"
+},
+{
+"a": "t19",
+"b": "t20",
+"why": "search needs problem formulation"
+},
+{
+"a": "t20",
+"b": "t21",
+"why": "depth-limited is uninformed search"
+},
+{
+"a": "t21",
+"b": "t22",
+"why": "DFID builds on depth-limited"
+},
+{
+"a": "t19",
+"b": "t23",
+"why": "hill climbing searches formulated problem"
+},
+{
+"a": "t19",
+"b": "t24",
+"why": "A* needs formulated problem"
+},
+{
+"a": "t19",
+"b": "t26",
+"why": "water jug is formulated problem"
+},
+{
+"a": "t27",
+"b": "t28",
+"why": "minimax solves zero-sum games"
+},
+{
+"a": "t28",
+"b": "t29",
+"why": "alpha-beta optimizes minimax"
+},
+{
+"a": "t30",
+"b": "t31",
+"why": "FOL represents agent knowledge"
+},
+{
+"a": "t31",
+"b": "t32",
+"why": "syntax and inference of FOL"
+},
+{
+"a": "t32",
+"b": "t33",
+"why": "unification used in FOL inference"
+},
+{
+"a": "t32",
+"b": "t34",
+"why": "forward chaining uses FOL inference"
+},
+{
+"a": "t32",
+"b": "t35",
+"why": "backward chaining uses FOL inference"
+},
+{
+"a": "t33",
+"b": "t35",
+"why": "resolution requires unification"
+},
+{
+"a": "t30",
+"b": "t36",
+"why": "planning by knowledge agents"
+},
+{
+"a": "t36",
+"b": "t37",
+"why": "hierarchical extends partial order planning"
+},
+{
+"a": "t38",
+"b": "t39",
+"why": "ANN modeled on biology"
+},
+{
+"a": "t39",
+"b": "t40",
+"why": "MP neuron is basic element"
+},
+{
+"a": "t39",
+"b": "t41",
+"why": "activation functions are elements"
+},
+{
+"a": "t41",
+"b": "t42",
+"why": "unipolar/bipolar are activation types"
+},
+{
+"a": "t39",
+"b": "t43",
+"why": "learning rules train ANN"
+},
+{
+"a": "t43",
+"b": "t44",
+"why": "Hebbian is learning rule"
+},
+{
+"a": "t43",
+"b": "t46",
+"why": "delta is learning rule"
+},
+{
+"a": "t43",
+"b": "t47",
+"why": "competitive is learning rule"
+},
+{
+"a": "t40",
+"b": "t45",
+"why": "perceptron extends MP neuron"
+},
+{
+"a": "t43",
+"b": "t45",
+"why": "perceptron uses learning rule"
+},
+{
+"a": "t39",
+"b": "t48",
+"why": "architecture arranges elements"
+},
+{
+"a": "t48",
+"b": "t49",
+"why": "single layer is architecture"
+},
+{
+"a": "t49",
+"b": "t50",
+"why": "multilayer extends single layer"
+},
+{
+"a": "t50",
+"b": "t51",
+"why": "backprop trains multilayer nets"
+},
+{
+"a": "t46",
+"b": "t51",
+"why": "backprop generalizes delta rule"
+},
+{
+"a": "t52",
+"b": "t53",
+"why": "SOM is unsupervised"
+},
+{
+"a": "t47",
+"b": "t53",
+"why": "SOM uses competitive learning"
+},
+{
+"a": "t52",
+"b": "t54",
+"why": "LVQ related to unsupervised learning"
+},
+{
+"a": "t55",
+"b": "t56",
+"why": "types of associative memory"
+},
+{
+"a": "t56",
+"b": "t57",
+"why": "BAM is hetero-associative"
+},
+{
+"a": "t56",
+"b": "t58",
+"why": "Hopfield is auto-associative"
+},
+{
+"a": "t59",
+"b": "t60",
+"why": "fuzzy set theory follows intro"
+},
+{
+"a": "t60",
+"b": "t61",
+"why": "compare fuzzy with crisp"
+},
+{
+"a": "t60",
+"b": "t62",
+"why": "relations defined on fuzzy sets"
+},
+{
+"a": "t60",
+"b": "t63",
+"why": "membership functions define fuzzy sets"
+},
+{
+"a": "t63",
+"b": "t64",
+"why": "triangular is membership function"
+},
+{
+"a": "t63",
+"b": "t65",
+"why": "trapezoid is membership function"
+},
+{
+"a": "t63",
+"b": "t66",
+"why": "sigmoid is membership function"
+},
+{
+"a": "t63",
+"b": "t67",
+"why": "gaussian is membership function"
+},
+{
+"a": "t68",
+"b": "t69",
+"why": "basics of fuzzy logic"
+},
+{
+"a": "t69",
+"b": "t70",
+"why": "rules use fuzzy logic"
+},
+{
+"a": "t70",
+"b": "t71",
+"why": "FIS uses fuzzy rules"
+},
+{
+"a": "t71",
+"b": "t72",
+"why": "fuzzification is FIS step"
+},
+{
+"a": "t71",
+"b": "t73",
+"why": "defuzzification is FIS step"
+},
+{
+"a": "t73",
+"b": "t74",
+"why": "centroid is defuzzification"
+},
+{
+"a": "t73",
+"b": "t75",
+"why": "MoM is defuzzification"
+},
+{
+"a": "t73",
+"b": "t76",
+"why": "SoM is defuzzification"
+},
+{
+"a": "t73",
+"b": "t77",
+"why": "LoM is defuzzification"
+},
+{
+"a": "t71",
+"b": "t78",
+"why": "Mamdani is an FIS"
+}
+]
+}

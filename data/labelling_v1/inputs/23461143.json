@@ -1,0 +1,472 @@
+{
+"course": "23461143",
+"title": "Ethical Hacking and Digital Forensics",
+"modules": [
+{
+"index": 1,
+"name": "Foundation of Ethical Hacking and Penetration Testing"
+},
+{
+"index": 2,
+"name": "Reconnaissance, Scanning and Vulnerability Assessment"
+},
+{
+"index": 3,
+"name": "Digital Forensics, Digital Evidences and Incident Response Fundamentals"
+},
+{
+"index": 4,
+"name": "Forensic Duplication and Computer Forensic"
+},
+{
+"index": 5,
+"name": "Network and Mobile Forensic"
+},
+{
+"index": 6,
+"name": "Report Generation"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Introduction to Ethical Hacking",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Goals of Ethical Hacking",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Types of Hackers",
+"module": 1
+},
+{
+"id": "t4",
+"name": "White Hat",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Black Hat",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Grey Hat",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Phases of Ethical Hacking",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Difference between Hackers",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Crackers and Phreakers",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Social Engineering Attacks",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Introduction to Vulnerability Assessment and Penetration Testing (VAPT)",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Need for Vulnerability Assessment",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Types of Penetration Testing",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Penetration Testing Methodologies (PTES, OSSTMM, NIST)",
+"module": 1
+},
+{
+"id": "t15",
+"name": "Difference between VA and PT",
+"module": 1
+},
+{
+"id": "t16",
+"name": "Impact of cybercrime on e- governance and e-commerce",
+"module": 1
+},
+{
+"id": "t17",
+"name": "Information Gathering",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Footprinting",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Vulnerability Scanning and Enumeration",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Password cracking",
+"module": 2
+},
+{
+"id": "t21",
+"name": "keyloggers (SN)",
+"module": 2
+},
+{
+"id": "t22",
+"name": "Active Vs. Passive Vulnerability scanning",
+"module": 2
+},
+{
+"id": "t23",
+"name": "Enumeration Techniques",
+"module": 2
+},
+{
+"id": "t24",
+"name": "SNMP",
+"module": 2
+},
+{
+"id": "t25",
+"name": "SMB",
+"module": 2
+},
+{
+"id": "t26",
+"name": "LDAP",
+"module": 2
+},
+{
+"id": "t27",
+"name": "DNS Enumeration",
+"module": 2
+},
+{
+"id": "t28",
+"name": "Network Scanning Techniques",
+"module": 2
+},
+{
+"id": "t29",
+"name": "Port Scanning",
+"module": 2
+},
+{
+"id": "t30",
+"name": "Service Detection",
+"module": 2
+},
+{
+"id": "t31",
+"name": "Introduction to Digital Forensics",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Need and Objectives of Digital Forensics",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Phases involved in Digital Forensics",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Types of Digital Forensics",
+"module": 3
+},
+{
+"id": "t35",
+"name": "Rules of Digital Forensic",
+"module": 3
+},
+{
+"id": "t36",
+"name": "Anti Forensics",
+"module": 3
+},
+{
+"id": "t37",
+"name": "Role of AI in Digital Forensics Introduction to Digital evidences",
+"module": 3
+},
+{
+"id": "t38",
+"name": "Digital Evidence and its Types",
+"module": 3
+},
+{
+"id": "t39",
+"name": "Rules of Digital Evidences",
+"module": 3
+},
+{
+"id": "t40",
+"name": "Chain of Custody",
+"module": 3
+},
+{
+"id": "t41",
+"name": "Challenges in digital evidence Handling",
+"module": 3
+},
+{
+"id": "t42",
+"name": "Incident Response Process",
+"module": 3
+},
+{
+"id": "t43",
+"name": "Incident and Incident Response",
+"module": 3
+},
+{
+"id": "t44",
+"name": "Incident Response Methodology",
+"module": 3
+},
+{
+"id": "t45",
+"name": "Roles of CSIRT in handling incident",
+"module": 3
+},
+{
+"id": "t46",
+"name": "Forensic Duplication",
+"module": 4
+},
+{
+"id": "t47",
+"name": "Forensic Image Formats",
+"module": 4
+},
+{
+"id": "t48",
+"name": "Traditional Duplication Vs Forensic duplication",
+"module": 4
+},
+{
+"id": "t49",
+"name": "Need for the forensic duplication",
+"module": 4
+},
+{
+"id": "t50",
+"name": "Live System Duplication",
+"module": 4
+},
+{
+"id": "t51",
+"name": "Data imaging and hashing",
+"module": 4
+},
+{
+"id": "t52",
+"name": "Image Acquisition",
+"module": 4
+},
+{
+"id": "t53",
+"name": "File Recovery & Data Carving",
+"module": 4
+},
+{
+"id": "t54",
+"name": "Computer Forensics",
+"module": 4
+},
+{
+"id": "t55",
+"name": "Introduction to Computer Forensics",
+"module": 4
+},
+{
+"id": "t56",
+"name": "Evidence collection (Disk and file system, Memory, Registry, Logs etc)",
+"module": 4
+},
+{
+"id": "t57",
+"name": "Evidence Analysis and Examination (Window, Linux, Email, Web, Malware)",
+"module": 4
+},
+{
+"id": "t58",
+"name": "Media Analysis Hard drives",
+"module": 4
+},
+{
+"id": "t59",
+"name": "RAM",
+"module": 4
+},
+{
+"id": "t60",
+"name": "flash memory",
+"module": 4
+},
+{
+"id": "t61",
+"name": "AI-Assisted Disk and Memory Analysis",
+"module": 4
+},
+{
+"id": "t62",
+"name": "Challenges in Computer Forensics",
+"module": 4
+},
+{
+"id": "t63",
+"name": "Network Forensics",
+"module": 5
+},
+{
+"id": "t64",
+"name": "Exploiting Network Based Vulnerabilities",
+"module": 5
+},
+{
+"id": "t65",
+"name": "DNS Cache Poisoning",
+"module": 5
+},
+{
+"id": "t66",
+"name": "SNMP Exploits",
+"module": 5
+},
+{
+"id": "t67",
+"name": "SMTP Exploits",
+"module": 5
+},
+{
+"id": "t68",
+"name": "FTP Exploits",
+"module": 5
+},
+{
+"id": "t69",
+"name": "Sources of Network based evidences",
+"module": 5
+},
+{
+"id": "t70",
+"name": "Investigating Routers",
+"module": 5
+},
+{
+"id": "t71",
+"name": "Introduction to Wireless forensics",
+"module": 5
+},
+{
+"id": "t72",
+"name": "exploiting wireless vulnerabilities",
+"module": 5
+},
+{
+"id": "t73",
+"name": "Wireless Network Hacking",
+"module": 5
+},
+{
+"id": "t74",
+"name": "WEP",
+"module": 5
+},
+{
+"id": "t75",
+"name": "WPA",
+"module": 5
+},
+{
+"id": "t76",
+"name": "WPA2 Attacks",
+"module": 5
+},
+{
+"id": "t77",
+"name": "Tools used in network forensics",
+"module": 5
+},
+{
+"id": "t78",
+"name": "Challenges in Network forensics",
+"module": 5
+},
+{
+"id": "t79",
+"name": "Mobile Forensics",
+"module": 5
+},
+{
+"id": "t80",
+"name": "Evidence Collection and Acquisition",
+"module": 5
+},
+{
+"id": "t81",
+"name": "Analysis of Evidences",
+"module": 5
+},
+{
+"id": "t82",
+"name": "Challenges in mobile forensics",
+"module": 5
+},
+{
+"id": "t83",
+"name": "Tools used in mobile forensics",
+"module": 5
+},
+{
+"id": "t84",
+"name": "Traditional Mobile Forensics vs AI-Enabled Mobile Forensics",
+"module": 5
+},
+{
+"id": "t85",
+"name": "Goals of Report",
+"module": 6
+},
+{
+"id": "t86",
+"name": "Layout of an Investigative Report",
+"module": 6
+},
+{
+"id": "t87",
+"name": "Guidelines for Writing a Report",
+"module": 6
+},
+{
+"id": "t88",
+"name": "sample for writing a forensic report",
+"module": 6
+}
+]
+}

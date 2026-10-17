@@ -1,0 +1,299 @@
+{
+"edges": [
+{
+"a": "t1",
+"b": "t2",
+"why": "goals follow intro"
+},
+{
+"a": "t3",
+"b": "t4",
+"why": "white hat is a hacker type"
+},
+{
+"a": "t3",
+"b": "t5",
+"why": "black hat is a hacker type"
+},
+{
+"a": "t3",
+"b": "t6",
+"why": "grey hat is a hacker type"
+},
+{
+"a": "t3",
+"b": "t8",
+"why": "difference needs types"
+},
+{
+"a": "t1",
+"b": "t7",
+"why": "phases need intro"
+},
+{
+"a": "t11",
+"b": "t12",
+"why": "need follows VAPT intro"
+},
+{
+"a": "t11",
+"b": "t13",
+"why": "types of PT follow intro"
+},
+{
+"a": "t13",
+"b": "t14",
+"why": "methodologies after types"
+},
+{
+"a": "t12",
+"b": "t15",
+"why": "VA vs PT compare"
+},
+{
+"a": "t17",
+"b": "t18",
+"why": "footprinting is info gathering"
+},
+{
+"a": "t17",
+"b": "t19",
+"why": "scanning follows info gathering"
+},
+{
+"a": "t19",
+"b": "t22",
+"why": "active vs passive scanning"
+},
+{
+"a": "t19",
+"b": "t23",
+"why": "enumeration within scanning"
+},
+{
+"a": "t23",
+"b": "t24",
+"why": "SNMP enumeration"
+},
+{
+"a": "t23",
+"b": "t25",
+"why": "SMB enumeration"
+},
+{
+"a": "t23",
+"b": "t26",
+"why": "LDAP enumeration"
+},
+{
+"a": "t23",
+"b": "t27",
+"why": "DNS enumeration"
+},
+{
+"a": "t28",
+"b": "t29",
+"why": "port scanning is technique"
+},
+{
+"a": "t29",
+"b": "t30",
+"why": "service detection after port scan"
+},
+{
+"a": "t31",
+"b": "t32",
+"why": "need follows intro"
+},
+{
+"a": "t31",
+"b": "t33",
+"why": "phases follow intro"
+},
+{
+"a": "t31",
+"b": "t34",
+"why": "types follow intro"
+},
+{
+"a": "t38",
+"b": "t39",
+"why": "rules need evidence types"
+},
+{
+"a": "t38",
+"b": "t40",
+"why": "custody applies to evidence"
+},
+{
+"a": "t38",
+"b": "t41",
+"why": "challenges need evidence concept"
+},
+{
+"a": "t43",
+"b": "t44",
+"why": "methodology needs incident concept"
+},
+{
+"a": "t44",
+"b": "t45",
+"why": "CSIRT role in methodology"
+},
+{
+"a": "t46",
+"b": "t47",
+"why": "image formats need duplication"
+},
+{
+"a": "t46",
+"b": "t49",
+"why": "need for duplication"
+},
+{
+"a": "t46",
+"b": "t48",
+"why": "comparison needs duplication"
+},
+{
+"a": "t46",
+"b": "t50",
+"why": "live duplication"
+},
+{
+"a": "t51",
+"b": "t52",
+"why": "acquisition uses imaging"
+},
+{
+"a": "t51",
+"b": "t53",
+"why": "carving after imaging"
+},
+{
+"a": "t55",
+"b": "t56",
+"why": "collection follows intro"
+},
+{
+"a": "t56",
+"b": "t57",
+"why": "analysis follows collection"
+},
+{
+"a": "t57",
+"b": "t61",
+"why": "AI-assisted builds on analysis"
+},
+{
+"a": "t55",
+"b": "t58",
+"why": "media analysis within computer forensics"
+},
+{
+"a": "t58",
+"b": "t59",
+"why": "RAM analysis"
+},
+{
+"a": "t58",
+"b": "t60",
+"why": "flash memory analysis"
+},
+{
+"a": "t63",
+"b": "t69",
+"why": "sources of evidence"
+},
+{
+"a": "t64",
+"b": "t65",
+"why": "DNS poisoning is network exploit"
+},
+{
+"a": "t64",
+"b": "t66",
+"why": "SNMP exploits"
+},
+{
+"a": "t64",
+"b": "t67",
+"why": "SMTP exploits"
+},
+{
+"a": "t64",
+"b": "t68",
+"why": "FTP exploits"
+},
+{
+"a": "t69",
+"b": "t70",
+"why": "routers are evidence sources"
+},
+{
+"a": "t63",
+"b": "t77",
+"why": "tools used in network forensics"
+},
+{
+"a": "t71",
+"b": "t72",
+"why": "wireless exploiting follows intro"
+},
+{
+"a": "t73",
+"b": "t74",
+"why": "WEP is wireless hacking"
+},
+{
+"a": "t74",
+"b": "t75",
+"why": "WPA succeeded WEP"
+},
+{
+"a": "t75",
+"b": "t76",
+"why": "WPA2 attacks follow WPA"
+},
+{
+"a": "t79",
+"b": "t80",
+"why": "acquisition follows mobile intro"
+},
+{
+"a": "t80",
+"b": "t81",
+"why": "analysis follows acquisition"
+},
+{
+"a": "t79",
+"b": "t83",
+"why": "tools for mobile forensics"
+},
+{
+"a": "t81",
+"b": "t84",
+"why": "AI-enabled compared after analysis"
+},
+{
+"a": "t85",
+"b": "t86",
+"why": "layout follows goals"
+},
+{
+"a": "t86",
+"b": "t87",
+"why": "guidelines follow layout"
+},
+{
+"a": "t87",
+"b": "t88",
+"why": "sample applies guidelines"
+},
+{
+"a": "t40",
+"b": "t80",
+"why": "custody applies to acquisition"
+}
+]
+}

@@ -1,0 +1,538 @@
+{
+"course": "2223113",
+"title": "Electronics Engineering",
+"topics": [
+{
+"id": "t1",
+"name": "Number Systems and Conversions",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Binary",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Hexadecimal",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Octal",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Decimal conversions",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Basic binary arithmetic (addition, subtraction)",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Logic Gates and Boolean Algebra",
+"module": 1
+},
+{
+"id": "t8",
+"name": "NOT",
+"module": 1
+},
+{
+"id": "t9",
+"name": "NAND",
+"module": 1
+},
+{
+"id": "t10",
+"name": "NOR",
+"module": 1
+},
+{
+"id": "t11",
+"name": "XOR gates",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Boolean algebra laws and simplification techniques (De Morgan's theorems)",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Karnaugh Maps (K-maps)",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Simplification of Boolean expressions using K-maps (up to 4 variables)",
+"module": 1
+},
+{
+"id": "t15",
+"name": "Combinational Circuit Design",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Adders (half, full)",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Subtractors",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Multiplexers (as Universal Logic Modules - ULM)",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Demultiplexers",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Flip-Flops",
+"module": 2
+},
+{
+"id": "t21",
+"name": "SR",
+"module": 2
+},
+{
+"id": "t22",
+"name": "JK",
+"module": 2
+},
+{
+"id": "t23",
+"name": "T flip-flops",
+"module": 2
+},
+{
+"id": "t24",
+"name": "Basics of Synchronous & Asynchronous counters",
+"module": 2
+},
+{
+"id": "t25",
+"name": "Memory Basics",
+"module": 2
+},
+{
+"id": "t26",
+"name": "ROM (types: Mask ROM, PROM, EPROM, EEPROM) and RAM (types: SRAM, DRAM)",
+"module": 2
+},
+{
+"id": "t27",
+"name": "basic operation",
+"module": 2
+},
+{
+"id": "t28",
+"name": "differences",
+"module": 2
+},
+{
+"id": "t29",
+"name": "P-N junction diodes",
+"module": 3
+},
+{
+"id": "t30",
+"name": "characteristics and applications",
+"module": 3
+},
+{
+"id": "t31",
+"name": "Zener diodes",
+"module": 3
+},
+{
+"id": "t32",
+"name": "operation and voltage regulation",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Light Emitting Diodes (LEDs)",
+"module": 3
+},
+{
+"id": "t34",
+"name": "construction and characteristics",
+"module": 3
+},
+{
+"id": "t35",
+"name": "Opto isolators",
+"module": 3
+},
+{
+"id": "t36",
+"name": "BJT structure and operation",
+"module": 3
+},
+{
+"id": "t37",
+"name": "BJT characteristics and regions of operation",
+"module": 3
+},
+{
+"id": "t38",
+"name": "Junction Field Effect Transistors (JFETs)",
+"module": 3
+},
+{
+"id": "t39",
+"name": "Construction",
+"module": 3
+},
+{
+"id": "t40",
+"name": "operation and device characteristics",
+"module": 3
+},
+{
+"id": "t41",
+"name": "V-I relationship and transconductance",
+"module": 3
+},
+{
+"id": "t42",
+"name": "Metal-Oxide-Semiconductor FETs (MOSFETs)",
+"module": 3
+},
+{
+"id": "t43",
+"name": "operation",
+"module": 3
+},
+{
+"id": "t44",
+"name": "Block diagram of Op-amp Ideal Op-Amp characteristics",
+"module": 4
+},
+{
+"id": "t45",
+"name": "Inverting and non-inverting configurations",
+"module": 4
+},
+{
+"id": "t46",
+"name": "Voltage regulators",
+"module": 4
+},
+{
+"id": "t47",
+"name": "Design of adjustable voltage regulators",
+"module": 4
+},
+{
+"id": "t48",
+"name": "Harvard and Von-Neumann",
+"module": 5
+},
+{
+"id": "t49",
+"name": "RSIC and CSIC Concept of pipelining-Selection of microcontrollers",
+"module": 5
+},
+{
+"id": "t50",
+"name": "variants of MCS-51 family and their features",
+"module": 5
+},
+{
+"id": "t51",
+"name": "8051 microcontroller hardware",
+"module": 6
+},
+{
+"id": "t52",
+"name": "Oscillator and Clock",
+"module": 6
+},
+{
+"id": "t53",
+"name": "Role of PC and DPTR",
+"module": 6
+},
+{
+"id": "t54",
+"name": "Flags and PSW",
+"module": 6
+},
+{
+"id": "t55",
+"name": "CPU registers",
+"module": 6
+},
+{
+"id": "t56",
+"name": "Internal RAM and RAM organization",
+"module": 6
+},
+{
+"id": "t57",
+"name": "Internal Memory",
+"module": 6
+},
+{
+"id": "t58",
+"name": "Special Function Registers",
+"module": 6
+},
+{
+"id": "t59",
+"name": "I/O pins",
+"module": 6
+},
+{
+"id": "t60",
+"name": "ports and circuits",
+"module": 6
+},
+{
+"id": "t61",
+"name": "8051 Addressing modes",
+"module": 6
+},
+{
+"id": "t62",
+"name": "Instruction set",
+"module": 6
+},
+{
+"id": "t63",
+"name": "syntax and function of instructions",
+"module": 6
+},
+{
+"id": "t64",
+"name": "example programs",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t63",
+"b": "t64",
+"a_name": "syntax and function of instructions",
+"b_name": "example programs"
+},
+{
+"i": 1,
+"a": "t38",
+"b": "t40",
+"a_name": "Junction Field Effect Transistors (JFETs)",
+"b_name": "operation and device characteristics"
+},
+{
+"i": 2,
+"a": "t1",
+"b": "t3",
+"a_name": "Number Systems and Conversions",
+"b_name": "Hexadecimal"
+},
+{
+"i": 3,
+"a": "t45",
+"b": "t47",
+"a_name": "Inverting and non-inverting configurations",
+"b_name": "Design of adjustable voltage regulators"
+},
+{
+"i": 4,
+"a": "t7",
+"b": "t9",
+"a_name": "Logic Gates and Boolean Algebra",
+"b_name": "NAND"
+},
+{
+"i": 5,
+"a": "t51",
+"b": "t58",
+"a_name": "8051 microcontroller hardware",
+"b_name": "Special Function Registers"
+},
+{
+"i": 6,
+"a": "t55",
+"b": "t54",
+"a_name": "CPU registers",
+"b_name": "Flags and PSW"
+},
+{
+"i": 7,
+"a": "t33",
+"b": "t35",
+"a_name": "Light Emitting Diodes (LEDs)",
+"b_name": "Opto isolators"
+},
+{
+"i": 8,
+"a": "t61",
+"b": "t63",
+"a_name": "8051 Addressing modes",
+"b_name": "syntax and function of instructions"
+},
+{
+"i": 9,
+"a": "t39",
+"b": "t40",
+"a_name": "Construction",
+"b_name": "operation and device characteristics"
+},
+{
+"i": 10,
+"a": "t1",
+"b": "t2",
+"a_name": "Number Systems and Conversions",
+"b_name": "Binary"
+},
+{
+"i": 11,
+"a": "t48",
+"b": "t51",
+"a_name": "Harvard and Von-Neumann",
+"b_name": "8051 microcontroller hardware"
+},
+{
+"i": 12,
+"a": "t56",
+"b": "t61",
+"a_name": "Internal RAM and RAM organization",
+"b_name": "8051 Addressing modes"
+},
+{
+"i": 13,
+"a": "t56",
+"b": "t58",
+"a_name": "Internal RAM and RAM organization",
+"b_name": "Special Function Registers"
+},
+{
+"i": 14,
+"a": "t7",
+"b": "t8",
+"a_name": "Logic Gates and Boolean Algebra",
+"b_name": "NOT"
+},
+{
+"i": 15,
+"a": "t1",
+"b": "t4",
+"a_name": "Number Systems and Conversions",
+"b_name": "Octal"
+},
+{
+"i": 16,
+"a": "t51",
+"b": "t53",
+"a_name": "8051 microcontroller hardware",
+"b_name": "Role of PC and DPTR"
+},
+{
+"i": 17,
+"a": "t57",
+"b": "t56",
+"a_name": "Internal Memory",
+"b_name": "Internal RAM and RAM organization"
+},
+{
+"i": 18,
+"a": "t31",
+"b": "t46",
+"a_name": "Zener diodes",
+"b_name": "Voltage regulators"
+},
+{
+"i": 19,
+"a": "t44",
+"b": "t47",
+"a_name": "Block diagram of Op-amp Ideal Op-Amp characteristics",
+"b_name": "Design of adjustable voltage regulators"
+},
+{
+"i": 20,
+"a": "t38",
+"b": "t42",
+"a_name": "Junction Field Effect Transistors (JFETs)",
+"b_name": "Metal-Oxide-Semiconductor FETs (MOSFETs)"
+},
+{
+"i": 21,
+"a": "t51",
+"b": "t54",
+"a_name": "8051 microcontroller hardware",
+"b_name": "Flags and PSW"
+},
+{
+"i": 22,
+"a": "t7",
+"b": "t11",
+"a_name": "Logic Gates and Boolean Algebra",
+"b_name": "XOR gates"
+},
+{
+"i": 23,
+"a": "t32",
+"b": "t46",
+"a_name": "operation and voltage regulation",
+"b_name": "Voltage regulators"
+},
+{
+"i": 24,
+"a": "t61",
+"b": "t64",
+"a_name": "8051 Addressing modes",
+"b_name": "example programs"
+},
+{
+"i": 25,
+"a": "t55",
+"b": "t53",
+"a_name": "CPU registers",
+"b_name": "Role of PC and DPTR"
+},
+{
+"i": 26,
+"a": "t22",
+"b": "t23",
+"a_name": "JK",
+"b_name": "T flip-flops"
+},
+{
+"i": 27,
+"a": "t38",
+"b": "t41",
+"a_name": "Junction Field Effect Transistors (JFETs)",
+"b_name": "V-I relationship and transconductance"
+},
+{
+"i": 28,
+"a": "t55",
+"b": "t61",
+"a_name": "CPU registers",
+"b_name": "8051 Addressing modes"
+},
+{
+"i": 29,
+"a": "t7",
+"b": "t10",
+"a_name": "Logic Gates and Boolean Algebra",
+"b_name": "NOR"
+}
+]
+}

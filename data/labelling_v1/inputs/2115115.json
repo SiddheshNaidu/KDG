@@ -1,0 +1,332 @@
+{
+"course": "2115115",
+"title": "Computer Graphics",
+"modules": [
+{
+"index": 1,
+"name": "Introduction and Overview of Graphics System"
+},
+{
+"index": 2,
+"name": "Output Primitives"
+},
+{
+"index": 3,
+"name": "2D Geometry: Transformations and Clipping"
+},
+{
+"index": 4,
+"name": "3D Geometry: Transformations and Modeling"
+},
+{
+"index": 5,
+"name": "Visible Surface Detection, Animation"
+},
+{
+"index": 6,
+"name": "Rendering and Immersive Graphics Technologies"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Representative uses of computer graphics",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Graphics Hardware and Software",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Overview of coordinate representation",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Rasterization",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Raster scan displays",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Random scan displays",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Architecture of Graphics rendering pipeline",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Introduction to OpenGL",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Libraries",
+"module": 1
+},
+{
+"id": "t10",
+"name": "OpenGl Basic Graphics Primitives",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Introduction to Scan Conversion",
+"module": 2
+},
+{
+"id": "t12",
+"name": "Line Drawing Algorithms",
+"module": 2
+},
+{
+"id": "t13",
+"name": "DDA and Bresenham",
+"module": 2
+},
+{
+"id": "t14",
+"name": "Midpoint Circle Drawing Algorithm",
+"module": 2
+},
+{
+"id": "t15",
+"name": "Filled Area Primitives",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Boundary Fill and Flood Fill",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Polygon Representation and Edge Tables",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Scan-line Polygon Fill Algorithm",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Basic transformations",
+"module": 3
+},
+{
+"id": "t20",
+"name": "Translation",
+"module": 3
+},
+{
+"id": "t21",
+"name": "Scaling",
+"module": 3
+},
+{
+"id": "t22",
+"name": "Rotation Matrix representation",
+"module": 3
+},
+{
+"id": "t23",
+"name": "Homogeneous Coordinates",
+"module": 3
+},
+{
+"id": "t24",
+"name": "Composite transformation",
+"module": 3
+},
+{
+"id": "t25",
+"name": "Advanced transformations",
+"module": 3
+},
+{
+"id": "t26",
+"name": "Reflection and Shear",
+"module": 3
+},
+{
+"id": "t27",
+"name": "Window to Viewport coordinate transformation",
+"module": 3
+},
+{
+"id": "t28",
+"name": "Clipping operations",
+"module": 3
+},
+{
+"id": "t29",
+"name": "Point clipping",
+"module": 3
+},
+{
+"id": "t30",
+"name": "Cohen-Sutherland Line clipping algorithm",
+"module": 3
+},
+{
+"id": "t31",
+"name": "Polygon Clipping Algorithms",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Sutherland- Hodgeman Algorithm",
+"module": 3
+},
+{
+"id": "t33",
+"name": "4.1 3D Object Transformation 4.2 3D Viewing pipeline",
+"module": 4
+},
+{
+"id": "t34",
+"name": "Projections",
+"module": 4
+},
+{
+"id": "t35",
+"name": "Parallel",
+"module": 4
+},
+{
+"id": "t36",
+"name": "Perspective",
+"module": 4
+},
+{
+"id": "t37",
+"name": "Curve Generation",
+"module": 4
+},
+{
+"id": "t38",
+"name": "Bezier Curve",
+"module": 4
+},
+{
+"id": "t39",
+"name": "Introduction to Solid Modeling",
+"module": 4
+},
+{
+"id": "t40",
+"name": "Different representations of Solid Modeling",
+"module": 4
+},
+{
+"id": "t41",
+"name": "Visible Surface Detection",
+"module": 5
+},
+{
+"id": "t42",
+"name": "Classification of Visible Surface Detection algorithm",
+"module": 5
+},
+{
+"id": "t43",
+"name": "Back Surface detection method",
+"module": 5
+},
+{
+"id": "t44",
+"name": "Depth Buffer method",
+"module": 5
+},
+{
+"id": "t45",
+"name": "Animation",
+"module": 5
+},
+{
+"id": "t46",
+"name": "Introduction to Animation",
+"module": 5
+},
+{
+"id": "t47",
+"name": "Traditional Animation Techniques",
+"module": 5
+},
+{
+"id": "t48",
+"name": "Key framing",
+"module": 5
+},
+{
+"id": "t49",
+"name": "Motion capture",
+"module": 5
+},
+{
+"id": "t50",
+"name": "Introduction to Rendering",
+"module": 6
+},
+{
+"id": "t51",
+"name": "Illumination models",
+"module": 6
+},
+{
+"id": "t52",
+"name": "Diffuse and specular reflection",
+"module": 6
+},
+{
+"id": "t53",
+"name": "Determining Surface normal and Reflection vector",
+"module": 6
+},
+{
+"id": "t54",
+"name": "Shading Algorithms",
+"module": 6
+},
+{
+"id": "t55",
+"name": "Gourad shading",
+"module": 6
+},
+{
+"id": "t56",
+"name": "Phong shading",
+"module": 6
+},
+{
+"id": "t57",
+"name": "Technologies Enabling Immersive Graphics",
+"module": 6
+},
+{
+"id": "t58",
+"name": "Equipment and System Overview of ARVR systems",
+"module": 6
+},
+{
+"id": "t59",
+"name": "Physical elements",
+"module": 6
+},
+{
+"id": "t60",
+"name": "APIs and Hardware",
+"module": 6
+}
+]
+}

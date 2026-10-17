@@ -220,7 +220,7 @@
 },
 {
 "id": "t39",
-"name": "Device-to- Gateway",
+"name": "Device-to-Gateway",
 "module": 4
 },
 {
@@ -450,7 +450,7 @@
 },
 {
 "id": "t85",
-"name": "IoT- enabled shop-floor monitoring",
+"name": "IoT-enabled shop-floor monitoring",
 "module": 6
 }
 ]

@@ -1,0 +1,252 @@
+{
+"course": "2073114",
+"title": "Chemical Engineering Thermodynamics- I",
+"topics": [
+{
+"id": "t1",
+"name": "First law of Thermodynamics for non-flow processes",
+"module": 1
+},
+{
+"id": "t2",
+"name": "First law of Thermodynamics for flow processes (steady state processes)",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Calculation of heat and work for various types of processes",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Transient Flow Processes",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Charging & discharging tanks",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Second Law of Thermodynamics",
+"module": 2
+},
+{
+"id": "t7",
+"name": "Concepts of heat engine",
+"module": 2
+},
+{
+"id": "t8",
+"name": "heat pump and refrigerator",
+"module": 2
+},
+{
+"id": "t9",
+"name": "Carnot Cycle and Carnot Principle",
+"module": 2
+},
+{
+"id": "t10",
+"name": "Clausius Inequality",
+"module": 3
+},
+{
+"id": "t11",
+"name": "Concept of Entropy",
+"module": 3
+},
+{
+"id": "t12",
+"name": "estimation of entropy change of various processes",
+"module": 3
+},
+{
+"id": "t13",
+"name": "Concept of Exergy",
+"module": 3
+},
+{
+"id": "t14",
+"name": "Equations of state for non-ideal gases",
+"module": 4
+},
+{
+"id": "t15",
+"name": "Virial equation of state",
+"module": 4
+},
+{
+"id": "t16",
+"name": "van der Waals equation of state",
+"module": 4
+},
+{
+"id": "t17",
+"name": "Redlich- Kwong",
+"module": 4
+},
+{
+"id": "t18",
+"name": "Redlich-Kwong- Soave and Peng-Robinson equations of state",
+"module": 4
+},
+{
+"id": "t19",
+"name": "Maxwell’s Equations",
+"module": 5
+},
+{
+"id": "t20",
+"name": "Enthalpy and Entropy departure functions (van der Waals and Redlich-Kwong EOS)",
+"module": 5
+},
+{
+"id": "t21",
+"name": "Fugacity and fugacity coefficient (van der Waals and Redlich-Kwong EOS)",
+"module": 5
+},
+{
+"id": "t22",
+"name": "Thermodynamic Charts",
+"module": 5
+},
+{
+"id": "t23",
+"name": "Diagrams and their applications",
+"module": 5
+},
+{
+"id": "t24",
+"name": "Applications of Thermodynamics to Flow Processes",
+"module": 6
+},
+{
+"id": "t25",
+"name": "Throttling Process (Joule- Thomson Expansion) and Compressors",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t2",
+"b": "t3",
+"a_name": "First law of Thermodynamics for flow processes (steady state processes)",
+"b_name": "Calculation of heat and work for various types of processes"
+},
+{
+"i": 1,
+"a": "t16",
+"b": "t21",
+"a_name": "van der Waals equation of state",
+"b_name": "Fugacity and fugacity coefficient (van der Waals and Redlich-Kwong EOS)"
+},
+{
+"i": 2,
+"a": "t14",
+"b": "t18",
+"a_name": "Equations of state for non-ideal gases",
+"b_name": "Redlich-Kwong- Soave and Peng-Robinson equations of state"
+},
+{
+"i": 3,
+"a": "t11",
+"b": "t19",
+"a_name": "Concept of Entropy",
+"b_name": "Maxwell’s Equations"
+},
+{
+"i": 4,
+"a": "t6",
+"b": "t8",
+"a_name": "Second Law of Thermodynamics",
+"b_name": "heat pump and refrigerator"
+},
+{
+"i": 5,
+"a": "t16",
+"b": "t20",
+"a_name": "van der Waals equation of state",
+"b_name": "Enthalpy and Entropy departure functions (van der Waals and Redlich-Kwong EOS)"
+},
+{
+"i": 6,
+"a": "t14",
+"b": "t21",
+"a_name": "Equations of state for non-ideal gases",
+"b_name": "Fugacity and fugacity coefficient (van der Waals and Redlich-Kwong EOS)"
+},
+{
+"i": 7,
+"a": "t16",
+"b": "t17",
+"a_name": "van der Waals equation of state",
+"b_name": "Redlich- Kwong"
+},
+{
+"i": 8,
+"a": "t14",
+"b": "t20",
+"a_name": "Equations of state for non-ideal gases",
+"b_name": "Enthalpy and Entropy departure functions (van der Waals and Redlich-Kwong EOS)"
+},
+{
+"i": 9,
+"a": "t6",
+"b": "t10",
+"a_name": "Second Law of Thermodynamics",
+"b_name": "Clausius Inequality"
+},
+{
+"i": 10,
+"a": "t11",
+"b": "t20",
+"a_name": "Concept of Entropy",
+"b_name": "Enthalpy and Entropy departure functions (van der Waals and Redlich-Kwong EOS)"
+},
+{
+"i": 11,
+"a": "t14",
+"b": "t17",
+"a_name": "Equations of state for non-ideal gases",
+"b_name": "Redlich- Kwong"
+},
+{
+"i": 12,
+"a": "t24",
+"b": "t25",
+"a_name": "Applications of Thermodynamics to Flow Processes",
+"b_name": "Throttling Process (Joule- Thomson Expansion) and Compressors"
+},
+{
+"i": 13,
+"a": "t8",
+"b": "t9",
+"a_name": "heat pump and refrigerator",
+"b_name": "Carnot Cycle and Carnot Principle"
+},
+{
+"i": 14,
+"a": "t1",
+"b": "t6",
+"a_name": "First law of Thermodynamics for non-flow processes",
+"b_name": "Second Law of Thermodynamics"
+},
+{
+"i": 15,
+"a": "t7",
+"b": "t8",
+"a_name": "Concepts of heat engine",
+"b_name": "heat pump and refrigerator"
+},
+{
+"i": 16,
+"a": "t12",
+"b": "t25",
+"a_name": "estimation of entropy change of various processes",
+"b_name": "Throttling Process (Joule- Thomson Expansion) and Compressors"
+}
+]
+}

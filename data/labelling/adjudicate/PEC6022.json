@@ -341,10 +341,10 @@
 "candidates": [
 {
 "i": 0,
-"a": "t38",
-"b": "t41",
-"a_name": "Configuration Space",
-"b_name": "Fine-motion Planning"
+"a": "t4",
+"b": "t13",
+"a_name": "Joints",
+"b_name": "Denavit-Hatenberg representation of forward kinematics"
 },
 {
 "i": 1,
@@ -356,37 +356,37 @@
 {
 "i": 2,
 "a": "t11",
+"b": "t26",
+"a_name": "Forward and inverse kinematic equations",
+"b_name": "Joint-Space trajectory planning"
+},
+{
+"i": 3,
+"a": "t15",
+"b": "t18",
+"a_name": "Differential motions and Velocities",
+"b_name": "Differential motion of a frame and robot"
+},
+{
+"i": 4,
+"a": "t11",
 "b": "t27",
 "a_name": "Forward and inverse kinematic equations",
 "b_name": "Cartesian-space trajectories"
 },
 {
-"i": 3,
-"a": "t21",
-"b": "t23",
-"a_name": "Dynamic Analysis of Forces",
-"b_name": "Newton Euler formulation"
-},
-{
-"i": 4,
-"a": "t12",
-"b": "t9",
-"a_name": "position and orientation",
-"b_name": "Homogeneous transformation matrices"
-},
-{
 "i": 5,
-"a": "t46",
-"b": "t50",
-"a_name": "Localization",
-"b_name": "Monte carlo localization"
+"a": "t44",
+"b": "t43",
+"a_name": "Task planner simulation",
+"b_name": "Source and goal scenes"
 },
 {
 "i": 6,
-"a": "t5",
-"b": "t6",
-"a_name": "Coordinates",
-"b_name": "Coordinate frames"
+"a": "t56",
+"b": "t55",
+"a_name": "Path planning overview",
+"b_name": "Planning and Navigation"
 },
 {
 "i": 7,
@@ -397,52 +397,52 @@
 },
 {
 "i": 8,
-"a": "t46",
-"b": "t51",
-"a_name": "Localization",
-"b_name": "Landmark based navigation"
+"a": "t45",
+"b": "t46",
+"a_name": "Need for service robots",
+"b_name": "Localization"
 },
 {
 "i": 9,
-"a": "t17",
-"b": "t18",
-"a_name": "Jacobian",
-"b_name": "Differential motion of a frame and robot"
+"a": "t13",
+"b": "t11",
+"a_name": "Denavit-Hatenberg representation of forward kinematics",
+"b_name": "Forward and inverse kinematic equations"
 },
 {
 "i": 10,
-"a": "t55",
-"b": "t56",
-"a_name": "Planning and Navigation",
-"b_name": "Path planning overview"
+"a": "t57",
+"b": "t59",
+"a_name": "Cell decomposition path planning Potential field path planning-Obstacle avoidance",
+"b_name": "Collision avoidance"
 },
 {
 "i": 11,
 "a": "t46",
-"b": "t52",
+"b": "t49",
 "a_name": "Localization",
-"b_name": "Globally unique localization"
+"b_name": "Probabilistic Map based Localization"
 },
 {
 "i": 12,
-"a": "t56",
-"b": "t59",
-"a_name": "Path planning overview",
-"b_name": "Collision avoidance"
+"a": "t9",
+"b": "t11",
+"a_name": "Homogeneous transformation matrices",
+"b_name": "Forward and inverse kinematic equations"
 },
 {
 "i": 13,
-"a": "t6",
+"a": "t9",
 "b": "t12",
-"a_name": "Coordinate frames",
+"a_name": "Homogeneous transformation matrices",
 "b_name": "position and orientation"
 },
 {
 "i": 14,
-"a": "t10",
-"b": "t11",
-"a_name": "Inverse transformation matrices",
-"b_name": "Forward and inverse kinematic equations"
+"a": "t11",
+"b": "t15",
+"a_name": "Forward and inverse kinematic equations",
+"b_name": "Differential motions and Velocities"
 },
 {
 "i": 15,
@@ -460,24 +460,24 @@
 },
 {
 "i": 17,
-"a": "t15",
-"b": "t18",
-"a_name": "Differential motions and Velocities",
-"b_name": "Differential motion of a frame and robot"
+"a": "t12",
+"b": "t11",
+"a_name": "position and orientation",
+"b_name": "Forward and inverse kinematic equations"
 },
 {
 "i": 18,
-"a": "t28",
-"b": "t30",
-"a_name": "Image representation",
-"b_name": "Polyhedral objects"
+"a": "t17",
+"b": "t18",
+"a_name": "Jacobian",
+"b_name": "Differential motion of a frame and robot"
 },
 {
 "i": 19,
-"a": "t21",
-"b": "t22",
-"a_name": "Dynamic Analysis of Forces",
-"b_name": "Lagrangian mechanics"
+"a": "t13",
+"b": "t14",
+"a_name": "Denavit-Hatenberg representation of forward kinematics",
+"b_name": "Forward and inverse kinematic solutions of three and four axis robot"
 }
 ]
 }

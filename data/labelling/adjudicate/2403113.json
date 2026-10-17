@@ -134,7 +134,7 @@
 },
 {
 "id": "t27",
-"name": "VdP work",
+"name": "Significance of – VdP work",
 "module": 1
 },
 {
@@ -244,7 +244,7 @@
 },
 {
 "id": "t49",
-"name": "Highgradeandlow- gradeenergy",
+"name": "Highgradeandlow-gradeenergy",
 "module": 3
 },
 {
@@ -494,7 +494,7 @@
 },
 {
 "id": "t99",
-"name": "Isentropic flow through ducts of varying cross- sectional area",
+"name": "Isentropic flow through ducts of varying cross-sectional area",
 "module": 6
 },
 {
@@ -536,479 +536,360 @@
 "candidates": [
 {
 "i": 0,
-"a": "t96",
-"b": "t98",
-"a_name": "Application of continuity",
-"b_name": "Steady flow through the nozzle"
-},
-{
-"i": 1,
-"a": "t44",
-"b": "t40",
-"a_name": "Clausius inequality",
-"b_name": "Entropy"
-},
-{
-"i": 2,
 "a": "t46",
-"b": "t47",
-"a_name": "T ds relations",
-"b_name": "Entropy change During a process"
-},
-{
-"i": 3,
-"a": "t80",
-"b": "t81",
-"a_name": "Gas Power cycles",
-"b_name": "Nomenclature of a reciprocating engine"
-},
-{
-"i": 4,
-"a": "t40",
-"b": "t99",
-"a_name": "Entropy",
-"b_name": "Isentropic flow through ducts of varying cross- sectional area"
-},
-{
-"i": 5,
-"a": "t75",
-"b": "t77",
-"a_name": "Principal components of a simple steam power plant",
-"b_name": "Rankine cycle with different turbine inlet conditions"
-},
-{
-"i": 6,
-"a": "t40",
-"b": "t45",
-"a_name": "Entropy",
-"b_name": "Increase of entropy principle"
-},
-{
-"i": 7,
-"a": "t74",
-"b": "t75",
-"a_name": "Vapour Power cycle",
-"b_name": "Principal components of a simple steam power plant"
-},
-{
-"i": 8,
-"a": "t83",
-"b": "t89",
-"a_name": "Assumptions for Air Standard Cycle",
-"b_name": "Ericsson Cycle"
-},
-{
-"i": 9,
-"a": "t84",
-"b": "t85",
-"a_name": "Otto cycle",
-"b_name": "Diesel Cycle and Dual cycle"
-},
-{
-"i": 10,
-"a": "t38",
-"b": "t76",
-"a_name": "Carnot cycle",
-"b_name": "Carnot cycle and its limitations as a vapour cycle"
-},
-{
-"i": 11,
-"a": "t1",
-"b": "t7",
-"a_name": "Introduction and Basic Concepts of Thermodynamics",
-"b_name": "Characteristic gas equation"
-},
-{
-"i": 12,
-"a": "t1",
-"b": "t2",
-"a_name": "Introduction and Basic Concepts of Thermodynamics",
-"b_name": "Thermodynamic state"
-},
-{
-"i": 13,
-"a": "t53",
-"b": "t54",
-"a_name": "Irreversibility",
-"b_name": "Availability of closed system& steady flow process"
-},
-{
-"i": 14,
-"a": "t56",
 "b": "t58",
-"a_name": "Maxwell relations",
+"a_name": "T ds relations",
 "b_name": "Mayer relation"
 },
 {
-"i": 15,
-"a": "t10",
-"b": "t106",
-"a_name": "First Law of Thermodynamics",
-"b_name": "first law analysis of reactive system"
-},
-{
-"i": 16,
-"a": "t32",
-"b": "t34",
-"a_name": "Concept of heat engine",
-"b_name": "Statement of the second law of thermodynamics"
-},
-{
-"i": 17,
-"a": "t41",
-"b": "t40",
-"a_name": "Clausius theorem",
-"b_name": "Entropy"
-},
-{
-"i": 18,
-"a": "t63",
-"b": "t72",
-"a_name": "Saturation pressure and temperature",
-"b_name": "Calculation of various properties of wet"
-},
-{
-"i": 19,
-"a": "t48",
-"b": "t50",
-"a_name": "Availability",
-"b_name": "AvailableandUnavailableenergy"
-},
-{
-"i": 20,
-"a": "t74",
-"b": "t76",
-"a_name": "Vapour Power cycle",
-"b_name": "Carnot cycle and its limitations as a vapour cycle"
-},
-{
-"i": 21,
-"a": "t48",
-"b": "t51",
-"a_name": "Availability",
-"b_name": "DeadState"
-},
-{
-"i": 22,
-"a": "t1",
-"b": "t8",
-"a_name": "Introduction and Basic Concepts of Thermodynamics",
-"b_name": "Heat and Work"
-},
-{
-"i": 23,
+"i": 1,
 "a": "t2",
-"b": "t4",
+"b": "t5",
 "a_name": "Thermodynamic state",
-"b_name": "process and cycle"
+"b_name": "Point and Path functions"
 },
 {
-"i": 24,
-"a": "t83",
-"b": "t91",
-"a_name": "Assumptions for Air Standard Cycle",
-"b_name": "Atkinson cycle"
+"i": 2,
+"a": "t81",
+"b": "t84",
+"a_name": "Nomenclature of a reciprocating engine",
+"b_name": "Otto cycle"
 },
 {
-"i": 25,
-"a": "t60",
-"b": "t61",
-"a_name": "Properties of Pure Substance",
-"b_name": "Advantages and applications of steam"
+"i": 3,
+"a": "t62",
+"b": "t67",
+"a_name": "Phase change process of water",
+"b_name": "T-v diagram"
 },
 {
-"i": 26,
-"a": "t17",
-"b": "t97",
-"a_name": "Energy balance in a steady flow",
-"b_name": "momentum and energy equations for steady-state conditions"
-},
-{
-"i": 27,
-"a": "t95",
-"b": "t98",
-"a_name": "Stagnation properties",
-"b_name": "Steady flow through the nozzle"
-},
-{
-"i": 28,
-"a": "t67",
-"b": "t70",
-"a_name": "T-v diagram",
-"b_name": "Critical and triple point"
-},
-{
-"i": 29,
-"a": "t64",
-"b": "t72",
-"a_name": "Terminology associated with steam",
-"b_name": "Calculation of various properties of wet"
-},
-{
-"i": 30,
-"a": "t9",
-"b": "t28",
-"a_name": "Concept of PdV work",
-"b_name": "Relation between flow and non-flow work"
-},
-{
-"i": 31,
-"a": "t96",
-"b": "t97",
-"a_name": "Application of continuity",
-"b_name": "momentum and energy equations for steady-state conditions"
-},
-{
-"i": 32,
-"a": "t80",
-"b": "t83",
-"a_name": "Gas Power cycles",
-"b_name": "Assumptions for Air Standard Cycle"
-},
-{
-"i": 33,
-"a": "t26",
-"b": "t28",
-"a_name": "Steady flow work",
-"b_name": "Relation between flow and non-flow work"
-},
-{
-"i": 34,
-"a": "t48",
-"b": "t53",
-"a_name": "Availability",
-"b_name": "Irreversibility"
-},
-{
-"i": 35,
+"i": 4,
 "a": "t98",
 "b": "t101",
 "a_name": "Steady flow through the nozzle",
 "b_name": "Critical pressure ratio Reactive Systems"
 },
 {
-"i": 36,
-"a": "t40",
-"b": "t47",
-"a_name": "Entropy",
-"b_name": "Entropy change During a process"
-},
-{
-"i": 37,
-"a": "t66",
-"b": "t70",
-"a_name": "Property diagram",
-"b_name": "Critical and triple point"
-},
-{
-"i": 38,
-"a": "t51",
-"b": "t52",
-"a_name": "DeadState",
-"b_name": "Useful work"
-},
-{
-"i": 39,
-"a": "t30",
-"b": "t29",
-"a_name": "Limitation of the first law of thermodynamics",
-"b_name": "Second Law of Thermodynamics"
-},
-{
-"i": 40,
-"a": "t97",
-"b": "t98",
-"a_name": "momentum and energy equations for steady-state conditions",
-"b_name": "Steady flow through the nozzle"
-},
-{
-"i": 41,
+"i": 5,
 "a": "t30",
 "b": "t34",
 "a_name": "Limitation of the first law of thermodynamics",
 "b_name": "Statement of the second law of thermodynamics"
 },
 {
-"i": 42,
-"a": "t103",
-"b": "t104",
-"a_name": "theoretical and actual combustion processes",
-"b_name": "enthalpy of formation and enthalpy of combustion"
-},
-{
-"i": 43,
-"a": "t62",
-"b": "t72",
-"a_name": "Phase change process of water",
-"b_name": "Calculation of various properties of wet"
-},
-{
-"i": 44,
-"a": "t48",
-"b": "t52",
-"a_name": "Availability",
-"b_name": "Useful work"
-},
-{
-"i": 45,
-"a": "t3",
-"b": "t4",
-"a_name": "path",
-"b_name": "process and cycle"
-},
-{
-"i": 46,
+"i": 6,
 "a": "t63",
 "b": "t64",
 "a_name": "Saturation pressure and temperature",
 "b_name": "Terminology associated with steam"
 },
 {
+"i": 7,
+"a": "t53",
+"b": "t54",
+"a_name": "Irreversibility",
+"b_name": "Availability of closed system& steady flow process"
+},
+{
+"i": 8,
+"a": "t8",
+"b": "t9",
+"a_name": "Heat and Work",
+"b_name": "Concept of PdV work"
+},
+{
+"i": 9,
+"a": "t40",
+"b": "t46",
+"a_name": "Entropy",
+"b_name": "T ds relations"
+},
+{
+"i": 10,
+"a": "t21",
+"b": "t75",
+"a_name": "pump",
+"b_name": "Principal components of a simple steam power plant"
+},
+{
+"i": 11,
+"a": "t67",
+"b": "t71",
+"a_name": "T-v diagram",
+"b_name": "T-s and an h-s diagram for water"
+},
+{
+"i": 12,
+"a": "t62",
+"b": "t66",
+"a_name": "Phase change process of water",
+"b_name": "Property diagram"
+},
+{
+"i": 13,
+"a": "t66",
+"b": "t69",
+"a_name": "Property diagram",
+"b_name": "p-T diagram"
+},
+{
+"i": 14,
+"a": "t64",
+"b": "t72",
+"a_name": "Terminology associated with steam",
+"b_name": "Calculation of various properties of wet"
+},
+{
+"i": 15,
+"a": "t3",
+"b": "t4",
+"a_name": "path",
+"b_name": "process and cycle"
+},
+{
+"i": 16,
+"a": "t42",
+"b": "t46",
+"a_name": "Entropy is property of a system",
+"b_name": "T ds relations"
+},
+{
+"i": 17,
+"a": "t31",
+"b": "t33",
+"a_name": "Thermal reservoir",
+"b_name": "Heat pump and Refrigerator"
+},
+{
+"i": 18,
+"a": "t84",
+"b": "t85",
+"a_name": "Otto cycle",
+"b_name": "Diesel Cycle and Dual cycle"
+},
+{
+"i": 19,
+"a": "t99",
+"b": "t98",
+"a_name": "Isentropic flow through ducts of varying cross-sectional area",
+"b_name": "Steady flow through the nozzle"
+},
+{
+"i": 20,
+"a": "t22",
+"b": "t75",
+"a_name": "boiler",
+"b_name": "Principal components of a simple steam power plant"
+},
+{
+"i": 21,
+"a": "t35",
+"b": "t53",
+"a_name": "Reversible and irreversible Process",
+"b_name": "Irreversibility"
+},
+{
+"i": 22,
+"a": "t10",
+"b": "t106",
+"a_name": "First Law of Thermodynamics",
+"b_name": "first law analysis of reactive system"
+},
+{
+"i": 23,
+"a": "t32",
+"b": "t33",
+"a_name": "Concept of heat engine",
+"b_name": "Heat pump and Refrigerator"
+},
+{
+"i": 24,
+"a": "t45",
+"b": "t47",
+"a_name": "Increase of entropy principle",
+"b_name": "Entropy change During a process"
+},
+{
+"i": 25,
+"a": "t62",
+"b": "t64",
+"a_name": "Phase change process of water",
+"b_name": "Terminology associated with steam"
+},
+{
+"i": 26,
+"a": "t71",
+"b": "t73",
+"a_name": "T-s and an h-s diagram for water",
+"b_name": "dry and superheated steam using the steam table and Mollier chart"
+},
+{
+"i": 27,
+"a": "t17",
+"b": "t97",
+"a_name": "Energy balance in a steady flow",
+"b_name": "momentum and energy equations for steady-state conditions"
+},
+{
+"i": 28,
+"a": "t50",
+"b": "t52",
+"a_name": "AvailableandUnavailableenergy",
+"b_name": "Useful work"
+},
+{
+"i": 29,
+"a": "t18",
+"b": "t98",
+"a_name": "Application of steady flow energy equation to nozzle",
+"b_name": "Steady flow through the nozzle"
+},
+{
+"i": 30,
+"a": "t62",
+"b": "t68",
+"a_name": "Phase change process of water",
+"b_name": "p-v diagram"
+},
+{
+"i": 31,
+"a": "t66",
+"b": "t67",
+"a_name": "Property diagram",
+"b_name": "T-v diagram"
+},
+{
+"i": 32,
+"a": "t10",
+"b": "t11",
+"a_name": "First Law of Thermodynamics",
+"b_name": "Statement & Equation"
+},
+{
+"i": 33,
+"a": "t19",
+"b": "t75",
+"a_name": "turbine",
+"b_name": "Principal components of a simple steam power plant"
+},
+{
+"i": 34,
+"a": "t20",
+"b": "t87",
+"a_name": "compressor",
+"b_name": "Brayton Cycle"
+},
+{
+"i": 35,
+"a": "t52",
+"b": "t53",
+"a_name": "Useful work",
+"b_name": "Irreversibility"
+},
+{
+"i": 36,
+"a": "t66",
+"b": "t68",
+"a_name": "Property diagram",
+"b_name": "p-v diagram"
+},
+{
+"i": 37,
+"a": "t33",
+"b": "t34",
+"a_name": "Heat pump and Refrigerator",
+"b_name": "Statement of the second law of thermodynamics"
+},
+{
+"i": 38,
+"a": "t11",
+"b": "t106",
+"a_name": "Statement & Equation",
+"b_name": "first law analysis of reactive system"
+},
+{
+"i": 39,
+"a": "t94",
+"b": "t98",
+"a_name": "Sonic velocity and Mach number",
+"b_name": "Steady flow through the nozzle"
+},
+{
+"i": 40,
+"a": "t17",
+"b": "t96",
+"a_name": "Energy balance in a steady flow",
+"b_name": "Application of continuity"
+},
+{
+"i": 41,
+"a": "t62",
+"b": "t69",
+"a_name": "Phase change process of water",
+"b_name": "p-T diagram"
+},
+{
+"i": 42,
+"a": "t97",
+"b": "t98",
+"a_name": "momentum and energy equations for steady-state conditions",
+"b_name": "Steady flow through the nozzle"
+},
+{
+"i": 43,
+"a": "t9",
+"b": "t28",
+"a_name": "Concept of PdV work",
+"b_name": "Relation between flow and non-flow work"
+},
+{
+"i": 44,
+"a": "t42",
+"b": "t45",
+"a_name": "Entropy is property of a system",
+"b_name": "Increase of entropy principle"
+},
+{
+"i": 45,
+"a": "t9",
+"b": "t26",
+"a_name": "Concept of PdV work",
+"b_name": "Steady flow work"
+},
+{
+"i": 46,
+"a": "t66",
+"b": "t73",
+"a_name": "Property diagram",
+"b_name": "dry and superheated steam using the steam table and Mollier chart"
+},
+{
 "i": 47,
-"a": "t92",
-"b": "t93",
-"a_name": "Compressible Fluid flow",
-"b_name": "Propagation of sound waves through compressible fluids"
+"a": "t81",
+"b": "t85",
+"a_name": "Nomenclature of a reciprocating engine",
+"b_name": "Diesel Cycle and Dual cycle"
 },
 {
 "i": 48,
+"a": "t71",
+"b": "t76",
+"a_name": "T-s and an h-s diagram for water",
+"b_name": "Carnot cycle and its limitations as a vapour cycle"
+},
+{
+"i": 49,
+"a": "t7",
+"b": "t58",
+"a_name": "Characteristic gas equation",
+"b_name": "Mayer relation"
+},
+{
+"i": 50,
 "a": "t45",
 "b": "t53",
 "a_name": "Increase of entropy principle",
 "b_name": "Irreversibility"
-},
-{
-"i": 49,
-"a": "t83",
-"b": "t90",
-"a_name": "Assumptions for Air Standard Cycle",
-"b_name": "Lenoir cycle"
-},
-{
-"i": 50,
-"a": "t105",
-"b": "t106",
-"a_name": "Adiabatic flame temperature",
-"b_name": "first law analysis of reactive system"
-},
-{
-"i": 51,
-"a": "t29",
-"b": "t34",
-"a_name": "Second Law of Thermodynamics",
-"b_name": "Statement of the second law of thermodynamics"
-},
-{
-"i": 52,
-"a": "t2",
-"b": "t6",
-"a_name": "Thermodynamic state",
-"b_name": "Quasi-static process & Equilibrium"
-},
-{
-"i": 53,
-"a": "t45",
-"b": "t48",
-"a_name": "Increase of entropy principle",
-"b_name": "Availability"
-},
-{
-"i": 54,
-"a": "t64",
-"b": "t65",
-"a_name": "Terminology associated with steam",
-"b_name": "Different types of steam"
-},
-{
-"i": 55,
-"a": "t48",
-"b": "t49",
-"a_name": "Availability",
-"b_name": "Highgradeandlow- gradeenergy"
-},
-{
-"i": 56,
-"a": "t43",
-"b": "t71",
-"a_name": "Temperature-Entropy diagram",
-"b_name": "T-s and an h-s diagram for water"
-},
-{
-"i": 57,
-"a": "t102",
-"b": "t103",
-"a_name": "Combustion",
-"b_name": "theoretical and actual combustion processes"
-},
-{
-"i": 58,
-"a": "t95",
-"b": "t99",
-"a_name": "Stagnation properties",
-"b_name": "Isentropic flow through ducts of varying cross- sectional area"
-},
-{
-"i": 59,
-"a": "t10",
-"b": "t30",
-"a_name": "First Law of Thermodynamics",
-"b_name": "Limitation of the first law of thermodynamics"
-},
-{
-"i": 60,
-"a": "t6",
-"b": "t9",
-"a_name": "Quasi-static process & Equilibrium",
-"b_name": "Concept of PdV work"
-},
-{
-"i": 61,
-"a": "t3",
-"b": "t5",
-"a_name": "path",
-"b_name": "Point and Path functions"
-},
-{
-"i": 62,
-"a": "t10",
-"b": "t14",
-"a_name": "First Law of Thermodynamics",
-"b_name": "Application of first law to non-flow systems First law applied to flow system"
-},
-{
-"i": 63,
-"a": "t27",
-"b": "t28",
-"a_name": "VdP work",
-"b_name": "Relation between flow and non-flow work"
-},
-{
-"i": 64,
-"a": "t83",
-"b": "t88",
-"a_name": "Assumptions for Air Standard Cycle",
-"b_name": "Sterling Cycle"
-},
-{
-"i": 65,
-"a": "t34",
-"b": "t35",
-"a_name": "Statement of the second law of thermodynamics",
-"b_name": "Reversible and irreversible Process"
-},
-{
-"i": 66,
-"a": "t60",
-"b": "t62",
-"a_name": "Properties of Pure Substance",
-"b_name": "Phase change process of water"
-},
-{
-"i": 67,
-"a": "t94",
-"b": "t95",
-"a_name": "Sonic velocity and Mach number",
-"b_name": "Stagnation properties"
 }
 ]
 }

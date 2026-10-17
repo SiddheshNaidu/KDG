@@ -3,487 +3,337 @@
 {
 "a": "t2",
 "b": "t3",
-"why": "direct prerequisite"
-},
-{
-"a": "t2",
-"b": "t4",
-"why": "direct prerequisite"
+"why": "properties define fluid types"
 },
 {
 "a": "t4",
 "b": "t5",
-"why": "direct prerequisite"
+"why": "pressure at point"
 },
 {
-"a": "t4",
+"a": "t5",
 "b": "t6",
-"why": "direct prerequisite"
+"why": "Pascal law from pressure at a point"
 },
 {
 "a": "t5",
 "b": "t7",
-"why": "direct prerequisite"
-},
-{
-"a": "t6",
-"b": "t7",
-"why": "direct prerequisite"
+"why": "pressure variation in fluid"
 },
 {
 "a": "t7",
 "b": "t8",
-"why": "direct prerequisite"
+"why": "equilibrium from variation"
 },
 {
-"a": "t4",
+"a": "t7",
 "b": "t9",
-"why": "direct prerequisite"
+"why": "measurement uses pressure variation"
 },
 {
 "a": "t9",
 "b": "t10",
-"why": "direct prerequisite"
+"why": "manometers measure pressure"
 },
 {
 "a": "t10",
 "b": "t11",
-"why": "direct prerequisite"
+"why": "manometer type"
 },
 {
 "a": "t10",
 "b": "t12",
-"why": "direct prerequisite"
+"why": "manometer type"
 },
 {
-"a": "t10",
+"a": "t11",
 "b": "t13",
-"why": "direct prerequisite"
+"why": "differential extends U-tube"
 },
 {
-"a": "t10",
+"a": "t11",
 "b": "t14",
-"why": "direct prerequisite"
+"why": "differential extends U-tube"
 },
 {
 "a": "t10",
 "b": "t15",
-"why": "direct prerequisite"
-},
-{
-"a": "t10",
-"b": "t17",
-"why": "direct prerequisite"
-},
-{
-"a": "t12",
-"b": "t13",
-"why": "direct prerequisite"
-},
-{
-"a": "t12",
-"b": "t14",
-"why": "direct prerequisite"
-},
-{
-"a": "t12",
-"b": "t15",
-"why": "direct prerequisite"
-},
-{
-"a": "t14",
-"b": "t16",
-"why": "direct prerequisite"
+"why": "manometer type"
 },
 {
 "a": "t2",
+"b": "t16",
+"why": "viscosity law needs properties"
+},
+{
+"a": "t16",
+"b": "t17",
+"why": "kinematic from dynamic viscosity"
+},
+{
+"a": "t16",
 "b": "t18",
-"why": "direct prerequisite"
+"why": "rheology extends viscosity"
 },
 {
-"a": "t18",
+"a": "t16",
 "b": "t19",
-"why": "direct prerequisite"
-},
-{
-"a": "t18",
-"b": "t20",
-"why": "direct prerequisite"
-},
-{
-"a": "t18",
-"b": "t21",
-"why": "direct prerequisite"
+"why": "Reynolds number involves viscosity"
 },
 {
 "a": "t19",
+"b": "t20",
+"why": "Reynolds distinguishes regimes"
+},
+{
+"a": "t20",
 "b": "t21",
-"why": "direct prerequisite"
+"why": "boundary layer regime"
 },
 {
 "a": "t21",
 "b": "t22",
-"why": "direct prerequisite"
-},
-{
-"a": "t22",
-"b": "t23",
-"why": "direct prerequisite"
+"why": "transition length from boundary layer"
 },
 {
 "a": "t23",
 "b": "t24",
-"why": "direct prerequisite"
+"why": "Bernoulli uses continuity"
 },
 {
-"a": "t25",
+"a": "t24",
+"b": "t25",
+"why": "Euler yields Bernoulli"
+},
+{
+"a": "t24",
 "b": "t26",
-"why": "direct prerequisite"
+"why": "modified Bernoulli"
+},
+{
+"a": "t24",
+"b": "t27",
+"why": "applications of Bernoulli"
 },
 {
 "a": "t27",
-"b": "t26",
-"why": "direct prerequisite"
+"b": "t28",
+"why": "Venturi"
 },
 {
-"a": "t26",
-"b": "t28",
-"why": "direct prerequisite"
+"a": "t27",
+"b": "t30",
+"why": "orifice"
+},
+{
+"a": "t27",
+"b": "t31",
+"why": "pitot"
+},
+{
+"a": "t27",
+"b": "t32",
+"why": "differential area meter"
 },
 {
 "a": "t28",
 "b": "t29",
-"why": "direct prerequisite"
+"why": "horizontal and inclined Venturi"
 },
 {
-"a": "t29",
-"b": "t30",
-"why": "direct prerequisite"
-},
-{
-"a": "t29",
-"b": "t32",
-"why": "direct prerequisite"
-},
-{
-"a": "t29",
+"a": "t27",
 "b": "t33",
-"why": "direct prerequisite"
+"why": "rotameter"
 },
 {
-"a": "t29",
+"a": "t16",
 "b": "t34",
-"why": "direct prerequisite"
-},
-{
-"a": "t34",
-"b": "t30",
-"why": "direct prerequisite"
-},
-{
-"a": "t34",
-"b": "t32",
-"why": "direct prerequisite"
+"why": "shear distribution needs viscosity"
 },
 {
 "a": "t34",
 "b": "t35",
-"why": "direct prerequisite"
+"why": "wall shear"
 },
 {
-"a": "t30",
-"b": "t31",
-"why": "direct prerequisite"
-},
-{
-"a": "t18",
+"a": "t35",
 "b": "t36",
-"why": "direct prerequisite"
+"why": "friction factor from wall shear"
 },
 {
 "a": "t36",
 "b": "t37",
-"why": "direct prerequisite"
+"why": "Darcy-Weisbach uses friction factor"
 },
 {
-"a": "t37",
+"a": "t34",
 "b": "t38",
-"why": "direct prerequisite"
+"why": "velocity distribution"
 },
 {
 "a": "t38",
 "b": "t39",
-"why": "direct prerequisite"
+"why": "max velocity"
 },
 {
-"a": "t36",
+"a": "t38",
 "b": "t40",
-"why": "direct prerequisite"
+"why": "average velocity"
 },
 {
 "a": "t40",
 "b": "t41",
-"why": "direct prerequisite"
+"why": "KE correction uses average velocity"
 },
 {
-"a": "t40",
+"a": "t34",
 "b": "t42",
-"why": "direct prerequisite"
-},
-{
-"a": "t42",
-"b": "t43",
-"why": "direct prerequisite"
+"why": "Hagen-Poiseuille from laminar profile"
 },
 {
 "a": "t36",
-"b": "t44",
-"why": "direct prerequisite"
+"b": "t43",
+"why": "Moody gives friction factor"
 },
 {
-"a": "t44",
+"a": "t37",
 "b": "t45",
-"why": "direct prerequisite"
+"why": "losses use Darcy-Weisbach"
 },
 {
-"a": "t38",
+"a": "t45",
 "b": "t46",
-"why": "direct prerequisite"
+"why": "equivalent length"
 },
 {
-"a": "t39",
-"b": "t48",
-"why": "direct prerequisite"
+"a": "t45",
+"b": "t47",
+"why": "fitting losses"
 },
 {
 "a": "t48",
 "b": "t49",
-"why": "direct prerequisite"
+"why": "Mach regime"
 },
 {
 "a": "t48",
 "b": "t50",
-"why": "direct prerequisite"
+"why": "Mach regime"
 },
 {
-"a": "t42",
-"b": "t47",
-"why": "direct prerequisite"
+"a": "t48",
+"b": "t53",
+"why": "Mach uses acoustic velocity"
 },
 {
-"a": "t21",
-"b": "t38",
-"why": "direct prerequisite"
-},
-{
-"a": "t26",
-"b": "t39",
-"why": "direct prerequisite"
-},
-{
-"a": "t51",
+"a": "t48",
 "b": "t52",
-"why": "direct prerequisite"
-},
-{
-"a": "t51",
-"b": "t53",
-"why": "direct prerequisite"
-},
-{
-"a": "t52",
-"b": "t53",
-"why": "direct prerequisite"
-},
-{
-"a": "t25",
-"b": "t54",
-"why": "direct prerequisite"
-},
-{
-"a": "t26",
-"b": "t54",
-"why": "direct prerequisite"
-},
-{
-"a": "t51",
-"b": "t55",
-"why": "direct prerequisite"
-},
-{
-"a": "t51",
-"b": "t56",
-"why": "direct prerequisite"
-},
-{
-"a": "t54",
-"b": "t55",
-"why": "direct prerequisite"
+"why": "stagnation properties"
 },
 {
 "a": "t56",
 "b": "t57",
-"why": "direct prerequisite"
+"why": "immersed body drag"
 },
 {
-"a": "t55",
-"b": "t57",
-"why": "direct prerequisite"
-},
-{
-"a": "t55",
+"a": "t57",
 "b": "t58",
-"why": "direct prerequisite"
+"why": "drag coefficient"
+},
+{
+"a": "t57",
+"b": "t60",
+"why": "settling needs drag"
 },
 {
 "a": "t59",
 "b": "t60",
-"why": "direct prerequisite"
+"why": "particle motion"
 },
 {
 "a": "t60",
 "b": "t61",
-"why": "direct prerequisite"
+"why": "Stokes in settling"
 },
 {
-"a": "t62",
-"b": "t63",
-"why": "direct prerequisite"
+"a": "t64",
+"b": "t65",
+"why": "pump construction before power"
 },
 {
-"a": "t63",
-"b": "t64",
-"why": "direct prerequisite"
+"a": "t64",
+"b": "t66",
+"why": "heads and efficiency"
 },
 {
-"a": "t60",
-"b": "t62",
-"why": "direct prerequisite"
-},
-{
-"a": "t66",
-"b": "t67",
-"why": "direct prerequisite"
-},
-{
-"a": "t67",
-"b": "t68",
-"why": "direct prerequisite"
-},
-{
-"a": "t68",
+"a": "t64",
 "b": "t69",
-"why": "direct prerequisite"
+"why": "characteristic curves"
 },
 {
-"a": "t68",
+"a": "t64",
 "b": "t70",
-"why": "direct prerequisite"
+"why": "cavitation in pumps"
 },
 {
 "a": "t70",
 "b": "t71",
-"why": "direct prerequisite"
+"why": "NPSH avoids cavitation"
 },
 {
-"a": "t68",
+"a": "t71",
+"b": "t72",
+"why": "NPSH type"
+},
+{
+"a": "t71",
 "b": "t73",
-"why": "direct prerequisite"
+"why": "NPSH type"
 },
 {
-"a": "t67",
+"a": "t64",
 "b": "t74",
-"why": "direct prerequisite"
-},
-{
-"a": "t74",
-"b": "t75",
-"why": "direct prerequisite"
+"why": "priming"
 },
 {
 "a": "t75",
 "b": "t76",
-"why": "direct prerequisite"
+"why": "reciprocating pump"
 },
 {
-"a": "t75",
+"a": "t78",
 "b": "t77",
-"why": "direct prerequisite"
-},
-{
-"a": "t67",
-"b": "t78",
-"why": "direct prerequisite"
-},
-{
-"a": "t66",
-"b": "t79",
-"why": "direct prerequisite"
+"why": "purpose before power"
 },
 {
 "a": "t79",
 "b": "t80",
-"why": "direct prerequisite"
+"why": "impellers and swirling"
 },
 {
-"a": "t81",
-"b": "t82",
-"why": "direct prerequisite"
+"a": "t77",
+"b": "t81",
+"why": "power curves"
 },
 {
-"a": "t81",
-"b": "t83",
-"why": "direct prerequisite"
-},
-{
-"a": "t83",
-"b": "t84",
-"why": "direct prerequisite"
-},
-{
-"a": "t83",
+"a": "t84",
 "b": "t85",
-"why": "direct prerequisite"
+"why": "valve type"
 },
 {
-"a": "t85",
+"a": "t84",
 "b": "t86",
-"why": "direct prerequisite"
+"why": "valve type"
 },
 {
-"a": "t88",
-"b": "t89",
-"why": "direct prerequisite"
+"a": "t84",
+"b": "t87",
+"why": "valve type"
 },
 {
-"a": "t88",
-"b": "t90",
-"why": "direct prerequisite"
-},
-{
-"a": "t88",
-"b": "t91",
-"why": "direct prerequisite"
-},
-{
-"a": "t91",
-"b": "t92",
-"why": "direct prerequisite"
-},
-{
-"a": "t66",
+"a": "t84",
 "b": "t88",
-"why": "direct prerequisite"
-},
-{
-"a": "t26",
-"b": "t69",
-"why": "direct prerequisite"
-},
-{
-"a": "t87",
-"b": "t86",
-"why": "direct prerequisite"
+"why": "valve type"
 }
 ]
 }

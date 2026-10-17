@@ -141,136 +141,101 @@
 "candidates": [
 {
 "i": 0,
-"a": "t18",
-"b": "t21",
-"a_name": "Concept of reaction equilibrium in single and multiple reactions",
-"b_name": "Estimation of degree of conversion and composition of reactor effluents for single and multiple reactions"
-},
-{
-"i": 1,
-"a": "t10",
-"b": "t11",
-"a_name": "Review of Raoult’s law and Henry’s law",
-"b_name": "Phase diagrams for binary solutions"
-},
-{
-"i": 2,
-"a": "t2",
-"b": "t5",
-"a_name": "Non-idealities of solutions and mixtures",
-"b_name": "Activity and activity coefficients"
-},
-{
-"i": 3,
-"a": "t3",
-"b": "t8",
-"a_name": "Partial molar properties",
-"b_name": "Excess properties"
-},
-{
-"i": 4,
-"a": "t5",
-"b": "t14",
-"a_name": "Activity and activity coefficients",
-"b_name": "van Laar equation and Wilson equation"
-},
-{
-"i": 5,
 "a": "t1",
 "b": "t10",
 "a_name": "Ideal solutions and mixtures",
 "b_name": "Review of Raoult’s law and Henry’s law"
 },
 {
-"i": 6,
-"a": "t1",
-"b": "t7",
-"a_name": "Ideal solutions and mixtures",
-"b_name": "Property changes of mixing"
+"i": 1,
+"a": "t8",
+"b": "t13",
+"a_name": "Excess properties",
+"b_name": "Estimation of activity coefficients using Margules equations"
 },
 {
-"i": 7,
-"a": "t11",
-"b": "t12",
-"a_name": "Phase diagrams for binary solutions",
-"b_name": "Vapour-liquid equilibria in ideal and non-ideal solutions"
+"i": 2,
+"a": "t8",
+"b": "t14",
+"a_name": "Excess properties",
+"b_name": "van Laar equation and Wilson equation"
 },
 {
-"i": 8,
-"a": "t25",
-"b": "t26",
-"a_name": "Vapour absorption refrigeration system",
-"b_name": "Estimation of COP"
-},
-{
-"i": 9,
-"a": "t14",
-"b": "t15",
-"a_name": "van Laar equation and Wilson equation",
-"b_name": "Introduction to UNIQUAC equation and UNIFAC method"
-},
-{
-"i": 10,
+"i": 3,
 "a": "t18",
 "b": "t20",
 "a_name": "Concept of reaction equilibrium in single and multiple reactions",
 "b_name": "equilibrium constant of a reaction"
 },
 {
-"i": 11,
-"a": "t3",
-"b": "t7",
-"a_name": "Partial molar properties",
-"b_name": "Property changes of mixing"
+"i": 4,
+"a": "t10",
+"b": "t11",
+"a_name": "Review of Raoult’s law and Henry’s law",
+"b_name": "Phase diagrams for binary solutions"
 },
 {
-"i": 12,
-"a": "t5",
+"i": 5,
+"a": "t7",
 "b": "t8",
-"a_name": "Activity and activity coefficients",
+"a_name": "Property changes of mixing",
 "b_name": "Excess properties"
 },
 {
-"i": 13,
-"a": "t9",
-"b": "t12",
-"a_name": "Concept of equilibrium between phases",
-"b_name": "Vapour-liquid equilibria in ideal and non-ideal solutions"
-},
-{
-"i": 14,
-"a": "t5",
-"b": "t15",
-"a_name": "Activity and activity coefficients",
-"b_name": "Introduction to UNIQUAC equation and UNIFAC method"
-},
-{
-"i": 15,
-"a": "t5",
-"b": "t13",
-"a_name": "Activity and activity coefficients",
-"b_name": "Estimation of activity coefficients using Margules equations"
-},
-{
-"i": 16,
-"a": "t12",
-"b": "t13",
-"a_name": "Vapour-liquid equilibria in ideal and non-ideal solutions",
-"b_name": "Estimation of activity coefficients using Margules equations"
-},
-{
-"i": 17,
+"i": 6,
 "a": "t18",
 "b": "t22",
 "a_name": "Concept of reaction equilibrium in single and multiple reactions",
 "b_name": "Degrees of freedom for single and multiple reactions"
 },
 {
-"i": 18,
-"a": "t9",
-"b": "t10",
-"a_name": "Concept of equilibrium between phases",
-"b_name": "Review of Raoult’s law and Henry’s law"
+"i": 7,
+"a": "t3",
+"b": "t8",
+"a_name": "Partial molar properties",
+"b_name": "Excess properties"
+},
+{
+"i": 8,
+"a": "t18",
+"b": "t19",
+"a_name": "Concept of reaction equilibrium in single and multiple reactions",
+"b_name": "Estimation of standard Gibbs free energy change"
+},
+{
+"i": 9,
+"a": "t2",
+"b": "t8",
+"a_name": "Non-idealities of solutions and mixtures",
+"b_name": "Excess properties"
+},
+{
+"i": 10,
+"a": "t5",
+"b": "t14",
+"a_name": "Activity and activity coefficients",
+"b_name": "van Laar equation and Wilson equation"
+},
+{
+"i": 11,
+"a": "t5",
+"b": "t15",
+"a_name": "Activity and activity coefficients",
+"b_name": "Introduction to UNIQUAC equation and UNIFAC method"
+},
+{
+"i": 12,
+"a": "t5",
+"b": "t13",
+"a_name": "Activity and activity coefficients",
+"b_name": "Estimation of activity coefficients using Margules equations"
+},
+{
+"i": 13,
+"a": "t10",
+"b": "t12",
+"a_name": "Review of Raoult’s law and Henry’s law",
+"b_name": "Vapour-liquid equilibria in ideal and non-ideal solutions"
 }
 ]
 }

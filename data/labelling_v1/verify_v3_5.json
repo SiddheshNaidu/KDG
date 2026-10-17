@@ -1,0 +1,70 @@
+{
+ "verdicts": {
+  "23451142|fac0d2ea86a908e8": {
+   "verdict": "FIXABLE",
+   "topics": 96,
+   "junk": 6,
+   "note": "glued 'Measures of Query Cost Selection Operation', 'How Does a Query Execute? The Snowflake Schema'; split 'federated and multi tired architectures'; dangling 'Architecture'; missing 'Types','Application'"
+  },
+  "23451144|e66d755317975e9d": {
+   "verdict": "OK",
+   "topics": 69,
+   "junk": 2,
+   "note": "fragments 'Point','Line' from 'Point, Line, and Edge Detection'"
+  },
+  "2346112|0a7e38013c73c912": {
+   "verdict": "FIXABLE",
+   "topics": 83,
+   "junk": 5,
+   "note": "hyphen splits 'Non- relational (No-SQL) Databases', 'Types of Non- relational Databases'; glued 'Measuring the Cloud's Value Early adopters...'; dangling 'architecture'"
+  },
+  "23461131|20e6c992cff70231": {
+   "verdict": "OK",
+   "topics": 58,
+   "junk": 2,
+   "note": "'object- oriented' hyphen gap; 'scope' dropped from M2"
+  },
+  "23461133|12021d4ca1169069": {
+   "verdict": "FIXABLE",
+   "topics": 52,
+   "junk": 3,
+   "note": "'Spatial and Non- spatial', 'Real- Time Mapping Systems' hyphen splits; dangling 'Libraries'; duplicate 'Components of GIS'"
+  },
+  "23461134|81c88c10c2671c1b": {
+   "verdict": "OK",
+   "topics": 59,
+   "junk": 2,
+   "note": "'Point- Based Representation' hyphen gap; label 'Case study of Application'"
+  },
+  "23461141|dfe4ff385e741d80": {
+   "verdict": "BAD",
+   "topics": 89,
+   "junk": 13,
+   "note": "glued 'Static Testing Validation Activities', 'Quality Management Product Quality'; split 'activities'/'their role in early defect prevention', 'Integration'/'Function'/'System'; 'Apache JMeter' missing"
+  },
+  "23461142|a3eb2ad737098624": {
+   "verdict": "FIXABLE",
+   "topics": 65,
+   "junk": 8,
+   "note": "split 'Two'/'level Morphology'; glued 'Non-word errors Real-word errors', 'Lexicon free FST Porter stemmer', Naive Bayes+SVM glued, 'GloVe Vector Visualizing Embedding's'"
+  },
+  "23461143|2811a6f78bf7fa74": {
+   "verdict": "FIXABLE",
+   "topics": 88,
+   "junk": 7,
+   "note": "split 'Difference between Hackers'/'Crackers and Phreakers'; list fragments 'RAM','flash memory'; glued 'Role of AI in Digital Forensics Introduction to Digital evidences'; 'e- governance'; 'PDAs' missing"
+  },
+  "23461144|6701e7487b30a3ce": {
+   "verdict": "FIXABLE",
+   "topics": 104,
+   "junk": 10,
+   "note": "glued 'Ingredients of an AR Experience Dimensionality', 'Classes of Travel Methods Interacting with Others-Shared Experience'; split sentence 'distinguishing between technical capabilities (Immersion)'; 'Ethics' fragment; duplicate 'Musculoskeletal Issues'; 'Multi- sample'"
+  },
+  "2394111|5ef84f7e25216b2f": {
+   "verdict": "BAD",
+   "topics": 59,
+   "junk": 10,
+   "note": "list fragments 'bar','beam','truss and Plane frame'; 4 'Any one/two problems...' home-exercise lines as topics; glued 'Matrix Inversion Eligen values & Elgen vectors'; 'Application','Advantages' missing"
+  }
+ }
+}

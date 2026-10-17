@@ -1,329 +1,224 @@
 {
 "edges": [
 {
-"a": "t1",
-"b": "t2",
-"why": "direct prerequisite"
-},
-{
-"a": "t1",
-"b": "t3",
-"why": "direct prerequisite"
-},
-{
-"a": "t2",
-"b": "t4",
-"why": "direct prerequisite"
-},
-{
-"a": "t2",
-"b": "t5",
-"why": "direct prerequisite"
-},
-{
 "a": "t5",
 "b": "t6",
-"why": "direct prerequisite"
+"why": "soft computing constituents"
 },
 {
 "a": "t6",
 "b": "t7",
-"why": "direct prerequisite"
+"why": "characteristics of constituents"
 },
 {
 "a": "t6",
 "b": "t8",
-"why": "direct prerequisite"
-},
-{
-"a": "t2",
-"b": "t9",
-"why": "direct prerequisite"
+"why": "compare hard vs soft"
 },
 {
 "a": "t10",
 "b": "t11",
-"why": "direct prerequisite"
+"why": "state space before search formulation"
 },
 {
-"a": "t12",
-"b": "t11",
-"why": "direct prerequisite"
+"a": "t11",
+"b": "t12",
+"why": "formulation of search problem"
 },
 {
 "a": "t11",
 "b": "t13",
-"why": "direct prerequisite"
+"why": "uninformed search needs state space"
+},
+{
+"a": "t11",
+"b": "t16",
+"why": "informed search needs state space"
 },
 {
 "a": "t13",
 "b": "t14",
-"why": "direct prerequisite"
+"why": "DFS is uninformed"
 },
 {
 "a": "t13",
 "b": "t15",
-"why": "direct prerequisite"
-},
-{
-"a": "t13",
-"b": "t16",
-"why": "direct prerequisite"
+"why": "BFS is uninformed"
 },
 {
 "a": "t16",
 "b": "t17",
-"why": "direct prerequisite"
-},
-{
-"a": "t17",
-"b": "t18",
-"why": "direct prerequisite"
+"why": "greedy is informed"
 },
 {
 "a": "t16",
 "b": "t18",
-"why": "direct prerequisite"
+"why": "A* is informed"
+},
+{
+"a": "t17",
+"b": "t18",
+"why": "A* refines greedy"
 },
 {
 "a": "t11",
 "b": "t19",
-"why": "direct prerequisite"
+"why": "local search needs state space"
 },
 {
 "a": "t19",
 "b": "t20",
-"why": "direct prerequisite"
+"why": "local search"
 },
 {
 "a": "t19",
 "b": "t21",
-"why": "direct prerequisite"
+"why": "local search"
+},
+{
+"a": "t20",
+"b": "t21",
+"why": "annealing improves hill climbing"
 },
 {
 "a": "t22",
 "b": "t23",
-"why": "direct prerequisite"
+"why": "PL is a representation"
 },
 {
 "a": "t23",
 "b": "t24",
-"why": "direct prerequisite"
+"why": "syntax of PL"
 },
 {
 "a": "t23",
 "b": "t25",
-"why": "direct prerequisite"
+"why": "semantics of PL"
 },
 {
 "a": "t23",
 "b": "t26",
-"why": "direct prerequisite"
+"why": "connectives in PL"
 },
 {
 "a": "t23",
 "b": "t27",
-"why": "direct prerequisite"
+"why": "FOPL extends PL"
 },
 {
 "a": "t27",
 "b": "t28",
-"why": "direct prerequisite"
+"why": "FOPL"
 },
 {
 "a": "t28",
 "b": "t29",
-"why": "direct prerequisite"
+"why": "quantifiers"
 },
 {
 "a": "t28",
 "b": "t30",
-"why": "direct prerequisite"
+"why": "inference in FOPL"
 },
 {
 "a": "t30",
 "b": "t31",
-"why": "direct prerequisite"
+"why": "forward chaining"
 },
 {
 "a": "t30",
 "b": "t32",
-"why": "direct prerequisite"
-},
-{
-"a": "t31",
-"b": "t32",
-"why": "direct prerequisite"
-},
-{
-"a": "t33",
-"b": "t35",
-"why": "direct prerequisite"
+"why": "backward chaining"
 },
 {
 "a": "t34",
 "b": "t35",
-"why": "direct prerequisite"
+"why": "priors need random variables"
 },
 {
 "a": "t36",
 "b": "t37",
-"why": "direct prerequisite"
+"why": "fuzzy sets"
 },
 {
 "a": "t37",
 "b": "t38",
-"why": "direct prerequisite"
+"why": "relations over fuzzy sets"
 },
 {
 "a": "t37",
 "b": "t39",
-"why": "direct prerequisite"
+"why": "membership functions"
 },
 {
 "a": "t37",
-"b": "t40",
-"why": "direct prerequisite"
+"b": "t43",
+"why": "fuzzy rules use fuzzy sets"
 },
 {
 "a": "t43",
 "b": "t44",
-"why": "direct prerequisite"
-},
-{
-"a": "t42",
-"b": "t43",
-"why": "direct prerequisite"
-},
-{
-"a": "t37",
-"b": "t42",
-"why": "direct prerequisite"
+"why": "FIS uses rules"
 },
 {
 "a": "t44",
 "b": "t45",
-"why": "direct prerequisite"
+"why": "Mamdani is a FIS"
 },
 {
 "a": "t44",
 "b": "t46",
-"why": "direct prerequisite"
-},
-{
-"a": "t39",
-"b": "t44",
-"why": "direct prerequisite"
-},
-{
-"a": "t43",
-"b": "t45",
-"why": "direct prerequisite"
-},
-{
-"a": "t46",
-"b": "t47",
-"why": "direct prerequisite"
-},
-{
-"a": "t45",
-"b": "t47",
-"why": "direct prerequisite"
-},
-{
-"a": "t48",
-"b": "t49",
-"why": "direct prerequisite"
+"why": "Sugeno is a FIS"
 },
 {
 "a": "t49",
 "b": "t50",
-"why": "direct prerequisite"
-},
-{
-"a": "t49",
-"b": "t51",
-"why": "direct prerequisite"
+"why": "intro then biological"
 },
 {
 "a": "t51",
 "b": "t52",
-"why": "direct prerequisite"
-},
-{
-"a": "t53",
-"b": "t52",
-"why": "direct prerequisite"
+"why": "perceptron extends McCulloch Pitts"
 },
 {
 "a": "t52",
 "b": "t54",
-"why": "direct prerequisite"
+"why": "delta rule trains perceptron"
 },
 {
 "a": "t54",
 "b": "t55",
-"why": "direct prerequisite"
+"why": "backprop generalises delta rule"
 },
 {
 "a": "t52",
-"b": "t55",
-"why": "direct prerequisite"
-},
-{
-"a": "t49",
-"b": "t56",
-"why": "direct prerequisite"
-},
-{
-"a": "t56",
-"b": "t57",
-"why": "direct prerequisite"
+"b": "t53",
+"why": "limitations of perceptron"
 },
 {
 "a": "t57",
 "b": "t58",
-"why": "direct prerequisite"
+"why": "SOM uses winner take all"
 },
 {
-"a": "t58",
+"a": "t57",
 "b": "t59",
-"why": "direct prerequisite"
-},
-{
-"a": "t60",
-"b": "t61",
-"why": "direct prerequisite"
-},
-{
-"a": "t62",
-"b": "t65",
-"why": "direct prerequisite"
-},
-{
-"a": "t37",
-"b": "t62",
-"why": "direct prerequisite"
-},
-{
-"a": "t49",
-"b": "t62",
-"why": "direct prerequisite"
-},
-{
-"a": "t60",
-"b": "t65",
-"why": "direct prerequisite"
-},
-{
-"a": "t9",
-"b": "t49",
-"why": "direct prerequisite"
+"why": "LVQ uses winner take all"
 },
 {
 "a": "t44",
 "b": "t62",
-"why": "direct prerequisite"
+"why": "ANFIS needs FIS"
+},
+{
+"a": "t55",
+"b": "t62",
+"why": "ANFIS needs neural training"
+},
+{
+"a": "t62",
+"b": "t65",
+"why": "ANFIS is neuro-fuzzy"
 }
 ]
 }

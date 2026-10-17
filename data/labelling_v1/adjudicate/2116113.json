@@ -1,0 +1,674 @@
+{
+"course": "2116113",
+"title": "Internet of Things (IoT)",
+"topics": [
+{
+"id": "t1",
+"name": "IoT definition",
+"module": 1
+},
+{
+"id": "t2",
+"name": "evolution",
+"module": 1
+},
+{
+"id": "t3",
+"name": "IoT ecosystem and software-oriented architecture",
+"module": 1
+},
+{
+"id": "t4",
+"name": "IoT vs. traditional embedded systems",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Sensors",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Actuators",
+"module": 1
+},
+{
+"id": "t7",
+"name": "smart objects",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Interfacing",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Types of sensors",
+"module": 1
+},
+{
+"id": "t10",
+"name": "signal conditioning",
+"module": 1
+},
+{
+"id": "t11",
+"name": "DAC/ADC",
+"module": 1
+},
+{
+"id": "t12",
+"name": "interfacing protocols (I2C, SPI, UART)",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Actuators (motors, relays, etc.) Enabling technologies",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Cloud",
+"module": 1
+},
+{
+"id": "t15",
+"name": "AI",
+"module": 1
+},
+{
+"id": "t16",
+"name": "Big Data",
+"module": 1
+},
+{
+"id": "t17",
+"name": "Edge Computing",
+"module": 1
+},
+{
+"id": "t18",
+"name": "IoT application domains and use cases",
+"module": 1
+},
+{
+"id": "t19",
+"name": "IoT architecture models",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Three-layer",
+"module": 2
+},
+{
+"id": "t21",
+"name": "Five-layer",
+"module": 2
+},
+{
+"id": "t22",
+"name": "SOA-based",
+"module": 2
+},
+{
+"id": "t23",
+"name": "IoTWF",
+"module": 2
+},
+{
+"id": "t24",
+"name": "Device abstraction and virtualization",
+"module": 2
+},
+{
+"id": "t25",
+"name": "IoT software stack and middleware components",
+"module": 2
+},
+{
+"id": "t26",
+"name": "Overview of development boards",
+"module": 2
+},
+{
+"id": "t27",
+"name": "Raspberry Pi",
+"module": 2
+},
+{
+"id": "t28",
+"name": "ESP32",
+"module": 2
+},
+{
+"id": "t29",
+"name": "Arduino",
+"module": 2
+},
+{
+"id": "t30",
+"name": "Operating systems for IoT",
+"module": 2
+},
+{
+"id": "t31",
+"name": "FreeRTOS",
+"module": 2
+},
+{
+"id": "t32",
+"name": "Contiki",
+"module": 2
+},
+{
+"id": "t33",
+"name": "TinyOS",
+"module": 2
+},
+{
+"id": "t34",
+"name": "IoT communication models and network design:- PHY / MAC layer",
+"module": 3
+},
+{
+"id": "t35",
+"name": "BLE",
+"module": 3
+},
+{
+"id": "t36",
+"name": "ZigBee",
+"module": 3
+},
+{
+"id": "t37",
+"name": "LoRa",
+"module": 3
+},
+{
+"id": "t38",
+"name": "NB-IoT",
+"module": 3
+},
+{
+"id": "t39",
+"name": "WiFi",
+"module": 3
+},
+{
+"id": "t40",
+"name": "IPv6 for constrained",
+"module": 3
+},
+{
+"id": "t41",
+"name": "6LoWPAN",
+"module": 3
+},
+{
+"id": "t42",
+"name": "6Lo",
+"module": 3
+},
+{
+"id": "t43",
+"name": "6TiSCH",
+"module": 3
+},
+{
+"id": "t44",
+"name": "Routing protocols",
+"module": 3
+},
+{
+"id": "t45",
+"name": "RPL",
+"module": 3
+},
+{
+"id": "t46",
+"name": "Mobility",
+"module": 3
+},
+{
+"id": "t47",
+"name": "fragmentation",
+"module": 3
+},
+{
+"id": "t48",
+"name": "header compression",
+"module": 3
+},
+{
+"id": "t49",
+"name": "Transport and Application layer Protocols",
+"module": 3
+},
+{
+"id": "t50",
+"name": "Publish/subscribe models",
+"module": 3
+},
+{
+"id": "t51",
+"name": "message brokers",
+"module": 3
+},
+{
+"id": "t52",
+"name": "MQTT",
+"module": 3
+},
+{
+"id": "t53",
+"name": "CoAP",
+"module": 3
+},
+{
+"id": "t54",
+"name": "HTTP/HTTPS",
+"module": 3
+},
+{
+"id": "t55",
+"name": "AMQP",
+"module": 3
+},
+{
+"id": "t56",
+"name": "WebSocket",
+"module": 3
+},
+{
+"id": "t57",
+"name": "QOS",
+"module": 3
+},
+{
+"id": "t58",
+"name": "reliability",
+"module": 3
+},
+{
+"id": "t59",
+"name": "congestion issues",
+"module": 3
+},
+{
+"id": "t60",
+"name": "Message queuing and data serialization (JSON, CBOR)",
+"module": 3
+},
+{
+"id": "t61",
+"name": "Case Study",
+"module": 3
+},
+{
+"id": "t62",
+"name": "MQTT-based smart monitoring",
+"module": 3
+},
+{
+"id": "t63",
+"name": "IoT software",
+"module": 4
+},
+{
+"id": "t64",
+"name": "IoT middleware",
+"module": 4
+},
+{
+"id": "t65",
+"name": "APIs",
+"module": 4
+},
+{
+"id": "t66",
+"name": "SDKs",
+"module": 4
+},
+{
+"id": "t67",
+"name": "Cloud integration",
+"module": 4
+},
+{
+"id": "t68",
+"name": "AWS IoT Core",
+"module": 4
+},
+{
+"id": "t69",
+"name": "Azure IoT Hub",
+"module": 4
+},
+{
+"id": "t70",
+"name": "Google IoT Core",
+"module": 4
+},
+{
+"id": "t71",
+"name": "ThingSpeak",
+"module": 4
+},
+{
+"id": "t72",
+"name": "Data pipelines",
+"module": 4
+},
+{
+"id": "t73",
+"name": "Device-to-cloud / Cloud-to-device",
+"module": 4
+},
+{
+"id": "t74",
+"name": "RESTful APIs and Node-RED flow programming",
+"module": 4
+},
+{
+"id": "t75",
+"name": "IoT data lifecycle and management",
+"module": 5
+},
+{
+"id": "t76",
+"name": "Databases",
+"module": 5
+},
+{
+"id": "t77",
+"name": "InfluxDB",
+"module": 5
+},
+{
+"id": "t78",
+"name": "MongoDB",
+"module": 5
+},
+{
+"id": "t79",
+"name": "Firebase",
+"module": 5
+},
+{
+"id": "t80",
+"name": "Edge analytics",
+"module": 5
+},
+{
+"id": "t81",
+"name": "Edge analytics using Python and TensorFlow Lite",
+"module": 5
+},
+{
+"id": "t82",
+"name": "IoT security fundamentals",
+"module": 5
+},
+{
+"id": "t83",
+"name": "Authentication",
+"module": 5
+},
+{
+"id": "t84",
+"name": "Encryption",
+"module": 5
+},
+{
+"id": "t85",
+"name": "Secure Communication",
+"module": 5
+},
+{
+"id": "t86",
+"name": "IoT Applications",
+"module": 6
+},
+{
+"id": "t87",
+"name": "Smart homes",
+"module": 6
+},
+{
+"id": "t88",
+"name": "smart cities",
+"module": 6
+},
+{
+"id": "t89",
+"name": "healthcare",
+"module": 6
+},
+{
+"id": "t90",
+"name": "industrial IoT",
+"module": 6
+},
+{
+"id": "t91",
+"name": "Precision agriculture and energy management",
+"module": 6
+},
+{
+"id": "t92",
+"name": "IoT",
+"module": 6
+},
+{
+"id": "t93",
+"name": "AI integration for intelligent decision-making",
+"module": 6
+},
+{
+"id": "t94",
+"name": "Sustainable IoT and environmental monitoring",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t34",
+"b": "t36",
+"a_name": "IoT communication models and network design:- PHY / MAC layer",
+"b_name": "ZigBee"
+},
+{
+"i": 1,
+"a": "t49",
+"b": "t53",
+"a_name": "Transport and Application layer Protocols",
+"b_name": "CoAP"
+},
+{
+"i": 2,
+"a": "t49",
+"b": "t54",
+"a_name": "Transport and Application layer Protocols",
+"b_name": "HTTP/HTTPS"
+},
+{
+"i": 3,
+"a": "t83",
+"b": "t85",
+"a_name": "Authentication",
+"b_name": "Secure Communication"
+},
+{
+"i": 4,
+"a": "t1",
+"b": "t3",
+"a_name": "IoT definition",
+"b_name": "IoT ecosystem and software-oriented architecture"
+},
+{
+"i": 5,
+"a": "t92",
+"b": "t93",
+"a_name": "IoT",
+"b_name": "AI integration for intelligent decision-making"
+},
+{
+"i": 6,
+"a": "t82",
+"b": "t85",
+"a_name": "IoT security fundamentals",
+"b_name": "Secure Communication"
+},
+{
+"i": 7,
+"a": "t67",
+"b": "t73",
+"a_name": "Cloud integration",
+"b_name": "Device-to-cloud / Cloud-to-device"
+},
+{
+"i": 8,
+"a": "t15",
+"b": "t93",
+"a_name": "AI",
+"b_name": "AI integration for intelligent decision-making"
+},
+{
+"i": 9,
+"a": "t5",
+"b": "t8",
+"a_name": "Sensors",
+"b_name": "Interfacing"
+},
+{
+"i": 10,
+"a": "t6",
+"b": "t7",
+"a_name": "Actuators",
+"b_name": "smart objects"
+},
+{
+"i": 11,
+"a": "t8",
+"b": "t12",
+"a_name": "Interfacing",
+"b_name": "interfacing protocols (I2C, SPI, UART)"
+},
+{
+"i": 12,
+"a": "t34",
+"b": "t35",
+"a_name": "IoT communication models and network design:- PHY / MAC layer",
+"b_name": "BLE"
+},
+{
+"i": 13,
+"a": "t1",
+"b": "t2",
+"a_name": "IoT definition",
+"b_name": "evolution"
+},
+{
+"i": 14,
+"a": "t52",
+"b": "t57",
+"a_name": "MQTT",
+"b_name": "QOS"
+},
+{
+"i": 15,
+"a": "t34",
+"b": "t37",
+"a_name": "IoT communication models and network design:- PHY / MAC layer",
+"b_name": "LoRa"
+},
+{
+"i": 16,
+"a": "t86",
+"b": "t91",
+"a_name": "IoT Applications",
+"b_name": "Precision agriculture and energy management"
+},
+{
+"i": 17,
+"a": "t3",
+"b": "t22",
+"a_name": "IoT ecosystem and software-oriented architecture",
+"b_name": "SOA-based"
+},
+{
+"i": 18,
+"a": "t34",
+"b": "t38",
+"a_name": "IoT communication models and network design:- PHY / MAC layer",
+"b_name": "NB-IoT"
+},
+{
+"i": 19,
+"a": "t5",
+"b": "t7",
+"a_name": "Sensors",
+"b_name": "smart objects"
+},
+{
+"i": 20,
+"a": "t86",
+"b": "t90",
+"a_name": "IoT Applications",
+"b_name": "industrial IoT"
+},
+{
+"i": 21,
+"a": "t86",
+"b": "t87",
+"a_name": "IoT Applications",
+"b_name": "Smart homes"
+},
+{
+"i": 22,
+"a": "t41",
+"b": "t42",
+"a_name": "6LoWPAN",
+"b_name": "6Lo"
+},
+{
+"i": 23,
+"a": "t34",
+"b": "t39",
+"a_name": "IoT communication models and network design:- PHY / MAC layer",
+"b_name": "WiFi"
+},
+{
+"i": 24,
+"a": "t49",
+"b": "t56",
+"a_name": "Transport and Application layer Protocols",
+"b_name": "WebSocket"
+},
+{
+"i": 25,
+"a": "t86",
+"b": "t88",
+"a_name": "IoT Applications",
+"b_name": "smart cities"
+},
+{
+"i": 26,
+"a": "t86",
+"b": "t89",
+"a_name": "IoT Applications",
+"b_name": "healthcare"
+},
+{
+"i": 27,
+"a": "t67",
+"b": "t70",
+"a_name": "Cloud integration",
+"b_name": "Google IoT Core"
+}
+]
+}

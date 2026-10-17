@@ -20,7 +20,7 @@
 },
 {
 "index": 5,
-"name": "d"
+"name": "Module 5"
 },
 {
 "index": 6,
@@ -250,251 +250,241 @@
 },
 {
 "id": "t45",
-"name": "RPL",
+"name": "RPL - Mobility",
 "module": 3
 },
 {
 "id": "t46",
-"name": "Mobility",
-"module": 3
-},
-{
-"id": "t47",
 "name": "fragmentation",
 "module": 3
 },
 {
-"id": "t48",
+"id": "t47",
 "name": "header compression",
 "module": 3
 },
 {
-"id": "t49",
+"id": "t48",
 "name": "Transport and Application layer Protocols",
 "module": 3
 },
 {
-"id": "t50",
+"id": "t49",
 "name": "Publish/subscribe models",
 "module": 3
 },
 {
-"id": "t51",
+"id": "t50",
 "name": "message brokers",
 "module": 3
 },
 {
-"id": "t52",
+"id": "t51",
 "name": "MQTT",
 "module": 3
 },
 {
-"id": "t53",
+"id": "t52",
 "name": "CoAP",
 "module": 3
 },
 {
-"id": "t54",
+"id": "t53",
 "name": "HTTP/HTTPS",
 "module": 3
 },
 {
-"id": "t55",
+"id": "t54",
 "name": "AMQP",
 "module": 3
 },
 {
-"id": "t56",
+"id": "t55",
 "name": "WebSocket",
 "module": 3
 },
 {
-"id": "t57",
+"id": "t56",
 "name": "QOS",
 "module": 3
 },
 {
-"id": "t58",
+"id": "t57",
 "name": "reliability",
 "module": 3
 },
 {
-"id": "t59",
+"id": "t58",
 "name": "congestion issues",
 "module": 3
 },
 {
-"id": "t60",
+"id": "t59",
 "name": "Message queuing and data serialization (JSON, CBOR)",
 "module": 3
 },
 {
-"id": "t61",
+"id": "t60",
 "name": "Case Study",
 "module": 3
 },
 {
-"id": "t62",
+"id": "t61",
 "name": "MQTT-based smart monitoring",
 "module": 3
 },
 {
-"id": "t63",
+"id": "t62",
 "name": "IoT software",
 "module": 4
 },
 {
-"id": "t64",
+"id": "t63",
 "name": "IoT middleware",
 "module": 4
 },
 {
-"id": "t65",
+"id": "t64",
 "name": "APIs",
 "module": 4
 },
 {
-"id": "t66",
+"id": "t65",
 "name": "SDKs",
 "module": 4
 },
 {
-"id": "t67",
+"id": "t66",
 "name": "Cloud integration",
 "module": 4
 },
 {
-"id": "t68",
+"id": "t67",
 "name": "AWS IoT Core",
 "module": 4
 },
 {
-"id": "t69",
+"id": "t68",
 "name": "Azure IoT Hub",
 "module": 4
 },
 {
-"id": "t70",
+"id": "t69",
 "name": "Google IoT Core",
 "module": 4
 },
 {
-"id": "t71",
+"id": "t70",
 "name": "ThingSpeak",
 "module": 4
 },
 {
-"id": "t72",
+"id": "t71",
 "name": "Data pipelines",
 "module": 4
 },
 {
-"id": "t73",
+"id": "t72",
 "name": "Device-to-cloud / Cloud-to-device",
 "module": 4
 },
 {
-"id": "t74",
+"id": "t73",
 "name": "RESTful APIs and Node-RED flow programming",
 "module": 4
 },
 {
-"id": "t75",
+"id": "t74",
 "name": "IoT data lifecycle and management",
 "module": 5
 },
 {
-"id": "t76",
+"id": "t75",
 "name": "Databases",
 "module": 5
 },
 {
-"id": "t77",
+"id": "t76",
 "name": "InfluxDB",
 "module": 5
 },
 {
-"id": "t78",
+"id": "t77",
 "name": "MongoDB",
 "module": 5
 },
 {
-"id": "t79",
+"id": "t78",
 "name": "Firebase",
 "module": 5
 },
 {
-"id": "t80",
+"id": "t79",
 "name": "Edge analytics",
 "module": 5
 },
 {
-"id": "t81",
+"id": "t80",
 "name": "Edge analytics using Python and TensorFlow Lite",
 "module": 5
 },
 {
-"id": "t82",
+"id": "t81",
 "name": "IoT security fundamentals",
 "module": 5
 },
 {
-"id": "t83",
+"id": "t82",
 "name": "Authentication",
 "module": 5
 },
 {
-"id": "t84",
+"id": "t83",
 "name": "Encryption",
 "module": 5
 },
 {
-"id": "t85",
+"id": "t84",
 "name": "Secure Communication",
 "module": 5
 },
 {
-"id": "t86",
+"id": "t85",
 "name": "IoT Applications",
 "module": 6
 },
 {
-"id": "t87",
+"id": "t86",
 "name": "Smart homes",
 "module": 6
 },
 {
-"id": "t88",
+"id": "t87",
 "name": "smart cities",
 "module": 6
 },
 {
-"id": "t89",
+"id": "t88",
 "name": "healthcare",
 "module": 6
 },
 {
-"id": "t90",
+"id": "t89",
 "name": "industrial IoT",
 "module": 6
 },
 {
-"id": "t91",
+"id": "t90",
 "name": "Precision agriculture and energy management",
 "module": 6
 },
 {
+"id": "t91",
+"name": "IoT–AI integration for intelligent decision-making",
+"module": 6
+},
+{
 "id": "t92",
-"name": "IoT",
-"module": 6
-},
-{
-"id": "t93",
-"name": "AI integration for intelligent decision-making",
-"module": 6
-},
-{
-"id": "t94",
 "name": "Sustainable IoT and environmental monitoring",
 "module": 6
 }

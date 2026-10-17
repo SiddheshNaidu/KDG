@@ -356,164 +356,178 @@
 "candidates": [
 {
 "i": 0,
-"a": "t19",
-"b": "t45",
-"a_name": "Mathematical induction",
-"b_name": "Solving recurrence relations"
-},
-{
-"i": 1,
-"a": "t62",
-"b": "t69",
-"a_name": "Connected Graphs",
-"b_name": "Cut Vertex"
-},
-{
-"i": 2,
-"a": "t55",
-"b": "t65",
-"a_name": "Types of graphs",
-"b_name": "Homomorphism and Isomorphism of Graphs"
-},
-{
-"i": 3,
-"a": "t2",
-"b": "t20",
-"a_name": "Sets",
-"b_name": "Relations"
-},
-{
-"i": 4,
-"a": "t68",
-"b": "t69",
-"a_name": "Cut Set",
-"b_name": "Cut Vertex"
-},
-{
-"i": 5,
-"a": "t55",
-"b": "t67",
-"a_name": "Types of graphs",
-"b_name": "Planar Graph"
-},
-{
-"i": 6,
-"a": "t35",
-"b": "t41",
-"a_name": "Functions",
-"b_name": "Real life applications of Functions"
-},
-{
-"i": 7,
-"a": "t2",
-"b": "t4",
-"a_name": "Sets",
-"b_name": "Universal and Empty Sets"
-},
-{
-"i": 8,
-"a": "t12",
-"b": "t15",
-"a_name": "Types of Mathematical Proof",
-"b_name": "Proof by deduction"
-},
-{
-"i": 9,
-"a": "t57",
-"b": "t58",
-"a_name": "Sub graphs",
-"b_name": "Operations on Graphs"
-},
-{
-"i": 10,
-"a": "t5",
-"b": "t43",
-"a_name": "Set Operations",
-"b_name": "Inclusion-Exclusion Principle"
-},
-{
-"i": 11,
-"a": "t12",
-"b": "t19",
-"a_name": "Types of Mathematical Proof",
-"b_name": "Mathematical induction"
-},
-{
-"i": 12,
-"a": "t59",
-"b": "t61",
-"a_name": "Walk",
-"b_name": "Circuit"
-},
-{
-"i": 13,
-"a": "t46",
-"b": "t53",
-"a_name": "Algebraic structures with one binary operation",
-"b_name": "Algebraic structures with two binary operations"
-},
-{
-"i": 14,
-"a": "t60",
-"b": "t61",
-"a_name": "Path",
-"b_name": "Circuit"
-},
-{
-"i": 15,
-"a": "t12",
-"b": "t16",
-"a_name": "Types of Mathematical Proof",
-"b_name": "Proof by cases"
-},
-{
-"i": 16,
-"a": "t9",
-"b": "t12",
-"a_name": "Propositional Logic",
-"b_name": "Types of Mathematical Proof"
-},
-{
-"i": 17,
-"a": "t62",
-"b": "t66",
-"a_name": "Connected Graphs",
-"b_name": "Euler and Hamiltonian Graphs"
-},
-{
-"i": 18,
-"a": "t8",
-"b": "t10",
-"a_name": "Logic",
-"b_name": "Predicate Logic"
-},
-{
-"i": 19,
-"a": "t20",
-"b": "t35",
-"a_name": "Relations",
-"b_name": "Functions"
-},
-{
-"i": 20,
-"a": "t12",
-"b": "t17",
-"a_name": "Types of Mathematical Proof",
-"b_name": "Proof by exhaustion"
-},
-{
-"i": 21,
 "a": "t9",
 "b": "t13",
 "a_name": "Propositional Logic",
 "b_name": "Direct proof"
 },
 {
-"i": 22,
-"a": "t56",
+"i": 1,
+"a": "t62",
+"b": "t63",
+"a_name": "Connected Graphs",
+"b_name": "Disconnected Graph"
+},
+{
+"i": 2,
+"a": "t2",
+"b": "t6",
+"a_name": "Sets",
+"b_name": "Set Representation"
+},
+{
+"i": 3,
+"a": "t19",
+"b": "t45",
+"a_name": "Mathematical induction",
+"b_name": "Solving recurrence relations"
+},
+{
+"i": 4,
+"a": "t62",
+"b": "t64",
+"a_name": "Connected Graphs",
+"b_name": "Components"
+},
+{
+"i": 5,
+"a": "t57",
+"b": "t58",
+"a_name": "Sub graphs",
+"b_name": "Operations on Graphs"
+},
+{
+"i": 6,
+"a": "t13",
+"b": "t16",
+"a_name": "Direct proof",
+"b_name": "Proof by cases"
+},
+{
+"i": 7,
+"a": "t55",
+"b": "t59",
+"a_name": "Types of graphs",
+"b_name": "Walk"
+},
+{
+"i": 8,
+"a": "t3",
+"b": "t4",
+"a_name": "Subsets",
+"b_name": "Universal and Empty Sets"
+},
+{
+"i": 9,
+"a": "t46",
+"b": "t47",
+"a_name": "Algebraic structures with one binary operation",
+"b_name": "Semi group"
+},
+{
+"i": 10,
+"a": "t13",
+"b": "t14",
+"a_name": "Direct proof",
+"b_name": "Proof by contradiction"
+},
+{
+"i": 11,
+"a": "t62",
+"b": "t69",
+"a_name": "Connected Graphs",
+"b_name": "Cut Vertex"
+},
+{
+"i": 12,
+"a": "t49",
+"b": "t52",
+"a_name": "Groups",
+"b_name": "Cyclic group"
+},
+{
+"i": 13,
+"a": "t2",
+"b": "t4",
+"a_name": "Sets",
+"b_name": "Universal and Empty Sets"
+},
+{
+"i": 14,
+"a": "t60",
+"b": "t66",
+"a_name": "Path",
+"b_name": "Euler and Hamiltonian Graphs"
+},
+{
+"i": 15,
+"a": "t11",
+"b": "t18",
+"a_name": "Quantifiers (Universal and Existential)",
+"b_name": "Proof by counterexample"
+},
+{
+"i": 16,
+"a": "t53",
+"b": "t54",
+"a_name": "Algebraic structures with two binary operations",
+"b_name": "Ring"
+},
+{
+"i": 17,
+"a": "t46",
+"b": "t53",
+"a_name": "Algebraic structures with one binary operation",
+"b_name": "Algebraic structures with two binary operations"
+},
+{
+"i": 18,
+"a": "t55",
+"b": "t58",
+"a_name": "Types of graphs",
+"b_name": "Operations on Graphs"
+},
+{
+"i": 19,
+"a": "t55",
 "b": "t65",
-"a_name": "Graph Representation",
+"a_name": "Types of graphs",
 "b_name": "Homomorphism and Isomorphism of Graphs"
+},
+{
+"i": 20,
+"a": "t63",
+"b": "t64",
+"a_name": "Disconnected Graph",
+"b_name": "Components"
+},
+{
+"i": 21,
+"a": "t9",
+"b": "t14",
+"a_name": "Propositional Logic",
+"b_name": "Proof by contradiction"
+},
+{
+"i": 22,
+"a": "t68",
+"b": "t69",
+"a_name": "Cut Set",
+"b_name": "Cut Vertex"
+},
+{
+"i": 23,
+"a": "t55",
+"b": "t67",
+"a_name": "Types of graphs",
+"b_name": "Planar Graph"
+},
+{
+"i": 24,
+"a": "t50",
+"b": "t52",
+"a_name": "Subgroups",
+"b_name": "Cyclic group"
 }
 ]
 }

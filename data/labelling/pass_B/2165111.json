@@ -2,1003 +2,683 @@
 "edges": [
 {
 "a": "t1",
-"b": "t4",
-"why": "direct prerequisite"
-},
-{
-"a": "t4",
-"b": "t5",
-"why": "direct prerequisite"
-},
-{
-"a": "t4",
-"b": "t6",
-"why": "direct prerequisite"
-},
-{
-"a": "t4",
-"b": "t7",
-"why": "direct prerequisite"
-},
-{
-"a": "t4",
-"b": "t8",
-"why": "direct prerequisite"
-},
-{
-"a": "t6",
-"b": "t7",
-"why": "direct prerequisite"
-},
-{
-"a": "t5",
-"b": "t7",
-"why": "direct prerequisite"
-},
-{
-"a": "t7",
-"b": "t8",
-"why": "direct prerequisite"
-},
-{
-"a": "t4",
-"b": "t9",
-"why": "direct prerequisite"
-},
-{
-"a": "t9",
-"b": "t10",
-"why": "direct prerequisite"
-},
-{
-"a": "t9",
-"b": "t11",
-"why": "direct prerequisite"
-},
-{
-"a": "t9",
-"b": "t12",
-"why": "direct prerequisite"
-},
-{
-"a": "t12",
-"b": "t13",
-"why": "direct prerequisite"
-},
-{
-"a": "t1",
 "b": "t2",
-"why": "direct prerequisite"
+"why": "data types"
 },
 {
 "a": "t1",
 "b": "t3",
-"why": "direct prerequisite"
+"why": "data types"
+},
+{
+"a": "t4",
+"b": "t5",
+"why": "descriptive measures"
+},
+{
+"a": "t5",
+"b": "t6",
+"why": "dispersion uses mean"
+},
+{
+"a": "t4",
+"b": "t7",
+"why": "descriptive measures"
+},
+{
+"a": "t4",
+"b": "t8",
+"why": "descriptive measures"
+},
+{
+"a": "t9",
+"b": "t10",
+"why": "plot type"
+},
+{
+"a": "t9",
+"b": "t11",
+"why": "plot type"
+},
+{
+"a": "t9",
+"b": "t12",
+"why": "plot type"
+},
+{
+"a": "t12",
+"b": "t13",
+"why": "pair plots are grids of scatter plots"
 },
 {
 "a": "t14",
 "b": "t15",
-"why": "direct prerequisite"
+"why": "distribution"
 },
 {
 "a": "t14",
 "b": "t16",
-"why": "direct prerequisite"
+"why": "distribution"
 },
 {
 "a": "t14",
 "b": "t17",
-"why": "direct prerequisite"
+"why": "distribution"
 },
 {
 "a": "t14",
 "b": "t18",
-"why": "direct prerequisite"
+"why": "distribution"
 },
 {
 "a": "t14",
 "b": "t19",
-"why": "direct prerequisite"
+"why": "distribution"
 },
 {
 "a": "t14",
 "b": "t20",
-"why": "direct prerequisite"
+"why": "distribution"
 },
 {
 "a": "t14",
 "b": "t21",
-"why": "direct prerequisite"
-},
-{
-"a": "t6",
-"b": "t22",
-"why": "direct prerequisite"
+"why": "distribution"
 },
 {
 "a": "t22",
 "b": "t23",
-"why": "direct prerequisite"
+"why": "correlation normalises covariance"
+},
+{
+"a": "t22",
+"b": "t25",
+"why": "matrix of covariances"
 },
 {
 "a": "t23",
 "b": "t24",
-"why": "direct prerequisite"
-},
-{
-"a": "t22",
-"b": "t25",
-"why": "direct prerequisite"
-},
-{
-"a": "t23",
-"b": "t25",
-"why": "direct prerequisite"
-},
-{
-"a": "t1",
-"b": "t26",
-"why": "direct prerequisite"
+"why": "confounding distorts correlation"
 },
 {
 "a": "t26",
 "b": "t27",
-"why": "direct prerequisite"
+"why": "distance"
 },
 {
 "a": "t26",
 "b": "t28",
-"why": "direct prerequisite"
+"why": "distance"
 },
 {
 "a": "t26",
 "b": "t29",
-"why": "direct prerequisite"
+"why": "distance"
 },
 {
 "a": "t30",
 "b": "t31",
-"why": "direct prerequisite"
+"why": "sampling"
 },
 {
 "a": "t30",
 "b": "t32",
-"why": "direct prerequisite"
+"why": "sampling"
 },
 {
 "a": "t30",
 "b": "t33",
-"why": "direct prerequisite"
+"why": "sampling"
 },
 {
-"a": "t15",
+"a": "t14",
 "b": "t34",
-"why": "direct prerequisite"
+"why": "CLT concerns distributions"
 },
 {
 "a": "t30",
 "b": "t34",
-"why": "direct prerequisite"
+"why": "CLT concerns sampling"
 },
 {
-"a": "t4",
+"a": "t35",
 "b": "t36",
-"why": "direct prerequisite"
+"why": "preprocessing step"
 },
 {
-"a": "t4",
+"a": "t35",
 "b": "t37",
-"why": "direct prerequisite"
+"why": "preprocessing step"
 },
 {
-"a": "t6",
-"b": "t37",
-"why": "direct prerequisite"
-},
-{
-"a": "t6",
-"b": "t39",
-"why": "direct prerequisite"
-},
-{
-"a": "t2",
+"a": "t35",
 "b": "t38",
-"why": "direct prerequisite"
+"why": "preprocessing step"
 },
 {
-"a": "t30",
-"b": "t40",
-"why": "direct prerequisite"
+"a": "t35",
+"b": "t39",
+"why": "preprocessing step"
 },
 {
 "a": "t40",
 "b": "t41",
-"why": "direct prerequisite"
+"why": "estimators need point estimates"
 },
 {
 "a": "t41",
 "b": "t42",
-"why": "direct prerequisite"
+"why": "estimator property"
 },
 {
 "a": "t41",
 "b": "t43",
-"why": "direct prerequisite"
+"why": "estimator property"
 },
 {
 "a": "t42",
 "b": "t44",
-"why": "direct prerequisite"
+"why": "MSE combines bias"
 },
 {
 "a": "t43",
 "b": "t44",
-"why": "direct prerequisite"
-},
-{
-"a": "t14",
-"b": "t45",
-"why": "direct prerequisite"
+"why": "MSE combines variance"
 },
 {
 "a": "t40",
 "b": "t45",
-"why": "direct prerequisite"
+"why": "MLE yields point estimates"
 },
 {
 "a": "t34",
 "b": "t46",
-"why": "direct prerequisite"
-},
-{
-"a": "t43",
-"b": "t46",
-"why": "direct prerequisite"
+"why": "CIs rely on CLT"
 },
 {
 "a": "t34",
 "b": "t47",
-"why": "direct prerequisite"
-},
-{
-"a": "t46",
-"b": "t47",
-"why": "direct prerequisite"
+"why": "tests rely on sampling distribution"
 },
 {
 "a": "t47",
 "b": "t48",
-"why": "direct prerequisite"
+"why": "test type"
 },
 {
 "a": "t47",
 "b": "t49",
-"why": "direct prerequisite"
+"why": "test type"
 },
 {
 "a": "t47",
 "b": "t50",
-"why": "direct prerequisite"
+"why": "test type"
 },
 {
 "a": "t47",
 "b": "t51",
-"why": "direct prerequisite"
-},
-{
-"a": "t49",
-"b": "t51",
-"why": "direct prerequisite"
+"why": "test type"
 },
 {
 "a": "t47",
 "b": "t52",
-"why": "direct prerequisite"
+"why": "nonparametric tests"
 },
 {
 "a": "t52",
 "b": "t53",
-"why": "direct prerequisite"
+"why": "nonparametric test"
 },
 {
 "a": "t52",
-"b": "t55",
-"why": "direct prerequisite"
-},
-{
-"a": "t53",
 "b": "t54",
-"why": "direct prerequisite"
+"why": "nonparametric test"
 },
 {
 "a": "t55",
 "b": "t56",
-"why": "direct prerequisite"
-},
-{
-"a": "t30",
-"b": "t57",
-"why": "direct prerequisite"
-},
-{
-"a": "t57",
-"b": "t58",
-"why": "direct prerequisite"
-},
-{
-"a": "t57",
-"b": "t59",
-"why": "direct prerequisite"
+"why": "resampling method"
 },
 {
 "a": "t47",
-"b": "t59",
-"why": "direct prerequisite"
-},
-{
-"a": "t46",
-"b": "t58",
-"why": "direct prerequisite"
+"b": "t57",
+"why": "permutation tests are hypothesis tests"
 },
 {
 "a": "t45",
-"b": "t60",
-"why": "direct prerequisite"
+"b": "t58",
+"why": "LRT uses likelihoods"
 },
 {
 "a": "t47",
+"b": "t59",
+"why": "multiple testing correction"
+},
+{
+"a": "t59",
 "b": "t60",
-"why": "direct prerequisite"
-},
-{
-"a": "t47",
-"b": "t61",
-"why": "direct prerequisite"
-},
-{
-"a": "t61",
-"b": "t62",
-"why": "direct prerequisite"
-},
-{
-"a": "t57",
-"b": "t63",
-"why": "direct prerequisite"
-},
-{
-"a": "t14",
-"b": "t63",
-"why": "direct prerequisite"
+"why": "correction methods"
 },
 {
 "a": "t23",
+"b": "t62",
+"why": "regression builds on correlation"
+},
+{
+"a": "t62",
+"b": "t63",
+"why": "assumptions of regression"
+},
+{
+"a": "t62",
 "b": "t64",
-"why": "direct prerequisite"
+"why": "residuals from fitted model"
+},
+{
+"a": "t62",
+"b": "t65",
+"why": "multicollinearity in regression"
 },
 {
 "a": "t64",
-"b": "t65",
-"why": "direct prerequisite"
-},
-{
-"a": "t65",
 "b": "t66",
-"why": "direct prerequisite"
-},
-{
-"a": "t65",
-"b": "t67",
-"why": "direct prerequisite"
+"why": "leverage from diagnostics"
 },
 {
 "a": "t66",
+"b": "t67",
+"why": "Cook uses leverage"
+},
+{
+"a": "t62",
 "b": "t68",
-"why": "direct prerequisite"
+"why": "extends linear regression"
 },
 {
-"a": "t68",
-"b": "t69",
-"why": "direct prerequisite"
-},
-{
-"a": "t64",
+"a": "t62",
 "b": "t70",
-"why": "direct prerequisite"
+"why": "regularises linear regression"
 },
 {
-"a": "t64",
+"a": "t70",
 "b": "t71",
-"why": "direct prerequisite"
+"why": "regularisation type"
 },
 {
-"a": "t42",
+"a": "t70",
 "b": "t72",
-"why": "direct prerequisite"
+"why": "regularisation type"
 },
 {
-"a": "t43",
-"b": "t72",
-"why": "direct prerequisite"
+"a": "t71",
+"b": "t73",
+"why": "elastic net combines ridge"
 },
 {
 "a": "t72",
 "b": "t73",
-"why": "direct prerequisite"
+"why": "elastic net combines lasso"
 },
 {
-"a": "t72",
+"a": "t68",
 "b": "t74",
-"why": "direct prerequisite"
+"why": "splines extend polynomials"
 },
 {
-"a": "t73",
-"b": "t75",
-"why": "direct prerequisite"
-},
-{
-"a": "t74",
-"b": "t75",
-"why": "direct prerequisite"
-},
-{
-"a": "t71",
+"a": "t62",
 "b": "t76",
-"why": "direct prerequisite"
+"why": "GLM generalises linear regression"
 },
 {
-"a": "t64",
+"a": "t76",
 "b": "t77",
-"why": "direct prerequisite"
+"why": "GLM instance"
 },
 {
-"a": "t64",
+"a": "t76",
 "b": "t78",
-"why": "direct prerequisite"
+"why": "GLM instance"
 },
 {
-"a": "t78",
+"a": "t62",
 "b": "t79",
-"why": "direct prerequisite"
+"why": "metrics evaluate regression"
 },
 {
-"a": "t78",
+"a": "t79",
 "b": "t80",
-"why": "direct prerequisite"
+"why": "metric"
 },
 {
-"a": "t16",
-"b": "t79",
-"why": "direct prerequisite"
-},
-{
-"a": "t17",
-"b": "t80",
-"why": "direct prerequisite"
-},
-{
-"a": "t64",
+"a": "t79",
 "b": "t81",
-"why": "direct prerequisite"
+"why": "metric"
 },
 {
-"a": "t81",
-"b": "t82",
-"why": "direct prerequisite"
-},
-{
-"a": "t81",
+"a": "t62",
 "b": "t83",
-"why": "direct prerequisite"
+"why": "subset selection over regression"
 },
 {
-"a": "t81",
+"a": "t83",
 "b": "t84",
-"why": "direct prerequisite"
+"why": "selection method"
 },
 {
-"a": "t64",
+"a": "t83",
 "b": "t85",
-"why": "direct prerequisite"
+"why": "selection method"
 },
 {
-"a": "t85",
-"b": "t86",
-"why": "direct prerequisite"
+"a": "t77",
+"b": "t93",
+"why": "logistic regression in classification"
 },
 {
-"a": "t85",
-"b": "t87",
-"why": "direct prerequisite"
+"a": "t87",
+"b": "t88",
+"why": "classification metric"
 },
 {
-"a": "t81",
+"a": "t87",
 "b": "t89",
-"why": "direct prerequisite"
+"why": "classification metric"
 },
 {
-"a": "t89",
+"a": "t87",
 "b": "t90",
-"why": "direct prerequisite"
+"why": "classification metric"
 },
 {
-"a": "t89",
+"a": "t90",
 "b": "t91",
-"why": "direct prerequisite"
+"why": "ROC uses recall"
 },
 {
 "a": "t89",
 "b": "t92",
-"why": "direct prerequisite"
+"why": "PR curve uses precision"
 },
 {
-"a": "t92",
-"b": "t93",
-"why": "direct prerequisite"
+"a": "t87",
+"b": "t108",
+"why": "confusion matrix analysis"
 },
 {
 "a": "t93",
 "b": "t94",
-"why": "direct prerequisite"
+"why": "odds ratio from logistic"
 },
 {
-"a": "t92",
+"a": "t93",
 "b": "t95",
-"why": "direct prerequisite"
+"why": "boundary from logistic"
 },
 {
-"a": "t79",
-"b": "t96",
-"why": "direct prerequisite"
-},
-{
-"a": "t96",
-"b": "t97",
-"why": "direct prerequisite"
-},
-{
-"a": "t96",
-"b": "t98",
-"why": "direct prerequisite"
-},
-{
-"a": "t14",
+"a": "t97",
 "b": "t99",
-"why": "direct prerequisite"
+"why": "bagging of trees"
 },
 {
-"a": "t30",
-"b": "t99",
-"why": "direct prerequisite"
-},
-{
-"a": "t98",
+"a": "t99",
 "b": "t100",
-"why": "direct prerequisite"
-},
-{
-"a": "t100",
-"b": "t101",
-"why": "direct prerequisite"
-},
-{
-"a": "t101",
-"b": "t102",
-"why": "direct prerequisite"
-},
-{
-"a": "t101",
-"b": "t103",
-"why": "direct prerequisite"
-},
-{
-"a": "t101",
-"b": "t104",
-"why": "direct prerequisite"
+"why": "forest extends bagging"
 },
 {
 "a": "t98",
+"b": "t101",
+"why": "boosting is ensemble"
+},
+{
+"a": "t102",
+"b": "t103",
+"why": "kernel trick for SVM"
+},
+{
+"a": "t104",
 "b": "t105",
-"why": "direct prerequisite"
+"why": "imbalance remedy"
 },
 {
-"a": "t105",
+"a": "t104",
 "b": "t106",
-"why": "direct prerequisite"
+"why": "imbalance remedy"
 },
 {
-"a": "t89",
-"b": "t108",
-"why": "direct prerequisite"
+"a": "t104",
+"b": "t107",
+"why": "imbalance remedy"
 },
 {
-"a": "t108",
-"b": "t109",
-"why": "direct prerequisite"
-},
-{
-"a": "t108",
+"a": "t109",
 "b": "t110",
-"why": "direct prerequisite"
-},
-{
-"a": "t32",
-"b": "t111",
-"why": "direct prerequisite"
-},
-{
-"a": "t91",
-"b": "t112",
-"why": "direct prerequisite"
-},
-{
-"a": "t92",
-"b": "t112",
-"why": "direct prerequisite"
+"why": "calibration methods"
 },
 {
 "a": "t112",
-"b": "t113",
-"why": "direct prerequisite"
-},
-{
-"a": "t113",
-"b": "t114",
-"why": "direct prerequisite"
-},
-{
-"a": "t96",
-"b": "t113",
-"why": "direct prerequisite"
-},
-{
-"a": "t116",
-"b": "t117",
-"why": "direct prerequisite"
+"b": "t111",
+"why": "PCA uses covariance matrix"
 },
 {
 "a": "t22",
+"b": "t112",
+"why": "covariance matrix from covariance"
+},
+{
+"a": "t113",
+"b": "t111",
+"why": "PCA via eigendecomposition"
+},
+{
+"a": "t111",
+"b": "t114",
+"why": "explained variance of PCA"
+},
+{
+"a": "t111",
 "b": "t116",
-"why": "direct prerequisite"
-},
-{
-"a": "t117",
-"b": "t115",
-"why": "direct prerequisite"
-},
-{
-"a": "t116",
-"b": "t115",
-"why": "direct prerequisite"
-},
-{
-"a": "t115",
-"b": "t118",
-"why": "direct prerequisite"
+"why": "kernel PCA extends PCA"
 },
 {
 "a": "t117",
 "b": "t118",
-"why": "direct prerequisite"
+"why": "clustering algorithm"
 },
 {
-"a": "t115",
+"a": "t117",
 "b": "t119",
-"why": "direct prerequisite"
+"why": "clustering algorithm"
 },
 {
-"a": "t115",
+"a": "t117",
 "b": "t120",
-"why": "direct prerequisite"
+"why": "clustering algorithm"
 },
 {
-"a": "t106",
-"b": "t120",
-"why": "direct prerequisite"
-},
-{
-"a": "t26",
+"a": "t117",
 "b": "t121",
-"why": "direct prerequisite"
+"why": "evaluate clusters"
 },
 {
 "a": "t121",
 "b": "t122",
-"why": "direct prerequisite"
+"why": "cluster index"
 },
 {
 "a": "t121",
 "b": "t123",
-"why": "direct prerequisite"
+"why": "cluster index"
 },
 {
-"a": "t121",
-"b": "t124",
-"why": "direct prerequisite"
-},
-{
-"a": "t121",
+"a": "t124",
 "b": "t125",
-"why": "direct prerequisite"
+"why": "visualization method"
 },
 {
-"a": "t125",
+"a": "t124",
 "b": "t126",
-"why": "direct prerequisite"
-},
-{
-"a": "t125",
-"b": "t127",
-"why": "direct prerequisite"
+"why": "visualization method"
 },
 {
 "a": "t127",
 "b": "t128",
-"why": "direct prerequisite"
+"why": "outlier method"
 },
 {
-"a": "t115",
+"a": "t127",
 "b": "t129",
-"why": "direct prerequisite"
+"why": "outlier method"
 },
 {
-"a": "t129",
+"a": "t127",
 "b": "t130",
-"why": "direct prerequisite"
+"why": "outlier method"
 },
 {
-"a": "t129",
+"a": "t127",
 "b": "t131",
-"why": "direct prerequisite"
+"why": "outlier method"
 },
 {
-"a": "t132",
-"b": "t133",
-"why": "direct prerequisite"
-},
-{
-"a": "t132",
+"a": "t133",
 "b": "t134",
-"why": "direct prerequisite"
+"why": "selection criterion"
 },
 {
-"a": "t132",
+"a": "t133",
 "b": "t135",
-"why": "direct prerequisite"
-},
-{
-"a": "t132",
-"b": "t136",
-"why": "direct prerequisite"
-},
-{
-"a": "t6",
-"b": "t133",
-"why": "direct prerequisite"
-},
-{
-"a": "t11",
-"b": "t134",
-"why": "direct prerequisite"
-},
-{
-"a": "t100",
-"b": "t135",
-"why": "direct prerequisite"
-},
-{
-"a": "t26",
-"b": "t136",
-"why": "direct prerequisite"
-},
-{
-"a": "t37",
-"b": "t132",
-"why": "direct prerequisite"
+"why": "selection criterion"
 },
 {
 "a": "t42",
-"b": "t138",
-"why": "direct prerequisite"
+"b": "t136",
+"why": "bias-variance needs bias"
 },
 {
 "a": "t43",
-"b": "t138",
-"why": "direct prerequisite"
+"b": "t136",
+"why": "bias-variance needs variance"
 },
 {
-"a": "t44",
+"a": "t137",
 "b": "t138",
-"why": "direct prerequisite"
+"why": "CV variant"
 },
 {
-"a": "t138",
+"a": "t137",
 "b": "t139",
-"why": "direct prerequisite"
+"why": "CV variant"
 },
 {
-"a": "t138",
+"a": "t137",
 "b": "t140",
-"why": "direct prerequisite"
-},
-{
-"a": "t138",
-"b": "t141",
-"why": "direct prerequisite"
-},
-{
-"a": "t43",
-"b": "t141",
-"why": "direct prerequisite"
-},
-{
-"a": "t138",
-"b": "t142",
-"why": "direct prerequisite"
+"why": "CV variant"
 },
 {
 "a": "t142",
 "b": "t143",
-"why": "direct prerequisite"
+"why": "Bayesian element"
 },
 {
 "a": "t142",
 "b": "t144",
-"why": "direct prerequisite"
-},
-{
-"a": "t142",
-"b": "t145",
-"why": "direct prerequisite"
+"why": "Bayesian element"
 },
 {
 "a": "t143",
 "b": "t145",
-"why": "direct prerequisite"
+"why": "posterior from prior"
 },
 {
-"a": "t113",
+"a": "t144",
+"b": "t145",
+"why": "posterior from likelihood"
+},
+{
+"a": "t145",
 "b": "t146",
-"why": "direct prerequisite"
+"why": "MAP is posterior mode"
 },
 {
-"a": "t89",
-"b": "t146",
-"why": "direct prerequisite"
+"a": "t143",
+"b": "t147",
+"why": "conjugate priors"
 },
 {
-"a": "t148",
-"b": "t150",
-"why": "direct prerequisite"
+"a": "t142",
+"b": "t148",
+"why": "Bayesian view of NB"
+},
+{
+"a": "t109",
+"b": "t141",
+"why": "calibration curves"
 },
 {
 "a": "t149",
 "b": "t150",
-"why": "direct prerequisite"
+"why": "interpretability tool"
 },
 {
-"a": "t147",
-"b": "t148",
-"why": "direct prerequisite"
-},
-{
-"a": "t147",
-"b": "t149",
-"why": "direct prerequisite"
-},
-{
-"a": "t45",
+"a": "t149",
 "b": "t151",
-"why": "direct prerequisite"
+"why": "interpretability tool"
 },
 {
-"a": "t150",
-"b": "t151",
-"why": "direct prerequisite"
-},
-{
-"a": "t147",
+"a": "t149",
 "b": "t152",
-"why": "direct prerequisite"
+"why": "interpretability tool"
 },
 {
-"a": "t150",
-"b": "t152",
-"why": "direct prerequisite"
-},
-{
-"a": "t99",
+"a": "t152",
 "b": "t153",
-"why": "direct prerequisite"
-},
-{
-"a": "t147",
-"b": "t153",
-"why": "direct prerequisite"
-},
-{
-"a": "t138",
-"b": "t154",
-"why": "direct prerequisite"
+"why": "ICE refines PDP"
 },
 {
 "a": "t154",
 "b": "t155",
-"why": "direct prerequisite"
+"why": "fairness criterion"
 },
 {
 "a": "t154",
 "b": "t156",
-"why": "direct prerequisite"
-},
-{
-"a": "t154",
-"b": "t157",
-"why": "direct prerequisite"
+"why": "fairness criterion"
 },
 {
 "a": "t157",
 "b": "t158",
-"why": "direct prerequisite"
+"why": "ethical concern"
 },
 {
-"a": "t112",
+"a": "t157",
 "b": "t159",
-"why": "direct prerequisite"
+"why": "ethical concern"
 },
 {
-"a": "t159",
+"a": "t157",
 "b": "t160",
-"why": "direct prerequisite"
+"why": "ethical concern"
 },
 {
-"a": "t159",
-"b": "t161",
-"why": "direct prerequisite"
-},
-{
-"a": "t159",
-"b": "t163",
-"why": "direct prerequisite"
-},
-{
-"a": "t163",
+"a": "t161",
 "b": "t162",
-"why": "direct prerequisite"
+"why": "privacy technique"
 },
 {
-"a": "t162",
-"b": "t164",
-"why": "direct prerequisite"
+"a": "t161",
+"b": "t163",
+"why": "privacy technique"
 },
 {
-"a": "t142",
+"a": "t164",
 "b": "t165",
-"why": "direct prerequisite"
+"why": "reproducibility practice"
 },
 {
-"a": "t167",
-"b": "t168",
-"why": "direct prerequisite"
-},
-{
-"a": "t166",
-"b": "t167",
-"why": "direct prerequisite"
-},
-{
-"a": "t166",
-"b": "t168",
-"why": "direct prerequisite"
-},
-{
-"a": "t169",
-"b": "t170",
-"why": "direct prerequisite"
-},
-{
-"a": "t169",
-"b": "t171",
-"why": "direct prerequisite"
+"a": "t164",
+"b": "t166",
+"why": "reproducibility tooling"
 }
 ]
 }

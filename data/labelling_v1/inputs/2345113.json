@@ -1,0 +1,342 @@
+{
+"course": "2345113",
+"title": "Web Technology",
+"modules": [
+{
+"index": 1,
+"name": "Introduction to JavaScript"
+},
+{
+"index": 2,
+"name": "React"
+},
+{
+"index": 3,
+"name": "Advanced React"
+},
+{
+"index": 4,
+"name": "MongoDB"
+},
+{
+"index": 5,
+"name": "Node.js"
+},
+{
+"index": 6,
+"name": "Express"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Introduction to JavaScript",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Constants",
+"module": 1
+},
+{
+"id": "t3",
+"name": "JS variables",
+"module": 1
+},
+{
+"id": "t4",
+"name": "JS Variable scopes",
+"module": 1
+},
+{
+"id": "t5",
+"name": "JS Data Types",
+"module": 1
+},
+{
+"id": "t6",
+"name": "JS Function",
+"module": 1
+},
+{
+"id": "t7",
+"name": "JS Array",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Introduction to ES6",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Difference between ES5 and ES6",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Events",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Arrow functions",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Client-side Form validation using JavaScript",
+"module": 1
+},
+{
+"id": "t13",
+"name": "using properties and methods of built -in- objects",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Introduction to MERN stack application",
+"module": 2
+},
+{
+"id": "t15",
+"name": "Introduction to React",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Installation",
+"module": 2
+},
+{
+"id": "t17",
+"name": "installing libraries",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Folder and file structure",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Components",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Component lifecycle",
+"module": 2
+},
+{
+"id": "t21",
+"name": "State and Props",
+"module": 2
+},
+{
+"id": "t22",
+"name": "React Router and Single page applications",
+"module": 2
+},
+{
+"id": "t23",
+"name": "UI design",
+"module": 2
+},
+{
+"id": "t24",
+"name": "Forms",
+"module": 2
+},
+{
+"id": "t25",
+"name": "Animations",
+"module": 2
+},
+{
+"id": "t26",
+"name": "Best practices",
+"module": 2
+},
+{
+"id": "t27",
+"name": "Functional components- Refs",
+"module": 3
+},
+{
+"id": "t28",
+"name": "use effects",
+"module": 3
+},
+{
+"id": "t29",
+"name": "Hooks",
+"module": 3
+},
+{
+"id": "t30",
+"name": "Flow architecture",
+"module": 3
+},
+{
+"id": "t31",
+"name": "Model-View Controller framework",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Flux",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Bundling the application",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Web pack",
+"module": 3
+},
+{
+"id": "t35",
+"name": "Understanding MongoDB",
+"module": 4
+},
+{
+"id": "t36",
+"name": "MongoDB Data Types",
+"module": 4
+},
+{
+"id": "t37",
+"name": "Administering User Accounts",
+"module": 4
+},
+{
+"id": "t38",
+"name": "Configuring Access Control",
+"module": 4
+},
+{
+"id": "t39",
+"name": "CRUD Operations",
+"module": 4
+},
+{
+"id": "t40",
+"name": "Using Mongoose for Structured Schema and Validation",
+"module": 4
+},
+{
+"id": "t41",
+"name": "Using Express and Mongoose to interact with MongoDB",
+"module": 4
+},
+{
+"id": "t42",
+"name": "Web Security Basics",
+"module": 4
+},
+{
+"id": "t43",
+"name": "SQL Injection",
+"module": 4
+},
+{
+"id": "t44",
+"name": "XSS",
+"module": 4
+},
+{
+"id": "t45",
+"name": "Environment setup",
+"module": 5
+},
+{
+"id": "t46",
+"name": "First app",
+"module": 5
+},
+{
+"id": "t47",
+"name": "Asynchronous programming",
+"module": 5
+},
+{
+"id": "t48",
+"name": "Callback concept",
+"module": 5
+},
+{
+"id": "t49",
+"name": "Event loops",
+"module": 5
+},
+{
+"id": "t50",
+"name": "REPL",
+"module": 5
+},
+{
+"id": "t51",
+"name": "Event emitter",
+"module": 5
+},
+{
+"id": "t52",
+"name": "Networking module",
+"module": 5
+},
+{
+"id": "t53",
+"name": "Buffers",
+"module": 5
+},
+{
+"id": "t54",
+"name": "Streams",
+"module": 5
+},
+{
+"id": "t55",
+"name": "File system",
+"module": 5
+},
+{
+"id": "t56",
+"name": "Web module",
+"module": 5
+},
+{
+"id": "t57",
+"name": "Express router",
+"module": 6
+},
+{
+"id": "t58",
+"name": "REST API",
+"module": 6
+},
+{
+"id": "t59",
+"name": "Generator",
+"module": 6
+},
+{
+"id": "t60",
+"name": "Authentication",
+"module": 6
+},
+{
+"id": "t61",
+"name": "sessions",
+"module": 6
+},
+{
+"id": "t62",
+"name": "Integrating with React",
+"module": 6
+}
+]
+}

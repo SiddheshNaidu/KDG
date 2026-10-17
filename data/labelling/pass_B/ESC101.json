@@ -1,1 +1,169 @@
-{"edges": [{"a": "t3", "b": "t4", "why": "resultant needs composition of forces"}, {"a": "t3", "b": "t6", "why": "moment is of a force"}, {"a": "t6", "b": "t7", "why": "couple is pair of moments"}, {"a": "t6", "b": "t8", "why": "Varignon states moment of resultant"}, {"a": "t3", "b": "t10", "why": "concurrent space system uses force resolution"}, {"a": "t3", "b": "t9", "why": "space resultant needs resolution"}, {"a": "t11", "b": "t12", "why": "composite shapes use primitive centroids"}, {"a": "t13", "b": "t14", "why": "equilibrium concept first"}, {"a": "t13", "b": "t16", "why": "rigid body equilibrium builds on equilibrium"}, {"a": "t17", "b": "t22", "why": "reactions need free body diagram"}, {"a": "t21", "b": "t22", "why": "reactions need support types"}, {"a": "t19", "b": "t22", "why": "beam types needed"}, {"a": "t19", "b": "t20", "why": "simple/compound are beam types"}, {"a": "t23", "b": "t24", "why": "friction before its laws"}, {"a": "t24", "b": "t26", "why": "angle of friction from friction laws"}, {"a": "t26", "b": "t25", "why": "cone of friction uses friction angle"}, {"a": "t17", "b": "t27", "why": "FBD for bodies on plane"}, {"a": "t24", "b": "t27", "why": "friction laws used"}, {"a": "t29", "b": "t30", "why": "curved path velocity before acceleration components"}, {"a": "t29", "b": "t31", "why": "path velocity before tangential/normal acceleration"}, {"a": "t33", "b": "t35", "why": "DAlembert extends force-acceleration"}, {"a": "t36", "b": "t35", "why": "inertia force is core of DAlembert"}, {"a": "t35", "b": "t37", "why": "dynamic equilibrium equations from DAlembert"}, {"a": "t38", "b": "t40", "why": "conservation follows from impulse-momentum"}, {"a": "t40", "b": "t41", "why": "restitution used with momentum conservation"}, {"a": "t41", "b": "t42", "why": "central impacts use restitution"}, {"a": "t41", "b": "t43", "why": "energy loss expressed via restitution"}, {"a": "t44", "b": "t45", "why": "DOF in robot mechanics"}, {"a": "t45", "b": "t47", "why": "forward kinematics needs DOF"}, {"a": "t46", "b": "t47", "why": "DH parameters used in kinematics"}, {"a": "t47", "b": "t48", "why": "transformation matrices used in forward kinematics"}]}
+{
+"edges": [
+{
+"a": "t3",
+"b": "t4",
+"why": "foundation concept needed first"
+},
+{
+"a": "t5",
+"b": "t4",
+"why": "foundation concept needed first"
+},
+{
+"a": "t3",
+"b": "t9",
+"why": "foundation concept needed first"
+},
+{
+"a": "t5",
+"b": "t7",
+"why": "foundation concept needed first"
+},
+{
+"a": "t3",
+"b": "t8",
+"why": "foundation concept needed first"
+},
+{
+"a": "t5",
+"b": "t8",
+"why": "foundation concept needed first"
+},
+{
+"a": "t10",
+"b": "t11",
+"why": "foundation concept needed first"
+},
+{
+"a": "t12",
+"b": "t13",
+"why": "foundation concept needed first"
+},
+{
+"a": "t12",
+"b": "t14",
+"why": "foundation concept needed first"
+},
+{
+"a": "t12",
+"b": "t15",
+"why": "foundation concept needed first"
+},
+{
+"a": "t12",
+"b": "t16",
+"why": "foundation concept needed first"
+},
+{
+"a": "t15",
+"b": "t17",
+"why": "foundation concept needed first"
+},
+{
+"a": "t18",
+"b": "t19",
+"why": "foundation concept needed first"
+},
+{
+"a": "t20",
+"b": "t21",
+"why": "foundation concept needed first"
+},
+{
+"a": "t16",
+"b": "t21",
+"why": "foundation concept needed first"
+},
+{
+"a": "t15",
+"b": "t21",
+"why": "foundation concept needed first"
+},
+{
+"a": "t22",
+"b": "t23",
+"why": "foundation concept needed first"
+},
+{
+"a": "t22",
+"b": "t25",
+"why": "foundation concept needed first"
+},
+{
+"a": "t25",
+"b": "t24",
+"why": "foundation concept needed first"
+},
+{
+"a": "t25",
+"b": "t26",
+"why": "foundation concept needed first"
+},
+{
+"a": "t16",
+"b": "t26",
+"why": "foundation concept needed first"
+},
+{
+"a": "t27",
+"b": "t28",
+"why": "foundation concept needed first"
+},
+{
+"a": "t28",
+"b": "t30",
+"why": "foundation concept needed first"
+},
+{
+"a": "t35",
+"b": "t34",
+"why": "foundation concept needed first"
+},
+{
+"a": "t34",
+"b": "t36",
+"why": "foundation concept needed first"
+},
+{
+"a": "t37",
+"b": "t39",
+"why": "foundation concept needed first"
+},
+{
+"a": "t39",
+"b": "t38",
+"why": "foundation concept needed first"
+},
+{
+"a": "t38",
+"b": "t41",
+"why": "foundation concept needed first"
+},
+{
+"a": "t40",
+"b": "t41",
+"why": "foundation concept needed first"
+},
+{
+"a": "t40",
+"b": "t42",
+"why": "foundation concept needed first"
+},
+{
+"a": "t44",
+"b": "t45",
+"why": "foundation concept needed first"
+},
+{
+"a": "t45",
+"b": "t46",
+"why": "foundation concept needed first"
+},
+{
+"a": "t47",
+"b": "t46",
+"why": "foundation concept needed first"
+}
+]
+}

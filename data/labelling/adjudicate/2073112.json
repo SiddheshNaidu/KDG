@@ -49,416 +49,396 @@
 },
 {
 "id": "t10",
-"name": "Manometers",
+"name": "Manometers – Piezometers",
 "module": 1
 },
 {
 "id": "t11",
-"name": "Piezometers",
+"name": "U-tube",
 "module": 1
 },
 {
 "id": "t12",
-"name": "U- tube",
-"module": 1
-},
-{
-"id": "t13",
 "name": "Single column manometer",
 "module": 1
 },
 {
+"id": "t13",
+"name": "U – tube differential manometer",
+"module": 1
+},
+{
 "id": "t14",
-"name": "tube differential manometer",
+"name": "Inverted differential U – tube manometer",
 "module": 1
 },
 {
 "id": "t15",
-"name": "Inverted differential U",
-"module": 1
-},
-{
-"id": "t16",
-"name": "tube manometer",
-"module": 1
-},
-{
-"id": "t17",
 "name": "Inclined manometer",
 "module": 1
 },
 {
-"id": "t18",
+"id": "t16",
 "name": "Newton’s law of viscosity",
 "module": 2
 },
 {
-"id": "t19",
+"id": "t17",
 "name": "Kinematic viscosity",
 "module": 2
 },
 {
-"id": "t20",
+"id": "t18",
 "name": "Rheological behavior of fluid",
 "module": 2
 },
 {
-"id": "t21",
+"id": "t19",
 "name": "Reynold’s experiment and Reynold’s number",
 "module": 2
 },
 {
-"id": "t22",
+"id": "t20",
 "name": "Laminar and turbulent flow in boundary layer",
 "module": 2
 },
 {
-"id": "t23",
+"id": "t21",
 "name": "Boundary layer formation in straight tube",
 "module": 2
 },
 {
-"id": "t24",
+"id": "t22",
 "name": "Transition length for laminar and turbulent flow",
 "module": 2
 },
 {
-"id": "t25",
+"id": "t23",
 "name": "Continuity equation",
 "module": 3
 },
 {
-"id": "t26",
+"id": "t24",
 "name": "Bernoulli’s equation",
 "module": 3
 },
 {
-"id": "t27",
+"id": "t25",
 "name": "Euler’s equation",
 "module": 3
 },
 {
-"id": "t28",
+"id": "t26",
 "name": "Modified Bernoulli’s equation",
 "module": 3
 },
 {
-"id": "t29",
+"id": "t27",
 "name": "Practical Application of Bernoulli’s Equation",
 "module": 3
 },
 {
-"id": "t30",
+"id": "t28",
 "name": "Venturi meter",
 "module": 3
 },
 {
-"id": "t31",
+"id": "t29",
 "name": "Horizontal and inclined",
 "module": 3
 },
 {
-"id": "t32",
+"id": "t30",
 "name": "Orifice meter",
 "module": 3
 },
 {
-"id": "t33",
+"id": "t31",
 "name": "Pitot tube",
 "module": 3
 },
 {
-"id": "t34",
+"id": "t32",
 "name": "Differential area flow meter",
 "module": 3
 },
 {
-"id": "t35",
+"id": "t33",
 "name": "Rotameter",
 "module": 3
 },
 {
-"id": "t36",
+"id": "t34",
 "name": "Shear stress distribution and velocity distribution",
 "module": 4
 },
 {
-"id": "t37",
+"id": "t35",
 "name": "Relationship between skin friction and wall shear",
 "module": 4
 },
 {
-"id": "t38",
+"id": "t36",
 "name": "Friction factor",
 "module": 4
 },
 {
-"id": "t39",
-"name": "Darcy- Weisbach equation",
+"id": "t37",
+"name": "Darcy-Weisbach equation",
 "module": 4
 },
 {
-"id": "t40",
+"id": "t38",
 "name": "Local velocity",
 "module": 4
 },
 {
-"id": "t41",
+"id": "t39",
 "name": "Maximum velocity",
 "module": 4
 },
 {
-"id": "t42",
+"id": "t40",
 "name": "Average velocity",
 "module": 4
 },
 {
-"id": "t43",
+"id": "t41",
 "name": "Kinetic energy correction factor",
 "module": 4
 },
 {
-"id": "t44",
-"name": "Hagen",
+"id": "t42",
+"name": "Hagen – Poiseullie equation",
 "module": 4
 },
 {
-"id": "t45",
-"name": "Poiseullie equation",
-"module": 4
-},
-{
-"id": "t46",
+"id": "t43",
 "name": "Moody diagram",
 "module": 4
 },
 {
-"id": "t47",
+"id": "t44",
 "name": "Equivalent diameter for circular and non-circular ducts",
 "module": 4
 },
 {
-"id": "t48",
+"id": "t45",
 "name": "Major and minor losses",
 "module": 4
 },
 {
-"id": "t49",
+"id": "t46",
 "name": "Equivalent length",
 "module": 4
 },
 {
-"id": "t50",
+"id": "t47",
 "name": "Frictional losses in different pipe fittings",
 "module": 4
 },
 {
-"id": "t51",
+"id": "t48",
 "name": "Mach number",
 "module": 5
 },
 {
-"id": "t52",
+"id": "t49",
 "name": "Sonic",
 "module": 5
 },
 {
-"id": "t53",
+"id": "t50",
 "name": "Supersonic and Subsonic flow",
 "module": 5
 },
 {
-"id": "t54",
+"id": "t51",
 "name": "Continuity equation and Bernoulli’s equation",
 "module": 5
 },
 {
-"id": "t55",
+"id": "t52",
 "name": "Stagnation properties",
 "module": 5
 },
 {
-"id": "t56",
+"id": "t53",
 "name": "Acoustic velocity",
 "module": 5
 },
 {
-"id": "t57",
+"id": "t54",
 "name": "Adiabatic flow",
 "module": 5
 },
 {
-"id": "t58",
+"id": "t55",
 "name": "Isothermal flow",
 "module": 5
 },
 {
-"id": "t59",
+"id": "t56",
 "name": "Flow past immersed bodies",
 "module": 5
 },
 {
-"id": "t60",
+"id": "t57",
 "name": "Drag Forces",
 "module": 5
 },
 {
-"id": "t61",
+"id": "t58",
 "name": "Coefficient of Drag",
 "module": 5
 },
 {
-"id": "t62",
+"id": "t59",
 "name": "One dimensional motion of particle through fluid",
 "module": 5
 },
 {
-"id": "t63",
+"id": "t60",
 "name": "Terminal Settling Velocity",
 "module": 5
 },
 {
-"id": "t64",
+"id": "t61",
 "name": "Stoke’s law",
 "module": 5
 },
 {
-"id": "t65",
+"id": "t62",
 "name": "Stagnation Point",
 "module": 5
 },
 {
-"id": "t66",
+"id": "t63",
 "name": "Classification and types",
 "module": 6
 },
 {
-"id": "t67",
-"name": "Centrifugal Pumps",
+"id": "t64",
+"name": "Centrifugal Pumps – Construction and Working",
 "module": 6
 },
 {
-"id": "t68",
-"name": "Construction and Working",
-"module": 6
-},
-{
-"id": "t69",
+"id": "t65",
 "name": "Power Requirement",
 "module": 6
 },
 {
-"id": "t70",
+"id": "t66",
 "name": "Definitions of Heads and Efficiency",
 "module": 6
 },
 {
-"id": "t71",
+"id": "t67",
 "name": "Specific Speed",
 "module": 6
 },
 {
-"id": "t72",
+"id": "t68",
 "name": "Minimum Speed",
 "module": 6
 },
 {
-"id": "t73",
+"id": "t69",
 "name": "Characteristic Curves",
 "module": 6
 },
 {
-"id": "t74",
+"id": "t70",
 "name": "Cavitation",
 "module": 6
 },
 {
-"id": "t75",
+"id": "t71",
 "name": "NPSH",
 "module": 6
 },
 {
-"id": "t76",
+"id": "t72",
 "name": "NPSHA",
 "module": 6
 },
 {
-"id": "t77",
+"id": "t73",
 "name": "NPSHR",
 "module": 6
 },
 {
-"id": "t78",
+"id": "t74",
 "name": "Priming",
 "module": 6
 },
 {
-"id": "t79",
+"id": "t75",
 "name": "Reciprocating Pump",
 "module": 6
 },
 {
-"id": "t80",
+"id": "t76",
 "name": "Classifications and Working",
 "module": 6
 },
 {
-"id": "t81",
+"id": "t77",
 "name": "Power Consumption in Agitation",
 "module": 6
 },
 {
-"id": "t82",
+"id": "t78",
 "name": "Purpose of Agitation",
 "module": 6
 },
 {
-"id": "t83",
+"id": "t79",
 "name": "Types of Impellers",
 "module": 6
 },
 {
-"id": "t84",
+"id": "t80",
 "name": "Prevention of Swirling",
 "module": 6
 },
 {
-"id": "t85",
+"id": "t81",
 "name": "Power Curves",
 "module": 6
 },
 {
-"id": "t86",
+"id": "t82",
 "name": "Power Number Introduction to Compressors",
 "module": 6
 },
 {
-"id": "t87",
+"id": "t83",
 "name": "Fans and Blowers",
 "module": 6
 },
 {
-"id": "t88",
+"id": "t84",
 "name": "Types of Valves",
 "module": 6
 },
 {
-"id": "t89",
+"id": "t85",
 "name": "Globe valve",
 "module": 6
 },
 {
-"id": "t90",
+"id": "t86",
 "name": "Gate valve",
 "module": 6
 },
 {
-"id": "t91",
+"id": "t87",
 "name": "Butterfly valve and Non",
 "module": 6
 },
 {
-"id": "t92",
+"id": "t88",
 "name": "Return valve",
 "module": 6
 }
@@ -466,409 +446,262 @@
 "candidates": [
 {
 "i": 0,
-"a": "t14",
-"b": "t16",
-"a_name": "tube differential manometer",
-"b_name": "tube manometer"
+"a": "t57",
+"b": "t60",
+"a_name": "Drag Forces",
+"b_name": "Terminal Settling Velocity"
 },
 {
 "i": 1,
-"a": "t54",
-"b": "t57",
-"a_name": "Continuity equation and Bernoulli’s equation",
-"b_name": "Adiabatic flow"
-},
-{
-"i": 2,
-"a": "t21",
-"b": "t46",
-"a_name": "Reynold’s experiment and Reynold’s number",
-"b_name": "Moody diagram"
-},
-{
-"i": 3,
-"a": "t9",
-"b": "t11",
-"a_name": "Measurement of pressure",
-"b_name": "Piezometers"
-},
-{
-"i": 4,
-"a": "t68",
-"b": "t74",
-"a_name": "Construction and Working",
-"b_name": "Cavitation"
-},
-{
-"i": 5,
-"a": "t10",
-"b": "t11",
-"a_name": "Manometers",
-"b_name": "Piezometers"
-},
-{
-"i": 6,
-"a": "t91",
-"b": "t92",
-"a_name": "Butterfly valve and Non",
-"b_name": "Return valve"
-},
-{
-"i": 7,
-"a": "t85",
-"b": "t81",
-"a_name": "Power Curves",
-"b_name": "Power Consumption in Agitation"
-},
-{
-"i": 8,
-"a": "t55",
-"b": "t57",
-"a_name": "Stagnation properties",
-"b_name": "Adiabatic flow"
-},
-{
-"i": 9,
-"a": "t70",
-"b": "t71",
-"a_name": "Definitions of Heads and Efficiency",
-"b_name": "Specific Speed"
-},
-{
-"i": 10,
-"a": "t18",
-"b": "t36",
-"a_name": "Newton’s law of viscosity",
-"b_name": "Shear stress distribution and velocity distribution"
-},
-{
-"i": 11,
-"a": "t55",
-"b": "t58",
-"a_name": "Stagnation properties",
-"b_name": "Isothermal flow"
-},
-{
-"i": 12,
-"a": "t68",
-"b": "t78",
-"a_name": "Construction and Working",
-"b_name": "Priming"
-},
-{
-"i": 13,
-"a": "t26",
-"b": "t29",
+"a": "t24",
+"b": "t66",
 "a_name": "Bernoulli’s equation",
-"b_name": "Practical Application of Bernoulli’s Equation"
-},
-{
-"i": 14,
-"a": "t25",
-"b": "t27",
-"a_name": "Continuity equation",
-"b_name": "Euler’s equation"
-},
-{
-"i": 15,
-"a": "t34",
-"b": "t30",
-"a_name": "Differential area flow meter",
-"b_name": "Venturi meter"
-},
-{
-"i": 16,
-"a": "t52",
-"b": "t53",
-"a_name": "Sonic",
-"b_name": "Supersonic and Subsonic flow"
-},
-{
-"i": 17,
-"a": "t6",
-"b": "t7",
-"a_name": "Pascal’s Law",
-"b_name": "Pressure variation in a fluid at rest"
-},
-{
-"i": 18,
-"a": "t19",
-"b": "t21",
-"a_name": "Kinematic viscosity",
-"b_name": "Reynold’s experiment and Reynold’s number"
-},
-{
-"i": 19,
-"a": "t66",
-"b": "t67",
-"a_name": "Classification and types",
-"b_name": "Centrifugal Pumps"
-},
-{
-"i": 20,
-"a": "t63",
-"b": "t64",
-"a_name": "Terminal Settling Velocity",
-"b_name": "Stoke’s law"
-},
-{
-"i": 21,
-"a": "t12",
-"b": "t14",
-"a_name": "U- tube",
-"b_name": "tube differential manometer"
-},
-{
-"i": 22,
-"a": "t81",
-"b": "t83",
-"a_name": "Power Consumption in Agitation",
-"b_name": "Types of Impellers"
-},
-{
-"i": 23,
-"a": "t34",
-"b": "t32",
-"a_name": "Differential area flow meter",
-"b_name": "Orifice meter"
-},
-{
-"i": 24,
-"a": "t34",
-"b": "t35",
-"a_name": "Differential area flow meter",
-"b_name": "Rotameter"
-},
-{
-"i": 25,
-"a": "t68",
-"b": "t70",
-"a_name": "Construction and Working",
 "b_name": "Definitions of Heads and Efficiency"
 },
 {
-"i": 26,
-"a": "t59",
+"i": 2,
+"a": "t78",
+"b": "t81",
+"a_name": "Purpose of Agitation",
+"b_name": "Power Curves"
+},
+{
+"i": 3,
+"a": "t78",
+"b": "t80",
+"a_name": "Purpose of Agitation",
+"b_name": "Prevention of Swirling"
+},
+{
+"i": 4,
+"a": "t11",
+"b": "t13",
+"a_name": "U-tube",
+"b_name": "U – tube differential manometer"
+},
+{
+"i": 5,
+"a": "t66",
 "b": "t65",
-"a_name": "Flow past immersed bodies",
-"b_name": "Stagnation Point"
+"a_name": "Definitions of Heads and Efficiency",
+"b_name": "Power Requirement"
 },
 {
-"i": 27,
-"a": "t56",
-"b": "t57",
-"a_name": "Acoustic velocity",
-"b_name": "Adiabatic flow"
-},
-{
-"i": 28,
-"a": "t26",
+"i": 6,
+"a": "t38",
 "b": "t39",
-"a_name": "Bernoulli’s equation",
-"b_name": "Darcy- Weisbach equation"
-},
-{
-"i": 29,
-"a": "t56",
-"b": "t51",
-"a_name": "Acoustic velocity",
-"b_name": "Mach number"
-},
-{
-"i": 30,
-"a": "t36",
-"b": "t41",
-"a_name": "Shear stress distribution and velocity distribution",
+"a_name": "Local velocity",
 "b_name": "Maximum velocity"
 },
 {
-"i": 31,
-"a": "t21",
+"i": 7,
+"a": "t48",
+"b": "t52",
+"a_name": "Mach number",
+"b_name": "Stagnation properties"
+},
+{
+"i": 8,
+"a": "t10",
+"b": "t14",
+"a_name": "Manometers – Piezometers",
+"b_name": "Inverted differential U – tube manometer"
+},
+{
+"i": 9,
+"a": "t19",
 "b": "t36",
 "a_name": "Reynold’s experiment and Reynold’s number",
-"b_name": "Shear stress distribution and velocity distribution"
+"b_name": "Friction factor"
 },
 {
-"i": 32,
-"a": "t66",
-"b": "t88",
-"a_name": "Classification and types",
-"b_name": "Types of Valves"
+"i": 10,
+"a": "t4",
+"b": "t7",
+"a_name": "Pressure and Fluid Statics",
+"b_name": "Pressure variation in a fluid at rest"
 },
 {
-"i": 33,
-"a": "t54",
-"b": "t58",
-"a_name": "Continuity equation and Bernoulli’s equation",
-"b_name": "Isothermal flow"
+"i": 11,
+"a": "t34",
+"b": "t40",
+"a_name": "Shear stress distribution and velocity distribution",
+"b_name": "Average velocity"
 },
 {
-"i": 34,
+"i": 12,
+"a": "t78",
+"b": "t79",
+"a_name": "Purpose of Agitation",
+"b_name": "Types of Impellers"
+},
+{
+"i": 13,
+"a": "t27",
+"b": "t33",
+"a_name": "Practical Application of Bernoulli’s Equation",
+"b_name": "Rotameter"
+},
+{
+"i": 14,
+"a": "t23",
+"b": "t51",
+"a_name": "Continuity equation",
+"b_name": "Continuity equation and Bernoulli’s equation"
+},
+{
+"i": 15,
+"a": "t78",
+"b": "t77",
+"a_name": "Purpose of Agitation",
+"b_name": "Power Consumption in Agitation"
+},
+{
+"i": 16,
 "a": "t4",
 "b": "t6",
 "a_name": "Pressure and Fluid Statics",
 "b_name": "Pascal’s Law"
 },
 {
-"i": 35,
-"a": "t40",
-"b": "t41",
-"a_name": "Local velocity",
-"b_name": "Maximum velocity"
+"i": 17,
+"a": "t56",
+"b": "t62",
+"a_name": "Flow past immersed bodies",
+"b_name": "Stagnation Point"
 },
 {
-"i": 36,
-"a": "t51",
-"b": "t56",
+"i": 18,
+"a": "t48",
+"b": "t53",
 "a_name": "Mach number",
 "b_name": "Acoustic velocity"
 },
 {
-"i": 37,
-"a": "t67",
-"b": "t74",
-"a_name": "Centrifugal Pumps",
-"b_name": "Cavitation"
-},
-{
-"i": 38,
-"a": "t42",
-"b": "t47",
-"a_name": "Average velocity",
-"b_name": "Equivalent diameter for circular and non-circular ducts"
-},
-{
-"i": 39,
-"a": "t26",
-"b": "t69",
+"i": 19,
+"a": "t24",
+"b": "t51",
 "a_name": "Bernoulli’s equation",
-"b_name": "Power Requirement"
+"b_name": "Continuity equation and Bernoulli’s equation"
 },
 {
-"i": 40,
-"a": "t28",
-"b": "t29",
-"a_name": "Modified Bernoulli’s equation",
-"b_name": "Practical Application of Bernoulli’s Equation"
+"i": 20,
+"a": "t27",
+"b": "t32",
+"a_name": "Practical Application of Bernoulli’s Equation",
+"b_name": "Differential area flow meter"
 },
 {
-"i": 41,
-"a": "t82",
-"b": "t83",
-"a_name": "Purpose of Agitation",
-"b_name": "Types of Impellers"
-},
-{
-"i": 42,
-"a": "t26",
-"b": "t70",
+"i": 21,
+"a": "t24",
+"b": "t25",
 "a_name": "Bernoulli’s equation",
-"b_name": "Definitions of Heads and Efficiency"
+"b_name": "Euler’s equation"
 },
 {
-"i": 43,
-"a": "t68",
-"b": "t73",
-"a_name": "Construction and Working",
-"b_name": "Characteristic Curves"
+"i": 22,
+"a": "t51",
+"b": "t54",
+"a_name": "Continuity equation and Bernoulli’s equation",
+"b_name": "Adiabatic flow"
 },
 {
-"i": 44,
-"a": "t21",
-"b": "t38",
-"a_name": "Reynold’s experiment and Reynold’s number",
-"b_name": "Friction factor"
+"i": 23,
+"a": "t79",
+"b": "t80",
+"a_name": "Types of Impellers",
+"b_name": "Prevention of Swirling"
 },
 {
-"i": 45,
-"a": "t12",
+"i": 24,
+"a": "t16",
+"b": "t17",
+"a_name": "Newton’s law of viscosity",
+"b_name": "Kinematic viscosity"
+},
+{
+"i": 25,
+"a": "t10",
 "b": "t13",
-"a_name": "U- tube",
-"b_name": "Single column manometer"
+"a_name": "Manometers – Piezometers",
+"b_name": "U – tube differential manometer"
 },
 {
-"i": 46,
-"a": "t5",
-"b": "t6",
-"a_name": "Fluid pressure at a point",
-"b_name": "Pascal’s Law"
+"i": 26,
+"a": "t34",
+"b": "t39",
+"a_name": "Shear stress distribution and velocity distribution",
+"b_name": "Maximum velocity"
 },
 {
-"i": 47,
-"a": "t81",
-"b": "t82",
-"a_name": "Power Consumption in Agitation",
-"b_name": "Purpose of Agitation"
+"i": 27,
+"a": "t32",
+"b": "t33",
+"a_name": "Differential area flow meter",
+"b_name": "Rotameter"
 },
 {
-"i": 48,
-"a": "t87",
-"b": "t86",
-"a_name": "Fans and Blowers",
-"b_name": "Power Number Introduction to Compressors"
+"i": 28,
+"a": "t64",
+"b": "t67",
+"a_name": "Centrifugal Pumps – Construction and Working",
+"b_name": "Specific Speed"
 },
 {
-"i": 49,
-"a": "t12",
-"b": "t15",
-"a_name": "U- tube",
-"b_name": "Inverted differential U"
+"i": 29,
+"a": "t51",
+"b": "t52",
+"a_name": "Continuity equation and Bernoulli’s equation",
+"b_name": "Stagnation properties"
 },
 {
-"i": 50,
-"a": "t40",
-"b": "t42",
+"i": 30,
+"a": "t53",
+"b": "t48",
+"a_name": "Acoustic velocity",
+"b_name": "Mach number"
+},
+{
+"i": 31,
+"a": "t11",
+"b": "t14",
+"a_name": "U-tube",
+"b_name": "Inverted differential U – tube manometer"
+},
+{
+"i": 32,
+"a": "t51",
+"b": "t55",
+"a_name": "Continuity equation and Bernoulli’s equation",
+"b_name": "Isothermal flow"
+},
+{
+"i": 33,
+"a": "t38",
+"b": "t40",
 "a_name": "Local velocity",
 "b_name": "Average velocity"
 },
 {
-"i": 51,
-"a": "t29",
-"b": "t35",
-"a_name": "Practical Application of Bernoulli’s Equation",
-"b_name": "Rotameter"
+"i": 34,
+"a": "t5",
+"b": "t7",
+"a_name": "Fluid pressure at a point",
+"b_name": "Pressure variation in a fluid at rest"
 },
 {
-"i": 52,
-"a": "t39",
-"b": "t47",
-"a_name": "Darcy- Weisbach equation",
-"b_name": "Equivalent diameter for circular and non-circular ducts"
-},
-{
-"i": 53,
+"i": 35,
 "a": "t25",
-"b": "t26",
-"a_name": "Continuity equation",
+"b": "t24",
+"a_name": "Euler’s equation",
 "b_name": "Bernoulli’s equation"
 },
 {
-"i": 54,
-"a": "t70",
-"b": "t69",
-"a_name": "Definitions of Heads and Efficiency",
-"b_name": "Power Requirement"
-},
-{
-"i": 55,
-"a": "t85",
-"b": "t86",
-"a_name": "Power Curves",
-"b_name": "Power Number Introduction to Compressors"
-},
-{
-"i": 56,
-"a": "t36",
-"b": "t42",
-"a_name": "Shear stress distribution and velocity distribution",
-"b_name": "Average velocity"
-},
-{
-"i": 57,
-"a": "t67",
-"b": "t78",
-"a_name": "Centrifugal Pumps",
-"b_name": "Priming"
+"i": 36,
+"a": "t5",
+"b": "t6",
+"a_name": "Fluid pressure at a point",
+"b_name": "Pascal’s Law"
 }
 ]
 }

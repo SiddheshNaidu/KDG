@@ -1,0 +1,357 @@
+{
+"course": "2165112",
+"title": "Artificial Intelligence & Soft Computing",
+"modules": [
+{
+"index": 1,
+"name": "Introduction to Artificial Intelligence & Soft Computing"
+},
+{
+"index": 2,
+"name": "Solving Problems by Searching"
+},
+{
+"index": 3,
+"name": "Knowledge and Reasoning"
+},
+{
+"index": 4,
+"name": "Fuzzy Set Theory & Fuzzy Rules, Reasoning and Inference System"
+},
+{
+"index": 5,
+"name": "Neural Networks"
+},
+{
+"index": 6,
+"name": "Hybrid System"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Introduction to Artificial Intelligence",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Artificial Intelligence (AI)",
+"module": 1
+},
+{
+"id": "t3",
+"name": "AI Perspectives",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Applications of AI",
+"module": 1
+},
+{
+"id": "t5",
+"name": "present state of AI Introduction to Soft Computing",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Soft computing Constituents",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Characteristics of Neuro Computing and Soft Computing",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Difference between Hard Computing and Soft Computing",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Concepts of Learning and Adaptation",
+"module": 1
+},
+{
+"id": "t10",
+"name": "State space representation",
+"module": 2
+},
+{
+"id": "t11",
+"name": "Problem as a state space search",
+"module": 2
+},
+{
+"id": "t12",
+"name": "Problem formulation",
+"module": 2
+},
+{
+"id": "t13",
+"name": "Uninformed Search",
+"module": 2
+},
+{
+"id": "t14",
+"name": "Depth First Search",
+"module": 2
+},
+{
+"id": "t15",
+"name": "Breadth First Search",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Informed Search",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Greedy Best First Search",
+"module": 2
+},
+{
+"id": "t18",
+"name": "A* Search",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Local Search",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Hill Climbing Search",
+"module": 2
+},
+{
+"id": "t21",
+"name": "Simulated Annealing Search",
+"module": 2
+},
+{
+"id": "t22",
+"name": "Knowledge Representation Systems",
+"module": 3
+},
+{
+"id": "t23",
+"name": "Propositional Logic (PL)",
+"module": 3
+},
+{
+"id": "t24",
+"name": "Syntax",
+"module": 3
+},
+{
+"id": "t25",
+"name": "Semantics",
+"module": 3
+},
+{
+"id": "t26",
+"name": "Formal logic- connectives",
+"module": 3
+},
+{
+"id": "t27",
+"name": "Predicate Logic",
+"module": 3
+},
+{
+"id": "t28",
+"name": "FOPL",
+"module": 3
+},
+{
+"id": "t29",
+"name": "Quantification",
+"module": 3
+},
+{
+"id": "t30",
+"name": "Inference rules in FOPL",
+"module": 3
+},
+{
+"id": "t31",
+"name": "Forward Chaining",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Backward Chaining and Resolution in FOPL",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Handling Uncertain Knowledge",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Random Variables",
+"module": 3
+},
+{
+"id": "t35",
+"name": "Prior and Posterior Probability",
+"module": 3
+},
+{
+"id": "t36",
+"name": "Fuzzy Set Theory",
+"module": 4
+},
+{
+"id": "t37",
+"name": "Fuzzy Sets",
+"module": 4
+},
+{
+"id": "t38",
+"name": "Fuzzy relations",
+"module": 4
+},
+{
+"id": "t39",
+"name": "Fuzzification and Defuzzification",
+"module": 4
+},
+{
+"id": "t40",
+"name": "Features of the membership Functions Fuzzy Rules",
+"module": 4
+},
+{
+"id": "t41",
+"name": "Reasoning and Inference System",
+"module": 4
+},
+{
+"id": "t42",
+"name": "Fuzzy Rules",
+"module": 4
+},
+{
+"id": "t43",
+"name": "Fuzzy If-Then Rules",
+"module": 4
+},
+{
+"id": "t44",
+"name": "Fuzzy Reasoning Fuzzy Inference System (FIS)",
+"module": 4
+},
+{
+"id": "t45",
+"name": "Mamdani FIS",
+"module": 4
+},
+{
+"id": "t46",
+"name": "Sugeno FIS",
+"module": 4
+},
+{
+"id": "t47",
+"name": "Mamdani and Sugeno FIS",
+"module": 4
+},
+{
+"id": "t48",
+"name": "Basics of Neural Networks",
+"module": 5
+},
+{
+"id": "t49",
+"name": "Introduction to Neural Networks",
+"module": 5
+},
+{
+"id": "t50",
+"name": "Biological Neural Networks",
+"module": 5
+},
+{
+"id": "t51",
+"name": "McCulloch Pitt model Supervised Learning algorithms",
+"module": 5
+},
+{
+"id": "t52",
+"name": "Perceptron (Single Layer, Multi-layer)",
+"module": 5
+},
+{
+"id": "t53",
+"name": "Linear separability",
+"module": 5
+},
+{
+"id": "t54",
+"name": "Delta learning rule",
+"module": 5
+},
+{
+"id": "t55",
+"name": "Back Propagation algorithm Un-Supervised Learning algorithms",
+"module": 5
+},
+{
+"id": "t56",
+"name": "Hebbian Learning",
+"module": 5
+},
+{
+"id": "t57",
+"name": "Winner take all",
+"module": 5
+},
+{
+"id": "t58",
+"name": "Self Organizing Maps",
+"module": 5
+},
+{
+"id": "t59",
+"name": "Learning Vector Quantization",
+"module": 5
+},
+{
+"id": "t60",
+"name": "Introduction to Hybrid Systems",
+"module": 6
+},
+{
+"id": "t61",
+"name": "Key applications of hybrid systems (industrial control, robotics, forecasting)",
+"module": 6
+},
+{
+"id": "t62",
+"name": "Adaptive Neuro-Fuzzy Inference System (ANFIS)",
+"module": 6
+},
+{
+"id": "t63",
+"name": "Comparative evaluation of Fuzzy",
+"module": 6
+},
+{
+"id": "t64",
+"name": "Neural",
+"module": 6
+},
+{
+"id": "t65",
+"name": "Neuro-Fuzzy models",
+"module": 6
+}
+]
+}

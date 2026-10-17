@@ -1,0 +1,70 @@
+{
+ "verdicts": {
+  "2013111|3850a979454fc023": {
+   "verdict": "FIXABLE",
+   "topics": 33,
+   "junk": 2,
+   "note": "NLPP split in two ('NLPP with one' / 'two equality constraint ...'); self-learning topics excluded"
+  },
+  "2013112|63698e5c10d60678": {
+   "verdict": "OK",
+   "topics": 70,
+   "junk": 0,
+   "note": "clean; only self-learning topics omitted"
+  },
+  "2014112|09508981b6e23e84": {
+   "verdict": "BAD",
+   "topics": 57,
+   "junk": 3,
+   "note": "Relational algebra operators lost; group by/order by/aggregate function/Transaction Control Commands lost; 'ACID Properties The Entity-Relationship (ER) Model' glued; 'having' fragment"
+  },
+  "2014113|10a3a007cc8b2d7e": {
+   "verdict": "FIXABLE",
+   "topics": 72,
+   "junk": 4,
+   "note": "glued 'Objectives of Operating System Functions of Operating System'; vague fragments 'Operations', 'Architecture and functions'; scheduling list lumped into one"
+  },
+  "2024111|3736b75d148e1a16": {
+   "verdict": "BAD",
+   "topics": 62,
+   "junk": 9,
+   "note": "M6 name contaminated with 'Text Books'; prereq leaked ('Relations','Functions'); glued 'Languages Regular operations','Grammars and Chomsky Hierarchy Regular Grammar (RG)'; fragments 'decider and acceptor of CFG','decider and acceptor'"
+  },
+  "ESC101|dda4322566609a07": {
+   "verdict": "BAD",
+   "topics": 49,
+   "junk": 4,
+   "note": "paren split ('Resultant of coplanar force system (Concurrent forces, parallel forces' / 'general system of forces)'); glued 'Cone of friction. angle of repose'; ICR method for general plane motion missing"
+  },
+  "AEC101|c2819e42925aa098": {
+   "verdict": "FIXABLE",
+   "topics": 130,
+   "junk": 8,
+   "note": "repeated 'Conversational Activities' x3; half parentheticals 'Identifying Common Errors (Subject-verb agreement, Articles'; glued 'Prepositions, ... Redundancies'; 'Suffixes at a similar difficulty level...' tails"
+  },
+  "BSC2022|046a0e3fc04cbd2f": {
+   "verdict": "BAD",
+   "topics": 45,
+   "junk": 7,
+   "note": "glued items ('calculation of barrier potential Diode equation','CE I-V characteristics BJT Amplification and Switching','Threshold voltage MOSFET Applications'); 'wrttemperature' fragments"
+  },
+  "BSC2023|a9b312117a48c074": {
+   "verdict": "BAD",
+   "topics": 64,
+   "junk": 8,
+   "note": "glued transducer/thermometer items ('Piezoelectric Transducers Resistive Transducers','LVDT Optical measurements system'); 'Characteristic error dynamic error Statistical Treatment of errors'"
+  },
+  "BSC2031|dbbf37a5d6c531af": {
+   "verdict": "BAD",
+   "topics": 75,
+   "junk": 25,
+   "note": "element symbols split ('Cr','Co','Mn'), dangling 'Composition' x3, 'properties and uses', 'Preparation' fragments; 'Dutch Metal and German Silver' lost"
+  },
+  "BSC2032|c54507b311e9a3fa": {
+   "verdict": "BAD",
+   "topics": 77,
+   "junk": 8,
+   "note": "BOD/COD item (2.F) missing; split lists ('nitrogen oxides','Tidal and Geothermal','Acidification'/'Eutrophication and thermal stratification of lake water')"
+  }
+ }
+}

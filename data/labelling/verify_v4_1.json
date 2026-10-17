@@ -1,0 +1,70 @@
+{
+ "verdicts": {
+  "BSC2031|aa20143049ac2de6": {
+   "verdict": "BAD",
+   "topics": 72,
+   "junk": 20,
+   "note": "Element/list fragments ('Cr','Co','Mn','Mo'), dangling 'Composition' x4 / 'Preparation' x2 / 'Properties and Uses'; Brass sub-items Dutch Metal and German Silver missing"
+  },
+  "BSC2032|8aa075903018031f": {
+   "verdict": "BAD",
+   "topics": 76,
+   "junk": 6,
+   "note": "Module 2 item F (BOD/COD relevance, numerical) missing; 'Definition' of biomass missing; headers 'Physical Methods', 'Measurement and control', glued 'Definition and Composition Hazardous waste'"
+  },
+  "BSC2033|b9b3c645ce62dd97": {
+   "verdict": "BAD",
+   "topics": 27,
+   "junk": 4,
+   "note": "Lead-in lost leaving fragments: 'Simple systems', 'definition and components', 'formation and significance', 'Bonding theories'"
+  },
+  "PCC2011|b425ac0837181958": {
+   "verdict": "BAD",
+   "topics": 46,
+   "junk": 9,
+   "note": "Glued/split lists: 'Types of Data Structures-Linear'|'Nonlinear'|'Static'|'Dynamic and operations on Data Structures'; 'Insertion'|'deletion'|'update and copying operations...'|'doubly linked lists'; 'Prefix and Postfix Notations'"
+  },
+  "2165111|03d4f1ccb3bc5ea6": {
+   "verdict": "OK",
+   "topics": 167,
+   "junk": 4,
+   "note": "Minor: 'Naive Bayes (...). k-NN classifier' glued, 'backward (overview)', 'conceptual overview' dangling; 'numerical', F1, R2 dropped"
+  },
+  "2165112|fc380b69bdf88190": {
+   "verdict": "FIXABLE",
+   "topics": 67,
+   "junk": 8,
+   "note": "Glued items: 'present state of AI Introduction to Soft Computing', 'McCulloch Pitt model Supervised Learning algorithms', 'Features of the membership Functions Fuzzy Rules'; split 'Comparative evaluation of Fuzzy'|'Neural'|'Neuro-Fuzzy models'"
+  },
+  "2165116|0124112bdbb9e801": {
+   "verdict": "OK",
+   "topics": 102,
+   "junk": 3,
+   "note": "'Design Issues (Services to Network Layer, Framing' half parenthetical + 'Error control, Flow control'; 'Elementary Data Link protocols MAC Sub layer' glued"
+  },
+  "2166114|19f3d75f2cf9c156": {
+   "verdict": "BAD",
+   "topics": 77,
+   "junk": 10,
+   "note": "Module 6 truncated (AI for phishing detection, NLP, URL reputation, deepfake, threat intel, vuln scanning, real-world apps all missing); glued 'Advanced Encryption Standard Public key cryptography', 'Key Management Hashing Techniques'"
+  },
+  "2166115|41fd7d14cd0aae90": {
+   "verdict": "FIXABLE",
+   "topics": 85,
+   "junk": 6,
+   "note": "Glued 'classical and evolutionary Evolutionary algorithm framework for MOO', 'population-based search for Pareto front. solution'; 'omega hierarchy guides search around prey' (alpha/beta/delta lost); 'distraction rules'"
+  },
+  "2073112|324b0956aa386d1f": {
+   "verdict": "FIXABLE",
+   "topics": 92,
+   "junk": 8,
+   "note": "Hyphen cuts: 'tube differential manometer', 'Inverted differential U'|'tube manometer', 'Hagen'|'Poiseullie equation', 'Butterfly valve and Non'|'Return valve'; glued 'Power Number Introduction to Compressors'"
+  },
+  "2073113|8fb7188862397180": {
+   "verdict": "OK",
+   "topics": 22,
+   "junk": 1,
+   "note": "'under steady | unsteady state conditions' cut; otherwise complete"
+  }
+ }
+}

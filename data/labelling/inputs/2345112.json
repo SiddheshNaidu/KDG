@@ -145,7 +145,7 @@
 },
 {
 "id": "t24",
-"name": "k- Nearest Neighbours (k-NN)",
+"name": "k-Nearest Neighbours (k-NN)",
 "module": 3
 },
 {
@@ -170,7 +170,7 @@
 },
 {
 "id": "t29",
-"name": "Bias-Variance Trade- off",
+"name": "Bias-Variance Trade-off",
 "module": 3
 },
 {

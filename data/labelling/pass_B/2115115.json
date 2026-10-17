@@ -1,229 +1,204 @@
 {
 "edges": [
 {
-"a": "t3",
-"b": "t4",
-"why": "rasterization uses coordinates"
-},
-{
-"a": "t4",
-"b": "t5",
-"why": "raster scan displays rasterize"
-},
-{
-"a": "t7",
-"b": "t10",
-"why": "primitives pass through pipeline"
-},
-{
 "a": "t8",
 "b": "t10",
-"why": "OpenGL provides primitives"
+"why": "a is needed to understand b"
 },
 {
 "a": "t11",
 "b": "t12",
-"why": "line drawing is scan conversion"
+"why": "a is needed to understand b"
 },
 {
 "a": "t12",
 "b": "t13",
-"why": "DDA/Bresenham are line algorithms"
+"why": "a is needed to understand b"
 },
 {
 "a": "t11",
 "b": "t14",
-"why": "circle algorithm is scan conversion"
-},
-{
-"a": "t11",
-"b": "t15",
-"why": "filled area scan conversion"
+"why": "a is needed to understand b"
 },
 {
 "a": "t15",
 "b": "t16",
-"why": "boundary/flood fill fill areas"
-},
-{
-"a": "t15",
-"b": "t17",
-"why": "polygon tables for filling"
+"why": "a is needed to understand b"
 },
 {
 "a": "t17",
 "b": "t18",
-"why": "scan-line fill uses edge tables"
+"why": "a is needed to understand b"
+},
+{
+"a": "t15",
+"b": "t18",
+"why": "a is needed to understand b"
 },
 {
 "a": "t19",
 "b": "t20",
-"why": "translation is basic transformation"
+"why": "a is needed to understand b"
 },
 {
 "a": "t19",
 "b": "t21",
-"why": "scaling is basic transformation"
+"why": "a is needed to understand b"
 },
 {
 "a": "t19",
 "b": "t22",
-"why": "rotation is basic transformation"
+"why": "a is needed to understand b"
 },
 {
 "a": "t20",
 "b": "t23",
-"why": "homogeneous coords unify translation"
-},
-{
-"a": "t22",
-"b": "t23",
-"why": "homogeneous coords unify rotation"
+"why": "a is needed to understand b"
 },
 {
 "a": "t23",
 "b": "t24",
-"why": "composites use matrix concatenation"
+"why": "a is needed to understand b"
 },
 {
 "a": "t19",
 "b": "t26",
-"why": "reflection is a transformation"
+"why": "a is needed to understand b"
 },
 {
-"a": "t24",
+"a": "t20",
 "b": "t27",
-"why": "viewport mapping composes transforms"
+"why": "a is needed to understand b"
+},
+{
+"a": "t21",
+"b": "t27",
+"why": "a is needed to understand b"
 },
 {
 "a": "t28",
 "b": "t29",
-"why": "point clipping simplest clipping"
+"why": "a is needed to understand b"
 },
 {
 "a": "t28",
 "b": "t30",
-"why": "line clipping is clipping"
+"why": "a is needed to understand b"
 },
 {
 "a": "t28",
 "b": "t31",
-"why": "polygon clipping is clipping"
+"why": "a is needed to understand b"
 },
 {
 "a": "t31",
 "b": "t32",
-"why": "Sutherland-Hodgman clips polygons"
+"why": "a is needed to understand b"
 },
 {
 "a": "t23",
 "b": "t33",
-"why": "3D transforms use homogeneous coords"
+"why": "a is needed to understand b"
 },
 {
 "a": "t33",
 "b": "t34",
-"why": "projection follows 3D viewing"
+"why": "a is needed to understand b"
 },
 {
 "a": "t34",
 "b": "t35",
-"why": "parallel is projection"
+"why": "a is needed to understand b"
 },
 {
 "a": "t34",
 "b": "t36",
-"why": "perspective is projection"
+"why": "a is needed to understand b"
 },
 {
 "a": "t37",
 "b": "t38",
-"why": "Bezier is a curve"
+"why": "a is needed to understand b"
 },
 {
 "a": "t39",
 "b": "t40",
-"why": "representations of solid modeling"
+"why": "a is needed to understand b"
 },
 {
 "a": "t41",
 "b": "t42",
-"why": "classification of VSD methods"
+"why": "a is needed to understand b"
 },
 {
 "a": "t42",
 "b": "t43",
-"why": "back-face is VSD method"
+"why": "a is needed to understand b"
 },
 {
 "a": "t42",
 "b": "t44",
-"why": "depth buffer is VSD method"
-},
-{
-"a": "t45",
-"b": "t46",
-"why": "animation intro"
+"why": "a is needed to understand b"
 },
 {
 "a": "t46",
 "b": "t47",
-"why": "traditional animation techniques"
+"why": "a is needed to understand b"
 },
 {
-"a": "t47",
+"a": "t46",
 "b": "t48",
-"why": "keyframing is traditional technique"
+"why": "a is needed to understand b"
 },
 {
 "a": "t46",
 "b": "t49",
-"why": "motion capture is animation technique"
+"why": "a is needed to understand b"
 },
 {
 "a": "t50",
 "b": "t51",
-"why": "illumination used in rendering"
+"why": "a is needed to understand b"
 },
 {
 "a": "t51",
 "b": "t52",
-"why": "diffuse/specular are illumination"
+"why": "a is needed to understand b"
 },
 {
-"a": "t52",
-"b": "t53",
-"why": "reflection needs surface normal"
-},
-{
-"a": "t53",
+"a": "t51",
 "b": "t54",
-"why": "shading uses normals"
+"why": "a is needed to understand b"
 },
 {
 "a": "t54",
 "b": "t55",
-"why": "Gouraud is shading"
+"why": "a is needed to understand b"
 },
 {
 "a": "t54",
 "b": "t56",
-"why": "Phong is shading"
+"why": "a is needed to understand b"
 },
 {
 "a": "t57",
 "b": "t58",
-"why": "systems enable immersive tech"
+"why": "a is needed to understand b"
 },
 {
 "a": "t58",
 "b": "t59",
-"why": "physical elements of systems"
+"why": "a is needed to understand b"
 },
 {
 "a": "t58",
 "b": "t60",
-"why": "APIs and hardware of systems"
+"why": "a is needed to understand b"
+},
+{
+"a": "t4",
+"b": "t11",
+"why": "a is needed to understand b"
 }
 ]
 }

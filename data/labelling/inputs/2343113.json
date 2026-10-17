@@ -365,41 +365,36 @@
 },
 {
 "id": "t68",
-"name": "Serializability",
+"name": "Serializability – Conflict and View",
 "module": 6
 },
 {
 "id": "t69",
-"name": "Conflict and View",
-"module": 6
-},
-{
-"id": "t70",
 "name": "Concurrency Control",
 "module": 6
 },
 {
-"id": "t71",
+"id": "t70",
 "name": "Lock-based-protocols",
 "module": 6
 },
 {
-"id": "t72",
+"id": "t71",
 "name": "Deadlock handling Timestamp-based protocols",
 "module": 6
 },
 {
-"id": "t73",
+"id": "t72",
 "name": "Recovery System",
 "module": 6
 },
 {
-"id": "t74",
+"id": "t73",
 "name": "Recovery Concepts",
 "module": 6
 },
 {
-"id": "t75",
+"id": "t74",
 "name": "Log based recovery",
 "module": 6
 }

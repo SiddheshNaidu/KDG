@@ -15,13 +15,44 @@ HDR_COURSE = re.compile(r"Course\s*Code", re.I)
 HDR_MODULE = re.compile(r"Detail(?:ed)?\s+Content", re.I)
 LAB_TITLE = re.compile(r"(?<![A-Za-z])(?:lab|laboratory|workshop|practical|mini[\s-]*project|capstone|seminar|internship)(?![A-Za-z])", re.I)
 MAX_PAGE_GAP = 4  # a module table further than this from its course header is NOT attached (reported instead)
+STOP_CELL = re.compile(r"^\s*(?:Website|Course\s+Outcomes?|Course\s+Objectives?|Title\s+of\s+Book|Text\s*books?|Reference|Experiment|List\s+of\s+Experiments)", re.I)
 STOP_HDR = re.compile(r"Website|Course\s+Outcome|Course\s+Objective|Title\s+of\s+Book|Textbook|Reference|Experiment|Sr\.?\s*No\.?\s*Name\s+of\s+Experiment", re.I)
 HOURS_RE = re.compile(r"^\d{1,2}$")
 END_CELL = re.compile(r"^\s*(?:Text\s*Books?|Reference\s*Books?|Textbooks?|Web\s+References?|Suggested\s+Reading|Books?\s*:)", re.I)
 URL_CELL = re.compile(r"^\s*(?:https?://|www\.)", re.I)
 
+CYR = str.maketrans({"а": "a", "е": "e", "о": "o", "р": "p", "с": "c", "х": "x", "у": "y", "і": "i", "А": "A", "В": "B", "Е": "E", "К": "K", "М": "M", "Н": "H", "О": "O", "Р": "P", "С": "C", "Т": "T", "Х": "X"})
+BREAK = "␞"   # marks a line break that separates two list items (see _break_aware_text)
+STOPEND = {"of", "and", "or", "the", "in", "to", "for", "with", "on", "by", "a", "an", "vs", "from", "using", "as", "at", "into", "between", "its", "their"}
+
+def _break_aware_text(page, bbox):
+    """Cell text where a line break that ends a SHORT line and is followed by a capital letter is kept as a list-item separator
+    (the PDF text layer joins such items with a plain space otherwise: '... Application Training Error ...')."""
+    try:
+        d = page.get_text("dict", clip=fitz.Rect(bbox))
+        lines = []
+        for b in d["blocks"]:
+            if b.get("type") != 0: continue
+            for ln in b["lines"]:
+                t = "".join(sp["text"] for sp in ln["spans"]).strip()
+                if t: lines.append((round(ln["bbox"][1]), ln["bbox"][0], ln["bbox"][2], t))
+        lines.sort(key=lambda x: (x[0], x[1]))
+        if not lines: return None
+        width = max(1.0, bbox[2] - bbox[0]); out = []
+        for i, (_, x0, x1, t) in enumerate(lines):
+            out.append(t)
+            if i + 1 < len(lines):
+                nxt = lines[i + 1][3]; last = t.rstrip().split()[-1].lower().strip(".,;:") if t.split() else ""
+                short = (bbox[2] - x1) > 0.10 * width
+                bullet = nxt[:1] in "-•·▪" and len(nxt) > 1
+                brk = bullet or (short and nxt[:1].isupper() and not t.rstrip().endswith((",", ";", ":", "-", "–", "/", "(", "&")) and last not in STOPEND)
+                out.append(BREAK if brk else " ")
+        return unicodedata.normalize("NFKC", "".join(out)).translate(CYR)
+    except Exception:
+        return None
+
 def _norm(c) -> str:
-    c = unicodedata.normalize("NFKC", c) if c else c
+    c = unicodedata.normalize("NFKC", c).translate(CYR) if c else c
     return re.sub(r"[ \t\r\f\v]+", " ", (c or "").replace("\n", " ")).strip()
 
 @dataclass
@@ -49,6 +80,7 @@ class CourseTables:
     x0: float = 0.0
     x1: float = 0.0
     last_page: int = 0
+    content_col: int | None = None
     ended: bool = False
     conflict_pages: list[int] = field(default_factory=list)
     last_y1: float = 0.0
@@ -64,7 +96,7 @@ def _course_header(rows):
             return cells[0].replace(" ", ""), cells[1]
     return None
 
-def _remap(table, raw, cols):
+def _remap(table, raw, cols, content_col=None):
     """Place every cell into the module table's column by x position (robust to spurious/merged columns)."""
     rows = []
     for tr, texts in zip(table.rows, raw):
@@ -76,6 +108,9 @@ def _remap(table, raw, cols):
             j = next((i for i, (x0, x1) in enumerate(cols) if x0 - 2 <= cx <= x1 + 2), None)
             if j is None:
                 j = min(range(len(cols)), key=lambda i: abs(cx - (cols[i][0] + cols[i][1]) / 2))
+            if j == content_col:
+                bt = _break_aware_text(table.page, bbox)
+                if bt: txt = bt
             out[j] = (out[j] + " " + txt).strip() if out[j] else txt
         rows.append(out)
     return rows
@@ -125,7 +160,9 @@ def extract_course_tables(pdf_path: str) -> list[CourseTables]:
                 cur.has_module_table = True; open_table = True
                 hc = [c for c in t.rows[hdr_row].cells if c]
                 cur.cols = [(c[0], c[2]) for c in hc]; cur.ncols = len(cur.cols); cur.x0, cur.x1 = min(c[0] for c in cur.cols), max(c[1] for c in cur.cols)   # extent of the real header cells, not of a merged banner
-                body = _remap(t, raw, cur.cols)[hdr_row + 1:]
+                hdr_cells = [(c, _norm(txt)) for c, txt in zip(t.rows[hdr_row].cells, raw[hdr_row]) if c]
+                cur.content_col = next((i for i, (_, txt) in enumerate(hdr_cells) if HDR_MODULE.search(txt)), None)
+                body = _remap(t, raw, cur.cols, cur.content_col)[hdr_row + 1:]
             elif open_table:
                 # A continuation must directly follow the previous module-table fragment: below it on the same page,
                 # or near the top of the next page, with the same horizontal extent, and must not look like another section.
@@ -133,10 +170,10 @@ def extract_course_tables(pdf_path: str) -> list[CourseTables]:
                 prev_h = doc[cur.last_page - 1].rect.height
                 reached_bottom = cur.last_y1 > prev_h - 300  # a table only continues on the next page if it ran to the page bottom
                 follows = (pn + 1 == cur.last_page and t.bbox[1] >= cur.last_y1 - 2) or (pn + 1 == cur.last_page + 1 and t.bbox[1] < 140 and reached_bottom)
-                if cur.ended or STOP_HDR.search(head) or not same_x or not follows:
+                if cur.ended or any(STOP_CELL.match(_norm(c)) for c in raw[0]) or not same_x or not follows:
                     open_table = False
                     continue
-                body = _remap(t, raw, cur.cols)
+                body = _remap(t, raw, cur.cols, cur.content_col)
             else:
                 continue
             # Stop at the first row that starts the book/reference list (it can share a table with the last module row).

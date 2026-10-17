@@ -1,1 +1,239 @@
-{"edges": [{"a": "t4", "b": "t2", "why": "prerequisite"}, {"a": "t4", "b": "t3", "why": "prerequisite"}, {"a": "t5", "b": "t6", "why": "prerequisite"}, {"a": "t5", "b": "t7", "why": "prerequisite"}, {"a": "t5", "b": "t8", "why": "prerequisite"}, {"a": "t5", "b": "t9", "why": "prerequisite"}, {"a": "t10", "b": "t11", "why": "prerequisite"}, {"a": "t11", "b": "t12", "why": "prerequisite"}, {"a": "t3", "b": "t11", "why": "prerequisite"}, {"a": "t13", "b": "t14", "why": "prerequisite"}, {"a": "t14", "b": "t15", "why": "prerequisite"}, {"a": "t14", "b": "t16", "why": "prerequisite"}, {"a": "t14", "b": "t17", "why": "prerequisite"}, {"a": "t4", "b": "t14", "why": "prerequisite"}, {"a": "t18", "b": "t19", "why": "prerequisite"}, {"a": "t19", "b": "t20", "why": "prerequisite"}, {"a": "t19", "b": "t21", "why": "prerequisite"}, {"a": "t13", "b": "t22", "why": "prerequisite"}, {"a": "t13", "b": "t24", "why": "prerequisite"}, {"a": "t13", "b": "t26", "why": "prerequisite"}, {"a": "t13", "b": "t27", "why": "prerequisite"}, {"a": "t27", "b": "t28", "why": "prerequisite"}, {"a": "t27", "b": "t29", "why": "prerequisite"}, {"a": "t30", "b": "t31", "why": "prerequisite"}, {"a": "t31", "b": "t32", "why": "prerequisite"}, {"a": "t32", "b": "t33", "why": "prerequisite"}, {"a": "t33", "b": "t34", "why": "prerequisite"}, {"a": "t35", "b": "t36", "why": "prerequisite"}, {"a": "t36", "b": "t37", "why": "prerequisite"}, {"a": "t37", "b": "t38", "why": "prerequisite"}, {"a": "t38", "b": "t39", "why": "prerequisite"}, {"a": "t41", "b": "t42", "why": "prerequisite"}, {"a": "t42", "b": "t43", "why": "prerequisite"}, {"a": "t38", "b": "t44", "why": "prerequisite"}, {"a": "t45", "b": "t46", "why": "prerequisite"}, {"a": "t46", "b": "t47", "why": "prerequisite"}, {"a": "t47", "b": "t48", "why": "prerequisite"}, {"a": "t47", "b": "t49", "why": "prerequisite"}, {"a": "t50", "b": "t51", "why": "prerequisite"}, {"a": "t50", "b": "t52", "why": "prerequisite"}, {"a": "t50", "b": "t53", "why": "prerequisite"}, {"a": "t50", "b": "t54", "why": "prerequisite"}, {"a": "t50", "b": "t55", "why": "prerequisite"}, {"a": "t13", "b": "t51", "why": "prerequisite"}, {"a": "t35", "b": "t53", "why": "prerequisite"}, {"a": "t13", "b": "t57", "why": "prerequisite"}]}
+{
+ "edges": [
+  {
+   "a": "t2",
+   "b": "t4",
+   "why": "Carnot cycle introduces COP"
+  },
+  {
+   "a": "t4",
+   "b": "t3",
+   "why": "COP needed to evaluate Bell Coleman"
+  },
+  {
+   "a": "t5",
+   "b": "t6",
+   "why": "refrigerants before primary/secondary"
+  },
+  {
+   "a": "t5",
+   "b": "t7",
+   "why": "refrigerants before properties"
+  },
+  {
+   "a": "t5",
+   "b": "t8",
+   "why": "refrigerants before designation"
+  },
+  {
+   "a": "t7",
+   "b": "t9",
+   "why": "properties needed to judge eco-friendly refrigerants"
+  },
+  {
+   "a": "t10",
+   "b": "t11",
+   "why": "air refrigeration before its methods"
+  },
+  {
+   "a": "t3",
+   "b": "t11",
+   "why": "Bell Coleman basis for air methods"
+  },
+  {
+   "a": "t11",
+   "b": "t12",
+   "why": "methods precede numericals"
+  },
+  {
+   "a": "t4",
+   "b": "t14",
+   "why": "COP needed for VCRS analysis"
+  },
+  {
+   "a": "t13",
+   "b": "t14",
+   "why": "VCRS before its analysis"
+  },
+  {
+   "a": "t14",
+   "b": "t15",
+   "why": "cycle analysis before effects of pressure"
+  },
+  {
+   "a": "t14",
+   "b": "t16",
+   "why": "cycle analysis before sub-cooling effects"
+  },
+  {
+   "a": "t14",
+   "b": "t17",
+   "why": "analysis precedes p-h numericals"
+  },
+  {
+   "a": "t13",
+   "b": "t18",
+   "why": "VCRS background before absorption"
+  },
+  {
+   "a": "t18",
+   "b": "t19",
+   "why": "absorption basics before practical system"
+  },
+  {
+   "a": "t19",
+   "b": "t20",
+   "why": "simple system before Electrolux"
+  },
+  {
+   "a": "t19",
+   "b": "t21",
+   "why": "simple system before LiBr system"
+  },
+  {
+   "a": "t13",
+   "b": "t22",
+   "why": "VCRS cycle before compressor components"
+  },
+  {
+   "a": "t13",
+   "b": "t24",
+   "why": "VCRS cycle before condenser types"
+  },
+  {
+   "a": "t13",
+   "b": "t25",
+   "why": "VCRS cycle before DX evaporator"
+  },
+  {
+   "a": "t13",
+   "b": "t26",
+   "why": "VCRS cycle before evaporator types"
+  },
+  {
+   "a": "t13",
+   "b": "t27",
+   "why": "VCRS cycle before expansion devices"
+  },
+  {
+   "a": "t27",
+   "b": "t28",
+   "why": "expansion devices before TXV"
+  },
+  {
+   "a": "t27",
+   "b": "t29",
+   "why": "expansion devices before EXV"
+  },
+  {
+   "a": "t30",
+   "b": "t31",
+   "why": "comfort conditions before significance"
+  },
+  {
+   "a": "t31",
+   "b": "t32",
+   "why": "significance before factors"
+  },
+  {
+   "a": "t32",
+   "b": "t33",
+   "why": "factors define effective temperature"
+  },
+  {
+   "a": "t33",
+   "b": "t34",
+   "why": "effective temperature before ASHRAE chart"
+  },
+  {
+   "a": "t35",
+   "b": "t36",
+   "why": "psychrometry before properties"
+  },
+  {
+   "a": "t36",
+   "b": "t37",
+   "why": "properties before relations and processes"
+  },
+  {
+   "a": "t37",
+   "b": "t38",
+   "why": "relations before chart"
+  },
+  {
+   "a": "t38",
+   "b": "t39",
+   "why": "chart before numericals"
+  },
+  {
+   "a": "t37",
+   "b": "t40",
+   "why": "processes needed to classify AC systems"
+  },
+  {
+   "a": "t41",
+   "b": "t42",
+   "why": "load estimation before components"
+  },
+  {
+   "a": "t42",
+   "b": "t43",
+   "why": "components before heat sources"
+  },
+  {
+   "a": "t43",
+   "b": "t44",
+   "why": "heat sources needed for design"
+  },
+  {
+   "a": "t38",
+   "b": "t44",
+   "why": "psychrometric chart used in AC design"
+  },
+  {
+   "a": "t45",
+   "b": "t46",
+   "why": "duct design before pressure losses"
+  },
+  {
+   "a": "t46",
+   "b": "t47",
+   "why": "pressure losses before friction chart"
+  },
+  {
+   "a": "t47",
+   "b": "t48",
+   "why": "friction chart before equivalent diameter"
+  },
+  {
+   "a": "t46",
+   "b": "t49",
+   "why": "pressure losses needed for design methods"
+  },
+  {
+   "a": "t50",
+   "b": "t51",
+   "why": "controls before LP/HP cutoff"
+  },
+  {
+   "a": "t50",
+   "b": "t52",
+   "why": "controls before thermostats"
+  },
+  {
+   "a": "t50",
+   "b": "t53",
+   "why": "controls before humidistats"
+  },
+  {
+   "a": "t36",
+   "b": "t53",
+   "why": "humidity property underlies humidistat"
+  },
+  {
+   "a": "t52",
+   "b": "t55",
+   "why": "thermostat basics before electronic controllers"
+  }
+ ]
+}

@@ -1,289 +1,269 @@
 {
 "edges": [
 {
-"a": "t1",
-"b": "t2",
-"why": "web architecture rests on internet"
-},
-{
-"a": "t2",
-"b": "t3",
-"why": "clients/servers use HTTP"
-},
-{
-"a": "t3",
-"b": "t4",
-"why": "HTML5 builds on HTML"
-},
-{
 "a": "t3",
 "b": "t5",
-"why": "headings are HTML elements"
+"why": "a is needed to understand b"
+},
+{
+"a": "t3",
+"b": "t6",
+"why": "a is needed to understand b"
 },
 {
 "a": "t3",
 "b": "t9",
-"why": "links are HTML elements"
+"why": "a is needed to understand b"
+},
+{
+"a": "t3",
+"b": "t10",
+"why": "a is needed to understand b"
 },
 {
 "a": "t3",
 "b": "t11",
-"why": "tables are HTML elements"
+"why": "a is needed to understand b"
+},
+{
+"a": "t3",
+"b": "t12",
+"why": "a is needed to understand b"
 },
 {
 "a": "t3",
 "b": "t13",
-"why": "forms are HTML elements"
+"why": "a is needed to understand b"
 },
 {
 "a": "t14",
 "b": "t15",
-"why": "pull requests need pushed code"
+"why": "a is needed to understand b"
 },
 {
 "a": "t15",
 "b": "t16",
-"why": "collaboration via pull requests"
+"why": "a is needed to understand b"
 },
 {
 "a": "t18",
 "b": "t19",
-"why": "operators act on typed variables"
+"why": "a is needed to understand b"
 },
 {
 "a": "t19",
 "b": "t20",
-"why": "control flow uses variables"
+"why": "a is needed to understand b"
 },
 {
-"a": "t20",
+"a": "t19",
 "b": "t21",
-"why": "functions use control flow"
+"why": "a is needed to understand b"
 },
 {
 "a": "t21",
 "b": "t22",
-"why": "classes extend OOP"
+"why": "a is needed to understand b"
 },
 {
 "a": "t22",
 "b": "t23",
-"why": "constructors belong to classes"
+"why": "a is needed to understand b"
 },
 {
 "a": "t22",
 "b": "t24",
-"why": "inheritance needs classes"
+"why": "a is needed to understand b"
 },
 {
 "a": "t24",
 "b": "t25",
-"why": "interfaces follow inheritance"
+"why": "a is needed to understand b"
 },
 {
 "a": "t22",
 "b": "t26",
-"why": "generics in classes"
+"why": "a is needed to understand b"
 },
 {
 "a": "t18",
 "b": "t27",
-"why": "union types combine types"
+"why": "a is needed to understand b"
 },
 {
-"a": "t18",
+"a": "t27",
 "b": "t28",
-"why": "aliases name types"
-},
-{
-"a": "t18",
-"b": "t29",
-"why": "inference deduces types"
+"why": "a is needed to understand b"
 },
 {
 "a": "t32",
 "b": "t34",
-"why": "binding uses expressions"
+"why": "a is needed to understand b"
 },
 {
 "a": "t33",
 "b": "t35",
-"why": "controllers are in modules"
+"why": "a is needed to understand b"
 },
 {
 "a": "t35",
 "b": "t36",
-"why": "services injected to controllers"
+"why": "a is needed to understand b"
 },
 {
 "a": "t36",
 "b": "t37",
-"why": "$http is a service"
+"why": "a is needed to understand b"
 },
 {
 "a": "t34",
 "b": "t39",
-"why": "forms use data binding"
-},
-{
-"a": "t34",
-"b": "t41",
-"why": "directives drive binding"
-},
-{
-"a": "t32",
-"b": "t42",
-"why": "filters apply in expressions"
-},
-{
-"a": "t44",
-"b": "t45",
-"why": "components use templates"
+"why": "a is needed to understand b"
 },
 {
 "a": "t45",
 "b": "t46",
-"why": "components handle events"
+"why": "a is needed to understand b"
 },
 {
 "a": "t45",
 "b": "t47",
-"why": "components render conditionally"
+"why": "a is needed to understand b"
 },
 {
 "a": "t45",
 "b": "t48",
-"why": "components render lists"
+"why": "a is needed to understand b"
 },
 {
 "a": "t45",
 "b": "t49",
-"why": "components host forms"
+"why": "a is needed to understand b"
 },
 {
 "a": "t45",
 "b": "t50",
-"why": "router maps components"
-},
-{
-"a": "t45",
-"b": "t51",
-"why": "DI serves components"
+"why": "a is needed to understand b"
 },
 {
 "a": "t45",
 "b": "t52",
-"why": "pipes used in templates"
+"why": "a is needed to understand b"
 },
 {
 "a": "t45",
 "b": "t53",
-"why": "hooks are component lifecycle"
+"why": "a is needed to understand b"
 },
 {
 "a": "t45",
 "b": "t54",
-"why": "components are styled"
+"why": "a is needed to understand b"
 },
 {
 "a": "t56",
 "b": "t57",
-"why": "NoSQL context after MongoDB intro"
-},
-{
-"a": "t56",
-"b": "t58",
-"why": "user accounts in MongoDB"
-},
-{
-"a": "t58",
-"b": "t59",
-"why": "access control follows accounts"
-},
-{
-"a": "t56",
-"b": "t61",
-"why": "connect to MongoDB"
+"why": "a is needed to understand b"
 },
 {
 "a": "t60",
 "b": "t61",
-"why": "driver needed to connect"
+"why": "a is needed to understand b"
 },
 {
 "a": "t61",
 "b": "t62",
-"why": "access after connecting"
+"why": "a is needed to understand b"
 },
 {
 "a": "t62",
 "b": "t63",
-"why": "manipulate documents after access"
+"why": "a is needed to understand b"
+},
+{
+"a": "t62",
+"b": "t64",
+"why": "a is needed to understand b"
 },
 {
 "a": "t65",
 "b": "t66",
-"why": "DTD links to XML"
+"why": "a is needed to understand b"
 },
 {
 "a": "t66",
 "b": "t67",
-"why": "validate against linked DTD"
+"why": "a is needed to understand b"
 },
 {
 "a": "t65",
 "b": "t68",
-"why": "DOM parser reads XML"
+"why": "a is needed to understand b"
 },
 {
 "a": "t65",
 "b": "t69",
-"why": "XSLT transforms XML"
+"why": "a is needed to understand b"
+},
+{
+"a": "t37",
+"b": "t70",
+"why": "a is needed to understand b"
 },
 {
 "a": "t70",
 "b": "t71",
-"why": "get/post are $http methods"
+"why": "a is needed to understand b"
 },
 {
 "a": "t65",
-"b": "t73",
-"why": "XML in REST"
+"b": "t71",
+"why": "a is needed to understand b"
+},
+{
+"a": "t65",
+"b": "t72",
+"why": "a is needed to understand b"
+},
+{
+"a": "t73",
+"b": "t74",
+"why": "a is needed to understand b"
 },
 {
 "a": "t74",
 "b": "t75",
-"why": "routing within Flask app"
+"why": "a is needed to understand b"
 },
 {
-"a": "t75",
+"a": "t74",
 "b": "t76",
-"why": "HTTP methods route-based"
+"why": "a is needed to understand b"
 },
 {
 "a": "t75",
 "b": "t77",
-"why": "templates rendered by routes"
+"why": "a is needed to understand b"
 },
 {
-"a": "t76",
+"a": "t77",
 "b": "t78",
-"why": "cookies via request/response"
+"why": "a is needed to understand b"
 },
 {
 "a": "t78",
 "b": "t79",
-"why": "sessions use cookies"
+"why": "a is needed to understand b"
 },
 {
-"a": "t79",
+"a": "t75",
 "b": "t80",
-"why": "flash messages use sessions"
+"why": "a is needed to understand b"
 },
 {
-"a": "t76",
-"b": "t81",
-"why": "upload uses request object"
+"a": "t45",
+"b": "t51",
+"why": "a is needed to understand b"
 }
 ]
 }

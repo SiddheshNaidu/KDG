@@ -1,0 +1,70 @@
+{
+ "verdicts": {
+  "2074112|5d982fd0dfc4efc0": {
+   "verdict": "OK",
+   "topics": 53,
+   "junk": 2,
+   "note": "M6 'Conveying','solids' split from 'Conveying of solids'"
+  },
+  "2074113|bd172193bb8ca604": {
+   "verdict": "FIXABLE",
+   "topics": 66,
+   "junk": 4,
+   "note": "glued 'Heat Transfer Coefficient Steady State Conduction'; 'plate' fragment; Kern's method missing"
+  },
+  "2115111|5c6773d5c0b5de8c": {
+   "verdict": "FIXABLE",
+   "topics": 48,
+   "junk": 4,
+   "note": "glued test topics ('Testing Techniques White-box testing','Control structure testing Black-box testing'), 'Basis path' fragment, glued SRS topic"
+  },
+  "2115112|9e5110f4b96652ba": {
+   "verdict": "FIXABLE",
+   "topics": 85,
+   "junk": 8,
+   "note": "MPLS fragments 'header','working'; 'header structure' x2; stray '6 Introduction to IEEE...'; 'Applications' missing"
+  },
+  "2115113|2494d1a6ffedaefa": {
+   "verdict": "FIXABLE",
+   "topics": 78,
+   "junk": 6,
+   "note": "glued 'History of AI Intelligent Agents', 'Depth First Iterative Deepening (DFID) Informed Search Method', FOL syntax+inference glued"
+  },
+  "2115114|626a2c2ae7d5649a": {
+   "verdict": "OK",
+   "topics": 67,
+   "junk": 2,
+   "note": "'precision. recall' glued; 'Drilldown and Pivot'"
+  },
+  "2115115|7d7574caeee5d4c4": {
+   "verdict": "OK",
+   "topics": 60,
+   "junk": 2,
+   "note": "glued '4.1 3D Object Transformation 4.2 3D Viewing pipeline'; 'Libraries' fragment"
+  },
+  "2115116|74da09045ffe46c0": {
+   "verdict": "BAD",
+   "topics": 85,
+   "junk": 11,
+   "note": "glued HTML bullets ('web clients and web servers -HTML'), TypeScript sub-headings glued ('Functions Object oriented Programming'), Scope missing"
+  },
+  "2116111|cce8df215b72e158": {
+   "verdict": "BAD",
+   "topics": 77,
+   "junk": 22,
+   "note": "sub-heading glued onto next topic ('Random Forest Stacking','Blending Boosting','K-Means Density based Clustering'); 'Training Error' split"
+  },
+  "2116113|2583e6262b99bb05": {
+   "verdict": "FIXABLE",
+   "topics": 93,
+   "junk": 5,
+   "note": "M5 name parsed as 'Module 5' (should be IoT Data Analytics and Security); 'Actuators (motors, relays, etc.) Enabling technologies' glued; 5G, M2M, 802.15.4 missing"
+  },
+  "2116114|ace3f0e4bd0fe3bc": {
+   "verdict": "FIXABLE",
+   "topics": 100,
+   "junk": 8,
+   "note": "'I. Image Restoration (4 Hours)', 'Adaptive II' heading leaks; glued 'Zooming by Interpolation and Replication Frequency domain techniques'"
+  }
+ }
+}

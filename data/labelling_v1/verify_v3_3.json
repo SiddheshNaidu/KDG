@@ -1,0 +1,70 @@
+{
+ "verdicts": {
+  "2116117|a8741ccc1f5d477b": {
+   "verdict": "FIXABLE",
+   "topics": 98,
+   "junk": 8,
+   "note": "dangling list items (Public/Private/Consortium/Hybrid, AI, Edge environments), case-study text split mid-parenthesis; module names for M3/M4 are just \"Module 3/4\", M5 name garbled \"I t f i\""
+  },
+  "BSC102|0fc329d73c80911d": {
+   "verdict": "BAD",
+   "topics": 58,
+   "junk": 7,
+   "note": "glued items (Fiber laser...Application, (i)LiDAR(ii)Barcode(iii)...), split words; Newton rings/AntiReflecting coating and numerical problems missing from M3/M2"
+  },
+  "BSC102|1f6a419716108da8": {
+   "verdict": "BAD",
+   "topics": 58,
+   "junk": 7,
+   "note": "same as sibling BSC102: glued items, split words; Newton rings/AntiReflecting coating missing from M3"
+  },
+  "PCC2016|152f18bf2aff34b2": {
+   "verdict": "FIXABLE",
+   "topics": 35,
+   "junk": 4,
+   "note": "dangling Cellular/Standard; 2G,3G,4G,5G list mangled (3G lost, \"Introduction to 2G\")"
+  },
+  "PCC501|600668782fa69c49": {
+   "verdict": "BAD",
+   "topics": 77,
+   "junk": 4,
+   "note": "Module 4 truncated: 4.3 Characteristics, 4.7 IPv6, 4.8 QoS, 4.9 congestion control algorithms/token-leaky bucket all missing"
+  },
+  "PEC5012|d52587532a3c983f": {
+   "verdict": "FIXABLE",
+   "topics": 56,
+   "junk": 3,
+   "note": "glued items (Dijkstra Algorithm Fractional Knapsack problem; ...Postfix Evaluation Introduction; operations on AVL Tree Introduction)"
+  },
+  "PEC5014|84c0fded16ee32f7": {
+   "verdict": "BAD",
+   "topics": 114,
+   "junk": 10,
+   "note": "M3 content missing (Storage S3, Database services, CDN) and fragments (Provide scalable, Compute, Renting virtual servers(EC2,...); module names polluted with Self-Learning Topic/next-row names"
+  },
+  "PEC6012|71beb1d9d00c28d4": {
+   "verdict": "FIXABLE",
+   "topics": 38,
+   "junk": 3,
+   "note": "glued/fragment (space; time complexity Growth of function; Theta Notation Mathematical background...)"
+  },
+  "PEC6022|823eeda615332c09": {
+   "verdict": "OK",
+   "topics": 78,
+   "junk": 1,
+   "note": "one glued item (Cell decomposition path planning Potential field path planning-Obstacle avoidance); Application omitted from M1"
+  },
+  "PEC6024|490ddfbbb699ce42": {
+   "verdict": "FIXABLE",
+   "topics": 121,
+   "junk": 6,
+   "note": "FCAPS list split into fragments (Application of fault/configuration/accounting/performance); management interfaces M1 truncated (M2-M4 lost); ASN.1and glued"
+  },
+  "2213112|26febb615bd19190": {
+   "verdict": "FIXABLE",
+   "topics": 79,
+   "junk": 5,
+   "note": "split items (Open delta or V | connection; Swinburne s | Hopkinson s tests; current and power); On load operation missing"
+  }
+ }
+}

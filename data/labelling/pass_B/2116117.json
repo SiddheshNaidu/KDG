@@ -3,317 +3,327 @@
 {
 "a": "t1",
 "b": "t3",
-"why": "prerequisite concept"
+"why": "signatures rely on public key crypto"
 },
 {
 "a": "t2",
 "b": "t3",
-"why": "prerequisite concept"
-},
-{
-"a": "t4",
-"b": "t12",
-"why": "prerequisite concept"
-},
-{
-"a": "t6",
-"b": "t7",
-"why": "prerequisite concept"
-},
-{
-"a": "t6",
-"b": "t8",
-"why": "prerequisite concept"
-},
-{
-"a": "t6",
-"b": "t9",
-"why": "prerequisite concept"
-},
-{
-"a": "t6",
-"b": "t10",
-"why": "prerequisite concept"
+"why": "signatures sign hash digests"
 },
 {
 "a": "t2",
 "b": "t14",
-"why": "prerequisite concept"
+"why": "blocks link via hashes"
 },
 {
-"a": "t2",
-"b": "t23",
-"why": "prerequisite concept"
+"a": "t5",
+"b": "t6",
+"why": "types contrast centralized models"
+},
+{
+"a": "t4",
+"b": "t12",
+"why": "DLT definition builds on evolution"
+},
+{
+"a": "t6",
+"b": "t7",
+"why": "public type"
+},
+{
+"a": "t6",
+"b": "t8",
+"why": "private type"
+},
+{
+"a": "t6",
+"b": "t9",
+"why": "consortium type"
+},
+{
+"a": "t6",
+"b": "t10",
+"why": "hybrid type"
+},
+{
+"a": "t14",
+"b": "t15",
+"why": "Bitcoin uses block structure"
+},
+{
+"a": "t15",
+"b": "t16",
+"why": "key concepts of Bitcoin"
 },
 {
 "a": "t18",
 "b": "t17",
-"why": "prerequisite concept"
+"why": "miners earn rewards"
 },
 {
-"a": "t29",
+"a": "t18",
 "b": "t19",
-"why": "prerequisite concept"
+"why": "difficulty adjusts mining"
 },
 {
-"a": "t29",
-"b": "t18",
-"why": "prerequisite concept"
+"a": "t14",
+"b": "t20",
+"why": "forks change chain"
 },
 {
 "a": "t20",
 "b": "t21",
-"why": "prerequisite concept"
+"why": "hard soft fork are fork kinds"
+},
+{
+"a": "t1",
+"b": "t22",
+"why": "wallets hold keys"
+},
+{
+"a": "t2",
+"b": "t23",
+"why": "Merkle trees built from hashes"
+},
+{
+"a": "t26",
+"b": "t24",
+"why": "UTXO model structures transactions"
 },
 {
 "a": "t1",
 "b": "t25",
-"why": "prerequisite concept"
-},
-{
-"a": "t24",
-"b": "t26",
-"why": "prerequisite concept"
+"why": "addresses derive from public keys"
 },
 {
 "a": "t3",
 "b": "t26",
-"why": "prerequisite concept"
+"why": "transactions need signatures"
 },
 {
 "a": "t26",
 "b": "t27",
-"why": "prerequisite concept"
+"why": "double spending concerns transactions"
 },
 {
 "a": "t28",
 "b": "t29",
-"why": "prerequisite concept"
+"why": "PoW is permissionless algorithm"
 },
 {
 "a": "t28",
 "b": "t30",
-"why": "prerequisite concept"
+"why": "PoS is permissionless algorithm"
 },
 {
 "a": "t30",
 "b": "t31",
-"why": "prerequisite concept"
+"why": "DPoS modifies PoS"
 },
 {
 "a": "t28",
 "b": "t32",
-"why": "prerequisite concept"
+"why": "PoA is consensus variant"
 },
 {
-"a": "t28",
+"a": "t29",
 "b": "t33",
-"why": "prerequisite concept"
+"why": "PoET alternative to PoW"
 },
 {
-"a": "t28",
+"a": "t29",
 "b": "t34",
-"why": "prerequisite concept"
+"why": "PoB alternative to PoW"
 },
 {
 "a": "t35",
 "b": "t36",
-"why": "prerequisite concept"
+"why": "BFT is permissioned algorithm"
 },
 {
 "a": "t35",
 "b": "t37",
-"why": "prerequisite concept"
+"why": "Solo is permissioned ordering"
 },
 {
 "a": "t35",
 "b": "t38",
-"why": "prerequisite concept"
+"why": "Kafka is permissioned ordering"
+},
+{
+"a": "t35",
+"b": "t39",
+"why": "RAFT is permissioned"
 },
 {
 "a": "t35",
 "b": "t40",
-"why": "prerequisite concept"
-},
-{
-"a": "t40",
-"b": "t39",
-"why": "prerequisite concept"
-},
-{
-"a": "t46",
-"b": "t48",
-"why": "prerequisite concept"
-},
-{
-"a": "t47",
-"b": "t48",
-"why": "prerequisite concept"
-},
-{
-"a": "t48",
-"b": "t52",
-"why": "prerequisite concept"
-},
-{
-"a": "t45",
-"b": "t53",
-"why": "prerequisite concept"
-},
-{
-"a": "t48",
-"b": "t53",
-"why": "prerequisite concept"
-},
-{
-"a": "t53",
-"b": "t54",
-"why": "prerequisite concept"
-},
-{
-"a": "t54",
-"b": "t55",
-"why": "prerequisite concept"
-},
-{
-"a": "t55",
-"b": "t56",
-"why": "prerequisite concept"
-},
-{
-"a": "t53",
-"b": "t57",
-"why": "prerequisite concept"
-},
-{
-"a": "t57",
-"b": "t58",
-"why": "prerequisite concept"
-},
-{
-"a": "t57",
-"b": "t59",
-"why": "prerequisite concept"
-},
-{
-"a": "t57",
-"b": "t60",
-"why": "prerequisite concept"
-},
-{
-"a": "t57",
-"b": "t61",
-"why": "prerequisite concept"
-},
-{
-"a": "t62",
-"b": "t63",
-"why": "prerequisite concept"
-},
-{
-"a": "t62",
-"b": "t64",
-"why": "prerequisite concept"
-},
-{
-"a": "t62",
-"b": "t65",
-"why": "prerequisite concept"
-},
-{
-"a": "t62",
-"b": "t66",
-"why": "prerequisite concept"
-},
-{
-"a": "t26",
-"b": "t49",
-"why": "prerequisite concept"
-},
-{
-"a": "t22",
-"b": "t50",
-"why": "prerequisite concept"
-},
-{
-"a": "t53",
-"b": "t70",
-"why": "prerequisite concept"
-},
-{
-"a": "t71",
-"b": "t72",
-"why": "prerequisite concept"
-},
-{
-"a": "t72",
-"b": "t73",
-"why": "prerequisite concept"
-},
-{
-"a": "t72",
-"b": "t74",
-"why": "prerequisite concept"
-},
-{
-"a": "t53",
-"b": "t73",
-"why": "prerequisite concept"
-},
-{
-"a": "t42",
-"b": "t84",
-"why": "prerequisite concept"
-},
-{
-"a": "t89",
-"b": "t90",
-"why": "prerequisite concept"
-},
-{
-"a": "t89",
-"b": "t91",
-"why": "prerequisite concept"
-},
-{
-"a": "t89",
-"b": "t92",
-"why": "prerequisite concept"
+"why": "PAXOS is permissioned"
 },
 {
 "a": "t29",
-"b": "t92",
-"why": "prerequisite concept"
+"b": "t43",
+"why": "PoW energy cost"
 },
 {
-"a": "t85",
-"b": "t86",
-"why": "prerequisite concept"
-},
-{
-"a": "t85",
-"b": "t87",
-"why": "prerequisite concept"
-},
-{
-"a": "t85",
-"b": "t88",
-"why": "prerequisite concept"
-},
-{
-"a": "t43",
-"b": "t88",
-"why": "prerequisite concept"
+"a": "t15",
+"b": "t45",
+"why": "Ethereum builds on Bitcoin ideas"
 },
 {
 "a": "t45",
 "b": "t47",
-"why": "prerequisite concept"
+"why": "architecture of Ethereum"
+},
+{
+"a": "t47",
+"b": "t48",
+"why": "EVM is architectural component"
+},
+{
+"a": "t26",
+"b": "t49",
+"why": "lifecycle extends transactions"
+},
+{
+"a": "t49",
+"b": "t51",
+"why": "nonce part of transaction"
+},
+{
+"a": "t48",
+"b": "t52",
+"why": "gas is EVM mechanism"
+},
+{
+"a": "t48",
+"b": "t53",
+"why": "contracts run on EVM"
+},
+{
+"a": "t53",
+"b": "t54",
+"why": "design precedes compile"
+},
+{
+"a": "t54",
+"b": "t55",
+"why": "compile after design"
+},
+{
+"a": "t55",
+"b": "t56",
+"why": "deploy after compile"
+},
+{
+"a": "t53",
+"b": "t57",
+"why": "Solidity writes contracts"
+},
+{
+"a": "t57",
+"b": "t58",
+"why": "data types in Solidity"
+},
+{
+"a": "t57",
+"b": "t59",
+"why": "functions in Solidity"
+},
+{
+"a": "t59",
+"b": "t60",
+"why": "modifiers modify functions"
+},
+{
+"a": "t59",
+"b": "t61",
+"why": "events emitted by functions"
+},
+{
+"a": "t57",
+"b": "t63",
+"why": "Remix edits Solidity"
+},
+{
+"a": "t57",
+"b": "t64",
+"why": "Truffle develops Solidity"
+},
+{
+"a": "t64",
+"b": "t65",
+"why": "Ganache used with Truffle"
+},
+{
+"a": "t22",
+"b": "t66",
+"why": "MetaMask is wallet"
+},
+{
+"a": "t53",
+"b": "t68",
+"why": "NFT is contract-based"
+},
+{
+"a": "t70",
+"b": "t68",
+"why": "NFT uses ERC-721 standard"
+},
+{
+"a": "t53",
+"b": "t69",
+"why": "ICO uses token contracts"
+},
+{
+"a": "t53",
+"b": "t70",
+"why": "token standards are contracts"
+},
+{
+"a": "t53",
+"b": "t71",
+"why": "DApps use contracts"
+},
+{
+"a": "t71",
+"b": "t72",
+"why": "frontend-backend within DApp"
+},
+{
+"a": "t72",
+"b": "t73",
+"why": "Web3.js integrates frontend"
+},
+{
+"a": "t72",
+"b": "t74",
+"why": "Ethers.js integrates frontend"
+},
+{
+"a": "t71",
+"b": "t76",
+"why": "off-chain storage in DApps"
+},
+{
+"a": "t67",
+"b": "t78",
+"why": "case study uses Fabric"
 },
 {
 "a": "t45",
-"b": "t46",
-"why": "prerequisite concept"
+"b": "t83",
+"why": "layer 2 scales Ethereum"
+},
+{
+"a": "t29",
+"b": "t91",
+"why": "51% attack targets PoW"
+},
+{
+"a": "t26",
+"b": "t90",
+"why": "replay attack on transactions"
 }
 ]
 }

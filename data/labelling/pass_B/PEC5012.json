@@ -1,249 +1,219 @@
 {
 "edges": [
 {
-"a": "t2",
-"b": "t5",
-"why": "prerequisite concept"
+"a": "t1",
+"b": "t2",
+"why": "ADT concept within data structures"
+},
+{
+"a": "t1",
+"b": "t3",
+"why": "types of structures"
+},
+{
+"a": "t3",
+"b": "t4",
+"why": "operations differ by structure"
 },
 {
 "a": "t2",
-"b": "t10",
-"why": "prerequisite concept"
+"b": "t5",
+"why": "stack is an ADT"
 },
 {
 "a": "t5",
 "b": "t6",
-"why": "prerequisite concept"
+"why": "stack operations"
 },
 {
 "a": "t6",
 "b": "t7",
-"why": "prerequisite concept"
+"why": "array implements operations"
 },
 {
 "a": "t6",
 "b": "t8",
-"why": "prerequisite concept"
+"why": "parenthesis matching uses stack ops"
 },
 {
 "a": "t6",
 "b": "t9",
-"why": "prerequisite concept"
+"why": "postfix conversion uses stack"
+},
+{
+"a": "t2",
+"b": "t10",
+"why": "queue is an ADT"
 },
 {
 "a": "t10",
 "b": "t11",
-"why": "prerequisite concept"
+"why": "queue operations"
 },
 {
 "a": "t11",
 "b": "t12",
-"why": "prerequisite concept"
+"why": "array implements queue"
 },
 {
 "a": "t12",
 "b": "t13",
-"why": "prerequisite concept"
+"why": "circular queue improves array queue"
 },
 {
-"a": "t11",
+"a": "t10",
 "b": "t14",
-"why": "prerequisite concept"
+"why": "priority queue is queue type"
 },
 {
-"a": "t11",
+"a": "t10",
 "b": "t15",
-"why": "prerequisite concept"
+"why": "deque generalizes queue"
 },
 {
 "a": "t11",
 "b": "t16",
-"why": "prerequisite concept"
+"why": "queue applications use operations"
 },
 {
 "a": "t17",
 "b": "t18",
-"why": "prerequisite concept"
+"why": "comparison needs list representation"
 },
 {
 "a": "t17",
 "b": "t19",
-"why": "prerequisite concept"
+"why": "singly list representation"
 },
 {
 "a": "t19",
 "b": "t20",
-"why": "prerequisite concept"
+"why": "circular variant of singly"
 },
 {
-"a": "t20",
+"a": "t19",
 "b": "t21",
-"why": "prerequisite concept"
+"why": "doubly extends singly"
 },
 {
-"a": "t20",
+"a": "t19",
 "b": "t22",
-"why": "prerequisite concept"
+"why": "operations on list"
 },
 {
-"a": "t20",
+"a": "t19",
 "b": "t23",
-"why": "prerequisite concept"
+"why": "stack via linked list"
 },
 {
-"a": "t22",
-"b": "t23",
-"why": "prerequisite concept"
-},
-{
-"a": "t20",
+"a": "t19",
 "b": "t24",
-"why": "prerequisite concept"
+"why": "polynomial uses linked list"
 },
 {
-"a": "t6",
-"b": "t24",
-"why": "prerequisite concept"
-},
-{
-"a": "t11",
-"b": "t24",
-"why": "prerequisite concept"
-},
-{
-"a": "t20",
-"b": "t25",
-"why": "prerequisite concept"
+"a": "t25",
+"b": "t26",
+"why": "binary tree specialises tree"
 },
 {
 "a": "t26",
 "b": "t27",
-"why": "prerequisite concept"
+"why": "representation of binary tree"
 },
 {
-"a": "t27",
+"a": "t26",
 "b": "t28",
-"why": "prerequisite concept"
+"why": "types of binary tree"
 },
 {
-"a": "t27",
+"a": "t26",
 "b": "t29",
-"why": "prerequisite concept"
+"why": "traversals of binary tree"
 },
 {
-"a": "t27",
+"a": "t26",
 "b": "t30",
-"why": "prerequisite concept"
-},
-{
-"a": "t27",
-"b": "t31",
-"why": "prerequisite concept"
-},
-{
-"a": "t31",
-"b": "t32",
-"why": "prerequisite concept"
-},
-{
-"a": "t27",
-"b": "t33",
-"why": "prerequisite concept"
+"why": "BST is binary tree"
 },
 {
 "a": "t30",
+"b": "t31",
+"why": "BST operations"
+},
+{
+"a": "t29",
+"b": "t32",
+"why": "expression tree uses traversals"
+},
+{
+"a": "t26",
 "b": "t33",
-"why": "prerequisite concept"
+"why": "Huffman tree is binary tree"
 },
 {
-"a": "t14",
+"a": "t30",
 "b": "t34",
-"why": "prerequisite concept"
+"why": "AVL is balanced BST"
 },
 {
-"a": "t31",
+"a": "t34",
 "b": "t35",
-"why": "prerequisite concept"
+"why": "rotations restore AVL balance"
 },
 {
 "a": "t35",
 "b": "t36",
-"why": "prerequisite concept"
+"why": "AVL ops use rotations"
 },
 {
-"a": "t36",
-"b": "t37",
-"why": "prerequisite concept"
+"a": "t37",
+"b": "t38",
+"why": "representation needs terminology"
 },
 {
 "a": "t38",
 "b": "t39",
-"why": "prerequisite concept"
+"why": "traversal uses representation"
 },
 {
 "a": "t39",
 "b": "t40",
-"why": "prerequisite concept"
+"why": "topological sort uses DFS"
 },
 {
-"a": "t39",
-"b": "t41",
-"why": "prerequisite concept"
-},
-{
-"a": "t40",
+"a": "t41",
 "b": "t42",
-"why": "prerequisite concept"
+"why": "merge sort is divide conquer"
 },
 {
-"a": "t43",
+"a": "t41",
+"b": "t43",
+"why": "quick sort is divide conquer"
+},
+{
+"a": "t41",
 "b": "t44",
-"why": "prerequisite concept"
+"why": "min max divide conquer"
 },
 {
-"a": "t43",
+"a": "t41",
 "b": "t45",
-"why": "prerequisite concept"
-},
-{
-"a": "t43",
-"b": "t46",
-"why": "prerequisite concept"
-},
-{
-"a": "t43",
-"b": "t47",
-"why": "prerequisite concept"
-},
-{
-"a": "t48",
-"b": "t49",
-"why": "prerequisite concept"
-},
-{
-"a": "t39",
-"b": "t48",
-"why": "prerequisite concept"
-},
-{
-"a": "t51",
-"b": "t52",
-"why": "prerequisite concept"
+"why": "binary search divide conquer"
 },
 {
 "a": "t38",
-"b": "t51",
-"why": "prerequisite concept"
+"b": "t46",
+"why": "shortest path on graph"
 },
 {
-"a": "t53",
-"b": "t54",
-"why": "prerequisite concept"
+"a": "t46",
+"b": "t47",
+"why": "Dijkstra solves shortest path"
 },
 {
-"a": "t53",
-"b": "t55",
-"why": "prerequisite concept"
+"a": "t38",
+"b": "t49",
+"why": "spanning trees on graphs"
 }
 ]
 }

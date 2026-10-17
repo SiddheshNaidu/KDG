@@ -1,0 +1,264 @@
+{
+ "edges": [
+  {
+   "a": "t1",
+   "b": "t2",
+   "why": "modes overview before conduction mechanism"
+  },
+  {
+   "a": "t2",
+   "b": "t4",
+   "why": "conduction mechanism needed for conduction equation"
+  },
+  {
+   "a": "t4",
+   "b": "t5",
+   "why": "rectangular equation precedes other coordinates"
+  },
+  {
+   "a": "t4",
+   "b": "t6",
+   "why": "general equation applied to plane wall"
+  },
+  {
+   "a": "t6",
+   "b": "t7",
+   "why": "single wall precedes composite wall"
+  },
+  {
+   "a": "t5",
+   "b": "t8",
+   "why": "cylindrical equation gives cylinder solution"
+  },
+  {
+   "a": "t6",
+   "b": "t8",
+   "why": "plane wall analog introduces resistance concept"
+  },
+  {
+   "a": "t8",
+   "b": "t9",
+   "why": "cylinder precedes composite cylinder"
+  },
+  {
+   "a": "t8",
+   "b": "t10",
+   "why": "cylinder analog extends to sphere"
+  },
+  {
+   "a": "t9",
+   "b": "t11",
+   "why": "resistance of cylinder needed for critical radius"
+  },
+  {
+   "a": "t10",
+   "b": "t11",
+   "why": "sphere resistance needed for critical radius"
+  },
+  {
+   "a": "t7",
+   "b": "t12",
+   "why": "conduction resistance background for fins"
+  },
+  {
+   "a": "t12",
+   "b": "t13",
+   "why": "fin concept before fin types"
+  },
+  {
+   "a": "t12",
+   "b": "t14",
+   "why": "fin concept before fin equation"
+  },
+  {
+   "a": "t4",
+   "b": "t14",
+   "why": "conduction equation basis for fin equation"
+  },
+  {
+   "a": "t14",
+   "b": "t15",
+   "why": "fin solution gives efficiency"
+  },
+  {
+   "a": "t16",
+   "b": "t17",
+   "why": "unsteady concept before lumped analysis"
+  },
+  {
+   "a": "t17",
+   "b": "t19",
+   "why": "lumped analysis defines time constant"
+  },
+  {
+   "a": "t17",
+   "b": "t18",
+   "why": "lumped analysis used in applications"
+  },
+  {
+   "a": "t20",
+   "b": "t21",
+   "why": "convection basics before free/forced"
+  },
+  {
+   "a": "t23",
+   "b": "t24",
+   "why": "boundary layers precede flat plate flow"
+  },
+  {
+   "a": "t22",
+   "b": "t24",
+   "why": "external flow context for flat plate"
+  },
+  {
+   "a": "t25",
+   "b": "t26",
+   "why": "internal flow before tube flow types"
+  },
+  {
+   "a": "t23",
+   "b": "t26",
+   "why": "boundary layer concept for tube flow"
+  },
+  {
+   "a": "t26",
+   "b": "t27",
+   "why": "tube flow precedes thermal analysis"
+  },
+  {
+   "a": "t26",
+   "b": "t28",
+   "why": "tube flow precedes thermal analysis"
+  },
+  {
+   "a": "t20",
+   "b": "t29",
+   "why": "convection concept before Nusselt number"
+  },
+  {
+   "a": "t30",
+   "b": "t31",
+   "why": "radiation before its laws"
+  },
+  {
+   "a": "t31",
+   "b": "t32",
+   "why": "laws needed for exchange between bodies"
+  },
+  {
+   "a": "t33",
+   "b": "t34",
+   "why": "boiling intro before pool boiling curve"
+  },
+  {
+   "a": "t33",
+   "b": "t35",
+   "why": "condensation intro before film condensation"
+  },
+  {
+   "a": "t33",
+   "b": "t36",
+   "why": "condensation intro before dropwise"
+  },
+  {
+   "a": "t38",
+   "b": "t39",
+   "why": "intro before governing equations"
+  },
+  {
+   "a": "t39",
+   "b": "t40",
+   "why": "governing equations define mass transfer coefficient"
+  },
+  {
+   "a": "t42",
+   "b": "t43",
+   "why": "types before overall coefficient"
+  },
+  {
+   "a": "t43",
+   "b": "t44",
+   "why": "U needed for LMTD method"
+  },
+  {
+   "a": "t44",
+   "b": "t45",
+   "why": "LMTD basis for effectiveness"
+  },
+  {
+   "a": "t45",
+   "b": "t46",
+   "why": "effectiveness precedes NTU method"
+  },
+  {
+   "a": "t47",
+   "b": "t48",
+   "why": "engine basics before fuel system"
+  },
+  {
+   "a": "t47",
+   "b": "t49",
+   "why": "engine basics before combustion"
+  },
+  {
+   "a": "t49",
+   "b": "t50",
+   "why": "combustion stages needed for knock"
+  },
+  {
+   "a": "t50",
+   "b": "t51",
+   "why": "knock explains octane and cetane"
+  },
+  {
+   "a": "t52",
+   "b": "t53",
+   "why": "testing intro before parameters"
+  },
+  {
+   "a": "t53",
+   "b": "t54",
+   "why": "performance parameters before friction power"
+  },
+  {
+   "a": "t53",
+   "b": "t55",
+   "why": "performance parameters needed for heat balance"
+  },
+  {
+   "a": "t57",
+   "b": "t58",
+   "why": "emission intro before constituents"
+  },
+  {
+   "a": "t58",
+   "b": "t59",
+   "why": "constituents motivate norms"
+  },
+  {
+   "a": "t58",
+   "b": "t60",
+   "why": "constituents motivate control technologies"
+  },
+  {
+   "a": "t60",
+   "b": "t61",
+   "why": "control overview before EGR"
+  },
+  {
+   "a": "t60",
+   "b": "t62",
+   "why": "control overview before DOC"
+  },
+  {
+   "a": "t60",
+   "b": "t63",
+   "why": "control overview before DPF/SCR"
+  },
+  {
+   "a": "t64",
+   "b": "t65",
+   "why": "EV thermal management before battery cooling"
+  }
+ ]
+}

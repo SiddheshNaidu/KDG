@@ -1,229 +1,224 @@
 {
- "edges": [
-  {
-   "a": "t1",
-   "b": "t2",
-   "why": "data structures before ADT"
-  },
-  {
-   "a": "t2",
-   "b": "t5",
-   "why": "stack and queue are ADTs"
-  },
-  {
-   "a": "t2",
-   "b": "t10",
-   "why": "stack and queue are ADTs"
-  },
-  {
-   "a": "t5",
-   "b": "t6",
-   "why": "stack operations and array implementation"
-  },
-  {
-   "a": "t5",
-   "b": "t7",
-   "why": "stack operations and array implementation"
-  },
-  {
-   "a": "t7",
-   "b": "t8",
-   "why": "parenthesis check and postfix use stack"
-  },
-  {
-   "a": "t7",
-   "b": "t9",
-   "why": "parenthesis check and postfix use stack"
-  },
-  {
-   "a": "t10",
-   "b": "t11",
-   "why": "queue operations, kinds, uses"
-  },
-  {
-   "a": "t10",
-   "b": "t12",
-   "why": "queue operations, kinds, uses"
-  },
-  {
-   "a": "t10",
-   "b": "t14",
-   "why": "queue operations, kinds, uses"
-  },
-  {
-   "a": "t10",
-   "b": "t15",
-   "why": "queue operations, kinds, uses"
-  },
-  {
-   "a": "t10",
-   "b": "t16",
-   "why": "queue operations, kinds, uses"
-  },
-  {
-   "a": "t12",
-   "b": "t13",
-   "why": "circular queue improves array queue"
-  },
-  {
-   "a": "t17",
-   "b": "t19",
-   "why": "types of linked list"
-  },
-  {
-   "a": "t19",
-   "b": "t20",
-   "why": "list types"
-  },
-  {
-   "a": "t19",
-   "b": "t21",
-   "why": "list types"
-  },
-  {
-   "a": "t19",
-   "b": "t22",
-   "why": "list types"
-  },
-  {
-   "a": "t20",
-   "b": "t23",
-   "why": "singly list operations and uses"
-  },
-  {
-   "a": "t20",
-   "b": "t24",
-   "why": "singly list operations and uses"
-  },
-  {
-   "a": "t20",
-   "b": "t25",
-   "why": "singly list operations and uses"
-  },
-  {
-   "a": "t26",
-   "b": "t27",
-   "why": "binary tree specializes tree"
-  },
-  {
-   "a": "t27",
-   "b": "t28",
-   "why": "binary tree facets"
-  },
-  {
-   "a": "t27",
-   "b": "t29",
-   "why": "binary tree facets"
-  },
-  {
-   "a": "t27",
-   "b": "t30",
-   "why": "binary tree facets"
-  },
-  {
-   "a": "t27",
-   "b": "t31",
-   "why": "binary tree facets"
-  },
-  {
-   "a": "t27",
-   "b": "t34",
-   "why": "binary tree facets"
-  },
-  {
-   "a": "t31",
-   "b": "t32",
-   "why": "BST operations; AVL is balanced BST"
-  },
-  {
-   "a": "t31",
-   "b": "t35",
-   "why": "BST operations; AVL is balanced BST"
-  },
-  {
-   "a": "t30",
-   "b": "t33",
-   "why": "expression tree uses traversals"
-  },
-  {
-   "a": "t9",
-   "b": "t33",
-   "why": "expression tree from postfix"
-  },
-  {
-   "a": "t35",
-   "b": "t36",
-   "why": "AVL uses rotations"
-  },
-  {
-   "a": "t36",
-   "b": "t37",
-   "why": "AVL operations use rotations"
-  },
-  {
-   "a": "t38",
-   "b": "t39",
-   "why": "graph representation"
-  },
-  {
-   "a": "t39",
-   "b": "t40",
-   "why": "graph algorithms need representation"
-  },
-  {
-   "a": "t39",
-   "b": "t41",
-   "why": "graph algorithms need representation"
-  },
-  {
-   "a": "t39",
-   "b": "t49",
-   "why": "graph algorithms need representation"
-  },
-  {
-   "a": "t40",
-   "b": "t42",
-   "why": "topological sort uses DFS"
-  },
-  {
-   "a": "t43",
-   "b": "t44",
-   "why": "divide and conquer algorithms"
-  },
-  {
-   "a": "t43",
-   "b": "t45",
-   "why": "divide and conquer algorithms"
-  },
-  {
-   "a": "t43",
-   "b": "t46",
-   "why": "divide and conquer algorithms"
-  },
-  {
-   "a": "t43",
-   "b": "t47",
-   "why": "divide and conquer algorithms"
-  },
-  {
-   "a": "t48",
-   "b": "t49",
-   "why": "Dijkstra solves shortest path"
-  },
-  {
-   "a": "t51",
-   "b": "t52",
-   "why": "Kruskal and Prim build MCST"
-  },
-  {
-   "a": "t53",
-   "b": "t54",
-   "why": "improvements on naive matching"
-  },
-  {
-   "a": "t53",
-   "b": "t55",
-   "why": "improvements on naive matching"
-  }
- ]
+"edges": [
+{
+"a": "t1",
+"b": "t2",
+"why": "intro before ADT"
+},
+{
+"a": "t1",
+"b": "t3",
+"why": "intro before types"
+},
+{
+"a": "t3",
+"b": "t4",
+"why": "types before operations"
+},
+{
+"a": "t2",
+"b": "t5",
+"why": "ADT concept before stack ADT"
+},
+{
+"a": "t5",
+"b": "t6",
+"why": "ADT before operations"
+},
+{
+"a": "t6",
+"b": "t7",
+"why": "operations before implementation"
+},
+{
+"a": "t7",
+"b": "t8",
+"why": "stack implementation for applications"
+},
+{
+"a": "t7",
+"b": "t9",
+"why": "stack used for conversion"
+},
+{
+"a": "t2",
+"b": "t10",
+"why": "ADT before queue ADT"
+},
+{
+"a": "t10",
+"b": "t11",
+"why": "ADT before queue operations"
+},
+{
+"a": "t11",
+"b": "t12",
+"why": "operations before implementation"
+},
+{
+"a": "t12",
+"b": "t13",
+"why": "queue before circular queue"
+},
+{
+"a": "t12",
+"b": "t14",
+"why": "queue before priority queue"
+},
+{
+"a": "t12",
+"b": "t15",
+"why": "queue before deque"
+},
+{
+"a": "t12",
+"b": "t16",
+"why": "queue before applications"
+},
+{
+"a": "t17",
+"b": "t19",
+"why": "representation before singly list"
+},
+{
+"a": "t19",
+"b": "t20",
+"why": "singly before circular"
+},
+{
+"a": "t19",
+"b": "t21",
+"why": "singly before doubly"
+},
+{
+"a": "t19",
+"b": "t22",
+"why": "singly list before operations"
+},
+{
+"a": "t19",
+"b": "t23",
+"why": "list used to implement stack/queue"
+},
+{
+"a": "t19",
+"b": "t24",
+"why": "list for polynomials"
+},
+{
+"a": "t17",
+"b": "t18",
+"why": "representation compared to array"
+},
+{
+"a": "t25",
+"b": "t26",
+"why": "terminology before binary tree"
+},
+{
+"a": "t26",
+"b": "t27",
+"why": "binary tree before representation"
+},
+{
+"a": "t26",
+"b": "t28",
+"why": "binary tree before types"
+},
+{
+"a": "t26",
+"b": "t29",
+"why": "binary tree before traversals"
+},
+{
+"a": "t26",
+"b": "t30",
+"why": "binary tree before BST"
+},
+{
+"a": "t30",
+"b": "t31",
+"why": "BST before operations"
+},
+{
+"a": "t29",
+"b": "t32",
+"why": "traversals for expression trees"
+},
+{
+"a": "t26",
+"b": "t33",
+"why": "trees for Huffman"
+},
+{
+"a": "t30",
+"b": "t34",
+"why": "AVL is a BST"
+},
+{
+"a": "t34",
+"b": "t35",
+"why": "AVL before rotations"
+},
+{
+"a": "t35",
+"b": "t36",
+"why": "rotations before AVL operations"
+},
+{
+"a": "t37",
+"b": "t38",
+"why": "terminology before representation"
+},
+{
+"a": "t38",
+"b": "t39",
+"why": "representation before traversals"
+},
+{
+"a": "t39",
+"b": "t40",
+"why": "DFS needed for topological sort"
+},
+{
+"a": "t41",
+"b": "t42",
+"why": "general method before merge sort"
+},
+{
+"a": "t41",
+"b": "t43",
+"why": "general method before quick sort"
+},
+{
+"a": "t41",
+"b": "t44",
+"why": "divide conquer before min max"
+},
+{
+"a": "t41",
+"b": "t45",
+"why": "divide conquer for binary search"
+},
+{
+"a": "t46",
+"b": "t47",
+"why": "shortest path before Dijkstra"
+},
+{
+"a": "t49",
+"b": "t50",
+"why": "spanning trees before Kruskal Prim"
+},
+{
+"a": "t51",
+"b": "t52",
+"why": "naive before Rabin Karp"
+},
+{
+"a": "t51",
+"b": "t53",
+"why": "naive before KMP"
+}
+]
 }

@@ -1,0 +1,317 @@
+{
+"course": "2024112",
+"title": "Database Management System",
+"modules": [
+{
+"index": 1,
+"name": "Introduction to Database and Data Modeling"
+},
+{
+"index": 2,
+"name": "Relational Model and Relational Algebra"
+},
+{
+"index": 3,
+"name": "Structured Query Language (SQL)"
+},
+{
+"index": 4,
+"name": "Database Normalization"
+},
+{
+"index": 5,
+"name": "Transaction Management and Concurrency Control"
+},
+{
+"index": 6,
+"name": "Introduction to Modern databases"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Definitions and application",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Characteristics of databases",
+"module": 1
+},
+{
+"id": "t3",
+"name": "DBMS architecture",
+"module": 1
+},
+{
+"id": "t4",
+"name": "ACID Properties The Entity-Relationship (ER) Model",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Entity types",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Weak and strong entity sets",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Entity sets",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Types of Attributes",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Keys",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Relationship constraints",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Cardinality and Participation",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Extended Entity-Relationship (EER) Model",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Generalization",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Specialization and Aggregation",
+"module": 1
+},
+{
+"id": "t15",
+"name": "Introduction to the Relational Model",
+"module": 2
+},
+{
+"id": "t16",
+"name": "relational schema and concept of keys",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Mapping the ER and EER Model to the Relational Model",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Relational Algebra Queries",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Overview of SQL",
+"module": 3
+},
+{
+"id": "t20",
+"name": "Data Definition Commands",
+"module": 3
+},
+{
+"id": "t21",
+"name": "Integrity constraints",
+"module": 3
+},
+{
+"id": "t22",
+"name": "key constraints",
+"module": 3
+},
+{
+"id": "t23",
+"name": "Domain Constraints",
+"module": 3
+},
+{
+"id": "t24",
+"name": "Referential integrity",
+"module": 3
+},
+{
+"id": "t25",
+"name": "check constraints",
+"module": 3
+},
+{
+"id": "t26",
+"name": "Data Manipulation commands",
+"module": 3
+},
+{
+"id": "t27",
+"name": "Data Control commands",
+"module": 3
+},
+{
+"id": "t28",
+"name": "having",
+"module": 3
+},
+{
+"id": "t29",
+"name": "joins",
+"module": 3
+},
+{
+"id": "t30",
+"name": "Nested and complex queries",
+"module": 3
+},
+{
+"id": "t31",
+"name": "Views in SQL",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Set and string operations",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Triggers",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Introduction to Pl/SQL Block Structure",
+"module": 3
+},
+{
+"id": "t35",
+"name": "Pitfalls in relational database designs",
+"module": 4
+},
+{
+"id": "t36",
+"name": "Concept of normalization",
+"module": 4
+},
+{
+"id": "t37",
+"name": "Function Dependencies",
+"module": 4
+},
+{
+"id": "t38",
+"name": "FD closure",
+"module": 4
+},
+{
+"id": "t39",
+"name": "First Normal Form",
+"module": 4
+},
+{
+"id": "t40",
+"name": "2NF",
+"module": 4
+},
+{
+"id": "t41",
+"name": "3NF",
+"module": 4
+},
+{
+"id": "t42",
+"name": "BCNF",
+"module": 4
+},
+{
+"id": "t43",
+"name": "4NF",
+"module": 4
+},
+{
+"id": "t44",
+"name": "Transaction concept",
+"module": 5
+},
+{
+"id": "t45",
+"name": "Transaction states",
+"module": 5
+},
+{
+"id": "t46",
+"name": "Concurrent Executions",
+"module": 5
+},
+{
+"id": "t47",
+"name": "Serializability-Conflict and View",
+"module": 5
+},
+{
+"id": "t48",
+"name": "Concurrency Control",
+"module": 5
+},
+{
+"id": "t49",
+"name": "Lock-based",
+"module": 5
+},
+{
+"id": "t50",
+"name": "Timestamp-based protocols",
+"module": 5
+},
+{
+"id": "t51",
+"name": "Recovery System",
+"module": 5
+},
+{
+"id": "t52",
+"name": "log-based recovery",
+"module": 5
+},
+{
+"id": "t53",
+"name": "Introduction to Deadlock handling",
+"module": 5
+},
+{
+"id": "t54",
+"name": "Recent trends in the industry",
+"module": 6
+},
+{
+"id": "t55",
+"name": "Introduction of Cloud Database",
+"module": 6
+},
+{
+"id": "t56",
+"name": "Introduction of Distributed Database",
+"module": 6
+},
+{
+"id": "t57",
+"name": "Introduction to NOSQL Database and Object-Oriented Databases",
+"module": 6
+}
+]
+}

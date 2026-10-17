@@ -194,7 +194,7 @@
 },
 {
 "id": "t39",
-"name": "Point- Based Representation",
+"name": "Point-Based Representation",
 "module": 4
 },
 {
@@ -301,108 +301,108 @@
 "candidates": [
 {
 "i": 0,
-"a": "t32",
-"b": "t44",
-"a_name": "Projection Schemes",
-"b_name": "Triangulation"
+"a": "t8",
+"b": "t14",
+"a_name": "Connectedness",
+"b_name": "Boundary Tracking Procedures"
 },
 {
 "i": 1,
-"a": "t54",
-"b": "t55",
-"a_name": "Face Recognition",
-"b_name": "Surveillance"
+"a": "t7",
+"b": "t14",
+"a_name": "Binary Shape Analysis",
+"b_name": "Boundary Tracking Procedures"
 },
 {
 "i": 2,
-"a": "t20",
-"b": "t22",
-"a_name": "Line Detection",
-"b_name": "Line Localization"
+"a": "t47",
+"b": "t48",
+"a_name": "Parametric Motion",
+"b_name": "Spline-Based Motion"
 },
 {
 "i": 3,
-"a": "t7",
-"b": "t11",
-"a_name": "Binary Shape Analysis",
-"b_name": "Distance Functions"
+"a": "t31",
+"b": "t35",
+"a_name": "Methods for 3D Vision",
+"b_name": "Shape from Texture"
 },
 {
 "i": 4,
-"a": "t22",
-"b": "t23",
-"a_name": "Line Localization",
-"b_name": "Line Fitting"
+"a": "t31",
+"b": "t36",
+"a_name": "Methods for 3D Vision",
+"b_name": "Shape from Focus"
 },
 {
 "i": 5,
-"a": "t15",
-"b": "t16",
-"a_name": "Shape Models and Shape Recognition",
-"b_name": "Boundary Length Measures"
+"a": "t49",
+"b": "t56",
+"a_name": "Optical Flow",
+"b_name": "Foreground Background Separation"
 },
 {
 "i": 6,
-"a": "t17",
-"b": "t19",
-"a_name": "Boundary Descriptors",
-"b_name": "Region Descriptors"
+"a": "t44",
+"b": "t51",
+"a_name": "Triangulation",
+"b_name": "Stereo from Motion"
 },
 {
 "i": 7,
+"a": "t28",
+"b": "t30",
+"a_name": "Spatial Matched Filtering",
+"b_name": "Object Location"
+},
+{
+"i": 8,
 "a": "t25",
 "b": "t26",
 "a_name": "HT Based Circular Object Detection",
 "b_name": "Ellipse Detection"
 },
 {
-"i": 8,
-"a": "t21",
-"b": "t26",
-"a_name": "Hough Transform (HT) for Line Detection",
-"b_name": "Ellipse Detection"
-},
-{
 "i": 9,
-"a": "t33",
-"b": "t34",
-"a_name": "Shape from Shading",
-"b_name": "Photometric Stereo"
+"a": "t9",
+"b": "t19",
+"a_name": "Object Labelling and Counting",
+"b_name": "Region Descriptors"
 },
 {
 "i": 10,
-"a": "t8",
-"b": "t10",
-"a_name": "Connectedness",
-"b_name": "Size Filtering"
+"a": "t1",
+"b": "t4",
+"a_name": "Nature of Vision",
+"b_name": "Comparison between Image Processing and Computer Vision"
 },
 {
 "i": 11,
-"a": "t7",
+"a": "t17",
 "b": "t15",
-"a_name": "Binary Shape Analysis",
+"a_name": "Boundary Descriptors",
 "b_name": "Shape Models and Shape Recognition"
 },
 {
 "i": 12,
-"a": "t31",
-"b": "t37",
-"a_name": "Methods for 3D Vision",
-"b_name": "Active Range Finding"
+"a": "t8",
+"b": "t19",
+"a_name": "Connectedness",
+"b_name": "Region Descriptors"
 },
 {
 "i": 13,
-"a": "t11",
-"b": "t12",
-"a_name": "Distance Functions",
-"b_name": "Skeletons and Thickening and Thinning"
+"a": "t38",
+"b": "t41",
+"a_name": "Surface Representations",
+"b_name": "3D Object Recognition"
 },
 {
 "i": 14,
 "a": "t2",
-"b": "t3",
+"b": "t28",
 "a_name": "Convolutions and Point Spread Functions",
-"b_name": "Role of Filters in Industrial Applications of Vision"
+"b_name": "Spatial Matched Filtering"
 },
 {
 "i": 15,
@@ -413,150 +413,59 @@
 },
 {
 "i": 16,
-"a": "t31",
-"b": "t36",
-"a_name": "Methods for 3D Vision",
-"b_name": "Shape from Focus"
+"a": "t20",
+"b": "t59",
+"a_name": "Line Detection",
+"b_name": "Road Markings"
 },
 {
 "i": 17,
+"a": "t21",
+"b": "t26",
+"a_name": "Hough Transform (HT) for Line Detection",
+"b_name": "Ellipse Detection"
+},
+{
+"i": 18,
 "a": "t27",
 "b": "t30",
 "a_name": "Generalized Hough Transform (GHT)",
 "b_name": "Object Location"
 },
 {
-"i": 18,
-"a": "t1",
-"b": "t5",
-"a_name": "Nature of Vision",
-"b_name": "Corner and Interest Point Detection"
-},
-{
 "i": 19,
-"a": "t7",
-"b": "t14",
-"a_name": "Binary Shape Analysis",
-"b_name": "Boundary Tracking Procedures"
+"a": "t56",
+"b": "t57",
+"a_name": "Foreground Background Separation",
+"b_name": "Human Tracking"
 },
 {
 "i": 20,
-"a": "t44",
-"b": "t51",
-"a_name": "Triangulation",
-"b_name": "Stereo from Motion"
+"a": "t7",
+"b": "t11",
+"a_name": "Binary Shape Analysis",
+"b_name": "Distance Functions"
 },
 {
 "i": 21,
-"a": "t31",
-"b": "t42",
-"a_name": "Methods for 3D Vision",
-"b_name": "3D Reconstruction"
+"a": "t49",
+"b": "t57",
+"a_name": "Optical Flow",
+"b_name": "Human Tracking"
 },
 {
 "i": 22,
-"a": "t9",
-"b": "t10",
-"a_name": "Object Labelling and Counting",
-"b_name": "Size Filtering"
+"a": "t8",
+"b": "t11",
+"a_name": "Connectedness",
+"b_name": "Distance Functions"
 },
 {
 "i": 23,
-"a": "t38",
-"b": "t41",
-"a_name": "Surface Representations",
-"b_name": "3D Object Recognition"
-},
-{
-"i": 24,
-"a": "t31",
-"b": "t33",
-"a_name": "Methods for 3D Vision",
-"b_name": "Shape from Shading"
-},
-{
-"i": 25,
-"a": "t1",
-"b": "t4",
-"a_name": "Nature of Vision",
-"b_name": "Comparison between Image Processing and Computer Vision"
-},
-{
-"i": 26,
-"a": "t14",
-"b": "t16",
-"a_name": "Boundary Tracking Procedures",
-"b_name": "Boundary Length Measures"
-},
-{
-"i": 27,
-"a": "t1",
-"b": "t2",
-"a_name": "Nature of Vision",
-"b_name": "Convolutions and Point Spread Functions"
-},
-{
-"i": 28,
-"a": "t55",
-"b": "t56",
-"a_name": "Surveillance",
-"b_name": "Foreground Background Separation"
-},
-{
-"i": 29,
-"a": "t49",
-"b": "t50",
-"a_name": "Optical Flow",
-"b_name": "Layered Motion"
-},
-{
-"i": 30,
 "a": "t7",
-"b": "t13",
+"b": "t8",
 "a_name": "Binary Shape Analysis",
-"b_name": "Hole Filling"
-},
-{
-"i": 31,
-"a": "t32",
-"b": "t42",
-"a_name": "Projection Schemes",
-"b_name": "3D Reconstruction"
-},
-{
-"i": 32,
-"a": "t49",
-"b": "t51",
-"a_name": "Optical Flow",
-"b_name": "Stereo from Motion"
-},
-{
-"i": 33,
-"a": "t5",
-"b": "t43",
-"a_name": "Corner and Interest Point Detection",
-"b_name": "SIFT Algorithms"
-},
-{
-"i": 34,
-"a": "t47",
-"b": "t49",
-"a_name": "Parametric Motion",
-"b_name": "Optical Flow"
-},
-{
-"i": 35,
-"a": "t47",
-"b": "t48",
-"a_name": "Parametric Motion",
-"b_name": "Spline-Based Motion"
-},
-{
-"i": 36,
-"a": "t31",
-"b": "t35",
-"a_name": "Methods for 3D Vision",
-"b_name": "Shape from Texture"
+"b_name": "Connectedness"
 }
 ]
 }

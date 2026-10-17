@@ -12,11 +12,11 @@
 },
 {
 "index": 3,
-"name": ""
+"name": "Module 3"
 },
 {
 "index": 4,
-"name": ""
+"name": "Module 4"
 },
 {
 "index": 5,
@@ -415,81 +415,76 @@
 },
 {
 "id": "t78",
-"name": "/ Supply chain using blockchain. (Can include 2 case studies; one on Ethereum",
+"name": "/ Supply chain using blockchain. (Can include 2 case studies; one on Ethereum and one on Hyperledger fabric)",
 "module": 5
 },
 {
 "id": "t79",
-"name": "one on Hyperledger fabric)",
-"module": 5
-},
-{
-"id": "t80",
 "name": "Blockchain interoperability (Polkadot, Cosmos)",
 "module": 6
 },
 {
-"id": "t81",
+"id": "t80",
 "name": "Blockchain in IoT",
 "module": 6
 },
 {
-"id": "t82",
+"id": "t81",
 "name": "AI",
 "module": 6
 },
 {
-"id": "t83",
+"id": "t82",
 "name": "Edge environments",
 "module": 6
 },
 {
-"id": "t84",
+"id": "t83",
 "name": "Layer 2 scaling solutions (Lightning Network, Polygon)",
 "module": 6
 },
 {
-"id": "t85",
+"id": "t84",
 "name": "Blockchain ethics",
 "module": 6
 },
 {
-"id": "t86",
+"id": "t85",
 "name": "privacy",
 "module": 6
 },
 {
-"id": "t87",
+"id": "t86",
 "name": "immutability",
 "module": 6
 },
 {
-"id": "t88",
+"id": "t87",
 "name": "sustainable mining",
 "module": 6
 },
 {
-"id": "t89",
+"id": "t88",
 "name": "Security attacks on blockchain",
 "module": 6
 },
 {
-"id": "t90",
+"id": "t89",
 "name": "Sybil",
 "module": 6
 },
 {
-"id": "t91",
+"id": "t90",
 "name": "replay",
 "module": 6
 },
 {
-"id": "t92",
+"id": "t91",
 "name": "51% attack",
 "module": 6
 },
 {
-"id": "t93",
+"id": "t92",
 "name": "Regulatory and governance aspects",
 "module": 6
 }

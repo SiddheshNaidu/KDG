@@ -1,349 +1,389 @@
 {
 "edges": [
 {
-"a": "t1",
-"b": "t2",
-"why": "prerequisite concept"
-},
-{
 "a": "t2",
 "b": "t3",
-"why": "prerequisite concept"
+"why": "sampling operates on formed image"
 },
 {
-"a": "t2",
+"a": "t3",
 "b": "t4",
-"why": "prerequisite concept"
+"why": "digital representation needed for color/histogram"
 },
 {
-"a": "t4",
-"b": "t14",
-"why": "prerequisite concept"
-},
-{
-"a": "t6",
+"a": "t3",
 "b": "t7",
-"why": "prerequisite concept"
+"why": "intensity transformations act on quantized gray levels"
 },
 {
 "a": "t7",
 "b": "t8",
-"why": "prerequisite concept"
+"why": "point operations are gray level transforms"
 },
 {
 "a": "t8",
 "b": "t9",
-"why": "prerequisite concept"
+"why": "negative is a point operation"
 },
 {
 "a": "t8",
 "b": "t10",
-"why": "prerequisite concept"
+"why": "contrast stretching is point operation"
 },
 {
 "a": "t8",
 "b": "t11",
-"why": "prerequisite concept"
+"why": "compression is point operation"
 },
 {
 "a": "t8",
 "b": "t12",
-"why": "prerequisite concept"
+"why": "slicing is point operation"
 },
 {
-"a": "t8",
+"a": "t3",
 "b": "t13",
-"why": "prerequisite concept"
+"why": "bit planes come from quantized pixel bits"
+},
+{
+"a": "t4",
+"b": "t14",
+"why": "histogram basics precede histogram processing"
 },
 {
 "a": "t14",
 "b": "t15",
-"why": "prerequisite concept"
+"why": "equalization uses histogram"
 },
 {
 "a": "t17",
 "b": "t18",
-"why": "prerequisite concept"
+"why": "spatial filtering is neighbourhood processing"
 },
 {
 "a": "t18",
 "b": "t19",
-"why": "prerequisite concept"
+"why": "smoothing/sharpening are spatial filters"
 },
 {
-"a": "t19",
+"a": "t18",
+"b": "t20",
+"why": "spatial filters build on spatial filtering"
+},
+{
+"a": "t20",
 "b": "t21",
-"why": "prerequisite concept"
+"why": "specific filters are spatial filters"
+},
+{
+"a": "t16",
+"b": "t21",
+"why": "median filter motivated by noise types"
+},
+{
+"a": "t3",
+"b": "t23",
+"why": "zooming resamples pixel grid"
 },
 {
 "a": "t5",
 "b": "t24",
-"why": "prerequisite concept"
-},
-{
-"a": "t24",
-"b": "t38",
-"why": "prerequisite concept"
+"why": "DFT builds on frequency domain basics"
 },
 {
 "a": "t26",
 "b": "t27",
-"why": "prerequisite concept"
+"why": "causes follow degradation concept"
 },
 {
-"a": "t26",
+"a": "t16",
 "b": "t28",
-"why": "prerequisite concept"
+"why": "noise models formalize noise types"
 },
 {
 "a": "t28",
 "b": "t29",
-"why": "prerequisite concept"
+"why": "Gaussian is a noise model"
 },
 {
 "a": "t28",
 "b": "t30",
-"why": "prerequisite concept"
+"why": "salt pepper is a noise model"
 },
 {
 "a": "t28",
 "b": "t31",
-"why": "prerequisite concept"
+"why": "uniform is a noise model"
 },
 {
 "a": "t28",
 "b": "t32",
-"why": "prerequisite concept"
+"why": "Rayleigh is a noise model"
 },
 {
 "a": "t28",
 "b": "t33",
-"why": "prerequisite concept"
+"why": "exponential is a noise model"
 },
 {
-"a": "t18",
+"a": "t28",
 "b": "t34",
-"why": "prerequisite concept"
+"why": "mean filters remove noise"
 },
 {
-"a": "t18",
+"a": "t28",
 "b": "t35",
-"why": "prerequisite concept"
+"why": "median filter removes impulse noise"
 },
 {
-"a": "t18",
+"a": "t35",
 "b": "t36",
-"why": "prerequisite concept"
+"why": "max filter is order-statistic like median"
 },
 {
-"a": "t18",
+"a": "t35",
 "b": "t37",
-"why": "prerequisite concept"
+"why": "min filter is order-statistic like median"
 },
 {
-"a": "t38",
+"a": "t24",
+"b": "t38",
+"why": "frequency filters apply DFT"
+},
+{
+"a": "t26",
 "b": "t39",
-"why": "prerequisite concept"
+"why": "inverse filter inverts degradation model"
 },
 {
 "a": "t39",
 "b": "t40",
-"why": "prerequisite concept"
+"why": "Wiener improves on inverse filtering"
 },
 {
-"a": "t42",
-"b": "t43",
-"why": "prerequisite concept"
+"a": "t28",
+"b": "t41",
+"why": "adaptive filters depend on noise statistics"
 },
 {
-"a": "t42",
+"a": "t43",
 "b": "t44",
-"why": "prerequisite concept"
+"why": "model identifies redundancies"
 },
 {
 "a": "t44",
 "b": "t45",
-"why": "prerequisite concept"
+"why": "lossless removes redundancy"
+},
+{
+"a": "t44",
+"b": "t46",
+"why": "RLC exploits redundancy"
+},
+{
+"a": "t44",
+"b": "t47",
+"why": "Huffman exploits coding redundancy"
+},
+{
+"a": "t44",
+"b": "t48",
+"why": "arithmetic coding exploits coding redundancy"
+},
+{
+"a": "t44",
+"b": "t49",
+"why": "LZW exploits redundancy"
 },
 {
 "a": "t44",
 "b": "t50",
-"why": "prerequisite concept"
-},
-{
-"a": "t45",
-"b": "t46",
-"why": "prerequisite concept"
-},
-{
-"a": "t45",
-"b": "t47",
-"why": "prerequisite concept"
-},
-{
-"a": "t45",
-"b": "t48",
-"why": "prerequisite concept"
-},
-{
-"a": "t45",
-"b": "t49",
-"why": "prerequisite concept"
+"why": "lossy builds on redundancy concepts"
 },
 {
 "a": "t50",
 "b": "t51",
-"why": "prerequisite concept"
+"why": "transform coding is lossy"
 },
 {
 "a": "t50",
 "b": "t52",
-"why": "prerequisite concept"
+"why": "predictive coding is lossy"
 },
 {
-"a": "t53",
-"b": "t54",
-"why": "prerequisite concept"
+"a": "t24",
+"b": "t51",
+"why": "DCT is a frequency transform"
 },
 {
-"a": "t53",
+"a": "t54",
 "b": "t55",
-"why": "prerequisite concept"
+"why": "bit rate relates to ratio"
 },
 {
 "a": "t56",
 "b": "t57",
-"why": "prerequisite concept"
+"why": "PSNR derived from MSE"
 },
 {
-"a": "t58",
+"a": "t18",
 "b": "t59",
-"why": "prerequisite concept"
+"why": "discontinuity detection uses derivative filters"
 },
 {
 "a": "t59",
 "b": "t60",
-"why": "prerequisite concept"
+"why": "edge linking links detected edges"
 },
 {
-"a": "t58",
+"a": "t14",
 "b": "t61",
-"why": "prerequisite concept"
+"why": "thresholding uses histogram"
 },
 {
-"a": "t58",
+"a": "t59",
 "b": "t62",
-"why": "prerequisite concept"
+"why": "region methods contrast with edges"
 },
 {
-"a": "t63",
-"b": "t64",
-"why": "prerequisite concept"
-},
-{
-"a": "t65",
-"b": "t64",
-"why": "prerequisite concept"
+"a": "t64",
+"b": "t65",
+"why": "dilation erosion use structuring element"
 },
 {
 "a": "t64",
 "b": "t66",
-"why": "prerequisite concept"
+"why": "opening closing compose erosion dilation"
 },
 {
 "a": "t64",
 "b": "t67",
-"why": "prerequisite concept"
+"why": "gradient is dilation minus erosion"
 },
 {
 "a": "t64",
 "b": "t68",
-"why": "prerequisite concept"
+"why": "hit-or-miss uses erosion"
 },
 {
 "a": "t66",
 "b": "t69",
-"why": "prerequisite concept"
+"why": "top-hat uses opening/closing"
 },
 {
 "a": "t64",
 "b": "t70",
-"why": "prerequisite concept"
+"why": "reconstruction iterates dilation"
 },
 {
 "a": "t71",
 "b": "t72",
-"why": "prerequisite concept"
+"why": "features classified local/global"
 },
 {
 "a": "t71",
 "b": "t73",
-"why": "prerequisite concept"
+"why": "descriptors encode features"
+},
+{
+"a": "t73",
+"b": "t74",
+"why": "boundary descriptors are descriptors"
 },
 {
 "a": "t71",
 "b": "t75",
-"why": "prerequisite concept"
-},
-{
-"a": "t75",
-"b": "t76",
-"why": "prerequisite concept"
+"why": "extraction produces features"
 },
 {
 "a": "t76",
 "b": "t77",
-"why": "prerequisite concept"
+"why": "GLCM is a texture method"
 },
 {
 "a": "t77",
 "b": "t78",
-"why": "prerequisite concept"
+"why": "Haralick features computed from GLCM"
 },
 {
 "a": "t76",
 "b": "t79",
-"why": "prerequisite concept"
+"why": "Laws is texture method"
 },
 {
 "a": "t76",
 "b": "t80",
-"why": "prerequisite concept"
+"why": "LBP is texture method"
 },
 {
-"a": "t81",
+"a": "t75",
 "b": "t82",
-"why": "prerequisite concept"
+"why": "selection operates on extracted features"
 },
 {
-"a": "t86",
+"a": "t82",
+"b": "t81",
+"why": "PCA is dimensionality reduction"
+},
+{
+"a": "t75",
+"b": "t84",
+"why": "matching compares features"
+},
+{
+"a": "t73",
+"b": "t86",
+"why": "SIFT is a descriptor"
+},
+{
+"a": "t73",
 "b": "t87",
-"why": "prerequisite concept"
+"why": "SURF is a descriptor"
+},
+{
+"a": "t75",
+"b": "t89",
+"why": "classification uses features"
 },
 {
 "a": "t89",
 "b": "t90",
-"why": "prerequisite concept"
+"why": "KNN is classifier"
 },
 {
 "a": "t89",
 "b": "t91",
-"why": "prerequisite concept"
+"why": "SVM is classifier"
 },
 {
 "a": "t89",
 "b": "t92",
-"why": "prerequisite concept"
+"why": "decision tree is classifier"
+},
+{
+"a": "t89",
+"b": "t93",
+"why": "recognition applies classification"
+},
+{
+"a": "t89",
+"b": "t94",
+"why": "deep learning extends classification"
 },
 {
 "a": "t94",
 "b": "t95",
-"why": "prerequisite concept"
+"why": "CNN is deep learning concept"
 },
 {
 "a": "t95",
 "b": "t96",
-"why": "prerequisite concept"
+"why": "transfer learning reuses CNNs"
+},
+{
+"a": "t95",
+"b": "t97",
+"why": "facial recognition uses CNNs"
 }
 ]
 }

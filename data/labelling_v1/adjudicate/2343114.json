@@ -1,0 +1,312 @@
+{
+"course": "2343114",
+"title": "Automata Theory",
+"topics": [
+{
+"id": "t1",
+"name": "Languages",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Alphabets and Strings",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Regular Languages",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Regular Expressions",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Regular Grammars",
+"module": 1
+},
+{
+"id": "t6",
+"name": "RL and LL grammars",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Closure properties",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Finite Automata",
+"module": 2
+},
+{
+"id": "t9",
+"name": "FA as language acceptor or verifier",
+"module": 2
+},
+{
+"id": "t10",
+"name": "NFA ( with and without ε)",
+"module": 2
+},
+{
+"id": "t11",
+"name": "DFA",
+"module": 2
+},
+{
+"id": "t12",
+"name": "RE to NFA",
+"module": 2
+},
+{
+"id": "t13",
+"name": "NFA to DFA",
+"module": 2
+},
+{
+"id": "t14",
+"name": "Reduced DFA",
+"module": 2
+},
+{
+"id": "t15",
+"name": "NFA-DFA equivalence",
+"module": 2
+},
+{
+"id": "t16",
+"name": "FA to RE",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Finite State Machines with output",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Moore and Mealy machines",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Moore and Mealy M/C conversion",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Limitations of FA",
+"module": 2
+},
+{
+"id": "t21",
+"name": "Context Free Languages",
+"module": 3
+},
+{
+"id": "t22",
+"name": "CFG",
+"module": 3
+},
+{
+"id": "t23",
+"name": "Leftmost and Rightmost derivations",
+"module": 3
+},
+{
+"id": "t24",
+"name": "Ambiguity",
+"module": 3
+},
+{
+"id": "t25",
+"name": "Simplification and Normalization (CNF & GNF) and Chomsky Hierarchy ( Types 0 to 3)",
+"module": 3
+},
+{
+"id": "t26",
+"name": "Push Down Automata",
+"module": 4
+},
+{
+"id": "t27",
+"name": "Deterministic (single stack) PDA",
+"module": 4
+},
+{
+"id": "t28",
+"name": "Equivalence between PDA and CFG",
+"module": 4
+},
+{
+"id": "t29",
+"name": "Power and Limitations of PDA",
+"module": 4
+},
+{
+"id": "t30",
+"name": "Turing Machine",
+"module": 5
+},
+{
+"id": "t31",
+"name": "Deterministic TM",
+"module": 5
+},
+{
+"id": "t32",
+"name": "Variants of TM",
+"module": 5
+},
+{
+"id": "t33",
+"name": "Halting problem",
+"module": 5
+},
+{
+"id": "t34",
+"name": "Power of TM",
+"module": 5
+},
+{
+"id": "t35",
+"name": "Applications of FA",
+"module": 6
+},
+{
+"id": "t36",
+"name": "PDA & TM",
+"module": 6
+},
+{
+"id": "t37",
+"name": "Introduction to Compiler & Its phases",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t5",
+"b": "t6",
+"a_name": "Regular Grammars",
+"b_name": "RL and LL grammars"
+},
+{
+"i": 1,
+"a": "t11",
+"b": "t20",
+"a_name": "DFA",
+"b_name": "Limitations of FA"
+},
+{
+"i": 2,
+"a": "t10",
+"b": "t35",
+"a_name": "NFA ( with and without ε)",
+"b_name": "Applications of FA"
+},
+{
+"i": 3,
+"a": "t30",
+"b": "t32",
+"a_name": "Turing Machine",
+"b_name": "Variants of TM"
+},
+{
+"i": 4,
+"a": "t13",
+"b": "t15",
+"a_name": "NFA to DFA",
+"b_name": "NFA-DFA equivalence"
+},
+{
+"i": 5,
+"a": "t13",
+"b": "t14",
+"a_name": "NFA to DFA",
+"b_name": "Reduced DFA"
+},
+{
+"i": 6,
+"a": "t8",
+"b": "t9",
+"a_name": "Finite Automata",
+"b_name": "FA as language acceptor or verifier"
+},
+{
+"i": 7,
+"a": "t11",
+"b": "t14",
+"a_name": "DFA",
+"b_name": "Reduced DFA"
+},
+{
+"i": 8,
+"a": "t26",
+"b": "t36",
+"a_name": "Push Down Automata",
+"b_name": "PDA & TM"
+},
+{
+"i": 9,
+"a": "t11",
+"b": "t10",
+"a_name": "DFA",
+"b_name": "NFA ( with and without ε)"
+},
+{
+"i": 10,
+"a": "t10",
+"b": "t15",
+"a_name": "NFA ( with and without ε)",
+"b_name": "NFA-DFA equivalence"
+},
+{
+"i": 11,
+"a": "t22",
+"b": "t24",
+"a_name": "CFG",
+"b_name": "Ambiguity"
+},
+{
+"i": 12,
+"a": "t10",
+"b": "t26",
+"a_name": "NFA ( with and without ε)",
+"b_name": "Push Down Automata"
+},
+{
+"i": 13,
+"a": "t8",
+"b": "t20",
+"a_name": "Finite Automata",
+"b_name": "Limitations of FA"
+},
+{
+"i": 14,
+"a": "t31",
+"b": "t32",
+"a_name": "Deterministic TM",
+"b_name": "Variants of TM"
+},
+{
+"i": 15,
+"a": "t8",
+"b": "t35",
+"a_name": "Finite Automata",
+"b_name": "Applications of FA"
+},
+{
+"i": 16,
+"a": "t3",
+"b": "t5",
+"a_name": "Regular Languages",
+"b_name": "Regular Grammars"
+}
+]
+}

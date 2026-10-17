@@ -1,0 +1,244 @@
+{
+ "edges": [
+  {
+   "a": "t1",
+   "b": "t2",
+   "why": "resistance concept from rate expressions"
+  },
+  {
+   "a": "t1",
+   "b": "t4",
+   "why": "Fourier law is conduction rate law"
+  },
+  {
+   "a": "t4",
+   "b": "t5",
+   "why": "conductivity defined in Fourier law"
+  },
+  {
+   "a": "t4",
+   "b": "t6",
+   "why": "slab conduction from Fourier law"
+  },
+  {
+   "a": "t2",
+   "b": "t7",
+   "why": "composite slab uses resistances"
+  },
+  {
+   "a": "t6",
+   "b": "t7",
+   "why": "composite extends slab"
+  },
+  {
+   "a": "t4",
+   "b": "t8",
+   "why": "cylinder conduction from Fourier law"
+  },
+  {
+   "a": "t8",
+   "b": "t9",
+   "why": "composite extends cylinder"
+  },
+  {
+   "a": "t4",
+   "b": "t10",
+   "why": "sphere conduction from Fourier law"
+  },
+  {
+   "a": "t10",
+   "b": "t11",
+   "why": "composite extends sphere"
+  },
+  {
+   "a": "t8",
+   "b": "t12",
+   "why": "critical radius from cylinder resistance"
+  },
+  {
+   "a": "t13",
+   "b": "t14",
+   "why": "lumped analysis assumes negligible internal resistance"
+  },
+  {
+   "a": "t14",
+   "b": "t15",
+   "why": "Biot number criterion for lumped analysis"
+  },
+  {
+   "a": "t13",
+   "b": "t16",
+   "why": "Fourier number in transient analysis"
+  },
+  {
+   "a": "t17",
+   "b": "t18",
+   "why": "currents drive natural convection"
+  },
+  {
+   "a": "t18",
+   "b": "t19",
+   "why": "correlations for natural convection"
+  },
+  {
+   "a": "t21",
+   "b": "t22",
+   "why": "boundary layer heat transfer"
+  },
+  {
+   "a": "t21",
+   "b": "t20",
+   "why": "forced convection uses boundary layer"
+  },
+  {
+   "a": "t22",
+   "b": "t24",
+   "why": "correlations from boundary layer analysis"
+  },
+  {
+   "a": "t23",
+   "b": "t24",
+   "why": "correlations use dimensionless numbers"
+  },
+  {
+   "a": "t22",
+   "b": "t25",
+   "why": "analogies relate momentum and heat in layers"
+  },
+  {
+   "a": "t26",
+   "b": "t27",
+   "why": "types of condensation"
+  },
+  {
+   "a": "t27",
+   "b": "t28",
+   "why": "Nusselt theory is film condensation"
+  },
+  {
+   "a": "t28",
+   "b": "t29",
+   "why": "correlations from Nusselt theory"
+  },
+  {
+   "a": "t31",
+   "b": "t32",
+   "why": "boiling heat transfer"
+  },
+  {
+   "a": "t31",
+   "b": "t33",
+   "why": "pool boiling curve"
+  },
+  {
+   "a": "t33",
+   "b": "t34",
+   "why": "correlations rely on boiling regimes"
+  },
+  {
+   "a": "t35",
+   "b": "t36",
+   "why": "laws of radiation follow fundamentals"
+  },
+  {
+   "a": "t36",
+   "b": "t37",
+   "why": "exchange between surfaces uses laws"
+  },
+  {
+   "a": "t37",
+   "b": "t38",
+   "why": "multiple reflection method for exchange"
+  },
+  {
+   "a": "t37",
+   "b": "t39",
+   "why": "shields reduce exchange"
+  },
+  {
+   "a": "t37",
+   "b": "t40",
+   "why": "furnace heat transfer uses surface exchange"
+  },
+  {
+   "a": "t42",
+   "b": "t43",
+   "why": "rate from energy balance"
+  },
+  {
+   "a": "t43",
+   "b": "t45",
+   "why": "LMTD gives rate expression"
+  },
+  {
+   "a": "t44",
+   "b": "t45",
+   "why": "LMTD uses overall coefficient"
+  },
+  {
+   "a": "t44",
+   "b": "t46",
+   "why": "fouling factors adjust overall coefficient"
+  },
+  {
+   "a": "t45",
+   "b": "t48",
+   "why": "double pipe design uses LMTD"
+  },
+  {
+   "a": "t45",
+   "b": "t52",
+   "why": "shell and tube design uses LMTD"
+  },
+  {
+   "a": "t49",
+   "b": "t52",
+   "why": "design uses TEMA types"
+  },
+  {
+   "a": "t52",
+   "b": "t53",
+   "why": "Bell Delaware refines shell-side design"
+  },
+  {
+   "a": "t45",
+   "b": "t54",
+   "why": "NTU method alternative to LMTD"
+  },
+  {
+   "a": "t56",
+   "b": "t57",
+   "why": "fins are extended surface"
+  },
+  {
+   "a": "t57",
+   "b": "t58",
+   "why": "rate calculation uses fin efficiency"
+  },
+  {
+   "a": "t61",
+   "b": "t62",
+   "why": "performance of evaporators"
+  },
+  {
+   "a": "t62",
+   "b": "t63",
+   "why": "capacity and economy are performance measures"
+  },
+  {
+   "a": "t61",
+   "b": "t65",
+   "why": "feeding methods for multiple effect"
+  },
+  {
+   "a": "t64",
+   "b": "t66",
+   "why": "design needs boiling point elevation"
+  },
+  {
+   "a": "t63",
+   "b": "t66",
+   "why": "design uses capacity and economy"
+  }
+ ]
+}

@@ -229,7 +229,7 @@
 },
 {
 "id": "t46",
-"name": "Partitioning Methods (k-Means, k- Medoids)",
+"name": "Partitioning Methods (k-Means, k-Medoids)",
 "module": 4
 },
 {
@@ -341,10 +341,10 @@
 "candidates": [
 {
 "i": 0,
-"a": "t22",
-"b": "t26",
-"a_name": "Data Exploration",
-"b_name": "Data Preprocessing"
+"a": "t6",
+"b": "t9",
+"a_name": "Star Schema",
+"b_name": "Fact Constellation Schema"
 },
 {
 "i": 1,
@@ -355,86 +355,128 @@
 },
 {
 "i": 2,
-"a": "t45",
-"b": "t48",
-"a_name": "Types of data in Cluster analysis",
-"b_name": "Density based clustering"
-},
-{
-"i": 3,
 "a": "t5",
 "b": "t8",
 "a_name": "Data Warehouse Schemas",
 "b_name": "Factless Fact Table"
 },
 {
+"i": 3,
+"a": "t52",
+"b": "t57",
+"a_name": "Association Rule",
+"b_name": "Introduction to Mining Multilevel Association Rules"
+},
+{
 "i": 4,
-"a": "t4",
-"b": "t5",
-"a_name": "E-R Modeling versus Dimensional Modeling",
-"b_name": "Data Warehouse Schemas"
+"a": "t33",
+"b": "t35",
+"a_name": "ID3 algorithm",
+"b_name": "Performance evaluation of classification models"
 },
 {
 "i": 5,
-"a": "t6",
-"b": "t7",
-"a_name": "Star Schema",
-"b_name": "Snowflake Schema"
-},
-{
-"i": 6,
-"a": "t23",
-"b": "t45",
-"a_name": "Types of Attributes",
-"b_name": "Types of data in Cluster analysis"
-},
-{
-"i": 7,
-"a": "t20",
-"b": "t18",
-"a_name": "KDD process",
-"b_name": "Data Mining Task Primitives"
-},
-{
-"i": 8,
-"a": "t24",
-"b": "t25",
-"a_name": "Statistical Description of Data",
-"b_name": "Data Visualization"
-},
-{
-"i": 9,
-"a": "t51",
-"b": "t55",
-"a_name": "Frequent Item sets",
-"b_name": "FP-Tree"
-},
-{
-"i": 10,
-"a": "t20",
-"b": "t26",
-"a_name": "KDD process",
-"b_name": "Data Preprocessing"
-},
-{
-"i": 11,
 "a": "t5",
 "b": "t10",
 "a_name": "Data Warehouse Schemas",
 "b_name": "Update to the dimension tables"
 },
 {
+"i": 6,
+"a": "t26",
+"b": "t27",
+"a_name": "Data Preprocessing",
+"b_name": "Descriptive data summarization"
+},
+{
+"i": 7,
+"a": "t1",
+"b": "t12",
+"a_name": "Introduction to Data Warehouse",
+"b_name": "OLTP versus OLAP"
+},
+{
+"i": 8,
+"a": "t53",
+"b": "t57",
+"a_name": "Apriori Algorithm",
+"b_name": "Introduction to Mining Multilevel Association Rules"
+},
+{
+"i": 9,
+"a": "t52",
+"b": "t58",
+"a_name": "Association Rule",
+"b_name": "Mining Multidimensional Association Rules"
+},
+{
+"i": 10,
+"a": "t34",
+"b": "t35",
+"a_name": "Naïve Bayesian Classification",
+"b_name": "Performance evaluation of classification models"
+},
+{
+"i": 11,
+"a": "t53",
+"b": "t58",
+"a_name": "Apriori Algorithm",
+"b_name": "Mining Multidimensional Association Rules"
+},
+{
 "i": 12,
+"a": "t20",
+"b": "t26",
+"a_name": "KDD process",
+"b_name": "Data Preprocessing"
+},
+{
+"i": 13,
+"a": "t36",
+"b": "t38",
+"a_name": "Confusion matrix",
+"b_name": "F1score"
+},
+{
+"i": 14,
+"a": "t37",
+"b": "t38",
+"a_name": "precision. recall",
+"b_name": "F1score"
+},
+{
+"i": 15,
+"a": "t23",
+"b": "t31",
+"a_name": "Types of Attributes",
+"b_name": "Data Discretization and Concept hierarchy generation"
+},
+{
+"i": 16,
+"a": "t4",
+"b": "t5",
+"a_name": "E-R Modeling versus Dimensional Modeling",
+"b_name": "Data Warehouse Schemas"
+},
+{
+"i": 17,
 "a": "t24",
 "b": "t27",
 "a_name": "Statistical Description of Data",
 "b_name": "Descriptive data summarization"
 },
 {
-"i": 13,
-"a": "t53",
+"i": 18,
+"a": "t6",
+"b": "t7",
+"a_name": "Star Schema",
+"b_name": "Snowflake Schema"
+},
+{
+"i": 19,
+"a": "t51",
 "b": "t55",
-"a_name": "Apriori Algorithm",
+"a_name": "Frequent Item sets",
 "b_name": "FP-Tree"
 }
 ]

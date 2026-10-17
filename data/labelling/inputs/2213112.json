@@ -55,117 +55,117 @@
 },
 {
 "id": "t6",
-"name": "Characteristics of DC machines (speed – torque and performance)",
+"name": "Characteristics of DC machines (speed",
 "module": 1
 },
 {
 "id": "t7",
-"name": "Necessity of starter",
+"name": "torque and performance",
 "module": 1
 },
 {
 "id": "t8",
-"name": "Speed control methods",
+"name": "Necessity of starter",
 "module": 1
 },
 {
 "id": "t9",
-"name": "Losses and efficiency",
+"name": "Speed control methods",
 "module": 1
 },
 {
 "id": "t10",
-"name": "Swinburne’s",
+"name": "Losses and efficiency",
 "module": 1
 },
 {
 "id": "t11",
-"name": "Hopkinson’s tests",
+"name": "Swinburne’s",
 "module": 1
 },
 {
 "id": "t12",
+"name": "Hopkinson’s tests",
+"module": 1
+},
+{
+"id": "t13",
 "name": "Review of working principle",
 "module": 2
 },
 {
-"id": "t13",
+"id": "t14",
 "name": "EMF equation and Equivalent Circuit",
 "module": 2
 },
 {
-"id": "t14",
+"id": "t15",
 "name": "Phasor diagram (Resistive, Inductive and capacitive load)",
 "module": 2
 },
 {
-"id": "t15",
+"id": "t16",
 "name": "voltage regulation",
 "module": 2
 },
 {
-"id": "t16",
+"id": "t17",
 "name": "Condition for Maximum Efficiency",
 "module": 2
 },
 {
-"id": "t17",
+"id": "t18",
 "name": "Parallel Operation",
 "module": 2
 },
 {
-"id": "t18",
+"id": "t19",
 "name": "No load Operation",
 "module": 2
 },
 {
-"id": "t19",
+"id": "t20",
 "name": "Equal and Unequal Voltage Operation",
 "module": 2
 },
 {
-"id": "t20",
+"id": "t21",
 "name": "OC and SC test",
 "module": 2
 },
 {
-"id": "t21",
+"id": "t22",
 "name": "Sumpner’s Test",
 "module": 2
 },
 {
-"id": "t22",
+"id": "t23",
 "name": "Principle of operation",
 "module": 3
 },
 {
-"id": "t23",
+"id": "t24",
 "name": "Connections and Phasor groups",
 "module": 3
 },
 {
-"id": "t24",
+"id": "t25",
 "name": "Harmonics in three phase transformers",
 "module": 3
 },
 {
-"id": "t25",
+"id": "t26",
 "name": "Suppression of harmonics",
 "module": 3
 },
 {
-"id": "t26",
+"id": "t27",
 "name": "Oscillating neutral phenomenon",
 "module": 3
 },
 {
-"id": "t27",
-"name": "Open delta or V",
-"module": 3
-},
-{
 "id": "t28",
-"name": "connection",
+"name": "Open delta or V - connection",
 "module": 3
 },
 {
@@ -290,7 +290,7 @@
 },
 {
 "id": "t53",
-"name": "Split phase starting- Resistance spilt phase",
+"name": "Split phase starting-Resistance spilt phase",
 "module": 6
 },
 {

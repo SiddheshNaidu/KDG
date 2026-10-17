@@ -1,0 +1,413 @@
+{
+"course": "BSC103",
+"title": "Applied Chemistry",
+"topics": [
+{
+"id": "t1",
+"name": "cFuel",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Characteristics of good fuel",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Calorific value",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Coal",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Analysis of coal",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Proximate analysis",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Ultimate analysis",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Combustion of coal – Numerical",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Types of Corrosion",
+"module": 2
+},
+{
+"id": "t10",
+"name": "Dry or Atmospheric Corrosion",
+"module": 2
+},
+{
+"id": "t11",
+"name": "Wet or Electrochemical corrosion (In Acidic medium, In Neutral medium)",
+"module": 2
+},
+{
+"id": "t12",
+"name": "Factors affecting rate of corrosion:-i) Position of metal in galvanic series",
+"module": 2
+},
+{
+"id": "t13",
+"name": "Purity of Metal",
+"module": 2
+},
+{
+"id": "t14",
+"name": "Nature of Corrosion product",
+"module": 2
+},
+{
+"id": "t15",
+"name": "Temperature",
+"module": 2
+},
+{
+"id": "t16",
+"name": "pH of medium",
+"module": 2
+},
+{
+"id": "t17",
+"name": "concentration of medium",
+"module": 2
+},
+{
+"id": "t18",
+"name": "moisture",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Relative Cathodic and Anodic area",
+"module": 2
+},
+{
+"id": "t20",
+"name": "overvoltage",
+"module": 2
+},
+{
+"id": "t21",
+"name": "Methods to control corrosion",
+"module": 2
+},
+{
+"id": "t22",
+"name": "Selection of metal",
+"module": 2
+},
+{
+"id": "t23",
+"name": "Proper Designing",
+"module": 2
+},
+{
+"id": "t24",
+"name": "Cathodic protection",
+"module": 2
+},
+{
+"id": "t25",
+"name": "Use of Corrosion Inhibitors",
+"module": 2
+},
+{
+"id": "t26",
+"name": "Metallic Coating",
+"module": 2
+},
+{
+"id": "t27",
+"name": "Corrosion in Electronic devices",
+"module": 2
+},
+{
+"id": "t28",
+"name": "Purpose of making alloys",
+"module": 3
+},
+{
+"id": "t29",
+"name": "Gibbs Phase rule – Statement",
+"module": 3
+},
+{
+"id": "t30",
+"name": "Terms involved with examples",
+"module": 3
+},
+{
+"id": "t31",
+"name": "Reduced phase rule",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Two-component system (Pb-Ag) & Numerical",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Merits and Limitations of Phase rule",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Macro-molecular science",
+"module": 4
+},
+{
+"id": "t35",
+"name": "basic concept of polymers",
+"module": 4
+},
+{
+"id": "t36",
+"name": "Chemical bonding in polymers",
+"module": 4
+},
+{
+"id": "t37",
+"name": "Classification of Polymers",
+"module": 4
+},
+{
+"id": "t38",
+"name": "Properties of Polymers:",
+"module": 4
+},
+{
+"id": "t39",
+"name": "Molecular weight - Number average molecular weight",
+"module": 4
+},
+{
+"id": "t40",
+"name": "Weight average molecular weight",
+"module": 4
+},
+{
+"id": "t41",
+"name": "Crystallinity - Crystalline and amorphous polymers",
+"module": 4
+},
+{
+"id": "t42",
+"name": "Glass transition temperature",
+"module": 4
+},
+{
+"id": "t43",
+"name": "Mechanical Properties",
+"module": 4
+},
+{
+"id": "t44",
+"name": "Hardness",
+"module": 4
+},
+{
+"id": "t45",
+"name": "tensile strength",
+"module": 4
+},
+{
+"id": "t46",
+"name": "creep",
+"module": 4
+},
+{
+"id": "t47",
+"name": "fatigue",
+"module": 4
+},
+{
+"id": "t48",
+"name": "impact resistance (introduction)",
+"module": 4
+},
+{
+"id": "t49",
+"name": "Electrical properties",
+"module": 4
+},
+{
+"id": "t50",
+"name": "dielectric strength",
+"module": 4
+},
+{
+"id": "t51",
+"name": "insulation resistance",
+"module": 4
+},
+{
+"id": "t52",
+"name": "surface resistivity (Introduction)",
+"module": 4
+},
+{
+"id": "t53",
+"name": "Optical properties",
+"module": 4
+},
+{
+"id": "t54",
+"name": "refractive index",
+"module": 4
+},
+{
+"id": "t55",
+"name": "transmittance",
+"module": 4
+},
+{
+"id": "t56",
+"name": "photoelectric property",
+"module": 4
+},
+{
+"id": "t57",
+"name": "colour",
+"module": 4
+},
+{
+"id": "t58",
+"name": "Characteristics of Composites",
+"module": 5
+},
+{
+"id": "t59",
+"name": "Constituents of Composites",
+"module": 5
+},
+{
+"id": "t60",
+"name": "Matrix Phase and Dispersed Phase (Definition and Functions)",
+"module": 5
+},
+{
+"id": "t61",
+"name": "Classification of Composites",
+"module": 5
+},
+{
+"id": "t62",
+"name": "Adipic acid",
+"module": 6
+},
+{
+"id": "t63",
+"name": "Carbaryl",
+"module": 6
+},
+{
+"id": "t64",
+"name": "Green Solvents",
+"module": 6
+},
+{
+"id": "t65",
+"name": "characteristics and applications of Supercritical solvents and ionic liquids",
+"module": 6
+},
+{
+"id": "t66",
+"name": "Biodiesel",
+"module": 6
+},
+{
+"id": "t67",
+"name": "Ethanol",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t59",
+"b": "t61",
+"a_name": "Constituents of Composites",
+"b_name": "Classification of Composites"
+},
+{
+"i": 1,
+"a": "t28",
+"b": "t29",
+"a_name": "Purpose of making alloys",
+"b_name": "Gibbs Phase rule – Statement"
+},
+{
+"i": 2,
+"a": "t43",
+"b": "t44",
+"a_name": "Mechanical Properties",
+"b_name": "Hardness"
+},
+{
+"i": 3,
+"a": "t49",
+"b": "t50",
+"a_name": "Electrical properties",
+"b_name": "dielectric strength"
+},
+{
+"i": 4,
+"a": "t1",
+"b": "t4",
+"a_name": "cFuel",
+"b_name": "Coal"
+},
+{
+"i": 5,
+"a": "t60",
+"b": "t61",
+"a_name": "Matrix Phase and Dispersed Phase (Definition and Functions)",
+"b_name": "Classification of Composites"
+},
+{
+"i": 6,
+"a": "t53",
+"b": "t54",
+"a_name": "Optical properties",
+"b_name": "refractive index"
+},
+{
+"i": 7,
+"a": "t43",
+"b": "t45",
+"a_name": "Mechanical Properties",
+"b_name": "tensile strength"
+},
+{
+"i": 8,
+"a": "t1",
+"b": "t2",
+"a_name": "cFuel",
+"b_name": "Characteristics of good fuel"
+},
+{
+"i": 9,
+"a": "t30",
+"b": "t32",
+"a_name": "Terms involved with examples",
+"b_name": "Two-component system (Pb-Ag) & Numerical"
+}
+]
+}

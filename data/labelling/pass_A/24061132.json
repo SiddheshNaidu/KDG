@@ -1,1 +1,299 @@
-{"edges": [{"a": "t2", "b": "t4", "why": "prerequisite"}, {"a": "t3", "b": "t4", "why": "prerequisite"}, {"a": "t4", "b": "t5", "why": "prerequisite"}, {"a": "t6", "b": "t7", "why": "prerequisite"}, {"a": "t7", "b": "t8", "why": "prerequisite"}, {"a": "t8", "b": "t9", "why": "prerequisite"}, {"a": "t8", "b": "t10", "why": "prerequisite"}, {"a": "t4", "b": "t8", "why": "prerequisite"}, {"a": "t11", "b": "t12", "why": "prerequisite"}, {"a": "t15", "b": "t16", "why": "prerequisite"}, {"a": "t15", "b": "t17", "why": "prerequisite"}, {"a": "t16", "b": "t17", "why": "prerequisite"}, {"a": "t17", "b": "t18", "why": "prerequisite"}, {"a": "t15", "b": "t14", "why": "prerequisite"}, {"a": "t21", "b": "t22", "why": "prerequisite"}, {"a": "t21", "b": "t23", "why": "prerequisite"}, {"a": "t23", "b": "t24", "why": "prerequisite"}, {"a": "t23", "b": "t25", "why": "prerequisite"}, {"a": "t25", "b": "t26", "why": "prerequisite"}, {"a": "t23", "b": "t27", "why": "prerequisite"}, {"a": "t29", "b": "t31", "why": "prerequisite"}, {"a": "t23", "b": "t31", "why": "prerequisite"}, {"a": "t33", "b": "t34", "why": "prerequisite"}, {"a": "t34", "b": "t35", "why": "prerequisite"}, {"a": "t34", "b": "t36", "why": "prerequisite"}, {"a": "t37", "b": "t38", "why": "prerequisite"}, {"a": "t37", "b": "t39", "why": "prerequisite"}, {"a": "t37", "b": "t40", "why": "prerequisite"}, {"a": "t6", "b": "t41", "why": "prerequisite"}, {"a": "t43", "b": "t44", "why": "prerequisite"}, {"a": "t43", "b": "t45", "why": "prerequisite"}, {"a": "t43", "b": "t46", "why": "prerequisite"}, {"a": "t6", "b": "t43", "why": "prerequisite"}]}
+{
+ "edges": [
+  {
+   "a": "t2",
+   "b": "t3",
+   "why": "Carnot refrigerator before heat pump"
+  },
+  {
+   "a": "t3",
+   "b": "t4",
+   "why": "COP defined before its dependence"
+  },
+  {
+   "a": "t5",
+   "b": "t6",
+   "why": "refrigerants before classification"
+  },
+  {
+   "a": "t5",
+   "b": "t7",
+   "why": "refrigerants before properties"
+  },
+  {
+   "a": "t7",
+   "b": "t8",
+   "why": "properties lead to environmental alternatives"
+  },
+  {
+   "a": "t9",
+   "b": "t10",
+   "why": "air refrigeration before Bell Coleman"
+  },
+  {
+   "a": "t9",
+   "b": "t13",
+   "why": "air refrigeration before methods"
+  },
+  {
+   "a": "t10",
+   "b": "t13",
+   "why": "Bell Coleman basis for methods"
+  },
+  {
+   "a": "t13",
+   "b": "t14",
+   "why": "methods before numericals"
+  },
+  {
+   "a": "t11",
+   "b": "t12",
+   "why": "necessity motivates selection factors"
+  },
+  {
+   "a": "t4",
+   "b": "t16",
+   "why": "COP concept for VCR cycle diagrams"
+  },
+  {
+   "a": "t15",
+   "b": "t16",
+   "why": "VCR before diagrams"
+  },
+  {
+   "a": "t16",
+   "b": "t17",
+   "why": "diagrams before analysis"
+  },
+  {
+   "a": "t17",
+   "b": "t18",
+   "why": "analysis before performance factors"
+  },
+  {
+   "a": "t17",
+   "b": "t19",
+   "why": "analysis before numericals"
+  },
+  {
+   "a": "t15",
+   "b": "t20",
+   "why": "VCR background before absorption"
+  },
+  {
+   "a": "t20",
+   "b": "t21",
+   "why": "absorption before simple/practical system"
+  },
+  {
+   "a": "t21",
+   "b": "t22",
+   "why": "system before ideal COP"
+  },
+  {
+   "a": "t21",
+   "b": "t24",
+   "why": "system before Electrolux"
+  },
+  {
+   "a": "t21",
+   "b": "t25",
+   "why": "system before LiBr"
+  },
+  {
+   "a": "t23",
+   "b": "t25",
+   "why": "adsorbent properties needed for LiBr system"
+  },
+  {
+   "a": "t3",
+   "b": "t26",
+   "why": "heat pump COP before PER"
+  },
+  {
+   "a": "t26",
+   "b": "t27",
+   "why": "energy ratios before EER"
+  },
+  {
+   "a": "t27",
+   "b": "t28",
+   "why": "EER before seasonal factors"
+  },
+  {
+   "a": "t27",
+   "b": "t29",
+   "why": "EER underlies star rating"
+  },
+  {
+   "a": "t3",
+   "b": "t30",
+   "why": "Carnot heat pump before classification"
+  },
+  {
+   "a": "t31",
+   "b": "t32",
+   "why": "comfort conditions before design conditions"
+  },
+  {
+   "a": "t33",
+   "b": "t34",
+   "why": "significance before factors"
+  },
+  {
+   "a": "t34",
+   "b": "t35",
+   "why": "factors before effective temperature"
+  },
+  {
+   "a": "t35",
+   "b": "t36",
+   "why": "effective temperature before comfort chart"
+  },
+  {
+   "a": "t38",
+   "b": "t39",
+   "why": "psychrometry before properties"
+  },
+  {
+   "a": "t39",
+   "b": "t40",
+   "why": "properties before mixing"
+  },
+  {
+   "a": "t39",
+   "b": "t41",
+   "why": "properties before chart processes"
+  },
+  {
+   "a": "t41",
+   "b": "t42",
+   "why": "chart processes before RSHF"
+  },
+  {
+   "a": "t42",
+   "b": "t43",
+   "why": "RSHF before GSHF"
+  },
+  {
+   "a": "t43",
+   "b": "t44",
+   "why": "GSHF before ERSHF"
+  },
+  {
+   "a": "t41",
+   "b": "t45",
+   "why": "chart processes before bypass factor"
+  },
+  {
+   "a": "t46",
+   "b": "t47",
+   "why": "load estimation before components"
+  },
+  {
+   "a": "t47",
+   "b": "t48",
+   "why": "components before sources"
+  },
+  {
+   "a": "t48",
+   "b": "t49",
+   "why": "sources before design"
+  },
+  {
+   "a": "t39",
+   "b": "t49",
+   "why": "psychrometrics used in design"
+  },
+  {
+   "a": "t50",
+   "b": "t51",
+   "why": "distribution before duct"
+  },
+  {
+   "a": "t51",
+   "b": "t52",
+   "why": "duct before classification"
+  },
+  {
+   "a": "t51",
+   "b": "t53",
+   "why": "duct before material"
+  },
+  {
+   "a": "t51",
+   "b": "t54",
+   "why": "duct before pressure"
+  },
+  {
+   "a": "t54",
+   "b": "t55",
+   "why": "pressure before flow"
+  },
+  {
+   "a": "t55",
+   "b": "t56",
+   "why": "flow before losses"
+  },
+  {
+   "a": "t56",
+   "b": "t57",
+   "why": "losses before simple system"
+  },
+  {
+   "a": "t56",
+   "b": "t58",
+   "why": "losses motivate equivalent diameter"
+  },
+  {
+   "a": "t57",
+   "b": "t59",
+   "why": "simple system before design methods"
+  },
+  {
+   "a": "t59",
+   "b": "t60",
+   "why": "methods before sizing numericals"
+  },
+  {
+   "a": "t62",
+   "b": "t63",
+   "why": "fan types before fan laws"
+  },
+  {
+   "a": "t65",
+   "b": "t66",
+   "why": "components before compressors"
+  },
+  {
+   "a": "t65",
+   "b": "t68",
+   "why": "components before condensers"
+  },
+  {
+   "a": "t65",
+   "b": "t69",
+   "why": "components before DX"
+  },
+  {
+   "a": "t65",
+   "b": "t71",
+   "why": "components before expansion devices"
+  },
+  {
+   "a": "t71",
+   "b": "t72",
+   "why": "expansion devices before capillary"
+  },
+  {
+   "a": "t71",
+   "b": "t73",
+   "why": "expansion devices before TXV"
+  },
+  {
+   "a": "t71",
+   "b": "t74",
+   "why": "expansion devices before EXV"
+  }
+ ]
+}

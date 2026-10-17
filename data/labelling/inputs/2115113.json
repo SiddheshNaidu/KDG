@@ -170,7 +170,7 @@
 },
 {
 "id": "t29",
-"name": "Alpha- Beta Pruning",
+"name": "Alpha-Beta Pruning",
 "module": 2
 },
 {
@@ -215,7 +215,7 @@
 },
 {
 "id": "t38",
-"name": "Biological Neural System",
+"name": "Introduction – Biological Neural System",
 "module": 4
 },
 {
@@ -225,7 +225,7 @@
 },
 {
 "id": "t40",
-"name": "McCulloch- Pitts Neuron",
+"name": "McCulloch-Pitts Neuron",
 "module": 4
 },
 {
@@ -400,7 +400,7 @@
 },
 {
 "id": "t75",
-"name": "Mean- of-Max(MoM)",
+"name": "Mean-of-Max(MoM)",
 "module": 6
 },
 {

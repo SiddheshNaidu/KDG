@@ -1,0 +1,209 @@
+{
+"edges": [
+{
+"a": "t1",
+"b": "t4",
+"why": "comparison needs vision basics"
+},
+{
+"a": "t2",
+"b": "t3",
+"why": "filters rely on convolution"
+},
+{
+"a": "t2",
+"b": "t5",
+"why": "corner detection uses convolution"
+},
+{
+"a": "t8",
+"b": "t9",
+"why": "labelling uses connectedness"
+},
+{
+"a": "t9",
+"b": "t10",
+"why": "size filtering uses labelled objects"
+},
+{
+"a": "t8",
+"b": "t11",
+"why": "distance functions defined on connectivity"
+},
+{
+"a": "t11",
+"b": "t12",
+"why": "skeletons use distance transform"
+},
+{
+"a": "t8",
+"b": "t13",
+"why": "hole filling uses connectivity"
+},
+{
+"a": "t8",
+"b": "t14",
+"why": "boundary tracking needs connectivity"
+},
+{
+"a": "t14",
+"b": "t16",
+"why": "boundary length from traced boundary"
+},
+{
+"a": "t14",
+"b": "t17",
+"why": "descriptors computed from boundaries"
+},
+{
+"a": "t17",
+"b": "t18",
+"why": "Fourier descriptors are boundary descriptors"
+},
+{
+"a": "t17",
+"b": "t15",
+"why": "shape recognition uses descriptors"
+},
+{
+"a": "t9",
+"b": "t19",
+"why": "region descriptors need labelled regions"
+},
+{
+"a": "t20",
+"b": "t21",
+"why": "Hough for lines needs line detection"
+},
+{
+"a": "t21",
+"b": "t22",
+"why": "localization from Hough peaks"
+},
+{
+"a": "t23",
+"b": "t24",
+"why": "RANSAC is a line fitting method"
+},
+{
+"a": "t21",
+"b": "t25",
+"why": "circle HT extends line HT"
+},
+{
+"a": "t25",
+"b": "t26",
+"why": "ellipse HT extends circle HT"
+},
+{
+"a": "t21",
+"b": "t27",
+"why": "GHT generalizes Hough"
+},
+{
+"a": "t27",
+"b": "t29",
+"why": "GHT applied to ellipses"
+},
+{
+"a": "t28",
+"b": "t30",
+"why": "object location via matched filtering"
+},
+{
+"a": "t31",
+"b": "t32",
+"why": "projection needed for 3D methods"
+},
+{
+"a": "t32",
+"b": "t44",
+"why": "triangulation uses projection geometry"
+},
+{
+"a": "t31",
+"b": "t33",
+"why": "shape from shading is a 3D method"
+},
+{
+"a": "t31",
+"b": "t34",
+"why": "photometric stereo is a 3D method"
+},
+{
+"a": "t31",
+"b": "t37",
+"why": "range finding is a 3D method"
+},
+{
+"a": "t38",
+"b": "t39",
+"why": "point representation is a surface representation"
+},
+{
+"a": "t38",
+"b": "t40",
+"why": "volumetric is a surface representation"
+},
+{
+"a": "t38",
+"b": "t41",
+"why": "recognition needs representations"
+},
+{
+"a": "t44",
+"b": "t42",
+"why": "reconstruction uses triangulation"
+},
+{
+"a": "t44",
+"b": "t45",
+"why": "bundle adjustment refines triangulation"
+},
+{
+"a": "t46",
+"b": "t47",
+"why": "parametric motion extends translation"
+},
+{
+"a": "t47",
+"b": "t48",
+"why": "spline motion extends parametric"
+},
+{
+"a": "t47",
+"b": "t50",
+"why": "layered motion builds on parametric models"
+},
+{
+"a": "t46",
+"b": "t49",
+"why": "optical flow generalises alignment"
+},
+{
+"a": "t49",
+"b": "t51",
+"why": "stereo from motion uses flow"
+},
+{
+"a": "t49",
+"b": "t57",
+"why": "tracking uses motion estimation"
+},
+{
+"a": "t52",
+"b": "t57",
+"why": "tracking uses Kalman filter"
+},
+{
+"a": "t49",
+"b": "t56",
+"why": "foreground separation uses motion"
+},
+{
+"a": "t5",
+"b": "t43",
+"why": "SIFT uses interest points"
+}
+]
+}

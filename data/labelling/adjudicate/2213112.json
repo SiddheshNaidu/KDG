@@ -29,117 +29,117 @@
 },
 {
 "id": "t6",
-"name": "Characteristics of DC machines (speed – torque and performance)",
+"name": "Characteristics of DC machines (speed",
 "module": 1
 },
 {
 "id": "t7",
-"name": "Necessity of starter",
+"name": "torque and performance",
 "module": 1
 },
 {
 "id": "t8",
-"name": "Speed control methods",
+"name": "Necessity of starter",
 "module": 1
 },
 {
 "id": "t9",
-"name": "Losses and efficiency",
+"name": "Speed control methods",
 "module": 1
 },
 {
 "id": "t10",
-"name": "Swinburne’s",
+"name": "Losses and efficiency",
 "module": 1
 },
 {
 "id": "t11",
-"name": "Hopkinson’s tests",
+"name": "Swinburne’s",
 "module": 1
 },
 {
 "id": "t12",
+"name": "Hopkinson’s tests",
+"module": 1
+},
+{
+"id": "t13",
 "name": "Review of working principle",
 "module": 2
 },
 {
-"id": "t13",
+"id": "t14",
 "name": "EMF equation and Equivalent Circuit",
 "module": 2
 },
 {
-"id": "t14",
+"id": "t15",
 "name": "Phasor diagram (Resistive, Inductive and capacitive load)",
 "module": 2
 },
 {
-"id": "t15",
+"id": "t16",
 "name": "voltage regulation",
 "module": 2
 },
 {
-"id": "t16",
+"id": "t17",
 "name": "Condition for Maximum Efficiency",
 "module": 2
 },
 {
-"id": "t17",
+"id": "t18",
 "name": "Parallel Operation",
 "module": 2
 },
 {
-"id": "t18",
+"id": "t19",
 "name": "No load Operation",
 "module": 2
 },
 {
-"id": "t19",
+"id": "t20",
 "name": "Equal and Unequal Voltage Operation",
 "module": 2
 },
 {
-"id": "t20",
+"id": "t21",
 "name": "OC and SC test",
 "module": 2
 },
 {
-"id": "t21",
+"id": "t22",
 "name": "Sumpner’s Test",
 "module": 2
 },
 {
-"id": "t22",
+"id": "t23",
 "name": "Principle of operation",
 "module": 3
 },
 {
-"id": "t23",
+"id": "t24",
 "name": "Connections and Phasor groups",
 "module": 3
 },
 {
-"id": "t24",
+"id": "t25",
 "name": "Harmonics in three phase transformers",
 "module": 3
 },
 {
-"id": "t25",
+"id": "t26",
 "name": "Suppression of harmonics",
 "module": 3
 },
 {
-"id": "t26",
+"id": "t27",
 "name": "Oscillating neutral phenomenon",
 "module": 3
 },
 {
-"id": "t27",
-"name": "Open delta or V",
-"module": 3
-},
-{
 "id": "t28",
-"name": "connection",
+"name": "Open delta or V - connection",
 "module": 3
 },
 {
@@ -264,7 +264,7 @@
 },
 {
 "id": "t53",
-"name": "Split phase starting- Resistance spilt phase",
+"name": "Split phase starting-Resistance spilt phase",
 "module": 6
 },
 {
@@ -286,227 +286,129 @@
 "candidates": [
 {
 "i": 0,
-"a": "t45",
-"b": "t49",
-"a_name": "Speed control",
-"b_name": "V/f control"
-},
-{
-"i": 1,
-"a": "t1",
-"b": "t4",
-"a_name": "Review of working principles of DC machines",
-"b_name": "Armature reaction"
-},
-{
-"i": 2,
-"a": "t13",
-"b": "t17",
+"a": "t14",
+"b": "t18",
 "a_name": "EMF equation and Equivalent Circuit",
 "b_name": "Parallel Operation"
 },
 {
-"i": 3,
-"a": "t13",
-"b": "t18",
-"a_name": "EMF equation and Equivalent Circuit",
-"b_name": "No load Operation"
-},
-{
-"i": 4,
-"a": "t2",
-"b": "t3",
-"a_name": "concept of back EMF and torque equations",
-"b_name": "Commutation"
-},
-{
-"i": 5,
+"i": 1,
 "a": "t36",
 "b": "t39",
 "a_name": "Equivalent circuit",
 "b_name": "Circle diagram"
 },
 {
-"i": 6,
-"a": "t2",
-"b": "t4",
-"a_name": "concept of back EMF and torque equations",
-"b_name": "Armature reaction"
-},
-{
-"i": 7,
+"i": 2,
 "a": "t36",
 "b": "t35",
 "a_name": "Equivalent circuit",
 "b_name": "Phasor diagram"
 },
 {
-"i": 8,
+"i": 3,
 "a": "t32",
 "b": "t36",
 "a_name": "Rotor emf and frequency",
 "b_name": "Equivalent circuit"
 },
 {
+"i": 4,
+"a": "t6",
+"b": "t7",
+"a_name": "Characteristics of DC machines (speed",
+"b_name": "torque and performance"
+},
+{
+"i": 5,
+"a": "t16",
+"b": "t18",
+"a_name": "voltage regulation",
+"b_name": "Parallel Operation"
+},
+{
+"i": 6,
+"a": "t52",
+"b": "t55",
+"a_name": "starting methods",
+"b_name": "capacitor start and run"
+},
+{
+"i": 7,
+"a": "t5",
+"b": "t9",
+"a_name": "Types of DC machines",
+"b_name": "Speed control methods"
+},
+{
+"i": 8,
+"a": "t2",
+"b": "t7",
+"a_name": "concept of back EMF and torque equations",
+"b_name": "torque and performance"
+},
+{
 "i": 9,
+"a": "t1",
+"b": "t10",
+"a_name": "Review of working principles of DC machines",
+"b_name": "Losses and efficiency"
+},
+{
+"i": 10,
 "a": "t30",
 "b": "t50",
 "a_name": "Review of Constructional details and Principle of operation",
 "b_name": "Double field revolving theory"
 },
 {
-"i": 10,
-"a": "t2",
-"b": "t6",
-"a_name": "concept of back EMF and torque equations",
-"b_name": "Characteristics of DC machines (speed – torque and performance)"
-},
-{
 "i": 11,
-"a": "t36",
-"b": "t38",
-"a_name": "Equivalent circuit",
-"b_name": "No load and blocked rotor test"
+"a": "t31",
+"b": "t37",
+"a_name": "Slip",
+"b_name": "Torque-speed characteristics"
 },
 {
 "i": 12,
-"a": "t30",
-"b": "t36",
-"a_name": "Review of Constructional details and Principle of operation",
-"b_name": "Equivalent circuit"
+"a": "t54",
+"b": "t55",
+"a_name": "capacitor split phase",
+"b_name": "capacitor start and run"
 },
 {
 "i": 13,
-"a": "t31",
+"a": "t33",
 "b": "t40",
-"a_name": "Slip",
+"a_name": "current and power",
 "b_name": "Need of starter"
 },
 {
 "i": 14,
-"a": "t34",
-"b": "t37",
-"a_name": "Power stages",
-"b_name": "Torque-speed characteristics"
+"a": "t32",
+"b": "t35",
+"a_name": "Rotor emf and frequency",
+"b_name": "Phasor diagram"
 },
 {
 "i": 15,
-"a": "t1",
-"b": "t3",
-"a_name": "Review of working principles of DC machines",
-"b_name": "Commutation"
+"a": "t35",
+"b": "t36",
+"a_name": "Phasor diagram",
+"b_name": "Equivalent circuit"
 },
 {
 "i": 16,
-"a": "t13",
-"b": "t16",
-"a_name": "EMF equation and Equivalent Circuit",
-"b_name": "Condition for Maximum Efficiency"
+"a": "t6",
+"b": "t9",
+"a_name": "Characteristics of DC machines (speed",
+"b_name": "Speed control methods"
 },
 {
 "i": 17,
 "a": "t37",
-"b": "t43",
+"b": "t40",
 "a_name": "Torque-speed characteristics",
-"b_name": "Rotor resistance starter"
-},
-{
-"i": 18,
-"a": "t13",
-"b": "t22",
-"a_name": "EMF equation and Equivalent Circuit",
-"b_name": "Principle of operation"
-},
-{
-"i": 19,
-"a": "t17",
-"b": "t19",
-"a_name": "Parallel Operation",
-"b_name": "Equal and Unequal Voltage Operation"
-},
-{
-"i": 20,
-"a": "t50",
-"b": "t52",
-"a_name": "Double field revolving theory",
-"b_name": "starting methods"
-},
-{
-"i": 21,
-"a": "t13",
-"b": "t15",
-"a_name": "EMF equation and Equivalent Circuit",
-"b_name": "voltage regulation"
-},
-{
-"i": 22,
-"a": "t1",
-"b": "t5",
-"a_name": "Review of working principles of DC machines",
-"b_name": "Types of DC machines"
-},
-{
-"i": 23,
-"a": "t15",
-"b": "t17",
-"a_name": "voltage regulation",
-"b_name": "Parallel Operation"
-},
-{
-"i": 24,
-"a": "t38",
-"b": "t39",
-"a_name": "No load and blocked rotor test",
-"b_name": "Circle diagram"
-},
-{
-"i": 25,
-"a": "t5",
-"b": "t8",
-"a_name": "Types of DC machines",
-"b_name": "Speed control methods"
-},
-{
-"i": 26,
-"a": "t2",
-"b": "t8",
-"a_name": "concept of back EMF and torque equations",
-"b_name": "Speed control methods"
-},
-{
-"i": 27,
-"a": "t20",
-"b": "t21",
-"a_name": "OC and SC test",
-"b_name": "Sumpner’s Test"
-},
-{
-"i": 28,
-"a": "t46",
-"b": "t49",
-"a_name": "Voltage control",
-"b_name": "V/f control"
-},
-{
-"i": 29,
-"a": "t6",
-"b": "t8",
-"a_name": "Characteristics of DC machines (speed – torque and performance)",
-"b_name": "Speed control methods"
-},
-{
-"i": 30,
-"a": "t1",
-"b": "t9",
-"a_name": "Review of working principles of DC machines",
-"b_name": "Losses and efficiency"
-},
-{
-"i": 31,
-"a": "t51",
-"b": "t52",
-"a_name": "Equivalent circuit of single-phase induction motor",
-"b_name": "starting methods"
+"b_name": "Need of starter"
 }
 ]
 }

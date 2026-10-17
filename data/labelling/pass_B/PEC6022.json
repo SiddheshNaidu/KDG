@@ -1,1 +1,179 @@
-{"edges": [{"a": "t6", "b": "t9", "why": "prerequisite"}, {"a": "t12", "b": "t9", "why": "prerequisite"}, {"a": "t9", "b": "t10", "why": "prerequisite"}, {"a": "t9", "b": "t11", "why": "prerequisite"}, {"a": "t9", "b": "t13", "why": "prerequisite"}, {"a": "t10", "b": "t11", "why": "prerequisite"}, {"a": "t11", "b": "t14", "why": "prerequisite"}, {"a": "t11", "b": "t27", "why": "prerequisite"}, {"a": "t13", "b": "t14", "why": "prerequisite"}, {"a": "t15", "b": "t16", "why": "prerequisite"}, {"a": "t15", "b": "t18", "why": "prerequisite"}, {"a": "t16", "b": "t17", "why": "prerequisite"}, {"a": "t17", "b": "t19", "why": "prerequisite"}, {"a": "t17", "b": "t20", "why": "prerequisite"}, {"a": "t22", "b": "t24", "why": "prerequisite"}, {"a": "t23", "b": "t24", "why": "prerequisite"}, {"a": "t25", "b": "t26", "why": "prerequisite"}, {"a": "t25", "b": "t27", "why": "prerequisite"}, {"a": "t28", "b": "t29", "why": "prerequisite"}, {"a": "t28", "b": "t30", "why": "prerequisite"}, {"a": "t28", "b": "t31", "why": "prerequisite"}, {"a": "t28", "b": "t32", "why": "prerequisite"}, {"a": "t34", "b": "t35", "why": "prerequisite"}, {"a": "t38", "b": "t39", "why": "prerequisite"}, {"a": "t46", "b": "t47", "why": "prerequisite"}, {"a": "t46", "b": "t49", "why": "prerequisite"}, {"a": "t46", "b": "t50", "why": "prerequisite"}, {"a": "t46", "b": "t52", "why": "prerequisite"}, {"a": "t48", "b": "t49", "why": "prerequisite"}, {"a": "t49", "b": "t50", "why": "prerequisite"}, {"a": "t55", "b": "t56", "why": "prerequisite"}, {"a": "t56", "b": "t57", "why": "prerequisite"}, {"a": "t11", "b": "t26", "why": "prerequisite"}]}
+{
+"edges": [
+{
+"a": "t4",
+"b": "t13",
+"why": "DH parameters describe joints"
+},
+{
+"a": "t6",
+"b": "t9",
+"why": "frames need transformation matrices"
+},
+{
+"a": "t9",
+"b": "t10",
+"why": "inverse of transformation"
+},
+{
+"a": "t9",
+"b": "t11",
+"why": "kinematics uses transformations"
+},
+{
+"a": "t12",
+"b": "t11",
+"why": "kinematics uses position orientation"
+},
+{
+"a": "t9",
+"b": "t13",
+"why": "DH uses homogeneous matrices"
+},
+{
+"a": "t13",
+"b": "t14",
+"why": "kinematic solutions use DH"
+},
+{
+"a": "t11",
+"b": "t14",
+"why": "solutions of kinematic equations"
+},
+{
+"a": "t11",
+"b": "t15",
+"why": "velocities extend kinematics"
+},
+{
+"a": "t15",
+"b": "t16",
+"why": "differential relationship"
+},
+{
+"a": "t16",
+"b": "t17",
+"why": "Jacobian expresses relationship"
+},
+{
+"a": "t17",
+"b": "t18",
+"why": "frame motion uses Jacobian"
+},
+{
+"a": "t17",
+"b": "t19",
+"why": "inverse Jacobian"
+},
+{
+"a": "t17",
+"b": "t20",
+"why": "singularities from Jacobian"
+},
+{
+"a": "t21",
+"b": "t22",
+"why": "Lagrangian formulation"
+},
+{
+"a": "t21",
+"b": "t23",
+"why": "Newton Euler formulation"
+},
+{
+"a": "t22",
+"b": "t24",
+"why": "dynamic equations by Lagrange"
+},
+{
+"a": "t11",
+"b": "t26",
+"why": "joint-space planning uses kinematics"
+},
+{
+"a": "t11",
+"b": "t27",
+"why": "Cartesian trajectories use kinematics"
+},
+{
+"a": "t25",
+"b": "t26",
+"why": "basics before joint-space"
+},
+{
+"a": "t25",
+"b": "t27",
+"why": "basics before Cartesian"
+},
+{
+"a": "t28",
+"b": "t29",
+"why": "template matching on images"
+},
+{
+"a": "t28",
+"b": "t32",
+"why": "segmentation of images"
+},
+{
+"a": "t28",
+"b": "t31",
+"why": "shape analysis of images"
+},
+{
+"a": "t34",
+"b": "t35",
+"why": "calibration uses perspective model"
+},
+{
+"a": "t38",
+"b": "t39",
+"why": "configuration space for motion planning"
+},
+{
+"a": "t38",
+"b": "t40",
+"why": "grasp planning uses C-space"
+},
+{
+"a": "t46",
+"b": "t49",
+"why": "probabilistic localization"
+},
+{
+"a": "t49",
+"b": "t50",
+"why": "Monte Carlo is probabilistic"
+},
+{
+"a": "t48",
+"b": "t49",
+"why": "map needed for localization"
+},
+{
+"a": "t46",
+"b": "t47",
+"why": "localization challenges"
+},
+{
+"a": "t56",
+"b": "t57",
+"why": "path planning methods"
+},
+{
+"a": "t56",
+"b": "t55",
+"why": "navigation uses planning"
+},
+{
+"a": "t57",
+"b": "t59",
+"why": "potential field avoids obstacles"
+},
+{
+"a": "t44",
+"b": "t43",
+"why": "simulator needs scenes"
+}
+]
+}

@@ -159,7 +159,7 @@
 },
 {
 "id": "t32",
-"name": "Sutherland- Hodgeman Algorithm",
+"name": "Sutherland-Hodgeman Algorithm",
 "module": 3
 },
 {
@@ -306,101 +306,164 @@
 "candidates": [
 {
 "i": 0,
-"a": "t51",
-"b": "t54",
-"a_name": "Illumination models",
-"b_name": "Shading Algorithms"
-},
-{
-"i": 1,
 "a": "t8",
 "b": "t9",
 "a_name": "Introduction to OpenGL",
 "b_name": "Libraries"
 },
 {
-"i": 2,
-"a": "t24",
-"b": "t27",
-"a_name": "Composite transformation",
-"b_name": "Window to Viewport coordinate transformation"
+"i": 1,
+"a": "t45",
+"b": "t46",
+"a_name": "Animation",
+"b_name": "Introduction to Animation"
 },
 {
-"i": 3,
+"i": 2,
 "a": "t46",
 "b": "t48",
 "a_name": "Introduction to Animation",
 "b_name": "Key framing"
 },
 {
-"i": 4,
-"a": "t7",
-"b": "t10",
-"a_name": "Architecture of Graphics rendering pipeline",
-"b_name": "OpenGl Basic Graphics Primitives"
-},
-{
-"i": 5,
+"i": 3,
 "a": "t47",
 "b": "t48",
 "a_name": "Traditional Animation Techniques",
 "b_name": "Key framing"
 },
 {
-"i": 6,
-"a": "t4",
-"b": "t5",
-"a_name": "Rasterization",
-"b_name": "Raster scan displays"
-},
-{
-"i": 7,
-"a": "t52",
-"b": "t53",
-"a_name": "Diffuse and specular reflection",
-"b_name": "Determining Surface normal and Reflection vector"
-},
-{
-"i": 8,
+"i": 4,
 "a": "t20",
 "b": "t23",
 "a_name": "Translation",
 "b_name": "Homogeneous Coordinates"
 },
 {
+"i": 5,
+"a": "t19",
+"b": "t25",
+"a_name": "Basic transformations",
+"b_name": "Advanced transformations"
+},
+{
+"i": 6,
+"a": "t51",
+"b": "t53",
+"a_name": "Illumination models",
+"b_name": "Determining Surface normal and Reflection vector"
+},
+{
+"i": 7,
+"a": "t15",
+"b": "t18",
+"a_name": "Filled Area Primitives",
+"b_name": "Scan-line Polygon Fill Algorithm"
+},
+{
+"i": 8,
+"a": "t46",
+"b": "t49",
+"a_name": "Introduction to Animation",
+"b_name": "Motion capture"
+},
+{
 "i": 9,
-"a": "t7",
-"b": "t8",
-"a_name": "Architecture of Graphics rendering pipeline",
-"b_name": "Introduction to OpenGL"
+"a": "t19",
+"b": "t26",
+"a_name": "Basic transformations",
+"b_name": "Reflection and Shear"
 },
 {
 "i": 10,
-"a": "t53",
-"b": "t54",
-"a_name": "Determining Surface normal and Reflection vector",
-"b_name": "Shading Algorithms"
+"a": "t11",
+"b": "t15",
+"a_name": "Introduction to Scan Conversion",
+"b_name": "Filled Area Primitives"
 },
 {
 "i": 11,
+"a": "t21",
+"b": "t24",
+"a_name": "Scaling",
+"b_name": "Composite transformation"
+},
+{
+"i": 12,
+"a": "t2",
+"b": "t6",
+"a_name": "Graphics Hardware and Software",
+"b_name": "Random scan displays"
+},
+{
+"i": 13,
+"a": "t25",
+"b": "t26",
+"a_name": "Advanced transformations",
+"b_name": "Reflection and Shear"
+},
+{
+"i": 14,
+"a": "t20",
+"b": "t27",
+"a_name": "Translation",
+"b_name": "Window to Viewport coordinate transformation"
+},
+{
+"i": 15,
+"a": "t21",
+"b": "t27",
+"a_name": "Scaling",
+"b_name": "Window to Viewport coordinate transformation"
+},
+{
+"i": 16,
 "a": "t24",
 "b": "t33",
 "a_name": "Composite transformation",
 "b_name": "4.1 3D Object Transformation 4.2 3D Viewing pipeline"
 },
 {
-"i": 12,
-"a": "t3",
-"b": "t4",
-"a_name": "Overview of coordinate representation",
-"b_name": "Rasterization"
+"i": 17,
+"a": "t47",
+"b": "t49",
+"a_name": "Traditional Animation Techniques",
+"b_name": "Motion capture"
 },
 {
-"i": 13,
-"a": "t23",
-"b": "t33",
-"a_name": "Homogeneous Coordinates",
-"b_name": "4.1 3D Object Transformation 4.2 3D Viewing pipeline"
+"i": 18,
+"a": "t15",
+"b": "t17",
+"a_name": "Filled Area Primitives",
+"b_name": "Polygon Representation and Edge Tables"
+},
+{
+"i": 19,
+"a": "t53",
+"b": "t56",
+"a_name": "Determining Surface normal and Reflection vector",
+"b_name": "Phong shading"
+},
+{
+"i": 20,
+"a": "t2",
+"b": "t5",
+"a_name": "Graphics Hardware and Software",
+"b_name": "Raster scan displays"
+},
+{
+"i": 21,
+"a": "t20",
+"b": "t24",
+"a_name": "Translation",
+"b_name": "Composite transformation"
+},
+{
+"i": 22,
+"a": "t19",
+"b": "t23",
+"a_name": "Basic transformations",
+"b_name": "Homogeneous Coordinates"
 }
 ]
 }

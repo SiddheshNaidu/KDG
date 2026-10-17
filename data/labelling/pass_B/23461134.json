@@ -1,1 +1,209 @@
-{"edges": [{"a": "t2", "b": "t5", "why": "foundation needed first"}, {"a": "t7", "b": "t8", "why": "foundation needed first"}, {"a": "t8", "b": "t9", "why": "foundation needed first"}, {"a": "t9", "b": "t10", "why": "foundation needed first"}, {"a": "t8", "b": "t13", "why": "foundation needed first"}, {"a": "t7", "b": "t12", "why": "foundation needed first"}, {"a": "t11", "b": "t12", "why": "foundation needed first"}, {"a": "t14", "b": "t16", "why": "foundation needed first"}, {"a": "t16", "b": "t17", "why": "foundation needed first"}, {"a": "t17", "b": "t18", "why": "foundation needed first"}, {"a": "t20", "b": "t21", "why": "foundation needed first"}, {"a": "t21", "b": "t22", "why": "foundation needed first"}, {"a": "t23", "b": "t24", "why": "foundation needed first"}, {"a": "t21", "b": "t25", "why": "foundation needed first"}, {"a": "t21", "b": "t26", "why": "foundation needed first"}, {"a": "t21", "b": "t27", "why": "foundation needed first"}, {"a": "t27", "b": "t29", "why": "foundation needed first"}, {"a": "t26", "b": "t29", "why": "foundation needed first"}, {"a": "t31", "b": "t32", "why": "foundation needed first"}, {"a": "t38", "b": "t39", "why": "foundation needed first"}, {"a": "t38", "b": "t40", "why": "foundation needed first"}, {"a": "t31", "b": "t41", "why": "foundation needed first"}, {"a": "t32", "b": "t44", "why": "foundation needed first"}, {"a": "t44", "b": "t42", "why": "foundation needed first"}, {"a": "t44", "b": "t45", "why": "foundation needed first"}, {"a": "t46", "b": "t47", "why": "foundation needed first"}, {"a": "t44", "b": "t51", "why": "foundation needed first"}, {"a": "t56", "b": "t57", "why": "foundation needed first"}, {"a": "t33", "b": "t34", "why": "foundation needed first"}]}
+{
+"edges": [
+{
+"a": "t2",
+"b": "t3",
+"why": "filters rely on convolution"
+},
+{
+"a": "t2",
+"b": "t5",
+"why": "corner detectors use convolution gradients"
+},
+{
+"a": "t7",
+"b": "t8",
+"why": "connectedness defined for binary shapes"
+},
+{
+"a": "t8",
+"b": "t9",
+"why": "labelling uses connectedness"
+},
+{
+"a": "t9",
+"b": "t10",
+"why": "size filtering uses labelled objects"
+},
+{
+"a": "t7",
+"b": "t11",
+"why": "distance functions on binary shapes"
+},
+{
+"a": "t11",
+"b": "t12",
+"why": "skeletons use distance functions"
+},
+{
+"a": "t8",
+"b": "t13",
+"why": "hole filling uses connectedness"
+},
+{
+"a": "t7",
+"b": "t14",
+"why": "tracking boundaries of binary shapes"
+},
+{
+"a": "t14",
+"b": "t16",
+"why": "length measured along boundary"
+},
+{
+"a": "t14",
+"b": "t17",
+"why": "descriptors derived from boundary"
+},
+{
+"a": "t17",
+"b": "t18",
+"why": "Fourier descriptors encode boundary"
+},
+{
+"a": "t8",
+"b": "t19",
+"why": "regions defined by connectedness"
+},
+{
+"a": "t20",
+"b": "t21",
+"why": "HT applied to line detection"
+},
+{
+"a": "t21",
+"b": "t22",
+"why": "localization refines HT peaks"
+},
+{
+"a": "t23",
+"b": "t24",
+"why": "RANSAC fits lines robustly"
+},
+{
+"a": "t21",
+"b": "t25",
+"why": "circle HT extends line HT"
+},
+{
+"a": "t21",
+"b": "t26",
+"why": "ellipse HT extends HT"
+},
+{
+"a": "t21",
+"b": "t27",
+"why": "GHT generalizes HT"
+},
+{
+"a": "t27",
+"b": "t29",
+"why": "GHT applied to ellipses"
+},
+{
+"a": "t27",
+"b": "t30",
+"why": "GHT locates objects"
+},
+{
+"a": "t2",
+"b": "t28",
+"why": "matched filtering uses convolution"
+},
+{
+"a": "t31",
+"b": "t32",
+"why": "projection is basis of 3D methods"
+},
+{
+"a": "t31",
+"b": "t33",
+"why": "shape from shading is a 3D method"
+},
+{
+"a": "t31",
+"b": "t35",
+"why": "shape from texture is a 3D method"
+},
+{
+"a": "t31",
+"b": "t36",
+"why": "shape from focus is a 3D method"
+},
+{
+"a": "t31",
+"b": "t37",
+"why": "range finding is a 3D method"
+},
+{
+"a": "t38",
+"b": "t39",
+"why": "point-based is a surface representation"
+},
+{
+"a": "t38",
+"b": "t40",
+"why": "volumetric is a surface representation"
+},
+{
+"a": "t5",
+"b": "t43",
+"why": "SIFT uses interest points"
+},
+{
+"a": "t32",
+"b": "t44",
+"why": "triangulation uses projection geometry"
+},
+{
+"a": "t44",
+"b": "t42",
+"why": "reconstruction uses triangulation"
+},
+{
+"a": "t44",
+"b": "t45",
+"why": "bundle adjustment refines triangulation"
+},
+{
+"a": "t46",
+"b": "t47",
+"why": "parametric motion generalizes translation"
+},
+{
+"a": "t46",
+"b": "t49",
+"why": "optical flow builds on alignment"
+},
+{
+"a": "t47",
+"b": "t50",
+"why": "layers use parametric motion"
+},
+{
+"a": "t44",
+"b": "t51",
+"why": "structure from motion uses triangulation"
+},
+{
+"a": "t49",
+"b": "t51",
+"why": "motion estimated by optical flow"
+},
+{
+"a": "t52",
+"b": "t57",
+"why": "Kalman filter tracks humans"
+},
+{
+"a": "t56",
+"b": "t57",
+"why": "foreground segmentation precedes tracking"
+},
+{
+"a": "t20",
+"b": "t59",
+"why": "road markings are detected lines"
+}
+]
+}

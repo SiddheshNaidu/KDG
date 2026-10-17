@@ -1,0 +1,472 @@
+{
+"course": "2404111",
+"title": "Finite Element Analysis",
+"topics": [
+{
+"id": "t1",
+"name": "Brief History of FEM",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Finite Element Terminology (nodes, elements, domain, continuum, Degrees of freedom, loads & constraints)",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Steps of FEM",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Stress and Equilibrium",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Boundary conditions",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Strain Displacement Relations",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Stress-strain Relations",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Von mises stress",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Temperature effect",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Potential Energy & Equilibrium",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Gelerkin’s Method",
+"module": 1
+},
+{
+"id": "t12",
+"name": "stiffness (Displacement) Method",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Introduction to Ansys Tools( Pre-Processing, Processing and Post-Processing)",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Matrix Multiplication",
+"module": 2
+},
+{
+"id": "t15",
+"name": "Transposition",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Diagonal Matrix",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Symetric Matrix",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Upper Triangular Matrix",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Determinant of Matrix",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Matrix Inversion Eligen values & Elgen vectors",
+"module": 2
+},
+{
+"id": "t21",
+"name": "Gaussian elimination",
+"module": 2
+},
+{
+"id": "t22",
+"name": "Types of 1D element",
+"module": 3
+},
+{
+"id": "t23",
+"name": "Displacement function",
+"module": 3
+},
+{
+"id": "t24",
+"name": "Global and local coordinate systems",
+"module": 3
+},
+{
+"id": "t25",
+"name": "Order of element",
+"module": 3
+},
+{
+"id": "t26",
+"name": "primary and secondary variables",
+"module": 3
+},
+{
+"id": "t27",
+"name": "shape functions and its properties",
+"module": 3
+},
+{
+"id": "t28",
+"name": "Formulation of elemental stiffness matrix and load vector for spring",
+"module": 3
+},
+{
+"id": "t29",
+"name": "bar",
+"module": 3
+},
+{
+"id": "t30",
+"name": "beam",
+"module": 3
+},
+{
+"id": "t31",
+"name": "truss and Plane frame",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Transformation matrix for truss and plane frame",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Assembly of global stiffness matrix and load vector",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Properties of stiffness matrix",
+"module": 3
+},
+{
+"id": "t35",
+"name": "half bandwidth",
+"module": 3
+},
+{
+"id": "t36",
+"name": "Boundary conditions elimination method and penalty approach",
+"module": 3
+},
+{
+"id": "t37",
+"name": "Symmetric boundary conditions",
+"module": 3
+},
+{
+"id": "t38",
+"name": "Stress calculations",
+"module": 3
+},
+{
+"id": "t39",
+"name": "Governing differential equation",
+"module": 4
+},
+{
+"id": "t40",
+"name": "steady-state heat transfer formulation of 1D element for conduction and convection problem",
+"module": 4
+},
+{
+"id": "t41",
+"name": "boundary conditions and solving for temperature distribution",
+"module": 4
+},
+{
+"id": "t42",
+"name": "Types of dynamic analysis",
+"module": 5
+},
+{
+"id": "t43",
+"name": "General dynamic equation of motion",
+"module": 5
+},
+{
+"id": "t44",
+"name": "point and distributed mass",
+"module": 5
+},
+{
+"id": "t45",
+"name": "lumped and Consistent mass",
+"module": 5
+},
+{
+"id": "t46",
+"name": "Mass matrices formulation of bar and beam element",
+"module": 5
+},
+{
+"id": "t47",
+"name": "Undamped-free vibration-Eigen value problem",
+"module": 5
+},
+{
+"id": "t48",
+"name": "Evaluation of eigen values and eigenvectors (natural frequencies and mode shapes)",
+"module": 5
+},
+{
+"id": "t49",
+"name": "Second Order 2D Equations involving Scalar Variable Functions",
+"module": 6
+},
+{
+"id": "t50",
+"name": "Variation formulation –Finite Element formulation",
+"module": 6
+},
+{
+"id": "t51",
+"name": "Triangular elements",
+"module": 6
+},
+{
+"id": "t52",
+"name": "Shape functions and element matrices and vectors",
+"module": 6
+},
+{
+"id": "t53",
+"name": "Application to Field Problems —Torsion of Non circular shafts",
+"module": 6
+},
+{
+"id": "t54",
+"name": "Quadrilateral elements",
+"module": 6
+},
+{
+"id": "t55",
+"name": "Stress analysis of CST",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t12",
+"b": "t30",
+"a_name": "stiffness (Displacement) Method",
+"b_name": "beam"
+},
+{
+"i": 1,
+"a": "t49",
+"b": "t53",
+"a_name": "Second Order 2D Equations involving Scalar Variable Functions",
+"b_name": "Application to Field Problems —Torsion of Non circular shafts"
+},
+{
+"i": 2,
+"a": "t12",
+"b": "t29",
+"a_name": "stiffness (Displacement) Method",
+"b_name": "bar"
+},
+{
+"i": 3,
+"a": "t10",
+"b": "t12",
+"a_name": "Potential Energy & Equilibrium",
+"b_name": "stiffness (Displacement) Method"
+},
+{
+"i": 4,
+"a": "t11",
+"b": "t50",
+"a_name": "Gelerkin’s Method",
+"b_name": "Variation formulation –Finite Element formulation"
+},
+{
+"i": 5,
+"a": "t14",
+"b": "t15",
+"a_name": "Matrix Multiplication",
+"b_name": "Transposition"
+},
+{
+"i": 6,
+"a": "t27",
+"b": "t40",
+"a_name": "shape functions and its properties",
+"b_name": "steady-state heat transfer formulation of 1D element for conduction and convection problem"
+},
+{
+"i": 7,
+"a": "t6",
+"b": "t38",
+"a_name": "Strain Displacement Relations",
+"b_name": "Stress calculations"
+},
+{
+"i": 8,
+"a": "t6",
+"b": "t10",
+"a_name": "Strain Displacement Relations",
+"b_name": "Potential Energy & Equilibrium"
+},
+{
+"i": 9,
+"a": "t6",
+"b": "t29",
+"a_name": "Strain Displacement Relations",
+"b_name": "bar"
+},
+{
+"i": 10,
+"a": "t5",
+"b": "t41",
+"a_name": "Boundary conditions",
+"b_name": "boundary conditions and solving for temperature distribution"
+},
+{
+"i": 11,
+"a": "t30",
+"b": "t31",
+"a_name": "beam",
+"b_name": "truss and Plane frame"
+},
+{
+"i": 12,
+"a": "t27",
+"b": "t31",
+"a_name": "shape functions and its properties",
+"b_name": "truss and Plane frame"
+},
+{
+"i": 13,
+"a": "t14",
+"b": "t19",
+"a_name": "Matrix Multiplication",
+"b_name": "Determinant of Matrix"
+},
+{
+"i": 14,
+"a": "t28",
+"b": "t33",
+"a_name": "Formulation of elemental stiffness matrix and load vector for spring",
+"b_name": "Assembly of global stiffness matrix and load vector"
+},
+{
+"i": 15,
+"a": "t5",
+"b": "t36",
+"a_name": "Boundary conditions",
+"b_name": "Boundary conditions elimination method and penalty approach"
+},
+{
+"i": 16,
+"a": "t29",
+"b": "t31",
+"a_name": "bar",
+"b_name": "truss and Plane frame"
+},
+{
+"i": 17,
+"a": "t3",
+"b": "t13",
+"a_name": "Steps of FEM",
+"b_name": "Introduction to Ansys Tools( Pre-Processing, Processing and Post-Processing)"
+},
+{
+"i": 18,
+"a": "t20",
+"b": "t48",
+"a_name": "Matrix Inversion Eligen values & Elgen vectors",
+"b_name": "Evaluation of eigen values and eigenvectors (natural frequencies and mode shapes)"
+},
+{
+"i": 19,
+"a": "t46",
+"b": "t47",
+"a_name": "Mass matrices formulation of bar and beam element",
+"b_name": "Undamped-free vibration-Eigen value problem"
+},
+{
+"i": 20,
+"a": "t5",
+"b": "t37",
+"a_name": "Boundary conditions",
+"b_name": "Symmetric boundary conditions"
+},
+{
+"i": 21,
+"a": "t17",
+"b": "t34",
+"a_name": "Symetric Matrix",
+"b_name": "Properties of stiffness matrix"
+},
+{
+"i": 22,
+"a": "t50",
+"b": "t52",
+"a_name": "Variation formulation –Finite Element formulation",
+"b_name": "Shape functions and element matrices and vectors"
+},
+{
+"i": 23,
+"a": "t27",
+"b": "t52",
+"a_name": "shape functions and its properties",
+"b_name": "Shape functions and element matrices and vectors"
+},
+{
+"i": 24,
+"a": "t15",
+"b": "t17",
+"a_name": "Transposition",
+"b_name": "Symetric Matrix"
+},
+{
+"i": 25,
+"a": "t20",
+"b": "t47",
+"a_name": "Matrix Inversion Eligen values & Elgen vectors",
+"b_name": "Undamped-free vibration-Eigen value problem"
+},
+{
+"i": 26,
+"a": "t7",
+"b": "t10",
+"a_name": "Stress-strain Relations",
+"b_name": "Potential Energy & Equilibrium"
+}
+]
+}

@@ -399,7 +399,7 @@
 },
 {
 "id": "t80",
-"name": "Free- Space Management",
+"name": "Free-Space Management",
 "module": 5
 },
 {
@@ -464,7 +464,7 @@
 },
 {
 "id": "t93",
-"name": "Real- Time Operating System",
+"name": "Real-Time Operating System",
 "module": 6
 },
 {
@@ -486,262 +486,185 @@
 "candidates": [
 {
 "i": 0,
-"a": "t51",
-"b": "t52",
-"a_name": "Memory Management strategies",
-"b_name": "Background"
-},
-{
-"i": 1,
 "a": "t83",
 "b": "t86",
 "a_name": "Overview of Mass Storage Structure",
 "b_name": "RAID Structure"
 },
 {
+"i": 1,
+"a": "t20",
+"b": "t34",
+"a_name": "Mmultithreading",
+"b_name": "Thread Scheduling and Multiple Processor Scheduling"
+},
+{
 "i": 2,
-"a": "t32",
-"b": "t33",
-"a_name": "Scheduling algorithms",
-"b_name": "Preemptive and Non-preemptive"
+"a": "t26",
+"b": "t32",
+"a_name": "Scheduling criteria",
+"b_name": "Scheduling algorithms"
 },
 {
 "i": 3,
-"a": "t1",
-"b": "t7",
-"a_name": "Basics of Operating System",
-"b_name": "System Structure"
+"a": "t64",
+"b": "t65",
+"a_name": "Locality of reference",
+"b_name": "Demand Paging"
 },
 {
 "i": 4,
-"a": "t14",
-"b": "t44",
-"a_name": "Processes",
-"b_name": "System Model"
+"a": "t64",
+"b": "t67",
+"a_name": "Locality of reference",
+"b_name": "Thrashing"
 },
 {
 "i": 5,
-"a": "t35",
-"b": "t36",
-"a_name": "Synchronization",
-"b_name": "Inter-process Communication and Synchronization"
+"a": "t77",
+"b": "t81",
+"a_name": "File-System Implementation",
+"b_name": "Efficiency and Performance"
 },
 {
 "i": 6,
-"a": "t76",
-"b": "t77",
-"a_name": "File-System Structure",
-"b_name": "File-System Implementation"
+"a": "t4",
+"b": "t5",
+"a_name": "Process management",
+"b_name": "Memory management"
 },
 {
 "i": 7,
-"a": "t32",
-"b": "t93",
-"a_name": "Scheduling algorithms",
-"b_name": "Real- Time Operating System"
+"a": "t1",
+"b": "t2",
+"a_name": "Basics of Operating System",
+"b_name": "Types of Operating Systems"
 },
 {
 "i": 8,
-"a": "t62",
-"b": "t63",
-"a_name": "Virtual Memory basics",
-"b_name": "Hardware and control structures"
+"a": "t45",
+"b": "t46",
+"a_name": "Deadlock Characterization",
+"b_name": "Methods for Handling Deadlocks"
 },
 {
 "i": 9,
-"a": "t19",
-"b": "t21",
-"a_name": "Threads",
-"b_name": "Thread models"
+"a": "t59",
+"b": "t62",
+"a_name": "Paging",
+"b_name": "Virtual Memory basics"
 },
 {
 "i": 10,
-"a": "t46",
-"b": "t50",
-"a_name": "Methods for Handling Deadlocks",
-"b_name": "Recovery from Deadlock"
+"a": "t33",
+"b": "t32",
+"a_name": "Preemptive and Non-preemptive",
+"b_name": "Scheduling algorithms"
 },
 {
 "i": 11,
+"a": "t71",
+"b": "t78",
+"a_name": "Directory and DiskStructure",
+"b_name": "Directory Implementation"
+},
+{
+"i": 12,
+"a": "t71",
+"b": "t72",
+"a_name": "Directory and DiskStructure",
+"b_name": "File-System Mounting"
+},
+{
+"i": 13,
+"a": "t35",
+"b": "t37",
+"a_name": "Synchronization",
+"b_name": "Race Condition"
+},
+{
+"i": 14,
+"a": "t23",
+"b": "t24",
+"a_name": "Process Scheduling",
+"b_name": "Scheduling objectives"
+},
+{
+"i": 15,
+"a": "t68",
+"b": "t69",
+"a_name": "File system",
+"b_name": "File Concept"
+},
+{
+"i": 16,
 "a": "t23",
 "b": "t33",
 "a_name": "Process Scheduling",
 "b_name": "Preemptive and Non-preemptive"
 },
 {
-"i": 12,
-"a": "t75",
-"b": "t77",
-"a_name": "Implementing file System",
-"b_name": "File-System Implementation"
-},
-{
-"i": 13,
-"a": "t46",
-"b": "t49",
-"a_name": "Methods for Handling Deadlocks",
-"b_name": "Deadlock Detection"
-},
-{
-"i": 14,
-"a": "t11",
-"b": "t12",
-"a_name": "Operating System Design and implementation",
-"b_name": "OS structure"
-},
-{
-"i": 15,
-"a": "t36",
-"b": "t37",
-"a_name": "Inter-process Communication and Synchronization",
-"b_name": "Race Condition"
-},
-{
-"i": 16,
-"a": "t89",
-"b": "t90",
-"a_name": "Fundamentals of Distributed Operating System",
-"b_name": "Network Operating System"
-},
-{
 "i": 17,
-"a": "t83",
-"b": "t87",
-"a_name": "Overview of Mass Storage Structure",
-"b_name": "Introduction to I/O Systems"
-},
-{
-"i": 18,
-"a": "t3",
-"b": "t4",
-"a_name": "OS Structure and operations",
-"b_name": "Process management"
-},
-{
-"i": 19,
-"a": "t66",
-"b": "t67",
-"a_name": "Page replacement Algorithms",
-"b_name": "Thrashing"
-},
-{
-"i": 20,
-"a": "t7",
-"b": "t8",
-"a_name": "System Structure",
-"b_name": "Operating system services and interface"
-},
-{
-"i": 21,
-"a": "t59",
-"b": "t65",
-"a_name": "Paging",
-"b_name": "Demand Paging"
-},
-{
-"i": 22,
-"a": "t3",
-"b": "t5",
-"a_name": "OS Structure and operations",
-"b_name": "Memory management"
-},
-{
-"i": 23,
-"a": "t69",
-"b": "t71",
-"a_name": "File Concept",
-"b_name": "Directory and DiskStructure"
-},
-{
-"i": 24,
-"a": "t45",
-"b": "t48",
-"a_name": "Deadlock Characterization",
-"b_name": "Deadlock Avoidance"
-},
-{
-"i": 25,
 "a": "t65",
 "b": "t67",
 "a_name": "Demand Paging",
 "b_name": "Thrashing"
 },
 {
-"i": 26,
-"a": "t46",
-"b": "t48",
-"a_name": "Methods for Handling Deadlocks",
-"b_name": "Deadlock Avoidance"
+"i": 18,
+"a": "t14",
+"b": "t36",
+"a_name": "Processes",
+"b_name": "Inter-process Communication and Synchronization"
 },
 {
-"i": 27,
-"a": "t45",
-"b": "t49",
-"a_name": "Deadlock Characterization",
-"b_name": "Deadlock Detection"
+"i": 19,
+"a": "t89",
+"b": "t90",
+"a_name": "Fundamentals of Distributed Operating System",
+"b_name": "Network Operating System"
 },
 {
-"i": 28,
-"a": "t45",
-"b": "t47",
-"a_name": "Deadlock Characterization",
-"b_name": "Deadlock Prevention"
-},
-{
-"i": 29,
-"a": "t3",
-"b": "t6",
-"a_name": "OS Structure and operations",
-"b_name": "storage management"
-},
-{
-"i": 30,
-"a": "t51",
+"i": 20,
+"a": "t52",
 "b": "t58",
-"a_name": "Memory Management strategies",
+"a_name": "Background",
 "b_name": "Swapping"
 },
 {
-"i": 31,
-"a": "t35",
-"b": "t37",
-"a_name": "Synchronization",
-"b_name": "Race Condition"
+"i": 21,
+"a": "t12",
+"b": "t13",
+"a_name": "OS structure",
+"b_name": "Virtual machines"
 },
 {
-"i": 32,
-"a": "t79",
-"b": "t80",
-"a_name": "Allocation Methods",
-"b_name": "Free- Space Management"
+"i": 22,
+"a": "t56",
+"b": "t57",
+"a_name": "Fixed and variable partition",
+"b_name": "Internal and External fragmentation and Compaction"
 },
 {
-"i": 33,
-"a": "t77",
-"b": "t80",
-"a_name": "File-System Implementation",
-"b_name": "Free- Space Management"
+"i": 23,
+"a": "t19",
+"b": "t34",
+"a_name": "Threads",
+"b_name": "Thread Scheduling and Multiple Processor Scheduling"
 },
 {
-"i": 34,
-"a": "t49",
-"b": "t50",
-"a_name": "Deadlock Detection",
-"b_name": "Recovery from Deadlock"
+"i": 24,
+"a": "t55",
+"b": "t57",
+"a_name": "Contiguous Memory allocation",
+"b_name": "Internal and External fragmentation and Compaction"
 },
 {
-"i": 35,
-"a": "t7",
-"b": "t11",
-"a_name": "System Structure",
-"b_name": "Operating System Design and implementation"
-},
-{
-"i": 36,
-"a": "t20",
-"b": "t21",
-"a_name": "Mmultithreading",
-"b_name": "Thread models"
+"i": 25,
+"a": "t43",
+"b": "t44",
+"a_name": "Deadlocks",
+"b_name": "System Model"
 }
 ]
 }

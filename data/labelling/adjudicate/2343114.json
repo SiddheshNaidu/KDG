@@ -191,122 +191,122 @@
 "candidates": [
 {
 "i": 0,
-"a": "t5",
-"b": "t6",
-"a_name": "Regular Grammars",
-"b_name": "RL and LL grammars"
+"a": "t10",
+"b": "t16",
+"a_name": "NFA ( with and without ε)",
+"b_name": "FA to RE"
 },
 {
 "i": 1,
-"a": "t11",
-"b": "t20",
-"a_name": "DFA",
-"b_name": "Limitations of FA"
+"a": "t1",
+"b": "t5",
+"a_name": "Languages",
+"b_name": "Regular Grammars"
 },
 {
 "i": 2,
-"a": "t10",
-"b": "t35",
-"a_name": "NFA ( with and without ε)",
-"b_name": "Applications of FA"
-},
-{
-"i": 3,
-"a": "t30",
-"b": "t32",
-"a_name": "Turing Machine",
-"b_name": "Variants of TM"
-},
-{
-"i": 4,
-"a": "t13",
-"b": "t15",
-"a_name": "NFA to DFA",
-"b_name": "NFA-DFA equivalence"
-},
-{
-"i": 5,
-"a": "t13",
-"b": "t14",
-"a_name": "NFA to DFA",
-"b_name": "Reduced DFA"
-},
-{
-"i": 6,
-"a": "t8",
-"b": "t9",
-"a_name": "Finite Automata",
-"b_name": "FA as language acceptor or verifier"
-},
-{
-"i": 7,
-"a": "t11",
-"b": "t14",
-"a_name": "DFA",
-"b_name": "Reduced DFA"
-},
-{
-"i": 8,
-"a": "t26",
-"b": "t36",
-"a_name": "Push Down Automata",
-"b_name": "PDA & TM"
-},
-{
-"i": 9,
-"a": "t11",
-"b": "t10",
-"a_name": "DFA",
-"b_name": "NFA ( with and without ε)"
-},
-{
-"i": 10,
-"a": "t10",
-"b": "t15",
-"a_name": "NFA ( with and without ε)",
-"b_name": "NFA-DFA equivalence"
-},
-{
-"i": 11,
 "a": "t22",
 "b": "t24",
 "a_name": "CFG",
 "b_name": "Ambiguity"
 },
 {
-"i": 12,
-"a": "t10",
-"b": "t26",
-"a_name": "NFA ( with and without ε)",
-"b_name": "Push Down Automata"
+"i": 3,
+"a": "t3",
+"b": "t4",
+"a_name": "Regular Languages",
+"b_name": "Regular Expressions"
 },
 {
-"i": 13,
+"i": 4,
 "a": "t8",
-"b": "t20",
+"b": "t9",
 "a_name": "Finite Automata",
-"b_name": "Limitations of FA"
+"b_name": "FA as language acceptor or verifier"
 },
 {
-"i": 14,
-"a": "t31",
-"b": "t32",
-"a_name": "Deterministic TM",
-"b_name": "Variants of TM"
-},
-{
-"i": 15,
+"i": 5,
 "a": "t8",
 "b": "t35",
 "a_name": "Finite Automata",
 "b_name": "Applications of FA"
 },
 {
-"i": 16,
+"i": 6,
+"a": "t11",
+"b": "t17",
+"a_name": "DFA",
+"b_name": "Finite State Machines with output"
+},
+{
+"i": 7,
+"a": "t11",
+"b": "t13",
+"a_name": "DFA",
+"b_name": "NFA to DFA"
+},
+{
+"i": 8,
+"a": "t8",
+"b": "t17",
+"a_name": "Finite Automata",
+"b_name": "Finite State Machines with output"
+},
+{
+"i": 9,
+"a": "t2",
+"b": "t4",
+"a_name": "Alphabets and Strings",
+"b_name": "Regular Expressions"
+},
+{
+"i": 10,
+"a": "t30",
+"b": "t36",
+"a_name": "Turing Machine",
+"b_name": "PDA & TM"
+},
+{
+"i": 11,
+"a": "t21",
+"b": "t22",
+"a_name": "Context Free Languages",
+"b_name": "CFG"
+},
+{
+"i": 12,
 "a": "t3",
 "b": "t5",
 "a_name": "Regular Languages",
 "b_name": "Regular Grammars"
+},
+{
+"i": 13,
+"a": "t26",
+"b": "t30",
+"a_name": "Push Down Automata",
+"b_name": "Turing Machine"
+},
+{
+"i": 14,
+"a": "t8",
+"b": "t10",
+"a_name": "Finite Automata",
+"b_name": "NFA ( with and without ε)"
+},
+{
+"i": 15,
+"a": "t5",
+"b": "t6",
+"a_name": "Regular Grammars",
+"b_name": "RL and LL grammars"
+},
+{
+"i": 16,
+"a": "t5",
+"b": "t22",
+"a_name": "Regular Grammars",
+"b_name": "CFG"
 }
 ]
 }

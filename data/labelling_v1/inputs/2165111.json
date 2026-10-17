@@ -1,0 +1,887 @@
+{
+"course": "2165111",
+"title": "Statistics for Machine Learning and Data Science",
+"modules": [
+{
+"index": 1,
+"name": "Statistical Foundations, Covariance, and Sampling"
+},
+{
+"index": 2,
+"name": "Statistical Inference, Estimation & Resampling"
+},
+{
+"index": 3,
+"name": "Regression Models, Regularization & Nonlinear Models"
+},
+{
+"index": 4,
+"name": "Classification & Supervised Learning"
+},
+{
+"index": 5,
+"name": "Unsupervised Learning & Dimensionality Reduction"
+},
+{
+"index": 6,
+"name": "Model Evaluation, Bayesian Inference & Ethics"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Types of data",
+"module": 1
+},
+{
+"id": "t2",
+"name": "categorical",
+"module": 1
+},
+{
+"id": "t3",
+"name": "ordinal",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Descriptive statistics",
+"module": 1
+},
+{
+"id": "t5",
+"name": "central tendency",
+"module": 1
+},
+{
+"id": "t6",
+"name": "dispersion",
+"module": 1
+},
+{
+"id": "t7",
+"name": "skewness",
+"module": 1
+},
+{
+"id": "t8",
+"name": "kurtosis",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Data visualization",
+"module": 1
+},
+{
+"id": "t10",
+"name": "histograms",
+"module": 1
+},
+{
+"id": "t11",
+"name": "boxplots",
+"module": 1
+},
+{
+"id": "t12",
+"name": "scatter plots",
+"module": 1
+},
+{
+"id": "t13",
+"name": "pair plots",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Probability distributions",
+"module": 1
+},
+{
+"id": "t15",
+"name": "Normal",
+"module": 1
+},
+{
+"id": "t16",
+"name": "Binomial",
+"module": 1
+},
+{
+"id": "t17",
+"name": "Poisson",
+"module": 1
+},
+{
+"id": "t18",
+"name": "Exponential",
+"module": 1
+},
+{
+"id": "t19",
+"name": "Uniform",
+"module": 1
+},
+{
+"id": "t20",
+"name": "Beta",
+"module": 1
+},
+{
+"id": "t21",
+"name": "Gamma",
+"module": 1
+},
+{
+"id": "t22",
+"name": "Covariance",
+"module": 1
+},
+{
+"id": "t23",
+"name": "correlation",
+"module": 1
+},
+{
+"id": "t24",
+"name": "confounding",
+"module": 1
+},
+{
+"id": "t25",
+"name": "correlation matrices",
+"module": 1
+},
+{
+"id": "t26",
+"name": "Distance measures",
+"module": 1
+},
+{
+"id": "t27",
+"name": "Euclidean",
+"module": 1
+},
+{
+"id": "t28",
+"name": "Manhattan",
+"module": 1
+},
+{
+"id": "t29",
+"name": "Cosine",
+"module": 1
+},
+{
+"id": "t30",
+"name": "Sampling techniques",
+"module": 1
+},
+{
+"id": "t31",
+"name": "simple random",
+"module": 1
+},
+{
+"id": "t32",
+"name": "stratified",
+"module": 1
+},
+{
+"id": "t33",
+"name": "cluster",
+"module": 1
+},
+{
+"id": "t34",
+"name": "Central Limit Theorem (CLT) and Law of Large Numbers",
+"module": 1
+},
+{
+"id": "t35",
+"name": "Data preprocessing",
+"module": 1
+},
+{
+"id": "t36",
+"name": "handling missing values",
+"module": 1
+},
+{
+"id": "t37",
+"name": "outlier treatment",
+"module": 1
+},
+{
+"id": "t38",
+"name": "encoding",
+"module": 1
+},
+{
+"id": "t39",
+"name": "normalization",
+"module": 1
+},
+{
+"id": "t40",
+"name": "Point estimates",
+"module": 2
+},
+{
+"id": "t41",
+"name": "properties of estimators",
+"module": 2
+},
+{
+"id": "t42",
+"name": "bias",
+"module": 2
+},
+{
+"id": "t43",
+"name": "variance",
+"module": 2
+},
+{
+"id": "t44",
+"name": "MSE",
+"module": 2
+},
+{
+"id": "t45",
+"name": "Maximum Likelihood Estimation (MLE) and Method of Moments",
+"module": 2
+},
+{
+"id": "t46",
+"name": "Confidence intervals (mean, proportion, variance)",
+"module": 2
+},
+{
+"id": "t47",
+"name": "Hypothesis testing",
+"module": 2
+},
+{
+"id": "t48",
+"name": "z-test",
+"module": 2
+},
+{
+"id": "t49",
+"name": "t-test",
+"module": 2
+},
+{
+"id": "t50",
+"name": "chi- square",
+"module": 2
+},
+{
+"id": "t51",
+"name": "ANOVA",
+"module": 2
+},
+{
+"id": "t52",
+"name": "Nonparametric tests",
+"module": 2
+},
+{
+"id": "t53",
+"name": "Mann",
+"module": 2
+},
+{
+"id": "t54",
+"name": "Whitney U",
+"module": 2
+},
+{
+"id": "t55",
+"name": "Kruskal",
+"module": 2
+},
+{
+"id": "t56",
+"name": "Wallis",
+"module": 2
+},
+{
+"id": "t57",
+"name": "Resampling methods",
+"module": 2
+},
+{
+"id": "t58",
+"name": "bootstrap CI",
+"module": 2
+},
+{
+"id": "t59",
+"name": "permutation tests",
+"module": 2
+},
+{
+"id": "t60",
+"name": "Likelihood Ratio Tests (LRT)",
+"module": 2
+},
+{
+"id": "t61",
+"name": "Multiple testing correction",
+"module": 2
+},
+{
+"id": "t62",
+"name": "Bonferroni & FDR",
+"module": 2
+},
+{
+"id": "t63",
+"name": "Introduction to Monte Carlo simulation for sampling distribution approximation",
+"module": 2
+},
+{
+"id": "t64",
+"name": "Simple & multiple linear regression",
+"module": 3
+},
+{
+"id": "t65",
+"name": "Model assumptions",
+"module": 3
+},
+{
+"id": "t66",
+"name": "residual analysis",
+"module": 3
+},
+{
+"id": "t67",
+"name": "multicollinearity (VIF)",
+"module": 3
+},
+{
+"id": "t68",
+"name": "leverage",
+"module": 3
+},
+{
+"id": "t69",
+"name": "Cook’s distance",
+"module": 3
+},
+{
+"id": "t70",
+"name": "Polynomial regression and interaction effects",
+"module": 3
+},
+{
+"id": "t71",
+"name": "Nonlinear regression models",
+"module": 3
+},
+{
+"id": "t72",
+"name": "Regularization",
+"module": 3
+},
+{
+"id": "t73",
+"name": "Ridge",
+"module": 3
+},
+{
+"id": "t74",
+"name": "Lasso",
+"module": 3
+},
+{
+"id": "t75",
+"name": "Elastic Net",
+"module": 3
+},
+{
+"id": "t76",
+"name": "Spline regression",
+"module": 3
+},
+{
+"id": "t77",
+"name": "LOESS (conceptual)",
+"module": 3
+},
+{
+"id": "t78",
+"name": "Generalized Linear Models (GLM)",
+"module": 3
+},
+{
+"id": "t79",
+"name": "logistic (binary)",
+"module": 3
+},
+{
+"id": "t80",
+"name": "Poisson (count data)",
+"module": 3
+},
+{
+"id": "t81",
+"name": "Model evaluation metrics",
+"module": 3
+},
+{
+"id": "t82",
+"name": "MAE",
+"module": 3
+},
+{
+"id": "t83",
+"name": "RMSE",
+"module": 3
+},
+{
+"id": "t84",
+"name": "Adjusted R2",
+"module": 3
+},
+{
+"id": "t85",
+"name": "Subset selection",
+"module": 3
+},
+{
+"id": "t86",
+"name": "forward",
+"module": 3
+},
+{
+"id": "t87",
+"name": "backward (overview)",
+"module": 3
+},
+{
+"id": "t88",
+"name": "Model calibration and interpretability basics",
+"module": 3
+},
+{
+"id": "t89",
+"name": "Classification metrics",
+"module": 4
+},
+{
+"id": "t90",
+"name": "accuracy",
+"module": 4
+},
+{
+"id": "t91",
+"name": "precision",
+"module": 4
+},
+{
+"id": "t92",
+"name": "recall",
+"module": 4
+},
+{
+"id": "t93",
+"name": "ROC",
+"module": 4
+},
+{
+"id": "t94",
+"name": "AUC",
+"module": 4
+},
+{
+"id": "t95",
+"name": "PR curves",
+"module": 4
+},
+{
+"id": "t96",
+"name": "Logistic regression",
+"module": 4
+},
+{
+"id": "t97",
+"name": "odds ratio",
+"module": 4
+},
+{
+"id": "t98",
+"name": "decision boundary",
+"module": 4
+},
+{
+"id": "t99",
+"name": "Naïve Bayes (Frequentist and Bayesian views). k-NN classifier",
+"module": 4
+},
+{
+"id": "t100",
+"name": "Decision Trees & pruning",
+"module": 4
+},
+{
+"id": "t101",
+"name": "Ensemble methods",
+"module": 4
+},
+{
+"id": "t102",
+"name": "Bagging",
+"module": 4
+},
+{
+"id": "t103",
+"name": "Random Forest",
+"module": 4
+},
+{
+"id": "t104",
+"name": "Gradient Boosting (overview)",
+"module": 4
+},
+{
+"id": "t105",
+"name": "Support Vector Machines (SVM)",
+"module": 4
+},
+{
+"id": "t106",
+"name": "linear & kernel trick",
+"module": 4
+},
+{
+"id": "t107",
+"name": "(conceptual)",
+"module": 4
+},
+{
+"id": "t108",
+"name": "Handling imbalanced data",
+"module": 4
+},
+{
+"id": "t109",
+"name": "SMOTE",
+"module": 4
+},
+{
+"id": "t110",
+"name": "class weights",
+"module": 4
+},
+{
+"id": "t111",
+"name": "stratified splits",
+"module": 4
+},
+{
+"id": "t112",
+"name": "Confusion matrix analysis & error trade-offs",
+"module": 4
+},
+{
+"id": "t113",
+"name": "Model calibration",
+"module": 4
+},
+{
+"id": "t114",
+"name": "Platt scaling & isotonic regression (overview)",
+"module": 4
+},
+{
+"id": "t115",
+"name": "PCA",
+"module": 5
+},
+{
+"id": "t116",
+"name": "covariance matrix",
+"module": 5
+},
+{
+"id": "t117",
+"name": "Eigen decomposition",
+"module": 5
+},
+{
+"id": "t118",
+"name": "explained variance",
+"module": 5
+},
+{
+"id": "t119",
+"name": "LDA (supervised dimensionality reduction)",
+"module": 5
+},
+{
+"id": "t120",
+"name": "Kernel PCA & ICA (conceptual overview)",
+"module": 5
+},
+{
+"id": "t121",
+"name": "Clustering",
+"module": 5
+},
+{
+"id": "t122",
+"name": "K-means",
+"module": 5
+},
+{
+"id": "t123",
+"name": "hierarchical",
+"module": 5
+},
+{
+"id": "t124",
+"name": "DBSCAN",
+"module": 5
+},
+{
+"id": "t125",
+"name": "Cluster evaluation",
+"module": 5
+},
+{
+"id": "t126",
+"name": "silhouette score",
+"module": 5
+},
+{
+"id": "t127",
+"name": "Davies",
+"module": 5
+},
+{
+"id": "t128",
+"name": "Bouldin index",
+"module": 5
+},
+{
+"id": "t129",
+"name": "Dimensionality reduction for visualization",
+"module": 5
+},
+{
+"id": "t130",
+"name": "t- SNE",
+"module": 5
+},
+{
+"id": "t131",
+"name": "UMAP (conceptual)",
+"module": 5
+},
+{
+"id": "t132",
+"name": "Outlier detection methods",
+"module": 5
+},
+{
+"id": "t133",
+"name": "Z-score",
+"module": 5
+},
+{
+"id": "t134",
+"name": "IQR",
+"module": 5
+},
+{
+"id": "t135",
+"name": "Isolation Forest (intro)",
+"module": 5
+},
+{
+"id": "t136",
+"name": "Local Outlier Factor (LOF)",
+"module": 5
+},
+{
+"id": "t137",
+"name": "conceptual overview",
+"module": 5
+},
+{
+"id": "t138",
+"name": "Model selection",
+"module": 6
+},
+{
+"id": "t139",
+"name": "AIC",
+"module": 6
+},
+{
+"id": "t140",
+"name": "BIC",
+"module": 6
+},
+{
+"id": "t141",
+"name": "variance trade- off",
+"module": 6
+},
+{
+"id": "t142",
+"name": "Cross-validation",
+"module": 6
+},
+{
+"id": "t143",
+"name": "k-fold",
+"module": 6
+},
+{
+"id": "t144",
+"name": "LOOCV",
+"module": 6
+},
+{
+"id": "t145",
+"name": "repeated CV",
+"module": 6
+},
+{
+"id": "t146",
+"name": "Calibration curves and Brier score (conceptual)",
+"module": 6
+},
+{
+"id": "t147",
+"name": "Bayesian fundamentals",
+"module": 6
+},
+{
+"id": "t148",
+"name": "prior",
+"module": 6
+},
+{
+"id": "t149",
+"name": "likelihood",
+"module": 6
+},
+{
+"id": "t150",
+"name": "posterior",
+"module": 6
+},
+{
+"id": "t151",
+"name": "MAP vs MLE",
+"module": 6
+},
+{
+"id": "t152",
+"name": "conjugate priors (Beta–Bernoulli, Normal–Normal)",
+"module": 6
+},
+{
+"id": "t153",
+"name": "Naïve Bayes from Bayesian perspective",
+"module": 6
+},
+{
+"id": "t154",
+"name": "Interpretability tools (conceptual)",
+"module": 6
+},
+{
+"id": "t155",
+"name": "SHAP",
+"module": 6
+},
+{
+"id": "t156",
+"name": "LIME",
+"module": 6
+},
+{
+"id": "t157",
+"name": "PDP",
+"module": 6
+},
+{
+"id": "t158",
+"name": "ICE",
+"module": 6
+},
+{
+"id": "t159",
+"name": "Fairness in ML",
+"module": 6
+},
+{
+"id": "t160",
+"name": "equalized odds",
+"module": 6
+},
+{
+"id": "t161",
+"name": "demographic parity",
+"module": 6
+},
+{
+"id": "t162",
+"name": "Ethical considerations",
+"module": 6
+},
+{
+"id": "t163",
+"name": "model bias",
+"module": 6
+},
+{
+"id": "t164",
+"name": "transparency",
+"module": 6
+},
+{
+"id": "t165",
+"name": "data leakage",
+"module": 6
+},
+{
+"id": "t166",
+"name": "Data Privacy Overview",
+"module": 6
+},
+{
+"id": "t167",
+"name": "anonymization",
+"module": 6
+},
+{
+"id": "t168",
+"name": "differential privacy",
+"module": 6
+},
+{
+"id": "t169",
+"name": "Reproducible ML",
+"module": 6
+},
+{
+"id": "t170",
+"name": "dataset versioning",
+"module": 6
+},
+{
+"id": "t171",
+"name": "MLflow / Weights & Biases (W&B conceptual)",
+"module": 6
+}
+]
+}

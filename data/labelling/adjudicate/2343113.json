@@ -339,41 +339,36 @@
 },
 {
 "id": "t68",
-"name": "Serializability",
+"name": "Serializability – Conflict and View",
 "module": 6
 },
 {
 "id": "t69",
-"name": "Conflict and View",
-"module": 6
-},
-{
-"id": "t70",
 "name": "Concurrency Control",
 "module": 6
 },
 {
-"id": "t71",
+"id": "t70",
 "name": "Lock-based-protocols",
 "module": 6
 },
 {
-"id": "t72",
+"id": "t71",
 "name": "Deadlock handling Timestamp-based protocols",
 "module": 6
 },
 {
-"id": "t73",
+"id": "t72",
 "name": "Recovery System",
 "module": 6
 },
 {
-"id": "t74",
+"id": "t73",
 "name": "Recovery Concepts",
 "module": 6
 },
 {
-"id": "t75",
+"id": "t74",
 "name": "Log based recovery",
 "module": 6
 }
@@ -381,101 +376,101 @@
 "candidates": [
 {
 "i": 0,
-"a": "t73",
-"b": "t75",
-"a_name": "Recovery System",
-"b_name": "Log based recovery"
+"a": "t37",
+"b": "t41",
+"a_name": "Overview of SQL",
+"b_name": "null values"
 },
 {
 "i": 1,
-"a": "t17",
-"b": "t18",
-"a_name": "Entity Type",
-"b_name": "Entity Sets"
+"a": "t37",
+"b": "t47",
+"a_name": "Overview of SQL",
+"b_name": "Database Programming with JDBC"
 },
 {
 "i": 2,
-"a": "t4",
-"b": "t5",
-"a_name": "DBMS system architecture",
-"b_name": "Database Administrator (DBA)"
+"a": "t45",
+"b": "t44",
+"a_name": "nested Queries",
+"b_name": "Recursive Queries"
 },
 {
 "i": 3,
-"a": "t19",
-"b": "t28",
-"a_name": "Attributes and Keys",
-"b_name": "Concept of Keys"
+"a": "t26",
+"b": "t37",
+"a_name": "Introduction to Relational Model",
+"b_name": "Overview of SQL"
 },
 {
 "i": 4,
+"a": "t37",
+"b": "t40",
+"a_name": "Overview of SQL",
+"b_name": "Aggregate Function"
+},
+{
+"i": 5,
+"a": "t31",
+"b": "t46",
+"a_name": "Foreign Key",
+"b_name": "Integrity constraints in SQL"
+},
+{
+"i": 6,
+"a": "t38",
+"b": "t42",
+"a_name": "Data Definition Commands",
+"b_name": "Data Manipulation commands"
+},
+{
+"i": 7,
+"a": "t35",
+"b": "t36",
+"a_name": "Set Theory operations",
+"b_name": "Binary Relational operation Relational Algebra Queries"
+},
+{
+"i": 8,
+"a": "t28",
+"b": "t54",
+"a_name": "Concept of Keys",
+"b_name": "Functional Dependencies"
+},
+{
+"i": 9,
+"a": "t1",
+"b": "t3",
+"a_name": "Characteristics of Databases",
+"b_name": "Data abstraction and Data Independence"
+},
+{
+"i": 10,
+"a": "t57",
+"b": "t59",
+"a_name": "normalization process",
+"b_name": "Definition of Normal Forms- 1NF"
+},
+{
+"i": 11,
+"a": "t68",
+"b": "t69",
+"a_name": "Serializability – Conflict and View",
+"b_name": "Concurrency Control"
+},
+{
+"i": 12,
 "a": "t37",
 "b": "t39",
 "a_name": "Overview of SQL",
 "b_name": "Set Operations"
 },
 {
-"i": 5,
-"a": "t16",
-"b": "t23",
-"a_name": "Entity-Relationship (ER) Model",
-"b_name": "Generalization"
-},
-{
-"i": 6,
-"a": "t43",
-"b": "t49",
-"a_name": "Data Control commands",
-"b_name": "Grant & Revoke in SQL Functions and Procedures in SQL and cursors"
-},
-{
-"i": 7,
-"a": "t68",
-"b": "t70",
-"a_name": "Serializability",
-"b_name": "Concurrency Control"
-},
-{
-"i": 8,
-"a": "t37",
-"b": "t44",
-"a_name": "Overview of SQL",
-"b_name": "Recursive Queries"
-},
-{
-"i": 9,
-"a": "t71",
-"b": "t72",
-"a_name": "Lock-based-protocols",
-"b_name": "Deadlock handling Timestamp-based protocols"
-},
-{
-"i": 10,
-"a": "t19",
-"b": "t22",
-"a_name": "Attributes and Keys",
-"b_name": "Weak entity Types"
-},
-{
-"i": 11,
-"a": "t16",
-"b": "t20",
-"a_name": "Entity-Relationship (ER) Model",
-"b_name": "Relationship Types"
-},
-{
-"i": 12,
-"a": "t62",
-"b": "t63",
-"a_name": "Transaction",
-"b_name": "Transaction concept"
-},
-{
 "i": 13,
-"a": "t17",
-"b": "t22",
-"a_name": "Entity Type",
-"b_name": "Weak entity Types"
+"a": "t67",
+"b": "t69",
+"a_name": "Concurrent Executions",
+"b_name": "Concurrency Control"
 },
 {
 "i": 14,
@@ -486,220 +481,52 @@
 },
 {
 "i": 15,
-"a": "t1",
-"b": "t3",
-"a_name": "Characteristics of Databases",
-"b_name": "Data abstraction and Data Independence"
+"a": "t48",
+"b": "t49",
+"a_name": "Security and authorization",
+"b_name": "Grant & Revoke in SQL Functions and Procedures in SQL and cursors"
 },
 {
 "i": 16,
-"a": "t45",
-"b": "t47",
-"a_name": "nested Queries",
-"b_name": "Database Programming with JDBC"
-},
-{
-"i": 17,
-"a": "t74",
-"b": "t75",
-"a_name": "Recovery Concepts",
-"b_name": "Log based recovery"
-},
-{
-"i": 18,
-"a": "t54",
-"b": "t55",
-"a_name": "Functional Dependencies",
-"b_name": "Database tables and normalization"
-},
-{
-"i": 19,
-"a": "t45",
-"b": "t44",
-"a_name": "nested Queries",
-"b_name": "Recursive Queries"
-},
-{
-"i": 20,
-"a": "t5",
-"b": "t6",
-"a_name": "Database Administrator (DBA)",
-"b_name": "Role of DBA"
-},
-{
-"i": 21,
-"a": "t54",
-"b": "t60",
-"a_name": "Functional Dependencies",
-"b_name": "2NF"
-},
-{
-"i": 22,
-"a": "t35",
-"b": "t39",
-"a_name": "Set Theory operations",
-"b_name": "Set Operations"
-},
-{
-"i": 23,
-"a": "t27",
-"b": "t28",
-"a_name": "Relational Model Constraints and Relational Database Schemas",
-"b_name": "Concept of Keys"
-},
-{
-"i": 24,
-"a": "t24",
-"b": "t25",
-"a_name": "Specialization and Aggregation",
-"b_name": "Extended Entity-Relationship (EER) Model"
-},
-{
-"i": 25,
-"a": "t37",
-"b": "t41",
-"a_name": "Overview of SQL",
-"b_name": "null values"
-},
-{
-"i": 26,
-"a": "t55",
-"b": "t57",
-"a_name": "Database tables and normalization",
-"b_name": "normalization process"
-},
-{
-"i": 27,
-"a": "t16",
-"b": "t25",
-"a_name": "Entity-Relationship (ER) Model",
-"b_name": "Extended Entity-Relationship (EER) Model"
-},
-{
-"i": 28,
-"a": "t42",
-"b": "t43",
-"a_name": "Data Manipulation commands",
-"b_name": "Data Control commands"
-},
-{
-"i": 29,
-"a": "t54",
-"b": "t61",
-"a_name": "Functional Dependencies",
-"b_name": "3NF & The Boyce-Codd Normal Form (BCNF)"
-},
-{
-"i": 30,
-"a": "t3",
-"b": "t4",
-"a_name": "Data abstraction and Data Independence",
-"b_name": "DBMS system architecture"
-},
-{
-"i": 31,
-"a": "t55",
-"b": "t56",
-"a_name": "Database tables and normalization",
-"b_name": "need for normalization"
-},
-{
-"i": 32,
-"a": "t34",
-"b": "t36",
-"a_name": "Relational Algebra expressions for Unary Relational Operations",
-"b_name": "Binary Relational operation Relational Algebra Queries"
-},
-{
-"i": 33,
-"a": "t27",
-"b": "t46",
-"a_name": "Relational Model Constraints and Relational Database Schemas",
-"b_name": "Integrity constraints in SQL"
-},
-{
-"i": 34,
-"a": "t51",
-"b": "t52",
-"a_name": "Ordered Indices",
-"b_name": "Index Definition in SQL"
-},
-{
-"i": 35,
-"a": "t31",
-"b": "t46",
-"a_name": "Foreign Key",
-"b_name": "Integrity constraints in SQL"
-},
-{
-"i": 36,
-"a": "t56",
-"b": "t57",
-"a_name": "need for normalization",
-"b_name": "normalization process"
-},
-{
-"i": 37,
-"a": "t28",
-"b": "t54",
-"a_name": "Concept of Keys",
-"b_name": "Functional Dependencies"
-},
-{
-"i": 38,
-"a": "t16",
-"b": "t19",
-"a_name": "Entity-Relationship (ER) Model",
-"b_name": "Attributes and Keys"
-},
-{
-"i": 39,
-"a": "t26",
-"b": "t37",
-"a_name": "Introduction to Relational Model",
-"b_name": "Overview of SQL"
-},
-{
-"i": 40,
-"a": "t26",
-"b": "t28",
-"a_name": "Introduction to Relational Model",
-"b_name": "Concept of Keys"
-},
-{
-"i": 41,
 "a": "t43",
 "b": "t48",
 "a_name": "Data Control commands",
 "b_name": "Security and authorization"
 },
 {
-"i": 42,
-"a": "t17",
-"b": "t23",
-"a_name": "Entity Type",
-"b_name": "Generalization"
+"i": 17,
+"a": "t54",
+"b": "t57",
+"a_name": "Functional Dependencies",
+"b_name": "normalization process"
 },
 {
-"i": 43,
-"a": "t53",
-"b": "t54",
-"a_name": "Design guidelines for relational Schema",
-"b_name": "Functional Dependencies"
+"i": 18,
+"a": "t62",
+"b": "t63",
+"a_name": "Transaction",
+"b_name": "Transaction concept"
 },
 {
-"i": 44,
-"a": "t17",
-"b": "t20",
-"a_name": "Entity Type",
-"b_name": "Relationship Types"
+"i": 19,
+"a": "t37",
+"b": "t42",
+"a_name": "Overview of SQL",
+"b_name": "Data Manipulation commands"
 },
 {
-"i": 45,
-"a": "t67",
-"b": "t70",
-"a_name": "Concurrent Executions",
-"b_name": "Concurrency Control"
+"i": 20,
+"a": "t38",
+"b": "t52",
+"a_name": "Data Definition Commands",
+"b_name": "Index Definition in SQL"
+},
+{
+"i": 21,
+"a": "t35",
+"b": "t39",
+"a_name": "Set Theory operations",
+"b_name": "Set Operations"
 }
 ]
 }

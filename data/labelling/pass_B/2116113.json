@@ -1,319 +1,249 @@
 {
 "edges": [
 {
-"a": "t1",
-"b": "t2",
-"why": "prerequisite concept"
-},
-{
-"a": "t1",
-"b": "t3",
-"why": "prerequisite concept"
-},
-{
-"a": "t5",
-"b": "t7",
-"why": "prerequisite concept"
-},
-{
-"a": "t6",
-"b": "t7",
-"why": "prerequisite concept"
-},
-{
 "a": "t5",
 "b": "t9",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
 "a": "t5",
 "b": "t10",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
 "a": "t10",
 "b": "t11",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
 "a": "t8",
 "b": "t12",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
 "a": "t6",
 "b": "t13",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
 "a": "t19",
 "b": "t20",
-"why": "prerequisite concept"
-},
-{
-"a": "t19",
-"b": "t21",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
 "a": "t20",
 "b": "t21",
-"why": "prerequisite concept"
-},
-{
-"a": "t19",
-"b": "t22",
-"why": "prerequisite concept"
-},
-{
-"a": "t19",
-"b": "t23",
-"why": "prerequisite concept"
-},
-{
-"a": "t3",
-"b": "t22",
-"why": "prerequisite concept"
-},
-{
-"a": "t24",
-"b": "t25",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
 "a": "t26",
 "b": "t27",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
 "a": "t26",
 "b": "t28",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
 "a": "t26",
 "b": "t29",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
 "a": "t30",
 "b": "t31",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
 "a": "t30",
 "b": "t32",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
 "a": "t30",
 "b": "t33",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
 "a": "t34",
 "b": "t35",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
 "a": "t34",
 "b": "t36",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
 "a": "t34",
 "b": "t37",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
 "a": "t34",
 "b": "t38",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
 "a": "t34",
 "b": "t39",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
 "a": "t40",
 "b": "t41",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
 "a": "t41",
-"b": "t42",
-"why": "prerequisite concept"
+"b": "t46",
+"why": "a is needed to understand b"
 },
 {
 "a": "t41",
 "b": "t47",
-"why": "prerequisite concept"
-},
-{
-"a": "t41",
-"b": "t48",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
 "a": "t44",
 "b": "t45",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
 "a": "t49",
-"b": "t53",
-"why": "prerequisite concept"
-},
-{
-"a": "t49",
-"b": "t54",
-"why": "prerequisite concept"
-},
-{
-"a": "t49",
-"b": "t56",
-"why": "prerequisite concept"
+"b": "t50",
+"why": "a is needed to understand b"
 },
 {
 "a": "t50",
 "b": "t51",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
 "a": "t51",
-"b": "t52",
-"why": "prerequisite concept"
+"b": "t61",
+"why": "a is needed to understand b"
 },
 {
-"a": "t50",
-"b": "t52",
-"why": "prerequisite concept"
+"a": "t62",
+"b": "t63",
+"why": "a is needed to understand b"
 },
 {
-"a": "t52",
-"b": "t57",
-"why": "prerequisite concept"
-},
-{
-"a": "t52",
-"b": "t62",
-"why": "prerequisite concept"
-},
-{
-"a": "t63",
+"a": "t62",
 "b": "t64",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
-"a": "t67",
+"a": "t66",
+"b": "t67",
+"why": "a is needed to understand b"
+},
+{
+"a": "t66",
 "b": "t68",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
-"a": "t67",
+"a": "t66",
 "b": "t69",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
-"a": "t67",
+"a": "t66",
 "b": "t70",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
-"a": "t67",
-"b": "t71",
-"why": "prerequisite concept"
-},
-{
-"a": "t65",
-"b": "t74",
-"why": "prerequisite concept"
-},
-{
-"a": "t67",
+"a": "t64",
 "b": "t73",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
+},
+{
+"a": "t74",
+"b": "t75",
+"why": "a is needed to understand b"
 },
 {
 "a": "t75",
 "b": "t76",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
-"a": "t76",
+"a": "t75",
 "b": "t77",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
-"a": "t76",
+"a": "t75",
 "b": "t78",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
-"a": "t76",
-"b": "t79",
-"why": "prerequisite concept"
+"a": "t79",
+"b": "t80",
+"why": "a is needed to understand b"
 },
 {
-"a": "t80",
-"b": "t81",
-"why": "prerequisite concept"
+"a": "t81",
+"b": "t82",
+"why": "a is needed to understand b"
+},
+{
+"a": "t81",
+"b": "t83",
+"why": "a is needed to understand b"
+},
+{
+"a": "t83",
+"b": "t84",
+"why": "a is needed to understand b"
+},
+{
+"a": "t85",
+"b": "t86",
+"why": "a is needed to understand b"
+},
+{
+"a": "t85",
+"b": "t87",
+"why": "a is needed to understand b"
+},
+{
+"a": "t85",
+"b": "t88",
+"why": "a is needed to understand b"
+},
+{
+"a": "t85",
+"b": "t89",
+"why": "a is needed to understand b"
+},
+{
+"a": "t85",
+"b": "t90",
+"why": "a is needed to understand b"
 },
 {
 "a": "t17",
-"b": "t80",
-"why": "prerequisite concept"
+"b": "t79",
+"why": "a is needed to understand b"
 },
 {
-"a": "t82",
-"b": "t83",
-"why": "prerequisite concept"
-},
-{
-"a": "t82",
-"b": "t84",
-"why": "prerequisite concept"
-},
-{
-"a": "t82",
-"b": "t85",
-"why": "prerequisite concept"
-},
-{
-"a": "t84",
-"b": "t85",
-"why": "prerequisite concept"
-},
-{
-"a": "t86",
-"b": "t87",
-"why": "prerequisite concept"
-},
-{
-"a": "t86",
-"b": "t88",
-"why": "prerequisite concept"
-},
-{
-"a": "t86",
-"b": "t89",
-"why": "prerequisite concept"
-},
-{
-"a": "t86",
-"b": "t90",
-"why": "prerequisite concept"
-},
-{
-"a": "t86",
+"a": "t15",
 "b": "t91",
-"why": "prerequisite concept"
+"why": "a is needed to understand b"
 },
 {
-"a": "t92",
-"b": "t93",
-"why": "prerequisite concept"
+"a": "t14",
+"b": "t66",
+"why": "a is needed to understand b"
+},
+{
+"a": "t5",
+"b": "t8",
+"why": "a is needed to understand b"
 }
 ]
 }

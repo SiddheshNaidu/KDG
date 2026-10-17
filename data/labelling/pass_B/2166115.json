@@ -2,443 +2,233 @@
 "edges": [
 {
 "a": "t1",
-"b": "t2",
-"why": "direct prerequisite"
-},
-{
-"a": "t1",
 "b": "t3",
-"why": "direct prerequisite"
-},
-{
-"a": "t1",
-"b": "t4",
-"why": "direct prerequisite"
-},
-{
-"a": "t3",
-"b": "t7",
-"why": "direct prerequisite"
-},
-{
-"a": "t4",
-"b": "t5",
-"why": "direct prerequisite"
-},
-{
-"a": "t4",
-"b": "t6",
-"why": "direct prerequisite"
+"why": "classical vs nature-inspired needs optimization"
 },
 {
 "a": "t7",
 "b": "t8",
-"why": "direct prerequisite"
+"why": "type"
 },
 {
 "a": "t7",
 "b": "t9",
-"why": "direct prerequisite"
+"why": "type"
 },
 {
 "a": "t7",
 "b": "t10",
-"why": "direct prerequisite"
-},
-{
-"a": "t5",
-"b": "t8",
-"why": "direct prerequisite"
-},
-{
-"a": "t5",
-"b": "t9",
-"why": "direct prerequisite"
+"why": "type"
 },
 {
 "a": "t11",
 "b": "t12",
-"why": "direct prerequisite"
+"why": "Pareto concepts"
 },
 {
 "a": "t12",
 "b": "t13",
-"why": "direct prerequisite"
-},
-{
-"a": "t12",
-"b": "t14",
-"why": "direct prerequisite"
+"why": "dominance"
 },
 {
 "a": "t13",
 "b": "t14",
-"why": "direct prerequisite"
+"why": "Pareto front from dominance"
+},
+{
+"a": "t12",
+"b": "t15",
+"why": "trade-off analysis"
 },
 {
 "a": "t14",
-"b": "t15",
-"why": "direct prerequisite"
-},
-{
-"a": "t15",
-"b": "t16",
-"why": "direct prerequisite"
-},
-{
-"a": "t16",
 "b": "t17",
-"why": "direct prerequisite"
+"why": "search for Pareto front"
+},
+{
+"a": "t11",
+"b": "t16",
+"why": "MOEA framework"
 },
 {
 "a": "t17",
 "b": "t18",
-"why": "direct prerequisite"
+"why": "MOEAs"
 },
 {
 "a": "t18",
 "b": "t19",
-"why": "direct prerequisite"
+"why": "algorithm"
 },
 {
 "a": "t18",
 "b": "t20",
-"why": "direct prerequisite"
+"why": "algorithm"
 },
 {
 "a": "t18",
 "b": "t21",
-"why": "direct prerequisite"
+"why": "algorithm"
 },
 {
 "a": "t19",
 "b": "t22",
-"why": "direct prerequisite"
-},
-{
-"a": "t21",
-"b": "t22",
-"why": "direct prerequisite"
-},
-{
-"a": "t18",
-"b": "t24",
-"why": "direct prerequisite"
-},
-{
-"a": "t18",
-"b": "t25",
-"why": "direct prerequisite"
-},
-{
-"a": "t18",
-"b": "t26",
-"why": "direct prerequisite"
-},
-{
-"a": "t18",
-"b": "t27",
-"why": "direct prerequisite"
-},
-{
-"a": "t8",
-"b": "t18",
-"why": "direct prerequisite"
-},
-{
-"a": "t9",
-"b": "t29",
-"why": "direct prerequisite"
-},
-{
-"a": "t29",
-"b": "t30",
-"why": "direct prerequisite"
-},
-{
-"a": "t29",
-"b": "t32",
-"why": "direct prerequisite"
-},
-{
-"a": "t32",
-"b": "t33",
-"why": "direct prerequisite"
-},
-{
-"a": "t30",
-"b": "t31",
-"why": "direct prerequisite"
-},
-{
-"a": "t29",
-"b": "t34",
-"why": "direct prerequisite"
-},
-{
-"a": "t35",
-"b": "t34",
-"why": "direct prerequisite"
-},
-{
-"a": "t36",
-"b": "t34",
-"why": "direct prerequisite"
-},
-{
-"a": "t29",
-"b": "t35",
-"why": "direct prerequisite"
-},
-{
-"a": "t14",
-"b": "t40",
-"why": "direct prerequisite"
-},
-{
-"a": "t29",
-"b": "t40",
-"why": "direct prerequisite"
-},
-{
-"a": "t40",
-"b": "t41",
-"why": "direct prerequisite"
+"why": "NSGA-III extends NSGA-II"
 },
 {
 "a": "t29",
 "b": "t41",
-"why": "direct prerequisite"
+"why": "Pareto PSO extends PSO"
 },
 {
 "a": "t29",
-"b": "t42",
-"why": "direct prerequisite"
+"b": "t43",
+"why": "PSO-GA hybrid uses PSO"
 },
 {
 "a": "t42",
 "b": "t43",
-"why": "direct prerequisite"
+"why": "hybrid"
 },
 {
 "a": "t42",
 "b": "t44",
-"why": "direct prerequisite"
+"why": "hybrid"
 },
 {
 "a": "t42",
 "b": "t45",
-"why": "direct prerequisite"
+"why": "hybrid"
 },
 {
-"a": "t42",
-"b": "t46",
-"why": "direct prerequisite"
+"a": "t30",
+"b": "t31",
+"why": "GWO hierarchy"
 },
 {
-"a": "t42",
-"b": "t47",
-"why": "direct prerequisite"
+"a": "t32",
+"b": "t33",
+"why": "WOA mechanism"
 },
 {
-"a": "t29",
-"b": "t43",
-"why": "direct prerequisite"
+"a": "t34",
+"b": "t35",
+"why": "rule"
 },
 {
-"a": "t49",
-"b": "t50",
-"why": "direct prerequisite"
+"a": "t34",
+"b": "t36",
+"why": "rule"
 },
 {
-"a": "t49",
+"a": "t34",
+"b": "t37",
+"why": "rule"
+},
+{
+"a": "t34",
+"b": "t38",
+"why": "rule"
+},
+{
+"a": "t34",
+"b": "t39",
+"why": "rule"
+},
+{
+"a": "t46",
 "b": "t51",
-"why": "direct prerequisite"
+"why": "WWO model"
 },
 {
-"a": "t48",
-"b": "t52",
-"why": "direct prerequisite"
+"a": "t46",
+"b": "t50",
+"why": "WWO algorithm"
+},
+{
+"a": "t47",
+"b": "t48",
+"why": "objective constraint"
+},
+{
+"a": "t47",
+"b": "t49",
+"why": "objective constraint"
 },
 {
 "a": "t52",
-"b": "t53",
-"why": "direct prerequisite"
+"b": "t54",
+"why": "BSO clustering"
 },
 {
-"a": "t49",
-"b": "t53",
-"why": "direct prerequisite"
-},
-{
-"a": "t54",
+"a": "t52",
 "b": "t55",
-"why": "direct prerequisite"
+"why": "BSO generation"
 },
 {
-"a": "t55",
+"a": "t52",
 "b": "t56",
-"why": "direct prerequisite"
+"why": "BSO mutation"
 },
 {
-"a": "t55",
+"a": "t52",
 "b": "t57",
-"why": "direct prerequisite"
+"why": "BSO selection"
 },
 {
-"a": "t57",
-"b": "t58",
-"why": "direct prerequisite"
-},
-{
-"a": "t57",
+"a": "t58",
 "b": "t59",
-"why": "direct prerequisite"
+"why": "cyborg"
 },
 {
-"a": "t14",
-"b": "t55",
-"why": "direct prerequisite"
+"a": "t58",
+"b": "t60",
+"why": "cyborg taxis"
 },
 {
-"a": "t60",
+"a": "t58",
 "b": "t61",
-"why": "direct prerequisite"
-},
-{
-"a": "t61",
-"b": "t62",
-"why": "direct prerequisite"
+"why": "cyborg alpha"
 },
 {
 "a": "t62",
 "b": "t63",
-"why": "direct prerequisite"
+"why": "ALO mechanism"
 },
 {
 "a": "t64",
 "b": "t65",
-"why": "direct prerequisite"
+"why": "MFO mechanism"
 },
 {
 "a": "t66",
 "b": "t67",
-"why": "direct prerequisite"
+"why": "HHO mechanism"
 },
 {
 "a": "t68",
 "b": "t69",
-"why": "direct prerequisite"
+"why": "edge optimization"
 },
 {
-"a": "t9",
-"b": "t64",
-"why": "direct prerequisite"
-},
-{
-"a": "t9",
-"b": "t66",
-"why": "direct prerequisite"
-},
-{
-"a": "t9",
-"b": "t68",
-"why": "direct prerequisite"
-},
-{
-"a": "t70",
-"b": "t71",
-"why": "direct prerequisite"
-},
-{
-"a": "t70",
-"b": "t72",
-"why": "direct prerequisite"
-},
-{
-"a": "t70",
-"b": "t73",
-"why": "direct prerequisite"
-},
-{
-"a": "t29",
-"b": "t74",
-"why": "direct prerequisite"
-},
-{
-"a": "t45",
-"b": "t75",
-"why": "direct prerequisite"
-},
-{
-"a": "t70",
-"b": "t76",
-"why": "direct prerequisite"
-},
-{
-"a": "t74",
+"a": "t68",
 "b": "t70",
-"why": "direct prerequisite"
-},
-{
-"a": "t77",
-"b": "t78",
-"why": "direct prerequisite"
-},
-{
-"a": "t78",
-"b": "t79",
-"why": "direct prerequisite"
-},
-{
-"a": "t78",
-"b": "t80",
-"why": "direct prerequisite"
-},
-{
-"a": "t80",
-"b": "t81",
-"why": "direct prerequisite"
-},
-{
-"a": "t77",
-"b": "t82",
-"why": "direct prerequisite"
+"why": "edge optimization"
 },
 {
 "a": "t29",
-"b": "t81",
-"why": "direct prerequisite"
+"b": "t71",
+"why": "PSO applied to routing"
 },
 {
-"a": "t83",
-"b": "t84",
-"why": "direct prerequisite"
+"a": "t75",
+"b": "t76",
+"why": "features then predictions"
 },
 {
-"a": "t83",
-"b": "t85",
-"why": "direct prerequisite"
-},
-{
-"a": "t83",
-"b": "t86",
-"why": "direct prerequisite"
-},
-{
-"a": "t83",
-"b": "t87",
-"why": "direct prerequisite"
-},
-{
-"a": "t83",
-"b": "t88",
-"why": "direct prerequisite"
-},
-{
-"a": "t18",
-"b": "t86",
-"why": "direct prerequisite"
+"a": "t75",
+"b": "t78",
+"why": "PSO-SVM feature selection"
 }
 ]
 }

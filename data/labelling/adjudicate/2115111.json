@@ -234,7 +234,7 @@
 },
 {
 "id": "t47",
-"name": "Re- Engineering",
+"name": "Re-Engineering",
 "module": 6
 },
 {
@@ -246,59 +246,101 @@
 "candidates": [
 {
 "i": 0,
-"a": "t5",
-"b": "t7",
-"a_name": "Prescriptive Process Models",
-"b_name": "Incremental Process Models"
+"a": "t34",
+"b": "t36",
+"a_name": "Control structure testing Black-box testing",
+"b_name": "Equivalence"
 },
 {
 "i": 1,
-"a": "t7",
-"b": "t8",
-"a_name": "Incremental Process Models",
-"b_name": "Evolutionary Process Models"
-},
-{
-"i": 2,
 "a": "t32",
 "b": "t34",
 "a_name": "Testing Techniques White-box testing",
 "b_name": "Control structure testing Black-box testing"
 },
 {
+"i": 2,
+"a": "t8",
+"b": "t9",
+"a_name": "Evolutionary Process Models",
+"b_name": "RAD & Spiral"
+},
+{
 "i": 3,
 "a": "t5",
-"b": "t8",
+"b": "t9",
 "a_name": "Prescriptive Process Models",
-"b_name": "Evolutionary Process Models"
+"b_name": "RAD & Spiral"
 },
 {
 "i": 4,
-"a": "t6",
-"b": "t7",
-"a_name": "Waterfall",
-"b_name": "Incremental Process Models"
+"a": "t3",
+"b": "t10",
+"a_name": "Software Process",
+"b_name": "Agile process model"
 },
 {
 "i": 5,
-"a": "t2",
-"b": "t3",
-"a_name": "Software Engineering",
-"b_name": "Software Process"
+"a": "t46",
+"b": "t47",
+"a_name": "Types of Software Maintenance",
+"b_name": "Re-Engineering"
 },
 {
 "i": 6,
+"a": "t29",
+"b": "t30",
+"a_name": "Integration testing",
+"b_name": "validation testing"
+},
+{
+"i": 7,
+"a": "t17",
+"b": "t27",
+"a_name": "Requirement Modeling",
+"b_name": "UML Diagrams"
+},
+{
+"i": 8,
+"a": "t36",
+"b": "t37",
+"a_name": "Equivalence",
+"b_name": "Boundary Value analysis"
+},
+{
+"i": 9,
+"a": "t48",
+"b": "t47",
+"a_name": "Reverse Engineering",
+"b_name": "Re-Engineering"
+},
+{
+"i": 10,
+"a": "t16",
+"b": "t23",
+"a_name": "Requirement Engineering",
+"b_name": "Design Principles & Concepts"
+},
+{
+"i": 11,
+"a": "t30",
+"b": "t31",
+"a_name": "validation testing",
+"b_name": "System testing"
+},
+{
+"i": 12,
+"a": "t29",
+"b": "t31",
+"a_name": "Integration testing",
+"b_name": "System testing"
+},
+{
+"i": 13,
 "a": "t41",
 "b": "t43",
 "a_name": "Quality Concepts and Software Quality assurance Metrics",
 "b_name": "Software Reliability"
-},
-{
-"i": 7,
-"a": "t48",
-"b": "t47",
-"a_name": "Reverse Engineering",
-"b_name": "Re- Engineering"
 }
 ]
 }

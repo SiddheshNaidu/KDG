@@ -1,0 +1,70 @@
+{
+ "verdicts": {
+  "23451142|adea76a27ae657c3": {
+   "verdict": "BAD",
+   "topics": 86,
+   "junk": 6,
+   "note": "Glued items ('Join Operation - Evaluation of Expressions - Query Optimization Overview', 'Object-Oriented Languages - Spatial Databases'); M1 missing Approaches of Query Optimization, Transformations of Relational Expression, Estimating Statistics; M3 'Types' dropped"
+  },
+  "23451144|e66d755317975e9d": {
+   "verdict": "OK",
+   "topics": 69,
+   "junk": 2,
+   "note": "'Point' and 'Line' split from 'Point, Line, and Edge Detection Methods'; all 6 modules complete"
+  },
+  "2346112|d8cb9c0de52bfd46": {
+   "verdict": "OK",
+   "topics": 83,
+   "junk": 1,
+   "note": "'Measuring the Cloud's Value Early adopters and new applications' glued; all modules complete"
+  },
+  "23461131|0e174d269e3427da": {
+   "verdict": "OK",
+   "topics": 58,
+   "junk": 0,
+   "note": "Clean; only 'scope' dropped from controllers list"
+  },
+  "23461133|f58b421d87db2875": {
+   "verdict": "FIXABLE",
+   "topics": 43,
+   "junk": 5,
+   "note": "M1 dash-glued chains ('Historical Development of GIS - Components of GIS - Data - Types of Data - Spatial', 'Non-spatial - Vector Data - Point', 'Polygon - Raster Data - Database Structures - Vector'); 'Libraries' dangling in M3"
+  },
+  "23461134|3ec74947131af3e8": {
+   "verdict": "OK",
+   "topics": 59,
+   "junk": 1,
+   "note": "'Case study of Application' dangling prefix; otherwise clean and complete"
+  },
+  "23461141|dfe4ff385e741d80": {
+   "verdict": "FIXABLE",
+   "topics": 89,
+   "junk": 9,
+   "note": "Split list fragments ('activities', 'their role in early defect prevention', 'Quality Assurance'); glued ('Software Testing methodology Verification and Validation', 'Quality Management Product Quality', 'Challenges in Agile Testing Testing Web based Systems'); 'need' items dropped"
+  },
+  "23461142|3fb8d99984cfd8a2": {
+   "verdict": "BAD",
+   "topics": 64,
+   "junk": 9,
+   "note": "Glued missing-delimiter items ('Non-word errors Real-word errors', 'Lexicon free FST Porter stemmer', 'GloVe Vector Visualizing Embedding's', 'Word Sense Disambiguation Alternate WSD algorithms and Tasks'); 'A Database of Lexical Relations' fragment"
+  },
+  "23461143|39001ce668333019": {
+   "verdict": "FIXABLE",
+   "topics": 88,
+   "junk": 6,
+   "note": "Split ('Difference between Hackers' / 'Crackers and Phreakers'); glued ('Role of AI in Digital Forensics Introduction to Digital evidences', 'Media Analysis Hard drives'); 'PDAs etc' lost"
+  },
+  "23461144|b73832bf6d3269ae": {
+   "verdict": "FIXABLE",
+   "topics": 103,
+   "junk": 6,
+   "note": "Glued ('Ingredients of an AR Experience Dimensionality', 'Classes of Travel Methods Interacting with Others-Shared Experience'); 'VR in Industry' lost '4.0' and 'Ethics' split; 'Stand-alone' fragment"
+  },
+  "2394111|f2250ea948bf9906": {
+   "verdict": "BAD",
+   "topics": 55,
+   "junk": 7,
+   "note": "Fragments of comma list ('bar','beam','truss and Plane frame'); glued ('Matrix Inversion Eligen values & Elgen vectors', 'Variation formulation \u2013Finite Element formulation'); M4 only 3 long glued topics"
+  }
+ }
+}

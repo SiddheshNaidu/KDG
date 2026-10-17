@@ -79,7 +79,7 @@
 },
 {
 "id": "t16",
-"name": "Impact of cybercrime on e- governance and e-commerce",
+"name": "Impact of cybercrime on e-governance and e-commerce",
 "module": 1
 },
 {
@@ -446,178 +446,178 @@
 "candidates": [
 {
 "i": 0,
-"a": "t17",
-"b": "t19",
-"a_name": "Information Gathering",
-"b_name": "Vulnerability Scanning and Enumeration"
+"a": "t29",
+"b": "t30",
+"a_name": "Port Scanning",
+"b_name": "Service Detection"
 },
 {
 "i": 1,
-"a": "t63",
-"b": "t70",
-"a_name": "Network Forensics",
-"b_name": "Investigating Routers"
+"a": "t81",
+"b": "t84",
+"a_name": "Analysis of Evidences",
+"b_name": "Traditional Mobile Forensics vs AI-Enabled Mobile Forensics"
 },
 {
 "i": 2,
+"a": "t12",
+"b": "t15",
+"a_name": "Need for Vulnerability Assessment",
+"b_name": "Difference between VA and PT"
+},
+{
+"i": 3,
+"a": "t64",
+"b": "t66",
+"a_name": "Exploiting Network Based Vulnerabilities",
+"b_name": "SNMP Exploits"
+},
+{
+"i": 4,
+"a": "t11",
+"b": "t14",
+"a_name": "Introduction to Vulnerability Assessment and Penetration Testing (VAPT)",
+"b_name": "Penetration Testing Methodologies (PTES, OSSTMM, NIST)"
+},
+{
+"i": 5,
+"a": "t56",
+"b": "t57",
+"a_name": "Evidence collection (Disk and file system, Memory, Registry, Logs etc)",
+"b_name": "Evidence Analysis and Examination (Window, Linux, Email, Web, Malware)"
+},
+{
+"i": 6,
 "a": "t46",
 "b": "t52",
 "a_name": "Forensic Duplication",
 "b_name": "Image Acquisition"
 },
 {
-"i": 3,
-"a": "t1",
-"b": "t3",
-"a_name": "Introduction to Ethical Hacking",
-"b_name": "Types of Hackers"
+"i": 7,
+"a": "t17",
+"b": "t19",
+"a_name": "Information Gathering",
+"b_name": "Vulnerability Scanning and Enumeration"
 },
 {
-"i": 4,
-"a": "t38",
-"b": "t56",
-"a_name": "Digital Evidence and its Types",
-"b_name": "Evidence collection (Disk and file system, Memory, Registry, Logs etc)"
+"i": 8,
+"a": "t44",
+"b": "t45",
+"a_name": "Incident Response Methodology",
+"b_name": "Roles of CSIRT in handling incident"
 },
 {
-"i": 5,
-"a": "t51",
-"b": "t52",
-"a_name": "Data imaging and hashing",
-"b_name": "Image Acquisition"
-},
-{
-"i": 6,
+"i": 9,
 "a": "t28",
 "b": "t30",
 "a_name": "Network Scanning Techniques",
 "b_name": "Service Detection"
 },
 {
-"i": 7,
-"a": "t31",
-"b": "t46",
-"a_name": "Introduction to Digital Forensics",
-"b_name": "Forensic Duplication"
-},
-{
-"i": 8,
-"a": "t1",
-"b": "t2",
-"a_name": "Introduction to Ethical Hacking",
-"b_name": "Goals of Ethical Hacking"
-},
-{
-"i": 9,
-"a": "t28",
-"b": "t64",
-"a_name": "Network Scanning Techniques",
-"b_name": "Exploiting Network Based Vulnerabilities"
-},
-{
 "i": 10,
-"a": "t31",
-"b": "t63",
-"a_name": "Introduction to Digital Forensics",
-"b_name": "Network Forensics"
+"a": "t3",
+"b": "t8",
+"a_name": "Types of Hackers",
+"b_name": "Difference between Hackers"
 },
 {
 "i": 11,
-"a": "t58",
-"b": "t59",
-"a_name": "Media Analysis Hard drives",
-"b_name": "RAM"
+"a": "t13",
+"b": "t14",
+"a_name": "Types of Penetration Testing",
+"b_name": "Penetration Testing Methodologies (PTES, OSSTMM, NIST)"
 },
 {
 "i": 12,
-"a": "t79",
-"b": "t84",
-"a_name": "Mobile Forensics",
-"b_name": "Traditional Mobile Forensics vs AI-Enabled Mobile Forensics"
-},
-{
-"i": 13,
-"a": "t69",
-"b": "t70",
-"a_name": "Sources of Network based evidences",
-"b_name": "Investigating Routers"
-},
-{
-"i": 14,
-"a": "t13",
-"b": "t15",
-"a_name": "Types of Penetration Testing",
-"b_name": "Difference between VA and PT"
-},
-{
-"i": 15,
-"a": "t54",
-"b": "t55",
-"a_name": "Computer Forensics",
-"b_name": "Introduction to Computer Forensics"
-},
-{
-"i": 16,
 "a": "t11",
 "b": "t15",
 "a_name": "Introduction to Vulnerability Assessment and Penetration Testing (VAPT)",
 "b_name": "Difference between VA and PT"
 },
 {
-"i": 17,
-"a": "t75",
-"b": "t76",
-"a_name": "WPA",
-"b_name": "WPA2 Attacks"
+"i": 13,
+"a": "t31",
+"b": "t55",
+"a_name": "Introduction to Digital Forensics",
+"b_name": "Introduction to Computer Forensics"
 },
 {
-"i": 18,
-"a": "t52",
+"i": 14,
+"a": "t74",
+"b": "t75",
+"a_name": "WEP",
+"b_name": "WPA"
+},
+{
+"i": 15,
+"a": "t51",
 "b": "t53",
-"a_name": "Image Acquisition",
+"a_name": "Data imaging and hashing",
 "b_name": "File Recovery & Data Carving"
 },
 {
-"i": 19,
-"a": "t31",
-"b": "t36",
-"a_name": "Introduction to Digital Forensics",
-"b_name": "Anti Forensics"
-},
-{
-"i": 20,
-"a": "t63",
-"b": "t64",
-"a_name": "Network Forensics",
-"b_name": "Exploiting Network Based Vulnerabilities"
-},
-{
-"i": 21,
-"a": "t55",
+"i": 16,
+"a": "t57",
 "b": "t61",
-"a_name": "Introduction to Computer Forensics",
+"a_name": "Evidence Analysis and Examination (Window, Linux, Email, Web, Malware)",
 "b_name": "AI-Assisted Disk and Memory Analysis"
 },
 {
+"i": 17,
+"a": "t43",
+"b": "t45",
+"a_name": "Incident and Incident Response",
+"b_name": "Roles of CSIRT in handling incident"
+},
+{
+"i": 18,
+"a": "t24",
+"b": "t66",
+"a_name": "SNMP",
+"b_name": "SNMP Exploits"
+},
+{
+"i": 19,
+"a": "t38",
+"b": "t56",
+"a_name": "Digital Evidence and its Types",
+"b_name": "Evidence collection (Disk and file system, Memory, Registry, Logs etc)"
+},
+{
+"i": 20,
+"a": "t79",
+"b": "t84",
+"a_name": "Mobile Forensics",
+"b_name": "Traditional Mobile Forensics vs AI-Enabled Mobile Forensics"
+},
+{
+"i": 21,
+"a": "t72",
+"b": "t73",
+"a_name": "exploiting wireless vulnerabilities",
+"b_name": "Wireless Network Hacking"
+},
+{
 "i": 22,
-"a": "t1",
-"b": "t10",
-"a_name": "Introduction to Ethical Hacking",
-"b_name": "Social Engineering Attacks"
+"a": "t73",
+"b": "t75",
+"a_name": "Wireless Network Hacking",
+"b_name": "WPA"
 },
 {
 "i": 23,
-"a": "t73",
-"b": "t76",
-"a_name": "Wireless Network Hacking",
-"b_name": "WPA2 Attacks"
+"a": "t51",
+"b": "t52",
+"a_name": "Data imaging and hashing",
+"b_name": "Image Acquisition"
 },
 {
 "i": 24,
-"a": "t55",
-"b": "t62",
-"a_name": "Introduction to Computer Forensics",
-"b_name": "Challenges in Computer Forensics"
+"a": "t58",
+"b": "t60",
+"a_name": "Media Analysis Hard drives",
+"b_name": "flash memory"
 },
 {
 "i": 25,
@@ -628,108 +628,17 @@
 },
 {
 "i": 26,
-"a": "t1",
-"b": "t7",
-"a_name": "Introduction to Ethical Hacking",
-"b_name": "Phases of Ethical Hacking"
+"a": "t58",
+"b": "t59",
+"a_name": "Media Analysis Hard drives",
+"b_name": "RAM"
 },
 {
 "i": 27,
-"a": "t38",
-"b": "t46",
-"a_name": "Digital Evidence and its Types",
-"b_name": "Forensic Duplication"
-},
-{
-"i": 28,
-"a": "t1",
-"b": "t11",
-"a_name": "Introduction to Ethical Hacking",
-"b_name": "Introduction to Vulnerability Assessment and Penetration Testing (VAPT)"
-},
-{
-"i": 29,
-"a": "t42",
-"b": "t43",
-"a_name": "Incident Response Process",
-"b_name": "Incident and Incident Response"
-},
-{
-"i": 30,
-"a": "t86",
-"b": "t88",
-"a_name": "Layout of an Investigative Report",
-"b_name": "sample for writing a forensic report"
-},
-{
-"i": 31,
-"a": "t55",
-"b": "t57",
-"a_name": "Introduction to Computer Forensics",
-"b_name": "Evidence Analysis and Examination (Window, Linux, Email, Web, Malware)"
-},
-{
-"i": 32,
-"a": "t7",
-"b": "t17",
-"a_name": "Phases of Ethical Hacking",
-"b_name": "Information Gathering"
-},
-{
-"i": 33,
-"a": "t86",
-"b": "t87",
-"a_name": "Layout of an Investigative Report",
-"b_name": "Guidelines for Writing a Report"
-},
-{
-"i": 34,
-"a": "t29",
-"b": "t30",
-"a_name": "Port Scanning",
-"b_name": "Service Detection"
-},
-{
-"i": 35,
-"a": "t58",
-"b": "t60",
-"a_name": "Media Analysis Hard drives",
-"b_name": "flash memory"
-},
-{
-"i": 36,
-"a": "t12",
-"b": "t15",
-"a_name": "Need for Vulnerability Assessment",
-"b_name": "Difference between VA and PT"
-},
-{
-"i": 37,
-"a": "t31",
-"b": "t79",
-"a_name": "Introduction to Digital Forensics",
-"b_name": "Mobile Forensics"
-},
-{
-"i": 38,
-"a": "t31",
-"b": "t54",
-"a_name": "Introduction to Digital Forensics",
-"b_name": "Computer Forensics"
-},
-{
-"i": 39,
-"a": "t31",
-"b": "t37",
-"a_name": "Introduction to Digital Forensics",
-"b_name": "Role of AI in Digital Forensics Introduction to Digital evidences"
-},
-{
-"i": 40,
-"a": "t56",
-"b": "t57",
-"a_name": "Evidence collection (Disk and file system, Memory, Registry, Logs etc)",
-"b_name": "Evidence Analysis and Examination (Window, Linux, Email, Web, Malware)"
+"a": "t40",
+"b": "t80",
+"a_name": "Chain of Custody",
+"b_name": "Evidence Collection and Acquisition"
 }
 ]
 }

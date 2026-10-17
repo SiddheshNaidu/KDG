@@ -1,0 +1,562 @@
+{
+"course": "23461134",
+"title": "Computer Vision",
+"topics": [
+{
+"id": "t1",
+"name": "Nature of Vision",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Convolutions and Point Spread Functions",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Role of Filters in Industrial Applications of Vision",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Comparison between Image Processing and Computer Vision",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Corner and Interest Point Detection",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Co-occurrence Matrix",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Binary Shape Analysis",
+"module": 2
+},
+{
+"id": "t8",
+"name": "Connectedness",
+"module": 2
+},
+{
+"id": "t9",
+"name": "Object Labelling and Counting",
+"module": 2
+},
+{
+"id": "t10",
+"name": "Size Filtering",
+"module": 2
+},
+{
+"id": "t11",
+"name": "Distance Functions",
+"module": 2
+},
+{
+"id": "t12",
+"name": "Skeletons and Thickening and Thinning",
+"module": 2
+},
+{
+"id": "t13",
+"name": "Hole Filling",
+"module": 2
+},
+{
+"id": "t14",
+"name": "Boundary Tracking Procedures",
+"module": 2
+},
+{
+"id": "t15",
+"name": "Shape Models and Shape Recognition",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Boundary Length Measures",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Boundary Descriptors",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Fourier Descriptors",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Region Descriptors",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Line Detection",
+"module": 3
+},
+{
+"id": "t21",
+"name": "Hough Transform (HT) for Line Detection",
+"module": 3
+},
+{
+"id": "t22",
+"name": "Line Localization",
+"module": 3
+},
+{
+"id": "t23",
+"name": "Line Fitting",
+"module": 3
+},
+{
+"id": "t24",
+"name": "RANSAC for Straight Line Detection",
+"module": 3
+},
+{
+"id": "t25",
+"name": "HT Based Circular Object Detection",
+"module": 3
+},
+{
+"id": "t26",
+"name": "Ellipse Detection",
+"module": 3
+},
+{
+"id": "t27",
+"name": "Generalized Hough Transform (GHT)",
+"module": 3
+},
+{
+"id": "t28",
+"name": "Spatial Matched Filtering",
+"module": 3
+},
+{
+"id": "t29",
+"name": "GHT for Ellipse Detection",
+"module": 3
+},
+{
+"id": "t30",
+"name": "Object Location",
+"module": 3
+},
+{
+"id": "t31",
+"name": "Methods for 3D Vision",
+"module": 4
+},
+{
+"id": "t32",
+"name": "Projection Schemes",
+"module": 4
+},
+{
+"id": "t33",
+"name": "Shape from Shading",
+"module": 4
+},
+{
+"id": "t34",
+"name": "Photometric Stereo",
+"module": 4
+},
+{
+"id": "t35",
+"name": "Shape from Texture",
+"module": 4
+},
+{
+"id": "t36",
+"name": "Shape from Focus",
+"module": 4
+},
+{
+"id": "t37",
+"name": "Active Range Finding",
+"module": 4
+},
+{
+"id": "t38",
+"name": "Surface Representations",
+"module": 4
+},
+{
+"id": "t39",
+"name": "Point- Based Representation",
+"module": 4
+},
+{
+"id": "t40",
+"name": "Volumetric Representations",
+"module": 4
+},
+{
+"id": "t41",
+"name": "3D Object Recognition",
+"module": 4
+},
+{
+"id": "t42",
+"name": "3D Reconstruction",
+"module": 4
+},
+{
+"id": "t43",
+"name": "SIFT Algorithms",
+"module": 4
+},
+{
+"id": "t44",
+"name": "Triangulation",
+"module": 5
+},
+{
+"id": "t45",
+"name": "Bundle Adjustment",
+"module": 5
+},
+{
+"id": "t46",
+"name": "Translational Alignment",
+"module": 5
+},
+{
+"id": "t47",
+"name": "Parametric Motion",
+"module": 5
+},
+{
+"id": "t48",
+"name": "Spline-Based Motion",
+"module": 5
+},
+{
+"id": "t49",
+"name": "Optical Flow",
+"module": 5
+},
+{
+"id": "t50",
+"name": "Layered Motion",
+"module": 5
+},
+{
+"id": "t51",
+"name": "Stereo from Motion",
+"module": 5
+},
+{
+"id": "t52",
+"name": "Kalman Filter",
+"module": 5
+},
+{
+"id": "t53",
+"name": "Case study of Application",
+"module": 6
+},
+{
+"id": "t54",
+"name": "Face Recognition",
+"module": 6
+},
+{
+"id": "t55",
+"name": "Surveillance",
+"module": 6
+},
+{
+"id": "t56",
+"name": "Foreground Background Separation",
+"module": 6
+},
+{
+"id": "t57",
+"name": "Human Tracking",
+"module": 6
+},
+{
+"id": "t58",
+"name": "Image and Video Occlusion",
+"module": 6
+},
+{
+"id": "t59",
+"name": "Road Markings",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t32",
+"b": "t44",
+"a_name": "Projection Schemes",
+"b_name": "Triangulation"
+},
+{
+"i": 1,
+"a": "t54",
+"b": "t55",
+"a_name": "Face Recognition",
+"b_name": "Surveillance"
+},
+{
+"i": 2,
+"a": "t20",
+"b": "t22",
+"a_name": "Line Detection",
+"b_name": "Line Localization"
+},
+{
+"i": 3,
+"a": "t7",
+"b": "t11",
+"a_name": "Binary Shape Analysis",
+"b_name": "Distance Functions"
+},
+{
+"i": 4,
+"a": "t22",
+"b": "t23",
+"a_name": "Line Localization",
+"b_name": "Line Fitting"
+},
+{
+"i": 5,
+"a": "t15",
+"b": "t16",
+"a_name": "Shape Models and Shape Recognition",
+"b_name": "Boundary Length Measures"
+},
+{
+"i": 6,
+"a": "t17",
+"b": "t19",
+"a_name": "Boundary Descriptors",
+"b_name": "Region Descriptors"
+},
+{
+"i": 7,
+"a": "t25",
+"b": "t26",
+"a_name": "HT Based Circular Object Detection",
+"b_name": "Ellipse Detection"
+},
+{
+"i": 8,
+"a": "t21",
+"b": "t26",
+"a_name": "Hough Transform (HT) for Line Detection",
+"b_name": "Ellipse Detection"
+},
+{
+"i": 9,
+"a": "t33",
+"b": "t34",
+"a_name": "Shape from Shading",
+"b_name": "Photometric Stereo"
+},
+{
+"i": 10,
+"a": "t8",
+"b": "t10",
+"a_name": "Connectedness",
+"b_name": "Size Filtering"
+},
+{
+"i": 11,
+"a": "t7",
+"b": "t15",
+"a_name": "Binary Shape Analysis",
+"b_name": "Shape Models and Shape Recognition"
+},
+{
+"i": 12,
+"a": "t31",
+"b": "t37",
+"a_name": "Methods for 3D Vision",
+"b_name": "Active Range Finding"
+},
+{
+"i": 13,
+"a": "t11",
+"b": "t12",
+"a_name": "Distance Functions",
+"b_name": "Skeletons and Thickening and Thinning"
+},
+{
+"i": 14,
+"a": "t2",
+"b": "t3",
+"a_name": "Convolutions and Point Spread Functions",
+"b_name": "Role of Filters in Industrial Applications of Vision"
+},
+{
+"i": 15,
+"a": "t31",
+"b": "t34",
+"a_name": "Methods for 3D Vision",
+"b_name": "Photometric Stereo"
+},
+{
+"i": 16,
+"a": "t31",
+"b": "t36",
+"a_name": "Methods for 3D Vision",
+"b_name": "Shape from Focus"
+},
+{
+"i": 17,
+"a": "t27",
+"b": "t30",
+"a_name": "Generalized Hough Transform (GHT)",
+"b_name": "Object Location"
+},
+{
+"i": 18,
+"a": "t1",
+"b": "t5",
+"a_name": "Nature of Vision",
+"b_name": "Corner and Interest Point Detection"
+},
+{
+"i": 19,
+"a": "t7",
+"b": "t14",
+"a_name": "Binary Shape Analysis",
+"b_name": "Boundary Tracking Procedures"
+},
+{
+"i": 20,
+"a": "t44",
+"b": "t51",
+"a_name": "Triangulation",
+"b_name": "Stereo from Motion"
+},
+{
+"i": 21,
+"a": "t31",
+"b": "t42",
+"a_name": "Methods for 3D Vision",
+"b_name": "3D Reconstruction"
+},
+{
+"i": 22,
+"a": "t9",
+"b": "t10",
+"a_name": "Object Labelling and Counting",
+"b_name": "Size Filtering"
+},
+{
+"i": 23,
+"a": "t38",
+"b": "t41",
+"a_name": "Surface Representations",
+"b_name": "3D Object Recognition"
+},
+{
+"i": 24,
+"a": "t31",
+"b": "t33",
+"a_name": "Methods for 3D Vision",
+"b_name": "Shape from Shading"
+},
+{
+"i": 25,
+"a": "t1",
+"b": "t4",
+"a_name": "Nature of Vision",
+"b_name": "Comparison between Image Processing and Computer Vision"
+},
+{
+"i": 26,
+"a": "t14",
+"b": "t16",
+"a_name": "Boundary Tracking Procedures",
+"b_name": "Boundary Length Measures"
+},
+{
+"i": 27,
+"a": "t1",
+"b": "t2",
+"a_name": "Nature of Vision",
+"b_name": "Convolutions and Point Spread Functions"
+},
+{
+"i": 28,
+"a": "t55",
+"b": "t56",
+"a_name": "Surveillance",
+"b_name": "Foreground Background Separation"
+},
+{
+"i": 29,
+"a": "t49",
+"b": "t50",
+"a_name": "Optical Flow",
+"b_name": "Layered Motion"
+},
+{
+"i": 30,
+"a": "t7",
+"b": "t13",
+"a_name": "Binary Shape Analysis",
+"b_name": "Hole Filling"
+},
+{
+"i": 31,
+"a": "t32",
+"b": "t42",
+"a_name": "Projection Schemes",
+"b_name": "3D Reconstruction"
+},
+{
+"i": 32,
+"a": "t49",
+"b": "t51",
+"a_name": "Optical Flow",
+"b_name": "Stereo from Motion"
+},
+{
+"i": 33,
+"a": "t5",
+"b": "t43",
+"a_name": "Corner and Interest Point Detection",
+"b_name": "SIFT Algorithms"
+},
+{
+"i": 34,
+"a": "t47",
+"b": "t49",
+"a_name": "Parametric Motion",
+"b_name": "Optical Flow"
+},
+{
+"i": 35,
+"a": "t47",
+"b": "t48",
+"a_name": "Parametric Motion",
+"b_name": "Spline-Based Motion"
+},
+{
+"i": 36,
+"a": "t31",
+"b": "t35",
+"a_name": "Methods for 3D Vision",
+"b_name": "Shape from Texture"
+}
+]
+}

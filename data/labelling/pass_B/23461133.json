@@ -1,1 +1,144 @@
-{"edges": [{"a": "t5", "b": "t6", "why": "foundation needed first"}, {"a": "t6", "b": "t7", "why": "foundation needed first"}, {"a": "t6", "b": "t8", "why": "foundation needed first"}, {"a": "t6", "b": "t12", "why": "foundation needed first"}, {"a": "t8", "b": "t9", "why": "foundation needed first"}, {"a": "t8", "b": "t10", "why": "foundation needed first"}, {"a": "t8", "b": "t11", "why": "foundation needed first"}, {"a": "t8", "b": "t14", "why": "foundation needed first"}, {"a": "t12", "b": "t14", "why": "foundation needed first"}, {"a": "t15", "b": "t16", "why": "foundation needed first"}, {"a": "t7", "b": "t17", "why": "foundation needed first"}, {"a": "t19", "b": "t20", "why": "foundation needed first"}, {"a": "t20", "b": "t21", "why": "foundation needed first"}, {"a": "t24", "b": "t25", "why": "foundation needed first"}, {"a": "t24", "b": "t26", "why": "foundation needed first"}, {"a": "t24", "b": "t27", "why": "foundation needed first"}, {"a": "t8", "b": "t25", "why": "foundation needed first"}, {"a": "t29", "b": "t30", "why": "foundation needed first"}, {"a": "t30", "b": "t31", "why": "foundation needed first"}, {"a": "t30", "b": "t32", "why": "foundation needed first"}, {"a": "t31", "b": "t33", "why": "foundation needed first"}, {"a": "t34", "b": "t35", "why": "foundation needed first"}, {"a": "t34", "b": "t36", "why": "foundation needed first"}, {"a": "t36", "b": "t37", "why": "foundation needed first"}, {"a": "t41", "b": "t42", "why": "foundation needed first"}, {"a": "t41", "b": "t43", "why": "foundation needed first"}, {"a": "t40", "b": "t41", "why": "foundation needed first"}, {"a": "t44", "b": "t45", "why": "foundation needed first"}, {"a": "t44", "b": "t46", "why": "foundation needed first"}, {"a": "t34", "b": "t40", "why": "foundation needed first"}, {"a": "t22", "b": "t23", "why": "foundation needed first"}]}
+{
+"edges": [
+{
+"a": "t1",
+"b": "t2",
+"why": "components of the introduced system"
+},
+{
+"a": "t1",
+"b": "t8",
+"why": "data types within GIS"
+},
+{
+"a": "t10",
+"b": "t11",
+"why": "DBMS specializes spatial databases"
+},
+{
+"a": "t11",
+"b": "t12",
+"why": "spatial SQL needs spatial DBMS"
+},
+{
+"a": "t8",
+"b": "t13",
+"why": "georeferencing works on spatial data"
+},
+{
+"a": "t8",
+"b": "t14",
+"why": "cleaning spatial data needs data types"
+},
+{
+"a": "t1",
+"b": "t15",
+"why": "analysis concepts need GIS basics"
+},
+{
+"a": "t15",
+"b": "t16",
+"why": "buffering is a spatial analysis"
+},
+{
+"a": "t15",
+"b": "t17",
+"why": "overlay is a spatial analysis"
+},
+{
+"a": "t15",
+"b": "t18",
+"why": "network analysis is spatial analysis"
+},
+{
+"a": "t8",
+"b": "t19",
+"why": "maps display spatial data"
+},
+{
+"a": "t20",
+"b": "t21",
+"why": "libraries used in Python GIS"
+},
+{
+"a": "t21",
+"b": "t22",
+"why": "GeoPandas is a library"
+},
+{
+"a": "t21",
+"b": "t23",
+"why": "Shapely is a library"
+},
+{
+"a": "t22",
+"b": "t24",
+"why": "automation uses GeoPandas"
+},
+{
+"a": "t25",
+"b": "t26",
+"why": "drone types need intro"
+},
+{
+"a": "t25",
+"b": "t27",
+"why": "components need drone intro"
+},
+{
+"a": "t27",
+"b": "t28",
+"why": "planning needs knowing drone hardware"
+},
+{
+"a": "t25",
+"b": "t29",
+"why": "regulations apply to drones"
+},
+{
+"a": "t25",
+"b": "t31",
+"why": "aerial imaging uses drones"
+},
+{
+"a": "t31",
+"b": "t32",
+"why": "stitching combines aerial images"
+},
+{
+"a": "t32",
+"b": "t33",
+"why": "orthomosaic built from stitched images"
+},
+{
+"a": "t32",
+"b": "t34",
+"why": "3D mapping uses photogrammetry"
+},
+{
+"a": "t35",
+"b": "t36",
+"why": "comparison needs remote sensing basics"
+},
+{
+"a": "t35",
+"b": "t37",
+"why": "NDVI is a remote sensing index"
+},
+{
+"a": "t1",
+"b": "t38",
+"why": "IoT integrated with GIS"
+},
+{
+"a": "t1",
+"b": "t39",
+"why": "geospatial AI needs GIS basics"
+},
+{
+"a": "t1",
+"b": "t42",
+"why": "Web GIS extends GIS"
+}
+]
+}

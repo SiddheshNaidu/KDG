@@ -69,7 +69,7 @@
 },
 {
 "id": "t14",
-"name": "Client- Server",
+"name": "Client-Server",
 "module": 1
 },
 {
@@ -304,7 +304,7 @@
 },
 {
 "id": "t61",
-"name": "additive- increase/multiplicative-decrease (AIMD )",
+"name": "additive-increase/multiplicative-decrease (AIMD )",
 "module": 4
 },
 {
@@ -314,116 +314,111 @@
 },
 {
 "id": "t63",
-"name": "SCTP",
+"name": "SCTP –Quality of service",
 "module": 4
 },
 {
 "id": "t64",
-"name": "Quality of service",
-"module": 4
-},
-{
-"id": "t65",
 "name": "Application layer Paradigms",
 "module": 5
 },
 {
-"id": "t66",
+"id": "t65",
 "name": "Client-Server Paradigm",
 "module": 5
 },
 {
-"id": "t67",
+"id": "t66",
 "name": "Application Programming Interface",
 "module": 5
 },
 {
-"id": "t68",
+"id": "t67",
 "name": "Standard Client Server applications",
 "module": 5
 },
 {
-"id": "t69",
+"id": "t68",
 "name": "World Wide Web and HTTP",
 "module": 5
 },
 {
-"id": "t70",
+"id": "t69",
 "name": "FTP",
 "module": 5
 },
 {
-"id": "t71",
+"id": "t70",
 "name": "TELNET",
 "module": 5
 },
 {
-"id": "t72",
+"id": "t71",
 "name": "Secure Shell (SSH)",
 "module": 5
 },
 {
-"id": "t73",
+"id": "t72",
 "name": "Domain Name System (DNS)",
 "module": 5
 },
 {
-"id": "t74",
+"id": "t73",
 "name": "MPLS",
 "module": 6
 },
 {
-"id": "t75",
+"id": "t74",
 "name": "header",
 "module": 6
 },
 {
-"id": "t76",
+"id": "t75",
 "name": "working",
 "module": 6
 },
 {
-"id": "t77",
+"id": "t76",
 "name": "advantages and disadvantages",
 "module": 6
 },
 {
-"id": "t78",
+"id": "t77",
 "name": "RADIO SPECTRUM",
 "module": 6
 },
 {
-"id": "t79",
+"id": "t78",
 "name": "5G spectrum landscape and requirements",
 "module": 6
 },
 {
-"id": "t80",
+"id": "t79",
 "name": "Spectrum access modes and sharing scenarios",
 "module": 6
 },
 {
-"id": "t81",
+"id": "t80",
 "name": "5G spectrum technologies. 5G architecture",
 "module": 6
 },
 {
-"id": "t82",
+"id": "t81",
 "name": "Introduction and need to study cyber security",
 "module": 6
 },
 {
-"id": "t83",
+"id": "t82",
 "name": "Cyber Crime",
 "module": 6
 },
 {
-"id": "t84",
+"id": "t83",
 "name": "Cybercrime definition",
 "module": 6
 },
 {
-"id": "t85",
+"id": "t84",
 "name": "Types of Cybercrime",
 "module": 6
 }
@@ -431,10 +426,10 @@
 "candidates": [
 {
 "i": 0,
-"a": "t76",
-"b": "t77",
-"a_name": "working",
-"b_name": "advantages and disadvantages"
+"a": "t83",
+"b": "t84",
+"a_name": "Cybercrime definition",
+"b_name": "Types of Cybercrime"
 },
 {
 "i": 1,
@@ -445,31 +440,31 @@
 },
 {
 "i": 2,
+"a": "t50",
+"b": "t57",
+"a_name": "Transport Service",
+"b_name": "UDP Characteristics"
+},
+{
+"i": 3,
+"a": "t82",
+"b": "t84",
+"a_name": "Cyber Crime",
+"b_name": "Types of Cybercrime"
+},
+{
+"i": 4,
 "a": "t25",
 "b": "t26",
 "a_name": "Framing",
 "b_name": "Error Detection and correction"
 },
 {
-"i": 3,
-"a": "t17",
-"b": "t18",
-"a_name": "Bridge",
-"b_name": "Switch"
-},
-{
-"i": 4,
-"a": "t16",
-"b": "t17",
-"a_name": "Network Devices",
-"b_name": "Bridge"
-},
-{
 "i": 5,
-"a": "t80",
-"b": "t81",
-"a_name": "Spectrum access modes and sharing scenarios",
-"b_name": "5G spectrum technologies. 5G architecture"
+"a": "t30",
+"b": "t33",
+"a_name": "Flow Control Protocols",
+"b_name": "Sliding Window Protocol"
 },
 {
 "i": 6,
@@ -480,24 +475,24 @@
 },
 {
 "i": 7,
-"a": "t59",
-"b": "t62",
-"a_name": "TCP Congestion Control",
-"b_name": "Congestion avoidance (DECBit , RED)"
+"a": "t40",
+"b": "t49",
+"a_name": "Introduction to Network Layer",
+"b_name": "Congestion Control and Quality of Service (QoS)"
 },
 {
 "i": 8,
-"a": "t49",
-"b": "t62",
-"a_name": "Congestion Control and Quality of Service (QoS)",
-"b_name": "Congestion avoidance (DECBit , RED)"
+"a": "t40",
+"b": "t41",
+"a_name": "Introduction to Network Layer",
+"b_name": "Network Layer Protocols"
 },
 {
 "i": 9,
-"a": "t25",
-"b": "t34",
-"a_name": "Framing",
-"b_name": "PPP and HDLC"
+"a": "t73",
+"b": "t75",
+"a_name": "MPLS",
+"b_name": "working"
 },
 {
 "i": 10,
@@ -508,97 +503,76 @@
 },
 {
 "i": 11,
-"a": "t16",
-"b": "t20",
-"a_name": "Network Devices",
-"b_name": "Gateway"
-},
-{
-"i": 12,
-"a": "t49",
-"b": "t64",
-"a_name": "Congestion Control and Quality of Service (QoS)",
-"b_name": "Quality of service"
-},
-{
-"i": 13,
-"a": "t66",
-"b": "t73",
-"a_name": "Client-Server Paradigm",
-"b_name": "Domain Name System (DNS)"
-},
-{
-"i": 14,
-"a": "t6",
-"b": "t8",
-"a_name": "Protocol",
-"b_name": "Network Models"
-},
-{
-"i": 15,
-"a": "t30",
-"b": "t31",
-"a_name": "Flow Control Protocols",
-"b_name": "Unrestricted Simplex"
-},
-{
-"i": 16,
-"a": "t75",
-"b": "t76",
+"a": "t74",
+"b": "t75",
 "a_name": "header",
 "b_name": "working"
 },
 {
-"i": 17,
+"i": 12,
+"a": "t17",
+"b": "t18",
+"a_name": "Bridge",
+"b_name": "Switch"
+},
+{
+"i": 13,
+"a": "t16",
+"b": "t18",
+"a_name": "Network Devices",
+"b_name": "Switch"
+},
+{
+"i": 14,
+"a": "t50",
+"b": "t53",
+"a_name": "Transport Service",
+"b_name": "TCP Characteristics"
+},
+{
+"i": 15,
 "a": "t13",
 "b": "t15",
 "a_name": "Network Architectures",
 "b_name": "Peer To Peer"
 },
 {
-"i": 18,
+"i": 16,
 "a": "t50",
 "b": "t63",
 "a_name": "Transport Service",
-"b_name": "SCTP"
+"b_name": "SCTP –Quality of service"
 },
 {
-"i": 19,
-"a": "t58",
-"b": "t59",
-"a_name": "TCP Flow control (sliding Window)",
-"b_name": "TCP Congestion Control"
-},
-{
-"i": 20,
-"a": "t74",
-"b": "t75",
+"i": 17,
+"a": "t73",
+"b": "t74",
 "a_name": "MPLS",
 "b_name": "header"
 },
 {
-"i": 21,
-"a": "t16",
-"b": "t21",
-"a_name": "Network Devices",
-"b_name": "Access Point"
+"i": 18,
+"a": "t75",
+"b": "t76",
+"a_name": "working",
+"b_name": "advantages and disadvantages"
 },
 {
-"i": 22,
-"a": "t68",
-"b": "t73",
-"a_name": "Standard Client Server applications",
-"b_name": "Domain Name System (DNS)"
+"i": 19,
+"a": "t18",
+"b": "t19",
+"a_name": "Switch",
+"b_name": "Router"
 },
 {
-"i": 23,
+"i": 20,
 "a": "t13",
 "b": "t14",
 "a_name": "Network Architectures",
-"b_name": "Client- Server"
+"b_name": "Client-Server"
 },
 {
-"i": 24,
+"i": 21,
 "a": "t16",
 "b": "t19",
 "a_name": "Network Devices",

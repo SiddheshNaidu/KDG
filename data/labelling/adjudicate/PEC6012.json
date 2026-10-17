@@ -19,7 +19,7 @@
 },
 {
 "id": "t4",
-"name": "Big- Oh",
+"name": "Big-Oh",
 "module": 1
 },
 {
@@ -182,72 +182,72 @@
 {
 "i": 0,
 "a": "t12",
-"b": "t13",
-"a_name": "General method",
-"b_name": "Merge sort"
-},
-{
-"i": 1,
-"a": "t4",
 "b": "t15",
-"a_name": "Big- Oh",
+"a_name": "General method",
 "b_name": "Analysis of Linear Search and Binary search"
 },
 {
+"i": 1,
+"a": "t24",
+"b": "t25",
+"a_name": "0/1 knapsack Problem",
+"b_name": "Travelling Salesperson problem"
+},
+{
 "i": 2,
-"a": "t16",
+"a": "t21",
 "b": "t22",
-"a_name": "Single source shortest path",
+"a_name": "Multistage graphs",
 "b_name": "All pair shortest path"
 },
 {
 "i": 3,
-"a": "t9",
-"b": "t13",
-"a_name": "Recurrences",
-"b_name": "Merge sort"
-},
-{
-"i": 4,
-"a": "t10",
-"b": "t11",
-"a_name": "substitution method",
-"b_name": "Master method"
-},
-{
-"i": 5,
-"a": "t1",
-"b": "t3",
-"a_name": "Performance analysis",
-"b_name": "time complexity Growth of function"
-},
-{
-"i": 6,
 "a": "t27",
 "b": "t31",
 "a_name": "Backtracking",
 "b_name": "Branch and Bound"
 },
 {
+"i": 4,
+"a": "t11",
+"b": "t15",
+"a_name": "Master method",
+"b_name": "Analysis of Linear Search and Binary search"
+},
+{
+"i": 5,
+"a": "t1",
+"b": "t2",
+"a_name": "Performance analysis",
+"b_name": "space"
+},
+{
+"i": 6,
+"a": "t22",
+"b": "t25",
+"a_name": "All pair shortest path",
+"b_name": "Travelling Salesperson problem"
+},
+{
 "i": 7,
-"a": "t12",
-"b": "t14",
-"a_name": "General method",
-"b_name": "Quick sort"
+"a": "t16",
+"b": "t21",
+"a_name": "Single source shortest path",
+"b_name": "Multistage graphs"
 },
 {
 "i": 8,
-"a": "t9",
-"b": "t14",
-"a_name": "Recurrences",
-"b_name": "Quick sort"
+"a": "t6",
+"b": "t9",
+"a_name": "Theta Notation Mathematical background for algorithm analysis",
+"b_name": "Recurrences"
 },
 {
 "i": 9,
-"a": "t12",
-"b": "t15",
-"a_name": "General method",
-"b_name": "Analysis of Linear Search and Binary search"
+"a": "t16",
+"b": "t22",
+"a_name": "Single source shortest path",
+"b_name": "All pair shortest path"
 }
 ]
 }

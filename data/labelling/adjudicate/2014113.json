@@ -274,7 +274,7 @@
 },
 {
 "id": "t55",
-"name": "Overview of Mass- Storage Structure",
+"name": "Overview of Mass-Storage Structure",
 "module": 5
 },
 {
@@ -366,206 +366,122 @@
 "candidates": [
 {
 "i": 0,
+"a": "t56",
+"b": "t57",
+"a_name": "I/O devices",
+"b_name": "Organization of the I/O Function"
+},
+{
+"i": 1,
 "a": "t1",
 "b": "t5",
 "a_name": "Introduction of Operating Systems",
 "b_name": "Operating System Services"
 },
 {
-"i": 1,
-"a": "t45",
-"b": "t48",
-"a_name": "Demand Paging",
-"b_name": "Thrashing"
-},
-{
 "i": 2,
-"a": "t12",
-"b": "t19",
-"a_name": "Process State Transition Model",
-"b_name": "Basic Concepts of Scheduling"
+"a": "t59",
+"b": "t64",
+"a_name": "I/O Management and Disk Scheduling",
+"b_name": "LOOK"
 },
 {
 "i": 3,
-"a": "t1",
-"b": "t9",
-"a_name": "Introduction of Operating Systems",
-"b_name": "Types of Operating System"
-},
-{
-"i": 4,
-"a": "t6",
-"b": "t9",
-"a_name": "Multiprogramming",
-"b_name": "Types of Operating System"
-},
-{
-"i": 5,
-"a": "t1",
-"b": "t2",
-"a_name": "Introduction of Operating Systems",
-"b_name": "System Boot"
-},
-{
-"i": 6,
-"a": "t45",
-"b": "t46",
-"a_name": "Demand Paging",
-"b_name": "Copy-on Write"
-},
-{
-"i": 7,
-"a": "t37",
-"b": "t44",
-"a_name": "Basic Concepts of Memory Management",
-"b_name": "Basic Concepts of Virtual Memory"
-},
-{
-"i": 8,
-"a": "t5",
-"b": "t10",
-"a_name": "Operating System Services",
-"b_name": "Types of System Calls"
-},
-{
-"i": 9,
-"a": "t40",
-"b": "t44",
-"a_name": "Paging",
-"b_name": "Basic Concepts of Virtual Memory"
-},
-{
-"i": 10,
-"a": "t7",
-"b": "t9",
-"a_name": "Multitasking",
-"b_name": "Types of Operating System"
-},
-{
-"i": 11,
-"a": "t25",
-"b": "t27",
-"a_name": "Critical Section Problem",
-"b_name": "Process Synchronization"
-},
-{
-"i": 12,
-"a": "t11",
-"b": "t19",
-"a_name": "Basic Concepts of Process",
-"b_name": "Basic Concepts of Scheduling"
-},
-{
-"i": 13,
-"a": "t67",
-"b": "t68",
-"a_name": "Fundamentals of Distributed Operating System",
-"b_name": "Network Operating System"
-},
-{
-"i": 14,
 "a": "t1",
 "b": "t4",
 "a_name": "Introduction of Operating Systems",
 "b_name": "Operating System Structure and Operations"
 },
 {
-"i": 15,
-"a": "t63",
-"b": "t65",
-"a_name": "C-SCAN",
-"b_name": "C-LOOK"
-},
-{
-"i": 16,
-"a": "t11",
-"b": "t31",
-"a_name": "Basic Concepts of Process",
-"b_name": "System Model"
-},
-{
-"i": 17,
-"a": "t21",
-"b": "t71",
-"a_name": "Type of scheduling algorithms",
-"b_name": "Real-Time Operating System"
-},
-{
-"i": 18,
-"a": "t25",
-"b": "t28",
-"a_name": "Critical Section Problem",
-"b_name": "Hardware and Semaphores"
-},
-{
-"i": 19,
+"i": 4,
 "a": "t37",
-"b": "t42",
-"a_name": "Basic Concepts of Memory Management",
-"b_name": "Segmentation"
-},
-{
-"i": 20,
-"a": "t49",
-"b": "t50",
-"a_name": "File Management",
-"b_name": "Basic Concepts of File System"
-},
-{
-"i": 21,
-"a": "t41",
-"b": "t43",
-"a_name": "Structure of Page Table",
-"b_name": "TLB"
-},
-{
-"i": 22,
-"a": "t40",
-"b": "t42",
-"a_name": "Paging",
-"b_name": "Segmentation"
-},
-{
-"i": 23,
-"a": "t27",
-"b": "t28",
-"a_name": "Process Synchronization",
-"b_name": "Hardware and Semaphores"
-},
-{
-"i": 24,
-"a": "t55",
-"b": "t58",
-"a_name": "Overview of Mass- Storage Structure",
-"b_name": "Disk Organization"
-},
-{
-"i": 25,
-"a": "t39",
 "b": "t40",
-"a_name": "Memory Allocation strategy",
+"a_name": "Basic Concepts of Memory Management",
 "b_name": "Paging"
 },
 {
-"i": 26,
+"i": 5,
 "a": "t40",
-"b": "t46",
+"b": "t44",
 "a_name": "Paging",
-"b_name": "Copy-on Write"
+"b_name": "Basic Concepts of Virtual Memory"
 },
 {
-"i": 27,
+"i": 6,
+"a": "t59",
+"b": "t63",
+"a_name": "I/O Management and Disk Scheduling",
+"b_name": "C-SCAN"
+},
+{
+"i": 7,
+"a": "t30",
+"b": "t31",
+"a_name": "Deadlocks Management",
+"b_name": "System Model"
+},
+{
+"i": 8,
 "a": "t47",
 "b": "t48",
 "a_name": "Page Replacement Algorithms",
 "b_name": "Thrashing"
 },
 {
-"i": 28,
+"i": 9,
+"a": "t39",
+"b": "t42",
+"a_name": "Memory Allocation strategy",
+"b_name": "Segmentation"
+},
+{
+"i": 10,
+"a": "t1",
+"b": "t9",
+"a_name": "Introduction of Operating Systems",
+"b_name": "Types of Operating System"
+},
+{
+"i": 11,
+"a": "t39",
+"b": "t40",
+"a_name": "Memory Allocation strategy",
+"b_name": "Paging"
+},
+{
+"i": 12,
 "a": "t40",
-"b": "t43",
+"b": "t45",
 "a_name": "Paging",
-"b_name": "TLB"
+"b_name": "Demand Paging"
+},
+{
+"i": 13,
+"a": "t37",
+"b": "t42",
+"a_name": "Basic Concepts of Memory Management",
+"b_name": "Segmentation"
+},
+{
+"i": 14,
+"a": "t62",
+"b": "t64",
+"a_name": "SCAN",
+"b_name": "LOOK"
+},
+{
+"i": 15,
+"a": "t45",
+"b": "t48",
+"a_name": "Demand Paging",
+"b_name": "Thrashing"
+},
+{
+"i": 16,
+"a": "t11",
+"b": "t23",
+"a_name": "Basic Concepts of Process",
+"b_name": "Basic Concepts of Inter-process Communication and Synchronization"
 }
 ]
 }

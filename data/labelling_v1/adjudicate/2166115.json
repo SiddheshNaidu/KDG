@@ -1,0 +1,910 @@
+{
+"course": "2166115",
+"title": "Nature- Inspired Optimization Algorithms",
+"topics": [
+{
+"id": "t1",
+"name": "Basic principles of optimization",
+"module": 1
+},
+{
+"id": "t2",
+"name": "motivation and need for nature-inspired algorithms",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Overview of classical vs. nature-inspired optimization",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Examples of nature-based algorithms",
+"module": 1
+},
+{
+"id": "t5",
+"name": "biological",
+"module": 1
+},
+{
+"id": "t6",
+"name": "physical process inspired",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Types of nature-inspired algorithms",
+"module": 1
+},
+{
+"id": "t8",
+"name": "evolutionary",
+"module": 1
+},
+{
+"id": "t9",
+"name": "swarm intelligence",
+"module": 1
+},
+{
+"id": "t10",
+"name": "bio- inspired",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Introduction to Multi-Objective Optimization",
+"module": 2
+},
+{
+"id": "t12",
+"name": "Concepts of Pareto optimality",
+"module": 2
+},
+{
+"id": "t13",
+"name": "dominance",
+"module": 2
+},
+{
+"id": "t14",
+"name": "Pareto front",
+"module": 2
+},
+{
+"id": "t15",
+"name": "trade-off analysis. methods of MOO",
+"module": 2
+},
+{
+"id": "t16",
+"name": "classical and evolutionary Evolutionary algorithm framework for MOO",
+"module": 2
+},
+{
+"id": "t17",
+"name": "population-based search for Pareto front. solution",
+"module": 2
+},
+{
+"id": "t18",
+"name": "MOEA Algorithms",
+"module": 2
+},
+{
+"id": "t19",
+"name": "NSGA-II",
+"module": 2
+},
+{
+"id": "t20",
+"name": "SPEA-II",
+"module": 2
+},
+{
+"id": "t21",
+"name": "MOEA/D",
+"module": 2
+},
+{
+"id": "t22",
+"name": "NSGA-III mechanisms",
+"module": 2
+},
+{
+"id": "t23",
+"name": "Case Studies & Applications",
+"module": 2
+},
+{
+"id": "t24",
+"name": "MOEAs in feature selection",
+"module": 2
+},
+{
+"id": "t25",
+"name": "neural network training",
+"module": 2
+},
+{
+"id": "t26",
+"name": "scheduling",
+"module": 2
+},
+{
+"id": "t27",
+"name": "energy optimization",
+"module": 2
+},
+{
+"id": "t28",
+"name": "Advance Algorithms",
+"module": 3
+},
+{
+"id": "t29",
+"name": "Introduction to Particle Swarm Optimization (PSO)",
+"module": 3
+},
+{
+"id": "t30",
+"name": "Grey Wolf Optimizer (GWO)",
+"module": 3
+},
+{
+"id": "t31",
+"name": "ω hierarchy guides search around prey",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Whale Optimization Algorithm (WOA)",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Encircling prey and spiral updating mechanism",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Dragonfly Algorithm",
+"module": 3
+},
+{
+"id": "t35",
+"name": "Separation",
+"module": 3
+},
+{
+"id": "t36",
+"name": "alignment",
+"module": 3
+},
+{
+"id": "t37",
+"name": "cohesion",
+"module": 3
+},
+{
+"id": "t38",
+"name": "attraction",
+"module": 3
+},
+{
+"id": "t39",
+"name": "distraction rules",
+"module": 3
+},
+{
+"id": "t40",
+"name": "Multi-Objective Swarm Intelligence",
+"module": 3
+},
+{
+"id": "t41",
+"name": "Pareto-based PSO",
+"module": 3
+},
+{
+"id": "t42",
+"name": "Hybrid Swarm Models",
+"module": 3
+},
+{
+"id": "t43",
+"name": "PSO",
+"module": 3
+},
+{
+"id": "t44",
+"name": "GA hybrid",
+"module": 3
+},
+{
+"id": "t45",
+"name": "Firefly",
+"module": 3
+},
+{
+"id": "t46",
+"name": "ANN hybrid",
+"module": 3
+},
+{
+"id": "t47",
+"name": "ACO with local search",
+"module": 3
+},
+{
+"id": "t48",
+"name": "Water Wave Optimization",
+"module": 4
+},
+{
+"id": "t49",
+"name": "Objective Function",
+"module": 4
+},
+{
+"id": "t50",
+"name": "Power Balance Constraints",
+"module": 4
+},
+{
+"id": "t51",
+"name": "Generator Capacity Constraints",
+"module": 4
+},
+{
+"id": "t52",
+"name": "Water Wave Optimization Algorithm",
+"module": 4
+},
+{
+"id": "t53",
+"name": "Mathematical Model of WWO Algorithm",
+"module": 4
+},
+{
+"id": "t54",
+"name": "Brain Storm Optimization",
+"module": 4
+},
+{
+"id": "t55",
+"name": "Multi-Objective Brain Storm Optimization Algorithm",
+"module": 4
+},
+{
+"id": "t56",
+"name": "Clustering Strategy",
+"module": 4
+},
+{
+"id": "t57",
+"name": "Generation Process",
+"module": 4
+},
+{
+"id": "t58",
+"name": "Mutation Operator",
+"module": 4
+},
+{
+"id": "t59",
+"name": "Selection Operator",
+"module": 4
+},
+{
+"id": "t60",
+"name": "Swarm Cyborg",
+"module": 4
+},
+{
+"id": "t61",
+"name": "Swarm Intelligence Cyborg",
+"module": 4
+},
+{
+"id": "t62",
+"name": "Swarm Cyborg Taxis Algorithms",
+"module": 4
+},
+{
+"id": "t63",
+"name": "Cyborg Alpha Algorithm",
+"module": 4
+},
+{
+"id": "t64",
+"name": "Ant Lion Optimizer (ALO)",
+"module": 5
+},
+{
+"id": "t65",
+"name": "Random walks of ants influenced by antlion traps",
+"module": 5
+},
+{
+"id": "t66",
+"name": "Moth Flame Optimization (MFO)",
+"module": 5
+},
+{
+"id": "t67",
+"name": "Logarithmic spiral motion towards flames",
+"module": 5
+},
+{
+"id": "t68",
+"name": "Harris Hawks Optimization (HHO)",
+"module": 5
+},
+{
+"id": "t69",
+"name": "Dynamic switching between soft and hard besiege",
+"module": 5
+},
+{
+"id": "t70",
+"name": "NIOA for Edge Resource Optimization",
+"module": 5
+},
+{
+"id": "t71",
+"name": "Optimization of task scheduling",
+"module": 5
+},
+{
+"id": "t72",
+"name": "load balancing",
+"module": 5
+},
+{
+"id": "t73",
+"name": "energy consumption in Edge networks",
+"module": 5
+},
+{
+"id": "t74",
+"name": "PSO for IoT data routing",
+"module": 5
+},
+{
+"id": "t75",
+"name": "Firefly for energy-efficient edge nodes",
+"module": 5
+},
+{
+"id": "t76",
+"name": "Apply NIOA techniques for optimizing performance in distributed Edge systems",
+"module": 5
+},
+{
+"id": "t77",
+"name": "Machine Learning & Deep Learning Optimization Applications",
+"module": 6
+},
+{
+"id": "t78",
+"name": "Cost-based & Correlation-based feature selection with swarm intelligence",
+"module": 6
+},
+{
+"id": "t79",
+"name": "Predictions with reduced features",
+"module": 6
+},
+{
+"id": "t80",
+"name": "SVM and random forest",
+"module": 6
+},
+{
+"id": "t81",
+"name": "Crime forecasting with PSO-SVM",
+"module": 6
+},
+{
+"id": "t82",
+"name": "CNN and LSTM optimization",
+"module": 6
+},
+{
+"id": "t83",
+"name": "Case Studies in Engineering",
+"module": 6
+},
+{
+"id": "t84",
+"name": "Scheduling and Logistics (e.g., vehicle routing)",
+"module": 6
+},
+{
+"id": "t85",
+"name": "Machine Learning (e.g., hyperparameter tuning, feature selection)",
+"module": 6
+},
+{
+"id": "t86",
+"name": "Energy Consumption Prediction using Multi-objective GA",
+"module": 6
+},
+{
+"id": "t87",
+"name": "Scheduling Tasks in Cloud or Social Networks using ACO",
+"module": 6
+},
+{
+"id": "t88",
+"name": "Stock Market Forecasting using Swarm Intelligence",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t42",
+"b": "t45",
+"a_name": "Hybrid Swarm Models",
+"b_name": "Firefly"
+},
+{
+"i": 1,
+"a": "t83",
+"b": "t84",
+"a_name": "Case Studies in Engineering",
+"b_name": "Scheduling and Logistics (e.g., vehicle routing)"
+},
+{
+"i": 2,
+"a": "t11",
+"b": "t86",
+"a_name": "Introduction to Multi-Objective Optimization",
+"b_name": "Energy Consumption Prediction using Multi-objective GA"
+},
+{
+"i": 3,
+"a": "t29",
+"b": "t40",
+"a_name": "Introduction to Particle Swarm Optimization (PSO)",
+"b_name": "Multi-Objective Swarm Intelligence"
+},
+{
+"i": 4,
+"a": "t57",
+"b": "t58",
+"a_name": "Generation Process",
+"b_name": "Mutation Operator"
+},
+{
+"i": 5,
+"a": "t11",
+"b": "t16",
+"a_name": "Introduction to Multi-Objective Optimization",
+"b_name": "classical and evolutionary Evolutionary algorithm framework for MOO"
+},
+{
+"i": 6,
+"a": "t29",
+"b": "t43",
+"a_name": "Introduction to Particle Swarm Optimization (PSO)",
+"b_name": "PSO"
+},
+{
+"i": 7,
+"a": "t1",
+"b": "t4",
+"a_name": "Basic principles of optimization",
+"b_name": "Examples of nature-based algorithms"
+},
+{
+"i": 8,
+"a": "t77",
+"b": "t78",
+"a_name": "Machine Learning & Deep Learning Optimization Applications",
+"b_name": "Cost-based & Correlation-based feature selection with swarm intelligence"
+},
+{
+"i": 9,
+"a": "t14",
+"b": "t40",
+"a_name": "Pareto front",
+"b_name": "Multi-Objective Swarm Intelligence"
+},
+{
+"i": 10,
+"a": "t9",
+"b": "t66",
+"a_name": "swarm intelligence",
+"b_name": "Moth Flame Optimization (MFO)"
+},
+{
+"i": 11,
+"a": "t9",
+"b": "t30",
+"a_name": "swarm intelligence",
+"b_name": "Grey Wolf Optimizer (GWO)"
+},
+{
+"i": 12,
+"a": "t83",
+"b": "t88",
+"a_name": "Case Studies in Engineering",
+"b_name": "Stock Market Forecasting using Swarm Intelligence"
+},
+{
+"i": 13,
+"a": "t11",
+"b": "t40",
+"a_name": "Introduction to Multi-Objective Optimization",
+"b_name": "Multi-Objective Swarm Intelligence"
+},
+{
+"i": 14,
+"a": "t21",
+"b": "t22",
+"a_name": "MOEA/D",
+"b_name": "NSGA-III mechanisms"
+},
+{
+"i": 15,
+"a": "t9",
+"b": "t87",
+"a_name": "swarm intelligence",
+"b_name": "Scheduling Tasks in Cloud or Social Networks using ACO"
+},
+{
+"i": 16,
+"a": "t29",
+"b": "t30",
+"a_name": "Introduction to Particle Swarm Optimization (PSO)",
+"b_name": "Grey Wolf Optimizer (GWO)"
+},
+{
+"i": 17,
+"a": "t42",
+"b": "t47",
+"a_name": "Hybrid Swarm Models",
+"b_name": "ACO with local search"
+},
+{
+"i": 18,
+"a": "t42",
+"b": "t46",
+"a_name": "Hybrid Swarm Models",
+"b_name": "ANN hybrid"
+},
+{
+"i": 19,
+"a": "t1",
+"b": "t11",
+"a_name": "Basic principles of optimization",
+"b_name": "Introduction to Multi-Objective Optimization"
+},
+{
+"i": 20,
+"a": "t9",
+"b": "t64",
+"a_name": "swarm intelligence",
+"b_name": "Ant Lion Optimizer (ALO)"
+},
+{
+"i": 21,
+"a": "t5",
+"b": "t8",
+"a_name": "biological",
+"b_name": "evolutionary"
+},
+{
+"i": 22,
+"a": "t45",
+"b": "t75",
+"a_name": "Firefly",
+"b_name": "Firefly for energy-efficient edge nodes"
+},
+{
+"i": 23,
+"a": "t12",
+"b": "t15",
+"a_name": "Concepts of Pareto optimality",
+"b_name": "trade-off analysis. methods of MOO"
+},
+{
+"i": 24,
+"a": "t12",
+"b": "t14",
+"a_name": "Concepts of Pareto optimality",
+"b_name": "Pareto front"
+},
+{
+"i": 25,
+"a": "t77",
+"b": "t82",
+"a_name": "Machine Learning & Deep Learning Optimization Applications",
+"b_name": "CNN and LSTM optimization"
+},
+{
+"i": 26,
+"a": "t18",
+"b": "t86",
+"a_name": "MOEA Algorithms",
+"b_name": "Energy Consumption Prediction using Multi-objective GA"
+},
+{
+"i": 27,
+"a": "t42",
+"b": "t43",
+"a_name": "Hybrid Swarm Models",
+"b_name": "PSO"
+},
+{
+"i": 28,
+"a": "t34",
+"b": "t37",
+"a_name": "Dragonfly Algorithm",
+"b_name": "cohesion"
+},
+{
+"i": 29,
+"a": "t34",
+"b": "t36",
+"a_name": "Dragonfly Algorithm",
+"b_name": "alignment"
+},
+{
+"i": 30,
+"a": "t42",
+"b": "t44",
+"a_name": "Hybrid Swarm Models",
+"b_name": "GA hybrid"
+},
+{
+"i": 31,
+"a": "t9",
+"b": "t88",
+"a_name": "swarm intelligence",
+"b_name": "Stock Market Forecasting using Swarm Intelligence"
+},
+{
+"i": 32,
+"a": "t8",
+"b": "t86",
+"a_name": "evolutionary",
+"b_name": "Energy Consumption Prediction using Multi-objective GA"
+},
+{
+"i": 33,
+"a": "t9",
+"b": "t32",
+"a_name": "swarm intelligence",
+"b_name": "Whale Optimization Algorithm (WOA)"
+},
+{
+"i": 34,
+"a": "t34",
+"b": "t38",
+"a_name": "Dragonfly Algorithm",
+"b_name": "attraction"
+},
+{
+"i": 35,
+"a": "t18",
+"b": "t22",
+"a_name": "MOEA Algorithms",
+"b_name": "NSGA-III mechanisms"
+},
+{
+"i": 36,
+"a": "t36",
+"b": "t34",
+"a_name": "alignment",
+"b_name": "Dragonfly Algorithm"
+},
+{
+"i": 37,
+"a": "t49",
+"b": "t51",
+"a_name": "Objective Function",
+"b_name": "Generator Capacity Constraints"
+},
+{
+"i": 38,
+"a": "t9",
+"b": "t34",
+"a_name": "swarm intelligence",
+"b_name": "Dragonfly Algorithm"
+},
+{
+"i": 39,
+"a": "t29",
+"b": "t35",
+"a_name": "Introduction to Particle Swarm Optimization (PSO)",
+"b_name": "Separation"
+},
+{
+"i": 40,
+"a": "t83",
+"b": "t85",
+"a_name": "Case Studies in Engineering",
+"b_name": "Machine Learning (e.g., hyperparameter tuning, feature selection)"
+},
+{
+"i": 41,
+"a": "t49",
+"b": "t50",
+"a_name": "Objective Function",
+"b_name": "Power Balance Constraints"
+},
+{
+"i": 42,
+"a": "t29",
+"b": "t34",
+"a_name": "Introduction to Particle Swarm Optimization (PSO)",
+"b_name": "Dragonfly Algorithm"
+},
+{
+"i": 43,
+"a": "t78",
+"b": "t80",
+"a_name": "Cost-based & Correlation-based feature selection with swarm intelligence",
+"b_name": "SVM and random forest"
+},
+{
+"i": 44,
+"a": "t14",
+"b": "t55",
+"a_name": "Pareto front",
+"b_name": "Multi-Objective Brain Storm Optimization Algorithm"
+},
+{
+"i": 45,
+"a": "t49",
+"b": "t53",
+"a_name": "Objective Function",
+"b_name": "Mathematical Model of WWO Algorithm"
+},
+{
+"i": 46,
+"a": "t35",
+"b": "t34",
+"a_name": "Separation",
+"b_name": "Dragonfly Algorithm"
+},
+{
+"i": 47,
+"a": "t55",
+"b": "t58",
+"a_name": "Multi-Objective Brain Storm Optimization Algorithm",
+"b_name": "Mutation Operator"
+},
+{
+"i": 48,
+"a": "t9",
+"b": "t40",
+"a_name": "swarm intelligence",
+"b_name": "Multi-Objective Swarm Intelligence"
+},
+{
+"i": 49,
+"a": "t8",
+"b": "t18",
+"a_name": "evolutionary",
+"b_name": "MOEA Algorithms"
+},
+{
+"i": 50,
+"a": "t34",
+"b": "t35",
+"a_name": "Dragonfly Algorithm",
+"b_name": "Separation"
+},
+{
+"i": 51,
+"a": "t55",
+"b": "t59",
+"a_name": "Multi-Objective Brain Storm Optimization Algorithm",
+"b_name": "Selection Operator"
+},
+{
+"i": 52,
+"a": "t18",
+"b": "t25",
+"a_name": "MOEA Algorithms",
+"b_name": "neural network training"
+},
+{
+"i": 53,
+"a": "t15",
+"b": "t16",
+"a_name": "trade-off analysis. methods of MOO",
+"b_name": "classical and evolutionary Evolutionary algorithm framework for MOO"
+},
+{
+"i": 54,
+"a": "t83",
+"b": "t87",
+"a_name": "Case Studies in Engineering",
+"b_name": "Scheduling Tasks in Cloud or Social Networks using ACO"
+},
+{
+"i": 55,
+"a": "t14",
+"b": "t15",
+"a_name": "Pareto front",
+"b_name": "trade-off analysis. methods of MOO"
+},
+{
+"i": 56,
+"a": "t5",
+"b": "t9",
+"a_name": "biological",
+"b_name": "swarm intelligence"
+},
+{
+"i": 57,
+"a": "t48",
+"b": "t52",
+"a_name": "Water Wave Optimization",
+"b_name": "Water Wave Optimization Algorithm"
+},
+{
+"i": 58,
+"a": "t9",
+"b": "t68",
+"a_name": "swarm intelligence",
+"b_name": "Harris Hawks Optimization (HHO)"
+},
+{
+"i": 59,
+"a": "t29",
+"b": "t32",
+"a_name": "Introduction to Particle Swarm Optimization (PSO)",
+"b_name": "Whale Optimization Algorithm (WOA)"
+},
+{
+"i": 60,
+"a": "t34",
+"b": "t39",
+"a_name": "Dragonfly Algorithm",
+"b_name": "distraction rules"
+},
+{
+"i": 61,
+"a": "t57",
+"b": "t59",
+"a_name": "Generation Process",
+"b_name": "Selection Operator"
+},
+{
+"i": 62,
+"a": "t8",
+"b": "t42",
+"a_name": "evolutionary",
+"b_name": "Hybrid Swarm Models"
+},
+{
+"i": 63,
+"a": "t19",
+"b": "t22",
+"a_name": "NSGA-II",
+"b_name": "NSGA-III mechanisms"
+},
+{
+"i": 64,
+"a": "t74",
+"b": "t70",
+"a_name": "PSO for IoT data routing",
+"b_name": "NIOA for Edge Resource Optimization"
+},
+{
+"i": 65,
+"a": "t83",
+"b": "t86",
+"a_name": "Case Studies in Engineering",
+"b_name": "Energy Consumption Prediction using Multi-objective GA"
+}
+]
+}

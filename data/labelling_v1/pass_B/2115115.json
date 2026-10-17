@@ -1,0 +1,229 @@
+{
+"edges": [
+{
+"a": "t3",
+"b": "t4",
+"why": "rasterization uses coordinates"
+},
+{
+"a": "t4",
+"b": "t5",
+"why": "raster scan displays rasterize"
+},
+{
+"a": "t7",
+"b": "t10",
+"why": "primitives pass through pipeline"
+},
+{
+"a": "t8",
+"b": "t10",
+"why": "OpenGL provides primitives"
+},
+{
+"a": "t11",
+"b": "t12",
+"why": "line drawing is scan conversion"
+},
+{
+"a": "t12",
+"b": "t13",
+"why": "DDA/Bresenham are line algorithms"
+},
+{
+"a": "t11",
+"b": "t14",
+"why": "circle algorithm is scan conversion"
+},
+{
+"a": "t11",
+"b": "t15",
+"why": "filled area scan conversion"
+},
+{
+"a": "t15",
+"b": "t16",
+"why": "boundary/flood fill fill areas"
+},
+{
+"a": "t15",
+"b": "t17",
+"why": "polygon tables for filling"
+},
+{
+"a": "t17",
+"b": "t18",
+"why": "scan-line fill uses edge tables"
+},
+{
+"a": "t19",
+"b": "t20",
+"why": "translation is basic transformation"
+},
+{
+"a": "t19",
+"b": "t21",
+"why": "scaling is basic transformation"
+},
+{
+"a": "t19",
+"b": "t22",
+"why": "rotation is basic transformation"
+},
+{
+"a": "t20",
+"b": "t23",
+"why": "homogeneous coords unify translation"
+},
+{
+"a": "t22",
+"b": "t23",
+"why": "homogeneous coords unify rotation"
+},
+{
+"a": "t23",
+"b": "t24",
+"why": "composites use matrix concatenation"
+},
+{
+"a": "t19",
+"b": "t26",
+"why": "reflection is a transformation"
+},
+{
+"a": "t24",
+"b": "t27",
+"why": "viewport mapping composes transforms"
+},
+{
+"a": "t28",
+"b": "t29",
+"why": "point clipping simplest clipping"
+},
+{
+"a": "t28",
+"b": "t30",
+"why": "line clipping is clipping"
+},
+{
+"a": "t28",
+"b": "t31",
+"why": "polygon clipping is clipping"
+},
+{
+"a": "t31",
+"b": "t32",
+"why": "Sutherland-Hodgman clips polygons"
+},
+{
+"a": "t23",
+"b": "t33",
+"why": "3D transforms use homogeneous coords"
+},
+{
+"a": "t33",
+"b": "t34",
+"why": "projection follows 3D viewing"
+},
+{
+"a": "t34",
+"b": "t35",
+"why": "parallel is projection"
+},
+{
+"a": "t34",
+"b": "t36",
+"why": "perspective is projection"
+},
+{
+"a": "t37",
+"b": "t38",
+"why": "Bezier is a curve"
+},
+{
+"a": "t39",
+"b": "t40",
+"why": "representations of solid modeling"
+},
+{
+"a": "t41",
+"b": "t42",
+"why": "classification of VSD methods"
+},
+{
+"a": "t42",
+"b": "t43",
+"why": "back-face is VSD method"
+},
+{
+"a": "t42",
+"b": "t44",
+"why": "depth buffer is VSD method"
+},
+{
+"a": "t45",
+"b": "t46",
+"why": "animation intro"
+},
+{
+"a": "t46",
+"b": "t47",
+"why": "traditional animation techniques"
+},
+{
+"a": "t47",
+"b": "t48",
+"why": "keyframing is traditional technique"
+},
+{
+"a": "t46",
+"b": "t49",
+"why": "motion capture is animation technique"
+},
+{
+"a": "t50",
+"b": "t51",
+"why": "illumination used in rendering"
+},
+{
+"a": "t51",
+"b": "t52",
+"why": "diffuse/specular are illumination"
+},
+{
+"a": "t52",
+"b": "t53",
+"why": "reflection needs surface normal"
+},
+{
+"a": "t53",
+"b": "t54",
+"why": "shading uses normals"
+},
+{
+"a": "t54",
+"b": "t55",
+"why": "Gouraud is shading"
+},
+{
+"a": "t54",
+"b": "t56",
+"why": "Phong is shading"
+},
+{
+"a": "t57",
+"b": "t58",
+"why": "systems enable immersive tech"
+},
+{
+"a": "t58",
+"b": "t59",
+"why": "physical elements of systems"
+},
+{
+"a": "t58",
+"b": "t60",
+"why": "APIs and hardware of systems"
+}
+]
+}

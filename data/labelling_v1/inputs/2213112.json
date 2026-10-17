@@ -1,0 +1,312 @@
+{
+"course": "2213112",
+"title": "Electrical Machines -I",
+"modules": [
+{
+"index": 1,
+"name": "DC Machines"
+},
+{
+"index": 2,
+"name": "Single phase Transformer"
+},
+{
+"index": 3,
+"name": "Three Phase Transformer"
+},
+{
+"index": 4,
+"name": "Three Phase Induction Motor"
+},
+{
+"index": 5,
+"name": "Starting and Speed control of Three Phase Induction Motor"
+},
+{
+"index": 6,
+"name": "Single phase Induction Motor"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Review of working principles of DC machines",
+"module": 1
+},
+{
+"id": "t2",
+"name": "concept of back EMF and torque equations",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Commutation",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Armature reaction",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Types of DC machines",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Characteristics of DC machines (speed – torque and performance)",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Necessity of starter",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Speed control methods",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Losses and efficiency",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Swinburne’s",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Hopkinson’s tests",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Review of working principle",
+"module": 2
+},
+{
+"id": "t13",
+"name": "EMF equation and Equivalent Circuit",
+"module": 2
+},
+{
+"id": "t14",
+"name": "Phasor diagram (Resistive, Inductive and capacitive load)",
+"module": 2
+},
+{
+"id": "t15",
+"name": "voltage regulation",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Condition for Maximum Efficiency",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Parallel Operation",
+"module": 2
+},
+{
+"id": "t18",
+"name": "No load Operation",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Equal and Unequal Voltage Operation",
+"module": 2
+},
+{
+"id": "t20",
+"name": "OC and SC test",
+"module": 2
+},
+{
+"id": "t21",
+"name": "Sumpner’s Test",
+"module": 2
+},
+{
+"id": "t22",
+"name": "Principle of operation",
+"module": 3
+},
+{
+"id": "t23",
+"name": "Connections and Phasor groups",
+"module": 3
+},
+{
+"id": "t24",
+"name": "Harmonics in three phase transformers",
+"module": 3
+},
+{
+"id": "t25",
+"name": "Suppression of harmonics",
+"module": 3
+},
+{
+"id": "t26",
+"name": "Oscillating neutral phenomenon",
+"module": 3
+},
+{
+"id": "t27",
+"name": "Open delta or V",
+"module": 3
+},
+{
+"id": "t28",
+"name": "connection",
+"module": 3
+},
+{
+"id": "t29",
+"name": "Scott Connection",
+"module": 3
+},
+{
+"id": "t30",
+"name": "Review of Constructional details and Principle of operation",
+"module": 4
+},
+{
+"id": "t31",
+"name": "Slip",
+"module": 4
+},
+{
+"id": "t32",
+"name": "Rotor emf and frequency",
+"module": 4
+},
+{
+"id": "t33",
+"name": "current and power",
+"module": 4
+},
+{
+"id": "t34",
+"name": "Power stages",
+"module": 4
+},
+{
+"id": "t35",
+"name": "Phasor diagram",
+"module": 4
+},
+{
+"id": "t36",
+"name": "Equivalent circuit",
+"module": 4
+},
+{
+"id": "t37",
+"name": "Torque-speed characteristics",
+"module": 4
+},
+{
+"id": "t38",
+"name": "No load and blocked rotor test",
+"module": 4
+},
+{
+"id": "t39",
+"name": "Circle diagram",
+"module": 4
+},
+{
+"id": "t40",
+"name": "Need of starter",
+"module": 5
+},
+{
+"id": "t41",
+"name": "Types of starters",
+"module": 5
+},
+{
+"id": "t42",
+"name": "Direct On Line (DOL) starter",
+"module": 5
+},
+{
+"id": "t43",
+"name": "Rotor resistance starter",
+"module": 5
+},
+{
+"id": "t44",
+"name": "Autotransformer and Star delta starters",
+"module": 5
+},
+{
+"id": "t45",
+"name": "Speed control",
+"module": 5
+},
+{
+"id": "t46",
+"name": "Voltage control",
+"module": 5
+},
+{
+"id": "t47",
+"name": "Frequency control",
+"module": 5
+},
+{
+"id": "t48",
+"name": "Pole changing method",
+"module": 5
+},
+{
+"id": "t49",
+"name": "V/f control",
+"module": 5
+},
+{
+"id": "t50",
+"name": "Double field revolving theory",
+"module": 6
+},
+{
+"id": "t51",
+"name": "Equivalent circuit of single-phase induction motor",
+"module": 6
+},
+{
+"id": "t52",
+"name": "starting methods",
+"module": 6
+},
+{
+"id": "t53",
+"name": "Split phase starting- Resistance spilt phase",
+"module": 6
+},
+{
+"id": "t54",
+"name": "capacitor split phase",
+"module": 6
+},
+{
+"id": "t55",
+"name": "capacitor start and run",
+"module": 6
+},
+{
+"id": "t56",
+"name": "shaded pole starting",
+"module": 6
+}
+]
+}

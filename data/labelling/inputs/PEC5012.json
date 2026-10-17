@@ -40,7 +40,7 @@
 },
 {
 "id": "t3",
-"name": "Types of Data Structures- Linear and Nonlinear",
+"name": "Types of Data Structures-Linear and Nonlinear",
 "module": 1
 },
 {
@@ -120,186 +120,176 @@
 },
 {
 "id": "t19",
-"name": "Types of Linked List",
+"name": "Types of Linked List - Singly Linked List",
 "module": 3
 },
 {
 "id": "t20",
-"name": "Singly Linked List",
-"module": 3
-},
-{
-"id": "t21",
 "name": "Circular Linked List",
 "module": 3
 },
 {
-"id": "t22",
+"id": "t21",
 "name": "Doubly Linked List",
 "module": 3
 },
 {
-"id": "t23",
+"id": "t22",
 "name": "Operations on Singly Linked List and Doubly Linked List",
 "module": 3
 },
 {
-"id": "t24",
+"id": "t23",
 "name": "Stack & Queue using Singly Linked List",
 "module": 3
 },
 {
-"id": "t25",
-"name": "Singly Linked List Application- Polynomial Representation & Addition",
+"id": "t24",
+"name": "Singly Linked List Application-Polynomial Representation & Addition",
 "module": 3
 },
 {
-"id": "t26",
+"id": "t25",
 "name": "Tree Terminologies",
 "module": 4
 },
 {
-"id": "t27",
+"id": "t26",
 "name": "Binary Tree",
 "module": 4
 },
 {
-"id": "t28",
+"id": "t27",
 "name": "Binary Tree Representation",
 "module": 4
 },
 {
-"id": "t29",
+"id": "t28",
 "name": "Types of Binary Tree",
 "module": 4
 },
 {
-"id": "t30",
+"id": "t29",
 "name": "Binary Tree Traversals",
 "module": 4
 },
 {
-"id": "t31",
+"id": "t30",
 "name": "Binary Search Tree",
 "module": 4
 },
 {
-"id": "t32",
+"id": "t31",
 "name": "Operations on Binary Search Tree",
 "module": 4
 },
 {
-"id": "t33",
+"id": "t32",
 "name": "Applications of Binary Tree-Expression Tree",
 "module": 4
 },
 {
-"id": "t34",
+"id": "t33",
 "name": "Huffman Encoding",
 "module": 4
 },
 {
-"id": "t35",
+"id": "t34",
 "name": "Search Trees-AVL",
 "module": 4
 },
 {
-"id": "t36",
+"id": "t35",
 "name": "rotations in AVL Tree",
 "module": 4
 },
 {
-"id": "t37",
+"id": "t36",
 "name": "operations on AVL Tree Introduction",
 "module": 4
 },
 {
-"id": "t38",
+"id": "t37",
 "name": "Graph Terminologies",
 "module": 4
 },
 {
-"id": "t39",
+"id": "t38",
 "name": "Representation of Graph",
 "module": 4
 },
 {
+"id": "t39",
+"name": "Graph Traversals-Depth First Search (DFS) and Breadth First Search (BFS)",
+"module": 4
+},
+{
 "id": "t40",
-"name": "Graph Traversals- Depth First Search (DFS)",
+"name": "Graph Application-Topological Sorting",
 "module": 4
 },
 {
 "id": "t41",
-"name": "Breadth First Search (BFS)",
-"module": 4
-},
-{
-"id": "t42",
-"name": "Graph Application- Topological Sorting",
-"module": 4
-},
-{
-"id": "t43",
 "name": "General method",
 "module": 5
 },
 {
-"id": "t44",
+"id": "t42",
 "name": "Merge sort",
 "module": 5
 },
 {
-"id": "t45",
+"id": "t43",
 "name": "Quick sort",
 "module": 5
 },
 {
-"id": "t46",
+"id": "t44",
 "name": "Finding minimum & maximum algorithms and their Analysis",
 "module": 5
 },
 {
-"id": "t47",
+"id": "t45",
 "name": "Analysis of Binary search",
 "module": 5
 },
 {
-"id": "t48",
+"id": "t46",
 "name": "Single source shortest path",
 "module": 5
 },
 {
-"id": "t49",
+"id": "t47",
 "name": "Dijkstra Algorithm Fractional Knapsack problem",
 "module": 5
 },
 {
-"id": "t50",
+"id": "t48",
 "name": "Job sequencing with deadlines",
 "module": 5
 },
 {
-"id": "t51",
+"id": "t49",
 "name": "Minimum cost spanning trees",
 "module": 5
 },
 {
-"id": "t52",
+"id": "t50",
 "name": "Kruskal and Prim‟s algorithms",
 "module": 5
 },
 {
-"id": "t53",
+"id": "t51",
 "name": "Naïve string-matching algorithm",
 "module": 6
 },
 {
-"id": "t54",
+"id": "t52",
 "name": "Rabin Karp algorithm",
 "module": 6
 },
 {
-"id": "t55",
+"id": "t53",
 "name": "Knuth-Morris-Pratt algorithm",
 "module": 6
 }

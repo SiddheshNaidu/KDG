@@ -3,262 +3,277 @@
 {
 "a": "t2",
 "b": "t3",
-"why": "subsets defined on sets"
+"why": "foundation concept needed first"
+},
+{
+"a": "t2",
+"b": "t4",
+"why": "foundation concept needed first"
 },
 {
 "a": "t2",
 "b": "t5",
-"why": "operations act on sets"
+"why": "foundation concept needed first"
 },
 {
 "a": "t2",
 "b": "t6",
-"why": "representing sets"
+"why": "foundation concept needed first"
 },
 {
 "a": "t5",
 "b": "t7",
-"why": "laws concern set operations"
-},
-{
-"a": "t8",
-"b": "t9",
-"why": "propositional logic is a part of logic"
+"why": "foundation concept needed first"
 },
 {
 "a": "t9",
 "b": "t10",
-"why": "predicate logic extends propositional"
+"why": "foundation concept needed first"
 },
 {
 "a": "t10",
 "b": "t11",
-"why": "quantifiers belong to predicate logic"
+"why": "foundation concept needed first"
 },
 {
-"a": "t12",
-"b": "t13",
-"why": "direct proof is a proof type"
+"a": "t13",
+"b": "t19",
+"why": "foundation concept needed first"
 },
 {
-"a": "t12",
-"b": "t14",
-"why": "contradiction is a proof type"
-},
-{
-"a": "t12",
+"a": "t11",
 "b": "t18",
-"why": "counterexample is a proof type"
+"why": "foundation concept needed first"
 },
 {
 "a": "t9",
-"b": "t13",
-"why": "proofs use propositions"
+"b": "t14",
+"why": "foundation concept needed first"
+},
+{
+"a": "t2",
+"b": "t20",
+"why": "foundation concept needed first"
 },
 {
 "a": "t20",
 "b": "t21",
-"why": "representing relations needs relations"
+"why": "foundation concept needed first"
 },
 {
 "a": "t20",
 "b": "t22",
-"why": "properties of relations"
+"why": "foundation concept needed first"
 },
 {
 "a": "t22",
 "b": "t23",
-"why": "equivalence = reflexive symmetric transitive"
+"why": "foundation concept needed first"
 },
 {
 "a": "t23",
 "b": "t24",
-"why": "classes partition by equivalence"
+"why": "foundation concept needed first"
 },
 {
 "a": "t22",
 "b": "t25",
-"why": "closures add properties"
+"why": "foundation concept needed first"
 },
 {
 "a": "t25",
 "b": "t26",
-"why": "Warshall computes transitive closure"
+"why": "foundation concept needed first"
 },
 {
 "a": "t22",
 "b": "t28",
-"why": "partial order uses relation properties"
+"why": "foundation concept needed first"
 },
 {
 "a": "t28",
 "b": "t29",
-"why": "poset is a set with partial order"
+"why": "foundation concept needed first"
 },
 {
 "a": "t29",
 "b": "t30",
-"why": "Hasse diagram draws a poset"
+"why": "foundation concept needed first"
 },
 {
 "a": "t29",
 "b": "t31",
-"why": "chains in posets"
+"why": "foundation concept needed first"
 },
 {
 "a": "t29",
 "b": "t32",
-"why": "lattice is special poset"
+"why": "foundation concept needed first"
 },
 {
 "a": "t32",
 "b": "t33",
-"why": "types of lattices"
+"why": "foundation concept needed first"
 },
 {
 "a": "t32",
 "b": "t34",
-"why": "sublattice of lattice"
+"why": "foundation concept needed first"
+},
+{
+"a": "t20",
+"b": "t35",
+"why": "foundation concept needed first"
 },
 {
 "a": "t35",
 "b": "t36",
-"why": "injective defined on functions"
+"why": "foundation concept needed first"
 },
 {
 "a": "t35",
 "b": "t37",
-"why": "surjective defined on functions"
+"why": "foundation concept needed first"
 },
 {
 "a": "t36",
 "b": "t38",
-"why": "bijective = injective and surjective"
+"why": "foundation concept needed first"
 },
 {
 "a": "t37",
 "b": "t38",
-"why": "bijective = injective and surjective"
+"why": "foundation concept needed first"
 },
 {
 "a": "t35",
 "b": "t39",
-"why": "composition of functions"
+"why": "foundation concept needed first"
 },
 {
 "a": "t38",
 "b": "t40",
-"why": "inverse exists for bijective"
+"why": "foundation concept needed first"
+},
+{
+"a": "t5",
+"b": "t43",
+"why": "foundation concept needed first"
 },
 {
 "a": "t44",
 "b": "t45",
-"why": "solving needs recurrence concept"
+"why": "foundation concept needed first"
 },
 {
 "a": "t46",
 "b": "t47",
-"why": "semigroup has one operation"
+"why": "foundation concept needed first"
 },
 {
 "a": "t47",
 "b": "t48",
-"why": "monoid adds identity"
+"why": "foundation concept needed first"
 },
 {
 "a": "t48",
 "b": "t49",
-"why": "group adds inverses"
+"why": "foundation concept needed first"
 },
 {
 "a": "t49",
 "b": "t50",
-"why": "subgroups of groups"
+"why": "foundation concept needed first"
 },
 {
 "a": "t49",
 "b": "t51",
-"why": "abelian is a group type"
+"why": "foundation concept needed first"
 },
 {
 "a": "t49",
 "b": "t52",
-"why": "cyclic is a group type"
+"why": "foundation concept needed first"
+},
+{
+"a": "t46",
+"b": "t53",
+"why": "foundation concept needed first"
 },
 {
 "a": "t53",
 "b": "t54",
-"why": "ring has two operations"
+"why": "foundation concept needed first"
 },
 {
-"a": "t51",
+"a": "t49",
 "b": "t54",
-"why": "ring is abelian group under addition"
+"why": "foundation concept needed first"
 },
 {
 "a": "t55",
 "b": "t56",
-"why": "representation of graph types"
+"why": "foundation concept needed first"
 },
 {
 "a": "t55",
 "b": "t57",
-"why": "subgraphs of graphs"
+"why": "foundation concept needed first"
+},
+{
+"a": "t55",
+"b": "t58",
+"why": "foundation concept needed first"
 },
 {
 "a": "t55",
 "b": "t59",
-"why": "walks defined in graphs"
+"why": "foundation concept needed first"
 },
 {
 "a": "t59",
 "b": "t60",
-"why": "path is a walk"
+"why": "foundation concept needed first"
 },
 {
 "a": "t59",
 "b": "t61",
-"why": "circuit is a closed walk"
+"why": "foundation concept needed first"
 },
 {
 "a": "t60",
 "b": "t62",
-"why": "connectedness via paths"
+"why": "foundation concept needed first"
 },
 {
-"a": "t62",
-"b": "t63",
-"why": "disconnected negates connected"
-},
-{
-"a": "t62",
+"a": "t63",
 "b": "t64",
-"why": "components of disconnected graphs"
+"why": "foundation concept needed first"
 },
 {
-"a": "t56",
+"a": "t55",
 "b": "t65",
-"why": "isomorphism uses graph structure"
+"why": "foundation concept needed first"
 },
 {
 "a": "t61",
 "b": "t66",
-"why": "Euler circuits use circuits"
+"why": "foundation concept needed first"
 },
 {
-"a": "t62",
-"b": "t66",
-"why": "Euler/Hamiltonian need connectedness"
+"a": "t55",
+"b": "t67",
+"why": "foundation concept needed first"
 },
 {
 "a": "t62",
 "b": "t68",
-"why": "cut set disconnects connected graph"
+"why": "foundation concept needed first"
 },
 {
 "a": "t62",
 "b": "t69",
-"why": "cut vertex disconnects connected graph"
+"why": "foundation concept needed first"
 }
 ]
 }

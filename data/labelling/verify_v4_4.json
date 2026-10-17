@@ -1,0 +1,70 @@
+{
+ "verdicts": {
+  "2213113|e8e5b39e015566ad": {
+   "verdict": "BAD",
+   "topics": 64,
+   "junk": 22,
+   "note": "Fragments of comma lists ('Binary','NOT','NAND','basic operation','differences'), glued 'RSIC and CSIC Concept of pipelining-Selection...'; D flip-flop dropped; M5 intro/micro-vs-microcontroller missing"
+  },
+  "2213114|0ed5d918cdbaa8c9": {
+   "verdict": "FIXABLE",
+   "topics": 70,
+   "junk": 8,
+   "note": "Split lists ('Introduction to operating'|'controlling and damping torque','AC'|'DC Bridges'), glued 'earth resistance...Measurement of inductance and capacitance'; junk 8/70 = 11%"
+  },
+  "2343112|dc2ca5ed904451e1": {
+   "verdict": "OK",
+   "topics": 48,
+   "junk": 3,
+   "note": "Minor: 'Augmenting Paths Residual Network' glued, 'Representation' fragment"
+  },
+  "2343113|5d6e7a0178ab1352": {
+   "verdict": "FIXABLE",
+   "topics": 75,
+   "junk": 8,
+   "note": "Split/glued: 'Generalization'|'Specialization and Aggregation','Serializability'|'Conflict and View','Binary Relational operation Relational Algebra Queries','Deadlock handling Timestamp-based protocols'; 'Complex Retrieval Queries using Group By' missing"
+  },
+  "2343114|d8bc308d207b2987": {
+   "verdict": "OK",
+   "topics": 39,
+   "junk": 2,
+   "note": "Only glued 'Simplification and Normalization (CNF & GNF) and Chomsky Hierarchy'"
+  },
+  "2344112|4dbad593fd91da57": {
+   "verdict": "OK",
+   "topics": 97,
+   "junk": 3,
+   "note": "Few glued items e.g. 'Thread Scheduling and Multiple Processor Scheduling'"
+  },
+  "2344113|9de664a5efb96a93": {
+   "verdict": "BAD",
+   "topics": 86,
+   "junk": 10,
+   "note": "Module-boundary glue ('Selective Reject ARQ (Simple Problems) Medium Access Control','JPEG Application Layer','TCP Timers... Session Layer'); 'Routing Algorithms (Distance Vector, Link State, Path Vector)' missing in M4"
+  },
+  "2345111|6d97d0a777df668b": {
+   "verdict": "FIXABLE",
+   "topics": 70,
+   "junk": 8,
+   "note": "Glued across sub-headings ('RMMM Software Configuration management','Walkthrough Maintenance Types','Agile Testing overview DevOps and its Lifecycle'); 'Unit' testing dropped"
+  },
+  "2345112|dfa4a54f189ece01": {
+   "verdict": "OK",
+   "topics": 61,
+   "junk": 3,
+   "note": "Fragments 'Types and Architectures','Finance','Smart Cities'"
+  },
+  "2345113|2a1a106fe2c1c205": {
+   "verdict": "OK",
+   "topics": 63,
+   "junk": 1,
+   "note": "Essentially clean; 'Introduction' dropped in Express only"
+  },
+  "23451141|10fe023908279517": {
+   "verdict": "BAD",
+   "topics": 97,
+   "junk": 28,
+   "note": "M3 block duplicated (source duplicate too); glued 'Heading-Item' topics, 'overview of algorithms' x2, 'AES and DES' fragments; M4 missing CSP/Browser security + SQL Injection; M6 missing ISO/IEC 27001 & IT Act content"
+  }
+ }
+}

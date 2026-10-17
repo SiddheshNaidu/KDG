@@ -44,7 +44,7 @@
 },
 {
 "id": "t9",
-"name": "Red- Black Trees",
+"name": "Red-Black Trees",
 "module": 2
 },
 {
@@ -169,7 +169,7 @@
 },
 {
 "id": "t34",
-"name": "Single source shortest path- Dijkstra's Algorithm",
+"name": "Single source shortest path-Dijkstra's Algorithm",
 "module": 5
 },
 {
@@ -179,7 +179,7 @@
 },
 {
 "id": "t36",
-"name": "All pair shortest path- Floyd Warshall Algorithm",
+"name": "All pair shortest path-Floyd Warshall Algorithm",
 "module": 5
 },
 {
@@ -231,108 +231,59 @@
 "candidates": [
 {
 "i": 0,
-"a": "t13",
-"b": "t19",
-"a_name": "Representation",
-"b_name": "Minimum Spanning Trees (Prim’s and Kruskal’s algorithms)"
-},
-{
-"i": 1,
-"a": "t39",
-"b": "t43",
-"a_name": "Naïve string matching algorithm",
-"b_name": "Text searching"
-},
-{
-"i": 2,
-"a": "t1",
-"b": "t3",
-"a_name": "Fundamentals of the analysis of algorithms",
-"b_name": "Asymptotic notation"
-},
-{
-"i": 3,
-"a": "t28",
-"b": "t30",
-"a_name": "Introduction to flow networks",
-"b_name": "Ford Fulkerson method"
-},
-{
-"i": 4,
-"a": "t3",
+"a": "t2",
 "b": "t4",
-"a_name": "Asymptotic notation",
+"a_name": "Time and Space complexity",
 "b_name": "Recurrence Relations"
 },
 {
-"i": 5,
-"a": "t2",
-"b": "t11",
-"a_name": "Time and Space complexity",
-"b_name": "time complexity analysis of all problems"
-},
-{
-"i": 6,
-"a": "t12",
-"b": "t35",
-"a_name": "Graphs",
-"b_name": "Bellman Ford Algorithm"
-},
-{
-"i": 7,
-"a": "t2",
-"b": "t3",
-"a_name": "Time and Space complexity",
-"b_name": "Asymptotic notation"
-},
-{
-"i": 8,
+"i": 1,
 "a": "t41",
 "b": "t43",
 "a_name": "Knuth-Morris-Pratt(KMP) algorithm",
 "b_name": "Text searching"
 },
 {
-"i": 9,
-"a": "t42",
-"b": "t44",
-"a_name": "Longest common subsequence(LCS)",
-"b_name": "DNA sequencing"
+"i": 2,
+"a": "t12",
+"b": "t26",
+"a_name": "Graphs",
+"b_name": "graph coloring"
 },
 {
-"i": 10,
-"a": "t6",
-"b": "t9",
-"a_name": "AVL trees",
-"b_name": "Red- Black Trees"
-},
-{
-"i": 11,
-"a": "t32",
-"b": "t35",
-"a_name": "Introduction Dynamic algorithms",
-"b_name": "Bellman Ford Algorithm"
-},
-{
-"i": 12,
-"a": "t3",
-"b": "t11",
-"a_name": "Asymptotic notation",
-"b_name": "time complexity analysis of all problems"
-},
-{
-"i": 13,
-"a": "t32",
+"i": 3,
+"a": "t17",
 "b": "t34",
-"a_name": "Introduction Dynamic algorithms",
-"b_name": "Single source shortest path- Dijkstra's Algorithm"
+"a_name": "Introduction and properties of greedy algorithms",
+"b_name": "Single source shortest path-Dijkstra's Algorithm"
 },
 {
-"i": 14,
+"i": 4,
+"a": "t12",
+"b": "t38",
+"a_name": "Graphs",
+"b_name": "Travelling salesman problem"
+},
+{
+"i": 5,
 "a": "t13",
-"b": "t14",
+"b": "t19",
 "a_name": "Representation",
-"b_name": "Graph Traversals"
+"b_name": "Minimum Spanning Trees (Prim’s and Kruskal’s algorithms)"
+},
+{
+"i": 6,
+"a": "t12",
+"b": "t27",
+"a_name": "Graphs",
+"b_name": "Hamiltonian cycles"
+},
+{
+"i": 7,
+"a": "t7",
+"b": "t8",
+"a_name": "B tree",
+"b_name": "B tree operations"
 }
 ]
 }

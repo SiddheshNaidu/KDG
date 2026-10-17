@@ -1,1 +1,299 @@
-{"edges": [{"a": "t1", "b": "t3", "why": "concepts before process"}, {"a": "t3", "b": "t5", "why": "sender is process element"}, {"a": "t3", "b": "t10", "why": "receiver is process element"}, {"a": "t5", "b": "t6", "why": "sender encodes"}, {"a": "t10", "b": "t11", "why": "receiver decodes"}, {"a": "t3", "b": "t12", "why": "feedback is process element"}, {"a": "t23", "b": "t24", "why": "organisational comm has formal channel"}, {"a": "t23", "b": "t25", "why": "organisational comm has informal channel"}, {"a": "t26", "b": "t27", "why": "active listening concept first"}, {"a": "t26", "b": "t28", "why": "active listening concept first"}, {"a": "t26", "b": "t29", "why": "active listening concept first"}, {"a": "t43", "b": "t44", "why": "pronunciation basics before stress rhythm"}, {"a": "t43", "b": "t45", "why": "pronunciation basics before intonation"}, {"a": "t51", "b": "t53", "why": "root words underlie word forms"}, {"a": "t64", "b": "t65", "why": "reading techniques overview"}, {"a": "t64", "b": "t66", "why": "reading techniques overview"}, {"a": "t64", "b": "t67", "why": "reading techniques overview"}, {"a": "t64", "b": "t68", "why": "reading techniques overview"}, {"a": "t70", "b": "t71", "why": "summarisation overview"}, {"a": "t71", "b": "t72", "why": "graphic organiser concept first"}, {"a": "t71", "b": "t73", "why": "graphic organiser concept first"}, {"a": "t71", "b": "t74", "why": "graphic organiser concept first"}, {"a": "t71", "b": "t75", "why": "graphic organiser concept first"}, {"a": "t71", "b": "t76", "why": "graphic organiser concept first"}, {"a": "t71", "b": "t77", "why": "graphic organiser concept first"}, {"a": "t70", "b": "t80", "why": "summarisation skill"}, {"a": "t70", "b": "t81", "why": "summarisation skill"}, {"a": "t83", "b": "t86", "why": "words and sentences form paragraphs"}, {"a": "t83", "b": "t84", "why": "basic units before coherence"}, {"a": "t84", "b": "t85", "why": "coherence before cohesive devices"}, {"a": "t87", "b": "t88", "why": "seven Cs overview"}, {"a": "t87", "b": "t89", "why": "seven Cs overview"}, {"a": "t87", "b": "t94", "why": "seven Cs overview"}, {"a": "t95", "b": "t96", "why": "letter format before parts"}, {"a": "t96", "b": "t97", "why": "block style needed for letters"}, {"a": "t96", "b": "t98", "why": "block style needed for letters"}, {"a": "t96", "b": "t99", "why": "block style needed for letters"}, {"a": "t95", "b": "t100", "why": "formal format conventions apply"}, {"a": "t101", "b": "t102", "why": "instructions before styles"}, {"a": "t104", "b": "t105", "why": "diagram before describing parts"}, {"a": "t107", "b": "t108", "why": "content creation basics"}, {"a": "t107", "b": "t112", "why": "content creation basics"}, {"a": "t107", "b": "t113", "why": "content creation basics"}, {"a": "t119", "b": "t120", "why": "goals before SMART goals"}, {"a": "t119", "b": "t121", "why": "goal setting basics"}, {"a": "t116", "b": "t117", "why": "team building before stages"}, {"a": "t122", "b": "t125", "why": "integrity considerations before principles"}, {"a": "t124", "b": "t125", "why": "values vs ethics before principles"}, {"a": "t125", "b": "t128", "why": "principles used in case studies"}]}
+{
+"edges": [
+{
+"a": "t1",
+"b": "t3",
+"why": "basic concepts precede process"
+},
+{
+"a": "t6",
+"b": "t11",
+"why": "encoding precedes decoding"
+},
+{
+"a": "t3",
+"b": "t12",
+"why": "feedback is a stage of process"
+},
+{
+"a": "t3",
+"b": "t17",
+"why": "barriers disrupt the process"
+},
+{
+"a": "t17",
+"b": "t18",
+"why": "barrier category"
+},
+{
+"a": "t17",
+"b": "t19",
+"why": "barrier category"
+},
+{
+"a": "t17",
+"b": "t20",
+"why": "barrier category"
+},
+{
+"a": "t17",
+"b": "t21",
+"why": "barrier category"
+},
+{
+"a": "t17",
+"b": "t22",
+"why": "barrier category"
+},
+{
+"a": "t13",
+"b": "t14",
+"why": "methods overview first"
+},
+{
+"a": "t13",
+"b": "t15",
+"why": "methods overview first"
+},
+{
+"a": "t13",
+"b": "t16",
+"why": "methods overview first"
+},
+{
+"a": "t23",
+"b": "t24",
+"why": "organisational overview first"
+},
+{
+"a": "t23",
+"b": "t25",
+"why": "organisational overview first"
+},
+{
+"a": "t26",
+"b": "t27",
+"why": "active listening underlies detail listening"
+},
+{
+"a": "t26",
+"b": "t28",
+"why": "active listening underlies gist listening"
+},
+{
+"a": "t26",
+"b": "t29",
+"why": "active listening underlies inference listening"
+},
+{
+"a": "t43",
+"b": "t46",
+"why": "stress and rhythm concepts"
+},
+{
+"a": "t43",
+"b": "t47",
+"why": "stress and rhythm concepts"
+},
+{
+"a": "t44",
+"b": "t48",
+"why": "intonation underlies tonal variation"
+},
+{
+"a": "t50",
+"b": "t56",
+"why": "prefixes attach to roots"
+},
+{
+"a": "t50",
+"b": "t57",
+"why": "suffixes attach to roots"
+},
+{
+"a": "t63",
+"b": "t64",
+"why": "reading technique overview"
+},
+{
+"a": "t63",
+"b": "t65",
+"why": "reading technique overview"
+},
+{
+"a": "t63",
+"b": "t66",
+"why": "reading technique overview"
+},
+{
+"a": "t63",
+"b": "t67",
+"why": "reading technique overview"
+},
+{
+"a": "t70",
+"b": "t71",
+"why": "graphic organiser type"
+},
+{
+"a": "t70",
+"b": "t72",
+"why": "graphic organiser type"
+},
+{
+"a": "t70",
+"b": "t73",
+"why": "graphic organiser type"
+},
+{
+"a": "t70",
+"b": "t74",
+"why": "graphic organiser type"
+},
+{
+"a": "t70",
+"b": "t75",
+"why": "graphic organiser type"
+},
+{
+"a": "t70",
+"b": "t76",
+"why": "graphic organiser type"
+},
+{
+"a": "t70",
+"b": "t77",
+"why": "graphic organiser type"
+},
+{
+"a": "t70",
+"b": "t78",
+"why": "graphic organiser type"
+},
+{
+"a": "t69",
+"b": "t79",
+"why": "summarisation skills first"
+},
+{
+"a": "t69",
+"b": "t80",
+"why": "summarisation skills first"
+},
+{
+"a": "t82",
+"b": "t85",
+"why": "paragraph is a basic unit"
+},
+{
+"a": "t85",
+"b": "t83",
+"why": "paragraph structure underlies coherence"
+},
+{
+"a": "t83",
+"b": "t84",
+"why": "coherence precedes cohesive devices"
+},
+{
+"a": "t94",
+"b": "t95",
+"why": "format before parts"
+},
+{
+"a": "t95",
+"b": "t96",
+"why": "letter parts before letter types"
+},
+{
+"a": "t95",
+"b": "t97",
+"why": "letter parts before letter types"
+},
+{
+"a": "t95",
+"b": "t98",
+"why": "letter parts before letter types"
+},
+{
+"a": "t100",
+"b": "t101",
+"why": "instructions before styles"
+},
+{
+"a": "t103",
+"b": "t104",
+"why": "diagram before labelled parts"
+},
+{
+"a": "t102",
+"b": "t104",
+"why": "function description before parts"
+},
+{
+"a": "t115",
+"b": "t116",
+"why": "team building before stages"
+},
+{
+"a": "t117",
+"b": "t118",
+"why": "goal setting before SMART"
+},
+{
+"a": "t117",
+"b": "t119",
+"why": "goal setting before term types"
+},
+{
+"a": "t122",
+"b": "t123",
+"why": "values vs ethics before principles"
+},
+{
+"a": "t120",
+"b": "t121",
+"why": "integrity includes honesty"
+},
+{
+"a": "t123",
+"b": "t126",
+"why": "principles applied to dilemmas"
+},
+{
+"a": "t125",
+"b": "t124",
+"why": "plagiarism informs ethical AI use"
+},
+{
+"a": "t86",
+"b": "t87",
+"why": "seven Cs overview"
+},
+{
+"a": "t86",
+"b": "t91",
+"why": "seven Cs overview"
+},
+{
+"a": "t86",
+"b": "t93",
+"why": "seven Cs overview"
+},
+{
+"a": "t106",
+"b": "t107",
+"why": "content creation overview"
+},
+{
+"a": "t106",
+"b": "t112",
+"why": "content creation overview"
+},
+{
+"a": "t106",
+"b": "t113",
+"why": "content creation overview"
+}
+]
+}

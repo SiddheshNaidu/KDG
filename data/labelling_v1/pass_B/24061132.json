@@ -1,0 +1,199 @@
+{
+"edges": [
+{
+"a": "t2",
+"b": "t4",
+"why": "prerequisite foundation"
+},
+{
+"a": "t3",
+"b": "t4",
+"why": "prerequisite foundation"
+},
+{
+"a": "t4",
+"b": "t5",
+"why": "prerequisite foundation"
+},
+{
+"a": "t4",
+"b": "t6",
+"why": "prerequisite foundation"
+},
+{
+"a": "t6",
+"b": "t7",
+"why": "prerequisite foundation"
+},
+{
+"a": "t6",
+"b": "t8",
+"why": "prerequisite foundation"
+},
+{
+"a": "t6",
+"b": "t9",
+"why": "prerequisite foundation"
+},
+{
+"a": "t8",
+"b": "t10",
+"why": "prerequisite foundation"
+},
+{
+"a": "t7",
+"b": "t10",
+"why": "prerequisite foundation"
+},
+{
+"a": "t11",
+"b": "t12",
+"why": "prerequisite foundation"
+},
+{
+"a": "t15",
+"b": "t16",
+"why": "prerequisite foundation"
+},
+{
+"a": "t15",
+"b": "t17",
+"why": "prerequisite foundation"
+},
+{
+"a": "t17",
+"b": "t18",
+"why": "prerequisite foundation"
+},
+{
+"a": "t13",
+"b": "t14",
+"why": "prerequisite foundation"
+},
+{
+"a": "t13",
+"b": "t19",
+"why": "prerequisite foundation"
+},
+{
+"a": "t20",
+"b": "t21",
+"why": "prerequisite foundation"
+},
+{
+"a": "t20",
+"b": "t22",
+"why": "prerequisite foundation"
+},
+{
+"a": "t21",
+"b": "t23",
+"why": "prerequisite foundation"
+},
+{
+"a": "t22",
+"b": "t23",
+"why": "prerequisite foundation"
+},
+{
+"a": "t23",
+"b": "t24",
+"why": "prerequisite foundation"
+},
+{
+"a": "t24",
+"b": "t25",
+"why": "prerequisite foundation"
+},
+{
+"a": "t24",
+"b": "t26",
+"why": "prerequisite foundation"
+},
+{
+"a": "t22",
+"b": "t27",
+"why": "prerequisite foundation"
+},
+{
+"a": "t28",
+"b": "t29",
+"why": "prerequisite foundation"
+},
+{
+"a": "t28",
+"b": "t30",
+"why": "prerequisite foundation"
+},
+{
+"a": "t29",
+"b": "t31",
+"why": "prerequisite foundation"
+},
+{
+"a": "t33",
+"b": "t34",
+"why": "prerequisite foundation"
+},
+{
+"a": "t34",
+"b": "t35",
+"why": "prerequisite foundation"
+},
+{
+"a": "t34",
+"b": "t36",
+"why": "prerequisite foundation"
+},
+{
+"a": "t37",
+"b": "t38",
+"why": "prerequisite foundation"
+},
+{
+"a": "t37",
+"b": "t39",
+"why": "prerequisite foundation"
+},
+{
+"a": "t37",
+"b": "t40",
+"why": "prerequisite foundation"
+},
+{
+"a": "t37",
+"b": "t41",
+"why": "prerequisite foundation"
+},
+{
+"a": "t37",
+"b": "t43",
+"why": "prerequisite foundation"
+},
+{
+"a": "t43",
+"b": "t44",
+"why": "prerequisite foundation"
+},
+{
+"a": "t43",
+"b": "t45",
+"why": "prerequisite foundation"
+},
+{
+"a": "t43",
+"b": "t46",
+"why": "prerequisite foundation"
+},
+{
+"a": "t6",
+"b": "t43",
+"why": "prerequisite foundation"
+},
+{
+"a": "t6",
+"b": "t41",
+"why": "prerequisite foundation"
+}
+]
+}

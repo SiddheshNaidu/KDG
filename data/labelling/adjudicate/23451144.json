@@ -351,255 +351,101 @@
 "candidates": [
 {
 "i": 0,
-"a": "t46",
-"b": "t47",
-"a_name": "Image Segmentation",
-"b_name": "Point"
-},
-{
-"i": 1,
-"a": "t32",
-"b": "t39",
-"a_name": "Entropy",
-"b_name": "Arithmetic Coding"
-},
-{
-"i": 2,
-"a": "t60",
-"b": "t67",
-"a_name": "Dilation",
-"b_name": "Thickening"
-},
-{
-"i": 3,
-"a": "t5",
-"b": "t10",
-"a_name": "Image Sampling and Quantization",
-"b_name": "Point Processing Techniques"
-},
-{
-"i": 4,
-"a": "t7",
-"b": "t8",
-"a_name": "Adjacency",
-"b_name": "Connectivity"
-},
-{
-"i": 5,
-"a": "t17",
-"b": "t20",
-"a_name": "Filtering in Spatial Domain",
-"b_name": "Sharpening Filters"
-},
-{
-"i": 6,
-"a": "t32",
-"b": "t33",
-"a_name": "Entropy",
-"b_name": "Redundancy (Coding, Inter-pixel, Psycho-visual)"
-},
-{
-"i": 7,
-"a": "t53",
-"b": "t54",
-"a_name": "Chain Codes",
-"b_name": "Shape Numbers"
-},
-{
-"i": 8,
-"a": "t1",
+"a": "t2",
 "b": "t3",
-"a_name": "Image Fundamentals",
+"a_name": "Image Definition",
 "b_name": "Steps and Components of Image Processing"
 },
 {
-"i": 9,
-"a": "t57",
-"b": "t64",
-"a_name": "Basic Morphological Methods",
-"b_name": "Advanced Morphological Methods"
-},
-{
-"i": 10,
-"a": "t33",
-"b": "t36",
-"a_name": "Redundancy (Coding, Inter-pixel, Psycho-visual)",
-"b_name": "Lossless Compression"
-},
-{
-"i": 11,
-"a": "t24",
-"b": "t28",
-"a_name": "Discrete Fourier Transform (DFT)",
-"b_name": "Other Discrete Transforms"
-},
-{
-"i": 12,
-"a": "t60",
-"b": "t63",
-"a_name": "Dilation",
-"b_name": "Hit-or-Miss Transformation"
-},
-{
-"i": 13,
-"a": "t35",
-"b": "t42",
-"a_name": "Fidelity Criteria",
-"b_name": "Lossy Compression"
-},
-{
-"i": 14,
-"a": "t63",
-"b": "t66",
-"a_name": "Hit-or-Miss Transformation",
-"b_name": "Thinning"
-},
-{
-"i": 15,
-"a": "t5",
-"b": "t22",
-"a_name": "Image Sampling and Quantization",
-"b_name": "Histogram Processing"
-},
-{
-"i": 16,
-"a": "t17",
-"b": "t21",
-"a_name": "Filtering in Spatial Domain",
-"b_name": "Order Statistic Filters (Min, Max, Median)"
-},
-{
-"i": 17,
-"a": "t63",
-"b": "t67",
-"a_name": "Hit-or-Miss Transformation",
-"b_name": "Thickening"
-},
-{
-"i": 18,
-"a": "t38",
-"b": "t45",
-"a_name": "Huffman Coding",
-"b_name": "Introduction to JPEG Compression Standard"
-},
-{
-"i": 19,
-"a": "t59",
-"b": "t63",
-"a_name": "Erosion",
-"b_name": "Hit-or-Miss Transformation"
-},
-{
-"i": 20,
-"a": "t46",
-"b": "t48",
-"a_name": "Image Segmentation",
-"b_name": "Line"
-},
-{
-"i": 21,
-"a": "t18",
-"b": "t20",
-"a_name": "2D Correlation and Convolution",
-"b_name": "Sharpening Filters"
-},
-{
-"i": 22,
-"a": "t64",
-"b": "t65",
-"a_name": "Advanced Morphological Methods",
-"b_name": "Boundary Extraction"
-},
-{
-"i": 23,
-"a": "t18",
-"b": "t49",
-"a_name": "2D Correlation and Convolution",
-"b_name": "Edge Detection Methods (Gradient operators: Sobel, Prewitt)"
-},
-{
-"i": 24,
-"a": "t6",
-"b": "t8",
-"a_name": "Relationship Between Pixels",
-"b_name": "Connectivity"
-},
-{
-"i": 25,
-"a": "t34",
-"b": "t35",
-"a_name": "Compression Ratio",
-"b_name": "Fidelity Criteria"
-},
-{
-"i": 26,
-"a": "t58",
-"b": "t63",
-"a_name": "Structuring Elements",
-"b_name": "Hit-or-Miss Transformation"
-},
-{
-"i": 27,
-"a": "t13",
-"b": "t46",
-"a_name": "Thresholding",
-"b_name": "Image Segmentation"
-},
-{
-"i": 28,
-"a": "t33",
-"b": "t34",
-"a_name": "Redundancy (Coding, Inter-pixel, Psycho-visual)",
-"b_name": "Compression Ratio"
-},
-{
-"i": 29,
+"i": 1,
 "a": "t2",
 "b": "t4",
 "a_name": "Image Definition",
 "b_name": "Image Sensing and Acquisition"
 },
 {
-"i": 30,
+"i": 2,
+"a": "t48",
+"b": "t50",
+"a_name": "Line",
+"b_name": "Hough Transform for line detection"
+},
+{
+"i": 3,
+"a": "t46",
+"b": "t49",
+"a_name": "Image Segmentation",
+"b_name": "Edge Detection Methods (Gradient operators: Sobel, Prewitt)"
+},
+{
+"i": 4,
+"a": "t24",
+"b": "t28",
+"a_name": "Discrete Fourier Transform (DFT)",
+"b_name": "Other Discrete Transforms"
+},
+{
+"i": 5,
+"a": "t60",
+"b": "t65",
+"a_name": "Dilation",
+"b_name": "Boundary Extraction"
+},
+{
+"i": 6,
+"a": "t60",
+"b": "t63",
+"a_name": "Dilation",
+"b_name": "Hit-or-Miss Transformation"
+},
+{
+"i": 7,
+"a": "t16",
+"b": "t21",
+"a_name": "Mask Processing Techniques",
+"b_name": "Order Statistic Filters (Min, Max, Median)"
+},
+{
+"i": 8,
+"a": "t18",
+"b": "t27",
+"a_name": "2D Correlation and Convolution",
+"b_name": "Filtering in the Frequency Domain (Low-pass and High-pass)"
+},
+{
+"i": 9,
+"a": "t20",
+"b": "t49",
+"a_name": "Sharpening Filters",
+"b_name": "Edge Detection Methods (Gradient operators: Sobel, Prewitt)"
+},
+{
+"i": 10,
 "a": "t1",
 "b": "t2",
 "a_name": "Image Fundamentals",
 "b_name": "Image Definition"
 },
 {
-"i": 31,
-"a": "t60",
-"b": "t66",
-"a_name": "Dilation",
-"b_name": "Thinning"
+"i": 11,
+"a": "t42",
+"b": "t45",
+"a_name": "Lossy Compression",
+"b_name": "Introduction to JPEG Compression Standard"
 },
 {
-"i": 32,
-"a": "t17",
-"b": "t49",
-"a_name": "Filtering in Spatial Domain",
-"b_name": "Edge Detection Methods (Gradient operators: Sobel, Prewitt)"
+"i": 12,
+"a": "t38",
+"b": "t45",
+"a_name": "Huffman Coding",
+"b_name": "Introduction to JPEG Compression Standard"
 },
 {
-"i": 33,
-"a": "t4",
-"b": "t5",
-"a_name": "Image Sensing and Acquisition",
-"b_name": "Image Sampling and Quantization"
-},
-{
-"i": 34,
-"a": "t32",
+"i": 13,
+"a": "t33",
 "b": "t36",
-"a_name": "Entropy",
+"a_name": "Redundancy (Coding, Inter-pixel, Psycho-visual)",
 "b_name": "Lossless Compression"
-},
-{
-"i": 35,
-"a": "t18",
-"b": "t21",
-"a_name": "2D Correlation and Convolution",
-"b_name": "Order Statistic Filters (Min, Max, Median)"
 }
 ]
 }

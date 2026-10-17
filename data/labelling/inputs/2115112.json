@@ -95,7 +95,7 @@
 },
 {
 "id": "t14",
-"name": "Client- Server",
+"name": "Client-Server",
 "module": 1
 },
 {
@@ -330,7 +330,7 @@
 },
 {
 "id": "t61",
-"name": "additive- increase/multiplicative-decrease (AIMD )",
+"name": "additive-increase/multiplicative-decrease (AIMD )",
 "module": 4
 },
 {
@@ -340,116 +340,111 @@
 },
 {
 "id": "t63",
-"name": "SCTP",
+"name": "SCTP –Quality of service",
 "module": 4
 },
 {
 "id": "t64",
-"name": "Quality of service",
-"module": 4
-},
-{
-"id": "t65",
 "name": "Application layer Paradigms",
 "module": 5
 },
 {
-"id": "t66",
+"id": "t65",
 "name": "Client-Server Paradigm",
 "module": 5
 },
 {
-"id": "t67",
+"id": "t66",
 "name": "Application Programming Interface",
 "module": 5
 },
 {
-"id": "t68",
+"id": "t67",
 "name": "Standard Client Server applications",
 "module": 5
 },
 {
-"id": "t69",
+"id": "t68",
 "name": "World Wide Web and HTTP",
 "module": 5
 },
 {
-"id": "t70",
+"id": "t69",
 "name": "FTP",
 "module": 5
 },
 {
-"id": "t71",
+"id": "t70",
 "name": "TELNET",
 "module": 5
 },
 {
-"id": "t72",
+"id": "t71",
 "name": "Secure Shell (SSH)",
 "module": 5
 },
 {
-"id": "t73",
+"id": "t72",
 "name": "Domain Name System (DNS)",
 "module": 5
 },
 {
-"id": "t74",
+"id": "t73",
 "name": "MPLS",
 "module": 6
 },
 {
-"id": "t75",
+"id": "t74",
 "name": "header",
 "module": 6
 },
 {
-"id": "t76",
+"id": "t75",
 "name": "working",
 "module": 6
 },
 {
-"id": "t77",
+"id": "t76",
 "name": "advantages and disadvantages",
 "module": 6
 },
 {
-"id": "t78",
+"id": "t77",
 "name": "RADIO SPECTRUM",
 "module": 6
 },
 {
-"id": "t79",
+"id": "t78",
 "name": "5G spectrum landscape and requirements",
 "module": 6
 },
 {
-"id": "t80",
+"id": "t79",
 "name": "Spectrum access modes and sharing scenarios",
 "module": 6
 },
 {
-"id": "t81",
+"id": "t80",
 "name": "5G spectrum technologies. 5G architecture",
 "module": 6
 },
 {
-"id": "t82",
+"id": "t81",
 "name": "Introduction and need to study cyber security",
 "module": 6
 },
 {
-"id": "t83",
+"id": "t82",
 "name": "Cyber Crime",
 "module": 6
 },
 {
-"id": "t84",
+"id": "t83",
 "name": "Cybercrime definition",
 "module": 6
 },
 {
-"id": "t85",
+"id": "t84",
 "name": "Types of Cybercrime",
 "module": 6
 }

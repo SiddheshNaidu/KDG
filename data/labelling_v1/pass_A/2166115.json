@@ -1,0 +1,324 @@
+{
+"edges": [
+{
+"a": "t1",
+"b": "t2",
+"why": "prerequisite concept"
+},
+{
+"a": "t1",
+"b": "t3",
+"why": "prerequisite concept"
+},
+{
+"a": "t3",
+"b": "t7",
+"why": "prerequisite concept"
+},
+{
+"a": "t7",
+"b": "t8",
+"why": "prerequisite concept"
+},
+{
+"a": "t7",
+"b": "t9",
+"why": "prerequisite concept"
+},
+{
+"a": "t7",
+"b": "t10",
+"why": "prerequisite concept"
+},
+{
+"a": "t4",
+"b": "t5",
+"why": "prerequisite concept"
+},
+{
+"a": "t4",
+"b": "t6",
+"why": "prerequisite concept"
+},
+{
+"a": "t1",
+"b": "t11",
+"why": "prerequisite concept"
+},
+{
+"a": "t11",
+"b": "t12",
+"why": "prerequisite concept"
+},
+{
+"a": "t11",
+"b": "t16",
+"why": "prerequisite concept"
+},
+{
+"a": "t12",
+"b": "t13",
+"why": "prerequisite concept"
+},
+{
+"a": "t12",
+"b": "t15",
+"why": "prerequisite concept"
+},
+{
+"a": "t13",
+"b": "t14",
+"why": "prerequisite concept"
+},
+{
+"a": "t16",
+"b": "t17",
+"why": "prerequisite concept"
+},
+{
+"a": "t17",
+"b": "t18",
+"why": "prerequisite concept"
+},
+{
+"a": "t18",
+"b": "t19",
+"why": "prerequisite concept"
+},
+{
+"a": "t18",
+"b": "t20",
+"why": "prerequisite concept"
+},
+{
+"a": "t18",
+"b": "t21",
+"why": "prerequisite concept"
+},
+{
+"a": "t18",
+"b": "t22",
+"why": "prerequisite concept"
+},
+{
+"a": "t18",
+"b": "t24",
+"why": "prerequisite concept"
+},
+{
+"a": "t18",
+"b": "t26",
+"why": "prerequisite concept"
+},
+{
+"a": "t18",
+"b": "t27",
+"why": "prerequisite concept"
+},
+{
+"a": "t9",
+"b": "t29",
+"why": "prerequisite concept"
+},
+{
+"a": "t9",
+"b": "t30",
+"why": "prerequisite concept"
+},
+{
+"a": "t9",
+"b": "t32",
+"why": "prerequisite concept"
+},
+{
+"a": "t9",
+"b": "t34",
+"why": "prerequisite concept"
+},
+{
+"a": "t9",
+"b": "t40",
+"why": "prerequisite concept"
+},
+{
+"a": "t11",
+"b": "t40",
+"why": "prerequisite concept"
+},
+{
+"a": "t29",
+"b": "t41",
+"why": "prerequisite concept"
+},
+{
+"a": "t40",
+"b": "t41",
+"why": "prerequisite concept"
+},
+{
+"a": "t30",
+"b": "t31",
+"why": "prerequisite concept"
+},
+{
+"a": "t32",
+"b": "t33",
+"why": "prerequisite concept"
+},
+{
+"a": "t34",
+"b": "t35",
+"why": "prerequisite concept"
+},
+{
+"a": "t34",
+"b": "t36",
+"why": "prerequisite concept"
+},
+{
+"a": "t34",
+"b": "t37",
+"why": "prerequisite concept"
+},
+{
+"a": "t34",
+"b": "t38",
+"why": "prerequisite concept"
+},
+{
+"a": "t34",
+"b": "t39",
+"why": "prerequisite concept"
+},
+{
+"a": "t29",
+"b": "t42",
+"why": "prerequisite concept"
+},
+{
+"a": "t8",
+"b": "t42",
+"why": "prerequisite concept"
+},
+{
+"a": "t52",
+"b": "t53",
+"why": "prerequisite concept"
+},
+{
+"a": "t54",
+"b": "t55",
+"why": "prerequisite concept"
+},
+{
+"a": "t55",
+"b": "t56",
+"why": "prerequisite concept"
+},
+{
+"a": "t55",
+"b": "t57",
+"why": "prerequisite concept"
+},
+{
+"a": "t55",
+"b": "t58",
+"why": "prerequisite concept"
+},
+{
+"a": "t55",
+"b": "t59",
+"why": "prerequisite concept"
+},
+{
+"a": "t61",
+"b": "t62",
+"why": "prerequisite concept"
+},
+{
+"a": "t62",
+"b": "t63",
+"why": "prerequisite concept"
+},
+{
+"a": "t64",
+"b": "t65",
+"why": "prerequisite concept"
+},
+{
+"a": "t66",
+"b": "t67",
+"why": "prerequisite concept"
+},
+{
+"a": "t68",
+"b": "t69",
+"why": "prerequisite concept"
+},
+{
+"a": "t70",
+"b": "t71",
+"why": "prerequisite concept"
+},
+{
+"a": "t70",
+"b": "t72",
+"why": "prerequisite concept"
+},
+{
+"a": "t70",
+"b": "t73",
+"why": "prerequisite concept"
+},
+{
+"a": "t70",
+"b": "t76",
+"why": "prerequisite concept"
+},
+{
+"a": "t29",
+"b": "t74",
+"why": "prerequisite concept"
+},
+{
+"a": "t78",
+"b": "t79",
+"why": "prerequisite concept"
+},
+{
+"a": "t29",
+"b": "t81",
+"why": "prerequisite concept"
+},
+{
+"a": "t80",
+"b": "t81",
+"why": "prerequisite concept"
+},
+{
+"a": "t8",
+"b": "t86",
+"why": "prerequisite concept"
+},
+{
+"a": "t11",
+"b": "t86",
+"why": "prerequisite concept"
+},
+{
+"a": "t9",
+"b": "t87",
+"why": "prerequisite concept"
+},
+{
+"a": "t9",
+"b": "t88",
+"why": "prerequisite concept"
+},
+{
+"a": "t60",
+"b": "t61",
+"why": "prerequisite concept"
+}
+]
+}

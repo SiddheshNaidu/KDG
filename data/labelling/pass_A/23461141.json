@@ -1,0 +1,289 @@
+{
+"edges": [
+{
+"a": "t2",
+"b": "t8",
+"why": "bug classes need definitions"
+},
+{
+"a": "t2",
+"b": "t1",
+"why": "goals use basic terms"
+},
+{
+"a": "t6",
+"b": "t7",
+"why": "STLC uses terminology"
+},
+{
+"a": "t2",
+"b": "t62",
+"why": "RCA needs defect/root cause concept"
+},
+{
+"a": "t10",
+"b": "t12",
+"why": "early prevention is V&V role"
+},
+{
+"a": "t10",
+"b": "t13",
+"why": "requirement verification applies V&V"
+},
+{
+"a": "t13",
+"b": "t14",
+"why": "high level design follows requirements"
+},
+{
+"a": "t14",
+"b": "t15",
+"why": "low level design follows high level"
+},
+{
+"a": "t10",
+"b": "t16",
+"why": "validation is part of V&V"
+},
+{
+"a": "t17",
+"b": "t18",
+"why": "black box is dynamic testing"
+},
+{
+"a": "t17",
+"b": "t24",
+"why": "white box is dynamic testing"
+},
+{
+"a": "t18",
+"b": "t19",
+"why": "BVA is black box technique"
+},
+{
+"a": "t18",
+"b": "t20",
+"why": "ECP is black box technique"
+},
+{
+"a": "t18",
+"b": "t21",
+"why": "state table is black box"
+},
+{
+"a": "t18",
+"b": "t22",
+"why": "cause-effect is black box"
+},
+{
+"a": "t18",
+"b": "t23",
+"why": "error guessing is black box"
+},
+{
+"a": "t24",
+"b": "t25",
+"why": "logic coverage is white box"
+},
+{
+"a": "t25",
+"b": "t26",
+"why": "path testing uses coverage ideas"
+},
+{
+"a": "t26",
+"b": "t27",
+"why": "graph matrices support path testing"
+},
+{
+"a": "t24",
+"b": "t28",
+"why": "loop testing is white box"
+},
+{
+"a": "t24",
+"b": "t29",
+"why": "data flow is white box"
+},
+{
+"a": "t24",
+"b": "t30",
+"why": "mutation is white box"
+},
+{
+"a": "t32",
+"b": "t33",
+"why": "integration follows unit tests"
+},
+{
+"a": "t33",
+"b": "t34",
+"why": "function test follows integration"
+},
+{
+"a": "t34",
+"b": "t35",
+"why": "system after function"
+},
+{
+"a": "t35",
+"b": "t36",
+"why": "acceptance after system"
+},
+{
+"a": "t36",
+"b": "t37",
+"why": "regression after delivered tests"
+},
+{
+"a": "t37",
+"b": "t40",
+"why": "objectives need regression concept"
+},
+{
+"a": "t37",
+"b": "t41",
+"why": "types of regression"
+},
+{
+"a": "t41",
+"b": "t43",
+"why": "techniques per type"
+},
+{
+"a": "t37",
+"b": "t39",
+"why": "testability of regression"
+},
+{
+"a": "t44",
+"b": "t47",
+"why": "planning is test management"
+},
+{
+"a": "t44",
+"b": "t45",
+"why": "organization is test management"
+},
+{
+"a": "t47",
+"b": "t48",
+"why": "design follows planning"
+},
+{
+"a": "t49",
+"b": "t50",
+"why": "classification needs metrics concept"
+},
+{
+"a": "t50",
+"b": "t51",
+"why": "testing metrics are metrics"
+},
+{
+"a": "t53",
+"b": "t56",
+"why": "FP/TP analysis estimates effort"
+},
+{
+"a": "t57",
+"b": "t58",
+"why": "minimizing is suite management"
+},
+{
+"a": "t58",
+"b": "t59",
+"why": "problem defined within minimization"
+},
+{
+"a": "t57",
+"b": "t60",
+"why": "prioritization is suite management"
+},
+{
+"a": "t60",
+"b": "t61",
+"why": "effectiveness measured on techniques"
+},
+{
+"a": "t63",
+"b": "t64",
+"why": "categorization of tools"
+},
+{
+"a": "t64",
+"b": "t65",
+"why": "selection follows categories"
+},
+{
+"a": "t65",
+"b": "t67",
+"why": "guidelines apply to selection"
+},
+{
+"a": "t63",
+"b": "t66",
+"why": "ROI of automation"
+},
+{
+"a": "t63",
+"b": "t72",
+"why": "Selenium is an automation tool"
+},
+{
+"a": "t63",
+"b": "t69",
+"why": "JIRA is a tool"
+},
+{
+"a": "t63",
+"b": "t70",
+"why": "Bugzilla is a tool"
+},
+{
+"a": "t73",
+"b": "t74",
+"why": "life cycle within agile testing"
+},
+{
+"a": "t74",
+"b": "t75",
+"why": "scrum testing follows lifecycle"
+},
+{
+"a": "t77",
+"b": "t79",
+"why": "differences need web system concept"
+},
+{
+"a": "t79",
+"b": "t80",
+"why": "challenges follow differences"
+},
+{
+"a": "t80",
+"b": "t81",
+"why": "strategies address challenges"
+},
+{
+"a": "t82",
+"b": "t85",
+"why": "product quality is quality management"
+},
+{
+"a": "t82",
+"b": "t87",
+"why": "process quality is quality management"
+},
+{
+"a": "t85",
+"b": "t86",
+"why": "McCall factors define product quality"
+},
+{
+"a": "t87",
+"b": "t88",
+"why": "ISO and Six Sigma are process standards"
+}
+]
+}

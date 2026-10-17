@@ -1,0 +1,70 @@
+{
+ "verdicts": {
+  "2013111|25a7f6311accac57": {
+   "verdict": "OK",
+   "topics": 32,
+   "junk": 0,
+   "note": "Clean; only trivial omission of 'and properties (without proof)'."
+  },
+  "2013112|63698e5c10d60678": {
+   "verdict": "OK",
+   "topics": 70,
+   "junk": 0,
+   "note": "Clean; all six modules complete."
+  },
+  "2014112|09508981b6e23e84": {
+   "verdict": "BAD",
+   "topics": 57,
+   "junk": 4,
+   "note": "Missing Transaction Control Commands, aggregate function/group by/order by, relational algebra operators; glued 'ACID Properties The Entity-Relationship (ER) Model', 'having' fragment, glued NOSQL+OO."
+  },
+  "2014113|ce74d04dc409b058": {
+   "verdict": "OK",
+   "topics": 72,
+   "junk": 2,
+   "note": "Glued 'Objectives of Operating System Functions of Operating System'; fragment 'Architecture and functions'."
+  },
+  "2024111|ee542f705da9f42d": {
+   "verdict": "BAD",
+   "topics": 62,
+   "junk": 8,
+   "note": "Glued 'Languages Regular operations', 'Grammars and Chomsky Hierarchy Regular Grammar (RG)'; split 'PDA as generator'|'decider and acceptor of CFG' and TM equivalent; two-item glues (CNF and GNF)."
+  },
+  "BSC103|eb259b00b1cdd1e7": {
+   "verdict": "FIXABLE",
+   "topics": 68,
+   "junk": 5,
+   "note": "Stray 'cFuel', 'Properties of Polymers:' colon, fragments 'Statement'/'Terms involved with examples', prefix glue 'Factors affecting...:-i)'; missing Indigo dye and calorific value subtopics."
+  },
+  "ESC101|0b8524213c8c66a8": {
+   "verdict": "FIXABLE",
+   "topics": 48,
+   "junk": 5,
+   "note": "Fragments from split sentences: 'Concurrent force system', 'Motion along plane curved path. velocity'|'acceleration in terms of...', 'Cone of friction. angle of repose'; missing ICR method."
+  },
+  "AEC101|4baf21b7aa57caa4": {
+   "verdict": "FIXABLE",
+   "topics": 127,
+   "junk": 7,
+   "note": "Half parentheticals 'Identifying Common Errors (Subject-verb agreement, Articles' and 'Prepositions, ...) Redundancies'; 'Suffixes/Cliches at a similar difficulty level...' glued; SMART goals split; instruction text as topic."
+  },
+  "CC101|83fefd22d61e79c7": {
+   "verdict": "BAD",
+   "topics": 41,
+   "junk": 12,
+   "note": "M2 and M6 sentence fragments ('Humanistic Constitution and Humanistic', 'Ability to identify'|'develop appropriate technologies'|'management patterns...'), M4 'Resolution'|'Prosperity'; M2 missing 'human being as co-existence of I and Body'."
+  },
+  "BSC2022|d71c43eb3844b224": {
+   "verdict": "BAD",
+   "topics": 40,
+   "junk": 7,
+   "note": "Glued 'calculation of barrier potential Diode equation', 'CE I-V characteristics BJT Amplification and Switching - Current gain', 'wrttemperature'|'wrt temperature and Impurity Concentration' fragments, 'CB' alone."
+  },
+  "BSC2023|a9b312117a48c074": {
+   "verdict": "BAD",
+   "topics": 64,
+   "junk": 10,
+   "note": "Many glued items: 'Correctness of Measurement Reliability of Measurements', 'Piezoelectric Transducers Resistive Transducers', 'LVDT Optical measurements system', 'Thermoelectric thermometers Negative Temperature...'; fragments 'its use as source...'."
+  }
+ }
+}

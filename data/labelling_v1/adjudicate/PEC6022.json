@@ -1,0 +1,483 @@
+{
+"course": "PEC6022",
+"title": "Robotics",
+"topics": [
+{
+"id": "t1",
+"name": "Robot Classification",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Robot Components",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Robot Specification",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Joints",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Coordinates",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Coordinate frames",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Workspace",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Languages",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Homogeneous transformation matrices",
+"module": 2
+},
+{
+"id": "t10",
+"name": "Inverse transformation matrices",
+"module": 2
+},
+{
+"id": "t11",
+"name": "Forward and inverse kinematic equations",
+"module": 2
+},
+{
+"id": "t12",
+"name": "position and orientation",
+"module": 2
+},
+{
+"id": "t13",
+"name": "Denavit-Hatenberg representation of forward kinematics",
+"module": 2
+},
+{
+"id": "t14",
+"name": "Forward and inverse kinematic solutions of three and four axis robot",
+"module": 2
+},
+{
+"id": "t15",
+"name": "Differential motions and Velocities",
+"module": 3
+},
+{
+"id": "t16",
+"name": "Differential relationship",
+"module": 3
+},
+{
+"id": "t17",
+"name": "Jacobian",
+"module": 3
+},
+{
+"id": "t18",
+"name": "Differential motion of a frame and robot",
+"module": 3
+},
+{
+"id": "t19",
+"name": "Inverse Jacobian",
+"module": 3
+},
+{
+"id": "t20",
+"name": "Singularities",
+"module": 3
+},
+{
+"id": "t21",
+"name": "Dynamic Analysis of Forces",
+"module": 3
+},
+{
+"id": "t22",
+"name": "Lagrangian mechanics",
+"module": 3
+},
+{
+"id": "t23",
+"name": "Newton Euler formulation",
+"module": 3
+},
+{
+"id": "t24",
+"name": "Dynamic equations of two axis robot",
+"module": 3
+},
+{
+"id": "t25",
+"name": "Basics of Trajectory planning",
+"module": 4
+},
+{
+"id": "t26",
+"name": "Joint-Space trajectory planning",
+"module": 4
+},
+{
+"id": "t27",
+"name": "Cartesian-space trajectories",
+"module": 4
+},
+{
+"id": "t28",
+"name": "Image representation",
+"module": 4
+},
+{
+"id": "t29",
+"name": "Template matching",
+"module": 4
+},
+{
+"id": "t30",
+"name": "Polyhedral objects",
+"module": 4
+},
+{
+"id": "t31",
+"name": "Shape analysis",
+"module": 4
+},
+{
+"id": "t32",
+"name": "Segmentation",
+"module": 4
+},
+{
+"id": "t33",
+"name": "Iterative processing",
+"module": 4
+},
+{
+"id": "t34",
+"name": "Perspective transform",
+"module": 4
+},
+{
+"id": "t35",
+"name": "Camera Calibration",
+"module": 4
+},
+{
+"id": "t36",
+"name": "Task level programming",
+"module": 5
+},
+{
+"id": "t37",
+"name": "Uncertainty",
+"module": 5
+},
+{
+"id": "t38",
+"name": "Configuration Space",
+"module": 5
+},
+{
+"id": "t39",
+"name": "Gross motion Planning",
+"module": 5
+},
+{
+"id": "t40",
+"name": "Grasp planning",
+"module": 5
+},
+{
+"id": "t41",
+"name": "Fine-motion Planning",
+"module": 5
+},
+{
+"id": "t42",
+"name": "Simulation of Planer motion",
+"module": 5
+},
+{
+"id": "t43",
+"name": "Source and goal scenes",
+"module": 5
+},
+{
+"id": "t44",
+"name": "Task planner simulation",
+"module": 5
+},
+{
+"id": "t45",
+"name": "Need for service robots",
+"module": 5
+},
+{
+"id": "t46",
+"name": "Localization",
+"module": 5
+},
+{
+"id": "t47",
+"name": "Challenges of Localization",
+"module": 5
+},
+{
+"id": "t48",
+"name": "Map Representation",
+"module": 5
+},
+{
+"id": "t49",
+"name": "Probabilistic Map based Localization",
+"module": 5
+},
+{
+"id": "t50",
+"name": "Monte carlo localization",
+"module": 5
+},
+{
+"id": "t51",
+"name": "Landmark based navigation",
+"module": 5
+},
+{
+"id": "t52",
+"name": "Globally unique localization",
+"module": 5
+},
+{
+"id": "t53",
+"name": "Positioning beacon Systems",
+"module": 5
+},
+{
+"id": "t54",
+"name": "Route based localization",
+"module": 5
+},
+{
+"id": "t55",
+"name": "Planning and Navigation",
+"module": 5
+},
+{
+"id": "t56",
+"name": "Path planning overview",
+"module": 5
+},
+{
+"id": "t57",
+"name": "Cell decomposition path planning Potential field path planning-Obstacle avoidance",
+"module": 5
+},
+{
+"id": "t58",
+"name": "Ariel robots",
+"module": 6
+},
+{
+"id": "t59",
+"name": "Collision avoidance",
+"module": 6
+},
+{
+"id": "t60",
+"name": "Robots for agriculture",
+"module": 6
+},
+{
+"id": "t61",
+"name": "mining",
+"module": 6
+},
+{
+"id": "t62",
+"name": "exploration",
+"module": 6
+},
+{
+"id": "t63",
+"name": "underwater",
+"module": 6
+},
+{
+"id": "t64",
+"name": "civilian and military applications",
+"module": 6
+},
+{
+"id": "t65",
+"name": "nuclear applications",
+"module": 6
+},
+{
+"id": "t66",
+"name": "Space applications",
+"module": 6
+},
+{
+"id": "t67",
+"name": "Humanoids",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t38",
+"b": "t41",
+"a_name": "Configuration Space",
+"b_name": "Fine-motion Planning"
+},
+{
+"i": 1,
+"a": "t28",
+"b": "t31",
+"a_name": "Image representation",
+"b_name": "Shape analysis"
+},
+{
+"i": 2,
+"a": "t11",
+"b": "t27",
+"a_name": "Forward and inverse kinematic equations",
+"b_name": "Cartesian-space trajectories"
+},
+{
+"i": 3,
+"a": "t21",
+"b": "t23",
+"a_name": "Dynamic Analysis of Forces",
+"b_name": "Newton Euler formulation"
+},
+{
+"i": 4,
+"a": "t12",
+"b": "t9",
+"a_name": "position and orientation",
+"b_name": "Homogeneous transformation matrices"
+},
+{
+"i": 5,
+"a": "t46",
+"b": "t50",
+"a_name": "Localization",
+"b_name": "Monte carlo localization"
+},
+{
+"i": 6,
+"a": "t5",
+"b": "t6",
+"a_name": "Coordinates",
+"b_name": "Coordinate frames"
+},
+{
+"i": 7,
+"a": "t38",
+"b": "t40",
+"a_name": "Configuration Space",
+"b_name": "Grasp planning"
+},
+{
+"i": 8,
+"a": "t46",
+"b": "t51",
+"a_name": "Localization",
+"b_name": "Landmark based navigation"
+},
+{
+"i": 9,
+"a": "t17",
+"b": "t18",
+"a_name": "Jacobian",
+"b_name": "Differential motion of a frame and robot"
+},
+{
+"i": 10,
+"a": "t55",
+"b": "t56",
+"a_name": "Planning and Navigation",
+"b_name": "Path planning overview"
+},
+{
+"i": 11,
+"a": "t46",
+"b": "t52",
+"a_name": "Localization",
+"b_name": "Globally unique localization"
+},
+{
+"i": 12,
+"a": "t56",
+"b": "t59",
+"a_name": "Path planning overview",
+"b_name": "Collision avoidance"
+},
+{
+"i": 13,
+"a": "t6",
+"b": "t12",
+"a_name": "Coordinate frames",
+"b_name": "position and orientation"
+},
+{
+"i": 14,
+"a": "t10",
+"b": "t11",
+"a_name": "Inverse transformation matrices",
+"b_name": "Forward and inverse kinematic equations"
+},
+{
+"i": 15,
+"a": "t32",
+"b": "t31",
+"a_name": "Segmentation",
+"b_name": "Shape analysis"
+},
+{
+"i": 16,
+"a": "t43",
+"b": "t44",
+"a_name": "Source and goal scenes",
+"b_name": "Task planner simulation"
+},
+{
+"i": 17,
+"a": "t15",
+"b": "t18",
+"a_name": "Differential motions and Velocities",
+"b_name": "Differential motion of a frame and robot"
+},
+{
+"i": 18,
+"a": "t28",
+"b": "t30",
+"a_name": "Image representation",
+"b_name": "Polyhedral objects"
+},
+{
+"i": 19,
+"a": "t21",
+"b": "t22",
+"a_name": "Dynamic Analysis of Forces",
+"b_name": "Lagrangian mechanics"
+}
+]
+}

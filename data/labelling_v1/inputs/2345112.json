@@ -1,0 +1,337 @@
+{
+"course": "2345112",
+"title": "Artificial Intelligence and Machine Learning",
+"modules": [
+{
+"index": 1,
+"name": "Introduction to Artificial Intelligence"
+},
+{
+"index": 2,
+"name": "Problem Solving & Search Strategies"
+},
+{
+"index": 3,
+"name": "Supervised Learning"
+},
+{
+"index": 4,
+"name": "Unsupervised Learning"
+},
+{
+"index": 5,
+"name": "Model Evaluation & Optimization"
+},
+{
+"index": 6,
+"name": "Ethics, Emerging Trends & Applications"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Definition and Scope of AI",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Applications of AI in Industry",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Intelligent Agents",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Types and Architectures",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Problem Formulation in AI",
+"module": 1
+},
+{
+"id": "t6",
+"name": "AI vs ML vs DL",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Introduction to Data Science in AI",
+"module": 1
+},
+{
+"id": "t8",
+"name": "State Space Representation",
+"module": 2
+},
+{
+"id": "t9",
+"name": "Uninformed Search Strategies",
+"module": 2
+},
+{
+"id": "t10",
+"name": "Breadth First Search",
+"module": 2
+},
+{
+"id": "t11",
+"name": "Depth First Search",
+"module": 2
+},
+{
+"id": "t12",
+"name": "Uniform Cost Search",
+"module": 2
+},
+{
+"id": "t13",
+"name": "Informed Search Strategies",
+"module": 2
+},
+{
+"id": "t14",
+"name": "Greedy Best First Search",
+"module": 2
+},
+{
+"id": "t15",
+"name": "A* Algorithm",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Heuristic Functions",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Constraint Satisfaction Problems (CSP)",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Introduction to Machine Learning",
+"module": 3
+},
+{
+"id": "t19",
+"name": "Types of Learning",
+"module": 3
+},
+{
+"id": "t20",
+"name": "Regression",
+"module": 3
+},
+{
+"id": "t21",
+"name": "Linear Regression",
+"module": 3
+},
+{
+"id": "t22",
+"name": "Multiple Regression",
+"module": 3
+},
+{
+"id": "t23",
+"name": "Logistic Regression",
+"module": 3
+},
+{
+"id": "t24",
+"name": "k- Nearest Neighbours (k-NN)",
+"module": 3
+},
+{
+"id": "t25",
+"name": "Decision Trees",
+"module": 3
+},
+{
+"id": "t26",
+"name": "Random Forest",
+"module": 3
+},
+{
+"id": "t27",
+"name": "Support Vector Machine (SVM)",
+"module": 3
+},
+{
+"id": "t28",
+"name": "Regularization Techniques",
+"module": 3
+},
+{
+"id": "t29",
+"name": "Bias-Variance Trade- off",
+"module": 3
+},
+{
+"id": "t30",
+"name": "Clustering",
+"module": 4
+},
+{
+"id": "t31",
+"name": "K-Means Clustering",
+"module": 4
+},
+{
+"id": "t32",
+"name": "Hierarchical Clustering",
+"module": 4
+},
+{
+"id": "t33",
+"name": "Association Rule Mining",
+"module": 4
+},
+{
+"id": "t34",
+"name": "Dimensionality Reduction",
+"module": 4
+},
+{
+"id": "t35",
+"name": "Principal Component Analysis (PCA)",
+"module": 4
+},
+{
+"id": "t36",
+"name": "Association Rule Learning (Apriori Algorithm)",
+"module": 4
+},
+{
+"id": "t37",
+"name": "Gaussian Mixture Models (GMM)",
+"module": 4
+},
+{
+"id": "t38",
+"name": "Feature Engineering Basics",
+"module": 4
+},
+{
+"id": "t39",
+"name": "Training",
+"module": 5
+},
+{
+"id": "t40",
+"name": "Validation",
+"module": 5
+},
+{
+"id": "t41",
+"name": "Testing",
+"module": 5
+},
+{
+"id": "t42",
+"name": "Cross Validation Techniques",
+"module": 5
+},
+{
+"id": "t43",
+"name": "Confusion Matrix",
+"module": 5
+},
+{
+"id": "t44",
+"name": "Accuracy",
+"module": 5
+},
+{
+"id": "t45",
+"name": "Precision",
+"module": 5
+},
+{
+"id": "t46",
+"name": "Recall",
+"module": 5
+},
+{
+"id": "t47",
+"name": "F1-Score",
+"module": 5
+},
+{
+"id": "t48",
+"name": "ROC Curve and AUC",
+"module": 5
+},
+{
+"id": "t49",
+"name": "Overfitting and Underfitting",
+"module": 5
+},
+{
+"id": "t50",
+"name": "Hyperparameter Tuning and Model Optimization Techniques",
+"module": 5
+},
+{
+"id": "t51",
+"name": "AI Ethics and Responsible AI",
+"module": 6
+},
+{
+"id": "t52",
+"name": "Bias and Fairness in AI",
+"module": 6
+},
+{
+"id": "t53",
+"name": "Transparency & Accountability",
+"module": 6
+},
+{
+"id": "t54",
+"name": "Introduction to Explainable AI (XAI)",
+"module": 6
+},
+{
+"id": "t55",
+"name": "Human-in-the-Loop Systems",
+"module": 6
+},
+{
+"id": "t56",
+"name": "Generative AI",
+"module": 6
+},
+{
+"id": "t57",
+"name": "Quantum Machine Learning",
+"module": 6
+},
+{
+"id": "t58",
+"name": "Introduction to Deep Learning",
+"module": 6
+},
+{
+"id": "t59",
+"name": "AI in Healthcare",
+"module": 6
+},
+{
+"id": "t60",
+"name": "Finance",
+"module": 6
+},
+{
+"id": "t61",
+"name": "Smart Cities",
+"module": 6
+}
+]
+}

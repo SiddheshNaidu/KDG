@@ -116,59 +116,59 @@
 "candidates": [
 {
 "i": 0,
-"a": "t9",
-"b": "t11",
-"a_name": "Heat capacity",
-"b_name": "latent heat"
-},
-{
-"i": 1,
 "a": "t7",
 "b": "t8",
 "a_name": "selectivity and degree of completion of reaction",
 "b_name": "Material Balance calculations for both with and without chemical reactions"
 },
 {
+"i": 1,
+"a": "t9",
+"b": "t12",
+"a_name": "Heat capacity",
+"b_name": "calculation of enthalpy changes"
+},
+{
 "i": 2,
 "a": "t1",
-"b": "t5",
+"b": "t8",
 "a_name": "general material balance equation",
-"b_name": "Concept of limiting and excess reactants"
+"b_name": "Material Balance calculations for both with and without chemical reactions"
 },
 {
 "i": 3,
-"a": "t3",
-"b": "t4",
-"a_name": "solving material balance problems for various unit operations under steady",
-"b_name": "unsteady state conditions"
+"a": "t8",
+"b": "t14",
+"a_name": "Material Balance calculations for both with and without chemical reactions",
+"b_name": "Energy balances for process involving chemical reaction including adiabatic reactions"
 },
 {
 "i": 4,
-"a": "t1",
-"b": "t4",
-"a_name": "general material balance equation",
-"b_name": "unsteady state conditions"
+"a": "t3",
+"b": "t5",
+"a_name": "solving material balance problems for various unit operations under steady",
+"b_name": "Concept of limiting and excess reactants"
 },
 {
 "i": 5,
-"a": "t3",
-"b": "t22",
-"a_name": "solving material balance problems for various unit operations under steady",
-"b_name": "Material and energy balance for binary distillation"
+"a": "t9",
+"b": "t11",
+"a_name": "Heat capacity",
+"b_name": "latent heat"
 },
 {
 "i": 6,
-"a": "t5",
-"b": "t15",
-"a_name": "Concept of limiting and excess reactants",
-"b_name": "Combustion theory and equations"
+"a": "t6",
+"b": "t7",
+"a_name": "conversion and yield",
+"b_name": "selectivity and degree of completion of reaction"
 },
 {
 "i": 7,
 "a": "t5",
-"b": "t8",
+"b": "t7",
 "a_name": "Concept of limiting and excess reactants",
-"b_name": "Material Balance calculations for both with and without chemical reactions"
+"b_name": "selectivity and degree of completion of reaction"
 },
 {
 "i": 8,
@@ -183,27 +183,6 @@
 "b": "t8",
 "a_name": "conversion and yield",
 "b_name": "Material Balance calculations for both with and without chemical reactions"
-},
-{
-"i": 10,
-"a": "t9",
-"b": "t12",
-"a_name": "Heat capacity",
-"b_name": "calculation of enthalpy changes"
-},
-{
-"i": 11,
-"a": "t8",
-"b": "t15",
-"a_name": "Material Balance calculations for both with and without chemical reactions",
-"b_name": "Combustion theory and equations"
-},
-{
-"i": 12,
-"a": "t8",
-"b": "t22",
-"a_name": "Material Balance calculations for both with and without chemical reactions",
-"b_name": "Material and energy balance for binary distillation"
 }
 ]
 }

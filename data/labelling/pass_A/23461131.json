@@ -1,0 +1,274 @@
+{
+"edges": [
+{
+"a": "t2",
+"b": "t4",
+"why": "operators act on typed values"
+},
+{
+"a": "t3",
+"b": "t4",
+"why": "operators apply to variables"
+},
+{
+"a": "t2",
+"b": "t3",
+"why": "variables are declared with types"
+},
+{
+"a": "t4",
+"b": "t5",
+"why": "conditions use operators"
+},
+{
+"a": "t3",
+"b": "t6",
+"why": "functions use variables and parameters"
+},
+{
+"a": "t5",
+"b": "t6",
+"why": "function bodies use control flow"
+},
+{
+"a": "t6",
+"b": "t7",
+"why": "classes contain methods"
+},
+{
+"a": "t7",
+"b": "t8",
+"why": "modules export classes"
+},
+{
+"a": "t1",
+"b": "t2",
+"why": "TypeScript environment needed first"
+},
+{
+"a": "t9",
+"b": "t10",
+"why": "AngularJS intro before its modules"
+},
+{
+"a": "t10",
+"b": "t15",
+"why": "controllers are registered on modules"
+},
+{
+"a": "t10",
+"b": "t11",
+"why": "directives are registered on modules"
+},
+{
+"a": "t12",
+"b": "t13",
+"why": "binding uses expressions"
+},
+{
+"a": "t15",
+"b": "t13",
+"why": "scope binding set up in controllers"
+},
+{
+"a": "t12",
+"b": "t14",
+"why": "filters applied within expressions"
+},
+{
+"a": "t15",
+"b": "t16",
+"why": "services injected into controllers"
+},
+{
+"a": "t13",
+"b": "t17",
+"why": "validation relies on form model binding"
+},
+{
+"a": "t11",
+"b": "t19",
+"why": "ng-repeat is a built-in directive"
+},
+{
+"a": "t15",
+"b": "t18",
+"why": "routes bind views to controllers"
+},
+{
+"a": "t8",
+"b": "t21",
+"why": "TypeScript modules used in AngularJS integration"
+},
+{
+"a": "t9",
+"b": "t22",
+"why": "comparison needs AngularJS knowledge"
+},
+{
+"a": "t7",
+"b": "t24",
+"why": "components are TypeScript classes"
+},
+{
+"a": "t23",
+"b": "t24",
+"why": "architecture overview before components"
+},
+{
+"a": "t24",
+"b": "t25",
+"why": "NgModules group components"
+},
+{
+"a": "t24",
+"b": "t26",
+"why": "components own templates"
+},
+{
+"a": "t26",
+"b": "t27",
+"why": "directives extend template syntax"
+},
+{
+"a": "t26",
+"b": "t28",
+"why": "pipes used in templates"
+},
+{
+"a": "t24",
+"b": "t29",
+"why": "services injected into components"
+},
+{
+"a": "t24",
+"b": "t30",
+"why": "routes map to components"
+},
+{
+"a": "t26",
+"b": "t31",
+"why": "forms built in templates"
+},
+{
+"a": "t29",
+"b": "t32",
+"why": "HttpClient is injectable service"
+},
+{
+"a": "t29",
+"b": "t33",
+"why": "state held in services"
+},
+{
+"a": "t24",
+"b": "t34",
+"why": "components are unit tested"
+},
+{
+"a": "t34",
+"b": "t35",
+"why": "tests precede deployment"
+},
+{
+"a": "t24",
+"b": "t37",
+"why": "Next.js pages are React components"
+},
+{
+"a": "t36",
+"b": "t37",
+"why": "setup before basics"
+},
+{
+"a": "t37",
+"b": "t38",
+"why": "routing builds on pages basics"
+},
+{
+"a": "t37",
+"b": "t39",
+"why": "styling applies to built-in components"
+},
+{
+"a": "t38",
+"b": "t40",
+"why": "data fetching tied to pages"
+},
+{
+"a": "t38",
+"b": "t44",
+"why": "API routes use route structure"
+},
+{
+"a": "t40",
+"b": "t41",
+"why": "optimizing relies on fetching strategy"
+},
+{
+"a": "t37",
+"b": "t42",
+"why": "state management in components"
+},
+{
+"a": "t38",
+"b": "t45",
+"why": "auth protects pages and routes"
+},
+{
+"a": "t37",
+"b": "t43",
+"why": "testing needs components"
+},
+{
+"a": "t46",
+"b": "t47",
+"why": "REST built on FastAPI basics"
+},
+{
+"a": "t47",
+"b": "t49",
+"why": "request handling in route endpoints"
+},
+{
+"a": "t47",
+"b": "t48",
+"why": "file endpoints need routes"
+},
+{
+"a": "t47",
+"b": "t50",
+"why": "DB access via endpoints"
+},
+{
+"a": "t51",
+"b": "t52",
+"why": "crawling is first engine stage"
+},
+{
+"a": "t52",
+"b": "t53",
+"why": "indexing follows crawling"
+},
+{
+"a": "t53",
+"b": "t54",
+"why": "ranking uses the index"
+},
+{
+"a": "t51",
+"b": "t55",
+"why": "SEO requires engine knowledge"
+},
+{
+"a": "t55",
+"b": "t57",
+"why": "strategies apply techniques"
+},
+{
+"a": "t55",
+"b": "t56",
+"why": "tools measure SEO techniques"
+}
+]
+}

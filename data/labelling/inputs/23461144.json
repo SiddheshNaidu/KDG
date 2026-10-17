@@ -400,7 +400,7 @@
 },
 {
 "id": "t75",
-"name": "Multi- sample Anti-Aliasing (MSAA) vs. Post-processing effects",
+"name": "Multi-sample Anti-Aliasing (MSAA) vs. Post-processing effects",
 "module": 5
 },
 {
@@ -460,81 +460,76 @@
 },
 {
 "id": "t87",
-"name": "distinguishing between technical capabilities (Immersion)",
+"name": "distinguishing between technical capabilities (Immersion) and the psychological state of \"being there\" (Presence)",
 "module": 6
 },
 {
 "id": "t88",
-"name": "the psychological state of \"being there\" (Presence)",
-"module": 6
-},
-{
-"id": "t89",
 "name": "Latency & Fidelity",
 "module": 6
 },
 {
-"id": "t90",
-"name": "importance of \"Motion- to-Photon\" latency (the <20ms rule) to maintain immersion",
+"id": "t89",
+"name": "importance of \"Motion-to-Photon\" latency (the <20ms rule) to maintain immersion",
 "module": 6
 },
 {
-"id": "t91",
+"id": "t90",
 "name": "\"Uncanny Valley\" in XR",
 "module": 6
 },
 {
-"id": "t92",
+"id": "t91",
 "name": "Why hyper-realism can sometimes backfire in user experience",
 "module": 6
 },
 {
-"id": "t93",
+"id": "t92",
 "name": "Musculoskeletal Issues",
 "module": 6
 },
 {
-"id": "t94",
+"id": "t93",
 "name": "Emerging VR Technologies",
 "module": 6
 },
 {
-"id": "t95",
+"id": "t94",
 "name": "Metaverse platforms",
 "module": 6
 },
 {
-"id": "t96",
+"id": "t95",
 "name": "Digital twins",
 "module": 6
 },
 {
-"id": "t97",
+"id": "t96",
 "name": "Spatial computing",
 "module": 6
 },
 {
-"id": "t98",
+"id": "t97",
 "name": "VR in Industry",
 "module": 6
 },
 {
-"id": "t99",
+"id": "t98",
 "name": "Ethics",
 "module": 6
 },
 {
-"id": "t100",
+"id": "t99",
 "name": "Privacy & Safety Standards",
 "module": 6
 },
 {
-"id": "t101",
+"id": "t100",
 "name": "Cybersickness (VRSickness)",
 "module": 6
 },
 {
-"id": "t102",
+"id": "t101",
 "name": "Visual Pathologies",
 "module": 6
 }

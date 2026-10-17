@@ -70,7 +70,7 @@
 },
 {
 "id": "t9",
-"name": "Red- Black Trees",
+"name": "Red-Black Trees",
 "module": 2
 },
 {
@@ -195,7 +195,7 @@
 },
 {
 "id": "t34",
-"name": "Single source shortest path- Dijkstra's Algorithm",
+"name": "Single source shortest path-Dijkstra's Algorithm",
 "module": 5
 },
 {
@@ -205,7 +205,7 @@
 },
 {
 "id": "t36",
-"name": "All pair shortest path- Floyd Warshall Algorithm",
+"name": "All pair shortest path-Floyd Warshall Algorithm",
 "module": 5
 },
 {

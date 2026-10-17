@@ -1,63 +1,49 @@
 pdf,code,title,why,trace_rate,n_modules,n_topics,total_hours
-Applied Chemistry syllabus 2024-25.pdf,BSC103A,pplied Chemistry,topic_hard_violation_rate_over_3pct,0.986,6,69,26
-NEW EM SYLLABUS 2024-25.pdf,ESC101,Engineering Mechanics,module_without_topics; topic_hard_violation_rate_over_3pct,1.0,6,32,25
-6.9N-AIML_sem1 & sem2.pdf,BSC102,Applied Physics,other_section_leak,0.967,6,61,26
-6.9N-AIML_sem1 & sem2.pdf,BSC103,Applied Chemistry,topic_hard_violation_rate_over_3pct,0.986,6,71,26
-6.9N-AIML_sem1 & sem2.pdf,CC101,Induction cum Universal Human Values,long_topic_share_over_25pct,0.976,6,42,26
+Applied Chemistry syllabus 2024-25.pdf,BSC103A,pplied Chemistry,topic_hard_violation_rate_over_3pct,0.985,6,66,26
+NEW EM SYLLABUS 2024-25.pdf,ESC101,Engineering Mechanics,module_without_topics; topic_hard_violation_rate_over_3pct,1.0,6,31,25
+6.9N-AIML_sem1 & sem2.pdf,BSC102,Applied Physics,topic_hard_violation_rate_over_3pct; other_section_leak,0.969,6,65,26
 6.9N-AIML_sem1 & sem2.pdf,BSC2021,Physics for Emerging Fields,topic_hard_violation_rate_over_3pct,1.0,6,27,26
-6.9N-AIML_sem1 & sem2.pdf,BSC2032,Environmental Chemistry and non-conventional energy sources,module_count_2_without_printed_total,1.0,2,33,8
 6.9N-AIML_sem1 & sem2.pdf,ESC201,Engineering Graphics,topic_hard_violation_rate_over_3pct,0.974,6,39,39
-6.9N-AIML_sem1 & sem2.pdf,IKS201,Indian Knowledge System,"module_numbers_not_sequential:[1, 2, 5, 5, 1]; module_count_5_without_printed_total; module_without_hours",1.0,5,60,26
-6.14N-CSE-AIML.pdf,BSC102,Applied Physics,other_section_leak,0.967,6,61,26
-6.14N-CSE-AIML.pdf,BSC103,Applied Chemistry,topic_hard_violation_rate_over_3pct,0.986,6,71,26
-6.14N-CSE-AIML.pdf,CC101,Induction cum Universal Human Values,long_topic_share_over_25pct,0.976,6,42,26
+6.9N-AIML_sem1 & sem2.pdf,IKS201,Indian Knowledge System,"module_numbers_not_sequential:[1, 2, 5, 5, 1]; module_count_5_without_printed_total; module_without_hours",1.0,5,59,26
+6.14N-CSE-AIML.pdf,BSC102,Applied Physics,topic_hard_violation_rate_over_3pct; other_section_leak,0.969,6,65,26
 6.14N-CSE-AIML.pdf,BSC2021,Physics for Emerging Fields,topic_hard_violation_rate_over_3pct,1.0,6,27,26
-6.14N-CSE-AIML.pdf,BSC2032,Environmental Chemistry and non-conventional energy sources,module_count_2_without_printed_total,1.0,2,33,8
 6.14N-CSE-AIML.pdf,ESC201,Engineering Graphics,topic_hard_violation_rate_over_3pct,0.974,6,39,39
-6.14N-CSE-AIML.pdf,IKS201,Indian Knowledge System,"module_numbers_not_sequential:[1, 2, 5, 5, 1]; module_count_5_without_printed_total; module_without_hours",1.0,5,60,26
+6.14N-CSE-AIML.pdf,IKS201,Indian Knowledge System,"module_numbers_not_sequential:[1, 2, 5, 5, 1]; module_count_5_without_printed_total; module_without_hours",1.0,5,59,26
 NEP_Sem5_6_CSE-AIML.pdf,2165113,Agile Software Development & DevOps,module_count_1_without_printed_total; fewer_than_15_topics_in_course,1.0,1,5,6
 NEP_Sem5_6_CSE-AIML.pdf,2165114,Web and Mobile Application Development,module_count_1_without_printed_total; fewer_than_15_topics_in_course,1.0,1,5,4
 NEP_Sem5_6_CSE-AIML.pdf,2166116,Edge Computing,module_count_2_without_printed_total; fewer_than_15_topics_in_course,1.0,2,11,10
-NEP_Sem5_6_Computer-Engineering.pdf,2116112,System Programming & Compiler Construction,"module_numbers_not_sequential:[1, 3]; module_count_2_without_printed_total",0.9,2,20,39
-NEP_Sem5_6_Computer-Engineering.pdf,2116115,Natural Language Processing,module_table_too_far_from_header,0.844,6,64,38
+NEP_Sem5_6_Computer-Engineering.pdf,2116112,System Programming & Compiler Construction,"module_numbers_not_sequential:[1, 3]; module_count_2_without_printed_total",0.882,2,17,39
+NEP_Sem5_6_Computer-Engineering.pdf,2116115,Natural Language Processing,module_table_too_far_from_header,0.841,6,63,38
 NEP_Sem5_6_Computer-Engineering.pdf,2116118,User Experience Design,module_count_5_without_printed_total,1.0,5,46,32
-6.28N-DS_sem1 & sem2.pdf,BSC103,Applied Chemistry,topic_hard_violation_rate_over_3pct,1.0,6,71,26
-6.28N-DS_sem1 & sem2.pdf,CC101,Induction cum Universal Human Values,long_topic_share_over_25pct,0.976,6,42,26
+6.28N-DS_sem1 & sem2.pdf,BSC102,Applied Physics,topic_hard_violation_rate_over_3pct,0.984,6,62,26
 6.28N-DS_sem1 & sem2.pdf,BSC2021,Physics for Emerging Fields,topic_hard_violation_rate_over_3pct,1.0,6,27,26
-6.28N-DS_sem1 & sem2.pdf,BSC2032,Environmental Chemistry and non-conventional energy sources,module_count_2_without_printed_total,1.0,2,33,8
 6.28N-DS_sem1 & sem2.pdf,ESC201,Engineering Graphics,topic_hard_violation_rate_over_3pct,0.974,6,39,39
-6.28N-DS_sem1 & sem2.pdf,IKS201,Indian Knowledge System,"module_numbers_not_sequential:[1, 2, 5, 5, 1]; module_count_5_without_printed_total; module_without_hours",1.0,5,60,26
-6.19-N-EXTC_Sem1 & Sem2.pdf,BSC103,Applied Chemistry,topic_hard_violation_rate_over_3pct,1.0,6,74,26
-6.19-N-EXTC_Sem1 & Sem2.pdf,CC101,Induction cum Universal Human Values,long_topic_share_over_25pct,0.976,6,42,26
+6.28N-DS_sem1 & sem2.pdf,IKS201,Indian Knowledge System,"module_numbers_not_sequential:[1, 2, 5, 5, 1]; module_count_5_without_printed_total; module_without_hours",1.0,5,59,26
+6.19-N-EXTC_Sem1 & Sem2.pdf,BSC102,Applied Physics,topic_hard_violation_rate_over_3pct,1.0,6,62,26
+6.19-N-EXTC_Sem1 & Sem2.pdf,BSC103,Applied Chemistry,topic_hard_violation_rate_over_3pct,1.0,6,70,26
 6.19-N-EXTC_Sem1 & Sem2.pdf,BSC2021,Physics for Emerging Fields,topic_hard_violation_rate_over_3pct,1.0,6,27,26
-6.19-N-EXTC_Sem1 & Sem2.pdf,BSC2032,Environmental Chemistry and Non-conventional energy sources,module_count_2_without_printed_total,1.0,2,33,8
-6.19-N-EXTC_Sem1 & Sem2.pdf,ESC201,Engineering Graphics,module_count_4_without_printed_total; topic_hard_violation_rate_over_3pct,1.0,4,19,23
-6.19-N-EXTC_Sem1 & Sem2.pdf,IKS201,Indian Knowledge System,"module_numbers_not_sequential:[1, 2, 5]; module_count_3_without_printed_total",1.0,3,59,26
-NEP_Sem5_6_EXTC.pdf,PEC5014,Cloud Computing and Security,module_count_3_without_printed_total,1.0,3,34,21
+6.19-N-EXTC_Sem1 & Sem2.pdf,ESC201,Engineering Graphics,topic_hard_violation_rate_over_3pct,0.974,6,39,39
+6.19-N-EXTC_Sem1 & Sem2.pdf,IKS201,Indian Knowledge System,"module_numbers_not_sequential:[1, 2, 5]; module_count_3_without_printed_total",1.0,3,58,26
 NEP_Sem5_6_EXTC.pdf,PCC601,Image Processing and Machine Vision,module_without_hours; fewer_than_15_topics_in_course,1.0,6,6,0
-NEP_Sem5_6_EXTC.pdf,PEC6011,Database Management Systems,module_count_3_without_printed_total,1.0,3,146,20
-6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf,2213111,Engineering Mathematics for Electrical Circuits,module_without_hours,0.875,6,56,21
-6.29-N-B.E.-Electrical-Engineering-Sem-III-IV.pdf,2223111,Engineering Mathematics for Electrical Circuits,module_without_hours,0.875,6,56,21
-6.22-NIT.pdf,BSC102,Applied Physics,other_section_leak,0.967,6,61,26
-6.22-NIT.pdf,BSC103,Applied Chemistry,topic_hard_violation_rate_over_3pct,0.986,6,71,26
-6.22-NIT.pdf,CC101,Induction cum Universal Human Values,long_topic_share_over_25pct,0.976,6,42,26
+NEP_Sem5_6_EXTC.pdf,PEC6011,Database Management Systems,module_count_3_without_printed_total,1.0,3,145,20
+6.51N-B.E.-Electrical-Computer-EngineeringSem-III-IV.pdf,2213111,Engineering Mathematics for Electrical Circuits,module_without_hours,0.881,6,59,21
+6.29-N-B.E.-Electrical-Engineering-Sem-III-IV.pdf,2223111,Engineering Mathematics for Electrical Circuits,module_without_hours,0.881,6,59,21
+6.22-NIT.pdf,BSC102,Applied Physics,topic_hard_violation_rate_over_3pct; other_section_leak,0.969,6,65,26
 6.22-NIT.pdf,BSC2021,Physics for Emerging Fields,topic_hard_violation_rate_over_3pct,1.0,6,27,26
-6.22-NIT.pdf,BSC2032,Environmental Chemistry and non-conventional energy sources,module_count_2_without_printed_total,1.0,2,33,8
 6.22-NIT.pdf,ESC201,Engineering Graphics,topic_hard_violation_rate_over_3pct,0.974,6,39,39
-6.22-NIT.pdf,IKS201,Indian Knowledge System,"module_numbers_not_sequential:[1, 2, 5, 5, 1]; module_count_5_without_printed_total; module_without_hours",1.0,5,60,26
-6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343111,Applied Mathematics Thinking-I,module_without_topics; overlong_topics_dropped_over_10pct,0.793,6,29,30
-nep_sem5_6.pdf,23461131,Advance Web Technology,module_count_5_without_printed_total,1.0,5,51,32
-nep_sem5_6.pdf,2346511,Professional Skill,module_count_3_without_printed_total,1.0,3,79,20
+6.22-NIT.pdf,IKS201,Indian Knowledge System,"module_numbers_not_sequential:[1, 2, 5, 5, 1]; module_count_5_without_printed_total; module_without_hours",1.0,5,59,26
+6.34-N-B.E.-Information-Technology-Sem-III-IV.pdf,2343111,Applied Mathematics Thinking-I,overlong_topics_dropped_over_10pct,0.794,6,34,30
+nep_sem5_6.pdf,23451143,UI/UX Design,"module_numbers_not_sequential:[1, 2, 3, 4, 5, 6, 1]; module_count_7_without_printed_total; module_without_hours",1.0,7,62,37
+nep_sem5_6.pdf,2346111,Security and Blockchain Technology,"module_numbers_not_sequential:[1, 2, 3, 4, 5, 6, 1]; module_count_7_without_printed_total; module_without_hours",1.0,7,110,37
+nep_sem5_6.pdf,2346511,Professional Skill,module_count_5_without_printed_total,1.0,5,131,32
 6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2393112,Strength of Materials,module_count_0_without_printed_total; fewer_than_15_topics_in_course; topic_hard_violation_rate_over_3pct; long_topic_share_over_25pct,0.0,0,0,0
 6.44-N-B.E.-Mecanical-Automation-Engineering-Sem-III-IV.pdf,2394112,Manufacturing Processes,topic_hard_violation_rate_over_3pct,1.0,6,71,39
-6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC103,Applied Chemistry,topic_hard_violation_rate_over_3pct,1.0,6,71,26
-6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,CC101,Induction cum Universal Human Values,long_topic_share_over_25pct,0.976,6,42,26
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC102,Applied Physics,topic_hard_violation_rate_over_3pct,0.984,6,62,26
 6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC2021,Physics for Emerging Fields,topic_hard_violation_rate_over_3pct,1.0,6,27,26
-6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,BSC2032,Environmental Chemistry and Non-conventional energy sources,module_count_2_without_printed_total,1.0,2,23,8
-6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,ESC201,Engineering Graphics,module_count_2_without_printed_total; fewer_than_15_topics_in_course; topic_hard_violation_rate_over_3pct,1.0,2,9,9
-6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,IKS201,Indian Knowledge System,"module_numbers_not_sequential:[1, 2, 5]; module_count_3_without_printed_total",1.0,3,59,26
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,ESC201,Engineering Graphics,topic_hard_violation_rate_over_3pct,1.0,6,39,39
+6.23-NB.E.-Mechanical-Engineering-Sem-I-II-2.pdf,IKS201,Indian Knowledge System,"module_numbers_not_sequential:[1, 2, 5]; module_count_3_without_printed_total",1.0,3,58,26
 6.35-N-B.E.-Mechanical-EngineeringSem-III-IV.pdf,2404112,Manufacturing Processes,topic_hard_violation_rate_over_3pct,1.0,6,61,39
 NEP_Sem5_6_Mechanical-Engineering.pdf,24061141,PEC-3 - Robotics,module_count_2_without_printed_total,1.0,2,24,12
-NEP_Sem5_6_Mechanical-Engineering.pdf,2405113,CAD/CAM & CAE,module_table_too_far_from_header,1.0,6,64,39
-NEP_Sem5_6_Mechanical-Engineering.pdf,24061133,PEC-2 - Cryogenics,topic_hard_violation_rate_over_3pct,0.983,6,60,39
+NEP_Sem5_6_Mechanical-Engineering.pdf,2405113,CAD/CAM & CAE,module_table_too_far_from_header,1.0,6,63,39
+NEP_Sem5_6_Mechanical-Engineering.pdf,24061133,PEC-2 - Cryogenics,topic_hard_violation_rate_over_3pct,0.986,6,74,39
 NEP_Sem5_6_Mechanical-Engineering.pdf,24061143,PEC-3 - Industrial Automation,module_table_too_far_from_header,1.0,6,72,39

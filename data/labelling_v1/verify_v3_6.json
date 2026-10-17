@@ -1,0 +1,70 @@
+{
+ "verdicts": {
+  "2394113|4cbc150b595e2353": {
+   "verdict": "BAD",
+   "topics": 52,
+   "junk": 8,
+   "note": "M2 acceleration analysis missing; M1 name 'Module 1'; glued 'Basic Kinematics Kinematic link & its types'; split 'naval ship during steering'/'pitching'/'rolling'; duplicate Chains/Belts"
+  },
+  "2403113|1422fec16b48afc1": {
+   "verdict": "FIXABLE",
+   "topics": 106,
+   "junk": 11,
+   "note": "glued 'Highgradeandlow- gradeenergy' words, 'Application of first law... First law applied to flow system', split 'wet'/'dry and superheated steam', fragments 'path'/'process and cycle'"
+  },
+  "2403114|1d61f539b768b504": {
+   "verdict": "FIXABLE",
+   "topics": 61,
+   "junk": 6,
+   "note": "split 'Slip systems and deformability of FCC'/'BCC'/'HCP lattice systems'; glued 'Concepts of crystals- ... Unit cell', 'Classification of Alloys... phase -diagrams'; Objectives dropped"
+  },
+  "2405112|69bed8b330f2a3aa": {
+   "verdict": "FIXABLE",
+   "topics": 100,
+   "junk": 10,
+   "note": "split 'Limits'/'fits and tolerances', 'Desired'/'interfering and modifying inputs', 'Errors in measure- ments', stray '*', glued 'Electrical methods ... Resistance thermometers'"
+  },
+  "24051142|7831214f1931e507": {
+   "verdict": "BAD",
+   "topics": 105,
+   "junk": 13,
+   "note": "M2 missing viscous/Coulomb damping and examples; split 'Conversion of multi springs'/'multi masses'/'multi-dampers', 'Mass'/'Damper Model', 'Newton'/'Energy'"
+  },
+  "24051143|6142b0d34d6c8442": {
+   "verdict": "BAD",
+   "topics": 108,
+   "junk": 15,
+   "note": "split 'multi springs'/'multi masses', 'Mass'/'Damper Model', 'Newton'/'Energy', stray '.@' on case studies x2, 'Goals'/'steps' fragments"
+  },
+  "2405511|b3675d437f825258": {
+   "verdict": "BAD",
+   "topics": 134,
+   "junk": 20,
+   "note": "glued items ('etc. Perspective of Arthasastra', 'Iconography Use of bricks...', 'Early Metals in India Use of copper'), fragments 'principles'/'Terminologies'/'etc.', M1 planning-principles/interconnection text missing, split 'Arthashastra'/'mining techniques'"
+  },
+  "2406112|3fd38a2b9e9c169b": {
+   "verdict": "FIXABLE",
+   "topics": 67,
+   "junk": 5,
+   "note": "glued 'NTU method . Application Phase Change Material', 'simple carburettor Concept of Waste heat recovery', stray '. *', fragment 'constant surface temperature'"
+  },
+  "24061131|5b1c1572b5d05918": {
+   "verdict": "BAD",
+   "topics": 61,
+   "junk": 8,
+   "note": "hyphen splits 'Eco- friendly', 'Lithium- bromide', 'T- s'; glued 'RAC components Reciprocating'; fragments 'Reciprocating'/'screw and scroll compressors'; stray '*' x2"
+  },
+  "24061132|e23f4c9adcb980de": {
+   "verdict": "BAD",
+   "topics": 76,
+   "junk": 11,
+   "note": "glued 'Air Handling Unit Fan Coil Unit', 'Fan Laws Filters Supply and Return Grills', 'Heating Season Performance Factor Seasonal Energy...'; stray '*' x3, 'Numerical on duct sizing. 5.2', dangling 'their Coefficient of Performance'"
+  },
+  "24061142|0459a8f988b3e7dc": {
+   "verdict": "FIXABLE",
+   "topics": 87,
+   "junk": 4,
+   "note": "I2C dropped from interfaces (GPIO/UART/SPI only); glued 'OPC-UA ... (overview) Interfaces (Conceptual Only)'; split 'Device-to- Gateway', 'IoT- enabled'; dangling 'evolution of IoT'"
+  }
+ }
+}

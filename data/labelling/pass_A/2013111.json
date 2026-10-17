@@ -1,0 +1,109 @@
+{
+"edges": [
+{
+"a": "t1",
+"b": "t2",
+"why": "eigenvalues come from characteristic equation"
+},
+{
+"a": "t1",
+"b": "t3",
+"why": "theorem states matrix satisfies its characteristic equation"
+},
+{
+"a": "t2",
+"b": "t5",
+"why": "similarity preserves eigenvalues"
+},
+{
+"a": "t2",
+"b": "t6",
+"why": "diagonalizability defined via eigenvectors"
+},
+{
+"a": "t5",
+"b": "t6",
+"why": "diagonalization is similarity to diagonal matrix"
+},
+{
+"a": "t3",
+"b": "t4",
+"why": "apply theorem to reduce higher polynomials"
+},
+{
+"a": "t7",
+"b": "t9",
+"why": "solution types framed by basic feasible solutions"
+},
+{
+"a": "t8",
+"b": "t9",
+"why": "basic solutions defined on standard form"
+},
+{
+"a": "t10",
+"b": "t8",
+"why": "slack variables convert inequalities to standard form"
+},
+{
+"a": "t11",
+"b": "t8",
+"why": "surplus variables convert inequalities to standard form"
+},
+{
+"a": "t9",
+"b": "t12",
+"why": "simplex moves between basic feasible solutions"
+},
+{
+"a": "t14",
+"b": "t15",
+"why": "linear congruence needs congruence basics"
+},
+{
+"a": "t14",
+"b": "t16",
+"why": "remainder theory uses congruence"
+},
+{
+"a": "t15",
+"b": "t18",
+"why": "systems built from linear congruences"
+},
+{
+"a": "t14",
+"b": "t20",
+"why": "Fermat theorem stated in congruences"
+},
+{
+"a": "t20",
+"b": "t19",
+"why": "Euler theorem generalizes Fermat"
+},
+{
+"a": "t19",
+"b": "t21",
+"why": "RSA relies on Euler theorem"
+},
+{
+"a": "t22",
+"b": "t23",
+"why": "Dirichlet conditions needed for Fourier series"
+},
+{
+"a": "t23",
+"b": "t24",
+"why": "even/odd cases specialize the series"
+},
+{
+"a": "t25",
+"b": "t27",
+"why": "regression uses correlation concepts"
+},
+{
+"a": "t30",
+"b": "t29",
+"why": "MGF generates raw moments"
+}
+]
+}

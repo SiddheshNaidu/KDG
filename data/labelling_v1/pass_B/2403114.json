@@ -1,0 +1,244 @@
+{
+ "edges": [
+  {
+   "a": "t4",
+   "b": "t5",
+   "why": "metal structures need unit cell"
+  },
+  {
+   "a": "t5",
+   "b": "t6",
+   "why": "systems classify crystal structures"
+  },
+  {
+   "a": "t4",
+   "b": "t7",
+   "why": "planes defined on unit cell"
+  },
+  {
+   "a": "t9",
+   "b": "t10",
+   "why": "classification follows definition"
+  },
+  {
+   "a": "t10",
+   "b": "t11",
+   "why": "point defects are an imperfection class"
+  },
+  {
+   "a": "t10",
+   "b": "t12",
+   "why": "line defects are an imperfection class"
+  },
+  {
+   "a": "t10",
+   "b": "t13",
+   "why": "surface defects are an imperfection class"
+  },
+  {
+   "a": "t12",
+   "b": "t14",
+   "why": "dislocations enable deformation"
+  },
+  {
+   "a": "t7",
+   "b": "t15",
+   "why": "resolved shear stress needs planes and directions"
+  },
+  {
+   "a": "t14",
+   "b": "t15",
+   "why": "CRSS concerns dislocation slip"
+  },
+  {
+   "a": "t7",
+   "b": "t16",
+   "why": "slip systems are planes and directions"
+  },
+  {
+   "a": "t14",
+   "b": "t16",
+   "why": "slip is dislocation motion"
+  },
+  {
+   "a": "t16",
+   "b": "t17",
+   "why": "BCC and HCP slip compared to FCC"
+  },
+  {
+   "a": "t19",
+   "b": "t18",
+   "why": "recrystallization follows cold work"
+  },
+  {
+   "a": "t14",
+   "b": "t19",
+   "why": "work hardening via dislocations"
+  },
+  {
+   "a": "t18",
+   "b": "t20",
+   "why": "annealing exists for recrystallization"
+  },
+  {
+   "a": "t20",
+   "b": "t21",
+   "why": "stages of annealing process"
+  },
+  {
+   "a": "t22",
+   "b": "t23",
+   "why": "solidification proceeds via nucleation"
+  },
+  {
+   "a": "t23",
+   "b": "t24",
+   "why": "cooling curves record solidification"
+  },
+  {
+   "a": "t23",
+   "b": "t26",
+   "why": "phase diagrams describe solidification"
+  },
+  {
+   "a": "t25",
+   "b": "t26",
+   "why": "diagrams classify alloy phases"
+  },
+  {
+   "a": "t26",
+   "b": "t27",
+   "why": "isomorphous is a diagram type"
+  },
+  {
+   "a": "t26",
+   "b": "t28",
+   "why": "eutectic is a diagram type"
+  },
+  {
+   "a": "t26",
+   "b": "t29",
+   "why": "peritectic is a diagram type"
+  },
+  {
+   "a": "t26",
+   "b": "t30",
+   "why": "invariant reactions seen in phase diagrams"
+  },
+  {
+   "a": "t30",
+   "b": "t31",
+   "why": "steel microstructures from eutectoid reaction"
+  },
+  {
+   "a": "t31",
+   "b": "t32",
+   "why": "solidification of alloys uses microstructure"
+  },
+  {
+   "a": "t32",
+   "b": "t33",
+   "why": "TTT extends equilibrium diagram to kinetics"
+  },
+  {
+   "a": "t33",
+   "b": "t38",
+   "why": "hardening and tempering use TTT"
+  },
+  {
+   "a": "t33",
+   "b": "t39",
+   "why": "isothermal treatments use TTT"
+  },
+  {
+   "a": "t32",
+   "b": "t36",
+   "why": "annealing based on Fe-C diagram"
+  },
+  {
+   "a": "t36",
+   "b": "t37",
+   "why": "normalizing is related to annealing"
+  },
+  {
+   "a": "t38",
+   "b": "t40",
+   "why": "surface hardening builds on hardening"
+  },
+  {
+   "a": "t40",
+   "b": "t41",
+   "why": "carburizing is surface hardening"
+  },
+  {
+   "a": "t40",
+   "b": "t42",
+   "why": "nitriding is surface hardening"
+  },
+  {
+   "a": "t40",
+   "b": "t43",
+   "why": "cyaniding is surface hardening"
+  },
+  {
+   "a": "t40",
+   "b": "t44",
+   "why": "induction is surface hardening"
+  },
+  {
+   "a": "t48",
+   "b": "t49",
+   "why": "ductile fracture is a fracture mode"
+  },
+  {
+   "a": "t48",
+   "b": "t50",
+   "why": "brittle fracture is a fracture mode"
+  },
+  {
+   "a": "t50",
+   "b": "t51",
+   "why": "DBTT concerns brittle fracture"
+  },
+  {
+   "a": "t50",
+   "b": "t52",
+   "why": "Griffith explains brittle fracture"
+  },
+  {
+   "a": "t53",
+   "b": "t54",
+   "why": "fatigue test measures fatigue"
+  },
+  {
+   "a": "t54",
+   "b": "t55",
+   "why": "S-N curves from fatigue tests"
+  },
+  {
+   "a": "t53",
+   "b": "t56",
+   "why": "factors affect fatigue"
+  },
+  {
+   "a": "t53",
+   "b": "t57",
+   "why": "structural changes occur in fatigue"
+  },
+  {
+   "a": "t58",
+   "b": "t59",
+   "why": "mechanism of creep"
+  },
+  {
+   "a": "t59",
+   "b": "t60",
+   "why": "stages follow creep mechanism"
+  },
+  {
+   "a": "t60",
+   "b": "t61",
+   "why": "resistant materials need creep understanding"
+  }
+ ]
+}

@@ -124,7 +124,7 @@
 },
 {
 "id": "t25",
-"name": "I. Image Restoration (4 Hours)",
+"name": "I. Image Restoration",
 "module": 3
 },
 {
@@ -209,7 +209,7 @@
 },
 {
 "id": "t42",
-"name": "Image Compression (4 Hours)",
+"name": "Image Compression",
 "module": 3
 },
 {
@@ -496,171 +496,416 @@
 "candidates": [
 {
 "i": 0,
-"a": "t71",
-"b": "t75",
-"a_name": "Image Features",
-"b_name": "feature extraction"
-},
-{
-"i": 1,
-"a": "t2",
-"b": "t4",
-"a_name": "Image Formation and Representation",
-"b_name": "Color Models and Image Representation Image Histogram and Basic Intensity Transformations"
-},
-{
-"i": 2,
-"a": "t18",
-"b": "t36",
-"a_name": "Spatial Filtering",
-"b_name": "Max"
-},
-{
-"i": 3,
-"a": "t75",
-"b": "t86",
-"a_name": "feature extraction",
-"b_name": "SIFT"
-},
-{
-"i": 4,
-"a": "t4",
-"b": "t14",
-"a_name": "Color Models and Image Representation Image Histogram and Basic Intensity Transformations",
-"b_name": "Histogram Processing"
-},
-{
-"i": 5,
-"a": "t42",
-"b": "t43",
-"a_name": "Image Compression (4 Hours)",
-"b_name": "compression model"
-},
-{
-"i": 6,
-"a": "t19",
-"b": "t21",
-"a_name": "Smoothing and Sharpening Filters",
-"b_name": "including smoothing filters (e.g., mean and median) and sharpening filters (e.g., Laplacian and unsharp masking)"
-},
-{
-"i": 7,
-"a": "t63",
-"b": "t64",
-"a_name": "Morphological Image Processing",
-"b_name": "Dilation and Erosion"
-},
-{
-"i": 8,
-"a": "t76",
-"b": "t79",
-"a_name": "Texture Analysis",
-"b_name": "Laws’ measures"
-},
-{
-"i": 9,
-"a": "t1",
-"b": "t2",
-"a_name": "Introduction to Digital Imaging",
-"b_name": "Image Formation and Representation"
-},
-{
-"i": 10,
-"a": "t88",
-"b": "t89",
-"a_name": "Image Analysis",
-"b_name": "Classification (supervised/unsupervised)"
-},
-{
-"i": 11,
 "a": "t14",
 "b": "t61",
 "a_name": "Histogram Processing",
 "b_name": "Thresholding (Global, Adaptive, Otsu’s Method)"
 },
 {
-"i": 12,
-"a": "t6",
-"b": "t7",
-"a_name": "Introduction to digital images and processing",
-"b_name": "Gray Level Transformations"
+"i": 1,
+"a": "t18",
+"b": "t59",
+"a_name": "Spatial Filtering",
+"b_name": "Detection of Discontinuities"
 },
 {
-"i": 13,
-"a": "t42",
-"b": "t44",
-"a_name": "Image Compression (4 Hours)",
-"b_name": "redundancies"
+"i": 2,
+"a": "t76",
+"b": "t79",
+"a_name": "Texture Analysis",
+"b_name": "Laws’ measures"
 },
 {
-"i": 14,
-"a": "t53",
-"b": "t55",
-"a_name": "Performance metrics",
-"b_name": "Bit rate"
+"i": 3,
+"a": "t95",
+"b": "t97",
+"a_name": "Role of Convolutional Neural Networks (CNNs) in feature extraction and classification",
+"b_name": "facial recognition"
 },
 {
-"i": 15,
+"i": 4,
+"a": "t7",
+"b": "t11",
+"a_name": "Gray Level Transformations",
+"b_name": "Dynamic range Compression"
+},
+{
+"i": 5,
+"a": "t26",
+"b": "t28",
+"a_name": "Image degradation and restoration concepts",
+"b_name": "Noise models"
+},
+{
+"i": 6,
+"a": "t7",
+"b": "t12",
+"a_name": "Gray Level Transformations",
+"b_name": "Gray Level Slicing"
+},
+{
+"i": 7,
 "a": "t8",
-"b": "t13",
+"b": "t9",
 "a_name": "Zero Memory Point Operations",
-"b_name": "Bit Plane Slicing"
+"b_name": "negative"
 },
 {
-"i": 16,
-"a": "t53",
-"b": "t54",
-"a_name": "Performance metrics",
-"b_name": "Compression ratio"
+"i": 8,
+"a": "t28",
+"b": "t35",
+"a_name": "Noise models",
+"b_name": "Median"
 },
 {
-"i": 17,
-"a": "t73",
-"b": "t84",
-"a_name": "feature descriptors",
-"b_name": "Feature matching (Euclidean, cosine)"
+"i": 9,
+"a": "t28",
+"b": "t41",
+"a_name": "Noise models",
+"b_name": "Adaptive II"
 },
 {
-"i": 18,
+"i": 10,
 "a": "t81",
 "b": "t82",
 "a_name": "Principal Component Analysis (PCA)",
 "b_name": "Feature selection and dimensionality reduction"
 },
 {
+"i": 11,
+"a": "t75",
+"b": "t82",
+"a_name": "feature extraction",
+"b_name": "Feature selection and dimensionality reduction"
+},
+{
+"i": 12,
+"a": "t38",
+"b": "t39",
+"a_name": "Frequency filters",
+"b_name": "Inverse"
+},
+{
+"i": 13,
+"a": "t39",
+"b": "t40",
+"a_name": "Inverse",
+"b_name": "Wiener"
+},
+{
+"i": 14,
+"a": "t38",
+"b": "t40",
+"a_name": "Frequency filters",
+"b_name": "Wiener"
+},
+{
+"i": 15,
+"a": "t8",
+"b": "t12",
+"a_name": "Zero Memory Point Operations",
+"b_name": "Gray Level Slicing"
+},
+{
+"i": 16,
+"a": "t58",
+"b": "t61",
+"a_name": "Image Segmentation",
+"b_name": "Thresholding (Global, Adaptive, Otsu’s Method)"
+},
+{
+"i": 17,
+"a": "t7",
+"b": "t10",
+"a_name": "Gray Level Transformations",
+"b_name": "contrast stretching"
+},
+{
+"i": 18,
+"a": "t24",
+"b": "t51",
+"a_name": "Discrete Fourier Transform (DFT) and its use in image enhancement",
+"b_name": "Transform coding (DCT– JPEG)"
+},
+{
 "i": 19,
-"a": "t18",
-"b": "t37",
-"a_name": "Spatial Filtering",
-"b_name": "Min"
+"a": "t6",
+"b": "t7",
+"a_name": "Introduction to digital images and processing",
+"b_name": "Gray Level Transformations"
 },
 {
 "i": 20,
-"a": "t43",
-"b": "t44",
-"a_name": "compression model",
-"b_name": "redundancies"
+"a": "t73",
+"b": "t87",
+"a_name": "feature descriptors",
+"b_name": "SURF"
 },
 {
 "i": 21,
-"a": "t76",
-"b": "t80",
-"a_name": "Texture Analysis",
-"b_name": "Local Binary Patterns (LBP)"
+"a": "t45",
+"b": "t46",
+"a_name": "Lossless",
+"b_name": "RLC"
 },
 {
 "i": 22,
+"a": "t45",
+"b": "t47",
+"a_name": "Lossless",
+"b_name": "Huffman"
+},
+{
+"i": 23,
+"a": "t44",
+"b": "t48",
+"a_name": "redundancies",
+"b_name": "Arithmetic"
+},
+{
+"i": 24,
+"a": "t7",
+"b": "t8",
+"a_name": "Gray Level Transformations",
+"b_name": "Zero Memory Point Operations"
+},
+{
+"i": 25,
+"a": "t35",
+"b": "t36",
+"a_name": "Median",
+"b_name": "Max"
+},
+{
+"i": 26,
+"a": "t44",
+"b": "t49",
+"a_name": "redundancies",
+"b_name": "LZW"
+},
+{
+"i": 27,
+"a": "t58",
+"b": "t62",
+"a_name": "Image Segmentation",
+"b_name": "Region Oriented Segmentation (Region Growing, Splitting and Merging, Watershed Segmentation)"
+},
+{
+"i": 28,
+"a": "t58",
+"b": "t59",
+"a_name": "Image Segmentation",
+"b_name": "Detection of Discontinuities"
+},
+{
+"i": 29,
+"a": "t26",
+"b": "t39",
+"a_name": "Image degradation and restoration concepts",
+"b_name": "Inverse"
+},
+{
+"i": 30,
+"a": "t45",
+"b": "t49",
+"a_name": "Lossless",
+"b_name": "LZW"
+},
+{
+"i": 31,
+"a": "t3",
+"b": "t23",
+"a_name": "Image Sampling and Quantization",
+"b_name": "Zooming by Interpolation and Replication Frequency domain techniques"
+},
+{
+"i": 32,
+"a": "t8",
+"b": "t11",
+"a_name": "Zero Memory Point Operations",
+"b_name": "Dynamic range Compression"
+},
+{
+"i": 33,
+"a": "t16",
+"b": "t21",
+"a_name": "Different types of noise (e.g., Gaussian, Salt & Pepper)",
+"b_name": "including smoothing filters (e.g., mean and median) and sharpening filters (e.g., Laplacian and unsharp masking)"
+},
+{
+"i": 34,
+"a": "t75",
+"b": "t84",
+"a_name": "feature extraction",
+"b_name": "Feature matching (Euclidean, cosine)"
+},
+{
+"i": 35,
+"a": "t3",
+"b": "t7",
+"a_name": "Image Sampling and Quantization",
+"b_name": "Gray Level Transformations"
+},
+{
+"i": 36,
+"a": "t20",
+"b": "t21",
+"a_name": "spatial filters",
+"b_name": "including smoothing filters (e.g., mean and median) and sharpening filters (e.g., Laplacian and unsharp masking)"
+},
+{
+"i": 37,
+"a": "t54",
+"b": "t55",
+"a_name": "Compression ratio",
+"b_name": "Bit rate"
+},
+{
+"i": 38,
 "a": "t89",
 "b": "t93",
 "a_name": "Classification (supervised/unsupervised)",
 "b_name": "object & pattern recognition"
 },
 {
-"i": 23,
+"i": 39,
+"a": "t73",
+"b": "t84",
+"a_name": "feature descriptors",
+"b_name": "Feature matching (Euclidean, cosine)"
+},
+{
+"i": 40,
 "a": "t75",
-"b": "t76",
+"b": "t86",
 "a_name": "feature extraction",
-"b_name": "Texture Analysis"
+"b_name": "SIFT"
+},
+{
+"i": 41,
+"a": "t35",
+"b": "t37",
+"a_name": "Median",
+"b_name": "Min"
+},
+{
+"i": 42,
+"a": "t18",
+"b": "t20",
+"a_name": "Spatial Filtering",
+"b_name": "spatial filters"
+},
+{
+"i": 43,
+"a": "t73",
+"b": "t86",
+"a_name": "feature descriptors",
+"b_name": "SIFT"
+},
+{
+"i": 44,
+"a": "t73",
+"b": "t74",
+"a_name": "feature descriptors",
+"b_name": "boundary & region descriptors"
+},
+{
+"i": 45,
+"a": "t19",
+"b": "t21",
+"a_name": "Smoothing and Sharpening Filters",
+"b_name": "including smoothing filters (e.g., mean and median) and sharpening filters (e.g., Laplacian and unsharp masking)"
+},
+{
+"i": 46,
+"a": "t89",
+"b": "t94",
+"a_name": "Classification (supervised/unsupervised)",
+"b_name": "Introduction to deep learning concepts for image analysis"
+},
+{
+"i": 47,
+"a": "t75",
+"b": "t89",
+"a_name": "feature extraction",
+"b_name": "Classification (supervised/unsupervised)"
+},
+{
+"i": 48,
+"a": "t86",
+"b": "t87",
+"a_name": "SIFT",
+"b_name": "SURF"
+},
+{
+"i": 49,
+"a": "t8",
+"b": "t10",
+"a_name": "Zero Memory Point Operations",
+"b_name": "contrast stretching"
+},
+{
+"i": 50,
+"a": "t44",
+"b": "t47",
+"a_name": "redundancies",
+"b_name": "Huffman"
+},
+{
+"i": 51,
+"a": "t71",
+"b": "t73",
+"a_name": "Image Features",
+"b_name": "feature descriptors"
+},
+{
+"i": 52,
+"a": "t59",
+"b": "t62",
+"a_name": "Detection of Discontinuities",
+"b_name": "Region Oriented Segmentation (Region Growing, Splitting and Merging, Watershed Segmentation)"
+},
+{
+"i": 53,
+"a": "t82",
+"b": "t81",
+"a_name": "Feature selection and dimensionality reduction",
+"b_name": "Principal Component Analysis (PCA)"
+},
+{
+"i": 54,
+"a": "t26",
+"b": "t27",
+"a_name": "Image degradation and restoration concepts",
+"b_name": "causes of degradation"
+},
+{
+"i": 55,
+"a": "t44",
+"b": "t46",
+"a_name": "redundancies",
+"b_name": "RLC"
+},
+{
+"i": 56,
+"a": "t7",
+"b": "t9",
+"a_name": "Gray Level Transformations",
+"b_name": "negative"
+},
+{
+"i": 57,
+"a": "t65",
+"b": "t64",
+"a_name": "Structuring Element and Its Decomposition",
+"b_name": "Dilation and Erosion"
+},
+{
+"i": 58,
+"a": "t64",
+"b": "t65",
+"a_name": "Dilation and Erosion",
+"b_name": "Structuring Element and Its Decomposition"
 }
 ]
 }

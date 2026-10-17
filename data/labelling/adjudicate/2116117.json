@@ -389,81 +389,76 @@
 },
 {
 "id": "t78",
-"name": "/ Supply chain using blockchain. (Can include 2 case studies; one on Ethereum",
+"name": "/ Supply chain using blockchain. (Can include 2 case studies; one on Ethereum and one on Hyperledger fabric)",
 "module": 5
 },
 {
 "id": "t79",
-"name": "one on Hyperledger fabric)",
-"module": 5
-},
-{
-"id": "t80",
 "name": "Blockchain interoperability (Polkadot, Cosmos)",
 "module": 6
 },
 {
-"id": "t81",
+"id": "t80",
 "name": "Blockchain in IoT",
 "module": 6
 },
 {
-"id": "t82",
+"id": "t81",
 "name": "AI",
 "module": 6
 },
 {
-"id": "t83",
+"id": "t82",
 "name": "Edge environments",
 "module": 6
 },
 {
-"id": "t84",
+"id": "t83",
 "name": "Layer 2 scaling solutions (Lightning Network, Polygon)",
 "module": 6
 },
 {
-"id": "t85",
+"id": "t84",
 "name": "Blockchain ethics",
 "module": 6
 },
 {
-"id": "t86",
+"id": "t85",
 "name": "privacy",
 "module": 6
 },
 {
-"id": "t87",
+"id": "t86",
 "name": "immutability",
 "module": 6
 },
 {
-"id": "t88",
+"id": "t87",
 "name": "sustainable mining",
 "module": 6
 },
 {
-"id": "t89",
+"id": "t88",
 "name": "Security attacks on blockchain",
 "module": 6
 },
 {
-"id": "t90",
+"id": "t89",
 "name": "Sybil",
 "module": 6
 },
 {
-"id": "t91",
+"id": "t90",
 "name": "replay",
 "module": 6
 },
 {
-"id": "t92",
+"id": "t91",
 "name": "51% attack",
 "module": 6
 },
 {
-"id": "t93",
+"id": "t92",
 "name": "Regulatory and governance aspects",
 "module": 6
 }
@@ -471,171 +466,255 @@
 "candidates": [
 {
 "i": 0,
-"a": "t29",
-"b": "t18",
-"a_name": "Proof of Work (PoW)",
-"b_name": "Miners"
+"a": "t26",
+"b": "t90",
+"a_name": "Transactions in Blockchain",
+"b_name": "replay"
 },
 {
 "i": 1,
-"a": "t40",
-"b": "t39",
-"a_name": "PAXOS algorithm",
-"b_name": "RAFT"
-},
-{
-"i": 2,
-"a": "t53",
-"b": "t73",
-"a_name": "Smart Contracts",
-"b_name": "Web3.js"
-},
-{
-"i": 3,
-"a": "t22",
-"b": "t50",
-"a_name": "Wallet and its types",
-"b_name": "Wallets"
-},
-{
-"i": 4,
-"a": "t29",
-"b": "t19",
-"a_name": "Proof of Work (PoW)",
-"b_name": "Difficulty Levels"
-},
-{
-"i": 5,
-"a": "t15",
-"b": "t16",
-"a_name": "Bitcoin basics",
-"b_name": "Key Concepts"
-},
-{
-"i": 6,
-"a": "t89",
-"b": "t92",
-"a_name": "Security attacks on blockchain",
-"b_name": "51% attack"
-},
-{
-"i": 7,
-"a": "t53",
-"b": "t71",
-"a_name": "Smart Contracts",
-"b_name": "DApp Architecture"
-},
-{
-"i": 8,
-"a": "t70",
-"b": "t68",
-"a_name": "STO and ERC-20 & ERC-721 standards",
-"b_name": "NFT"
-},
-{
-"i": 9,
-"a": "t71",
-"b": "t75",
-"a_name": "DApp Architecture",
-"b_name": "blockchain APIs"
-},
-{
-"i": 10,
-"a": "t35",
-"b": "t39",
-"a_name": "Permissioned Blockchain Algorithm",
-"b_name": "RAFT"
-},
-{
-"i": 11,
-"a": "t46",
-"b": "t48",
-"a_name": "Turing Completeness",
-"b_name": "EVM (Ethereum Virtual Machine)"
-},
-{
-"i": 12,
-"a": "t24",
-"b": "t26",
-"a_name": "UTXO",
-"b_name": "Transactions in Blockchain"
-},
-{
-"i": 13,
-"a": "t1",
-"b": "t22",
-"a_name": "Public key cryptography (RSA, ECC)",
-"b_name": "Wallet and its types"
-},
-{
-"i": 14,
-"a": "t35",
-"b": "t37",
-"a_name": "Permissioned Blockchain Algorithm",
-"b_name": "Solo"
-},
-{
-"i": 15,
 "a": "t48",
 "b": "t53",
 "a_name": "EVM (Ethereum Virtual Machine)",
 "b_name": "Smart Contracts"
 },
 {
-"i": 16,
-"a": "t85",
-"b": "t88",
-"a_name": "Blockchain ethics",
+"i": 2,
+"a": "t29",
+"b": "t87",
+"a_name": "Proof of Work (PoW)",
 "b_name": "sustainable mining"
 },
 {
-"i": 17,
-"a": "t5",
-"b": "t6",
-"a_name": "centralized vs. decentralized systems",
-"b_name": "Types of blockchain"
+"i": 3,
+"a": "t45",
+"b": "t83",
+"a_name": "Ethereum",
+"b_name": "Layer 2 scaling solutions (Lightning Network, Polygon)"
 },
 {
-"i": 18,
+"i": 4,
+"a": "t57",
+"b": "t63",
+"a_name": "Solidity Programming",
+"b_name": "Remix IDE"
+},
+{
+"i": 5,
+"a": "t15",
+"b": "t18",
+"a_name": "Bitcoin basics",
+"b_name": "Miners"
+},
+{
+"i": 6,
+"a": "t28",
+"b": "t33",
+"a_name": "Permissionless Blockchain Algorithms",
+"b_name": "Proof of Elapsed Time"
+},
+{
+"i": 7,
+"a": "t15",
+"b": "t24",
+"a_name": "Bitcoin basics",
+"b_name": "UTXO"
+},
+{
+"i": 8,
+"a": "t1",
+"b": "t25",
+"a_name": "Public key cryptography (RSA, ECC)",
+"b_name": "Bitcoin addresses"
+},
+{
+"i": 9,
+"a": "t53",
+"b": "t70",
+"a_name": "Smart Contracts",
+"b_name": "STO and ERC-20 & ERC-721 standards"
+},
+{
+"i": 10,
+"a": "t15",
+"b": "t17",
+"a_name": "Bitcoin basics",
+"b_name": "Rewards"
+},
+{
+"i": 11,
+"a": "t88",
+"b": "t90",
+"a_name": "Security attacks on blockchain",
+"b_name": "replay"
+},
+{
+"i": 12,
+"a": "t88",
+"b": "t91",
+"a_name": "Security attacks on blockchain",
+"b_name": "51% attack"
+},
+{
+"i": 13,
+"a": "t15",
+"b": "t16",
+"a_name": "Bitcoin basics",
+"b_name": "Key Concepts"
+},
+{
+"i": 14,
+"a": "t3",
+"b": "t26",
+"a_name": "digital signatures",
+"b_name": "Transactions in Blockchain"
+},
+{
+"i": 15,
+"a": "t26",
+"b": "t24",
+"a_name": "Transactions in Blockchain",
+"b_name": "UTXO"
+},
+{
+"i": 16,
+"a": "t29",
+"b": "t34",
+"a_name": "Proof of Work (PoW)",
+"b_name": "Proof of Burn"
+},
+{
+"i": 17,
 "a": "t53",
 "b": "t69",
 "a_name": "Smart Contracts",
 "b_name": "ICO"
 },
 {
+"i": 18,
+"a": "t57",
+"b": "t64",
+"a_name": "Solidity Programming",
+"b_name": "Truffle"
+},
+{
 "i": 19,
-"a": "t85",
-"b": "t87",
-"a_name": "Blockchain ethics",
-"b_name": "immutability"
+"a": "t22",
+"b": "t66",
+"a_name": "Wallet and its types",
+"b_name": "MetaMask"
 },
 {
 "i": 20,
-"a": "t85",
-"b": "t86",
-"a_name": "Blockchain ethics",
-"b_name": "privacy"
+"a": "t45",
+"b": "t53",
+"a_name": "Ethereum",
+"b_name": "Smart Contracts"
 },
 {
 "i": 21,
-"a": "t27",
-"b": "t29",
-"a_name": "Double Spending",
-"b_name": "Proof of Work (PoW)"
+"a": "t57",
+"b": "t61",
+"a_name": "Solidity Programming",
+"b_name": "events"
 },
 {
 "i": 22,
-"a": "t4",
-"b": "t12",
-"a_name": "Evolution of distributed ledger systems",
-"b_name": "DLT vs. Blockchain"
+"a": "t59",
+"b": "t61",
+"a_name": "functions",
+"b_name": "events"
 },
 {
 "i": 23,
-"a": "t45",
-"b": "t46",
-"a_name": "Ethereum",
-"b_name": "Turing Completeness"
+"a": "t29",
+"b": "t43",
+"a_name": "Proof of Work (PoW)",
+"b_name": "energy considerations"
+},
+{
+"i": 24,
+"a": "t15",
+"b": "t45",
+"a_name": "Bitcoin basics",
+"b_name": "Ethereum"
+},
+{
+"i": 25,
+"a": "t18",
+"b": "t17",
+"a_name": "Miners",
+"b_name": "Rewards"
+},
+{
+"i": 26,
+"a": "t1",
+"b": "t22",
+"a_name": "Public key cryptography (RSA, ECC)",
+"b_name": "Wallet and its types"
+},
+{
+"i": 27,
+"a": "t64",
+"b": "t65",
+"a_name": "Truffle",
+"b_name": "Ganache"
+},
+{
+"i": 28,
+"a": "t28",
+"b": "t34",
+"a_name": "Permissionless Blockchain Algorithms",
+"b_name": "Proof of Burn"
+},
+{
+"i": 29,
+"a": "t71",
+"b": "t76",
+"a_name": "DApp Architecture",
+"b_name": "Off-chain data storage (IPFS, Filecoin)"
+},
+{
+"i": 30,
+"a": "t29",
+"b": "t33",
+"a_name": "Proof of Work (PoW)",
+"b_name": "Proof of Elapsed Time"
+},
+{
+"i": 31,
+"a": "t67",
+"b": "t78",
+"a_name": "Architecture of Hyperledger Fabric",
+"b_name": "/ Supply chain using blockchain. (Can include 2 case studies; one on Ethereum and one on Hyperledger fabric)"
+},
+{
+"i": 32,
+"a": "t88",
+"b": "t89",
+"a_name": "Security attacks on blockchain",
+"b_name": "Sybil"
+},
+{
+"i": 33,
+"a": "t24",
+"b": "t26",
+"a_name": "UTXO",
+"b_name": "Transactions in Blockchain"
+},
+{
+"i": 34,
+"a": "t3",
+"b": "t25",
+"a_name": "digital signatures",
+"b_name": "Bitcoin addresses"
+},
+{
+"i": 35,
+"a": "t53",
+"b": "t68",
+"a_name": "Smart Contracts",
+"b_name": "NFT"
 }
 ]
 }

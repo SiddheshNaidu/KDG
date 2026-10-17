@@ -40,376 +40,401 @@
 },
 {
 "id": "t3",
-"name": "Overview of Modern networking trends",
+"name": "Overview of Modern networking trends - cloud networking and IOT",
 "module": 1
 },
 {
 "id": "t4",
-"name": "cloud networking and IOT",
-"module": 1
-},
-{
-"id": "t5",
 "name": "Protocols and standards",
 "module": 1
 },
 {
-"id": "t6",
+"id": "t5",
 "name": "need for a layered protocol architecture",
 "module": 1
 },
 {
-"id": "t7",
+"id": "t6",
 "name": "Layer-wise network hardware devices (NIC, Repeaters, Hubs, Bridges, Switches, Routers, Gateway, and their comparison)",
 "module": 1
 },
 {
-"id": "t8",
+"id": "t7",
 "name": "Addressing",
 "module": 2
 },
 {
-"id": "t9",
+"id": "t8",
 "name": "physical / logical /port addressing and socket addressing",
 "module": 2
 },
 {
-"id": "t10",
-"name": "Physical layer- transmitting media",
+"id": "t9",
+"name": "Physical layer-transmitting media",
 "module": 2
 },
 {
-"id": "t11",
+"id": "t10",
 "name": "broadband standard -DSL",
 "module": 2
 },
 {
-"id": "t12",
+"id": "t11",
 "name": "HFC and wireless physical layer",
 "module": 2
 },
 {
-"id": "t13",
+"id": "t12",
 "name": "Data link services",
 "module": 3
 },
 {
-"id": "t14",
+"id": "t13",
 "name": "Framing",
 "module": 3
 },
 {
-"id": "t15",
+"id": "t14",
 "name": "Flow control",
 "module": 3
 },
 {
-"id": "t16",
+"id": "t15",
 "name": "Error control",
 "module": 3
 },
 {
-"id": "t17",
+"id": "t16",
 "name": "ARQ methods",
 "module": 3
 },
 {
-"id": "t18",
+"id": "t17",
 "name": "transmission efficiency",
 "module": 3
 },
 {
-"id": "t19",
+"id": "t18",
 "name": "Piggybacking",
 "module": 3
 },
 {
-"id": "t20",
+"id": "t19",
 "name": "High-Level Data Link Control (HDLC)",
 "module": 3
 },
 {
-"id": "t21",
+"id": "t20",
 "name": "HDLC configurations",
 "module": 3
 },
 {
-"id": "t22",
+"id": "t21",
 "name": "Frame formats",
 "module": 3
 },
 {
-"id": "t23",
+"id": "t22",
 "name": "HDLC bit stuffing and de-stuffing",
 "module": 3
 },
 {
-"id": "t24",
+"id": "t23",
 "name": "Typical frame exchanges",
 "module": 3
 },
 {
-"id": "t25",
+"id": "t24",
 "name": "Medium Access Control Protocols",
 "module": 3
 },
 {
-"id": "t26",
+"id": "t25",
 "name": "ALOHA",
 "module": 3
 },
 {
-"id": "t27",
+"id": "t26",
 "name": "Slotted ALOHA",
 "module": 3
 },
 {
-"id": "t28",
+"id": "t27",
 "name": "CSMA",
 "module": 3
 },
 {
-"id": "t29",
+"id": "t28",
 "name": "CSMA/CD",
 "module": 3
 },
 {
-"id": "t30",
+"id": "t29",
 "name": "Network layer services and functions",
 "module": 4
 },
 {
-"id": "t31",
+"id": "t30",
 "name": "Internet Protocol",
 "module": 4
 },
 {
-"id": "t32",
+"id": "t31",
 "name": "Principles of Internetworking",
 "module": 4
 },
 {
-"id": "t33",
+"id": "t32",
 "name": "requirements",
 "module": 4
 },
 {
-"id": "t34",
+"id": "t33",
 "name": "IPv4 packet",
 "module": 4
 },
 {
-"id": "t35",
+"id": "t34",
 "name": "IPv4 addressing (classful and classless (CIDR))",
 "module": 4
 },
 {
-"id": "t36",
+"id": "t35",
 "name": "Routing in Packet Switching Networks",
 "module": 4
 },
 {
-"id": "t37",
+"id": "t36",
 "name": "Routing Strategies",
 "module": 4
 },
 {
-"id": "t38",
+"id": "t37",
 "name": "Routing algorithms",
 "module": 4
 },
 {
-"id": "t39",
+"id": "t38",
 "name": "Link state Routing",
 "module": 4
 },
 {
-"id": "t40",
+"id": "t39",
 "name": "Distance vector Routing and Path vector",
 "module": 4
 },
 {
-"id": "t41",
+"id": "t40",
 "name": "routing",
 "module": 4
 },
 {
-"id": "t42",
+"id": "t41",
 "name": "Routing protocols",
 "module": 4
 },
 {
-"id": "t43",
+"id": "t42",
 "name": "RIP",
 "module": 4
 },
 {
-"id": "t44",
+"id": "t43",
 "name": "OSPF",
 "module": 4
 },
 {
-"id": "t45",
+"id": "t44",
 "name": "BGP and EIGRP",
 "module": 4
 },
 {
-"id": "t46",
+"id": "t45",
 "name": "Subnetting",
 "module": 4
 },
 {
-"id": "t47",
+"id": "t46",
 "name": "super netting",
 "module": 4
 },
 {
-"id": "t48",
+"id": "t47",
 "name": "VLSM",
 "module": 4
 },
 {
-"id": "t49",
+"id": "t48",
 "name": "NAT",
 "module": 4
 },
 {
-"id": "t50",
+"id": "t49",
 "name": "Introduction to ICMP",
 "module": 4
 },
 {
-"id": "t51",
+"id": "t50",
 "name": "ARP",
 "module": 4
 },
 {
-"id": "t52",
+"id": "t51",
 "name": "RARP",
 "module": 4
 },
 {
+"id": "t52",
+"name": "IPv6 (IPv6 Datagram format, comparison with IPv4, and transition from IPv4 to IPV6)",
+"module": 4
+},
+{
 "id": "t53",
-"name": "Connectionless and Connection",
-"module": 5
+"name": "Quality of service",
+"module": 4
 },
 {
 "id": "t54",
-"name": "oriented services at the transport layer",
-"module": 5
+"name": "Congestion control algorithms",
+"module": 4
 },
 {
 "id": "t55",
-"name": "Transmission Control Protocol (TCP)",
-"module": 5
+"name": "Open-loop congestion control",
+"module": 4
 },
 {
 "id": "t56",
-"name": "TCP Services",
-"module": 5
+"name": "Closed-loop congestion control",
+"module": 4
 },
 {
 "id": "t57",
-"name": "TCP Segment",
-"module": 5
+"name": "QoS parameters",
+"module": 4
 },
 {
 "id": "t58",
-"name": "TCP three-way handshake",
-"module": 5
+"name": "Token& Leaky bucket algorithms",
+"module": 4
 },
 {
 "id": "t59",
-"name": "User Datagram Protocol (UDP)",
+"name": "Connectionless and Connection–oriented services at the transport layer",
 "module": 5
 },
 {
 "id": "t60",
-"name": "UDP Services",
+"name": "Transmission Control Protocol (TCP)",
 "module": 5
 },
 {
 "id": "t61",
-"name": "UDP Datagram",
+"name": "TCP Services",
 "module": 5
 },
 {
 "id": "t62",
-"name": "TCP and UDP checksum calculation",
+"name": "TCP Segment",
 "module": 5
 },
 {
 "id": "t63",
-"name": "TCP Flow control (sliding Window)",
+"name": "TCP three-way handshake",
 "module": 5
 },
 {
 "id": "t64",
-"name": "TCP Congestion Control",
+"name": "User Datagram Protocol (UDP)",
 "module": 5
 },
 {
 "id": "t65",
-"name": "Slow Start",
+"name": "UDP Services",
 "module": 5
 },
 {
 "id": "t66",
+"name": "UDP Datagram",
+"module": 5
+},
+{
+"id": "t67",
+"name": "TCP and UDP checksum calculation",
+"module": 5
+},
+{
+"id": "t68",
+"name": "TCP Flow control (sliding Window)",
+"module": 5
+},
+{
+"id": "t69",
+"name": "TCP Congestion Control",
+"module": 5
+},
+{
+"id": "t70",
+"name": "Slow Start",
+"module": 5
+},
+{
+"id": "t71",
 "name": "Introduction to Application Layer Protocols",
 "module": 6
 },
 {
-"id": "t67",
+"id": "t72",
 "name": "HTTP",
 "module": 6
 },
 {
-"id": "t68",
+"id": "t73",
 "name": "FTP",
 "module": 6
 },
 {
-"id": "t69",
+"id": "t74",
 "name": "DNS",
 "module": 6
 },
 {
-"id": "t70",
+"id": "t75",
 "name": "SMTP",
 "module": 6
 },
 {
-"id": "t71",
+"id": "t76",
 "name": "TELNET",
 "module": 6
 },
 {
-"id": "t72",
+"id": "t77",
 "name": "SSH",
 "module": 6
 },
 {
-"id": "t73",
+"id": "t78",
 "name": "DHCP",
 "module": 6
 },
 {
-"id": "t74",
+"id": "t79",
 "name": "Network security",
 "module": 6
 },
 {
-"id": "t75",
-"name": "Overview of Network Security (Security Methods, Symmetric-Key Cryptography, Public- Key Cryptography)",
+"id": "t80",
+"name": "Overview of Network Security (Security Methods, Symmetric-Key Cryptography, Public-Key Cryptography)",
 "module": 6
 },
 {
-"id": "t76",
+"id": "t81",
 "name": "Security of IP and Wireless Networks",
 "module": 6
 },
 {
-"id": "t77",
+"id": "t82",
 "name": "Firewalls and Packet Filtering",
 "module": 6
 }

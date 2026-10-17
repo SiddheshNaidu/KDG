@@ -59,7 +59,7 @@
 },
 {
 "id": "t12",
-"name": "Functional & non- functional Requirements Engineering",
+"name": "Functional & non-functional Requirements Engineering",
 "module": 2
 },
 {
@@ -149,211 +149,206 @@
 },
 {
 "id": "t30",
-"name": "Empirical Estimation Models",
+"name": "Empirical Estimation Models - COCOMO II Model Project scheduling",
 "module": 3
 },
 {
 "id": "t31",
-"name": "COCOMO II Model Project scheduling",
-"module": 3
-},
-{
-"id": "t32",
 "name": "Defining a Task Set for the Software Project",
 "module": 3
 },
 {
-"id": "t33",
+"id": "t32",
 "name": "Timeline charts",
 "module": 3
 },
 {
-"id": "t34",
+"id": "t33",
 "name": "Tracking the Schedule",
 "module": 3
 },
 {
-"id": "t35",
+"id": "t34",
 "name": "Risk Identification",
 "module": 4
 },
 {
-"id": "t36",
+"id": "t35",
 "name": "Risk Assessment",
 "module": 4
 },
 {
-"id": "t37",
+"id": "t36",
 "name": "Risk Projection",
 "module": 4
 },
 {
-"id": "t38",
+"id": "t37",
 "name": "RMMM Software Configuration management",
 "module": 4
 },
 {
-"id": "t39",
+"id": "t38",
 "name": "SCM repositories",
 "module": 4
 },
 {
-"id": "t40",
+"id": "t39",
 "name": "SCM process",
 "module": 4
 },
 {
-"id": "t41",
+"id": "t40",
 "name": "Levels of Testing",
 "module": 5
 },
 {
-"id": "t42",
+"id": "t41",
 "name": "Integration",
 "module": 5
 },
 {
-"id": "t43",
+"id": "t42",
 "name": "System",
 "module": 5
 },
 {
-"id": "t44",
+"id": "t43",
 "name": "Acceptance",
 "module": 5
 },
 {
-"id": "t45",
+"id": "t44",
 "name": "Static and Dynamic Testing Techniques overview Regression and Continuous Testing",
 "module": 5
 },
 {
-"id": "t46",
+"id": "t45",
 "name": "Software Quality Assurance Task and Plan",
 "module": 5
 },
 {
-"id": "t47",
+"id": "t46",
 "name": "Metrics",
 "module": 5
 },
 {
-"id": "t48",
+"id": "t47",
 "name": "Software Reliability",
 "module": 5
 },
 {
-"id": "t49",
+"id": "t48",
 "name": "Formal Technical Review (FTR)",
 "module": 5
 },
 {
-"id": "t50",
+"id": "t49",
 "name": "Walkthrough Maintenance Types",
 "module": 5
 },
 {
-"id": "t51",
+"id": "t50",
 "name": "Corrective",
 "module": 5
 },
 {
-"id": "t52",
+"id": "t51",
 "name": "Adaptive",
 "module": 5
 },
 {
-"id": "t53",
+"id": "t52",
 "name": "Preventive",
 "module": 5
 },
 {
-"id": "t54",
+"id": "t53",
 "name": "Perfective",
 "module": 5
 },
 {
-"id": "t55",
+"id": "t54",
 "name": "Software Reengineering and Refactoring",
 "module": 5
 },
 {
-"id": "t56",
+"id": "t55",
 "name": "Agile Manifesto and Principles",
 "module": 6
 },
 {
-"id": "t57",
+"id": "t56",
 "name": "Scrum Framework",
 "module": 6
 },
 {
-"id": "t58",
+"id": "t57",
 "name": "Roles",
 "module": 6
 },
 {
-"id": "t59",
+"id": "t58",
 "name": "Artifacts",
 "module": 6
 },
 {
-"id": "t60",
+"id": "t59",
 "name": "Events",
 "module": 6
 },
 {
-"id": "t61",
+"id": "t60",
 "name": "Kanban and Lean Software Development",
 "module": 6
 },
 {
-"id": "t62",
+"id": "t61",
 "name": "Extreme Programming (XP)",
 "module": 6
 },
 {
-"id": "t63",
+"id": "t62",
 "name": "Practices",
 "module": 6
 },
 {
-"id": "t64",
+"id": "t63",
 "name": "Pair Programming",
 "module": 6
 },
 {
-"id": "t65",
+"id": "t64",
 "name": "Test-Driven Development (TDD)",
 "module": 6
 },
 {
-"id": "t66",
+"id": "t65",
 "name": "Agile Metrics",
 "module": 6
 },
 {
-"id": "t67",
+"id": "t66",
 "name": "Agile Project Tracking",
 "module": 6
 },
 {
-"id": "t68",
+"id": "t67",
 "name": "Velocity",
 "module": 6
 },
 {
-"id": "t69",
-"name": "Burn-Up/Burn- Down Charts",
+"id": "t68",
+"name": "Burn-Up/Burn-Down Charts",
 "module": 6
 },
 {
-"id": "t70",
+"id": "t69",
 "name": "Agile Testing overview DevOps and its Lifecycle",
 "module": 6
 },
 {
-"id": "t71",
+"id": "t70",
 "name": "DevSecOps and Secure Software Development Lifecycle",
 "module": 6
 }
@@ -361,220 +356,115 @@
 "candidates": [
 {
 "i": 0,
-"a": "t20",
-"b": "t21",
-"a_name": "Coupling and Cohesion",
-"b_name": "Software Architecture Styles"
-},
-{
-"i": 1,
-"a": "t17",
-"b": "t18",
-"a_name": "Software requirement specification (SRS) Design Principles",
-"b_name": "Modularity"
-},
-{
-"i": 2,
-"a": "t41",
-"b": "t65",
-"a_name": "Levels of Testing",
-"b_name": "Test-Driven Development (TDD)"
-},
-{
-"i": 3,
-"a": "t5",
-"b": "t7",
-"a_name": "Prescriptive Process Models",
-"b_name": "V-model"
-},
-{
-"i": 4,
-"a": "t50",
-"b": "t52",
-"a_name": "Walkthrough Maintenance Types",
-"b_name": "Adaptive"
-},
-{
-"i": 5,
-"a": "t38",
-"b": "t39",
-"a_name": "RMMM Software Configuration management",
-"b_name": "SCM repositories"
-},
-{
-"i": 6,
-"a": "t26",
-"b": "t32",
-"a_name": "Scheduling",
-"b_name": "Defining a Task Set for the Software Project"
-},
-{
-"i": 7,
 "a": "t5",
 "b": "t10",
 "a_name": "Prescriptive Process Models",
 "b_name": "Concurrent Models"
 },
 {
-"i": 8,
-"a": "t19",
-"b": "t18",
-"a_name": "Abstraction",
-"b_name": "Modularity"
-},
-{
-"i": 9,
-"a": "t15",
-"b": "t17",
-"a_name": "Specification",
-"b_name": "Software requirement specification (SRS) Design Principles"
-},
-{
-"i": 10,
-"a": "t11",
-"b": "t16",
-"a_name": "Software Requirements",
-"b_name": "Validation"
-},
-{
-"i": 11,
-"a": "t47",
-"b": "t48",
-"a_name": "Metrics",
-"b_name": "Software Reliability"
-},
-{
-"i": 12,
-"a": "t6",
-"b": "t7",
-"a_name": "Waterfall Model",
-"b_name": "V-model"
-},
-{
-"i": 13,
-"a": "t56",
-"b": "t66",
+"i": 1,
+"a": "t55",
+"b": "t60",
 "a_name": "Agile Manifesto and Principles",
-"b_name": "Agile Metrics"
+"b_name": "Kanban and Lean Software Development"
 },
 {
-"i": 14,
-"a": "t41",
-"b": "t43",
-"a_name": "Levels of Testing",
-"b_name": "System"
-},
-{
-"i": 15,
-"a": "t46",
-"b": "t47",
-"a_name": "Software Quality Assurance Task and Plan",
-"b_name": "Metrics"
-},
-{
-"i": 16,
-"a": "t46",
+"i": 2,
+"a": "t45",
 "b": "t48",
-"a_name": "Software Quality Assurance Task and Plan",
-"b_name": "Software Reliability"
-},
-{
-"i": 17,
-"a": "t46",
-"b": "t49",
 "a_name": "Software Quality Assurance Task and Plan",
 "b_name": "Formal Technical Review (FTR)"
 },
 {
-"i": 18,
-"a": "t50",
-"b": "t53",
-"a_name": "Walkthrough Maintenance Types",
-"b_name": "Preventive"
+"i": 3,
+"a": "t28",
+"b": "t30",
+"a_name": "LOC",
+"b_name": "Empirical Estimation Models - COCOMO II Model Project scheduling"
 },
 {
-"i": 19,
-"a": "t41",
-"b": "t44",
-"a_name": "Levels of Testing",
-"b_name": "Acceptance"
-},
-{
-"i": 20,
-"a": "t50",
-"b": "t55",
-"a_name": "Walkthrough Maintenance Types",
-"b_name": "Software Reengineering and Refactoring"
-},
-{
-"i": 21,
-"a": "t50",
-"b": "t51",
-"a_name": "Walkthrough Maintenance Types",
-"b_name": "Corrective"
-},
-{
-"i": 22,
-"a": "t41",
-"b": "t45",
-"a_name": "Levels of Testing",
-"b_name": "Static and Dynamic Testing Techniques overview Regression and Continuous Testing"
-},
-{
-"i": 23,
-"a": "t17",
-"b": "t19",
-"a_name": "Software requirement specification (SRS) Design Principles",
-"b_name": "Abstraction"
-},
-{
-"i": 24,
-"a": "t56",
-"b": "t70",
-"a_name": "Agile Manifesto and Principles",
-"b_name": "Agile Testing overview DevOps and its Lifecycle"
-},
-{
-"i": 25,
-"a": "t66",
-"b": "t67",
+"i": 4,
+"a": "t65",
+"b": "t66",
 "a_name": "Agile Metrics",
 "b_name": "Agile Project Tracking"
 },
 {
-"i": 26,
-"a": "t17",
-"b": "t20",
-"a_name": "Software requirement specification (SRS) Design Principles",
-"b_name": "Coupling and Cohesion"
+"i": 5,
+"a": "t27",
+"b": "t30",
+"a_name": "Estimation Techniques Software Project Estimation",
+"b_name": "Empirical Estimation Models - COCOMO II Model Project scheduling"
 },
 {
-"i": 27,
-"a": "t50",
-"b": "t54",
-"a_name": "Walkthrough Maintenance Types",
-"b_name": "Perfective"
+"i": 6,
+"a": "t5",
+"b": "t7",
+"a_name": "Prescriptive Process Models",
+"b_name": "V-model"
 },
 {
-"i": 28,
-"a": "t15",
-"b": "t16",
-"a_name": "Specification",
-"b_name": "Validation"
+"i": 7,
+"a": "t69",
+"b": "t70",
+"a_name": "Agile Testing overview DevOps and its Lifecycle",
+"b_name": "DevSecOps and Secure Software Development Lifecycle"
 },
 {
-"i": 29,
-"a": "t68",
-"b": "t69",
-"a_name": "Velocity",
-"b_name": "Burn-Up/Burn- Down Charts"
+"i": 8,
+"a": "t41",
+"b": "t42",
+"a_name": "Integration",
+"b_name": "System"
 },
 {
-"i": 30,
-"a": "t25",
-"b": "t67",
-"a_name": "Project Planning",
-"b_name": "Agile Project Tracking"
+"i": 9,
+"a": "t40",
+"b": "t41",
+"a_name": "Levels of Testing",
+"b_name": "Integration"
+},
+{
+"i": 10,
+"a": "t37",
+"b": "t39",
+"a_name": "RMMM Software Configuration management",
+"b_name": "SCM process"
+},
+{
+"i": 11,
+"a": "t37",
+"b": "t38",
+"a_name": "RMMM Software Configuration management",
+"b_name": "SCM repositories"
+},
+{
+"i": 12,
+"a": "t36",
+"b": "t37",
+"a_name": "Risk Projection",
+"b_name": "RMMM Software Configuration management"
+},
+{
+"i": 13,
+"a": "t42",
+"b": "t43",
+"a_name": "System",
+"b_name": "Acceptance"
+},
+{
+"i": 14,
+"a": "t38",
+"b": "t39",
+"a_name": "SCM repositories",
+"b_name": "SCM process"
+},
+{
+"i": 15,
+"a": "t6",
+"b": "t7",
+"a_name": "Waterfall Model",
+"b_name": "V-model"
 }
 ]
 }

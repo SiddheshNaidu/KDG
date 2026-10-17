@@ -9,7 +9,7 @@ from sklearn.metrics import average_precision_score
 sys.path.insert(0, ".")
 from app.ml.infer import Bundle, score_pairs, infer_course
 T = json.load(open("data/processed/topics_nep.json", encoding="utf-8"))
-test = [c for c, v in T.items() if v["split"] == "test"]
+test = [c for c, v in T.items() if v["split"] == "test" and os.path.exists(f"{os.environ.get('LABEL_DIR')}/{c}.json")]
 def group(c):
     f = T[c]["source_pdfs"][0]
     return "Chemical Sem III-IV" if "6.40" in f else "Mechanical Sem III-IV" if "6.35" in f else "EXTC Sem 5/6 (unseen branch)" if "EXTC" in f else "Mechanical Sem 5/6 (unseen branch)" if "Mechanical" in f else "other"

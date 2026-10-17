@@ -1,0 +1,139 @@
+{
+"edges": [
+{
+"a": "t1",
+"b": "t3",
+"why": "foundation concept needed first"
+},
+{
+"a": "t1",
+"b": "t4",
+"why": "foundation concept needed first"
+},
+{
+"a": "t4",
+"b": "t5",
+"why": "foundation concept needed first"
+},
+{
+"a": "t5",
+"b": "t6",
+"why": "foundation concept needed first"
+},
+{
+"a": "t5",
+"b": "t7",
+"why": "foundation concept needed first"
+},
+{
+"a": "t7",
+"b": "t8",
+"why": "foundation concept needed first"
+},
+{
+"a": "t9",
+"b": "t10",
+"why": "foundation concept needed first"
+},
+{
+"a": "t9",
+"b": "t11",
+"why": "foundation concept needed first"
+},
+{
+"a": "t11",
+"b": "t12",
+"why": "foundation concept needed first"
+},
+{
+"a": "t11",
+"b": "t16",
+"why": "foundation concept needed first"
+},
+{
+"a": "t11",
+"b": "t19",
+"why": "foundation concept needed first"
+},
+{
+"a": "t11",
+"b": "t20",
+"why": "foundation concept needed first"
+},
+{
+"a": "t11",
+"b": "t24",
+"why": "foundation concept needed first"
+},
+{
+"a": "t11",
+"b": "t25",
+"why": "foundation concept needed first"
+},
+{
+"a": "t29",
+"b": "t30",
+"why": "foundation concept needed first"
+},
+{
+"a": "t29",
+"b": "t31",
+"why": "foundation concept needed first"
+},
+{
+"a": "t31",
+"b": "t32",
+"why": "foundation concept needed first"
+},
+{
+"a": "t29",
+"b": "t33",
+"why": "foundation concept needed first"
+},
+{
+"a": "t35",
+"b": "t36",
+"why": "foundation concept needed first"
+},
+{
+"a": "t35",
+"b": "t37",
+"why": "foundation concept needed first"
+},
+{
+"a": "t35",
+"b": "t39",
+"why": "foundation concept needed first"
+},
+{
+"a": "t39",
+"b": "t40",
+"why": "foundation concept needed first"
+},
+{
+"a": "t35",
+"b": "t41",
+"why": "foundation concept needed first"
+},
+{
+"a": "t41",
+"b": "t42",
+"why": "foundation concept needed first"
+},
+{
+"a": "t59",
+"b": "t60",
+"why": "foundation concept needed first"
+},
+{
+"a": "t60",
+"b": "t61",
+"why": "foundation concept needed first"
+},
+{
+"a": "t64",
+"b": "t65",
+"why": "foundation concept needed first"
+}
+]
+}

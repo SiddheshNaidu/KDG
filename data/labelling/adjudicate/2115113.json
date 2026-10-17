@@ -144,7 +144,7 @@
 },
 {
 "id": "t29",
-"name": "Alpha- Beta Pruning",
+"name": "Alpha-Beta Pruning",
 "module": 2
 },
 {
@@ -189,7 +189,7 @@
 },
 {
 "id": "t38",
-"name": "Biological Neural System",
+"name": "Introduction – Biological Neural System",
 "module": 4
 },
 {
@@ -199,7 +199,7 @@
 },
 {
 "id": "t40",
-"name": "McCulloch- Pitts Neuron",
+"name": "McCulloch-Pitts Neuron",
 "module": 4
 },
 {
@@ -374,7 +374,7 @@
 },
 {
 "id": "t75",
-"name": "Mean- of-Max(MoM)",
+"name": "Mean-of-Max(MoM)",
 "module": 6
 },
 {
@@ -396,94 +396,122 @@
 "candidates": [
 {
 "i": 0,
-"a": "t10",
-"b": "t16",
-"a_name": "Introduction of soft computing",
-"b_name": "various types of soft computing techniques"
+"a": "t20",
+"b": "t24",
+"a_name": "Uninformed Search Methods",
+"b_name": "A* Search"
 },
 {
 "i": 1,
-"a": "t45",
-"b": "t49",
-"a_name": "Perceptron",
-"b_name": "Single layer Feed Forward ANN"
+"a": "t19",
+"b": "t36",
+"a_name": "Problem Formulation",
+"b_name": "Partial Order Planning"
 },
 {
 "i": 2,
-"a": "t19",
-"b": "t25",
-"a_name": "Problem Formulation",
-"b_name": "Constraint Satisfaction Problem Solving"
+"a": "t20",
+"b": "t22",
+"a_name": "Uninformed Search Methods",
+"b_name": "Depth First Iterative Deepening (DFID) Informed Search Method"
 },
 {
 "i": 3,
-"a": "t32",
-"b": "t35",
-"a_name": "syntax and Semantic Knowledge Engineering in FOL Inference in FOL",
-"b_name": "Backward Chaining and Resolution"
+"a": "t62",
+"b": "t70",
+"a_name": "fuzzy relations",
+"b_name": "Fuzzy Rules and Fuzzy Reasoning"
 },
 {
 "i": 4,
-"a": "t40",
-"b": "t45",
-"a_name": "McCulloch- Pitts Neuron",
-"b_name": "Perceptron"
-},
-{
-"i": 5,
-"a": "t44",
-"b": "t56",
-"a_name": "Hebbian Learning",
-"b_name": "Auto associative and Hetero associative Memory Network"
-},
-{
-"i": 6,
-"a": "t9",
-"b": "t15",
-"a_name": "Soft Computing",
-"b_name": "soft computing vs. hard computing"
-},
-{
-"i": 7,
-"a": "t60",
-"b": "t68",
-"a_name": "Fuzzy set theory",
-"b_name": "Fuzzy Logic"
-},
-{
-"i": 8,
-"a": "t48",
-"b": "t50",
-"a_name": "Neural Network Architecture",
-"b_name": "Multilayer Feed Forward ANN"
-},
-{
-"i": 9,
-"a": "t52",
-"b": "t54",
-"a_name": "Un-Supervised Learning algorithm",
-"b_name": "Learning VQ"
-},
-{
-"i": 10,
-"a": "t10",
-"b": "t15",
-"a_name": "Introduction of soft computing",
-"b_name": "soft computing vs. hard computing"
-},
-{
-"i": 11,
 "a": "t63",
 "b": "t72",
 "a_name": "membership functions",
 "b_name": "Fuzzification Methods"
 },
 {
+"i": 5,
+"a": "t60",
+"b": "t61",
+"a_name": "Fuzzy set theory",
+"b_name": "Fuzzy set versus crisp set"
+},
+{
+"i": 6,
+"a": "t3",
+"b": "t8",
+"a_name": "Agents and Environments",
+"b_name": "PEAS Properties"
+},
+{
+"i": 7,
+"a": "t63",
+"b": "t70",
+"a_name": "membership functions",
+"b_name": "Fuzzy Rules and Fuzzy Reasoning"
+},
+{
+"i": 8,
+"a": "t38",
+"b": "t39",
+"a_name": "Introduction – Biological Neural System",
+"b_name": "Elements of Artificial Neural Networks"
+},
+{
+"i": 9,
+"a": "t59",
+"b": "t61",
+"a_name": "Introduction to Fuzzy Sets",
+"b_name": "Fuzzy set versus crisp set"
+},
+{
+"i": 10,
+"a": "t9",
+"b": "t18",
+"a_name": "Soft Computing",
+"b_name": "Applications of Soft Computing"
+},
+{
+"i": 11,
+"a": "t1",
+"b": "t17",
+"a_name": "Definition of Artificial Intelligence",
+"b_name": "Applications of AI"
+},
+{
 "i": 12,
-"a": "t30",
-"b": "t36",
-"a_name": "Knowledge based agents",
-"b_name": "Partial Order Planning"
+"a": "t43",
+"b": "t52",
+"a_name": "Learning Rules",
+"b_name": "Un-Supervised Learning algorithm"
+},
+{
+"i": 13,
+"a": "t60",
+"b": "t68",
+"a_name": "Fuzzy set theory",
+"b_name": "Fuzzy Logic"
+},
+{
+"i": 14,
+"a": "t5",
+"b": "t8",
+"a_name": "Nature of Environment",
+"b_name": "PEAS Properties"
+},
+{
+"i": 15,
+"a": "t19",
+"b": "t24",
+"a_name": "Problem Formulation",
+"b_name": "A* Search"
+},
+{
+"i": 16,
+"a": "t39",
+"b": "t43",
+"a_name": "Elements of Artificial Neural Networks",
+"b_name": "Learning Rules"
 }
 ]
 }

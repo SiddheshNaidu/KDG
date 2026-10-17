@@ -1,1 +1,264 @@
-{"edges": [{"a": "t2", "b": "t8", "why": "foundation needed first"}, {"a": "t10", "b": "t13", "why": "foundation needed first"}, {"a": "t13", "b": "t14", "why": "foundation needed first"}, {"a": "t14", "b": "t15", "why": "foundation needed first"}, {"a": "t10", "b": "t16", "why": "foundation needed first"}, {"a": "t17", "b": "t18", "why": "foundation needed first"}, {"a": "t17", "b": "t24", "why": "foundation needed first"}, {"a": "t18", "b": "t19", "why": "foundation needed first"}, {"a": "t18", "b": "t20", "why": "foundation needed first"}, {"a": "t18", "b": "t21", "why": "foundation needed first"}, {"a": "t18", "b": "t22", "why": "foundation needed first"}, {"a": "t18", "b": "t23", "why": "foundation needed first"}, {"a": "t24", "b": "t25", "why": "foundation needed first"}, {"a": "t24", "b": "t26", "why": "foundation needed first"}, {"a": "t24", "b": "t28", "why": "foundation needed first"}, {"a": "t24", "b": "t29", "why": "foundation needed first"}, {"a": "t24", "b": "t30", "why": "foundation needed first"}, {"a": "t26", "b": "t27", "why": "foundation needed first"}, {"a": "t32", "b": "t33", "why": "foundation needed first"}, {"a": "t33", "b": "t35", "why": "foundation needed first"}, {"a": "t35", "b": "t36", "why": "foundation needed first"}, {"a": "t37", "b": "t40", "why": "foundation needed first"}, {"a": "t37", "b": "t41", "why": "foundation needed first"}, {"a": "t41", "b": "t43", "why": "foundation needed first"}, {"a": "t44", "b": "t45", "why": "foundation needed first"}, {"a": "t44", "b": "t47", "why": "foundation needed first"}, {"a": "t47", "b": "t48", "why": "foundation needed first"}, {"a": "t49", "b": "t50", "why": "foundation needed first"}, {"a": "t50", "b": "t51", "why": "foundation needed first"}, {"a": "t50", "b": "t52", "why": "foundation needed first"}, {"a": "t49", "b": "t53", "why": "foundation needed first"}, {"a": "t57", "b": "t58", "why": "foundation needed first"}, {"a": "t58", "b": "t59", "why": "foundation needed first"}, {"a": "t57", "b": "t60", "why": "foundation needed first"}, {"a": "t60", "b": "t61", "why": "foundation needed first"}, {"a": "t63", "b": "t64", "why": "foundation needed first"}, {"a": "t64", "b": "t65", "why": "foundation needed first"}, {"a": "t63", "b": "t66", "why": "foundation needed first"}, {"a": "t63", "b": "t68", "why": "foundation needed first"}, {"a": "t68", "b": "t69", "why": "foundation needed first"}, {"a": "t68", "b": "t70", "why": "foundation needed first"}, {"a": "t68", "b": "t71", "why": "foundation needed first"}, {"a": "t68", "b": "t72", "why": "foundation needed first"}, {"a": "t73", "b": "t74", "why": "foundation needed first"}, {"a": "t74", "b": "t75", "why": "foundation needed first"}, {"a": "t77", "b": "t79", "why": "foundation needed first"}, {"a": "t77", "b": "t80", "why": "foundation needed first"}, {"a": "t79", "b": "t80", "why": "foundation needed first"}, {"a": "t80", "b": "t81", "why": "foundation needed first"}, {"a": "t82", "b": "t85", "why": "foundation needed first"}, {"a": "t85", "b": "t86", "why": "foundation needed first"}, {"a": "t82", "b": "t87", "why": "foundation needed first"}, {"a": "t87", "b": "t88", "why": "foundation needed first"}, {"a": "t82", "b": "t84", "why": "foundation needed first"}]}
+{
+"edges": [
+{
+"a": "t2",
+"b": "t8",
+"why": "bug classes need definitions"
+},
+{
+"a": "t10",
+"b": "t12",
+"why": "prevention follows V and V concept"
+},
+{
+"a": "t13",
+"b": "t14",
+"why": "requirements verified before HLD"
+},
+{
+"a": "t14",
+"b": "t15",
+"why": "HLD verified before LLD"
+},
+{
+"a": "t17",
+"b": "t18",
+"why": "black box is dynamic testing"
+},
+{
+"a": "t17",
+"b": "t24",
+"why": "white box is dynamic testing"
+},
+{
+"a": "t18",
+"b": "t19",
+"why": "BVA is a black box technique"
+},
+{
+"a": "t18",
+"b": "t20",
+"why": "equivalence classes black box technique"
+},
+{
+"a": "t18",
+"b": "t21",
+"why": "state tables black box technique"
+},
+{
+"a": "t18",
+"b": "t22",
+"why": "cause-effect black box technique"
+},
+{
+"a": "t24",
+"b": "t25",
+"why": "coverage criteria for white box"
+},
+{
+"a": "t24",
+"b": "t26",
+"why": "basis path is white box"
+},
+{
+"a": "t24",
+"b": "t28",
+"why": "loop testing is white box"
+},
+{
+"a": "t24",
+"b": "t29",
+"why": "data flow is white box"
+},
+{
+"a": "t24",
+"b": "t30",
+"why": "mutation uses white box concepts"
+},
+{
+"a": "t26",
+"b": "t27",
+"why": "graph matrices support basis path"
+},
+{
+"a": "t32",
+"b": "t33",
+"why": "units integrated after validation"
+},
+{
+"a": "t33",
+"b": "t35",
+"why": "system testing follows integration"
+},
+{
+"a": "t35",
+"b": "t36",
+"why": "acceptance follows system testing"
+},
+{
+"a": "t37",
+"b": "t39",
+"why": "testability needs regression concept"
+},
+{
+"a": "t37",
+"b": "t40",
+"why": "objectives of regression testing"
+},
+{
+"a": "t37",
+"b": "t41",
+"why": "regression types"
+},
+{
+"a": "t37",
+"b": "t43",
+"why": "regression techniques"
+},
+{
+"a": "t44",
+"b": "t45",
+"why": "organization part of management"
+},
+{
+"a": "t45",
+"b": "t46",
+"why": "group structure part of organization"
+},
+{
+"a": "t44",
+"b": "t47",
+"why": "planning part of management"
+},
+{
+"a": "t47",
+"b": "t48",
+"why": "design follows planning"
+},
+{
+"a": "t49",
+"b": "t50",
+"why": "metrics need definition"
+},
+{
+"a": "t50",
+"b": "t51",
+"why": "testing metrics are classified metrics"
+},
+{
+"a": "t49",
+"b": "t53",
+"why": "estimation uses metrics"
+},
+{
+"a": "t53",
+"b": "t56",
+"why": "function points used in estimation"
+},
+{
+"a": "t57",
+"b": "t58",
+"why": "minimization part of suite management"
+},
+{
+"a": "t58",
+"b": "t59",
+"why": "minimization problem formal"
+},
+{
+"a": "t57",
+"b": "t60",
+"why": "prioritization part of suite management"
+},
+{
+"a": "t60",
+"b": "t61",
+"why": "effectiveness of prioritization"
+},
+{
+"a": "t63",
+"b": "t64",
+"why": "tools categorized"
+},
+{
+"a": "t64",
+"b": "t65",
+"why": "selection needs categories"
+},
+{
+"a": "t65",
+"b": "t66",
+"why": "strategy needs tool selection"
+},
+{
+"a": "t63",
+"b": "t68",
+"why": "study of tools needs overview"
+},
+{
+"a": "t68",
+"b": "t69",
+"why": "JIRA is a studied tool"
+},
+{
+"a": "t68",
+"b": "t70",
+"why": "Bugzilla is a studied tool"
+},
+{
+"a": "t68",
+"b": "t72",
+"why": "Selenium is a studied tool"
+},
+{
+"a": "t73",
+"b": "t74",
+"why": "life cycle of agile testing"
+},
+{
+"a": "t74",
+"b": "t75",
+"why": "Scrum phases follow life cycle"
+},
+{
+"a": "t77",
+"b": "t78",
+"why": "technology evaluation of web systems"
+},
+{
+"a": "t77",
+"b": "t79",
+"why": "compare web with traditional"
+},
+{
+"a": "t77",
+"b": "t80",
+"why": "challenges need web system concept"
+},
+{
+"a": "t80",
+"b": "t81",
+"why": "strategies address challenges"
+},
+{
+"a": "t82",
+"b": "t84",
+"why": "QA is part of quality management"
+},
+{
+"a": "t82",
+"b": "t85",
+"why": "product quality is part of quality"
+},
+{
+"a": "t85",
+"b": "t86",
+"why": "McCall factors measure product quality"
+},
+{
+"a": "t82",
+"b": "t87",
+"why": "process quality is part of quality"
+}
+]
+}

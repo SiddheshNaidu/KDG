@@ -1,0 +1,392 @@
+{
+"course": "2014113",
+"title": "Operating System",
+"modules": [
+{
+"index": 1,
+"name": "Fundamentals of Operating System"
+},
+{
+"index": 2,
+"name": "Process Management"
+},
+{
+"index": 3,
+"name": "Process Synchronization and Deadlock Management"
+},
+{
+"index": 4,
+"name": "Memory Management"
+},
+{
+"index": 5,
+"name": "File and IO Management"
+},
+{
+"index": 6,
+"name": "Special-purpose Operating Systems"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Introduction of Operating Systems",
+"module": 1
+},
+{
+"id": "t2",
+"name": "System Boot",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Objectives of Operating System Functions of Operating System",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Operating System Structure and Operations",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Operating System Services",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Multiprogramming",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Multitasking",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Multithreading",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Types of Operating System",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Types of System Calls",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Basic Concepts of Process",
+"module": 2
+},
+{
+"id": "t12",
+"name": "Process State Transition Model",
+"module": 2
+},
+{
+"id": "t13",
+"name": "Operations",
+"module": 2
+},
+{
+"id": "t14",
+"name": "Process Control Block",
+"module": 2
+},
+{
+"id": "t15",
+"name": "Context Switching",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Introduction to Threads",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Types of Threads",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Thread Models",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Basic Concepts of Scheduling",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Types of Schedulers",
+"module": 2
+},
+{
+"id": "t21",
+"name": "Type of scheduling algorithms",
+"module": 2
+},
+{
+"id": "t22",
+"name": "Preemptive and non preemptive (FCFS, SJF, Priority and Round Robin)",
+"module": 2
+},
+{
+"id": "t23",
+"name": "Basic Concepts of Inter-process Communication and Synchronization",
+"module": 3
+},
+{
+"id": "t24",
+"name": "Race Condition",
+"module": 3
+},
+{
+"id": "t25",
+"name": "Critical Section Problem",
+"module": 3
+},
+{
+"id": "t26",
+"name": "Peterson’s Solution",
+"module": 3
+},
+{
+"id": "t27",
+"name": "Process Synchronization",
+"module": 3
+},
+{
+"id": "t28",
+"name": "Hardware and Semaphores",
+"module": 3
+},
+{
+"id": "t29",
+"name": "Producer Consumer Problem",
+"module": 3
+},
+{
+"id": "t30",
+"name": "Deadlocks Management",
+"module": 3
+},
+{
+"id": "t31",
+"name": "System Model",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Deadlock Characterization",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Deadlock Prevention",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Deadlock Avoidance",
+"module": 3
+},
+{
+"id": "t35",
+"name": "Bankers algorithm",
+"module": 3
+},
+{
+"id": "t36",
+"name": "Deadlock Detection and Recovery",
+"module": 3
+},
+{
+"id": "t37",
+"name": "Basic Concepts of Memory Management",
+"module": 4
+},
+{
+"id": "t38",
+"name": "Swapping",
+"module": 4
+},
+{
+"id": "t39",
+"name": "Memory Allocation strategy",
+"module": 4
+},
+{
+"id": "t40",
+"name": "Paging",
+"module": 4
+},
+{
+"id": "t41",
+"name": "Structure of Page Table",
+"module": 4
+},
+{
+"id": "t42",
+"name": "Segmentation",
+"module": 4
+},
+{
+"id": "t43",
+"name": "TLB",
+"module": 4
+},
+{
+"id": "t44",
+"name": "Basic Concepts of Virtual Memory",
+"module": 4
+},
+{
+"id": "t45",
+"name": "Demand Paging",
+"module": 4
+},
+{
+"id": "t46",
+"name": "Copy-on Write",
+"module": 4
+},
+{
+"id": "t47",
+"name": "Page Replacement Algorithms",
+"module": 4
+},
+{
+"id": "t48",
+"name": "Thrashing",
+"module": 4
+},
+{
+"id": "t49",
+"name": "File Management",
+"module": 5
+},
+{
+"id": "t50",
+"name": "Basic Concepts of File System",
+"module": 5
+},
+{
+"id": "t51",
+"name": "File Access Methods",
+"module": 5
+},
+{
+"id": "t52",
+"name": "Directory Structure",
+"module": 5
+},
+{
+"id": "t53",
+"name": "File-System implementation",
+"module": 5
+},
+{
+"id": "t54",
+"name": "Allocation Methods",
+"module": 5
+},
+{
+"id": "t55",
+"name": "Overview of Mass- Storage Structure",
+"module": 5
+},
+{
+"id": "t56",
+"name": "I/O devices",
+"module": 5
+},
+{
+"id": "t57",
+"name": "Organization of the I/O Function",
+"module": 5
+},
+{
+"id": "t58",
+"name": "Disk Organization",
+"module": 5
+},
+{
+"id": "t59",
+"name": "I/O Management and Disk Scheduling",
+"module": 5
+},
+{
+"id": "t60",
+"name": "FCFS",
+"module": 5
+},
+{
+"id": "t61",
+"name": "SSTF",
+"module": 5
+},
+{
+"id": "t62",
+"name": "SCAN",
+"module": 5
+},
+{
+"id": "t63",
+"name": "C-SCAN",
+"module": 5
+},
+{
+"id": "t64",
+"name": "LOOK",
+"module": 5
+},
+{
+"id": "t65",
+"name": "C-LOOK",
+"module": 5
+},
+{
+"id": "t66",
+"name": "Open-source and Proprietary Operating System",
+"module": 6
+},
+{
+"id": "t67",
+"name": "Fundamentals of Distributed Operating System",
+"module": 6
+},
+{
+"id": "t68",
+"name": "Network Operating System",
+"module": 6
+},
+{
+"id": "t69",
+"name": "Architecture and functions",
+"module": 6
+},
+{
+"id": "t70",
+"name": "Cloud Operating System",
+"module": 6
+},
+{
+"id": "t71",
+"name": "Real-Time Operating System",
+"module": 6
+},
+{
+"id": "t72",
+"name": "Mobile Operating System",
+"module": 6
+}
+]
+}

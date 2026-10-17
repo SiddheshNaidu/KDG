@@ -1,229 +1,284 @@
 {
 "edges": [
 {
+"a": "t6",
+"b": "t9",
+"why": "a is needed to understand b"
+},
+{
+"a": "t6",
+"b": "t10",
+"why": "a is needed to understand b"
+},
+{
 "a": "t8",
 "b": "t9",
-"why": "OSI is a network model"
+"why": "a is needed to understand b"
 },
 {
 "a": "t8",
 "b": "t10",
-"why": "TCP/IP is a network model"
+"why": "a is needed to understand b"
 },
 {
-"a": "t25",
-"b": "t26",
-"why": "error detection works on frames"
+"a": "t16",
+"b": "t17",
+"why": "a is needed to understand b"
+},
+{
+"a": "t17",
+"b": "t18",
+"why": "a is needed to understand b"
+},
+{
+"a": "t18",
+"b": "t19",
+"why": "a is needed to understand b"
 },
 {
 "a": "t26",
 "b": "t27",
-"why": "parity is error detection"
+"why": "a is needed to understand b"
 },
 {
 "a": "t26",
 "b": "t28",
-"why": "checksum is error detection"
+"why": "a is needed to understand b"
 },
 {
 "a": "t26",
 "b": "t29",
-"why": "CRC is error detection"
+"why": "a is needed to understand b"
 },
 {
 "a": "t30",
 "b": "t31",
-"why": "simplex is basic flow control protocol"
+"why": "a is needed to understand b"
+},
+{
+"a": "t30",
+"b": "t32",
+"why": "a is needed to understand b"
+},
+{
+"a": "t30",
+"b": "t33",
+"why": "a is needed to understand b"
 },
 {
 "a": "t31",
 "b": "t32",
-"why": "stop-and-wait refines simplex"
+"why": "a is needed to understand b"
 },
 {
 "a": "t32",
 "b": "t33",
-"why": "sliding window refines stop-and-wait"
+"why": "a is needed to understand b"
 },
 {
 "a": "t35",
 "b": "t36",
-"why": "CSMA improves on ALOHA"
+"why": "a is needed to understand b"
 },
 {
 "a": "t36",
 "b": "t37",
-"why": "CSMA/CD extends CSMA"
+"why": "a is needed to understand b"
 },
 {
 "a": "t36",
 "b": "t38",
-"why": "CSMA/CA extends CSMA"
+"why": "a is needed to understand b"
 },
 {
-"a": "t40",
-"b": "t41",
-"why": "protocols follow network layer intro"
+"a": "t37",
+"b": "t39",
+"why": "a is needed to understand b"
+},
+{
+"a": "t38",
+"b": "t39",
+"why": "a is needed to understand b"
 },
 {
 "a": "t40",
 "b": "t42",
-"why": "routing is network layer function"
+"why": "a is needed to understand b"
 },
 {
 "a": "t40",
 "b": "t43",
-"why": "IP is network layer protocol"
+"why": "a is needed to understand b"
 },
 {
 "a": "t43",
 "b": "t44",
-"why": "subnetting uses IPv4 addressing"
+"why": "a is needed to understand b"
 },
 {
 "a": "t42",
 "b": "t45",
-"why": "algorithms implement routing concepts"
+"why": "a is needed to understand b"
 },
 {
 "a": "t45",
 "b": "t46",
-"why": "static is routing algorithm kind"
+"why": "a is needed to understand b"
 },
 {
 "a": "t45",
 "b": "t47",
-"why": "dynamic is routing algorithm kind"
+"why": "a is needed to understand b"
 },
 {
 "a": "t47",
 "b": "t48",
-"why": "internet routing protocols use dynamic routing"
+"why": "a is needed to understand b"
 },
 {
 "a": "t50",
 "b": "t51",
-"why": "primitives define transport service"
+"why": "a is needed to understand b"
 },
 {
 "a": "t51",
 "b": "t52",
-"why": "sockets implement primitives"
-},
-{
-"a": "t50",
-"b": "t53",
-"why": "TCP is a transport service"
+"why": "a is needed to understand b"
 },
 {
 "a": "t53",
 "b": "t54",
-"why": "header is part of TCP"
+"why": "a is needed to understand b"
 },
 {
 "a": "t53",
 "b": "t55",
-"why": "handshake is TCP feature"
+"why": "a is needed to understand b"
 },
 {
 "a": "t53",
 "b": "t56",
-"why": "timers are TCP mechanism"
-},
-{
-"a": "t50",
-"b": "t57",
-"why": "UDP is a transport service"
+"why": "a is needed to understand b"
 },
 {
 "a": "t53",
 "b": "t58",
-"why": "TCP flow control"
-},
-{
-"a": "t33",
-"b": "t58",
-"why": "TCP window is sliding window"
+"why": "a is needed to understand b"
 },
 {
 "a": "t53",
 "b": "t59",
-"why": "TCP congestion control"
+"why": "a is needed to understand b"
+},
+{
+"a": "t58",
+"b": "t59",
+"why": "a is needed to understand b"
 },
 {
 "a": "t59",
 "b": "t60",
-"why": "slow start is congestion mechanism"
+"why": "a is needed to understand b"
 },
 {
 "a": "t59",
 "b": "t61",
-"why": "AIMD is congestion mechanism"
+"why": "a is needed to understand b"
 },
 {
 "a": "t59",
 "b": "t62",
-"why": "avoidance is congestion mechanism"
+"why": "a is needed to understand b"
 },
 {
 "a": "t65",
 "b": "t66",
-"why": "client-server is paradigm"
+"why": "a is needed to understand b"
 },
 {
-"a": "t66",
+"a": "t64",
+"b": "t65",
+"why": "a is needed to understand b"
+},
+{
+"a": "t65",
+"b": "t67",
+"why": "a is needed to understand b"
+},
+{
+"a": "t67",
 "b": "t68",
-"why": "standard apps use client-server"
+"why": "a is needed to understand b"
 },
 {
-"a": "t68",
+"a": "t67",
 "b": "t69",
-"why": "HTTP is standard app"
+"why": "a is needed to understand b"
 },
 {
-"a": "t68",
+"a": "t67",
 "b": "t70",
-"why": "FTP is standard app"
+"why": "a is needed to understand b"
 },
 {
-"a": "t68",
+"a": "t67",
 "b": "t71",
-"why": "TELNET is standard app"
+"why": "a is needed to understand b"
 },
 {
-"a": "t68",
+"a": "t67",
 "b": "t72",
-"why": "SSH is standard app"
+"why": "a is needed to understand b"
 },
 {
-"a": "t66",
-"b": "t73",
-"why": "DNS is client-server service"
+"a": "t74",
+"b": "t75",
+"why": "a is needed to understand b"
+},
+{
+"a": "t77",
+"b": "t78",
+"why": "a is needed to understand b"
 },
 {
 "a": "t78",
 "b": "t79",
-"why": "5G spectrum builds on radio spectrum"
+"why": "a is needed to understand b"
 },
 {
-"a": "t79",
+"a": "t78",
 "b": "t80",
-"why": "access modes follow requirements"
+"why": "a is needed to understand b"
+},
+{
+"a": "t81",
+"b": "t82",
+"why": "a is needed to understand b"
 },
 {
 "a": "t82",
 "b": "t83",
-"why": "cyber crime follows security intro"
+"why": "a is needed to understand b"
 },
 {
-"a": "t83",
+"a": "t82",
 "b": "t84",
-"why": "definition within crime topic"
+"why": "a is needed to understand b"
 },
 {
-"a": "t84",
-"b": "t85",
-"why": "types follow definition"
+"a": "t13",
+"b": "t14",
+"why": "a is needed to understand b"
+},
+{
+"a": "t13",
+"b": "t15",
+"why": "a is needed to understand b"
+},
+{
+"a": "t25",
+"b": "t26",
+"why": "a is needed to understand b"
 }
 ]
 }

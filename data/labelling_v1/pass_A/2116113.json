@@ -1,0 +1,209 @@
+{
+ "edges": [
+  {
+   "a": "t5",
+   "b": "t9",
+   "why": "sensor concept before types, conditioning, interfacing"
+  },
+  {
+   "a": "t5",
+   "b": "t10",
+   "why": "sensor concept before types, conditioning, interfacing"
+  },
+  {
+   "a": "t5",
+   "b": "t8",
+   "why": "sensor concept before types, conditioning, interfacing"
+  },
+  {
+   "a": "t10",
+   "b": "t11",
+   "why": "ADC follows signal conditioning"
+  },
+  {
+   "a": "t6",
+   "b": "t13",
+   "why": "actuator types need actuator concept"
+  },
+  {
+   "a": "t19",
+   "b": "t20",
+   "why": "architecture models overview first"
+  },
+  {
+   "a": "t19",
+   "b": "t21",
+   "why": "architecture models overview first"
+  },
+  {
+   "a": "t19",
+   "b": "t22",
+   "why": "architecture models overview first"
+  },
+  {
+   "a": "t19",
+   "b": "t23",
+   "why": "architecture models overview first"
+  },
+  {
+   "a": "t20",
+   "b": "t21",
+   "why": "five-layer extends three-layer"
+  },
+  {
+   "a": "t24",
+   "b": "t25",
+   "why": "abstraction underpins middleware stack"
+  },
+  {
+   "a": "t26",
+   "b": "t27",
+   "why": "board overview before specific board"
+  },
+  {
+   "a": "t26",
+   "b": "t28",
+   "why": "board overview before specific board"
+  },
+  {
+   "a": "t26",
+   "b": "t29",
+   "why": "board overview before specific board"
+  },
+  {
+   "a": "t30",
+   "b": "t31",
+   "why": "OS overview before specific OS"
+  },
+  {
+   "a": "t30",
+   "b": "t32",
+   "why": "OS overview before specific OS"
+  },
+  {
+   "a": "t30",
+   "b": "t33",
+   "why": "OS overview before specific OS"
+  },
+  {
+   "a": "t40",
+   "b": "t41",
+   "why": "6LoWPAN adapts IPv6 for constrained"
+  },
+  {
+   "a": "t41",
+   "b": "t47",
+   "why": "6LoWPAN performs fragmentation and compression"
+  },
+  {
+   "a": "t41",
+   "b": "t48",
+   "why": "6LoWPAN performs fragmentation and compression"
+  },
+  {
+   "a": "t44",
+   "b": "t45",
+   "why": "RPL is a routing protocol"
+  },
+  {
+   "a": "t50",
+   "b": "t51",
+   "why": "brokers mediate publish/subscribe"
+  },
+  {
+   "a": "t51",
+   "b": "t52",
+   "why": "MQTT uses a broker"
+  },
+  {
+   "a": "t50",
+   "b": "t52",
+   "why": "MQTT is publish/subscribe"
+  },
+  {
+   "a": "t52",
+   "b": "t62",
+   "why": "case study applies MQTT"
+  },
+  {
+   "a": "t63",
+   "b": "t64",
+   "why": "middleware part of IoT software"
+  },
+  {
+   "a": "t67",
+   "b": "t68",
+   "why": "cloud integration before platform"
+  },
+  {
+   "a": "t67",
+   "b": "t69",
+   "why": "cloud integration before platform"
+  },
+  {
+   "a": "t67",
+   "b": "t71",
+   "why": "cloud integration before platform"
+  },
+  {
+   "a": "t65",
+   "b": "t74",
+   "why": "RESTful APIs need API concept"
+  },
+  {
+   "a": "t75",
+   "b": "t76",
+   "why": "lifecycle management uses databases"
+  },
+  {
+   "a": "t76",
+   "b": "t77",
+   "why": "database overview first"
+  },
+  {
+   "a": "t76",
+   "b": "t78",
+   "why": "database overview first"
+  },
+  {
+   "a": "t76",
+   "b": "t79",
+   "why": "database overview first"
+  },
+  {
+   "a": "t80",
+   "b": "t81",
+   "why": "edge analytics concept before implementation"
+  },
+  {
+   "a": "t17",
+   "b": "t80",
+   "why": "edge analytics needs edge computing"
+  },
+  {
+   "a": "t82",
+   "b": "t83",
+   "why": "security fundamentals first"
+  },
+  {
+   "a": "t82",
+   "b": "t84",
+   "why": "security fundamentals first"
+  },
+  {
+   "a": "t84",
+   "b": "t85",
+   "why": "secure communication uses encryption"
+  },
+  {
+   "a": "t83",
+   "b": "t85",
+   "why": "secure communication uses authentication"
+  },
+  {
+   "a": "t15",
+   "b": "t93",
+   "why": "AI integration needs AI"
+  }
+ ]
+}

@@ -19,7 +19,7 @@
 },
 {
 "id": "t4",
-"name": "Concepts of crystals- Crystalline and Non-crystalline Materials Unit cell",
+"name": "Concepts of crystals-Crystalline and Non-crystalline Materials Unit cell",
 "module": 1
 },
 {
@@ -44,7 +44,7 @@
 },
 {
 "id": "t9",
-"name": "Crystal Imperfections- definition",
+"name": "Crystal Imperfections-definition",
 "module": 1
 },
 {
@@ -264,7 +264,7 @@
 },
 {
 "id": "t53",
-"name": "Fatigue/Endurance limit of ferrous and non- ferrous metals",
+"name": "Fatigue/Endurance limit of ferrous and non-ferrous metals",
 "module": 6
 },
 {
@@ -311,136 +311,136 @@
 "candidates": [
 {
 "i": 0,
-"a": "t6",
-"b": "t7",
-"a_name": "Crystal systems",
-"b_name": "Crystallographic planes and directions"
+"a": "t9",
+"b": "t11",
+"a_name": "Crystal Imperfections-definition",
+"b_name": "point defects"
 },
 {
 "i": 1,
-"a": "t32",
-"b": "t31",
-"a_name": "Solidification of different alloys from the Iron-Iron carbide diagram",
-"b_name": "microstructural changes of hypo and hyper-eutectoid steel"
+"a": "t19",
+"b": "t20",
+"a_name": "effects and mechanism of cold work and hot work",
+"b_name": "Need for Recrystallization Annealing"
 },
 {
 "i": 2,
-"a": "t38",
-"b": "t40",
-"a_name": "hardening and tempering",
-"b_name": "Surface hardening processes"
+"a": "t32",
+"b": "t33",
+"a_name": "Solidification of different alloys from the Iron-Iron carbide diagram",
+"b_name": "TTT and CCT diagram-Hardenability and its tests"
 },
 {
 "i": 3,
-"a": "t59",
-"b": "t60",
-"a_name": "mechanism of creep",
-"b_name": "stages of creep and creep test"
+"a": "t38",
+"b": "t44",
+"a_name": "hardening and tempering",
+"b_name": "induction and flame hardening"
 },
 {
 "i": 4,
-"a": "t14",
-"b": "t49",
-"a_name": "Importance of dislocations in deformation and its mechanisms",
-"b_name": "Ductile Fracture"
+"a": "t49",
+"b": "t51",
+"a_name": "Ductile Fracture",
+"b_name": "Ductile to Brittle Transition Temperature (DBTT)"
 },
 {
 "i": 5,
-"a": "t28",
-"b": "t30",
-"a_name": "Eutectics type I and II",
-"b_name": "Invariant reactions"
+"a": "t38",
+"b": "t43",
+"a_name": "hardening and tempering",
+"b_name": "Cyaniding and Carbonitriding"
 },
 {
 "i": 6,
-"a": "t31",
-"b": "t32",
-"a_name": "microstructural changes of hypo and hyper-eutectoid steel",
-"b_name": "Solidification of different alloys from the Iron-Iron carbide diagram"
+"a": "t9",
+"b": "t10",
+"a_name": "Crystal Imperfections-definition",
+"b_name": "classification and significance of imperfections"
 },
 {
 "i": 7,
-"a": "t24",
-"b": "t26",
-"a_name": "Cooling curves",
-"b_name": "phase -diagrams Binary alloy phase diagrams"
+"a": "t10",
+"b": "t11",
+"a_name": "classification and significance of imperfections",
+"b_name": "point defects"
 },
 {
 "i": 8,
-"a": "t7",
-"b": "t15",
-"a_name": "Crystallographic planes and directions",
-"b_name": "Critical resolved shear stress"
+"a": "t30",
+"b": "t31",
+"a_name": "Invariant reactions",
+"b_name": "microstructural changes of hypo and hyper-eutectoid steel"
 },
 {
 "i": 9,
-"a": "t36",
-"b": "t38",
-"a_name": "Annealing and types",
-"b_name": "hardening and tempering"
-},
-{
-"i": 10,
-"a": "t58",
-"b": "t61",
-"a_name": "Creep",
-"b_name": "creep resistant materials"
-},
-{
-"i": 11,
-"a": "t35",
+"a": "t32",
 "b": "t36",
-"a_name": "Thorough treatments",
+"a_name": "Solidification of different alloys from the Iron-Iron carbide diagram",
 "b_name": "Annealing and types"
 },
 {
+"i": 10,
+"a": "t38",
+"b": "t41",
+"a_name": "hardening and tempering",
+"b_name": "Carburizing"
+},
+{
+"i": 11,
+"a": "t7",
+"b": "t17",
+"a_name": "Crystallographic planes and directions",
+"b_name": "BCC and HCP lattice systems"
+},
+{
 "i": 12,
-"a": "t5",
-"b": "t6",
-"a_name": "Crystal structures of metals",
-"b_name": "Crystal systems"
+"a": "t10",
+"b": "t13",
+"a_name": "classification and significance of imperfections",
+"b_name": "Surface defects and volume defects"
 },
 {
 "i": 13,
-"a": "t4",
-"b": "t7",
-"a_name": "Concepts of crystals- Crystalline and Non-crystalline Materials Unit cell",
-"b_name": "Crystallographic planes and directions"
+"a": "t26",
+"b": "t32",
+"a_name": "phase -diagrams Binary alloy phase diagrams",
+"b_name": "Solidification of different alloys from the Iron-Iron carbide diagram"
 },
 {
 "i": 14,
-"a": "t53",
-"b": "t55",
-"a_name": "Fatigue/Endurance limit of ferrous and non- ferrous metals",
-"b_name": "S-N curves"
+"a": "t18",
+"b": "t20",
+"a_name": "Concept of Recrystallization",
+"b_name": "Need for Recrystallization Annealing"
 },
 {
 "i": 15,
-"a": "t58",
-"b": "t60",
-"a_name": "Creep",
-"b_name": "stages of creep and creep test"
+"a": "t31",
+"b": "t37",
+"a_name": "microstructural changes of hypo and hyper-eutectoid steel",
+"b_name": "normalizing"
 },
 {
 "i": 16,
-"a": "t2",
-"b": "t3",
-"a_name": "Introduction to engineering materials",
-"b_name": "significance of structure property correlations in all classes of engineering materials"
+"a": "t10",
+"b": "t12",
+"a_name": "classification and significance of imperfections",
+"b_name": "line defects"
 },
 {
 "i": 17,
-"a": "t1",
-"b": "t2",
-"a_name": "Classification of materials",
-"b_name": "Introduction to engineering materials"
+"a": "t40",
+"b": "t42",
+"a_name": "Surface hardening processes",
+"b_name": "Nitriding"
 },
 {
 "i": 18,
-"a": "t29",
-"b": "t30",
-"a_name": "Peritectic",
-"b_name": "Invariant reactions"
+"a": "t40",
+"b": "t43",
+"a_name": "Surface hardening processes",
+"b_name": "Cyaniding and Carbonitriding"
 },
 {
 "i": 19,
@@ -451,66 +451,129 @@
 },
 {
 "i": 20,
-"a": "t26",
-"b": "t30",
-"a_name": "phase -diagrams Binary alloy phase diagrams",
-"b_name": "Invariant reactions"
+"a": "t30",
+"b": "t32",
+"a_name": "Invariant reactions",
+"b_name": "Solidification of different alloys from the Iron-Iron carbide diagram"
 },
 {
 "i": 21,
-"a": "t4",
-"b": "t6",
-"a_name": "Concepts of crystals- Crystalline and Non-crystalline Materials Unit cell",
-"b_name": "Crystal systems"
+"a": "t28",
+"b": "t30",
+"a_name": "Eutectics type I and II",
+"b_name": "Invariant reactions"
 },
 {
 "i": 22,
-"a": "t32",
-"b": "t34",
-"a_name": "Solidification of different alloys from the Iron-Iron carbide diagram",
-"b_name": "Graphitization in cast irons"
+"a": "t9",
+"b": "t12",
+"a_name": "Crystal Imperfections-definition",
+"b_name": "line defects"
 },
 {
 "i": 23,
-"a": "t15",
-"b": "t16",
-"a_name": "Critical resolved shear stress",
-"b_name": "Slip systems and deformability of FCC"
+"a": "t5",
+"b": "t9",
+"a_name": "Crystal structures of metals",
+"b_name": "Crystal Imperfections-definition"
 },
 {
 "i": 24,
+"a": "t32",
+"b": "t37",
+"a_name": "Solidification of different alloys from the Iron-Iron carbide diagram",
+"b_name": "normalizing"
+},
+{
+"i": 25,
+"a": "t29",
+"b": "t30",
+"a_name": "Peritectic",
+"b_name": "Invariant reactions"
+},
+{
+"i": 26,
+"a": "t23",
+"b": "t26",
+"a_name": "Solidification of metals and alloys",
+"b_name": "phase -diagrams Binary alloy phase diagrams"
+},
+{
+"i": 27,
+"a": "t9",
+"b": "t13",
+"a_name": "Crystal Imperfections-definition",
+"b_name": "Surface defects and volume defects"
+},
+{
+"i": 28,
+"a": "t32",
+"b": "t31",
+"a_name": "Solidification of different alloys from the Iron-Iron carbide diagram",
+"b_name": "microstructural changes of hypo and hyper-eutectoid steel"
+},
+{
+"i": 29,
 "a": "t7",
 "b": "t16",
 "a_name": "Crystallographic planes and directions",
 "b_name": "Slip systems and deformability of FCC"
 },
 {
-"i": 25,
-"a": "t4",
-"b": "t9",
-"a_name": "Concepts of crystals- Crystalline and Non-crystalline Materials Unit cell",
-"b_name": "Crystal Imperfections- definition"
+"i": 30,
+"a": "t40",
+"b": "t44",
+"a_name": "Surface hardening processes",
+"b_name": "induction and flame hardening"
 },
 {
-"i": 26,
-"a": "t60",
-"b": "t61",
-"a_name": "stages of creep and creep test",
-"b_name": "creep resistant materials"
+"i": 31,
+"a": "t31",
+"b": "t38",
+"a_name": "microstructural changes of hypo and hyper-eutectoid steel",
+"b_name": "hardening and tempering"
 },
 {
-"i": 27,
-"a": "t48",
-"b": "t52",
-"a_name": "Fracture of metals",
-"b_name": "Griffith’s criteria and Orowan’s modification"
+"i": 32,
+"a": "t7",
+"b": "t15",
+"a_name": "Crystallographic planes and directions",
+"b_name": "Critical resolved shear stress"
 },
 {
-"i": 28,
+"i": 33,
 "a": "t26",
-"b": "t32",
+"b": "t30",
 "a_name": "phase -diagrams Binary alloy phase diagrams",
-"b_name": "Solidification of different alloys from the Iron-Iron carbide diagram"
+"b_name": "Invariant reactions"
+},
+{
+"i": 34,
+"a": "t31",
+"b": "t33",
+"a_name": "microstructural changes of hypo and hyper-eutectoid steel",
+"b_name": "TTT and CCT diagram-Hardenability and its tests"
+},
+{
+"i": 35,
+"a": "t40",
+"b": "t41",
+"a_name": "Surface hardening processes",
+"b_name": "Carburizing"
+},
+{
+"i": 36,
+"a": "t48",
+"b": "t53",
+"a_name": "Fracture of metals",
+"b_name": "Fatigue/Endurance limit of ferrous and non-ferrous metals"
+},
+{
+"i": 37,
+"a": "t31",
+"b": "t36",
+"a_name": "microstructural changes of hypo and hyper-eutectoid steel",
+"b_name": "Annealing and types"
 }
 ]
 }

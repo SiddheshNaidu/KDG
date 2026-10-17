@@ -40,227 +40,367 @@
 },
 {
 "id": "t3",
-"name": "Carnot Heat Pump",
+"name": "Carnot Heat Pump and their Coefficient of Performance (COP) & limitations",
 "module": 1
 },
 {
 "id": "t4",
-"name": "their Coefficient of Performance (COP) & limitations",
-"module": 1
-},
-{
-"id": "t5",
 "name": "Effect of Temperature and Pressure on COP of the Cycle",
 "module": 1
 },
 {
+"id": "t5",
+"name": "Refrigerants",
+"module": 1
+},
+{
 "id": "t6",
+"name": "Classification and Designation of Refrigerants",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Desirable Properties of Refrigerants",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Greenhouse Effect & Refrigerant Alternatives",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Air Refrigeration System",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Bell Coleman Cycle",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Necessity of Air Cooling",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Factors Considered for the Selection of Air Refrigeration System",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Methods of Air Refrigeration System with Schematic and T-s Diagram",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Numerical Based on Simple and Bootstrap Air Refrigeration System only",
+"module": 1
+},
+{
+"id": "t15",
 "name": "Vapor Compression Refrigeration System",
 "module": 2
 },
 {
-"id": "t7",
+"id": "t16",
 "name": "Simple & actual VCR system on P-h and T-s diagrams",
 "module": 2
 },
 {
-"id": "t8",
+"id": "t17",
 "name": "Thermodynamic analysis of the simple VCR cycle",
 "module": 2
 },
 {
-"id": "t9",
+"id": "t18",
 "name": "Factors affecting the performance of the cycle",
 "module": 2
 },
 {
-"id": "t10",
+"id": "t19",
 "name": "Numerical based on standard VCR system by using P-h chart and properties table",
 "module": 2
 },
 {
-"id": "t11",
+"id": "t20",
 "name": "Vapor Absorption Refrigeration System",
 "module": 2
 },
 {
-"id": "t12",
-"name": "Simple and Practical",
+"id": "t21",
+"name": "Simple and Practical VAR System",
 "module": 2
 },
 {
-"id": "t13",
+"id": "t22",
+"name": "COP of Ideal Vapor Absorption System",
+"module": 2
+},
+{
+"id": "t23",
+"name": "Refrigerant-Adsorbent Properties",
+"module": 2
+},
+{
+"id": "t24",
+"name": "Domestic Electrolux Refrigerator",
+"module": 2
+},
+{
+"id": "t25",
+"name": "Lithium-Bromide Absorption System",
+"module": 2
+},
+{
+"id": "t26",
+"name": "Heat Pump Primary Energy Ratio",
+"module": 2
+},
+{
+"id": "t27",
+"name": "Energy Efficiency Ratio",
+"module": 2
+},
+{
+"id": "t28",
+"name": "Heating Season Performance Factor Seasonal Energy Efficiency Ratio",
+"module": 2
+},
+{
+"id": "t29",
+"name": "BEE Star Rating",
+"module": 2
+},
+{
+"id": "t30",
+"name": "Classification of Heat Pump",
+"module": 2
+},
+{
+"id": "t31",
 "name": "Thermal Comfort Conditions",
 "module": 3
 },
 {
-"id": "t14",
+"id": "t32",
 "name": "Selection of Inside Design Conditions",
 "module": 3
 },
 {
-"id": "t15",
+"id": "t33",
 "name": "Thermal Comfort and its significance",
 "module": 3
 },
 {
-"id": "t16",
+"id": "t34",
 "name": "Factors Affecting Thermal Comfort",
 "module": 3
 },
 {
-"id": "t17",
+"id": "t35",
 "name": "Effective Temperature & Factors Governing Effective Temperature",
 "module": 3
 },
 {
-"id": "t18",
+"id": "t36",
 "name": "Comfort Chart",
 "module": 3
 },
 {
-"id": "t19",
+"id": "t37",
 "name": "Selection of Outside Design Conditions",
 "module": 3
 },
 {
-"id": "t20",
+"id": "t38",
 "name": "Psychrometry of Air Conditioning Processes",
 "module": 3
 },
 {
-"id": "t21",
+"id": "t39",
 "name": "Psychrometry Properties and Relations Psychrometry Processes",
 "module": 3
 },
 {
-"id": "t22",
+"id": "t40",
 "name": "Adiabatic Air Mixing",
 "module": 3
 },
 {
-"id": "t23",
+"id": "t41",
 "name": "Process on Psychrometric Chart",
 "module": 3
 },
 {
-"id": "t24",
+"id": "t42",
 "name": "RSHF",
 "module": 3
 },
 {
-"id": "t25",
+"id": "t43",
 "name": "GSHF",
 "module": 3
 },
 {
-"id": "t26",
+"id": "t44",
 "name": "ERSHF",
 "module": 3
 },
 {
-"id": "t27",
-"name": "Bypass Factor *",
+"id": "t45",
+"name": "Bypass Factor",
 "module": 3
 },
 {
-"id": "t28",
+"id": "t46",
 "name": "Cooling Load Estimation",
 "module": 4
 },
 {
-"id": "t29",
+"id": "t47",
 "name": "Components of cooling load",
 "module": 4
 },
 {
-"id": "t30",
+"id": "t48",
 "name": "Different heat sources",
 "module": 4
 },
 {
-"id": "t31",
+"id": "t49",
 "name": "Design of air conditioning system",
 "module": 4
 },
 {
-"id": "t32",
-"name": "(More emphasis on industry based load estimation.)",
-"module": 4
-},
-{
-"id": "t33",
+"id": "t50",
 "name": "Air Distribution System",
 "module": 5
 },
 {
-"id": "t34",
+"id": "t51",
 "name": "Duct",
 "module": 5
 },
 {
-"id": "t35",
+"id": "t52",
 "name": "Classification of Ducts",
 "module": 5
 },
 {
-"id": "t36",
+"id": "t53",
 "name": "Duct Material",
 "module": 5
 },
 {
-"id": "t37",
+"id": "t54",
+"name": "Pressure in Ducts",
+"module": 5
+},
+{
+"id": "t55",
+"name": "Flow of Air Through Duct",
+"module": 5
+},
+{
+"id": "t56",
+"name": "Pressure Losses in Duct",
+"module": 5
+},
+{
+"id": "t57",
+"name": "Air Flow Through Simple Duct System",
+"module": 5
+},
+{
+"id": "t58",
+"name": "Equivalent Diameter",
+"module": 5
+},
+{
+"id": "t59",
+"name": "Methods of Duct System Design",
+"module": 5
+},
+{
+"id": "t60",
+"name": "Numerical on duct sizing. 5.2",
+"module": 5
+},
+{
+"id": "t61",
+"name": "Air Handling Unit Fan Coil Unit",
+"module": 5
+},
+{
+"id": "t62",
+"name": "Types of Fans Used Air Conditioning Applications",
+"module": 5
+},
+{
+"id": "t63",
+"name": "Fan Laws Filters Supply and Return Grills",
+"module": 5
+},
+{
+"id": "t64",
+"name": "Sensors",
+"module": 5
+},
+{
+"id": "t65",
 "name": "HVACR components",
 "module": 6
 },
 {
-"id": "t38",
+"id": "t66",
 "name": "Reciprocating",
 "module": 6
 },
 {
-"id": "t39",
+"id": "t67",
 "name": "screw and scroll compressors",
 "module": 6
 },
 {
-"id": "t40",
+"id": "t68",
 "name": "Air cooled and water cooled and evaporative condensers",
 "module": 6
 },
 {
-"id": "t41",
+"id": "t69",
 "name": "DX",
 "module": 6
 },
 {
-"id": "t42",
+"id": "t70",
 "name": "Flooded and Forced feed evaporators",
 "module": 6
 },
 {
-"id": "t43",
+"id": "t71",
 "name": "Expansion devices",
 "module": 6
 },
 {
-"id": "t44",
+"id": "t72",
 "name": "Capillary tube",
 "module": 6
 },
 {
-"id": "t45",
+"id": "t73",
 "name": "TXV",
 "module": 6
 },
 {
-"id": "t46",
+"id": "t74",
 "name": "EXV",
 "module": 6
 },
 {
-"id": "t47",
-"name": "Type of insulation materials. *",
+"id": "t75",
+"name": "Type of insulation materials",
 "module": 6
 }
 ]

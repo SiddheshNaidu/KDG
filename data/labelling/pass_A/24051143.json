@@ -1,224 +1,269 @@
 {
- "edges": [
-  {
-   "a": "t3",
-   "b": "t4",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t8",
-   "b": "t9",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t8",
-   "b": "t10",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t8",
-   "b": "t11",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t8",
-   "b": "t16",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t27",
-   "b": "t28",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t27",
-   "b": "t29",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t27",
-   "b": "t30",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t16",
-   "b": "t17",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t16",
-   "b": "t18",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t16",
-   "b": "t19",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t16",
-   "b": "t31",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t16",
-   "b": "t40",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t32",
-   "b": "t33",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t32",
-   "b": "t34",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t40",
-   "b": "t42",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t40",
-   "b": "t56",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t42",
-   "b": "t43",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t42",
-   "b": "t44",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t50",
-   "b": "t51",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t50",
-   "b": "t52",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t56",
-   "b": "t57",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t56",
-   "b": "t58",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t61",
-   "b": "t62",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t61",
-   "b": "t63",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t61",
-   "b": "t64",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t64",
-   "b": "t65",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t64",
-   "b": "t66",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t64",
-   "b": "t68",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t77",
-   "b": "t78",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t77",
-   "b": "t80",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t81",
-   "b": "t102",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t81",
-   "b": "t103",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t81",
-   "b": "t104",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t81",
-   "b": "t105",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t86",
-   "b": "t87",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t87",
-   "b": "t90",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t87",
-   "b": "t91",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t87",
-   "b": "t92",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t87",
-   "b": "t93",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t87",
-   "b": "t94",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t88",
-   "b": "t95",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t81",
-   "b": "t96",
-   "why": "b builds on a"
-  },
-  {
-   "a": "t96",
-   "b": "t98",
-   "why": "b builds on a"
-  }
- ]
+"edges": [
+{
+"a": "t3",
+"b": "t4",
+"why": "a is needed before b"
+},
+{
+"a": "t8",
+"b": "t9",
+"why": "a is needed before b"
+},
+{
+"a": "t8",
+"b": "t10",
+"why": "a is needed before b"
+},
+{
+"a": "t8",
+"b": "t11",
+"why": "a is needed before b"
+},
+{
+"a": "t13",
+"b": "t16",
+"why": "a is needed before b"
+},
+{
+"a": "t8",
+"b": "t16",
+"why": "a is needed before b"
+},
+{
+"a": "t16",
+"b": "t17",
+"why": "a is needed before b"
+},
+{
+"a": "t16",
+"b": "t18",
+"why": "a is needed before b"
+},
+{
+"a": "t16",
+"b": "t19",
+"why": "a is needed before b"
+},
+{
+"a": "t20",
+"b": "t25",
+"why": "a is needed before b"
+},
+{
+"a": "t24",
+"b": "t25",
+"why": "a is needed before b"
+},
+{
+"a": "t16",
+"b": "t30",
+"why": "a is needed before b"
+},
+{
+"a": "t30",
+"b": "t32",
+"why": "a is needed before b"
+},
+{
+"a": "t30",
+"b": "t33",
+"why": "a is needed before b"
+},
+{
+"a": "t34",
+"b": "t35",
+"why": "a is needed before b"
+},
+{
+"a": "t34",
+"b": "t36",
+"why": "a is needed before b"
+},
+{
+"a": "t34",
+"b": "t37",
+"why": "a is needed before b"
+},
+{
+"a": "t34",
+"b": "t38",
+"why": "a is needed before b"
+},
+{
+"a": "t30",
+"b": "t39",
+"why": "a is needed before b"
+},
+{
+"a": "t39",
+"b": "t40",
+"why": "a is needed before b"
+},
+{
+"a": "t39",
+"b": "t41",
+"why": "a is needed before b"
+},
+{
+"a": "t40",
+"b": "t41",
+"why": "a is needed before b"
+},
+{
+"a": "t41",
+"b": "t42",
+"why": "a is needed before b"
+},
+{
+"a": "t41",
+"b": "t43",
+"why": "a is needed before b"
+},
+{
+"a": "t41",
+"b": "t44",
+"why": "a is needed before b"
+},
+{
+"a": "t40",
+"b": "t55",
+"why": "a is needed before b"
+},
+{
+"a": "t55",
+"b": "t56",
+"why": "a is needed before b"
+},
+{
+"a": "t55",
+"b": "t57",
+"why": "a is needed before b"
+},
+{
+"a": "t46",
+"b": "t47",
+"why": "a is needed before b"
+},
+{
+"a": "t47",
+"b": "t51",
+"why": "a is needed before b"
+},
+{
+"a": "t47",
+"b": "t52",
+"why": "a is needed before b"
+},
+{
+"a": "t47",
+"b": "t53",
+"why": "a is needed before b"
+},
+{
+"a": "t49",
+"b": "t75",
+"why": "a is needed before b"
+},
+{
+"a": "t49",
+"b": "t83",
+"why": "a is needed before b"
+},
+{
+"a": "t82",
+"b": "t83",
+"why": "a is needed before b"
+},
+{
+"a": "t83",
+"b": "t86",
+"why": "a is needed before b"
+},
+{
+"a": "t83",
+"b": "t87",
+"why": "a is needed before b"
+},
+{
+"a": "t83",
+"b": "t89",
+"why": "a is needed before b"
+},
+{
+"a": "t75",
+"b": "t77",
+"why": "a is needed before b"
+},
+{
+"a": "t59",
+"b": "t62",
+"why": "a is needed before b"
+},
+{
+"a": "t59",
+"b": "t63",
+"why": "a is needed before b"
+},
+{
+"a": "t59",
+"b": "t64",
+"why": "a is needed before b"
+},
+{
+"a": "t59",
+"b": "t65",
+"why": "a is needed before b"
+},
+{
+"a": "t77",
+"b": "t92",
+"why": "a is needed before b"
+},
+{
+"a": "t83",
+"b": "t92",
+"why": "a is needed before b"
+},
+{
+"a": "t77",
+"b": "t93",
+"why": "a is needed before b"
+},
+{
+"a": "t77",
+"b": "t94",
+"why": "a is needed before b"
+},
+{
+"a": "t77",
+"b": "t95",
+"why": "a is needed before b"
+},
+{
+"a": "t77",
+"b": "t96",
+"why": "a is needed before b"
+},
+{
+"a": "t77",
+"b": "t97",
+"why": "a is needed before b"
+},
+{
+"a": "t77",
+"b": "t98",
+"why": "a is needed before b"
+},
+{
+"a": "t77",
+"b": "t99",
+"why": "a is needed before b"
+},
+{
+"a": "t77",
+"b": "t100",
+"why": "a is needed before b"
+}
+]
 }

@@ -1,0 +1,70 @@
+{
+ "verdicts": {
+  "2394113|4cbc150b595e2353": {
+   "verdict": "BAD",
+   "topics": 58,
+   "junk": 10,
+   "note": "Module 2 truncated: 2.2 Acceleration Analysis missing; glued 'Basic Kinematics Kinematic link & its types', 'Power Transmission Belts'; dup 'Chains'"
+  },
+  "2403113|e0c83f5c3a9708bd": {
+   "verdict": "FIXABLE",
+   "topics": 106,
+   "junk": 9,
+   "note": "Glued 'Helmholtz & Gibbs function Thermodynamic Relations', 'Critical pressure ratio Reactive Systems'; split 'wet'/'dry and superheated...'; 'Highgradeandlow-gradeenergy'"
+  },
+  "2403114|56ce489107252fbe": {
+   "verdict": "FIXABLE",
+   "topics": 61,
+   "junk": 4,
+   "note": "Glued 'Concepts of crystals-...Unit cell', 'phase -diagrams Binary alloy...'; split 'FCC'/'BCC and HCP lattice systems'"
+  },
+  "2405112|5787fe4b0a4f082f": {
+   "verdict": "FIXABLE",
+   "topics": 99,
+   "junk": 7,
+   "note": "Split 'Desired'/'interfering and modifying inputs', 'steady state...using step'/'ramp and parabolic inputs'; glued 'Electrical methods...Resistance thermometers'; 'measure-ments'"
+  },
+  "24051142|83d9efce0ebdbaed": {
+   "verdict": "BAD",
+   "topics": 101,
+   "junk": 12,
+   "note": "Module 2 omits viscous/Coulomb damping analysis; split 'Conversion...into Spring'/'Mass'/'Damper Model', 'Newton'/'Energy'"
+  },
+  "24051143|c4ef1cf53b8513c0": {
+   "verdict": "FIXABLE",
+   "topics": 102,
+   "junk": 10,
+   "note": "Split 'Conversion...Spring'/'Mass'/'Damper Model', 'Newton'/'Energy', 'Goals'/'steps'; case studies and M2 examples dropped"
+  },
+  "2405511|14d97a4c71367ce3": {
+   "verdict": "BAD",
+   "topics": 138,
+   "junk": 30,
+   "note": "Heavy fragments: 'principles','worship','cremation etc. Perspective of Arthasastra...', 'etc. Shipbuilding', 'Iconography Use of bricks...'; 1.2 planning principles/interconnection dropped"
+  },
+  "2406112|83ee14a48d71e653": {
+   "verdict": "FIXABLE",
+   "topics": 67,
+   "junk": 4,
+   "note": "Glued 'NTU method . Application Phase Change Material...', 'Principle of working simple carburettor Concept of Waste heat...'; split 'constant surface temperature'"
+  },
+  "24061131|c08124cbe645b3b8": {
+   "verdict": "OK",
+   "topics": 61,
+   "junk": 3,
+   "note": "Glued 'RAC components Reciprocating'; fragment 'screw and scroll compressors', 'Printing pharmaceutical industry and Hospitals'"
+  },
+  "24061132|404a64b66206838d": {
+   "verdict": "FIXABLE",
+   "topics": 75,
+   "junk": 7,
+   "note": "Glued 'Air Handling Unit Fan Coil Unit', 'Fan Laws Filters Supply and Return Grills', 'Heating Season...Seasonal Energy Efficiency Ratio'; stray 'Numerical on duct sizing. 5.2'; split compressors"
+  },
+  "24061142|a9f425b8f9636782": {
+   "verdict": "FIXABLE",
+   "topics": 87,
+   "junk": 4,
+   "note": "I2C dropped from interfaces list; glued 'OPC-UA ... Interfaces (Conceptual Only)'; dup 'Sensors'; fragment 'Case study'"
+  }
+ }
+}

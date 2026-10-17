@@ -375,61 +375,56 @@
 },
 {
 "id": "t70",
-"name": "$http service methods",
+"name": "$http service methods –get () and post ()",
 "module": 5
 },
 {
 "id": "t71",
-"name": "get () and post ()",
-"module": 5
-},
-{
-"id": "t72",
 "name": "Understanding flow of XML data from AngularJS to MongoDB",
 "module": 5
 },
 {
-"id": "t73",
+"id": "t72",
 "name": "XML in REST web services",
 "module": 5
 },
 {
-"id": "t74",
+"id": "t73",
 "name": "Introduction to Flask & Environment Setup",
 "module": 6
 },
 {
-"id": "t75",
+"id": "t74",
 "name": "Flask Application Structure & Routing",
 "module": 6
 },
 {
-"id": "t76",
+"id": "t75",
 "name": "Flask HTTP Methods & Request Object",
 "module": 6
 },
 {
-"id": "t77",
+"id": "t76",
 "name": "Templates and Jinja2",
 "module": 6
 },
 {
-"id": "t78",
+"id": "t77",
 "name": "Cookies",
 "module": 6
 },
 {
-"id": "t79",
+"id": "t78",
 "name": "Sessions",
 "module": 6
 },
 {
-"id": "t80",
+"id": "t79",
 "name": "Flash Messages",
 "module": 6
 },
 {
-"id": "t81",
+"id": "t80",
 "name": "File Uploading in Flask",
 "module": 6
 }

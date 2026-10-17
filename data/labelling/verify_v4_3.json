@@ -1,0 +1,70 @@
+{
+ "verdicts": {
+  "2116113|781188cbd831de26": {
+   "verdict": "FIXABLE",
+   "topics": 92,
+   "junk": 5,
+   "note": "glued 'Actuators (motors, relays, etc.) Enabling technologies', cut 'IPv6 for constrained', 'Case Study' fragment; 5G, M2M, 802.15.4 dropped; M5 name 'Module 5'"
+  },
+  "2116114|cbadd2e3d05a1f5e": {
+   "verdict": "FIXABLE",
+   "topics": 100,
+   "junk": 6,
+   "note": "glued 'Color Models ... Image Histogram', 'Adaptive II', 'I. Image Restoration' stray numeral, dangling 'including smoothing filters (e.g., mean and median)...', 'transfer learning ... Applications in object detection'"
+  },
+  "2116117|3214d3be0ba3ca91": {
+   "verdict": "FIXABLE",
+   "topics": 92,
+   "junk": 7,
+   "note": "glued 'STO and ERC-20 & ERC-721', 'Gas mechanism and EOA', split 'Case Study' / '/ Supply chain...', 'AI'/'Edge environments' fragments; M5 name garbled 'I t f i'; M3/M4 names 'Module N'"
+  },
+  "PCC2016|152f18bf2aff34b2": {
+   "verdict": "BAD",
+   "topics": 35,
+   "junk": 7,
+   "note": "fragments 'Cellular','Standard', cut 'Introduction to 2G' + '4G and 5G technologies' (3G lost), glued 'wireless communication:Mobile Radio Telephony', split ASK/FSK&PSK"
+  },
+  "PCC501|6c8a4bf10d021b26": {
+   "verdict": "OK",
+   "topics": 83,
+   "junk": 4,
+   "note": "split 'Distance vector Routing and Path vector' + dangling 'routing', 'broadband standard -DSL'; 'Characteristics' lost"
+  },
+  "PEC5012|55f7fc275ca86f50": {
+   "verdict": "FIXABLE",
+   "topics": 54,
+   "junk": 3,
+   "note": "glued 'Postfix Evaluation Introduction', 'AVL Tree Introduction', 'Dijkstra Algorithm Fractional Knapsack problem'"
+  },
+  "PEC5014|aec39694004d6495": {
+   "verdict": "BAD",
+   "topics": 81,
+   "junk": 11,
+   "note": "M3 truncated: Storage (S3 etc.), Database Services, CDN missing; fragments 'Provide scalable','on-demand virtual machine...','Compute','Renting virtual servers(EC2,...' unclosed paren, glued Big Data line"
+  },
+  "PEC6012|58e909191e5932a6": {
+   "verdict": "FIXABLE",
+   "topics": 38,
+   "junk": 3,
+   "note": "glued 'time complexity Growth of function', 'Theta Notation Mathematical background...', fragment 'space'"
+  },
+  "PEC6022|823eeda615332c09": {
+   "verdict": "OK",
+   "topics": 67,
+   "junk": 3,
+   "note": "glued 'Cell decomposition path planning Potential field path planning-Obstacle avoidance', fragment 'position and orientation'; 'Application' dropped"
+  },
+  "PEC6024|3230b578a9f44ade": {
+   "verdict": "BAD",
+   "topics": 91,
+   "junk": 6,
+   "note": "M6 truncated 'management interfaces M1' (M2,M3,M4 lost); M5 FCAPS split into fragments 'Application of fault','configuration','accounting','performance'"
+  },
+  "2213112|0610860d359eab94": {
+   "verdict": "OK",
+   "topics": 59,
+   "junk": 3,
+   "note": "split 'Swinburne's' / 'Hopkinson's tests', dangling 'current and power'"
+  }
+ }
+}

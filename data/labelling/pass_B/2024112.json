@@ -1,0 +1,219 @@
+{
+"edges": [
+{
+"a": "t5",
+"b": "t6",
+"why": "foundation concept needed first"
+},
+{
+"a": "t5",
+"b": "t8",
+"why": "foundation concept needed first"
+},
+{
+"a": "t8",
+"b": "t9",
+"why": "foundation concept needed first"
+},
+{
+"a": "t5",
+"b": "t10",
+"why": "foundation concept needed first"
+},
+{
+"a": "t10",
+"b": "t11",
+"why": "foundation concept needed first"
+},
+{
+"a": "t5",
+"b": "t12",
+"why": "foundation concept needed first"
+},
+{
+"a": "t12",
+"b": "t13",
+"why": "foundation concept needed first"
+},
+{
+"a": "t12",
+"b": "t14",
+"why": "foundation concept needed first"
+},
+{
+"a": "t12",
+"b": "t17",
+"why": "foundation concept needed first"
+},
+{
+"a": "t15",
+"b": "t17",
+"why": "foundation concept needed first"
+},
+{
+"a": "t15",
+"b": "t16",
+"why": "foundation concept needed first"
+},
+{
+"a": "t15",
+"b": "t18",
+"why": "foundation concept needed first"
+},
+{
+"a": "t19",
+"b": "t20",
+"why": "foundation concept needed first"
+},
+{
+"a": "t20",
+"b": "t21",
+"why": "foundation concept needed first"
+},
+{
+"a": "t21",
+"b": "t22",
+"why": "foundation concept needed first"
+},
+{
+"a": "t21",
+"b": "t23",
+"why": "foundation concept needed first"
+},
+{
+"a": "t21",
+"b": "t24",
+"why": "foundation concept needed first"
+},
+{
+"a": "t21",
+"b": "t25",
+"why": "foundation concept needed first"
+},
+{
+"a": "t22",
+"b": "t24",
+"why": "foundation concept needed first"
+},
+{
+"a": "t20",
+"b": "t26",
+"why": "foundation concept needed first"
+},
+{
+"a": "t26",
+"b": "t28",
+"why": "foundation concept needed first"
+},
+{
+"a": "t26",
+"b": "t29",
+"why": "foundation concept needed first"
+},
+{
+"a": "t29",
+"b": "t30",
+"why": "foundation concept needed first"
+},
+{
+"a": "t26",
+"b": "t31",
+"why": "foundation concept needed first"
+},
+{
+"a": "t26",
+"b": "t32",
+"why": "foundation concept needed first"
+},
+{
+"a": "t26",
+"b": "t33",
+"why": "foundation concept needed first"
+},
+{
+"a": "t35",
+"b": "t36",
+"why": "foundation concept needed first"
+},
+{
+"a": "t36",
+"b": "t37",
+"why": "foundation concept needed first"
+},
+{
+"a": "t37",
+"b": "t38",
+"why": "foundation concept needed first"
+},
+{
+"a": "t37",
+"b": "t40",
+"why": "foundation concept needed first"
+},
+{
+"a": "t39",
+"b": "t40",
+"why": "foundation concept needed first"
+},
+{
+"a": "t40",
+"b": "t41",
+"why": "foundation concept needed first"
+},
+{
+"a": "t41",
+"b": "t42",
+"why": "foundation concept needed first"
+},
+{
+"a": "t42",
+"b": "t43",
+"why": "foundation concept needed first"
+},
+{
+"a": "t44",
+"b": "t45",
+"why": "foundation concept needed first"
+},
+{
+"a": "t44",
+"b": "t46",
+"why": "foundation concept needed first"
+},
+{
+"a": "t46",
+"b": "t47",
+"why": "foundation concept needed first"
+},
+{
+"a": "t47",
+"b": "t48",
+"why": "foundation concept needed first"
+},
+{
+"a": "t48",
+"b": "t49",
+"why": "foundation concept needed first"
+},
+{
+"a": "t48",
+"b": "t50",
+"why": "foundation concept needed first"
+},
+{
+"a": "t44",
+"b": "t51",
+"why": "foundation concept needed first"
+},
+{
+"a": "t51",
+"b": "t52",
+"why": "foundation concept needed first"
+},
+{
+"a": "t48",
+"b": "t53",
+"why": "foundation concept needed first"
+}
+]
+}

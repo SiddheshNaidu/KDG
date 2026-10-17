@@ -1,0 +1,633 @@
+{
+"course": "2345113",
+"title": "Web Technology",
+"topics": [
+{
+"id": "t1",
+"name": "Introduction to JavaScript",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Constants",
+"module": 1
+},
+{
+"id": "t3",
+"name": "JS variables",
+"module": 1
+},
+{
+"id": "t4",
+"name": "JS Variable scopes",
+"module": 1
+},
+{
+"id": "t5",
+"name": "JS Data Types",
+"module": 1
+},
+{
+"id": "t6",
+"name": "JS Function",
+"module": 1
+},
+{
+"id": "t7",
+"name": "JS Array",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Introduction to ES6",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Difference between ES5 and ES6",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Events",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Arrow functions",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Client-side Form validation using JavaScript",
+"module": 1
+},
+{
+"id": "t13",
+"name": "using properties and methods of built -in- objects",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Introduction to MERN stack application",
+"module": 2
+},
+{
+"id": "t15",
+"name": "Introduction to React",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Installation",
+"module": 2
+},
+{
+"id": "t17",
+"name": "installing libraries",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Folder and file structure",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Components",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Component lifecycle",
+"module": 2
+},
+{
+"id": "t21",
+"name": "State and Props",
+"module": 2
+},
+{
+"id": "t22",
+"name": "React Router and Single page applications",
+"module": 2
+},
+{
+"id": "t23",
+"name": "UI design",
+"module": 2
+},
+{
+"id": "t24",
+"name": "Forms",
+"module": 2
+},
+{
+"id": "t25",
+"name": "Animations",
+"module": 2
+},
+{
+"id": "t26",
+"name": "Best practices",
+"module": 2
+},
+{
+"id": "t27",
+"name": "Functional components- Refs",
+"module": 3
+},
+{
+"id": "t28",
+"name": "use effects",
+"module": 3
+},
+{
+"id": "t29",
+"name": "Hooks",
+"module": 3
+},
+{
+"id": "t30",
+"name": "Flow architecture",
+"module": 3
+},
+{
+"id": "t31",
+"name": "Model-View Controller framework",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Flux",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Bundling the application",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Web pack",
+"module": 3
+},
+{
+"id": "t35",
+"name": "Understanding MongoDB",
+"module": 4
+},
+{
+"id": "t36",
+"name": "MongoDB Data Types",
+"module": 4
+},
+{
+"id": "t37",
+"name": "Administering User Accounts",
+"module": 4
+},
+{
+"id": "t38",
+"name": "Configuring Access Control",
+"module": 4
+},
+{
+"id": "t39",
+"name": "CRUD Operations",
+"module": 4
+},
+{
+"id": "t40",
+"name": "Using Mongoose for Structured Schema and Validation",
+"module": 4
+},
+{
+"id": "t41",
+"name": "Using Express and Mongoose to interact with MongoDB",
+"module": 4
+},
+{
+"id": "t42",
+"name": "Web Security Basics",
+"module": 4
+},
+{
+"id": "t43",
+"name": "SQL Injection",
+"module": 4
+},
+{
+"id": "t44",
+"name": "XSS",
+"module": 4
+},
+{
+"id": "t45",
+"name": "Environment setup",
+"module": 5
+},
+{
+"id": "t46",
+"name": "First app",
+"module": 5
+},
+{
+"id": "t47",
+"name": "Asynchronous programming",
+"module": 5
+},
+{
+"id": "t48",
+"name": "Callback concept",
+"module": 5
+},
+{
+"id": "t49",
+"name": "Event loops",
+"module": 5
+},
+{
+"id": "t50",
+"name": "REPL",
+"module": 5
+},
+{
+"id": "t51",
+"name": "Event emitter",
+"module": 5
+},
+{
+"id": "t52",
+"name": "Networking module",
+"module": 5
+},
+{
+"id": "t53",
+"name": "Buffers",
+"module": 5
+},
+{
+"id": "t54",
+"name": "Streams",
+"module": 5
+},
+{
+"id": "t55",
+"name": "File system",
+"module": 5
+},
+{
+"id": "t56",
+"name": "Web module",
+"module": 5
+},
+{
+"id": "t57",
+"name": "Express router",
+"module": 6
+},
+{
+"id": "t58",
+"name": "REST API",
+"module": 6
+},
+{
+"id": "t59",
+"name": "Generator",
+"module": 6
+},
+{
+"id": "t60",
+"name": "Authentication",
+"module": 6
+},
+{
+"id": "t61",
+"name": "sessions",
+"module": 6
+},
+{
+"id": "t62",
+"name": "Integrating with React",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t35",
+"b": "t41",
+"a_name": "Understanding MongoDB",
+"b_name": "Using Express and Mongoose to interact with MongoDB"
+},
+{
+"i": 1,
+"a": "t1",
+"b": "t8",
+"a_name": "Introduction to JavaScript",
+"b_name": "Introduction to ES6"
+},
+{
+"i": 2,
+"a": "t30",
+"b": "t31",
+"a_name": "Flow architecture",
+"b_name": "Model-View Controller framework"
+},
+{
+"i": 3,
+"a": "t5",
+"b": "t7",
+"a_name": "JS Data Types",
+"b_name": "JS Array"
+},
+{
+"i": 4,
+"a": "t1",
+"b": "t2",
+"a_name": "Introduction to JavaScript",
+"b_name": "Constants"
+},
+{
+"i": 5,
+"a": "t15",
+"b": "t25",
+"a_name": "Introduction to React",
+"b_name": "Animations"
+},
+{
+"i": 6,
+"a": "t46",
+"b": "t52",
+"a_name": "First app",
+"b_name": "Networking module"
+},
+{
+"i": 7,
+"a": "t19",
+"b": "t24",
+"a_name": "Components",
+"b_name": "Forms"
+},
+{
+"i": 8,
+"a": "t21",
+"b": "t29",
+"a_name": "State and Props",
+"b_name": "Hooks"
+},
+{
+"i": 9,
+"a": "t21",
+"b": "t28",
+"a_name": "State and Props",
+"b_name": "use effects"
+},
+{
+"i": 10,
+"a": "t27",
+"b": "t28",
+"a_name": "Functional components- Refs",
+"b_name": "use effects"
+},
+{
+"i": 11,
+"a": "t45",
+"b": "t53",
+"a_name": "Environment setup",
+"b_name": "Buffers"
+},
+{
+"i": 12,
+"a": "t56",
+"b": "t57",
+"a_name": "Web module",
+"b_name": "Express router"
+},
+{
+"i": 13,
+"a": "t57",
+"b": "t41",
+"a_name": "Express router",
+"b_name": "Using Express and Mongoose to interact with MongoDB"
+},
+{
+"i": 14,
+"a": "t19",
+"b": "t22",
+"a_name": "Components",
+"b_name": "React Router and Single page applications"
+},
+{
+"i": 15,
+"a": "t52",
+"b": "t56",
+"a_name": "Networking module",
+"b_name": "Web module"
+},
+{
+"i": 16,
+"a": "t15",
+"b": "t33",
+"a_name": "Introduction to React",
+"b_name": "Bundling the application"
+},
+{
+"i": 17,
+"a": "t45",
+"b": "t56",
+"a_name": "Environment setup",
+"b_name": "Web module"
+},
+{
+"i": 18,
+"a": "t1",
+"b": "t6",
+"a_name": "Introduction to JavaScript",
+"b_name": "JS Function"
+},
+{
+"i": 19,
+"a": "t29",
+"b": "t28",
+"a_name": "Hooks",
+"b_name": "use effects"
+},
+{
+"i": 20,
+"a": "t15",
+"b": "t30",
+"a_name": "Introduction to React",
+"b_name": "Flow architecture"
+},
+{
+"i": 21,
+"a": "t15",
+"b": "t23",
+"a_name": "Introduction to React",
+"b_name": "UI design"
+},
+{
+"i": 22,
+"a": "t48",
+"b": "t49",
+"a_name": "Callback concept",
+"b_name": "Event loops"
+},
+{
+"i": 23,
+"a": "t29",
+"b": "t27",
+"a_name": "Hooks",
+"b_name": "Functional components- Refs"
+},
+{
+"i": 24,
+"a": "t15",
+"b": "t26",
+"a_name": "Introduction to React",
+"b_name": "Best practices"
+},
+{
+"i": 25,
+"a": "t6",
+"b": "t12",
+"a_name": "JS Function",
+"b_name": "Client-side Form validation using JavaScript"
+},
+{
+"i": 26,
+"a": "t49",
+"b": "t51",
+"a_name": "Event loops",
+"b_name": "Event emitter"
+},
+{
+"i": 27,
+"a": "t41",
+"b": "t57",
+"a_name": "Using Express and Mongoose to interact with MongoDB",
+"b_name": "Express router"
+},
+{
+"i": 28,
+"a": "t21",
+"b": "t24",
+"a_name": "State and Props",
+"b_name": "Forms"
+},
+{
+"i": 29,
+"a": "t47",
+"b": "t49",
+"a_name": "Asynchronous programming",
+"b_name": "Event loops"
+},
+{
+"i": 30,
+"a": "t28",
+"b": "t29",
+"a_name": "use effects",
+"b_name": "Hooks"
+},
+{
+"i": 31,
+"a": "t45",
+"b": "t50",
+"a_name": "Environment setup",
+"b_name": "REPL"
+},
+{
+"i": 32,
+"a": "t15",
+"b": "t18",
+"a_name": "Introduction to React",
+"b_name": "Folder and file structure"
+},
+{
+"i": 33,
+"a": "t45",
+"b": "t52",
+"a_name": "Environment setup",
+"b_name": "Networking module"
+},
+{
+"i": 34,
+"a": "t19",
+"b": "t27",
+"a_name": "Components",
+"b_name": "Functional components- Refs"
+},
+{
+"i": 35,
+"a": "t45",
+"b": "t55",
+"a_name": "Environment setup",
+"b_name": "File system"
+},
+{
+"i": 36,
+"a": "t51",
+"b": "t54",
+"a_name": "Event emitter",
+"b_name": "Streams"
+},
+{
+"i": 37,
+"a": "t15",
+"b": "t62",
+"a_name": "Introduction to React",
+"b_name": "Integrating with React"
+},
+{
+"i": 38,
+"a": "t47",
+"b": "t51",
+"a_name": "Asynchronous programming",
+"b_name": "Event emitter"
+},
+{
+"i": 39,
+"a": "t46",
+"b": "t47",
+"a_name": "First app",
+"b_name": "Asynchronous programming"
+},
+{
+"i": 40,
+"a": "t8",
+"b": "t11",
+"a_name": "Introduction to ES6",
+"b_name": "Arrow functions"
+},
+{
+"i": 41,
+"a": "t1",
+"b": "t10",
+"a_name": "Introduction to JavaScript",
+"b_name": "Events"
+},
+{
+"i": 42,
+"a": "t1",
+"b": "t15",
+"a_name": "Introduction to JavaScript",
+"b_name": "Introduction to React"
+},
+{
+"i": 43,
+"a": "t21",
+"b": "t22",
+"a_name": "State and Props",
+"b_name": "React Router and Single page applications"
+},
+{
+"i": 44,
+"a": "t1",
+"b": "t13",
+"a_name": "Introduction to JavaScript",
+"b_name": "using properties and methods of built -in- objects"
+}
+]
+}

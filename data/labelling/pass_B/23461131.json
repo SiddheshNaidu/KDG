@@ -1,0 +1,234 @@
+{
+"edges": [
+{
+"a": "t2",
+"b": "t3",
+"why": "variables hold typed values"
+},
+{
+"a": "t3",
+"b": "t4",
+"why": "operators act on variables"
+},
+{
+"a": "t4",
+"b": "t5",
+"why": "conditions use operators"
+},
+{
+"a": "t3",
+"b": "t6",
+"why": "functions use variables"
+},
+{
+"a": "t6",
+"b": "t7",
+"why": "classes contain methods"
+},
+{
+"a": "t6",
+"b": "t8",
+"why": "modules export functions"
+},
+{
+"a": "t9",
+"b": "t10",
+"why": "modules follow framework intro"
+},
+{
+"a": "t10",
+"b": "t11",
+"why": "directives registered on modules"
+},
+{
+"a": "t12",
+"b": "t13",
+"why": "binding uses expressions"
+},
+{
+"a": "t12",
+"b": "t14",
+"why": "filters applied in expressions"
+},
+{
+"a": "t13",
+"b": "t15",
+"why": "controllers expose scope via binding"
+},
+{
+"a": "t15",
+"b": "t16",
+"why": "services injected into controllers"
+},
+{
+"a": "t15",
+"b": "t17",
+"why": "validation bound to controller scope"
+},
+{
+"a": "t10",
+"b": "t18",
+"why": "ngRoute is a module"
+},
+{
+"a": "t15",
+"b": "t18",
+"why": "routes map to controllers"
+},
+{
+"a": "t11",
+"b": "t19",
+"why": "ng-repeat is a directive"
+},
+{
+"a": "t7",
+"b": "t21",
+"why": "TypeScript classes written for AngularJS"
+},
+{
+"a": "t10",
+"b": "t21",
+"why": "AngularJS modules typed in TS"
+},
+{
+"a": "t9",
+"b": "t22",
+"why": "comparison needs AngularJS knowledge"
+},
+{
+"a": "t23",
+"b": "t24",
+"why": "architecture introduces components"
+},
+{
+"a": "t24",
+"b": "t25",
+"why": "modules group components"
+},
+{
+"a": "t24",
+"b": "t26",
+"why": "templates belong to components"
+},
+{
+"a": "t26",
+"b": "t27",
+"why": "directives used in templates"
+},
+{
+"a": "t26",
+"b": "t28",
+"why": "pipes used in templates"
+},
+{
+"a": "t29",
+"b": "t32",
+"why": "HTTP calls wrapped in services"
+},
+{
+"a": "t29",
+"b": "t33",
+"why": "state shared via services"
+},
+{
+"a": "t24",
+"b": "t30",
+"why": "routes map to components"
+},
+{
+"a": "t26",
+"b": "t31",
+"why": "forms built in templates"
+},
+{
+"a": "t7",
+"b": "t24",
+"why": "components are TypeScript classes"
+},
+{
+"a": "t24",
+"b": "t34",
+"why": "components are tested units"
+},
+{
+"a": "t36",
+"b": "t37",
+"why": "setup before built-in components"
+},
+{
+"a": "t37",
+"b": "t38",
+"why": "pages built from components"
+},
+{
+"a": "t38",
+"b": "t40",
+"why": "data fetched per page"
+},
+{
+"a": "t38",
+"b": "t44",
+"why": "API routes use file routing"
+},
+{
+"a": "t44",
+"b": "t45",
+"why": "auth handled via API routes"
+},
+{
+"a": "t37",
+"b": "t43",
+"why": "testing targets components"
+},
+{
+"a": "t46",
+"b": "t47",
+"why": "REST builds on FastAPI basics"
+},
+{
+"a": "t47",
+"b": "t49",
+"why": "request handling in endpoints"
+},
+{
+"a": "t47",
+"b": "t48",
+"why": "files handled in endpoints"
+},
+{
+"a": "t49",
+"b": "t50",
+"why": "database access in handlers"
+},
+{
+"a": "t51",
+"b": "t52",
+"why": "crawling is a search engine stage"
+},
+{
+"a": "t52",
+"b": "t53",
+"why": "indexing follows crawling"
+},
+{
+"a": "t53",
+"b": "t54",
+"why": "ranking uses the index"
+},
+{
+"a": "t54",
+"b": "t55",
+"why": "SEO targets ranking factors"
+},
+{
+"a": "t55",
+"b": "t57",
+"why": "strategies apply SEO techniques"
+},
+{
+"a": "t55",
+"b": "t56",
+"why": "tools measure SEO techniques"
+}
+]
+}

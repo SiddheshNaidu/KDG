@@ -5,7 +5,7 @@ os.environ.setdefault("HF_HUB_OFFLINE", "1")
 import networkx as nx
 sys.path.insert(0, ".")
 from app.ml.infer import Bundle, score_pairs, infer_course
-T = json.load(open("data/processed/topics_nep.json", encoding="utf-8")); MODEL = os.environ.get("MODEL", "nep5"); b = Bundle.get(MODEL)
+T = json.load(open("data/processed/topics_nep.json", encoding="utf-8")); MODEL = os.environ.get("MODEL", "nep6"); b = Bundle.get(MODEL)
 LOW = 0.10   # below the accepted threshold but worth showing as "uncertain"
 out = dict(model=dict(name=MODEL, accepted_threshold=b.threshold, uncertain_threshold=LOW, calibrated=True,
                       note="confidence = calibrated probability (isotonic, fitted on validation courses). Gold = labels from two independent AI passes plus an independent adjudicator, not human verified."), courses=[])
@@ -21,6 +21,7 @@ def kahn(n, edges):
     assert len(order) == n, "cycle"
     return order, level
 for c, v in T.items():
+    if v["split"] != "test" or not os.path.exists(os.environ.get("LABEL_DIR", "data/labelling/claude") + f"/{c}.json"): continue
     if v["split"] != "test": continue
     ts = [dict(id=t["id"], name=t["name"], module=t["module_idx"]) for t in v["topics"]]; ids = {t["id"]: i for i, t in enumerate(ts)}; n = len(ts)
     ctx = dict(title=v["course_title"], module_names={m["index"]: m["name"] for m in v["modules"]})

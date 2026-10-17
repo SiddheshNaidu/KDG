@@ -1,0 +1,70 @@
+{
+ "verdicts": {
+  "2073114|2fdd810ff704450d": {
+   "verdict": "FIXABLE",
+   "topics": 24,
+   "junk": 2,
+   "note": "'Thermodynamic Charts, Diagrams and their applications' split into 'Thermodynamic Charts' + 'Diagrams and their applications'; all 6 modules complete"
+  },
+  "2074111|a13dc82d1bdf516c": {
+   "verdict": "OK",
+   "topics": 27,
+   "junk": 1,
+   "note": "'equilibrium constant of a reaction' orphaned from 'Estimation of standard Gibbs free energy change and ...'; complete"
+  },
+  "2074112|5d982fd0dfc4efc0": {
+   "verdict": "OK",
+   "topics": 53,
+   "junk": 2,
+   "note": "'Conveying of solids' split into 'Conveying' + 'solids'; M5/M6 complete across pages 59-60"
+  },
+  "2074113|bd172193bb8ca604": {
+   "verdict": "OK",
+   "topics": 66,
+   "junk": 2,
+   "note": "'Heat Transfer Coefficient Steady State Conduction' glued; 'plate' fragment; 'by Kerns method' dropped (minor)"
+  },
+  "2115111|7fc8a4a27f6f1e3b": {
+   "verdict": "FIXABLE",
+   "topics": 48,
+   "junk": 5,
+   "note": "glued items ('Scenario based model... Software Requirement Specification...', 'Testing Techniques White-box testing', 'Control structure testing Black-box testing') + fragments 'Basis path','Equivalence'"
+  },
+  "2115112|4e44eaee5aeb8117": {
+   "verdict": "FIXABLE",
+   "topics": 85,
+   "junk": 7,
+   "note": "orphan fragments 'header','working','advantages and disadvantages' (MPLS), 'functions', stray '6 Introduction to IEEE standards', 'addressing Subnetting and Supernetting', '5G spectrum technologies. 5G architecture' glued"
+  },
+  "2115113|965fb5241e810b81": {
+   "verdict": "OK",
+   "topics": 78,
+   "junk": 3,
+   "note": "glued 'History of AI Intelligent Agents', 'Depth First Iterative Deepening (DFID) Informed Search Method', 'syntax and Semantic Knowledge Engineering in FOL Inference in FOL'"
+  },
+  "2115114|0358af90828b15ad": {
+   "verdict": "OK",
+   "topics": 67,
+   "junk": 1,
+   "note": "'precision. recall' glued; 'Basic Concepts' dropped (minor)"
+  },
+  "2115115|8976cec0dbc24710": {
+   "verdict": "OK",
+   "topics": 60,
+   "junk": 3,
+   "note": "'Rotation Matrix representation' glued, '4.1 3D Object Transformation 4.2 3D Viewing pipeline' glued with numbering, 'Libraries' orphan (borderline 5%)"
+  },
+  "2115116|74da09045ffe46c0": {
+   "verdict": "FIXABLE",
+   "topics": 85,
+   "junk": 10,
+   "note": "glued items across '-HTML'/'-Git &GitHub' markers in M1, 'Functions Object oriented Programming', 'Interfaces and abstract classes Advanced Typescript Concepts', 'Type inference Type Script Modules DOM Manipulation...', M4 glued; M3 dropped 'Scope','Applications','Features'"
+  },
+  "2116111|cce8df215b72e158": {
+   "verdict": "BAD",
+   "topics": 77,
+   "junk": 19,
+   "note": "sub-heading names glued onto neighbouring topics throughout M1-M6: 'Random Forest Stacking', 'Blending Boosting', 'K-Means Density based Clustering', 'Image Compression/Image Classification Applications of SVD'"
+  }
+ }
+}

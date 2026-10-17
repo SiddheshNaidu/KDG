@@ -1,0 +1,513 @@
+{
+"course": "2406112",
+"title": "Thermal Engineering",
+"topics": [
+{
+"id": "t1",
+"name": "Mode of heat transfer",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Mechanism of conduction",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Convection and radiation heat transfer and its Governing laws",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Generalized heat conduction equation in rectangular coordinates",
+"module": 1
+},
+{
+"id": "t5",
+"name": "cylindrical and spherical coordinates",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Steady state heat conduction through plane wall",
+"module": 1
+},
+{
+"id": "t7",
+"name": "composite wall",
+"module": 1
+},
+{
+"id": "t8",
+"name": "cylinder",
+"module": 1
+},
+{
+"id": "t9",
+"name": "composite cylinder",
+"module": 1
+},
+{
+"id": "t10",
+"name": "sphere and composite sphere",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Critical radius of insulation in cylinder and sphere",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Heat transfer from Extended Surfaces",
+"module": 2
+},
+{
+"id": "t13",
+"name": "Types of extended surfaces and its various field application",
+"module": 2
+},
+{
+"id": "t14",
+"name": "Governing differential equation for fin (Finite, Infinite, and Insulated tips) and its solution",
+"module": 2
+},
+{
+"id": "t15",
+"name": "Fin efficiency and effectiveness",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Unsteady state heat transfer",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Lumped heat capacity Analysis",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Applications of unsteady state heat transfer",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Thermal time constant",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Convection",
+"module": 3
+},
+{
+"id": "t21",
+"name": "Free and Forced convection",
+"module": 3
+},
+{
+"id": "t22",
+"name": "External Flow",
+"module": 3
+},
+{
+"id": "t23",
+"name": "Velocity Boundary layer and Thermal Boundary layer",
+"module": 3
+},
+{
+"id": "t24",
+"name": "Laminar and turbulent flow over a flat plate",
+"module": 3
+},
+{
+"id": "t25",
+"name": "Internal Flow",
+"module": 3
+},
+{
+"id": "t26",
+"name": "Laminar and Turbulent flow in tubes",
+"module": 3
+},
+{
+"id": "t27",
+"name": "General thermal analysis with Constant heat flux",
+"module": 3
+},
+{
+"id": "t28",
+"name": "constant surface temperature",
+"module": 3
+},
+{
+"id": "t29",
+"name": "Significance of Nusselt number (Nu)",
+"module": 3
+},
+{
+"id": "t30",
+"name": "Radiation",
+"module": 3
+},
+{
+"id": "t31",
+"name": "Basic governing laws of radiation",
+"module": 3
+},
+{
+"id": "t32",
+"name": "heat exchange between two bodies",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Boiling and Condensation",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Introduction to Different boiling regimes (pool boiling curve)",
+"module": 3
+},
+{
+"id": "t35",
+"name": "Film condensation",
+"module": 3
+},
+{
+"id": "t36",
+"name": "Drop wise condensation",
+"module": 3
+},
+{
+"id": "t37",
+"name": "Mass Transfer",
+"module": 4
+},
+{
+"id": "t38",
+"name": "Introduction to Mass Transfer",
+"module": 4
+},
+{
+"id": "t39",
+"name": "governing equations of mass transfer",
+"module": 4
+},
+{
+"id": "t40",
+"name": "Mass transfer coefficient",
+"module": 4
+},
+{
+"id": "t41",
+"name": "Heat Exchangers",
+"module": 4
+},
+{
+"id": "t42",
+"name": "Types of heat exchangers",
+"module": 4
+},
+{
+"id": "t43",
+"name": "Overall heat transfer coefficient",
+"module": 4
+},
+{
+"id": "t44",
+"name": "LMTD",
+"module": 4
+},
+{
+"id": "t45",
+"name": "Effectiveness",
+"module": 4
+},
+{
+"id": "t46",
+"name": "Number of Transfer Unit (NTU) method . Application Phase Change Material in Heat Exchanger",
+"module": 4
+},
+{
+"id": "t47",
+"name": "IC Engine",
+"module": 5
+},
+{
+"id": "t48",
+"name": "Introduction to Fuel Supply and Fuel Injection system",
+"module": 5
+},
+{
+"id": "t49",
+"name": "stages of combustion",
+"module": 5
+},
+{
+"id": "t50",
+"name": "knocking and detonation in SI and CI Engines",
+"module": 5
+},
+{
+"id": "t51",
+"name": "Octane and Cetane numbers",
+"module": 5
+},
+{
+"id": "t52",
+"name": "Engine Performance Testing",
+"module": 5
+},
+{
+"id": "t53",
+"name": "Measurement of various performance parameters",
+"module": 5
+},
+{
+"id": "t54",
+"name": "Methods of friction power measurement",
+"module": 5
+},
+{
+"id": "t55",
+"name": "Heat balance sheet",
+"module": 5
+},
+{
+"id": "t56",
+"name": "Principle of working simple carburettor Concept of Waste heat recovery from automotive system",
+"module": 5
+},
+{
+"id": "t57",
+"name": "Engine Emission",
+"module": 6
+},
+{
+"id": "t58",
+"name": "SI and CI engine exhaust emissions constituents and their effects on environment and health",
+"module": 6
+},
+{
+"id": "t59",
+"name": "Study of emission norms (Euro norms and Bharat stage norms)",
+"module": 6
+},
+{
+"id": "t60",
+"name": "Engine emissions control technologies",
+"module": 6
+},
+{
+"id": "t61",
+"name": "Exhaust Gas Recirculation (EGR)",
+"module": 6
+},
+{
+"id": "t62",
+"name": "Diesel Oxidation Catalysts (DOC)",
+"module": 6
+},
+{
+"id": "t63",
+"name": "Diesel Particulate Filters (DPF) and Selective Catalytic Reduction (SCR)",
+"module": 6
+},
+{
+"id": "t64",
+"name": "Thermal Management in Electric Vehicles",
+"module": 6
+},
+{
+"id": "t65",
+"name": "Battery cooling",
+"module": 6
+},
+{
+"id": "t66",
+"name": "Concept and Application of Nano-fluids for heat transfer enhancement",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t49",
+"b": "t58",
+"a_name": "stages of combustion",
+"b_name": "SI and CI engine exhaust emissions constituents and their effects on environment and health"
+},
+{
+"i": 1,
+"a": "t5",
+"b": "t8",
+"a_name": "cylindrical and spherical coordinates",
+"b_name": "cylinder"
+},
+{
+"i": 2,
+"a": "t20",
+"b": "t22",
+"a_name": "Convection",
+"b_name": "External Flow"
+},
+{
+"i": 3,
+"a": "t58",
+"b": "t60",
+"a_name": "SI and CI engine exhaust emissions constituents and their effects on environment and health",
+"b_name": "Engine emissions control technologies"
+},
+{
+"i": 4,
+"a": "t1",
+"b": "t20",
+"a_name": "Mode of heat transfer",
+"b_name": "Convection"
+},
+{
+"i": 5,
+"a": "t20",
+"b": "t43",
+"a_name": "Convection",
+"b_name": "Overall heat transfer coefficient"
+},
+{
+"i": 6,
+"a": "t57",
+"b": "t60",
+"a_name": "Engine Emission",
+"b_name": "Engine emissions control technologies"
+},
+{
+"i": 7,
+"a": "t8",
+"b": "t11",
+"a_name": "cylinder",
+"b_name": "Critical radius of insulation in cylinder and sphere"
+},
+{
+"i": 8,
+"a": "t23",
+"b": "t26",
+"a_name": "Velocity Boundary layer and Thermal Boundary layer",
+"b_name": "Laminar and Turbulent flow in tubes"
+},
+{
+"i": 9,
+"a": "t10",
+"b": "t11",
+"a_name": "sphere and composite sphere",
+"b_name": "Critical radius of insulation in cylinder and sphere"
+},
+{
+"i": 10,
+"a": "t41",
+"b": "t42",
+"a_name": "Heat Exchangers",
+"b_name": "Types of heat exchangers"
+},
+{
+"i": 11,
+"a": "t1",
+"b": "t3",
+"a_name": "Mode of heat transfer",
+"b_name": "Convection and radiation heat transfer and its Governing laws"
+},
+{
+"i": 12,
+"a": "t7",
+"b": "t43",
+"a_name": "composite wall",
+"b_name": "Overall heat transfer coefficient"
+},
+{
+"i": 13,
+"a": "t44",
+"b": "t45",
+"a_name": "LMTD",
+"b_name": "Effectiveness"
+},
+{
+"i": 14,
+"a": "t37",
+"b": "t38",
+"a_name": "Mass Transfer",
+"b_name": "Introduction to Mass Transfer"
+},
+{
+"i": 15,
+"a": "t3",
+"b": "t30",
+"a_name": "Convection and radiation heat transfer and its Governing laws",
+"b_name": "Radiation"
+},
+{
+"i": 16,
+"a": "t20",
+"b": "t25",
+"a_name": "Convection",
+"b_name": "Internal Flow"
+},
+{
+"i": 17,
+"a": "t9",
+"b": "t11",
+"a_name": "composite cylinder",
+"b_name": "Critical radius of insulation in cylinder and sphere"
+},
+{
+"i": 18,
+"a": "t47",
+"b": "t52",
+"a_name": "IC Engine",
+"b_name": "Engine Performance Testing"
+},
+{
+"i": 19,
+"a": "t7",
+"b": "t12",
+"a_name": "composite wall",
+"b_name": "Heat transfer from Extended Surfaces"
+},
+{
+"i": 20,
+"a": "t22",
+"b": "t23",
+"a_name": "External Flow",
+"b_name": "Velocity Boundary layer and Thermal Boundary layer"
+},
+{
+"i": 21,
+"a": "t6",
+"b": "t12",
+"a_name": "Steady state heat conduction through plane wall",
+"b_name": "Heat transfer from Extended Surfaces"
+},
+{
+"i": 22,
+"a": "t20",
+"b": "t33",
+"a_name": "Convection",
+"b_name": "Boiling and Condensation"
+},
+{
+"i": 23,
+"a": "t3",
+"b": "t12",
+"a_name": "Convection and radiation heat transfer and its Governing laws",
+"b_name": "Heat transfer from Extended Surfaces"
+},
+{
+"i": 24,
+"a": "t43",
+"b": "t45",
+"a_name": "Overall heat transfer coefficient",
+"b_name": "Effectiveness"
+}
+]
+}

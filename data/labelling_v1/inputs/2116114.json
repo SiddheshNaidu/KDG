@@ -1,0 +1,522 @@
+{
+"course": "2116114",
+"title": "Digital Imaging Techniques and Analysis",
+"modules": [
+{
+"index": 1,
+"name": "Fundamentals of Digital Imaging"
+},
+{
+"index": 2,
+"name": "Image Enhancement Techniques"
+},
+{
+"index": 3,
+"name": "Image Restoration and Compression Methods"
+},
+{
+"index": 4,
+"name": "Image Segmentation and Morphological Processing"
+},
+{
+"index": 5,
+"name": "Feature Extraction and Analytical Techniques"
+},
+{
+"index": 6,
+"name": "Deep Learning for Image Understanding and Applications"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Introduction to Digital Imaging",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Image Formation and Representation",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Image Sampling and Quantization",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Color Models and Image Representation Image Histogram and Basic Intensity Transformations",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Spatial and Frequency Domain Fundamentals",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Introduction to digital images and processing",
+"module": 2
+},
+{
+"id": "t7",
+"name": "Gray Level Transformations",
+"module": 2
+},
+{
+"id": "t8",
+"name": "Zero Memory Point Operations",
+"module": 2
+},
+{
+"id": "t9",
+"name": "negative",
+"module": 2
+},
+{
+"id": "t10",
+"name": "contrast stretching",
+"module": 2
+},
+{
+"id": "t11",
+"name": "Dynamic range Compression",
+"module": 2
+},
+{
+"id": "t12",
+"name": "Gray Level Slicing",
+"module": 2
+},
+{
+"id": "t13",
+"name": "Bit Plane Slicing",
+"module": 2
+},
+{
+"id": "t14",
+"name": "Histogram Processing",
+"module": 2
+},
+{
+"id": "t15",
+"name": "Histogram equalization",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Different types of noise (e.g., Gaussian, Salt & Pepper)",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Neighbourhood Processing",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Spatial Filtering",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Smoothing and Sharpening Filters",
+"module": 2
+},
+{
+"id": "t20",
+"name": "spatial filters",
+"module": 2
+},
+{
+"id": "t21",
+"name": "including smoothing filters (e.g., mean and median) and sharpening filters (e.g., Laplacian and unsharp masking)",
+"module": 2
+},
+{
+"id": "t22",
+"name": "Image Subtraction and Image Averaging",
+"module": 2
+},
+{
+"id": "t23",
+"name": "Zooming by Interpolation and Replication Frequency domain techniques",
+"module": 2
+},
+{
+"id": "t24",
+"name": "Discrete Fourier Transform (DFT) and its use in image enhancement",
+"module": 2
+},
+{
+"id": "t25",
+"name": "I. Image Restoration (4 Hours)",
+"module": 3
+},
+{
+"id": "t26",
+"name": "Image degradation and restoration concepts",
+"module": 3
+},
+{
+"id": "t27",
+"name": "causes of degradation",
+"module": 3
+},
+{
+"id": "t28",
+"name": "Noise models",
+"module": 3
+},
+{
+"id": "t29",
+"name": "Gaussian",
+"module": 3
+},
+{
+"id": "t30",
+"name": "Salt & Pepper",
+"module": 3
+},
+{
+"id": "t31",
+"name": "Uniform",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Rayleigh",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Exponential",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Mean (Arithmetic, Geometric, Harmonic)",
+"module": 3
+},
+{
+"id": "t35",
+"name": "Median",
+"module": 3
+},
+{
+"id": "t36",
+"name": "Max",
+"module": 3
+},
+{
+"id": "t37",
+"name": "Min",
+"module": 3
+},
+{
+"id": "t38",
+"name": "Frequency filters",
+"module": 3
+},
+{
+"id": "t39",
+"name": "Inverse",
+"module": 3
+},
+{
+"id": "t40",
+"name": "Wiener",
+"module": 3
+},
+{
+"id": "t41",
+"name": "Adaptive II",
+"module": 3
+},
+{
+"id": "t42",
+"name": "Image Compression (4 Hours)",
+"module": 3
+},
+{
+"id": "t43",
+"name": "compression model",
+"module": 3
+},
+{
+"id": "t44",
+"name": "redundancies",
+"module": 3
+},
+{
+"id": "t45",
+"name": "Lossless",
+"module": 3
+},
+{
+"id": "t46",
+"name": "RLC",
+"module": 3
+},
+{
+"id": "t47",
+"name": "Huffman",
+"module": 3
+},
+{
+"id": "t48",
+"name": "Arithmetic",
+"module": 3
+},
+{
+"id": "t49",
+"name": "LZW",
+"module": 3
+},
+{
+"id": "t50",
+"name": "Lossy",
+"module": 3
+},
+{
+"id": "t51",
+"name": "Transform coding (DCT– JPEG)",
+"module": 3
+},
+{
+"id": "t52",
+"name": "Predictive coding (DPCM)",
+"module": 3
+},
+{
+"id": "t53",
+"name": "Performance metrics",
+"module": 3
+},
+{
+"id": "t54",
+"name": "Compression ratio",
+"module": 3
+},
+{
+"id": "t55",
+"name": "Bit rate",
+"module": 3
+},
+{
+"id": "t56",
+"name": "MSE",
+"module": 3
+},
+{
+"id": "t57",
+"name": "PSNR",
+"module": 3
+},
+{
+"id": "t58",
+"name": "Image Segmentation",
+"module": 4
+},
+{
+"id": "t59",
+"name": "Detection of Discontinuities",
+"module": 4
+},
+{
+"id": "t60",
+"name": "Edge Linking and Boundary Detection",
+"module": 4
+},
+{
+"id": "t61",
+"name": "Thresholding (Global, Adaptive, Otsu’s Method)",
+"module": 4
+},
+{
+"id": "t62",
+"name": "Region Oriented Segmentation (Region Growing, Splitting and Merging, Watershed Segmentation)",
+"module": 4
+},
+{
+"id": "t63",
+"name": "Morphological Image Processing",
+"module": 4
+},
+{
+"id": "t64",
+"name": "Dilation and Erosion",
+"module": 4
+},
+{
+"id": "t65",
+"name": "Structuring Element and Its Decomposition",
+"module": 4
+},
+{
+"id": "t66",
+"name": "Opening and Closing",
+"module": 4
+},
+{
+"id": "t67",
+"name": "Morphological Gradient",
+"module": 4
+},
+{
+"id": "t68",
+"name": "Hit-or-Miss Transformation",
+"module": 4
+},
+{
+"id": "t69",
+"name": "Top-hat and Bottom-hat Transformations",
+"module": 4
+},
+{
+"id": "t70",
+"name": "Morphological Reconstruction",
+"module": 4
+},
+{
+"id": "t71",
+"name": "Image Features",
+"module": 5
+},
+{
+"id": "t72",
+"name": "Local & global features",
+"module": 5
+},
+{
+"id": "t73",
+"name": "feature descriptors",
+"module": 5
+},
+{
+"id": "t74",
+"name": "boundary & region descriptors",
+"module": 5
+},
+{
+"id": "t75",
+"name": "feature extraction",
+"module": 5
+},
+{
+"id": "t76",
+"name": "Texture Analysis",
+"module": 5
+},
+{
+"id": "t77",
+"name": "GLCM",
+"module": 5
+},
+{
+"id": "t78",
+"name": "Haralick features",
+"module": 5
+},
+{
+"id": "t79",
+"name": "Laws’ measures",
+"module": 5
+},
+{
+"id": "t80",
+"name": "Local Binary Patterns (LBP)",
+"module": 5
+},
+{
+"id": "t81",
+"name": "Principal Component Analysis (PCA)",
+"module": 5
+},
+{
+"id": "t82",
+"name": "Feature selection and dimensionality reduction",
+"module": 5
+},
+{
+"id": "t83",
+"name": "Template Matching",
+"module": 5
+},
+{
+"id": "t84",
+"name": "Feature matching (Euclidean, cosine)",
+"module": 5
+},
+{
+"id": "t85",
+"name": "stereo matching",
+"module": 5
+},
+{
+"id": "t86",
+"name": "SIFT",
+"module": 5
+},
+{
+"id": "t87",
+"name": "SURF",
+"module": 5
+},
+{
+"id": "t88",
+"name": "Image Analysis",
+"module": 5
+},
+{
+"id": "t89",
+"name": "Classification (supervised/unsupervised)",
+"module": 5
+},
+{
+"id": "t90",
+"name": "KNN",
+"module": 5
+},
+{
+"id": "t91",
+"name": "SVM",
+"module": 5
+},
+{
+"id": "t92",
+"name": "Decision Trees",
+"module": 5
+},
+{
+"id": "t93",
+"name": "object & pattern recognition",
+"module": 5
+},
+{
+"id": "t94",
+"name": "Introduction to deep learning concepts for image analysis",
+"module": 6
+},
+{
+"id": "t95",
+"name": "Role of Convolutional Neural Networks (CNNs) in feature extraction and classification",
+"module": 6
+},
+{
+"id": "t96",
+"name": "Overview of transfer learning using pretrained models Applications in object detection",
+"module": 6
+},
+{
+"id": "t97",
+"name": "facial recognition",
+"module": 6
+},
+{
+"id": "t98",
+"name": "medical and industrial imaging",
+"module": 6
+}
+]
+}

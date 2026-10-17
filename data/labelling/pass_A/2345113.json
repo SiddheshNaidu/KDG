@@ -1,0 +1,209 @@
+{
+ "edges": [
+  {
+   "a": "t1",
+   "b": "t3",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t1",
+   "b": "t5",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t1",
+   "b": "t6",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t3",
+   "b": "t4",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t6",
+   "b": "t11",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t8",
+   "b": "t11",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t8",
+   "b": "t15",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t5",
+   "b": "t12",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t10",
+   "b": "t12",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t15",
+   "b": "t16",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t15",
+   "b": "t19",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t16",
+   "b": "t17",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t17",
+   "b": "t18",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t19",
+   "b": "t20",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t19",
+   "b": "t21",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t19",
+   "b": "t22",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t19",
+   "b": "t24",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t19",
+   "b": "t27",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t21",
+   "b": "t24",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t21",
+   "b": "t29",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t29",
+   "b": "t28",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t27",
+   "b": "t29",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t31",
+   "b": "t32",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t33",
+   "b": "t34",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t35",
+   "b": "t36",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t35",
+   "b": "t39",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t35",
+   "b": "t37",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t37",
+   "b": "t38",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t39",
+   "b": "t40",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t40",
+   "b": "t41",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t57",
+   "b": "t41",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t42",
+   "b": "t43",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t42",
+   "b": "t44",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t45",
+   "b": "t46",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t47",
+   "b": "t49",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t49",
+   "b": "t51",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t53",
+   "b": "t54",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t57",
+   "b": "t58",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t60",
+   "b": "t61",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t58",
+   "b": "t62",
+   "why": "a is needed before b"
+  },
+  {
+   "a": "t15",
+   "b": "t62",
+   "why": "a is needed before b"
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "edges": [
+  {
+   "a": "t1",
+   "b": "t2",
+   "why": "DOF analysis uses the balance equation"
+  },
+  {
+   "a": "t1",
+   "b": "t3",
+   "why": "balance equation needed to solve problems"
+  },
+  {
+   "a": "t2",
+   "b": "t3",
+   "why": "DOF guides problem solving"
+  },
+  {
+   "a": "t1",
+   "b": "t4",
+   "why": "unsteady case generalises balance equation"
+  },
+  {
+   "a": "t3",
+   "b": "t5",
+   "why": "reactant concepts built on balance solving"
+  },
+  {
+   "a": "t5",
+   "b": "t6",
+   "why": "conversion defined relative to limiting reactant"
+  },
+  {
+   "a": "t6",
+   "b": "t7",
+   "why": "selectivity builds on conversion and yield"
+  },
+  {
+   "a": "t3",
+   "b": "t8",
+   "why": "material balances with and without reaction"
+  },
+  {
+   "a": "t7",
+   "b": "t8",
+   "why": "reaction balances need conversion concepts"
+  },
+  {
+   "a": "t9",
+   "b": "t10",
+   "why": "sensible heat uses heat capacity"
+  },
+  {
+   "a": "t9",
+   "b": "t12",
+   "why": "enthalpy change uses heat capacity"
+  },
+  {
+   "a": "t10",
+   "b": "t12",
+   "why": "enthalpy change sums sensible heat"
+  },
+  {
+   "a": "t11",
+   "b": "t12",
+   "why": "enthalpy change includes latent heat"
+  },
+  {
+   "a": "t12",
+   "b": "t13",
+   "why": "energy balance uses enthalpy changes"
+  },
+  {
+   "a": "t13",
+   "b": "t14",
+   "why": "reaction energy balance extends general equation"
+  },
+  {
+   "a": "t15",
+   "b": "t16",
+   "why": "excess air defined from combustion stoichiometry"
+  },
+  {
+   "a": "t15",
+   "b": "t19",
+   "why": "air requirement from combustion equations"
+  },
+  {
+   "a": "t17",
+   "b": "t18",
+   "why": "calorific values from coal composition"
+  },
+  {
+   "a": "t16",
+   "b": "t19",
+   "why": "excess air affects flue gas composition"
+  },
+  {
+   "a": "t20",
+   "b": "t21",
+   "why": "humidification precedes wet bulb theory"
+  },
+  {
+   "a": "t8",
+   "b": "t22",
+   "why": "material balance basis for distillation"
+  },
+  {
+   "a": "t13",
+   "b": "t22",
+   "why": "energy balance basis for distillation"
+  }
+ ]
+}

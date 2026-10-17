@@ -55,7 +55,7 @@
 },
 {
 "id": "t6",
-"name": "diagonalizable and non- diagonalizable matrices",
+"name": "diagonalizable and non-diagonalizable matrices",
 "module": 1
 },
 {
@@ -90,106 +90,101 @@
 },
 {
 "id": "t13",
-"name": "NLPP with one",
+"name": "NLPP with one and two equality constraint (two or three variables) using the method of Lagrange’s multipliers",
 "module": 2
 },
 {
 "id": "t14",
-"name": "two equality constraint (two or three variables) using the method of Lagrange’s multipliers",
-"module": 2
-},
-{
-"id": "t15",
 "name": "Introduction to Congruence",
 "module": 3
 },
 {
-"id": "t16",
+"id": "t15",
 "name": "Linear congruence",
 "module": 3
 },
 {
-"id": "t17",
+"id": "t16",
 "name": "reminder theorem",
 "module": 3
 },
 {
-"id": "t18",
+"id": "t17",
 "name": "solving polynomials",
 "module": 3
 },
 {
-"id": "t19",
+"id": "t18",
 "name": "system of linear congruence",
 "module": 3
 },
 {
-"id": "t20",
+"id": "t19",
 "name": "Eluer’s theorem",
 "module": 3
 },
 {
-"id": "t21",
+"id": "t20",
 "name": "Fermat’s little theorem",
 "module": 3
 },
 {
-"id": "t22",
+"id": "t21",
 "name": "Application of congruence-RSA algorithm",
 "module": 3
 },
 {
-"id": "t23",
+"id": "t22",
 "name": "Dirichlet’s conditions",
 "module": 4
 },
 {
-"id": "t24",
+"id": "t23",
 "name": "Fourier series of periodic function with period 2π and 2l",
 "module": 4
 },
 {
-"id": "t25",
+"id": "t24",
 "name": "Fourier series of even and odd functions",
 "module": 4
 },
 {
-"id": "t26",
+"id": "t25",
 "name": "Karl Pearson’s coefficient of correlation (r)",
 "module": 5
 },
 {
-"id": "t27",
+"id": "t26",
 "name": "Spearman’s Rank correlation coefficient (R) (with repeated and non-repeated ranks)",
 "module": 5
 },
 {
-"id": "t28",
+"id": "t27",
 "name": "Lines of regression",
 "module": 5
 },
 {
-"id": "t29",
+"id": "t28",
 "name": "fitting of first-degree curves",
 "module": 5
 },
 {
-"id": "t30",
+"id": "t29",
 "name": "Moment generating function",
 "module": 6
 },
 {
-"id": "t31",
+"id": "t30",
 "name": "Raw moments",
 "module": 6
 },
 {
-"id": "t32",
+"id": "t31",
 "name": "Poisson Distribution",
 "module": 6
 },
 {
-"id": "t33",
+"id": "t32",
 "name": "Normal Distribution",
 "module": 6
 }

@@ -44,7 +44,7 @@
 },
 {
 "id": "t9",
-"name": "Eco- friendly refrigerants",
+"name": "Eco-friendly refrigerants",
 "module": 1
 },
 {
@@ -69,7 +69,7 @@
 },
 {
 "id": "t14",
-"name": "Thermodynamic analysis of Simple VCRS and T- s and P-h chart",
+"name": "Thermodynamic analysis of Simple VCRS and T-s and P-h chart",
 "module": 2
 },
 {
@@ -104,7 +104,7 @@
 },
 {
 "id": "t21",
-"name": "Lithium- bromide absorption system",
+"name": "Lithium-bromide absorption system",
 "module": 2
 },
 {
@@ -244,7 +244,7 @@
 },
 {
 "id": "t49",
-"name": "Methods of duct system design. *",
+"name": "Methods of duct system design",
 "module": 5
 },
 {
@@ -304,122 +304,157 @@
 },
 {
 "id": "t61",
-"name": "Cold chain Technology & Transport air conditioning. *",
+"name": "Cold chain Technology & Transport air conditioning",
 "module": 6
 }
 ],
 "candidates": [
 {
 "i": 0,
-"a": "t42",
-"b": "t43",
-"a_name": "Components of cooling load",
-"b_name": "Different heat sources"
+"a": "t37",
+"b": "t40",
+"a_name": "Psychrometric relations and Psychrometric processes",
+"b_name": "Classification of air conditioning system"
 },
 {
 "i": 1,
-"a": "t19",
-"b": "t20",
-"a_name": "Simple and practical vapor absorption system",
-"b_name": "Domestic Electrolux refrigerator"
+"a": "t36",
+"b": "t53",
+"a_name": "Various Psychrometry properties",
+"b_name": "Humidistats"
 },
 {
 "i": 2,
-"a": "t31",
-"b": "t32",
-"a_name": "Thermal comfort and its significance",
-"b_name": "Factors influencing human thermal comfort"
+"a": "t10",
+"b": "t12",
+"a_name": "Air Refrigeration system",
+"b_name": "Numerical based on Simple and Bootstrap air refrigeration"
 },
 {
 "i": 3,
+"a": "t52",
+"b": "t55",
+"a_name": "Thermostats",
+"b_name": "Electronic Controllers"
+},
+{
+"i": 4,
+"a": "t47",
+"b": "t49",
+"a_name": "Friction factor & friction chart for circular ducts",
+"b_name": "Methods of duct system design"
+},
+{
+"i": 5,
+"a": "t4",
+"b": "t2",
+"a_name": "COP",
+"b_name": "Carnot refrigeration cycle"
+},
+{
+"i": 6,
+"a": "t31",
+"b": "t33",
+"a_name": "Thermal comfort and its significance",
+"b_name": "Effective Temperature"
+},
+{
+"i": 7,
 "a": "t3",
 "b": "t11",
 "a_name": "Bell Coleman cycle",
 "b_name": "Methods of air refrigeration system"
 },
 {
-"i": 4,
-"a": "t13",
-"b": "t57",
-"a_name": "Vapor Compression Refrigeration System",
-"b_name": "Ice plant"
-},
-{
-"i": 5,
-"a": "t46",
-"b": "t49",
-"a_name": "Pressure & Pressure losses in ducts",
-"b_name": "Methods of duct system design. *"
-},
-{
-"i": 6,
-"a": "t47",
-"b": "t49",
-"a_name": "Friction factor & friction chart for circular ducts",
-"b_name": "Methods of duct system design. *"
-},
-{
-"i": 7,
-"a": "t30",
-"b": "t32",
-"a_name": "Thermal Comfort Conditions",
-"b_name": "Factors influencing human thermal comfort"
-},
-{
 "i": 8,
-"a": "t42",
-"b": "t44",
-"a_name": "Components of cooling load",
-"b_name": "Design of air conditioning system (More emphasis on industry based load estimation.)"
-},
-{
-"i": 9,
-"a": "t18",
-"b": "t20",
-"a_name": "Vapor Absorption Refrigeration System",
-"b_name": "Domestic Electrolux refrigerator"
-},
-{
-"i": 10,
 "a": "t3",
 "b": "t10",
 "a_name": "Bell Coleman cycle",
 "b_name": "Air Refrigeration system"
 },
 {
+"i": 9,
+"a": "t4",
+"b": "t14",
+"a_name": "COP",
+"b_name": "Thermodynamic analysis of Simple VCRS and T-s and P-h chart"
+},
+{
+"i": 10,
+"a": "t11",
+"b": "t12",
+"a_name": "Methods of air refrigeration system",
+"b_name": "Numerical based on Simple and Bootstrap air refrigeration"
+},
+{
 "i": 11,
-"a": "t41",
+"a": "t42",
 "b": "t43",
-"a_name": "Cooling Load Estimation",
+"a_name": "Components of cooling load",
 "b_name": "Different heat sources"
 },
 {
 "i": 12,
-"a": "t4",
-"b": "t3",
-"a_name": "COP",
-"b_name": "Bell Coleman cycle"
+"a": "t47",
+"b": "t48",
+"a_name": "Friction factor & friction chart for circular ducts",
+"b_name": "Equivalent diameter of a circular duct for rectangular ducts"
 },
 {
 "i": 13,
+"a": "t5",
+"b": "t9",
+"a_name": "Refrigerants",
+"b_name": "Eco-friendly refrigerants"
+},
+{
+"i": 14,
+"a": "t42",
+"b": "t44",
+"a_name": "Components of cooling load",
+"b_name": "Design of air conditioning system (More emphasis on industry based load estimation.)"
+},
+{
+"i": 15,
+"a": "t13",
+"b": "t18",
+"a_name": "Vapor Compression Refrigeration System",
+"b_name": "Vapor Absorption Refrigeration System"
+},
+{
+"i": 16,
 "a": "t2",
 "b": "t4",
 "a_name": "Carnot refrigeration cycle",
 "b_name": "COP"
 },
 {
-"i": 14,
+"i": 17,
+"a": "t7",
+"b": "t9",
+"a_name": "Properties of Refrigerant",
+"b_name": "Eco-friendly refrigerants"
+},
+{
+"i": 18,
+"a": "t30",
+"b": "t31",
+"a_name": "Thermal Comfort Conditions",
+"b_name": "Thermal comfort and its significance"
+},
+{
+"i": 19,
 "a": "t48",
 "b": "t49",
 "a_name": "Equivalent diameter of a circular duct for rectangular ducts",
-"b_name": "Methods of duct system design. *"
+"b_name": "Methods of duct system design"
 },
 {
-"i": 15,
-"a": "t4",
-"b": "t2",
-"a_name": "COP",
-"b_name": "Carnot refrigeration cycle"
+"i": 20,
+"a": "t32",
+"b": "t33",
+"a_name": "Factors influencing human thermal comfort",
+"b_name": "Effective Temperature"
 }
 ]
 }

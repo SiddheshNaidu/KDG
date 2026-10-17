@@ -1,0 +1,189 @@
+{
+ "edges": [
+  {
+   "a": "t1",
+   "b": "t2",
+   "why": "screen effectiveness relies on size analysis"
+  },
+  {
+   "a": "t5",
+   "b": "t6",
+   "why": "mechanism of size reduction"
+  },
+  {
+   "a": "t5",
+   "b": "t7",
+   "why": "energy laws for size reduction"
+  },
+  {
+   "a": "t6",
+   "b": "t8",
+   "why": "crusher operates by mechanism"
+  },
+  {
+   "a": "t6",
+   "b": "t9",
+   "why": "hammer mill operates by mechanism"
+  },
+  {
+   "a": "t6",
+   "b": "t10",
+   "why": "mills operate by mechanism"
+  },
+  {
+   "a": "t11",
+   "b": "t12",
+   "why": "introduction precedes mixing detail"
+  },
+  {
+   "a": "t12",
+   "b": "t13",
+   "why": "degree of mixing defined after intro"
+  },
+  {
+   "a": "t13",
+   "b": "t14",
+   "why": "equipment assessed by mixing degree"
+  },
+  {
+   "a": "t14",
+   "b": "t15",
+   "why": "muller mixer is cohesive solids mixer"
+  },
+  {
+   "a": "t13",
+   "b": "t16",
+   "why": "free flowing mixers assessed by mixing degree"
+  },
+  {
+   "a": "t16",
+   "b": "t17",
+   "why": "ribbon blender is free flowing mixer"
+  },
+  {
+   "a": "t18",
+   "b": "t19",
+   "why": "Ergun equation describes packed bed flow"
+  },
+  {
+   "a": "t18",
+   "b": "t20",
+   "why": "fluidization arises from bed flow"
+  },
+  {
+   "a": "t19",
+   "b": "t22",
+   "why": "minimum fluidization uses Ergun equation"
+  },
+  {
+   "a": "t20",
+   "b": "t21",
+   "why": "conditions for fluidization"
+  },
+  {
+   "a": "t21",
+   "b": "t22",
+   "why": "min velocity defines fluidization onset"
+  },
+  {
+   "a": "t20",
+   "b": "t23",
+   "why": "types of fluidization"
+  },
+  {
+   "a": "t20",
+   "b": "t24",
+   "why": "applications need fluidization"
+  },
+  {
+   "a": "t25",
+   "b": "t26",
+   "why": "mechanism of filtration"
+  },
+  {
+   "a": "t26",
+   "b": "t28",
+   "why": "constant rate filtration from mechanism"
+  },
+  {
+   "a": "t18",
+   "b": "t28",
+   "why": "filtration uses flow through packed bed"
+  },
+  {
+   "a": "t28",
+   "b": "t30",
+   "why": "washing uses filtration rate"
+  },
+  {
+   "a": "t28",
+   "b": "t31",
+   "why": "cloth and cake resistance in filtration"
+  },
+  {
+   "a": "t27",
+   "b": "t32",
+   "why": "filters implement filtration types"
+  },
+  {
+   "a": "t32",
+   "b": "t33",
+   "why": "rotary drum is a filter"
+  },
+  {
+   "a": "t32",
+   "b": "t34",
+   "why": "filter press is a filter"
+  },
+  {
+   "a": "t35",
+   "b": "t36",
+   "why": "batch sedimentation is a case"
+  },
+  {
+   "a": "t36",
+   "b": "t37",
+   "why": "Kynch theory models batch sedimentation"
+  },
+  {
+   "a": "t37",
+   "b": "t38",
+   "why": "thickener design uses Kynch theory"
+  },
+  {
+   "a": "t40",
+   "b": "t41",
+   "why": "cyclone is gas-solid equipment"
+  },
+  {
+   "a": "t40",
+   "b": "t42",
+   "why": "fabric filter is gas-solid equipment"
+  },
+  {
+   "a": "t43",
+   "b": "t44",
+   "why": "storage needs particulate properties"
+  },
+  {
+   "a": "t44",
+   "b": "t45",
+   "why": "bin pressure depends on properties"
+  },
+  {
+   "a": "t45",
+   "b": "t46",
+   "why": "Jansen equation gives bin pressure"
+  },
+  {
+   "a": "t47",
+   "b": "t49",
+   "why": "belt conveyer is a conveying type"
+  },
+  {
+   "a": "t47",
+   "b": "t50",
+   "why": "bucket conveyer is a conveying type"
+  }
+ ]
+}

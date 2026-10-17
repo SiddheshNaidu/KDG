@@ -1,0 +1,267 @@
+{
+"course": "24061132",
+"title": "PEC-2 – Heating, Ventilation, Air-Conditioning & Refrigeration",
+"modules": [
+{
+"index": 1,
+"name": "Refrigeration Fundamental, Refrigerants and Air Refrigeration Systems"
+},
+{
+"index": 2,
+"name": "Refrigeration and Heat Pump Systems"
+},
+{
+"index": 3,
+"name": "Thermal Comfort, Psychrometry and Cooling Load Estimation"
+},
+{
+"index": 4,
+"name": "Cooling load Estimation"
+},
+{
+"index": 5,
+"name": "Air Distribution and Handling Systems in HVAC"
+},
+{
+"index": 6,
+"name": "HVACR Components and application"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Basic Knowledge",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Carnot Refrigerator",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Carnot Heat Pump",
+"module": 1
+},
+{
+"id": "t4",
+"name": "their Coefficient of Performance (COP) & limitations",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Effect of Temperature and Pressure on COP of the Cycle",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Vapor Compression Refrigeration System",
+"module": 2
+},
+{
+"id": "t7",
+"name": "Simple & actual VCR system on P-h and T-s diagrams",
+"module": 2
+},
+{
+"id": "t8",
+"name": "Thermodynamic analysis of the simple VCR cycle",
+"module": 2
+},
+{
+"id": "t9",
+"name": "Factors affecting the performance of the cycle",
+"module": 2
+},
+{
+"id": "t10",
+"name": "Numerical based on standard VCR system by using P-h chart and properties table",
+"module": 2
+},
+{
+"id": "t11",
+"name": "Vapor Absorption Refrigeration System",
+"module": 2
+},
+{
+"id": "t12",
+"name": "Simple and Practical",
+"module": 2
+},
+{
+"id": "t13",
+"name": "Thermal Comfort Conditions",
+"module": 3
+},
+{
+"id": "t14",
+"name": "Selection of Inside Design Conditions",
+"module": 3
+},
+{
+"id": "t15",
+"name": "Thermal Comfort and its significance",
+"module": 3
+},
+{
+"id": "t16",
+"name": "Factors Affecting Thermal Comfort",
+"module": 3
+},
+{
+"id": "t17",
+"name": "Effective Temperature & Factors Governing Effective Temperature",
+"module": 3
+},
+{
+"id": "t18",
+"name": "Comfort Chart",
+"module": 3
+},
+{
+"id": "t19",
+"name": "Selection of Outside Design Conditions",
+"module": 3
+},
+{
+"id": "t20",
+"name": "Psychrometry of Air Conditioning Processes",
+"module": 3
+},
+{
+"id": "t21",
+"name": "Psychrometry Properties and Relations Psychrometry Processes",
+"module": 3
+},
+{
+"id": "t22",
+"name": "Adiabatic Air Mixing",
+"module": 3
+},
+{
+"id": "t23",
+"name": "Process on Psychrometric Chart",
+"module": 3
+},
+{
+"id": "t24",
+"name": "RSHF",
+"module": 3
+},
+{
+"id": "t25",
+"name": "GSHF",
+"module": 3
+},
+{
+"id": "t26",
+"name": "ERSHF",
+"module": 3
+},
+{
+"id": "t27",
+"name": "Bypass Factor *",
+"module": 3
+},
+{
+"id": "t28",
+"name": "Cooling Load Estimation",
+"module": 4
+},
+{
+"id": "t29",
+"name": "Components of cooling load",
+"module": 4
+},
+{
+"id": "t30",
+"name": "Different heat sources",
+"module": 4
+},
+{
+"id": "t31",
+"name": "Design of air conditioning system",
+"module": 4
+},
+{
+"id": "t32",
+"name": "(More emphasis on industry based load estimation.)",
+"module": 4
+},
+{
+"id": "t33",
+"name": "Air Distribution System",
+"module": 5
+},
+{
+"id": "t34",
+"name": "Duct",
+"module": 5
+},
+{
+"id": "t35",
+"name": "Classification of Ducts",
+"module": 5
+},
+{
+"id": "t36",
+"name": "Duct Material",
+"module": 5
+},
+{
+"id": "t37",
+"name": "HVACR components",
+"module": 6
+},
+{
+"id": "t38",
+"name": "Reciprocating",
+"module": 6
+},
+{
+"id": "t39",
+"name": "screw and scroll compressors",
+"module": 6
+},
+{
+"id": "t40",
+"name": "Air cooled and water cooled and evaporative condensers",
+"module": 6
+},
+{
+"id": "t41",
+"name": "DX",
+"module": 6
+},
+{
+"id": "t42",
+"name": "Flooded and Forced feed evaporators",
+"module": 6
+},
+{
+"id": "t43",
+"name": "Expansion devices",
+"module": 6
+},
+{
+"id": "t44",
+"name": "Capillary tube",
+"module": 6
+},
+{
+"id": "t45",
+"name": "TXV",
+"module": 6
+},
+{
+"id": "t46",
+"name": "EXV",
+"module": 6
+},
+{
+"id": "t47",
+"name": "Type of insulation materials. *",
+"module": 6
+}
+]
+}

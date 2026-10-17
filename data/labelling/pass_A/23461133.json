@@ -1,0 +1,189 @@
+{
+"edges": [
+{
+"a": "t1",
+"b": "t2",
+"why": "intro before components"
+},
+{
+"a": "t8",
+"b": "t4",
+"why": "non-spatial vs spatial types"
+},
+{
+"a": "t4",
+"b": "t5",
+"why": "point precedes line"
+},
+{
+"a": "t5",
+"b": "t6",
+"why": "polygon built from lines"
+},
+{
+"a": "t6",
+"b": "t7",
+"why": "vector structures before file formats"
+},
+{
+"a": "t1",
+"b": "t8",
+"why": "GIS basics first"
+},
+{
+"a": "t8",
+"b": "t10",
+"why": "spatial databases store spatial types"
+},
+{
+"a": "t10",
+"b": "t11",
+"why": "spatial DBMS builds on databases"
+},
+{
+"a": "t11",
+"b": "t12",
+"why": "spatial SQL needs spatial DBMS"
+},
+{
+"a": "t9",
+"b": "t13",
+"why": "acquired data gets georeferenced"
+},
+{
+"a": "t13",
+"b": "t14",
+"why": "cleaning after digitization"
+},
+{
+"a": "t8",
+"b": "t15",
+"why": "analysis operates on spatial data"
+},
+{
+"a": "t15",
+"b": "t16",
+"why": "buffering is an analysis operation"
+},
+{
+"a": "t15",
+"b": "t17",
+"why": "overlay is an analysis operation"
+},
+{
+"a": "t15",
+"b": "t18",
+"why": "network analysis is analysis type"
+},
+{
+"a": "t15",
+"b": "t19",
+"why": "thematic mapping uses analysis results"
+},
+{
+"a": "t20",
+"b": "t21",
+"why": "libraries within GIS Python"
+},
+{
+"a": "t21",
+"b": "t22",
+"why": "GeoPandas is a library"
+},
+{
+"a": "t21",
+"b": "t23",
+"why": "Shapely is a library"
+},
+{
+"a": "t23",
+"b": "t22",
+"why": "GeoPandas builds on Shapely"
+},
+{
+"a": "t22",
+"b": "t24",
+"why": "automation uses GeoPandas"
+},
+{
+"a": "t25",
+"b": "t26",
+"why": "intro before drone types"
+},
+{
+"a": "t26",
+"b": "t27",
+"why": "components of each drone type"
+},
+{
+"a": "t27",
+"b": "t28",
+"why": "planning needs drone capabilities"
+},
+{
+"a": "t25",
+"b": "t29",
+"why": "regulations need drone intro"
+},
+{
+"a": "t29",
+"b": "t30",
+"why": "safety follows regulations"
+},
+{
+"a": "t9",
+"b": "t31",
+"why": "imaging relies on acquisition methods"
+},
+{
+"a": "t31",
+"b": "t32",
+"why": "stitching needs aerial images"
+},
+{
+"a": "t32",
+"b": "t33",
+"why": "orthomosaic from stitched images"
+},
+{
+"a": "t32",
+"b": "t34",
+"why": "3D mapping uses photogrammetry"
+},
+{
+"a": "t35",
+"b": "t36",
+"why": "comparison needs remote sensing"
+},
+{
+"a": "t35",
+"b": "t37",
+"why": "NDVI is a remote sensing index"
+},
+{
+"a": "t1",
+"b": "t38",
+"why": "IoT+GIS needs GIS basics"
+},
+{
+"a": "t15",
+"b": "t39",
+"why": "geospatial ML uses analysis"
+},
+{
+"a": "t1",
+"b": "t42",
+"why": "Web GIS needs GIS basics"
+},
+{
+"a": "t38",
+"b": "t40",
+"why": "real-time mapping uses IoT data"
+},
+{
+"a": "t40",
+"b": "t41",
+"why": "case studies apply real-time systems"
+}
+]
+}

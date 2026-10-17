@@ -1,1 +1,174 @@
-{"edges": [{"a": "t2", "b": "t3", "why": "foundation needed before"}, {"a": "t3", "b": "t4", "why": "foundation needed before"}, {"a": "t3", "b": "t5", "why": "foundation needed before"}, {"a": "t5", "b": "t6", "why": "foundation needed before"}, {"a": "t5", "b": "t7", "why": "foundation needed before"}, {"a": "t5", "b": "t8", "why": "foundation needed before"}, {"a": "t10", "b": "t11", "why": "foundation needed before"}, {"a": "t10", "b": "t12", "why": "foundation needed before"}, {"a": "t10", "b": "t13", "why": "foundation needed before"}, {"a": "t16", "b": "t17", "why": "foundation needed before"}, {"a": "t17", "b": "t18", "why": "foundation needed before"}, {"a": "t17", "b": "t19", "why": "foundation needed before"}, {"a": "t20", "b": "t21", "why": "foundation needed before"}, {"a": "t21", "b": "t22", "why": "foundation needed before"}, {"a": "t23", "b": "t24", "why": "foundation needed before"}, {"a": "t23", "b": "t25", "why": "foundation needed before"}, {"a": "t23", "b": "t26", "why": "foundation needed before"}, {"a": "t28", "b": "t29", "why": "foundation needed before"}, {"a": "t29", "b": "t31", "why": "foundation needed before"}, {"a": "t32", "b": "t33", "why": "foundation needed before"}, {"a": "t32", "b": "t34", "why": "foundation needed before"}, {"a": "t36", "b": "t37", "why": "foundation needed before"}, {"a": "t38", "b": "t39", "why": "foundation needed before"}, {"a": "t38", "b": "t40", "why": "foundation needed before"}, {"a": "t41", "b": "t42", "why": "foundation needed before"}, {"a": "t41", "b": "t43", "why": "foundation needed before"}, {"a": "t44", "b": "t45", "why": "foundation needed before"}, {"a": "t46", "b": "t47", "why": "foundation needed before"}, {"a": "t48", "b": "t47", "why": "foundation needed before"}]}
+{
+ "edges": [
+  {
+   "a": "t2",
+   "b": "t3",
+   "why": "process is part of software engineering"
+  },
+  {
+   "a": "t3",
+   "b": "t4",
+   "why": "CMM assesses process maturity"
+  },
+  {
+   "a": "t3",
+   "b": "t5",
+   "why": "prescriptive models are processes"
+  },
+  {
+   "a": "t5",
+   "b": "t6",
+   "why": "waterfall is prescriptive model"
+  },
+  {
+   "a": "t5",
+   "b": "t7",
+   "why": "incremental is prescriptive model"
+  },
+  {
+   "a": "t5",
+   "b": "t8",
+   "why": "evolutionary is prescriptive model"
+  },
+  {
+   "a": "t8",
+   "b": "t9",
+   "why": "spiral is evolutionary"
+  },
+  {
+   "a": "t10",
+   "b": "t11",
+   "why": "XP is agile method"
+  },
+  {
+   "a": "t10",
+   "b": "t12",
+   "why": "Scrum is agile method"
+  },
+  {
+   "a": "t10",
+   "b": "t13",
+   "why": "Kanban is agile method"
+  },
+  {
+   "a": "t16",
+   "b": "t17",
+   "why": "modeling follows requirement engineering"
+  },
+  {
+   "a": "t17",
+   "b": "t18",
+   "why": "scenario models are requirement models"
+  },
+  {
+   "a": "t17",
+   "b": "t19",
+   "why": "DFD is requirement model"
+  },
+  {
+   "a": "t20",
+   "b": "t21",
+   "why": "estimation uses metrics"
+  },
+  {
+   "a": "t21",
+   "b": "t22",
+   "why": "scheduling uses estimates"
+  },
+  {
+   "a": "t16",
+   "b": "t23",
+   "why": "design derived from requirements"
+  },
+  {
+   "a": "t23",
+   "b": "t24",
+   "why": "modular design follows principles"
+  },
+  {
+   "a": "t24",
+   "b": "t25",
+   "why": "cohesion coupling assess modularity"
+  },
+  {
+   "a": "t23",
+   "b": "t26",
+   "why": "architecture follows design principles"
+  },
+  {
+   "a": "t17",
+   "b": "t27",
+   "why": "UML models requirements and design"
+  },
+  {
+   "a": "t28",
+   "b": "t29",
+   "why": "integration follows unit testing"
+  },
+  {
+   "a": "t29",
+   "b": "t30",
+   "why": "validation follows integration"
+  },
+  {
+   "a": "t30",
+   "b": "t31",
+   "why": "system testing follows validation"
+  },
+  {
+   "a": "t32",
+   "b": "t33",
+   "why": "basis path is white-box"
+  },
+  {
+   "a": "t32",
+   "b": "t34",
+   "why": "control structure testing is white-box"
+  },
+  {
+   "a": "t34",
+   "b": "t36",
+   "why": "equivalence partitioning is black-box"
+  },
+  {
+   "a": "t36",
+   "b": "t37",
+   "why": "boundary analysis extends equivalence"
+  },
+  {
+   "a": "t38",
+   "b": "t39",
+   "why": "mitigation follows risk analysis"
+  },
+  {
+   "a": "t39",
+   "b": "t40",
+   "why": "RMMM plan includes mitigation"
+  },
+  {
+   "a": "t41",
+   "b": "t42",
+   "why": "reviews support quality assurance"
+  },
+  {
+   "a": "t41",
+   "b": "t43",
+   "why": "reliability is a quality concept"
+  },
+  {
+   "a": "t44",
+   "b": "t45",
+   "why": "version control is part of SCM"
+  },
+  {
+   "a": "t46",
+   "b": "t47",
+   "why": "re-engineering is maintenance activity"
+  },
+  {
+   "a": "t48",
+   "b": "t47",
+   "why": "reverse engineering precedes re-engineering"
+  }
+ ]
+}

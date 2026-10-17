@@ -1,289 +1,279 @@
 {
- "edges": [
-  {
-   "a": "t1",
-   "b": "t3",
-   "why": "signatures rely on public key crypto"
-  },
-  {
-   "a": "t2",
-   "b": "t3",
-   "why": "signatures and blocks use hashes"
-  },
-  {
-   "a": "t2",
-   "b": "t14",
-   "why": "signatures and blocks use hashes"
-  },
-  {
-   "a": "t5",
-   "b": "t6",
-   "why": "decentralization before blockchain types"
-  },
-  {
-   "a": "t6",
-   "b": "t7",
-   "why": "types overview first"
-  },
-  {
-   "a": "t6",
-   "b": "t8",
-   "why": "types overview first"
-  },
-  {
-   "a": "t6",
-   "b": "t9",
-   "why": "types overview first"
-  },
-  {
-   "a": "t6",
-   "b": "t10",
-   "why": "types overview first"
-  },
-  {
-   "a": "t15",
-   "b": "t16",
-   "why": "basics before key concepts"
-  },
-  {
-   "a": "t18",
-   "b": "t17",
-   "why": "miners receive rewards"
-  },
-  {
-   "a": "t20",
-   "b": "t21",
-   "why": "hard/soft are fork kinds"
-  },
-  {
-   "a": "t2",
-   "b": "t23",
-   "why": "Merkle trees built from hashes"
-  },
-  {
-   "a": "t1",
-   "b": "t22",
-   "why": "wallets and addresses derive from keys"
-  },
-  {
-   "a": "t1",
-   "b": "t25",
-   "why": "wallets and addresses derive from keys"
-  },
-  {
-   "a": "t3",
-   "b": "t26",
-   "why": "transactions are signed"
-  },
-  {
-   "a": "t26",
-   "b": "t27",
-   "why": "double spending concerns transactions"
-  },
-  {
-   "a": "t27",
-   "b": "t29",
-   "why": "PoW prevents double spending"
-  },
-  {
-   "a": "t28",
-   "b": "t29",
-   "why": "permissionless algorithm family"
-  },
-  {
-   "a": "t28",
-   "b": "t30",
-   "why": "permissionless algorithm family"
-  },
-  {
-   "a": "t28",
-   "b": "t32",
-   "why": "permissionless algorithm family"
-  },
-  {
-   "a": "t28",
-   "b": "t33",
-   "why": "permissionless algorithm family"
-  },
-  {
-   "a": "t28",
-   "b": "t34",
-   "why": "permissionless algorithm family"
-  },
-  {
-   "a": "t30",
-   "b": "t31",
-   "why": "DPoS modifies PoS"
-  },
-  {
-   "a": "t35",
-   "b": "t36",
-   "why": "permissioned algorithm family"
-  },
-  {
-   "a": "t35",
-   "b": "t38",
-   "why": "permissioned algorithm family"
-  },
-  {
-   "a": "t35",
-   "b": "t39",
-   "why": "permissioned algorithm family"
-  },
-  {
-   "a": "t35",
-   "b": "t40",
-   "why": "permissioned algorithm family"
-  },
-  {
-   "a": "t45",
-   "b": "t47",
-   "why": "Ethereum before architecture and contracts"
-  },
-  {
-   "a": "t45",
-   "b": "t53",
-   "why": "Ethereum before architecture and contracts"
-  },
-  {
-   "a": "t47",
-   "b": "t48",
-   "why": "EVM is architecture component"
-  },
-  {
-   "a": "t48",
-   "b": "t52",
-   "why": "gas metered by EVM"
-  },
-  {
-   "a": "t26",
-   "b": "t49",
-   "why": "transaction life cycle builds on transactions"
-  },
-  {
-   "a": "t53",
-   "b": "t54",
-   "why": "contract design"
-  },
-  {
-   "a": "t54",
-   "b": "t55",
-   "why": "compile after design"
-  },
-  {
-   "a": "t55",
-   "b": "t56",
-   "why": "deploy after compile"
-  },
-  {
-   "a": "t53",
-   "b": "t57",
-   "why": "Solidity writes smart contracts"
-  },
-  {
-   "a": "t57",
-   "b": "t58",
-   "why": "Solidity language elements"
-  },
-  {
-   "a": "t57",
-   "b": "t59",
-   "why": "Solidity language elements"
-  },
-  {
-   "a": "t57",
-   "b": "t60",
-   "why": "Solidity language elements"
-  },
-  {
-   "a": "t57",
-   "b": "t61",
-   "why": "Solidity language elements"
-  },
-  {
-   "a": "t62",
-   "b": "t63",
-   "why": "tool overview first"
-  },
-  {
-   "a": "t62",
-   "b": "t64",
-   "why": "tool overview first"
-  },
-  {
-   "a": "t62",
-   "b": "t65",
-   "why": "tool overview first"
-  },
-  {
-   "a": "t62",
-   "b": "t66",
-   "why": "tool overview first"
-  },
-  {
-   "a": "t53",
-   "b": "t70",
-   "why": "tokens and DApps built on contracts"
-  },
-  {
-   "a": "t53",
-   "b": "t69",
-   "why": "tokens and DApps built on contracts"
-  },
-  {
-   "a": "t53",
-   "b": "t71",
-   "why": "tokens and DApps built on contracts"
-  },
-  {
-   "a": "t70",
-   "b": "t68",
-   "why": "NFT uses ERC-721"
-  },
-  {
-   "a": "t71",
-   "b": "t72",
-   "why": "DApp architecture includes integration and APIs"
-  },
-  {
-   "a": "t71",
-   "b": "t75",
-   "why": "DApp architecture includes integration and APIs"
-  },
-  {
-   "a": "t72",
-   "b": "t73",
-   "why": "libraries enable integration"
-  },
-  {
-   "a": "t72",
-   "b": "t74",
-   "why": "libraries enable integration"
-  },
-  {
-   "a": "t42",
-   "b": "t84",
-   "why": "L2 addresses scalability"
-  },
-  {
-   "a": "t29",
-   "b": "t92",
-   "why": "51% attack targets PoW"
-  },
-  {
-   "a": "t89",
-   "b": "t90",
-   "why": "attack kinds"
-  },
-  {
-   "a": "t89",
-   "b": "t91",
-   "why": "attack kinds"
-  },
-  {
-   "a": "t43",
-   "b": "t88",
-   "why": "energy motivates sustainable mining"
-  }
- ]
+"edges": [
+{
+"a": "t2",
+"b": "t3",
+"why": "signatures built on hashing"
+},
+{
+"a": "t1",
+"b": "t3",
+"why": "signatures built on public key crypto"
+},
+{
+"a": "t5",
+"b": "t6",
+"why": "centralization context before types"
+},
+{
+"a": "t6",
+"b": "t7",
+"why": "public type"
+},
+{
+"a": "t6",
+"b": "t8",
+"why": "private type"
+},
+{
+"a": "t6",
+"b": "t9",
+"why": "consortium type"
+},
+{
+"a": "t6",
+"b": "t10",
+"why": "hybrid type"
+},
+{
+"a": "t4",
+"b": "t12",
+"why": "DLT evolution before DLT vs blockchain"
+},
+{
+"a": "t2",
+"b": "t14",
+"why": "blocks chain via hashes"
+},
+{
+"a": "t14",
+"b": "t15",
+"why": "block structure before Bitcoin basics"
+},
+{
+"a": "t15",
+"b": "t17",
+"why": "Bitcoin rewards"
+},
+{
+"a": "t15",
+"b": "t18",
+"why": "miners in Bitcoin"
+},
+{
+"a": "t18",
+"b": "t19",
+"why": "mining difficulty"
+},
+{
+"a": "t14",
+"b": "t20",
+"why": "forks affect chain"
+},
+{
+"a": "t20",
+"b": "t21",
+"why": "hard and soft forks"
+},
+{
+"a": "t3",
+"b": "t25",
+"why": "addresses derive from keys"
+},
+{
+"a": "t2",
+"b": "t23",
+"why": "Merkle trees use hashes"
+},
+{
+"a": "t15",
+"b": "t24",
+"why": "UTXO is Bitcoin model"
+},
+{
+"a": "t24",
+"b": "t26",
+"why": "transactions spend UTXOs"
+},
+{
+"a": "t26",
+"b": "t27",
+"why": "double spending concerns transactions"
+},
+{
+"a": "t28",
+"b": "t29",
+"why": "PoW is permissionless algorithm"
+},
+{
+"a": "t28",
+"b": "t30",
+"why": "PoS permissionless"
+},
+{
+"a": "t30",
+"b": "t31",
+"why": "delegated PoS extends PoS"
+},
+{
+"a": "t28",
+"b": "t32",
+"why": "PoA"
+},
+{
+"a": "t28",
+"b": "t33",
+"why": "PoET"
+},
+{
+"a": "t28",
+"b": "t34",
+"why": "PoB"
+},
+{
+"a": "t35",
+"b": "t36",
+"why": "BFT permissioned"
+},
+{
+"a": "t35",
+"b": "t37",
+"why": "Solo ordering"
+},
+{
+"a": "t35",
+"b": "t38",
+"why": "Kafka ordering"
+},
+{
+"a": "t35",
+"b": "t39",
+"why": "RAFT"
+},
+{
+"a": "t35",
+"b": "t40",
+"why": "PAXOS"
+},
+{
+"a": "t45",
+"b": "t47",
+"why": "Ethereum before architecture"
+},
+{
+"a": "t47",
+"b": "t48",
+"why": "EVM is part of architecture"
+},
+{
+"a": "t26",
+"b": "t49",
+"why": "transactions before life cycle"
+},
+{
+"a": "t49",
+"b": "t51",
+"why": "nonce in transaction"
+},
+{
+"a": "t48",
+"b": "t52",
+"why": "gas used by EVM"
+},
+{
+"a": "t45",
+"b": "t53",
+"why": "smart contracts on Ethereum"
+},
+{
+"a": "t53",
+"b": "t54",
+"why": "contract design"
+},
+{
+"a": "t54",
+"b": "t55",
+"why": "compile after design"
+},
+{
+"a": "t55",
+"b": "t56",
+"why": "deploy after compile"
+},
+{
+"a": "t53",
+"b": "t57",
+"why": "Solidity writes contracts"
+},
+{
+"a": "t57",
+"b": "t58",
+"why": "data types in Solidity"
+},
+{
+"a": "t57",
+"b": "t59",
+"why": "functions in Solidity"
+},
+{
+"a": "t59",
+"b": "t60",
+"why": "modifiers modify functions"
+},
+{
+"a": "t57",
+"b": "t61",
+"why": "events in Solidity"
+},
+{
+"a": "t71",
+"b": "t72",
+"why": "DApp architecture before integration"
+},
+{
+"a": "t72",
+"b": "t73",
+"why": "Web3.js integrates frontend"
+},
+{
+"a": "t72",
+"b": "t74",
+"why": "Ethers.js integrates frontend"
+},
+{
+"a": "t53",
+"b": "t71",
+"why": "DApps use smart contracts"
+},
+{
+"a": "t70",
+"b": "t68",
+"why": "NFT uses ERC-721"
+},
+{
+"a": "t88",
+"b": "t89",
+"why": "attacks include Sybil"
+},
+{
+"a": "t88",
+"b": "t90",
+"why": "replay attack"
+},
+{
+"a": "t88",
+"b": "t91",
+"why": "51% attack"
+},
+{
+"a": "t29",
+"b": "t91",
+"why": "51% attack targets PoW"
+},
+{
+"a": "t29",
+"b": "t87",
+"why": "PoW mining energy"
+}
+]
 }

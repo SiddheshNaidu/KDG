@@ -1,0 +1,379 @@
+{
+ "edges": [
+  {
+   "a": "t2",
+   "b": "t3",
+   "why": "path is the state sequence"
+  },
+  {
+   "a": "t3",
+   "b": "t4",
+   "why": "process is a path"
+  },
+  {
+   "a": "t2",
+   "b": "t5",
+   "why": "state functions versus path functions"
+  },
+  {
+   "a": "t8",
+   "b": "t9",
+   "why": "PdV work is work in a process"
+  },
+  {
+   "a": "t6",
+   "b": "t9",
+   "why": "PdV work needs quasi-static process"
+  },
+  {
+   "a": "t8",
+   "b": "t10",
+   "why": "first law relates heat and work"
+  },
+  {
+   "a": "t10",
+   "b": "t11",
+   "why": "statement precedes equation"
+  },
+  {
+   "a": "t11",
+   "b": "t12",
+   "why": "cyclic form of first law"
+  },
+  {
+   "a": "t11",
+   "b": "t13",
+   "why": "PMM1 violates first law"
+  },
+  {
+   "a": "t11",
+   "b": "t14",
+   "why": "non-flow application of first law"
+  },
+  {
+   "a": "t14",
+   "b": "t15",
+   "why": "flow system extends first law"
+  },
+  {
+   "a": "t15",
+   "b": "t16",
+   "why": "steady flow is flow special case"
+  },
+  {
+   "a": "t16",
+   "b": "t17",
+   "why": "energy balance for steady flow"
+  },
+  {
+   "a": "t17",
+   "b": "t18",
+   "why": "SFEE applied to nozzle"
+  },
+  {
+   "a": "t17",
+   "b": "t19",
+   "why": "SFEE applied to turbine"
+  },
+  {
+   "a": "t17",
+   "b": "t20",
+   "why": "SFEE applied to compressor"
+  },
+  {
+   "a": "t17",
+   "b": "t21",
+   "why": "SFEE applied to pump"
+  },
+  {
+   "a": "t17",
+   "b": "t22",
+   "why": "SFEE applied to boiler"
+  },
+  {
+   "a": "t17",
+   "b": "t23",
+   "why": "SFEE applied to condenser"
+  },
+  {
+   "a": "t17",
+   "b": "t24",
+   "why": "SFEE applied to heat exchanger"
+  },
+  {
+   "a": "t17",
+   "b": "t25",
+   "why": "SFEE applied to throttling"
+  },
+  {
+   "a": "t17",
+   "b": "t26",
+   "why": "steady flow work from SFEE"
+  },
+  {
+   "a": "t26",
+   "b": "t27",
+   "why": "steady flow work equals VdP"
+  },
+  {
+   "a": "t30",
+   "b": "t29",
+   "why": "second law motivated by first-law limits"
+  },
+  {
+   "a": "t31",
+   "b": "t32",
+   "why": "engine operates between reservoirs"
+  },
+  {
+   "a": "t32",
+   "b": "t33",
+   "why": "pump is reversed engine"
+  },
+  {
+   "a": "t29",
+   "b": "t34",
+   "why": "statements formalise second law"
+  },
+  {
+   "a": "t34",
+   "b": "t37",
+   "why": "PMM2 violates second law"
+  },
+  {
+   "a": "t35",
+   "b": "t36",
+   "why": "causes explain irreversibility"
+  },
+  {
+   "a": "t35",
+   "b": "t38",
+   "why": "Carnot cycle is reversible"
+  },
+  {
+   "a": "t38",
+   "b": "t39",
+   "why": "theorem about Carnot engines"
+  },
+  {
+   "a": "t39",
+   "b": "t41",
+   "why": "Clausius theorem from Carnot analysis"
+  },
+  {
+   "a": "t41",
+   "b": "t40",
+   "why": "entropy defined from Clausius theorem"
+  },
+  {
+   "a": "t41",
+   "b": "t44",
+   "why": "inequality from Clausius theorem"
+  },
+  {
+   "a": "t40",
+   "b": "t42",
+   "why": "entropy shown to be property"
+  },
+  {
+   "a": "t40",
+   "b": "t43",
+   "why": "T-s diagram plots entropy"
+  },
+  {
+   "a": "t44",
+   "b": "t45",
+   "why": "entropy increase from inequality"
+  },
+  {
+   "a": "t40",
+   "b": "t46",
+   "why": "T ds relations involve entropy"
+  },
+  {
+   "a": "t46",
+   "b": "t47",
+   "why": "entropy change computed by T ds"
+  },
+  {
+   "a": "t51",
+   "b": "t52",
+   "why": "useful work relative to dead state"
+  },
+  {
+   "a": "t51",
+   "b": "t54",
+   "why": "availability uses dead state"
+  },
+  {
+   "a": "t52",
+   "b": "t54",
+   "why": "availability based on useful work"
+  },
+  {
+   "a": "t45",
+   "b": "t53",
+   "why": "irreversibility from entropy generation"
+  },
+  {
+   "a": "t40",
+   "b": "t55",
+   "why": "Helmholtz Gibbs defined with entropy"
+  },
+  {
+   "a": "t55",
+   "b": "t56",
+   "why": "Maxwell relations from potentials"
+  },
+  {
+   "a": "t56",
+   "b": "t57",
+   "why": "Clapeyron derived using Maxwell relation"
+  },
+  {
+   "a": "t56",
+   "b": "t59",
+   "why": "JT coefficient from thermodynamic relations"
+  },
+  {
+   "a": "t62",
+   "b": "t63",
+   "why": "saturation arises in phase change"
+  },
+  {
+   "a": "t62",
+   "b": "t66",
+   "why": "diagrams show phase change"
+  },
+  {
+   "a": "t66",
+   "b": "t67",
+   "why": "T-v is a property diagram"
+  },
+  {
+   "a": "t66",
+   "b": "t68",
+   "why": "p-v is a property diagram"
+  },
+  {
+   "a": "t66",
+   "b": "t69",
+   "why": "p-T is a property diagram"
+  },
+  {
+   "a": "t67",
+   "b": "t70",
+   "why": "critical point seen on T-v diagram"
+  },
+  {
+   "a": "t66",
+   "b": "t71",
+   "why": "T-s diagram is property diagram"
+  },
+  {
+   "a": "t63",
+   "b": "t72",
+   "why": "steam property calculation uses saturation"
+  },
+  {
+   "a": "t72",
+   "b": "t73",
+   "why": "wet properties precede dry superheated"
+  },
+  {
+   "a": "t73",
+   "b": "t77",
+   "why": "Rankine analysis uses steam tables"
+  },
+  {
+   "a": "t75",
+   "b": "t77",
+   "why": "Rankine cycle on plant components"
+  },
+  {
+   "a": "t76",
+   "b": "t77",
+   "why": "Rankine overcomes Carnot limits"
+  },
+  {
+   "a": "t77",
+   "b": "t78",
+   "why": "mean temperature analysis of Rankine"
+  },
+  {
+   "a": "t77",
+   "b": "t79",
+   "why": "reheat modifies Rankine"
+  },
+  {
+   "a": "t81",
+   "b": "t82",
+   "why": "mean effective pressure uses engine terms"
+  },
+  {
+   "a": "t83",
+   "b": "t84",
+   "why": "Otto uses air standard assumptions"
+  },
+  {
+   "a": "t83",
+   "b": "t85",
+   "why": "Diesel uses air standard assumptions"
+  },
+  {
+   "a": "t84",
+   "b": "t86",
+   "why": "comparison needs Otto cycle"
+  },
+  {
+   "a": "t85",
+   "b": "t86",
+   "why": "comparison needs Diesel cycle"
+  },
+  {
+   "a": "t83",
+   "b": "t87",
+   "why": "Brayton uses air standard assumptions"
+  },
+  {
+   "a": "t94",
+   "b": "t98",
+   "why": "nozzle flow uses Mach number"
+  },
+  {
+   "a": "t95",
+   "b": "t99",
+   "why": "isentropic flow uses stagnation properties"
+  },
+  {
+   "a": "t98",
+   "b": "t99",
+   "why": "duct flow generalises nozzle"
+  },
+  {
+   "a": "t99",
+   "b": "t100",
+   "why": "back pressure effect on nozzle"
+  },
+  {
+   "a": "t100",
+   "b": "t101",
+   "why": "critical pressure ratio from nozzle behavior"
+  },
+  {
+   "a": "t93",
+   "b": "t94",
+   "why": "sonic velocity from sound propagation"
+  },
+  {
+   "a": "t104",
+   "b": "t106",
+   "why": "first law reactive analysis uses formation enthalpy"
+  },
+  {
+   "a": "t104",
+   "b": "t105",
+   "why": "flame temperature uses enthalpies"
+  }
+ ]
+}

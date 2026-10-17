@@ -1,0 +1,264 @@
+{
+"edges": [
+{
+"a": "t2",
+"b": "t3",
+"why": "subsets defined on sets"
+},
+{
+"a": "t2",
+"b": "t5",
+"why": "operations act on sets"
+},
+{
+"a": "t5",
+"b": "t7",
+"why": "laws are about set operations"
+},
+{
+"a": "t3",
+"b": "t4",
+"why": "empty/universal sets defined via subsets"
+},
+{
+"a": "t9",
+"b": "t10",
+"why": "predicate logic extends propositional"
+},
+{
+"a": "t10",
+"b": "t11",
+"why": "quantifiers belong to predicate logic"
+},
+{
+"a": "t9",
+"b": "t13",
+"why": "proofs use logical implication"
+},
+{
+"a": "t13",
+"b": "t14",
+"why": "contradiction builds on direct proof"
+},
+{
+"a": "t13",
+"b": "t16",
+"why": "cases proof builds on direct proof"
+},
+{
+"a": "t13",
+"b": "t19",
+"why": "induction proofs use direct proof reasoning"
+},
+{
+"a": "t2",
+"b": "t20",
+"why": "relations are subsets of products of sets"
+},
+{
+"a": "t20",
+"b": "t21",
+"why": "representation needs relation definition"
+},
+{
+"a": "t20",
+"b": "t22",
+"why": "properties defined for relations"
+},
+{
+"a": "t22",
+"b": "t23",
+"why": "equivalence is reflexive symmetric transitive"
+},
+{
+"a": "t23",
+"b": "t24",
+"why": "classes arise from equivalence relation"
+},
+{
+"a": "t22",
+"b": "t25",
+"why": "closures add reflexive/symmetric/transitive property"
+},
+{
+"a": "t25",
+"b": "t26",
+"why": "Warshall computes transitive closure"
+},
+{
+"a": "t22",
+"b": "t28",
+"why": "partial order defined by properties"
+},
+{
+"a": "t28",
+"b": "t29",
+"why": "poset is set with partial order"
+},
+{
+"a": "t29",
+"b": "t30",
+"why": "Hasse diagram draws a poset"
+},
+{
+"a": "t29",
+"b": "t31",
+"why": "chains defined in posets"
+},
+{
+"a": "t29",
+"b": "t32",
+"why": "lattice is special poset"
+},
+{
+"a": "t32",
+"b": "t33",
+"why": "types of lattices refine lattice"
+},
+{
+"a": "t32",
+"b": "t34",
+"why": "sublattice defined from lattice"
+},
+{
+"a": "t20",
+"b": "t35",
+"why": "functions are special relations"
+},
+{
+"a": "t35",
+"b": "t36",
+"why": "injective defined for functions"
+},
+{
+"a": "t35",
+"b": "t37",
+"why": "surjective defined for functions"
+},
+{
+"a": "t36",
+"b": "t38",
+"why": "bijective is injective and surjective"
+},
+{
+"a": "t37",
+"b": "t38",
+"why": "bijective is injective and surjective"
+},
+{
+"a": "t35",
+"b": "t39",
+"why": "composition of functions"
+},
+{
+"a": "t38",
+"b": "t40",
+"why": "inverse exists for bijections"
+},
+{
+"a": "t5",
+"b": "t43",
+"why": "inclusion-exclusion counts set unions"
+},
+{
+"a": "t19",
+"b": "t45",
+"why": "solving recurrences uses induction"
+},
+{
+"a": "t44",
+"b": "t45",
+"why": "solving needs recurrence definition"
+},
+{
+"a": "t49",
+"b": "t50",
+"why": "subgroups are inside groups"
+},
+{
+"a": "t48",
+"b": "t49",
+"why": "groups extend monoids"
+},
+{
+"a": "t47",
+"b": "t48",
+"why": "monoid extends semigroup"
+},
+{
+"a": "t49",
+"b": "t51",
+"why": "abelian is commutative group"
+},
+{
+"a": "t50",
+"b": "t52",
+"why": "cyclic group generated subgroup"
+},
+{
+"a": "t49",
+"b": "t54",
+"why": "ring built on groups"
+},
+{
+"a": "t55",
+"b": "t56",
+"why": "representing needs graph types"
+},
+{
+"a": "t55",
+"b": "t57",
+"why": "subgraph of a graph"
+},
+{
+"a": "t57",
+"b": "t58",
+"why": "operations create graphs from graphs"
+},
+{
+"a": "t59",
+"b": "t60",
+"why": "path is a restricted walk"
+},
+{
+"a": "t59",
+"b": "t61",
+"why": "circuit is closed walk"
+},
+{
+"a": "t60",
+"b": "t62",
+"why": "connectedness defined by paths"
+},
+{
+"a": "t62",
+"b": "t63",
+"why": "disconnected is negation of connected"
+},
+{
+"a": "t62",
+"b": "t64",
+"why": "components are maximal connected subgraphs"
+},
+{
+"a": "t61",
+"b": "t66",
+"why": "Euler circuits are special circuits"
+},
+{
+"a": "t60",
+"b": "t66",
+"why": "Hamiltonian paths are special paths"
+},
+{
+"a": "t62",
+"b": "t68",
+"why": "cut set disconnects graph"
+},
+{
+"a": "t68",
+"b": "t69",
+"why": "cut vertex is single-vertex cut"
+}
+]
+}

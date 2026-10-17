@@ -1,0 +1,580 @@
+{
+"course": "2345111",
+"title": "Software Engineering and Agile Practices",
+"topics": [
+{
+"id": "t1",
+"name": "Nature of Software",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Software Engineering",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Software Process",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Generic Process Model",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Prescriptive Process Models",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Waterfall Model",
+"module": 1
+},
+{
+"id": "t7",
+"name": "V-model",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Incremental Process Models",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Evolutionary Process Models",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Concurrent Models",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Software Requirements",
+"module": 2
+},
+{
+"id": "t12",
+"name": "Functional & non- functional Requirements Engineering",
+"module": 2
+},
+{
+"id": "t13",
+"name": "Elicitation",
+"module": 2
+},
+{
+"id": "t14",
+"name": "Analysis",
+"module": 2
+},
+{
+"id": "t15",
+"name": "Specification",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Validation",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Software requirement specification (SRS) Design Principles",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Modularity",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Abstraction",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Coupling and Cohesion",
+"module": 2
+},
+{
+"id": "t21",
+"name": "Software Architecture Styles",
+"module": 2
+},
+{
+"id": "t22",
+"name": "Layered",
+"module": 2
+},
+{
+"id": "t23",
+"name": "MVC",
+"module": 2
+},
+{
+"id": "t24",
+"name": "Client-Server",
+"module": 2
+},
+{
+"id": "t25",
+"name": "Project Planning",
+"module": 3
+},
+{
+"id": "t26",
+"name": "Scheduling",
+"module": 3
+},
+{
+"id": "t27",
+"name": "Estimation Techniques Software Project Estimation",
+"module": 3
+},
+{
+"id": "t28",
+"name": "LOC",
+"module": 3
+},
+{
+"id": "t29",
+"name": "FP",
+"module": 3
+},
+{
+"id": "t30",
+"name": "Empirical Estimation Models",
+"module": 3
+},
+{
+"id": "t31",
+"name": "COCOMO II Model Project scheduling",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Defining a Task Set for the Software Project",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Timeline charts",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Tracking the Schedule",
+"module": 3
+},
+{
+"id": "t35",
+"name": "Risk Identification",
+"module": 4
+},
+{
+"id": "t36",
+"name": "Risk Assessment",
+"module": 4
+},
+{
+"id": "t37",
+"name": "Risk Projection",
+"module": 4
+},
+{
+"id": "t38",
+"name": "RMMM Software Configuration management",
+"module": 4
+},
+{
+"id": "t39",
+"name": "SCM repositories",
+"module": 4
+},
+{
+"id": "t40",
+"name": "SCM process",
+"module": 4
+},
+{
+"id": "t41",
+"name": "Levels of Testing",
+"module": 5
+},
+{
+"id": "t42",
+"name": "Integration",
+"module": 5
+},
+{
+"id": "t43",
+"name": "System",
+"module": 5
+},
+{
+"id": "t44",
+"name": "Acceptance",
+"module": 5
+},
+{
+"id": "t45",
+"name": "Static and Dynamic Testing Techniques overview Regression and Continuous Testing",
+"module": 5
+},
+{
+"id": "t46",
+"name": "Software Quality Assurance Task and Plan",
+"module": 5
+},
+{
+"id": "t47",
+"name": "Metrics",
+"module": 5
+},
+{
+"id": "t48",
+"name": "Software Reliability",
+"module": 5
+},
+{
+"id": "t49",
+"name": "Formal Technical Review (FTR)",
+"module": 5
+},
+{
+"id": "t50",
+"name": "Walkthrough Maintenance Types",
+"module": 5
+},
+{
+"id": "t51",
+"name": "Corrective",
+"module": 5
+},
+{
+"id": "t52",
+"name": "Adaptive",
+"module": 5
+},
+{
+"id": "t53",
+"name": "Preventive",
+"module": 5
+},
+{
+"id": "t54",
+"name": "Perfective",
+"module": 5
+},
+{
+"id": "t55",
+"name": "Software Reengineering and Refactoring",
+"module": 5
+},
+{
+"id": "t56",
+"name": "Agile Manifesto and Principles",
+"module": 6
+},
+{
+"id": "t57",
+"name": "Scrum Framework",
+"module": 6
+},
+{
+"id": "t58",
+"name": "Roles",
+"module": 6
+},
+{
+"id": "t59",
+"name": "Artifacts",
+"module": 6
+},
+{
+"id": "t60",
+"name": "Events",
+"module": 6
+},
+{
+"id": "t61",
+"name": "Kanban and Lean Software Development",
+"module": 6
+},
+{
+"id": "t62",
+"name": "Extreme Programming (XP)",
+"module": 6
+},
+{
+"id": "t63",
+"name": "Practices",
+"module": 6
+},
+{
+"id": "t64",
+"name": "Pair Programming",
+"module": 6
+},
+{
+"id": "t65",
+"name": "Test-Driven Development (TDD)",
+"module": 6
+},
+{
+"id": "t66",
+"name": "Agile Metrics",
+"module": 6
+},
+{
+"id": "t67",
+"name": "Agile Project Tracking",
+"module": 6
+},
+{
+"id": "t68",
+"name": "Velocity",
+"module": 6
+},
+{
+"id": "t69",
+"name": "Burn-Up/Burn- Down Charts",
+"module": 6
+},
+{
+"id": "t70",
+"name": "Agile Testing overview DevOps and its Lifecycle",
+"module": 6
+},
+{
+"id": "t71",
+"name": "DevSecOps and Secure Software Development Lifecycle",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t20",
+"b": "t21",
+"a_name": "Coupling and Cohesion",
+"b_name": "Software Architecture Styles"
+},
+{
+"i": 1,
+"a": "t17",
+"b": "t18",
+"a_name": "Software requirement specification (SRS) Design Principles",
+"b_name": "Modularity"
+},
+{
+"i": 2,
+"a": "t41",
+"b": "t65",
+"a_name": "Levels of Testing",
+"b_name": "Test-Driven Development (TDD)"
+},
+{
+"i": 3,
+"a": "t5",
+"b": "t7",
+"a_name": "Prescriptive Process Models",
+"b_name": "V-model"
+},
+{
+"i": 4,
+"a": "t50",
+"b": "t52",
+"a_name": "Walkthrough Maintenance Types",
+"b_name": "Adaptive"
+},
+{
+"i": 5,
+"a": "t38",
+"b": "t39",
+"a_name": "RMMM Software Configuration management",
+"b_name": "SCM repositories"
+},
+{
+"i": 6,
+"a": "t26",
+"b": "t32",
+"a_name": "Scheduling",
+"b_name": "Defining a Task Set for the Software Project"
+},
+{
+"i": 7,
+"a": "t5",
+"b": "t10",
+"a_name": "Prescriptive Process Models",
+"b_name": "Concurrent Models"
+},
+{
+"i": 8,
+"a": "t19",
+"b": "t18",
+"a_name": "Abstraction",
+"b_name": "Modularity"
+},
+{
+"i": 9,
+"a": "t15",
+"b": "t17",
+"a_name": "Specification",
+"b_name": "Software requirement specification (SRS) Design Principles"
+},
+{
+"i": 10,
+"a": "t11",
+"b": "t16",
+"a_name": "Software Requirements",
+"b_name": "Validation"
+},
+{
+"i": 11,
+"a": "t47",
+"b": "t48",
+"a_name": "Metrics",
+"b_name": "Software Reliability"
+},
+{
+"i": 12,
+"a": "t6",
+"b": "t7",
+"a_name": "Waterfall Model",
+"b_name": "V-model"
+},
+{
+"i": 13,
+"a": "t56",
+"b": "t66",
+"a_name": "Agile Manifesto and Principles",
+"b_name": "Agile Metrics"
+},
+{
+"i": 14,
+"a": "t41",
+"b": "t43",
+"a_name": "Levels of Testing",
+"b_name": "System"
+},
+{
+"i": 15,
+"a": "t46",
+"b": "t47",
+"a_name": "Software Quality Assurance Task and Plan",
+"b_name": "Metrics"
+},
+{
+"i": 16,
+"a": "t46",
+"b": "t48",
+"a_name": "Software Quality Assurance Task and Plan",
+"b_name": "Software Reliability"
+},
+{
+"i": 17,
+"a": "t46",
+"b": "t49",
+"a_name": "Software Quality Assurance Task and Plan",
+"b_name": "Formal Technical Review (FTR)"
+},
+{
+"i": 18,
+"a": "t50",
+"b": "t53",
+"a_name": "Walkthrough Maintenance Types",
+"b_name": "Preventive"
+},
+{
+"i": 19,
+"a": "t41",
+"b": "t44",
+"a_name": "Levels of Testing",
+"b_name": "Acceptance"
+},
+{
+"i": 20,
+"a": "t50",
+"b": "t55",
+"a_name": "Walkthrough Maintenance Types",
+"b_name": "Software Reengineering and Refactoring"
+},
+{
+"i": 21,
+"a": "t50",
+"b": "t51",
+"a_name": "Walkthrough Maintenance Types",
+"b_name": "Corrective"
+},
+{
+"i": 22,
+"a": "t41",
+"b": "t45",
+"a_name": "Levels of Testing",
+"b_name": "Static and Dynamic Testing Techniques overview Regression and Continuous Testing"
+},
+{
+"i": 23,
+"a": "t17",
+"b": "t19",
+"a_name": "Software requirement specification (SRS) Design Principles",
+"b_name": "Abstraction"
+},
+{
+"i": 24,
+"a": "t56",
+"b": "t70",
+"a_name": "Agile Manifesto and Principles",
+"b_name": "Agile Testing overview DevOps and its Lifecycle"
+},
+{
+"i": 25,
+"a": "t66",
+"b": "t67",
+"a_name": "Agile Metrics",
+"b_name": "Agile Project Tracking"
+},
+{
+"i": 26,
+"a": "t17",
+"b": "t20",
+"a_name": "Software requirement specification (SRS) Design Principles",
+"b_name": "Coupling and Cohesion"
+},
+{
+"i": 27,
+"a": "t50",
+"b": "t54",
+"a_name": "Walkthrough Maintenance Types",
+"b_name": "Perfective"
+},
+{
+"i": 28,
+"a": "t15",
+"b": "t16",
+"a_name": "Specification",
+"b_name": "Validation"
+},
+{
+"i": 29,
+"a": "t68",
+"b": "t69",
+"a_name": "Velocity",
+"b_name": "Burn-Up/Burn- Down Charts"
+},
+{
+"i": 30,
+"a": "t25",
+"b": "t67",
+"a_name": "Project Planning",
+"b_name": "Agile Project Tracking"
+}
+]
+}

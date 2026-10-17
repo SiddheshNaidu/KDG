@@ -1,0 +1,444 @@
+{
+"course": "ESC101",
+"title": "Engineering Mechanics",
+"topics": [
+{
+"id": "t1",
+"name": "Classification of force systems",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Principle of transmissibility",
+"module": 1
+},
+{
+"id": "t3",
+"name": "composition and resolution of forces",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Resultant of coplanar force system (Concurrent forces, parallel forces",
+"module": 1
+},
+{
+"id": "t5",
+"name": "general system of forces)",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Moment of force about a point",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Couples",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Varignon’s Theorem",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Resultant of Non-Coplanar (Space Force)",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Concurrent force system",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Centroids of plane laminas",
+"module": 2
+},
+{
+"id": "t12",
+"name": "Plane lamina consisting of primitive geometrical shapes",
+"module": 2
+},
+{
+"id": "t13",
+"name": "Equilibrium",
+"module": 3
+},
+{
+"id": "t14",
+"name": "Conditions of equilibrium for concurrent forces",
+"module": 3
+},
+{
+"id": "t15",
+"name": "parallel forces and general forces",
+"module": 3
+},
+{
+"id": "t16",
+"name": "Equilibrium of rigid bodies",
+"module": 3
+},
+{
+"id": "t17",
+"name": "free body diagrams",
+"module": 3
+},
+{
+"id": "t18",
+"name": "Equilibrium of Beams",
+"module": 3
+},
+{
+"id": "t19",
+"name": "Types of beams",
+"module": 3
+},
+{
+"id": "t20",
+"name": "simple and compound beams",
+"module": 3
+},
+{
+"id": "t21",
+"name": "type of supports and reaction",
+"module": 3
+},
+{
+"id": "t22",
+"name": "Determination of reactions at supports for various types of loads on beams",
+"module": 3
+},
+{
+"id": "t23",
+"name": "Friction",
+"module": 3
+},
+{
+"id": "t24",
+"name": "Laws of friction",
+"module": 3
+},
+{
+"id": "t25",
+"name": "Cone of friction. angle of repose",
+"module": 3
+},
+{
+"id": "t26",
+"name": "angle of friction",
+"module": 3
+},
+{
+"id": "t27",
+"name": "equilibrium of bodies on a horizontal and inclined plane",
+"module": 3
+},
+{
+"id": "t28",
+"name": "Motion of particle with variable acceleration",
+"module": 4
+},
+{
+"id": "t29",
+"name": "Motion along plane curved path. velocity",
+"module": 4
+},
+{
+"id": "t30",
+"name": "acceleration in terms of rectangular components",
+"module": 4
+},
+{
+"id": "t31",
+"name": "tangential and normal component of acceleration",
+"module": 4
+},
+{
+"id": "t32",
+"name": "Introduction to general plane motion",
+"module": 4
+},
+{
+"id": "t33",
+"name": "Force and Acceleration",
+"module": 5
+},
+{
+"id": "t34",
+"name": "Introduction to basic concepts",
+"module": 5
+},
+{
+"id": "t35",
+"name": "D’Alembert’s Principle",
+"module": 5
+},
+{
+"id": "t36",
+"name": "concept of Inertia force",
+"module": 5
+},
+{
+"id": "t37",
+"name": "Equations of dynamic equilibrium",
+"module": 5
+},
+{
+"id": "t38",
+"name": "Principle of linear impulse and momentum",
+"module": 5
+},
+{
+"id": "t39",
+"name": "Impact and collision",
+"module": 5
+},
+{
+"id": "t40",
+"name": "Law of conservation of momentum",
+"module": 5
+},
+{
+"id": "t41",
+"name": "Coefficient of Restitution",
+"module": 5
+},
+{
+"id": "t42",
+"name": "Direct Central Impact and Oblique Central Impact",
+"module": 5
+},
+{
+"id": "t43",
+"name": "Loss of Kinetic Energy in collision of inelastic bodies",
+"module": 5
+},
+{
+"id": "t44",
+"name": "Fundamental of Robot Mechanics",
+"module": 6
+},
+{
+"id": "t45",
+"name": "Degree of Freedom",
+"module": 6
+},
+{
+"id": "t46",
+"name": "D-H Parameters",
+"module": 6
+},
+{
+"id": "t47",
+"name": "robot kinematics (Forward)",
+"module": 6
+},
+{
+"id": "t48",
+"name": "Homogeneous transformation (limited to 2 DOF Serial robot)",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t33",
+"b": "t35",
+"a_name": "Force and Acceleration",
+"b_name": "D’Alembert’s Principle"
+},
+{
+"i": 1,
+"a": "t19",
+"b": "t22",
+"a_name": "Types of beams",
+"b_name": "Determination of reactions at supports for various types of loads on beams"
+},
+{
+"i": 2,
+"a": "t33",
+"b": "t38",
+"a_name": "Force and Acceleration",
+"b_name": "Principle of linear impulse and momentum"
+},
+{
+"i": 3,
+"a": "t3",
+"b": "t6",
+"a_name": "composition and resolution of forces",
+"b_name": "Moment of force about a point"
+},
+{
+"i": 4,
+"a": "t19",
+"b": "t21",
+"a_name": "Types of beams",
+"b_name": "type of supports and reaction"
+},
+{
+"i": 5,
+"a": "t36",
+"b": "t35",
+"a_name": "concept of Inertia force",
+"b_name": "D’Alembert’s Principle"
+},
+{
+"i": 6,
+"a": "t24",
+"b": "t27",
+"a_name": "Laws of friction",
+"b_name": "equilibrium of bodies on a horizontal and inclined plane"
+},
+{
+"i": 7,
+"a": "t2",
+"b": "t3",
+"a_name": "Principle of transmissibility",
+"b_name": "composition and resolution of forces"
+},
+{
+"i": 8,
+"a": "t45",
+"b": "t46",
+"a_name": "Degree of Freedom",
+"b_name": "D-H Parameters"
+},
+{
+"i": 9,
+"a": "t17",
+"b": "t18",
+"a_name": "free body diagrams",
+"b_name": "Equilibrium of Beams"
+},
+{
+"i": 10,
+"a": "t3",
+"b": "t14",
+"a_name": "composition and resolution of forces",
+"b_name": "Conditions of equilibrium for concurrent forces"
+},
+{
+"i": 11,
+"a": "t28",
+"b": "t29",
+"a_name": "Motion of particle with variable acceleration",
+"b_name": "Motion along plane curved path. velocity"
+},
+{
+"i": 12,
+"a": "t26",
+"b": "t25",
+"a_name": "angle of friction",
+"b_name": "Cone of friction. angle of repose"
+},
+{
+"i": 13,
+"a": "t34",
+"b": "t35",
+"a_name": "Introduction to basic concepts",
+"b_name": "D’Alembert’s Principle"
+},
+{
+"i": 14,
+"a": "t3",
+"b": "t10",
+"a_name": "composition and resolution of forces",
+"b_name": "Concurrent force system"
+},
+{
+"i": 15,
+"a": "t1",
+"b": "t3",
+"a_name": "Classification of force systems",
+"b_name": "composition and resolution of forces"
+},
+{
+"i": 16,
+"a": "t44",
+"b": "t45",
+"a_name": "Fundamental of Robot Mechanics",
+"b_name": "Degree of Freedom"
+},
+{
+"i": 17,
+"a": "t28",
+"b": "t32",
+"a_name": "Motion of particle with variable acceleration",
+"b_name": "Introduction to general plane motion"
+},
+{
+"i": 18,
+"a": "t35",
+"b": "t37",
+"a_name": "D’Alembert’s Principle",
+"b_name": "Equations of dynamic equilibrium"
+},
+{
+"i": 19,
+"a": "t9",
+"b": "t10",
+"a_name": "Resultant of Non-Coplanar (Space Force)",
+"b_name": "Concurrent force system"
+},
+{
+"i": 20,
+"a": "t42",
+"b": "t43",
+"a_name": "Direct Central Impact and Oblique Central Impact",
+"b_name": "Loss of Kinetic Energy in collision of inelastic bodies"
+},
+{
+"i": 21,
+"a": "t33",
+"b": "t34",
+"a_name": "Force and Acceleration",
+"b_name": "Introduction to basic concepts"
+},
+{
+"i": 22,
+"a": "t26",
+"b": "t27",
+"a_name": "angle of friction",
+"b_name": "equilibrium of bodies on a horizontal and inclined plane"
+},
+{
+"i": 23,
+"a": "t36",
+"b": "t37",
+"a_name": "concept of Inertia force",
+"b_name": "Equations of dynamic equilibrium"
+},
+{
+"i": 24,
+"a": "t16",
+"b": "t17",
+"a_name": "Equilibrium of rigid bodies",
+"b_name": "free body diagrams"
+},
+{
+"i": 25,
+"a": "t18",
+"b": "t19",
+"a_name": "Equilibrium of Beams",
+"b_name": "Types of beams"
+},
+{
+"i": 26,
+"a": "t35",
+"b": "t36",
+"a_name": "D’Alembert’s Principle",
+"b_name": "concept of Inertia force"
+},
+{
+"i": 27,
+"a": "t14",
+"b": "t15",
+"a_name": "Conditions of equilibrium for concurrent forces",
+"b_name": "parallel forces and general forces"
+}
+]
+}

@@ -55,7 +55,7 @@
 },
 {
 "id": "t6",
-"name": "Errors in measure- ments",
+"name": "Errors in measure-ments",
 "module": 1
 },
 {
@@ -150,376 +150,371 @@
 },
 {
 "id": "t25",
-"name": "surface roughness standards specifying surface roughness parameters",
+"name": "surface roughness standards specifying surface roughness parameters - Ra",
 "module": 2
 },
 {
 "id": "t26",
-"name": "Ra",
-"module": 2
-},
-{
-"id": "t27",
 "name": "Ry",
 "module": 2
 },
 {
-"id": "t28",
+"id": "t27",
 "name": "Rz",
 "module": 2
 },
 {
-"id": "t29",
+"id": "t28",
 "name": "Surface roughness measuring instruments",
 "module": 2
 },
 {
-"id": "t30",
+"id": "t29",
 "name": "Form measurement machine",
 "module": 2
 },
 {
-"id": "t31",
+"id": "t30",
 "name": "Screw Thread measurement",
 "module": 2
 },
 {
-"id": "t32",
+"id": "t31",
 "name": "Two wire and three wire methods",
 "module": 2
 },
 {
-"id": "t33",
+"id": "t32",
 "name": "Floating carriage micrometer",
 "module": 2
 },
 {
-"id": "t34",
+"id": "t33",
 "name": "Profile projector",
 "module": 2
 },
 {
-"id": "t35",
+"id": "t34",
 "name": "Gear measurement",
 "module": 2
 },
 {
-"id": "t36",
+"id": "t35",
 "name": "Gear tooth comparator",
 "module": 2
 },
 {
-"id": "t37",
+"id": "t36",
 "name": "Master gears",
 "module": 2
 },
 {
-"id": "t38",
+"id": "t37",
 "name": "Measurement using rollers and Parkinson’s Tester",
 "module": 2
 },
 {
-"id": "t39",
+"id": "t38",
 "name": "Significance of Mechanical Measurements",
 "module": 3
 },
 {
-"id": "t40",
+"id": "t39",
 "name": "Classification of measuring instruments",
 "module": 3
 },
 {
-"id": "t41",
+"id": "t40",
 "name": "generalized measurement system",
 "module": 3
 },
 {
-"id": "t42",
+"id": "t41",
 "name": "types of inputs",
 "module": 3
 },
 {
-"id": "t43",
+"id": "t42",
 "name": "Desired",
 "module": 3
 },
 {
-"id": "t44",
+"id": "t43",
 "name": "interfering and modifying inputs",
 "module": 3
 },
 {
-"id": "t45",
+"id": "t44",
 "name": "Static characteristics",
 "module": 3
 },
 {
-"id": "t46",
+"id": "t45",
 "name": "Static calibration",
 "module": 3
 },
 {
-"id": "t47",
+"id": "t46",
 "name": "Linearity",
 "module": 3
 },
 {
-"id": "t48",
+"id": "t47",
 "name": "Static Sensitivity",
 "module": 3
 },
 {
-"id": "t49",
+"id": "t48",
 "name": "Accuracy",
 "module": 3
 },
 {
-"id": "t50",
+"id": "t49",
 "name": "Static error",
 "module": 3
 },
 {
-"id": "t51",
+"id": "t50",
 "name": "Precision",
 "module": 3
 },
 {
-"id": "t52",
+"id": "t51",
 "name": "Reproducibility",
 "module": 3
 },
 {
-"id": "t53",
+"id": "t52",
 "name": "Threshold",
 "module": 3
 },
 {
-"id": "t54",
+"id": "t53",
 "name": "Resolution",
 "module": 3
 },
 {
-"id": "t55",
+"id": "t54",
 "name": "Hysteresis",
 "module": 3
 },
 {
-"id": "t56",
+"id": "t55",
 "name": "Drift",
 "module": 3
 },
 {
-"id": "t57",
+"id": "t56",
 "name": "Dynamic characteristics",
 "module": 3
 },
 {
-"id": "t58",
+"id": "t57",
 "name": "speed of response",
 "module": 3
 },
 {
-"id": "t59",
+"id": "t58",
 "name": "fidelity",
 "module": 3
 },
 {
-"id": "t60",
+"id": "t59",
 "name": "Displacement Measurement",
 "module": 4
 },
 {
-"id": "t61",
+"id": "t60",
 "name": "Transducers for displacement",
 "module": 4
 },
 {
-"id": "t62",
+"id": "t61",
 "name": "potentiometer",
 "module": 4
 },
 {
-"id": "t63",
+"id": "t62",
 "name": "LVDT",
 "module": 4
 },
 {
-"id": "t64",
+"id": "t63",
 "name": "Nozzle Flapper Transducer",
 "module": 4
 },
 {
-"id": "t65",
+"id": "t64",
 "name": "Strain Measurement",
 "module": 4
 },
 {
-"id": "t66",
+"id": "t65",
 "name": "Theory of Strain Gauges",
 "module": 4
 },
 {
-"id": "t67",
+"id": "t66",
 "name": "gauge factor",
 "module": 4
 },
 {
-"id": "t68",
+"id": "t67",
 "name": "temperature Compensation",
 "module": 4
 },
 {
-"id": "t69",
+"id": "t68",
 "name": "Pressure Measurement",
 "module": 4
 },
 {
-"id": "t70",
+"id": "t69",
 "name": "Elastic pressure transducers viz. Bourdon tubes",
 "module": 4
 },
 {
-"id": "t71",
+"id": "t70",
 "name": "diaphragm",
 "module": 4
 },
 {
-"id": "t72",
+"id": "t71",
 "name": "bellows",
 "module": 4
 },
 {
-"id": "t73",
+"id": "t72",
 "name": "Flow Measurement",
 "module": 4
 },
 {
-"id": "t74",
+"id": "t73",
 "name": "Bernoulli flowmeters",
 "module": 4
 },
 {
-"id": "t75",
+"id": "t74",
 "name": "Ultrasonic Flowmeter",
 "module": 4
 },
 {
-"id": "t76",
+"id": "t75",
 "name": "Magnetic flow meter",
 "module": 4
 },
 {
-"id": "t77",
+"id": "t76",
 "name": "rotameter",
 "module": 4
 },
 {
-"id": "t78",
+"id": "t77",
 "name": "Temperature Measurement",
 "module": 4
 },
 {
-"id": "t79",
+"id": "t78",
 "name": "Electrical methods of temperature measurement Resistance thermometers",
 "module": 4
 },
 {
-"id": "t80",
-"name": "Thermistors and thermocouples *",
+"id": "t79",
+"name": "Thermistors and thermocouples",
 "module": 4
 },
 {
-"id": "t81",
+"id": "t80",
 "name": "Introduction to control systems",
 "module": 5
 },
 {
-"id": "t82",
+"id": "t81",
 "name": "Classification of control system",
 "module": 5
 },
 {
-"id": "t83",
+"id": "t82",
 "name": "Open loop and closed loop systems",
 "module": 5
 },
 {
-"id": "t84",
+"id": "t83",
 "name": "Mathematical modelling of control systems",
 "module": 5
 },
 {
-"id": "t85",
+"id": "t84",
 "name": "concept of transfer function",
 "module": 5
 },
 {
-"id": "t86",
+"id": "t85",
 "name": "Block diagram algebra",
 "module": 5
 },
 {
-"id": "t87",
+"id": "t86",
 "name": "Transient and steady state analysis of first and second order system",
 "module": 5
 },
 {
-"id": "t88",
+"id": "t87",
 "name": "Time Domain specifications",
 "module": 5
 },
 {
-"id": "t89",
+"id": "t88",
 "name": "Step response of second order system",
 "module": 5
 },
 {
-"id": "t90",
+"id": "t89",
 "name": "Steady-state error",
 "module": 5
 },
 {
-"id": "t91",
+"id": "t90",
 "name": "error coefficients",
 "module": 5
 },
 {
-"id": "t92",
+"id": "t91",
 "name": "steady state analysis of different type of systems using step",
 "module": 5
 },
 {
-"id": "t93",
+"id": "t92",
 "name": "ramp and parabolic inputs",
 "module": 5
 },
 {
-"id": "t94",
+"id": "t93",
 "name": "Stability analysis",
 "module": 6
 },
 {
-"id": "t95",
+"id": "t94",
 "name": "Introduction to concepts of stability",
 "module": 6
 },
 {
-"id": "t96",
+"id": "t95",
 "name": "Routh criteria for stability",
 "module": 6
 },
 {
-"id": "t97",
+"id": "t96",
 "name": "Experimental determination of frequency response",
 "module": 6
 },
 {
-"id": "t98",
+"id": "t97",
 "name": "Stability analysis using Root locus",
 "module": 6
 },
 {
-"id": "t99",
+"id": "t98",
 "name": "Bode plot",
 "module": 6
 }

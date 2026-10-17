@@ -160,396 +160,371 @@
 },
 {
 "id": "t27",
-"name": "Methods for formulation of differential equations",
+"name": "Methods for formulation of differential equations - Newton",
 "module": 1
 },
 {
 "id": "t28",
-"name": "Newton",
-"module": 1
-},
-{
-"id": "t29",
 "name": "Energy",
 "module": 1
 },
 {
-"id": "t30",
+"id": "t29",
 "name": "Lagrangian and Rayleigh's method",
 "module": 1
 },
 {
-"id": "t31",
+"id": "t30",
 "name": "Free Damped Single Degree of Freedom Vibration System",
 "module": 2
 },
 {
-"id": "t32",
+"id": "t31",
 "name": "Introduction to different methods of damping",
 "module": 2
 },
 {
-"id": "t33",
+"id": "t32",
 "name": "Study and analysis of viscous damped system (under, critical and overdamped)",
 "module": 2
 },
 {
-"id": "t34",
+"id": "t33",
 "name": "Coulomb's damping (Combined Viscous and Coulomb damping excluded)",
 "module": 2
 },
 {
-"id": "t35",
+"id": "t34",
 "name": "Equivalent Single Degree of Freedom Vibration System",
 "module": 2
 },
 {
-"id": "t36",
+"id": "t35",
 "name": "Conversion of multi springs",
 "module": 2
 },
 {
-"id": "t37",
+"id": "t36",
 "name": "multi masses",
 "module": 2
 },
 {
-"id": "t38",
+"id": "t37",
 "name": "multi-dampers into a single spring",
 "module": 2
 },
 {
-"id": "t39",
+"id": "t38",
 "name": "damper with linear or rotational co-ordinate system",
 "module": 2
 },
 {
-"id": "t40",
+"id": "t39",
 "name": "Forced Single Degree of Freedom Vibratory System",
 "module": 3
 },
 {
-"id": "t41",
+"id": "t40",
 "name": "Analysis of linear and torsional systems subjected to harmonic force excitation and motion excitation",
 "module": 3
 },
 {
-"id": "t42",
+"id": "t41",
 "name": "Vibration Isolation and Transmissibility",
 "module": 3
 },
 {
-"id": "t43",
+"id": "t42",
 "name": "Force Transmissibility",
 "module": 3
 },
 {
-"id": "t44",
+"id": "t43",
 "name": "motion transmissibility",
 "module": 3
 },
 {
-"id": "t45",
+"id": "t44",
 "name": "typical isolators & mounts",
 "module": 3
 },
 {
-"id": "t46",
+"id": "t45",
 "name": "Vibration Measuring Instruments",
 "module": 3
 },
 {
-"id": "t47",
+"id": "t46",
 "name": "Need for vibration measurement",
 "module": 3
 },
 {
-"id": "t48",
+"id": "t47",
 "name": "Measurement Parameters used in vibration analysis",
 "module": 3
 },
 {
-"id": "t49",
+"id": "t48",
 "name": "Units of vibration measurement",
 "module": 3
 },
 {
-"id": "t50",
+"id": "t49",
 "name": "Time domain and frequency domain representation",
 "module": 3
 },
 {
-"id": "t51",
+"id": "t50",
 "name": "Spectral Amplitude Scaling",
 "module": 3
 },
 {
-"id": "t52",
+"id": "t51",
 "name": "RMS",
 "module": 3
 },
 {
-"id": "t53",
+"id": "t52",
 "name": "Peak",
 "module": 3
 },
 {
-"id": "t54",
+"id": "t53",
 "name": "Peak-to-Peak and Peak Particle Velocity",
 "module": 3
 },
 {
-"id": "t55",
+"id": "t54",
 "name": "Selection criteria",
 "module": 3
 },
 {
-"id": "t56",
+"id": "t55",
 "name": "Principle of seismic instruments",
 "module": 3
 },
 {
-"id": "t57",
+"id": "t56",
 "name": "vibrometer",
 "module": 3
 },
 {
+"id": "t57",
+"name": "accelerometer - undamped and damped",
+"module": 3
+},
+{
 "id": "t58",
-"name": "accelerometer",
-"module": 3
-},
-{
-"id": "t59",
-"name": "undamped and damped",
-"module": 3
-},
-{
-"id": "t60",
 "name": "Vibration Measuring Sensors",
 "module": 3
 },
 {
-"id": "t61",
+"id": "t59",
 "name": "Concept of sensors and transducers",
 "module": 3
 },
 {
-"id": "t62",
+"id": "t60",
 "name": "Role of sensors in condition monitoring and fault detection",
 "module": 3
 },
 {
-"id": "t63",
+"id": "t61",
 "name": "Sensor output signals and signal conditioning",
 "module": 3
 },
 {
-"id": "t64",
-"name": "Types of Vibration Sensors",
+"id": "t62",
+"name": "Types of Vibration Sensors - Displacement",
 "module": 3
 },
 {
-"id": "t65",
-"name": "Displacement",
-"module": 3
-},
-{
-"id": "t66",
+"id": "t63",
 "name": "Velocity",
 "module": 3
 },
 {
-"id": "t67",
+"id": "t64",
 "name": "acceleration",
 "module": 3
 },
 {
-"id": "t68",
+"id": "t65",
 "name": "proximity & MEMS-Based sensors",
 "module": 3
 },
 {
-"id": "t69",
-"name": "Sensor Selection Criteria",
+"id": "t66",
+"name": "Sensor Selection Criteria - Measurement range",
 "module": 3
 },
 {
-"id": "t70",
-"name": "Measurement range",
-"module": 3
-},
-{
-"id": "t71",
+"id": "t67",
 "name": "Frequency range",
 "module": 3
 },
 {
-"id": "t72",
+"id": "t68",
 "name": "Sensitivity",
 "module": 3
 },
 {
-"id": "t73",
+"id": "t69",
 "name": "Accuracy and resolution",
 "module": 3
 },
 {
-"id": "t74",
+"id": "t70",
 "name": "Environmental conditions",
 "module": 3
 },
 {
-"id": "t75",
+"id": "t71",
 "name": "Mounting requirements",
 "module": 3
 },
 {
-"id": "t76",
+"id": "t72",
 "name": "Cost and reliability",
 "module": 3
 },
 {
-"id": "t77",
+"id": "t73",
 "name": "Introduction to Condition Monitoring Techniques",
 "module": 4
 },
 {
-"id": "t78",
+"id": "t74",
 "name": "Overview of condition monitoring and maintenance principles",
 "module": 4
 },
 {
-"id": "t79",
+"id": "t75",
 "name": "time and frequency domain",
 "module": 4
 },
 {
-"id": "t80",
+"id": "t76",
 "name": "phase and orbit analysis",
 "module": 4
 },
 {
-"id": "t81",
+"id": "t77",
 "name": "vibration signal interpretation",
 "module": 4
 },
 {
-"id": "t82",
+"id": "t78",
 "name": "Goals",
 "module": 4
 },
 {
-"id": "t83",
+"id": "t79",
 "name": "steps",
 "module": 4
 },
 {
-"id": "t84",
+"id": "t80",
 "name": "benefits of vibration based condition monitoring and fault prognosis",
 "module": 4
 },
 {
-"id": "t85",
+"id": "t81",
 "name": "Data Acquisition & Signal Processing",
 "module": 4
 },
 {
-"id": "t86",
+"id": "t82",
 "name": "Classification and analysis of signals",
 "module": 4
 },
 {
-"id": "t87",
+"id": "t83",
 "name": "Fast Fourier Transform (FFT)",
 "module": 4
 },
 {
-"id": "t88",
+"id": "t84",
 "name": "essentials of data acquisition systems",
 "module": 4
 },
 {
-"id": "t89",
+"id": "t85",
 "name": "plot formats",
 "module": 4
 },
 {
-"id": "t90",
+"id": "t86",
 "name": "frequency span",
 "module": 4
 },
 {
-"id": "t91",
+"id": "t87",
 "name": "resolution",
 "module": 4
 },
 {
-"id": "t92",
+"id": "t88",
 "name": "averaging",
 "module": 4
 },
 {
-"id": "t93",
+"id": "t89",
 "name": "windowing",
 "module": 4
 },
 {
-"id": "t94",
+"id": "t90",
 "name": "spectrum scaling",
 "module": 4
 },
 {
-"id": "t95",
+"id": "t91",
 "name": "signal conditioning",
 "module": 4
 },
 {
-"id": "t96",
+"id": "t92",
 "name": "Time and Frequency domain analysis to identify unbalance",
 "module": 5
 },
 {
-"id": "t97",
+"id": "t93",
 "name": "bent shaft",
 "module": 5
 },
 {
-"id": "t98",
+"id": "t94",
 "name": "Misalignment",
 "module": 5
 },
 {
-"id": "t99",
+"id": "t95",
 "name": "Soft foot conditions",
 "module": 5
 },
 {
-"id": "t100",
+"id": "t96",
 "name": "Mechanical looseness",
 "module": 5
 },
 {
-"id": "t101",
-"name": "Case studies based on applications like sugar mill and turbine.@",
-"module": 5
-},
-{
-"id": "t102",
+"id": "t97",
 "name": "Rolling element bearing and Journal Bearing fault diagnosis",
 "module": 6
 },
 {
-"id": "t103",
+"id": "t98",
 "name": "Faults related to Gearbox",
 "module": 6
 },
 {
-"id": "t104",
+"id": "t99",
 "name": "vane defects in pumps",
 "module": 6
 },
 {
-"id": "t105",
+"id": "t100",
 "name": "Fault in Fans and Blowers",
 "module": 6
 }

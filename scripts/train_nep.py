@@ -42,7 +42,7 @@ def matrix(d, pca):
         return features_nep.pair_matrix(d["names"], d["units"], d["emb"], d["pairs"], pca, me, embed([d["title"]])[0])
     return v5_matrix(d["names"], d["units"], d["emb"], d["pairs"], pca)
 
-split = {s: [c for c, v in T.items() if v["split"] == s] for s in ("train", "val")}
+split = {s: [c for c, v in T.items() if v["split"] == s and os.path.exists(f"{LABEL_DIR}/{c}.json")] for s in ("train", "val")}
 tr = {c: load(c) for c in split["train"]}; va = {c: load(c) for c in split["val"]}
 rng = np.random.RandomState(0); dp = []
 for d in tr.values():

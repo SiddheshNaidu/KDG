@@ -1,1 +1,279 @@
-{"edges": [{"a": "t3", "b": "t4", "why": "foundation needed first"}, {"a": "t3", "b": "t5", "why": "foundation needed first"}, {"a": "t3", "b": "t6", "why": "foundation needed first"}, {"a": "t11", "b": "t12", "why": "foundation needed first"}, {"a": "t11", "b": "t13", "why": "foundation needed first"}, {"a": "t11", "b": "t14", "why": "foundation needed first"}, {"a": "t11", "b": "t15", "why": "foundation needed first"}, {"a": "t17", "b": "t18", "why": "foundation needed first"}, {"a": "t17", "b": "t28", "why": "foundation needed first"}, {"a": "t19", "b": "t23", "why": "foundation needed first"}, {"a": "t19", "b": "t22", "why": "foundation needed first"}, {"a": "t23", "b": "t24", "why": "foundation needed first"}, {"a": "t23", "b": "t25", "why": "foundation needed first"}, {"a": "t23", "b": "t26", "why": "foundation needed first"}, {"a": "t23", "b": "t27", "why": "foundation needed first"}, {"a": "t28", "b": "t29", "why": "foundation needed first"}, {"a": "t28", "b": "t30", "why": "foundation needed first"}, {"a": "t31", "b": "t32", "why": "foundation needed first"}, {"a": "t31", "b": "t33", "why": "foundation needed first"}, {"a": "t31", "b": "t34", "why": "foundation needed first"}, {"a": "t38", "b": "t39", "why": "foundation needed first"}, {"a": "t38", "b": "t40", "why": "foundation needed first"}, {"a": "t38", "b": "t41", "why": "foundation needed first"}, {"a": "t43", "b": "t44", "why": "foundation needed first"}, {"a": "t44", "b": "t45", "why": "foundation needed first"}, {"a": "t31", "b": "t46", "why": "foundation needed first"}, {"a": "t46", "b": "t47", "why": "foundation needed first"}, {"a": "t46", "b": "t48", "why": "foundation needed first"}, {"a": "t46", "b": "t49", "why": "foundation needed first"}, {"a": "t46", "b": "t50", "why": "foundation needed first"}, {"a": "t46", "b": "t51", "why": "foundation needed first"}, {"a": "t46", "b": "t52", "why": "foundation needed first"}, {"a": "t55", "b": "t56", "why": "foundation needed first"}, {"a": "t55", "b": "t57", "why": "foundation needed first"}, {"a": "t55", "b": "t58", "why": "foundation needed first"}, {"a": "t63", "b": "t69", "why": "foundation needed first"}, {"a": "t63", "b": "t70", "why": "foundation needed first"}, {"a": "t63", "b": "t77", "why": "foundation needed first"}, {"a": "t63", "b": "t78", "why": "foundation needed first"}, {"a": "t64", "b": "t65", "why": "foundation needed first"}, {"a": "t64", "b": "t66", "why": "foundation needed first"}, {"a": "t64", "b": "t67", "why": "foundation needed first"}, {"a": "t64", "b": "t68", "why": "foundation needed first"}, {"a": "t71", "b": "t72", "why": "foundation needed first"}, {"a": "t72", "b": "t73", "why": "foundation needed first"}, {"a": "t73", "b": "t74", "why": "foundation needed first"}, {"a": "t73", "b": "t75", "why": "foundation needed first"}, {"a": "t75", "b": "t76", "why": "foundation needed first"}, {"a": "t79", "b": "t80", "why": "foundation needed first"}, {"a": "t80", "b": "t81", "why": "foundation needed first"}, {"a": "t79", "b": "t82", "why": "foundation needed first"}, {"a": "t79", "b": "t83", "why": "foundation needed first"}, {"a": "t85", "b": "t86", "why": "foundation needed first"}, {"a": "t86", "b": "t88", "why": "foundation needed first"}, {"a": "t87", "b": "t88", "why": "foundation needed first"}, {"a": "t31", "b": "t54", "why": "foundation needed first"}, {"a": "t31", "b": "t38", "why": "foundation needed first"}]}
+{
+"edges": [
+{
+"a": "t1",
+"b": "t2",
+"why": "goals follow introduction"
+},
+{
+"a": "t3",
+"b": "t4",
+"why": "white hat is a hacker type"
+},
+{
+"a": "t3",
+"b": "t5",
+"why": "black hat is a hacker type"
+},
+{
+"a": "t3",
+"b": "t6",
+"why": "grey hat is a hacker type"
+},
+{
+"a": "t1",
+"b": "t7",
+"why": "phases of the introduced practice"
+},
+{
+"a": "t11",
+"b": "t12",
+"why": "need follows VAPT intro"
+},
+{
+"a": "t11",
+"b": "t13",
+"why": "PT types follow VAPT intro"
+},
+{
+"a": "t11",
+"b": "t14",
+"why": "methodologies follow VAPT intro"
+},
+{
+"a": "t11",
+"b": "t15",
+"why": "difference needs VAPT intro"
+},
+{
+"a": "t17",
+"b": "t18",
+"why": "footprinting is information gathering"
+},
+{
+"a": "t19",
+"b": "t22",
+"why": "active vs passive scanning"
+},
+{
+"a": "t19",
+"b": "t23",
+"why": "enumeration follows scanning"
+},
+{
+"a": "t23",
+"b": "t24",
+"why": "SNMP enumeration technique"
+},
+{
+"a": "t23",
+"b": "t25",
+"why": "SMB enumeration technique"
+},
+{
+"a": "t23",
+"b": "t26",
+"why": "LDAP enumeration technique"
+},
+{
+"a": "t23",
+"b": "t27",
+"why": "DNS enumeration technique"
+},
+{
+"a": "t28",
+"b": "t29",
+"why": "port scanning is network scanning"
+},
+{
+"a": "t28",
+"b": "t30",
+"why": "service detection is network scanning"
+},
+{
+"a": "t31",
+"b": "t32",
+"why": "need follows introduction"
+},
+{
+"a": "t31",
+"b": "t33",
+"why": "phases follow introduction"
+},
+{
+"a": "t31",
+"b": "t34",
+"why": "types follow introduction"
+},
+{
+"a": "t31",
+"b": "t35",
+"why": "rules follow introduction"
+},
+{
+"a": "t38",
+"b": "t39",
+"why": "rules for digital evidence types"
+},
+{
+"a": "t38",
+"b": "t40",
+"why": "custody applies to evidence"
+},
+{
+"a": "t38",
+"b": "t41",
+"why": "handling challenges need evidence types"
+},
+{
+"a": "t43",
+"b": "t44",
+"why": "methodology needs IR definition"
+},
+{
+"a": "t43",
+"b": "t45",
+"why": "CSIRT roles need IR definition"
+},
+{
+"a": "t46",
+"b": "t47",
+"why": "formats follow duplication intro"
+},
+{
+"a": "t46",
+"b": "t48",
+"why": "comparison needs duplication concept"
+},
+{
+"a": "t46",
+"b": "t49",
+"why": "need follows duplication intro"
+},
+{
+"a": "t46",
+"b": "t50",
+"why": "live duplication is duplication"
+},
+{
+"a": "t46",
+"b": "t52",
+"why": "acquisition is duplication"
+},
+{
+"a": "t55",
+"b": "t56",
+"why": "collection follows intro"
+},
+{
+"a": "t55",
+"b": "t58",
+"why": "media analysis follows intro"
+},
+{
+"a": "t38",
+"b": "t56",
+"why": "collected evidence must be understood"
+},
+{
+"a": "t31",
+"b": "t55",
+"why": "computer forensics is digital forensics"
+},
+{
+"a": "t63",
+"b": "t69",
+"why": "evidence sources need network forensics"
+},
+{
+"a": "t69",
+"b": "t70",
+"why": "router investigation uses sources"
+},
+{
+"a": "t63",
+"b": "t77",
+"why": "tools of network forensics"
+},
+{
+"a": "t24",
+"b": "t66",
+"why": "SNMP exploits use SNMP knowledge"
+},
+{
+"a": "t64",
+"b": "t65",
+"why": "DNS poisoning is network exploit"
+},
+{
+"a": "t64",
+"b": "t67",
+"why": "SMTP exploits are network exploits"
+},
+{
+"a": "t64",
+"b": "t68",
+"why": "FTP exploits are network exploits"
+},
+{
+"a": "t71",
+"b": "t72",
+"why": "wireless exploits follow wireless intro"
+},
+{
+"a": "t72",
+"b": "t73",
+"why": "wireless hacking exploits vulnerabilities"
+},
+{
+"a": "t73",
+"b": "t74",
+"why": "WEP attacks are wireless hacking"
+},
+{
+"a": "t73",
+"b": "t75",
+"why": "WPA attacks are wireless hacking"
+},
+{
+"a": "t75",
+"b": "t76",
+"why": "WPA2 builds on WPA"
+},
+{
+"a": "t79",
+"b": "t80",
+"why": "collection follows mobile forensics intro"
+},
+{
+"a": "t80",
+"b": "t81",
+"why": "analysis follows acquisition"
+},
+{
+"a": "t79",
+"b": "t83",
+"why": "tools need mobile forensics"
+},
+{
+"a": "t79",
+"b": "t84",
+"why": "comparison needs mobile forensics"
+},
+{
+"a": "t85",
+"b": "t86",
+"why": "layout follows goals"
+},
+{
+"a": "t86",
+"b": "t87",
+"why": "guidelines follow layout"
+},
+{
+"a": "t87",
+"b": "t88",
+"why": "sample applies guidelines"
+}
+]
+}

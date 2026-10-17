@@ -2,243 +2,263 @@
 "edges": [
 {
 "a": "t1",
-"b": "t3",
-"why": "functions follow from OS concept"
+"b": "t4",
+"why": "foundation concept needed first"
+},
+{
+"a": "t1",
+"b": "t5",
+"why": "foundation concept needed first"
 },
 {
 "a": "t1",
 "b": "t9",
-"why": "types of OS"
+"why": "foundation concept needed first"
 },
 {
 "a": "t6",
 "b": "t7",
-"why": "multitasking extends multiprogramming"
+"why": "foundation concept needed first"
+},
+{
+"a": "t5",
+"b": "t10",
+"why": "foundation concept needed first"
 },
 {
 "a": "t11",
 "b": "t12",
-"why": "states of a process"
+"why": "foundation concept needed first"
 },
 {
 "a": "t11",
 "b": "t13",
-"why": "operations on processes"
+"why": "foundation concept needed first"
 },
 {
 "a": "t11",
 "b": "t14",
-"why": "PCB describes process"
+"why": "foundation concept needed first"
 },
 {
 "a": "t14",
 "b": "t15",
-"why": "context switch saves PCB"
+"why": "foundation concept needed first"
 },
 {
 "a": "t11",
 "b": "t16",
-"why": "threads within processes"
+"why": "foundation concept needed first"
 },
 {
 "a": "t16",
 "b": "t17",
-"why": "thread types"
+"why": "foundation concept needed first"
 },
 {
 "a": "t16",
 "b": "t18",
-"why": "thread models"
+"why": "foundation concept needed first"
 },
 {
 "a": "t11",
 "b": "t19",
-"why": "scheduling of processes"
+"why": "foundation concept needed first"
 },
 {
 "a": "t19",
 "b": "t20",
-"why": "schedulers"
+"why": "foundation concept needed first"
 },
 {
 "a": "t19",
 "b": "t21",
-"why": "algorithms"
+"why": "foundation concept needed first"
 },
 {
 "a": "t21",
 "b": "t22",
-"why": "specific algorithms"
-},
-{
-"a": "t11",
-"b": "t23",
-"why": "IPC between processes"
+"why": "foundation concept needed first"
 },
 {
 "a": "t23",
 "b": "t24",
-"why": "race arises in shared access"
+"why": "foundation concept needed first"
 },
 {
 "a": "t24",
 "b": "t25",
-"why": "critical section prevents races"
+"why": "foundation concept needed first"
 },
 {
 "a": "t25",
 "b": "t26",
-"why": "Peterson solves critical section"
+"why": "foundation concept needed first"
 },
 {
 "a": "t25",
 "b": "t28",
-"why": "semaphores solve critical section"
+"why": "foundation concept needed first"
 },
 {
 "a": "t28",
 "b": "t29",
-"why": "semaphores solve producer consumer"
+"why": "foundation concept needed first"
+},
+{
+"a": "t30",
+"b": "t31",
+"why": "foundation concept needed first"
 },
 {
 "a": "t31",
 "b": "t32",
-"why": "characterization uses model"
+"why": "foundation concept needed first"
 },
 {
 "a": "t32",
 "b": "t33",
-"why": "prevention negates conditions"
+"why": "foundation concept needed first"
 },
 {
 "a": "t32",
 "b": "t34",
-"why": "avoidance uses characterization"
+"why": "foundation concept needed first"
 },
 {
 "a": "t34",
 "b": "t35",
-"why": "Banker is avoidance algorithm"
+"why": "foundation concept needed first"
 },
 {
 "a": "t32",
 "b": "t36",
-"why": "detection uses characterization"
+"why": "foundation concept needed first"
 },
 {
 "a": "t37",
 "b": "t38",
-"why": "swapping memory concept"
+"why": "foundation concept needed first"
 },
 {
 "a": "t37",
 "b": "t39",
-"why": "allocation strategy"
+"why": "foundation concept needed first"
 },
 {
 "a": "t37",
 "b": "t40",
-"why": "paging memory scheme"
+"why": "foundation concept needed first"
 },
 {
 "a": "t40",
 "b": "t41",
-"why": "page table structure"
+"why": "foundation concept needed first"
 },
 {
 "a": "t40",
 "b": "t43",
-"why": "TLB caches page table"
+"why": "foundation concept needed first"
 },
 {
 "a": "t37",
 "b": "t42",
-"why": "segmentation"
+"why": "foundation concept needed first"
 },
 {
-"a": "t37",
-"b": "t44",
-"why": "virtual memory extends memory mgmt"
+"a": "t40",
+"b": "t45",
+"why": "foundation concept needed first"
 },
 {
 "a": "t44",
 "b": "t45",
-"why": "demand paging"
+"why": "foundation concept needed first"
 },
 {
-"a": "t40",
+"a": "t45",
 "b": "t46",
-"why": "copy on write uses paging"
+"why": "foundation concept needed first"
 },
 {
 "a": "t45",
 "b": "t47",
-"why": "replacement on page fault"
+"why": "foundation concept needed first"
 },
 {
 "a": "t45",
 "b": "t48",
-"why": "thrashing from demand paging"
+"why": "foundation concept needed first"
 },
 {
 "a": "t50",
 "b": "t51",
-"why": "access methods"
+"why": "foundation concept needed first"
 },
 {
 "a": "t50",
 "b": "t52",
-"why": "directory structure"
+"why": "foundation concept needed first"
 },
 {
 "a": "t50",
 "b": "t53",
-"why": "implementation"
+"why": "foundation concept needed first"
 },
 {
 "a": "t53",
 "b": "t54",
-"why": "allocation in implementation"
+"why": "foundation concept needed first"
 },
 {
-"a": "t58",
-"b": "t59",
-"why": "disk scheduling needs disk layout"
-},
-{
-"a": "t59",
-"b": "t60",
-"why": "FCFS is a disk scheduling"
-},
-{
-"a": "t59",
-"b": "t61",
-"why": "SSTF"
-},
-{
-"a": "t59",
-"b": "t62",
-"why": "SCAN"
-},
-{
-"a": "t62",
-"b": "t63",
-"why": "C-SCAN variant of SCAN"
-},
-{
-"a": "t62",
-"b": "t64",
-"why": "LOOK variant of SCAN"
-},
-{
-"a": "t64",
-"b": "t65",
-"why": "C-LOOK variant"
+"a": "t55",
+"b": "t58",
+"why": "foundation concept needed first"
 },
 {
 "a": "t56",
 "b": "t57",
-"why": "I/O organization"
+"why": "foundation concept needed first"
+},
+{
+"a": "t58",
+"b": "t59",
+"why": "foundation concept needed first"
+},
+{
+"a": "t59",
+"b": "t60",
+"why": "foundation concept needed first"
+},
+{
+"a": "t59",
+"b": "t61",
+"why": "foundation concept needed first"
+},
+{
+"a": "t59",
+"b": "t62",
+"why": "foundation concept needed first"
+},
+{
+"a": "t59",
+"b": "t63",
+"why": "foundation concept needed first"
+},
+{
+"a": "t59",
+"b": "t64",
+"why": "foundation concept needed first"
+},
+{
+"a": "t62",
+"b": "t63",
+"why": "foundation concept needed first"
+},
+{
+"a": "t64",
+"b": "t65",
+"why": "foundation concept needed first"
 }
 ]
 }

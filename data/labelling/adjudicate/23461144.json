@@ -374,7 +374,7 @@
 },
 {
 "id": "t75",
-"name": "Multi- sample Anti-Aliasing (MSAA) vs. Post-processing effects",
+"name": "Multi-sample Anti-Aliasing (MSAA) vs. Post-processing effects",
 "module": 5
 },
 {
@@ -434,81 +434,76 @@
 },
 {
 "id": "t87",
-"name": "distinguishing between technical capabilities (Immersion)",
+"name": "distinguishing between technical capabilities (Immersion) and the psychological state of \"being there\" (Presence)",
 "module": 6
 },
 {
 "id": "t88",
-"name": "the psychological state of \"being there\" (Presence)",
-"module": 6
-},
-{
-"id": "t89",
 "name": "Latency & Fidelity",
 "module": 6
 },
 {
-"id": "t90",
-"name": "importance of \"Motion- to-Photon\" latency (the <20ms rule) to maintain immersion",
+"id": "t89",
+"name": "importance of \"Motion-to-Photon\" latency (the <20ms rule) to maintain immersion",
 "module": 6
 },
 {
-"id": "t91",
+"id": "t90",
 "name": "\"Uncanny Valley\" in XR",
 "module": 6
 },
 {
-"id": "t92",
+"id": "t91",
 "name": "Why hyper-realism can sometimes backfire in user experience",
 "module": 6
 },
 {
-"id": "t93",
+"id": "t92",
 "name": "Musculoskeletal Issues",
 "module": 6
 },
 {
-"id": "t94",
+"id": "t93",
 "name": "Emerging VR Technologies",
 "module": 6
 },
 {
-"id": "t95",
+"id": "t94",
 "name": "Metaverse platforms",
 "module": 6
 },
 {
-"id": "t96",
+"id": "t95",
 "name": "Digital twins",
 "module": 6
 },
 {
-"id": "t97",
+"id": "t96",
 "name": "Spatial computing",
 "module": 6
 },
 {
-"id": "t98",
+"id": "t97",
 "name": "VR in Industry",
 "module": 6
 },
 {
-"id": "t99",
+"id": "t98",
 "name": "Ethics",
 "module": 6
 },
 {
-"id": "t100",
+"id": "t99",
 "name": "Privacy & Safety Standards",
 "module": 6
 },
 {
-"id": "t101",
+"id": "t100",
 "name": "Cybersickness (VRSickness)",
 "module": 6
 },
 {
-"id": "t102",
+"id": "t101",
 "name": "Visual Pathologies",
 "module": 6
 }
@@ -516,388 +511,248 @@
 "candidates": [
 {
 "i": 0,
-"a": "t18",
-"b": "t19",
-"a_name": "Interaction in Augmented Reality",
-"b_name": "Augmented Reality Techniques"
+"a": "t86",
+"b": "t100",
+"a_name": "Immersion",
+"b_name": "Cybersickness (VRSickness)"
 },
 {
 "i": 1,
-"a": "t34",
-"b": "t33",
-"a_name": "Authoring Solutions",
-"b_name": "Stand-alone"
-},
-{
-"i": 2,
-"a": "t16",
+"a": "t25",
 "b": "t18",
-"a_name": "Software Components",
+"a_name": "Input Modalities",
 "b_name": "Interaction in Augmented Reality"
 },
 {
+"i": 2,
+"a": "t32",
+"b": "t33",
+"a_name": "Elements of Authoring",
+"b_name": "Stand-alone"
+},
+{
 "i": 3,
-"a": "t55",
-"b": "t58",
-"a_name": "Representation of Virtual World",
-"b_name": "Rendering Systems"
+"a": "t38",
+"b": "t39",
+"a_name": "Designing an AR application",
+"b_name": "Technology adoption and acceptance"
 },
 {
 "i": 4,
-"a": "t57",
-"b": "t65",
-"a_name": "Aural and Haptic Representation in Virtual Reality",
-"b_name": "Aural Rendering Systems"
-},
-{
-"i": 5,
-"a": "t59",
-"b": "t73",
-"a_name": "Visual Rendering Systems",
-"b_name": "Culling Techniques"
-},
-{
-"i": 6,
-"a": "t1",
-"b": "t7",
-"a_name": "Definition and Scope",
-"b_name": "Displays (Multimodal Displays, Spatial Display Model, and Visual Displays)"
-},
-{
-"i": 7,
-"a": "t46",
-"b": "t85",
-"a_name": "VR Input devices",
-"b_name": "interacting with the VR System"
-},
-{
-"i": 8,
-"a": "t52",
-"b": "t69",
-"a_name": "Haptic rendering pipeline",
-"b_name": "Haptic Rendering Systems"
-},
-{
-"i": 9,
-"a": "t42",
-"b": "t54",
-"a_name": "Classical components and design of a VR system",
-"b_name": "Applications of virtual reality"
-},
-{
-"i": 10,
-"a": "t10",
+"a": "t11",
 "b": "t12",
-"a_name": "Ingredients of an AR Experience Dimensionality",
+"a_name": "Depth Cues",
 "b_name": "Registration and Latency"
 },
 {
-"i": 11,
-"a": "t47",
-"b": "t51",
-"a_name": "Graphics display interfaces",
-"b_name": "Graphical rendering pipeline"
-},
-{
-"i": 12,
-"a": "t25",
-"b": "t27",
-"a_name": "Input Modalities",
-"b_name": "Virtual User Interfaces on Real Surfaces"
-},
-{
-"i": 13,
-"a": "t3",
-"b": "t13",
-"a_name": "Architecture of AR",
-"b_name": "Working of Augmented Reality"
-},
-{
-"i": 14,
-"a": "t86",
-"b": "t87",
-"a_name": "Immersion",
-"b_name": "distinguishing between technical capabilities (Immersion)"
-},
-{
-"i": 15,
-"a": "t82",
-"b": "t83",
-"a_name": "navigating in a Virtual World-Way finding and Travelling",
-"b_name": "Classes of Travel Methods Interacting with Others-Shared Experience"
-},
-{
-"i": 16,
-"a": "t1",
-"b": "t3",
-"a_name": "Definition and Scope",
-"b_name": "Architecture of AR"
-},
-{
-"i": 17,
-"a": "t23",
-"b": "t24",
-"a_name": "Advanced Spatial Concepts",
-"b_name": "Output Modalities"
-},
-{
-"i": 18,
-"a": "t57",
-"b": "t69",
-"a_name": "Aural and Haptic Representation in Virtual Reality",
-"b_name": "Haptic Rendering Systems"
-},
-{
-"i": 19,
-"a": "t56",
-"b": "t59",
-"a_name": "Visual Representation in Virtual Reality",
-"b_name": "Visual Rendering Systems"
-},
-{
-"i": 20,
-"a": "t31",
-"b": "t38",
-"a_name": "Requirement of AR Authoring",
-"b_name": "Designing an AR application"
-},
-{
-"i": 21,
-"a": "t94",
-"b": "t96",
-"a_name": "Emerging VR Technologies",
-"b_name": "Digital twins"
-},
-{
-"i": 22,
-"a": "t25",
-"b": "t26",
-"a_name": "Input Modalities",
-"b_name": "Tangible Interfaces"
-},
-{
-"i": 23,
-"a": "t88",
-"b": "t89",
-"a_name": "the psychological state of \"being there\" (Presence)",
-"b_name": "Latency & Fidelity"
-},
-{
-"i": 24,
+"i": 5,
 "a": "t42",
-"b": "t44",
+"b": "t47",
 "a_name": "Classical components and design of a VR system",
-"b_name": "Types of virtual reality systems"
+"b_name": "Graphics display interfaces"
 },
 {
-"i": 25,
-"a": "t66",
-"b": "t67",
-"a_name": "Rendering Complex Sounds",
-"b_name": "Sound-Generation Hardware"
+"i": 6,
+"a": "t80",
+"b": "t81",
+"a_name": "Properties of Manipulation",
+"b_name": "Manipulation Operations"
 },
 {
-"i": 26,
-"a": "t42",
-"b": "t50",
-"a_name": "Classical components and design of a VR system",
-"b_name": "Haptic feedback"
-},
-{
-"i": 27,
-"a": "t24",
-"b": "t29",
-"a_name": "Output Modalities",
-"b_name": "Haptic Interaction"
-},
-{
-"i": 28,
-"a": "t61",
-"b": "t73",
-"a_name": "Geometrically Based Rendering Systems",
-"b_name": "Culling Techniques"
-},
-{
-"i": 29,
+"i": 7,
 "a": "t21",
 "b": "t22",
 "a_name": "Markerless Tracking & SLAM",
 "b_name": "Mobile Augmented Reality"
 },
 {
-"i": 30,
-"a": "t65",
-"b": "t66",
-"a_name": "Aural Rendering Systems",
-"b_name": "Rendering Complex Sounds"
+"i": 8,
+"a": "t76",
+"b": "t77",
+"a_name": "Introduction to Real-time rendering techniques",
+"b_name": "Graphics processing units (GPU) in VR"
 },
 {
-"i": 31,
-"a": "t42",
-"b": "t45",
-"a_name": "Classical components and design of a VR system",
-"b_name": "advantages of virtual reality"
+"i": 9,
+"a": "t24",
+"b": "t30",
+"a_name": "Output Modalities",
+"b_name": "Multimodal Interaction"
 },
 {
-"i": 32,
-"a": "t10",
-"b": "t11",
-"a_name": "Ingredients of an AR Experience Dimensionality",
-"b_name": "Depth Cues"
-},
-{
-"i": 33,
+"i": 10,
 "a": "t61",
 "b": "t63",
 "a_name": "Geometrically Based Rendering Systems",
 "b_name": "Rendering Complex Visual Scenes"
 },
 {
-"i": 34,
-"a": "t41",
-"b": "t42",
-"a_name": "History of VR and MR",
-"b_name": "Classical components and design of a VR system"
+"i": 11,
+"a": "t51",
+"b": "t74",
+"a_name": "Graphical rendering pipeline",
+"b_name": "Anti-Aliasing in VR"
 },
 {
-"i": 35,
+"i": 12,
+"a": "t18",
+"b": "t26",
+"a_name": "Interaction in Augmented Reality",
+"b_name": "Tangible Interfaces"
+},
+{
+"i": 13,
+"a": "t18",
+"b": "t27",
+"a_name": "Interaction in Augmented Reality",
+"b_name": "Virtual User Interfaces on Real Surfaces"
+},
+{
+"i": 14,
 "a": "t3",
 "b": "t9",
 "a_name": "Architecture of AR",
 "b_name": "Augmented Reality Hardware (Sensors, Processors, Displays)"
 },
 {
-"i": 36,
-"a": "t94",
-"b": "t97",
-"a_name": "Emerging VR Technologies",
-"b_name": "Spatial computing"
+"i": 15,
+"a": "t26",
+"b": "t18",
+"a_name": "Tangible Interfaces",
+"b_name": "Interaction in Augmented Reality"
 },
 {
-"i": 37,
-"a": "t94",
-"b": "t95",
-"a_name": "Emerging VR Technologies",
-"b_name": "Metaverse platforms"
-},
-{
-"i": 38,
-"a": "t24",
-"b": "t25",
-"a_name": "Output Modalities",
-"b_name": "Input Modalities"
-},
-{
-"i": 39,
+"i": 16,
 "a": "t51",
-"b": "t59",
+"b": "t77",
 "a_name": "Graphical rendering pipeline",
-"b_name": "Visual Rendering Systems"
+"b_name": "Graphics processing units (GPU) in VR"
 },
 {
-"i": 40,
-"a": "t13",
-"b": "t15",
-"a_name": "Working of Augmented Reality",
-"b_name": "Challenges in AR"
-},
-{
-"i": 41,
-"a": "t34",
-"b": "t35",
-"a_name": "Authoring Solutions",
-"b_name": "Plug-in Approaches"
-},
-{
-"i": 42,
-"a": "t32",
-"b": "t34",
-"a_name": "Elements of Authoring",
-"b_name": "Authoring Solutions"
-},
-{
-"i": 43,
-"a": "t61",
-"b": "t76",
-"a_name": "Geometrically Based Rendering Systems",
-"b_name": "Introduction to Real-time rendering techniques"
-},
-{
-"i": 44,
-"a": "t25",
-"b": "t28",
-"a_name": "Input Modalities",
-"b_name": "Multi-view Interfaces"
-},
-{
-"i": 45,
-"a": "t12",
-"b": "t89",
-"a_name": "Registration and Latency",
-"b_name": "Latency & Fidelity"
-},
-{
-"i": 46,
-"a": "t1",
-"b": "t2",
-"a_name": "Definition and Scope",
-"b_name": "A Brief History of Augmented Reality"
-},
-{
-"i": 47,
-"a": "t13",
-"b": "t14",
-"a_name": "Working of Augmented Reality",
-"b_name": "Applications of AR"
-},
-{
-"i": 48,
+"i": 17,
 "a": "t19",
 "b": "t20",
 "a_name": "Augmented Reality Techniques",
 "b_name": "Marker based and Marker less tracking"
 },
 {
-"i": 49,
+"i": 18,
+"a": "t70",
+"b": "t71",
+"a_name": "Haptic Rendering Methods",
+"b_name": "Rendering Complex Haptic Scenes with Force Displays"
+},
+{
+"i": 19,
 "a": "t42",
-"b": "t43",
+"b": "t48",
 "a_name": "Classical components and design of a VR system",
-"b_name": "Important factors in a virtual reality system"
+"b_name": "Sound display and interface"
 },
 {
-"i": 50,
-"a": "t32",
-"b": "t33",
-"a_name": "Elements of Authoring",
-"b_name": "Stand-alone"
+"i": 20,
+"a": "t66",
+"b": "t67",
+"a_name": "Rendering Complex Sounds",
+"b_name": "Sound-Generation Hardware"
 },
 {
-"i": 51,
+"i": 21,
+"a": "t31",
+"b": "t38",
+"a_name": "Requirement of AR Authoring",
+"b_name": "Designing an AR application"
+},
+{
+"i": 22,
+"a": "t25",
+"b": "t30",
+"a_name": "Input Modalities",
+"b_name": "Multimodal Interaction"
+},
+{
+"i": 23,
+"a": "t5",
+"b": "t6",
+"a_name": "General Architecture of Mixed Reality System",
+"b_name": "Algorithm Steps in Mixed Reality"
+},
+{
+"i": 24,
 "a": "t32",
 "b": "t35",
 "a_name": "Elements of Authoring",
 "b_name": "Plug-in Approaches"
 },
 {
-"i": 52,
-"a": "t32",
-"b": "t36",
-"a_name": "Elements of Authoring",
-"b_name": "Web Technology and dynamic content"
+"i": 25,
+"a": "t79",
+"b": "t81",
+"a_name": "manipulating a Virtual World",
+"b_name": "Manipulation Operations"
 },
 {
-"i": 53,
-"a": "t63",
-"b": "t64",
-"a_name": "Rendering Complex Visual Scenes",
-"b_name": "Computer Graphics System Requirements"
+"i": 26,
+"a": "t29",
+"b": "t30",
+"a_name": "Haptic Interaction",
+"b_name": "Multimodal Interaction"
 },
 {
-"i": 54,
-"a": "t59",
-"b": "t74",
-"a_name": "Visual Rendering Systems",
-"b_name": "Anti-Aliasing in VR"
+"i": 27,
+"a": "t10",
+"b": "t11",
+"a_name": "Ingredients of an AR Experience Dimensionality",
+"b_name": "Depth Cues"
+},
+{
+"i": 28,
+"a": "t44",
+"b": "t45",
+"a_name": "Types of virtual reality systems",
+"b_name": "advantages of virtual reality"
+},
+{
+"i": 29,
+"a": "t98",
+"b": "t99",
+"a_name": "Ethics",
+"b_name": "Privacy & Safety Standards"
+},
+{
+"i": 30,
+"a": "t47",
+"b": "t51",
+"a_name": "Graphics display interfaces",
+"b_name": "Graphical rendering pipeline"
+},
+{
+"i": 31,
+"a": "t24",
+"b": "t18",
+"a_name": "Output Modalities",
+"b_name": "Interaction in Augmented Reality"
+},
+{
+"i": 32,
+"a": "t1",
+"b": "t3",
+"a_name": "Definition and Scope",
+"b_name": "Architecture of AR"
+},
+{
+"i": 33,
+"a": "t42",
+"b": "t46",
+"a_name": "Classical components and design of a VR system",
+"b_name": "VR Input devices"
+},
+{
+"i": 34,
+"a": "t83",
+"b": "t84",
+"a_name": "Classes of Travel Methods Interacting with Others-Shared Experience",
+"b_name": "Collaborative Interaction"
 }
 ]
 }

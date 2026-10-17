@@ -285,7 +285,7 @@
 },
 {
 "id": "t52",
-"name": "Sub- netting",
+"name": "Sub-netting",
 "module": 3
 },
 {
@@ -500,46 +500,41 @@
 },
 {
 "id": "t95",
-"name": "VPN (Virtual Private Networks)",
+"name": "VPN (Virtual Private Networks) - Types and basic principle",
 "module": 6
 },
 {
 "id": "t96",
-"name": "Types and basic principle",
-"module": 6
-},
-{
-"id": "t97",
 "name": "Software-Defined Networking (SDN)",
 "module": 6
 },
 {
-"id": "t98",
+"id": "t97",
 "name": "Control and Data Planes",
 "module": 6
 },
 {
-"id": "t99",
+"id": "t98",
 "name": "OpenFlow protocols and controllers",
 "module": 6
 },
 {
-"id": "t100",
+"id": "t99",
 "name": "Network Function Virtualization (NFV)",
 "module": 6
 },
 {
-"id": "t101",
+"id": "t100",
 "name": "Concepts and Benefits",
 "module": 6
 },
 {
-"id": "t102",
+"id": "t101",
 "name": "Data Center Networks (DCNs)",
 "module": 6
 },
 {
-"id": "t103",
+"id": "t102",
 "name": "Topologies (Fat Tree - Concept)",
 "module": 6
 }

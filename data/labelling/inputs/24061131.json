@@ -70,7 +70,7 @@
 },
 {
 "id": "t9",
-"name": "Eco- friendly refrigerants",
+"name": "Eco-friendly refrigerants",
 "module": 1
 },
 {
@@ -95,7 +95,7 @@
 },
 {
 "id": "t14",
-"name": "Thermodynamic analysis of Simple VCRS and T- s and P-h chart",
+"name": "Thermodynamic analysis of Simple VCRS and T-s and P-h chart",
 "module": 2
 },
 {
@@ -130,7 +130,7 @@
 },
 {
 "id": "t21",
-"name": "Lithium- bromide absorption system",
+"name": "Lithium-bromide absorption system",
 "module": 2
 },
 {
@@ -270,7 +270,7 @@
 },
 {
 "id": "t49",
-"name": "Methods of duct system design. *",
+"name": "Methods of duct system design",
 "module": 5
 },
 {
@@ -330,7 +330,7 @@
 },
 {
 "id": "t61",
-"name": "Cold chain Technology & Transport air conditioning. *",
+"name": "Cold chain Technology & Transport air conditioning",
 "module": 6
 }
 ]

@@ -54,7 +54,7 @@
 },
 {
 "id": "t11",
-"name": "Electro- dynamometer type wattmeter",
+"name": "Electro-dynamometer type wattmeter",
 "module": 2
 },
 {
@@ -356,143 +356,143 @@
 "candidates": [
 {
 "i": 0,
-"a": "t62",
-"b": "t63",
-"a_name": "DC signal conditioning circuits",
-"b_name": "Block diagram of Data Acquisition System"
+"a": "t52",
+"b": "t53",
+"a_name": "Digital voltmeter (Ramp type)",
+"b_name": "ammeter"
 },
 {
 "i": 1,
-"a": "t49",
-"b": "t57",
-"a_name": "Generalized Block diagram of digital instruments",
-"b_name": "Digital Megger"
-},
-{
-"i": 2,
-"a": "t26",
-"b": "t27",
-"a_name": "earth resistance measurement by earth tester Measurement of inductance and capacitance",
-"b_name": "Maxwell’s bridge"
-},
-{
-"i": 3,
-"a": "t21",
-"b": "t23",
-"a_name": "DC Bridges",
-"b_name": "Wheatstone"
-},
-{
-"i": 4,
-"a": "t7",
-"b": "t9",
-"a_name": "Classifications of analog instruments",
-"b_name": "controlling and damping torque"
-},
-{
-"i": 5,
-"a": "t6",
-"b": "t8",
-"a_name": "Analog Instruments",
-"b_name": "Introduction to operating"
-},
-{
-"i": 6,
-"a": "t49",
-"b": "t59",
-"a_name": "Generalized Block diagram of digital instruments",
-"b_name": "Current sensor (ACS712)"
-},
-{
-"i": 7,
-"a": "t26",
-"b": "t28",
-"a_name": "earth resistance measurement by earth tester Measurement of inductance and capacitance",
-"b_name": "Schering bridge"
-},
-{
-"i": 8,
-"a": "t22",
-"b": "t25",
-"a_name": "Measurement of resistance",
-"b_name": "Megger"
-},
-{
-"i": 9,
-"a": "t33",
-"b": "t41",
-"a_name": "Resistive",
-"b_name": "Linear and angular displacement using potentiometer"
-},
-{
-"i": 10,
-"a": "t16",
-"b": "t17",
-"a_name": "Potential Transformer (PT)",
-"b_name": "Applications in the extension of instrument range"
-},
-{
-"i": 11,
-"a": "t34",
-"b": "t42",
-"a_name": "capacitive & inductive transducers",
-"b_name": "LVDT"
-},
-{
-"i": 12,
-"a": "t32",
-"b": "t36",
-"a_name": "Transducers",
-"b_name": "Measurement of temperature"
-},
-{
-"i": 13,
-"a": "t43",
-"b": "t46",
-"a_name": "Measurement of pressure",
-"b_name": "capacitive and inductive type"
-},
-{
-"i": 14,
-"a": "t40",
-"b": "t41",
-"a_name": "Measurement of displacement",
-"b_name": "Linear and angular displacement using potentiometer"
-},
-{
-"i": 15,
-"a": "t22",
-"b": "t23",
-"a_name": "Measurement of resistance",
-"b_name": "Wheatstone"
-},
-{
-"i": 16,
-"a": "t55",
-"b": "t56",
-"a_name": "Digital frequency meter",
-"b_name": "Digital Tachometer"
-},
-{
-"i": 17,
-"a": "t22",
-"b": "t24",
-"a_name": "Measurement of resistance",
-"b_name": "Kelvins Double"
-},
-{
-"i": 18,
 "a": "t32",
 "b": "t43",
 "a_name": "Transducers",
 "b_name": "Measurement of pressure"
 },
 {
-"i": 19,
-"a": "t20",
+"i": 2,
+"a": "t8",
+"b": "t11",
+"a_name": "Introduction to operating",
+"b_name": "Electro-dynamometer type wattmeter"
+},
+{
+"i": 3,
+"a": "t14",
+"b": "t17",
+"a_name": "Current Transformer (CT)",
+"b_name": "Applications in the extension of instrument range"
+},
+{
+"i": 4,
+"a": "t26",
 "b": "t28",
-"a_name": "AC",
+"a_name": "earth resistance measurement by earth tester Measurement of inductance and capacitance",
 "b_name": "Schering bridge"
+},
+{
+"i": 5,
+"a": "t64",
+"b": "t65",
+"a_name": "Basics of Power analyzer",
+"b_name": "harmonic analyzer"
+},
+{
+"i": 6,
+"a": "t21",
+"b": "t23",
+"a_name": "DC Bridges",
+"b_name": "Wheatstone"
+},
+{
+"i": 7,
+"a": "t51",
+"b": "t52",
+"a_name": "Resolution & sensitivity of digital meters",
+"b_name": "Digital voltmeter (Ramp type)"
+},
+{
+"i": 8,
+"a": "t23",
+"b": "t27",
+"a_name": "Wheatstone",
+"b_name": "Maxwell’s bridge"
+},
+{
+"i": 9,
+"a": "t23",
+"b": "t24",
+"a_name": "Wheatstone",
+"b_name": "Kelvins Double"
+},
+{
+"i": 10,
+"a": "t32",
+"b": "t36",
+"a_name": "Transducers",
+"b_name": "Measurement of temperature"
+},
+{
+"i": 11,
+"a": "t6",
+"b": "t7",
+"a_name": "Analog Instruments",
+"b_name": "Classifications of analog instruments"
+},
+{
+"i": 12,
+"a": "t49",
+"b": "t52",
+"a_name": "Generalized Block diagram of digital instruments",
+"b_name": "Digital voltmeter (Ramp type)"
+},
+{
+"i": 13,
+"a": "t21",
+"b": "t24",
+"a_name": "DC Bridges",
+"b_name": "Kelvins Double"
+},
+{
+"i": 14,
+"a": "t68",
+"b": "t70",
+"a_name": "Introduction to Smart sensor",
+"b_name": "smart energy meter"
+},
+{
+"i": 15,
+"a": "t26",
+"b": "t27",
+"a_name": "earth resistance measurement by earth tester Measurement of inductance and capacitance",
+"b_name": "Maxwell’s bridge"
+},
+{
+"i": 16,
+"a": "t22",
+"b": "t24",
+"a_name": "Measurement of resistance",
+"b_name": "Kelvins Double"
+},
+{
+"i": 17,
+"a": "t32",
+"b": "t47",
+"a_name": "Transducers",
+"b_name": "Measurement of speed"
+},
+{
+"i": 18,
+"a": "t1",
+"b": "t5",
+"a_name": "Introduction to measurement",
+"b_name": "standardization and calibration of instruments"
+},
+{
+"i": 19,
+"a": "t49",
+"b": "t57",
+"a_name": "Generalized Block diagram of digital instruments",
+"b_name": "Digital Megger"
 },
 {
 "i": 20,
@@ -503,80 +503,94 @@
 },
 {
 "i": 21,
-"a": "t51",
-"b": "t52",
-"a_name": "Resolution & sensitivity of digital meters",
-"b_name": "Digital voltmeter (Ramp type)"
-},
-{
-"i": 22,
-"a": "t32",
-"b": "t40",
-"a_name": "Transducers",
-"b_name": "Measurement of displacement"
-},
-{
-"i": 23,
-"a": "t49",
-"b": "t52",
-"a_name": "Generalized Block diagram of digital instruments",
-"b_name": "Digital voltmeter (Ramp type)"
-},
-{
-"i": 24,
-"a": "t7",
-"b": "t8",
-"a_name": "Classifications of analog instruments",
-"b_name": "Introduction to operating"
-},
-{
-"i": 25,
-"a": "t14",
+"a": "t13",
 "b": "t17",
-"a_name": "Current Transformer (CT)",
+"a_name": "Instrument Transformer",
 "b_name": "Applications in the extension of instrument range"
 },
 {
-"i": 26,
+"i": 22,
 "a": "t61",
 "b": "t62",
 "a_name": "Basics of AC",
 "b_name": "DC signal conditioning circuits"
 },
 {
-"i": 27,
-"a": "t68",
-"b": "t70",
-"a_name": "Introduction to Smart sensor",
-"b_name": "smart energy meter"
+"i": 23,
+"a": "t61",
+"b": "t64",
+"a_name": "Basics of AC",
+"b_name": "Basics of Power analyzer"
 },
 {
-"i": 28,
-"a": "t64",
-"b": "t65",
-"a_name": "Basics of Power analyzer",
-"b_name": "harmonic analyzer"
+"i": 24,
+"a": "t6",
+"b": "t8",
+"a_name": "Analog Instruments",
+"b_name": "Introduction to operating"
 },
 {
-"i": 29,
+"i": 25,
 "a": "t49",
 "b": "t50",
 "a_name": "Generalized Block diagram of digital instruments",
 "b_name": "comparison of digital over analog instruments"
 },
 {
+"i": 26,
+"a": "t62",
+"b": "t63",
+"a_name": "DC signal conditioning circuits",
+"b_name": "Block diagram of Data Acquisition System"
+},
+{
+"i": 27,
+"a": "t3",
+"b": "t6",
+"a_name": "Classification of instruments",
+"b_name": "Analog Instruments"
+},
+{
+"i": 28,
+"a": "t4",
+"b": "t5",
+"a_name": "Types of errors in measurement",
+"b_name": "standardization and calibration of instruments"
+},
+{
+"i": 29,
+"a": "t20",
+"b": "t28",
+"a_name": "AC",
+"b_name": "Schering bridge"
+},
+{
 "i": 30,
-"a": "t33",
-"b": "t45",
-"a_name": "Resistive",
-"b_name": "strain-gauge"
+"a": "t32",
+"b": "t40",
+"a_name": "Transducers",
+"b_name": "Measurement of displacement"
 },
 {
 "i": 31,
-"a": "t32",
-"b": "t47",
-"a_name": "Transducers",
-"b_name": "Measurement of speed"
+"a": "t11",
+"b": "t12",
+"a_name": "Electro-dynamometer type wattmeter",
+"b_name": "Electro-dynamometer type Power factor meter"
+},
+{
+"i": 32,
+"a": "t23",
+"b": "t28",
+"a_name": "Wheatstone",
+"b_name": "Schering bridge"
+},
+{
+"i": 33,
+"a": "t9",
+"b": "t11",
+"a_name": "controlling and damping torque",
+"b_name": "Electro-dynamometer type wattmeter"
 }
 ]
 }

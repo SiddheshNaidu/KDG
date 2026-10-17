@@ -2,11 +2,12 @@
 Deterministic, offline. Everything dropped is returned in `dropped` so nothing disappears silently."""
 from __future__ import annotations
 import re
-from .nep_tables import CourseTables
+from .nep_tables import CourseTables, BREAK
 
 ROMAN = {"I": 1, "II": 2, "III": 3, "IV": 4, "V": 5, "VI": 6, "VII": 7, "VIII": 8, "IX": 9, "X": 10}
 NUM_RE = re.compile(r"^(?:0?\d{1,2}|[IVX]{1,4})\.?$")
-SELF_RE = re.compile(r"(?<![A-Za-z])Self[\s\-]*(?:Learning|Study)(?![A-Za-z]).*", re.I | re.S)
+SELF_RE = re.compile(r"(?<![A-Za-z(])Self[\s\-]*(?:Learning|Study)(?:\s+Topics?)?\s*[:\-–]|(?<![A-Za-z(])Self[\s\-]*Learning\s+Topics?", re.I | re.S)
+SELF_PAREN = re.compile(r"\([^()]*Self[\s\-]*(?:Learning|Study)[^()]*\)", re.I)
 PREREQ_RE = re.compile(r"^\s*Pre-?\s*requisites?(?![A-Za-z])", re.I)
 LEADNUM_RE = re.compile(r"(?:(?<=\s)|^)\d{1,2}\.\s+(?=[A-Z])")
 GENERIC_FRAG = {"introduction", "overview", "basics", "basic concepts", "concepts", "fundamentals", "applications", "application", "summary", "conclusion", "definition", "definitions", "terminology", "examples", "example", "types", "type", "history", "properties", "features", "classification", "need", "advantages", "disadvantages", "concept", "scope", "importance", "characteristics", "numericals", "numerical", "objectives", "objective", "problems", "applications of"}
@@ -14,11 +15,14 @@ LEAD_JUNK = re.compile(r"^(?:and|or|with|its|their|the|of|for|in|such as|like|e\
 DROP_PAREN = re.compile(r"\((?:[^()]*(?:without proof|derivation|numericals?|numerical problems?|proof)[^()]*)\)", re.I)
 TOTAL_RE = re.compile(r"Total\s+Hours?\s*:?\s*(\d{1,3})?.*$", re.I | re.S)
 HOURS_RE = re.compile(r"^\s*(\d{1,2})(?![0-9])")
+PAREN_ENUM = re.compile(r"(?:(?<=\s)|(?<=\w)|^)\((?:[ivx]{1,4}|[A-Za-z])\)\s*(?=[A-Za-z])")
+HOURS_TAG = re.compile(r"\(\s*\d+\s*(?:Hours?|Hrs?)\s*\)", re.I)
+INSTRUCTION = re.compile(r"^(?:any\s+\w+\s+problems?|home\s+exercise|case\s+studies?\s+(?:on|based)|problems?\s+on\b)", re.I)
 ENUM_SEP = re.compile(r"(?:(?<=\s)|^)(?:\(?[A-Za-z]\)|\(?[ivx]{1,4}\))\s+(?=[A-Za-z])")
 JUNK_FRAG = re.compile(r"^(?:module|unit|chapter|total hours?|hours?|home exercise|exercise|assignment)\s*[:\-]?\s*\d*$", re.I)
-BULLET_RE = re.compile(r"[•●▪‣·–—]")          # bullets; en/em dash used as list markers
-SUBITEM_SEP = re.compile(r"(?:(?<=\s)|^)\d{1,2}\.\d{1,2}\.?\s*(?=[A-Za-z])")
-DASH_SEP = re.compile(r"\s[-]\s")
+BULLET_RE = re.compile(r"[•●▪‣·]")          # bullets; en/em dash used as list markers
+SUBITEM_SEP = re.compile(r"(?:(?<=\s)|(?<=[.;:,)])|^)\d{1,2}\.\d{1,2}\.?\s*(?=[A-Za-z])")
+DASH_SEP = re.compile(r"\s[–—]\s")
 PAREN_NOTE = re.compile(r"\((?:\s*(?:excluding|note|for details|any|refer|only|no numerical|numericals? excluded)[^()]*)\)", re.I)
 LAST_NOTE = re.compile(r"(?<![A-Za-z])Note\s*:.*$", re.I | re.S)
 TAIL_RE = re.compile(r"(?:Text\s*books?|Reference\s*books?|Textbooks?\s*:|Web\s+References?|Suggested\s+Reading|Course\s+Outcomes?).*$", re.I | re.S)
@@ -37,6 +41,7 @@ def _num(s: str):
     return int(s) if s.isdigit() else None
 
 def clean_name(name: str) -> str:
+    name = re.split(r"(?<![A-Za-z])(?:Self[\s\-]*Learning|Self[\s\-]*Study|Text\s*Books?|Reference\s*Books?)", name or "", flags=re.I)[0]
     n = re.sub(r"^\s*Module\s*\d+\s*[-:.]*\s*", "", name or "", flags=re.I)
     toks = n.split(); out = []
     for t in toks:
@@ -84,6 +89,21 @@ def assemble_modules(ct: CourseTables):
     return modules, prereq, skipped
 
 COLON_KEEP = ""   # private-use placeholder: a colon not followed by space (e.g. 'ISO9000:2000') is not a separator
+
+SUBITEM_PEEK = re.compile(r"\s\d{1,2}\.\d{1,2}\.?\s*[A-Za-z]")
+
+def balance_parens(text: str) -> str:
+    """Close a '(' that is never closed before the next numbered sub-item (or the end), so later items are not swallowed."""
+    out, depth, i = [], 0, 0
+    while i < len(text):
+        ch = text[i]
+        if depth > 0 and ch == " " and SUBITEM_PEEK.match(text, i):
+            out.append(")" * depth); depth = 0
+        if ch in "([": depth += 1
+        elif ch in ")]" and depth > 0: depth -= 1
+        out.append(ch); i += 1
+    if depth > 0: out.append(")" * depth)
+    return "".join(out)
 
 def _sub_outside(pattern, repl, text: str) -> str:
     """apply a regex substitution only to the parts of `text` that are outside (...) and [...]"""
@@ -136,26 +156,38 @@ def split_topics(content: str, last_module: bool = False):
         nm = LAST_NOTE.search(content)
         if nm:
             dropped.append(("exam_note_cut", nm.group(0)[:60])); content = content[:nm.start()]
+    content = HOURS_TAG.sub("", content)
+    content = re.sub(r"(?<=[A-Za-z])- (?=[A-Za-z])", "-", content)            # word-wrap hyphen + space: 'Non- relational' -> 'Non-relational'
+    content = balance_parens(content)
+    content = SELF_PAREN.sub("", content)
     m = SELF_RE.search(content)
-    self_txt = m.group(0).strip() if m else ""
+    self_txt = content[m.start():].strip() if m else ""
     if m: content = content[:m.start()]
+    content = content.replace(BREAK, ";")          # a line break that separated two list items in the PDF
     content = DROP_PAREN.sub("", content); content = PAREN_NOTE.sub("", content)
-    for pat in (BULLET_RE, ENUM_SEP, SUBITEM_SEP, LEADNUM_RE, DASH_SEP):
+    content = PAREN_ENUM.sub(";", content)           # '(i) ... (ii) ...' enumerators are themselves parenthesised
+    for pat in (BULLET_RE, ENUM_SEP, SUBITEM_SEP, LEADNUM_RE):
         content = _sub_outside(pat, ";", content)
     content = re.sub(r"(?:(?<=\s)|^)\d{1,2}\]\s*", ";", content)
     parts = []
     for chunk in _split_outside(re.sub(r":(?!\s)", COLON_KEEP, content), ";,:"):
-        parts.extend(_split_sentences(chunk))
+        for sub in _split_sentences(chunk):
+            # a spaced en/em dash inside a SHORT phrase is a name connector ('Hagen – Poiseuille equation'); inside a long phrase it chains items
+            parts.extend(re.split(DASH_SEP, sub) if len(sub.split()) > 6 else [sub])
     topics = []
     for p in parts:
         t = re.sub(r"\s+", " ", p.replace(COLON_KEEP, ":")).strip(" .-–—\t")
-        t = LEAD_JUNK.sub("", t).strip(" .-–—")
+        t = LEAD_JUNK.sub("", t).strip(" ._-–—*@#")
         t = t.strip("()[] ").strip() if t.count("(") != t.count(")") else t
         if not t or not re.search(r"[A-Za-z]{2}", t):
             if t: dropped.append(("no_letters", t))
             continue
+        if t.startswith("(") and t.endswith(")"):
+            dropped.append(("pure_parenthetical", t)); continue
         if re.fullmatch(r"(?:etc|and so on|others?)\.?", t, re.I):
             dropped.append(("filler", t)); continue
+        if INSTRUCTION.match(t):
+            dropped.append(("assessment_instruction", t)); continue
         if JUNK_FRAG.match(t):
             dropped.append(("junk_fragment", t)); continue
         if len(t) > 120:
@@ -170,7 +202,7 @@ def split_topics(content: str, last_module: bool = False):
         if ws[0].lower() in STOP_END and len(ws) <= 3:
             dropped.append(("leading_stopword_fragment", t)); continue
         words = t.split()
-        if len(words) > 10:
+        if len(words) > 10 and "(" not in t:
             halves = re.split(r"\s+and\s+", t)
             if len(halves) > 1 and all(len(h.split()) >= 3 for h in halves):
                 topics.extend(h.strip(" .") for h in halves); continue
@@ -186,7 +218,9 @@ def parse_course(ct: CourseTables, pdf: str, family: str = "") -> dict:
         co = m["co"]
         if re.search(r"CO\d.*\s\d{2,3}$", co):
             co = re.sub(r"\s*\d{2,3}$", "", co).strip()        # 'CO6 39' = CO6 + leaked total hours
-        out_mods.append(dict(number=m["number"], label=m["label"], name=clean_name(m["name"]), hours=m["hours"], co=co,
+        nm = clean_name(m["name"])
+        if len(nm) < 3: nm = f"Module {m['number']}"
+        out_mods.append(dict(number=m["number"], label=m["label"], name=nm, hours=m["hours"], co=co,
                              pages=m["pages"], topics=topics, self_learning=self_txt, content_raw=m["content"]))
     return dict(course_code=ct.code, title=ct.title, family=family, source_pdf=pdf, header_page=ct.header_page,
                 has_module_table=ct.has_module_table, unstitched=ct.unstitched, conflict_pages=ct.conflict_pages,

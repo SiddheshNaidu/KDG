@@ -1,0 +1,441 @@
+{
+"course": "2115114",
+"title": "Data Warehousing and Mining",
+"topics": [
+{
+"id": "t1",
+"name": "Introduction to Data Warehouse",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Data warehouse architecture",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Data warehouse versus Data Marts",
+"module": 1
+},
+{
+"id": "t4",
+"name": "E-R Modeling versus Dimensional Modeling",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Data Warehouse Schemas",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Star Schema",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Snowflake Schema",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Factless Fact Table",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Fact Constellation Schema",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Update to the dimension tables",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Major steps in ETL process",
+"module": 1
+},
+{
+"id": "t12",
+"name": "OLTP versus OLAP",
+"module": 1
+},
+{
+"id": "t13",
+"name": "OLAP operations",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Slice",
+"module": 1
+},
+{
+"id": "t15",
+"name": "Dice",
+"module": 1
+},
+{
+"id": "t16",
+"name": "Rollup",
+"module": 1
+},
+{
+"id": "t17",
+"name": "Drilldown and Pivot",
+"module": 1
+},
+{
+"id": "t18",
+"name": "Data Mining Task Primitives",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Architecture",
+"module": 2
+},
+{
+"id": "t20",
+"name": "KDD process",
+"module": 2
+},
+{
+"id": "t21",
+"name": "Issues in Data Mining",
+"module": 2
+},
+{
+"id": "t22",
+"name": "Data Exploration",
+"module": 2
+},
+{
+"id": "t23",
+"name": "Types of Attributes",
+"module": 2
+},
+{
+"id": "t24",
+"name": "Statistical Description of Data",
+"module": 2
+},
+{
+"id": "t25",
+"name": "Data Visualization",
+"module": 2
+},
+{
+"id": "t26",
+"name": "Data Preprocessing",
+"module": 2
+},
+{
+"id": "t27",
+"name": "Descriptive data summarization",
+"module": 2
+},
+{
+"id": "t28",
+"name": "Cleaning",
+"module": 2
+},
+{
+"id": "t29",
+"name": "Integration & transformation",
+"module": 2
+},
+{
+"id": "t30",
+"name": "Data reduction",
+"module": 2
+},
+{
+"id": "t31",
+"name": "Data Discretization and Concept hierarchy generation",
+"module": 2
+},
+{
+"id": "t32",
+"name": "Applications of Data Mining",
+"module": 2
+},
+{
+"id": "t33",
+"name": "ID3 algorithm",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Naïve Bayesian Classification",
+"module": 3
+},
+{
+"id": "t35",
+"name": "Performance evaluation of classification models",
+"module": 3
+},
+{
+"id": "t36",
+"name": "Confusion matrix",
+"module": 3
+},
+{
+"id": "t37",
+"name": "precision. recall",
+"module": 3
+},
+{
+"id": "t38",
+"name": "F1score",
+"module": 3
+},
+{
+"id": "t39",
+"name": "specificity",
+"module": 3
+},
+{
+"id": "t40",
+"name": "AUC-ROC curve",
+"module": 3
+},
+{
+"id": "t41",
+"name": "Evaluating the Accuracy of a Classifier",
+"module": 3
+},
+{
+"id": "t42",
+"name": "Holdout & Random Subsampling",
+"module": 3
+},
+{
+"id": "t43",
+"name": "Cross Validation",
+"module": 3
+},
+{
+"id": "t44",
+"name": "Bootstrap",
+"module": 3
+},
+{
+"id": "t45",
+"name": "Types of data in Cluster analysis",
+"module": 4
+},
+{
+"id": "t46",
+"name": "Partitioning Methods (k-Means, k- Medoids)",
+"module": 4
+},
+{
+"id": "t47",
+"name": "Hierarchical Methods (Agglomerative, Divisive)",
+"module": 4
+},
+{
+"id": "t48",
+"name": "Density based clustering",
+"module": 4
+},
+{
+"id": "t49",
+"name": "DBSCAN",
+"module": 4
+},
+{
+"id": "t50",
+"name": "Market Basket Analysis",
+"module": 5
+},
+{
+"id": "t51",
+"name": "Frequent Item sets",
+"module": 5
+},
+{
+"id": "t52",
+"name": "Association Rule",
+"module": 5
+},
+{
+"id": "t53",
+"name": "Apriori Algorithm",
+"module": 5
+},
+{
+"id": "t54",
+"name": "Improving the Efficiency of Apriori",
+"module": 5
+},
+{
+"id": "t55",
+"name": "FP-Tree",
+"module": 5
+},
+{
+"id": "t56",
+"name": "FP-Growth algorithm",
+"module": 5
+},
+{
+"id": "t57",
+"name": "Introduction to Mining Multilevel Association Rules",
+"module": 5
+},
+{
+"id": "t58",
+"name": "Mining Multidimensional Association Rules",
+"module": 5
+},
+{
+"id": "t59",
+"name": "Descriptive and Predictive Mining",
+"module": 6
+},
+{
+"id": "t60",
+"name": "Web Mining",
+"module": 6
+},
+{
+"id": "t61",
+"name": "Web content",
+"module": 6
+},
+{
+"id": "t62",
+"name": "Web Structure",
+"module": 6
+},
+{
+"id": "t63",
+"name": "Web Usage",
+"module": 6
+},
+{
+"id": "t64",
+"name": "Introduction to Graph Mining",
+"module": 6
+},
+{
+"id": "t65",
+"name": "Introduction to Text Mining",
+"module": 6
+},
+{
+"id": "t66",
+"name": "Introduction to Social Media Mining",
+"module": 6
+},
+{
+"id": "t67",
+"name": "Mining Time Series Data",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t22",
+"b": "t26",
+"a_name": "Data Exploration",
+"b_name": "Data Preprocessing"
+},
+{
+"i": 1,
+"a": "t1",
+"b": "t11",
+"a_name": "Introduction to Data Warehouse",
+"b_name": "Major steps in ETL process"
+},
+{
+"i": 2,
+"a": "t45",
+"b": "t48",
+"a_name": "Types of data in Cluster analysis",
+"b_name": "Density based clustering"
+},
+{
+"i": 3,
+"a": "t5",
+"b": "t8",
+"a_name": "Data Warehouse Schemas",
+"b_name": "Factless Fact Table"
+},
+{
+"i": 4,
+"a": "t4",
+"b": "t5",
+"a_name": "E-R Modeling versus Dimensional Modeling",
+"b_name": "Data Warehouse Schemas"
+},
+{
+"i": 5,
+"a": "t6",
+"b": "t7",
+"a_name": "Star Schema",
+"b_name": "Snowflake Schema"
+},
+{
+"i": 6,
+"a": "t23",
+"b": "t45",
+"a_name": "Types of Attributes",
+"b_name": "Types of data in Cluster analysis"
+},
+{
+"i": 7,
+"a": "t20",
+"b": "t18",
+"a_name": "KDD process",
+"b_name": "Data Mining Task Primitives"
+},
+{
+"i": 8,
+"a": "t24",
+"b": "t25",
+"a_name": "Statistical Description of Data",
+"b_name": "Data Visualization"
+},
+{
+"i": 9,
+"a": "t51",
+"b": "t55",
+"a_name": "Frequent Item sets",
+"b_name": "FP-Tree"
+},
+{
+"i": 10,
+"a": "t20",
+"b": "t26",
+"a_name": "KDD process",
+"b_name": "Data Preprocessing"
+},
+{
+"i": 11,
+"a": "t5",
+"b": "t10",
+"a_name": "Data Warehouse Schemas",
+"b_name": "Update to the dimension tables"
+},
+{
+"i": 12,
+"a": "t24",
+"b": "t27",
+"a_name": "Statistical Description of Data",
+"b_name": "Descriptive data summarization"
+},
+{
+"i": 13,
+"a": "t53",
+"b": "t55",
+"a_name": "Apriori Algorithm",
+"b_name": "FP-Tree"
+}
+]
+}

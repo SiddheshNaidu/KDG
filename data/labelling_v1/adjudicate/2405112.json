@@ -1,0 +1,776 @@
+{
+"course": "2405112",
+"title": "Measurements and Control",
+"topics": [
+{
+"id": "t1",
+"name": "Introduction to Metrology",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Need for inspection",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Coordinate measurement machine",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Fundamental principles and definition",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Standards of measurement",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Errors in measure- ments",
+"module": 1
+},
+{
+"id": "t7",
+"name": "International standardization",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Limits",
+"module": 1
+},
+{
+"id": "t9",
+"name": "fits and tolerances of interchangeable manufacture",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Elements of interchangeable system",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Hole based and shaft based systems",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Tolerance grades",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Types of fits",
+"module": 1
+},
+{
+"id": "t14",
+"name": "General requirements of Go & No go gauging",
+"module": 1
+},
+{
+"id": "t15",
+"name": "Taylor’s principle",
+"module": 1
+},
+{
+"id": "t16",
+"name": "Design of Go & No go gauges",
+"module": 1
+},
+{
+"id": "t17",
+"name": "Principles of interference",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Concept of flatness",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Flatness testing",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Optical flats",
+"module": 2
+},
+{
+"id": "t21",
+"name": "Optical Interferometer and Laser interferometer",
+"module": 2
+},
+{
+"id": "t22",
+"name": "Surface texture measurement",
+"module": 2
+},
+{
+"id": "t23",
+"name": "importance of surface conditions",
+"module": 2
+},
+{
+"id": "t24",
+"name": "roughness and waviness",
+"module": 2
+},
+{
+"id": "t25",
+"name": "surface roughness standards specifying surface roughness parameters",
+"module": 2
+},
+{
+"id": "t26",
+"name": "Ra",
+"module": 2
+},
+{
+"id": "t27",
+"name": "Ry",
+"module": 2
+},
+{
+"id": "t28",
+"name": "Rz",
+"module": 2
+},
+{
+"id": "t29",
+"name": "Surface roughness measuring instruments",
+"module": 2
+},
+{
+"id": "t30",
+"name": "Form measurement machine",
+"module": 2
+},
+{
+"id": "t31",
+"name": "Screw Thread measurement",
+"module": 2
+},
+{
+"id": "t32",
+"name": "Two wire and three wire methods",
+"module": 2
+},
+{
+"id": "t33",
+"name": "Floating carriage micrometer",
+"module": 2
+},
+{
+"id": "t34",
+"name": "Profile projector",
+"module": 2
+},
+{
+"id": "t35",
+"name": "Gear measurement",
+"module": 2
+},
+{
+"id": "t36",
+"name": "Gear tooth comparator",
+"module": 2
+},
+{
+"id": "t37",
+"name": "Master gears",
+"module": 2
+},
+{
+"id": "t38",
+"name": "Measurement using rollers and Parkinson’s Tester",
+"module": 2
+},
+{
+"id": "t39",
+"name": "Significance of Mechanical Measurements",
+"module": 3
+},
+{
+"id": "t40",
+"name": "Classification of measuring instruments",
+"module": 3
+},
+{
+"id": "t41",
+"name": "generalized measurement system",
+"module": 3
+},
+{
+"id": "t42",
+"name": "types of inputs",
+"module": 3
+},
+{
+"id": "t43",
+"name": "Desired",
+"module": 3
+},
+{
+"id": "t44",
+"name": "interfering and modifying inputs",
+"module": 3
+},
+{
+"id": "t45",
+"name": "Static characteristics",
+"module": 3
+},
+{
+"id": "t46",
+"name": "Static calibration",
+"module": 3
+},
+{
+"id": "t47",
+"name": "Linearity",
+"module": 3
+},
+{
+"id": "t48",
+"name": "Static Sensitivity",
+"module": 3
+},
+{
+"id": "t49",
+"name": "Accuracy",
+"module": 3
+},
+{
+"id": "t50",
+"name": "Static error",
+"module": 3
+},
+{
+"id": "t51",
+"name": "Precision",
+"module": 3
+},
+{
+"id": "t52",
+"name": "Reproducibility",
+"module": 3
+},
+{
+"id": "t53",
+"name": "Threshold",
+"module": 3
+},
+{
+"id": "t54",
+"name": "Resolution",
+"module": 3
+},
+{
+"id": "t55",
+"name": "Hysteresis",
+"module": 3
+},
+{
+"id": "t56",
+"name": "Drift",
+"module": 3
+},
+{
+"id": "t57",
+"name": "Dynamic characteristics",
+"module": 3
+},
+{
+"id": "t58",
+"name": "speed of response",
+"module": 3
+},
+{
+"id": "t59",
+"name": "fidelity",
+"module": 3
+},
+{
+"id": "t60",
+"name": "Displacement Measurement",
+"module": 4
+},
+{
+"id": "t61",
+"name": "Transducers for displacement",
+"module": 4
+},
+{
+"id": "t62",
+"name": "potentiometer",
+"module": 4
+},
+{
+"id": "t63",
+"name": "LVDT",
+"module": 4
+},
+{
+"id": "t64",
+"name": "Nozzle Flapper Transducer",
+"module": 4
+},
+{
+"id": "t65",
+"name": "Strain Measurement",
+"module": 4
+},
+{
+"id": "t66",
+"name": "Theory of Strain Gauges",
+"module": 4
+},
+{
+"id": "t67",
+"name": "gauge factor",
+"module": 4
+},
+{
+"id": "t68",
+"name": "temperature Compensation",
+"module": 4
+},
+{
+"id": "t69",
+"name": "Pressure Measurement",
+"module": 4
+},
+{
+"id": "t70",
+"name": "Elastic pressure transducers viz. Bourdon tubes",
+"module": 4
+},
+{
+"id": "t71",
+"name": "diaphragm",
+"module": 4
+},
+{
+"id": "t72",
+"name": "bellows",
+"module": 4
+},
+{
+"id": "t73",
+"name": "Flow Measurement",
+"module": 4
+},
+{
+"id": "t74",
+"name": "Bernoulli flowmeters",
+"module": 4
+},
+{
+"id": "t75",
+"name": "Ultrasonic Flowmeter",
+"module": 4
+},
+{
+"id": "t76",
+"name": "Magnetic flow meter",
+"module": 4
+},
+{
+"id": "t77",
+"name": "rotameter",
+"module": 4
+},
+{
+"id": "t78",
+"name": "Temperature Measurement",
+"module": 4
+},
+{
+"id": "t79",
+"name": "Electrical methods of temperature measurement Resistance thermometers",
+"module": 4
+},
+{
+"id": "t80",
+"name": "Thermistors and thermocouples *",
+"module": 4
+},
+{
+"id": "t81",
+"name": "Introduction to control systems",
+"module": 5
+},
+{
+"id": "t82",
+"name": "Classification of control system",
+"module": 5
+},
+{
+"id": "t83",
+"name": "Open loop and closed loop systems",
+"module": 5
+},
+{
+"id": "t84",
+"name": "Mathematical modelling of control systems",
+"module": 5
+},
+{
+"id": "t85",
+"name": "concept of transfer function",
+"module": 5
+},
+{
+"id": "t86",
+"name": "Block diagram algebra",
+"module": 5
+},
+{
+"id": "t87",
+"name": "Transient and steady state analysis of first and second order system",
+"module": 5
+},
+{
+"id": "t88",
+"name": "Time Domain specifications",
+"module": 5
+},
+{
+"id": "t89",
+"name": "Step response of second order system",
+"module": 5
+},
+{
+"id": "t90",
+"name": "Steady-state error",
+"module": 5
+},
+{
+"id": "t91",
+"name": "error coefficients",
+"module": 5
+},
+{
+"id": "t92",
+"name": "steady state analysis of different type of systems using step",
+"module": 5
+},
+{
+"id": "t93",
+"name": "ramp and parabolic inputs",
+"module": 5
+},
+{
+"id": "t94",
+"name": "Stability analysis",
+"module": 6
+},
+{
+"id": "t95",
+"name": "Introduction to concepts of stability",
+"module": 6
+},
+{
+"id": "t96",
+"name": "Routh criteria for stability",
+"module": 6
+},
+{
+"id": "t97",
+"name": "Experimental determination of frequency response",
+"module": 6
+},
+{
+"id": "t98",
+"name": "Stability analysis using Root locus",
+"module": 6
+},
+{
+"id": "t99",
+"name": "Bode plot",
+"module": 6
+}
+],
+"candidates": [
+{
+"i": 0,
+"a": "t22",
+"b": "t25",
+"a_name": "Surface texture measurement",
+"b_name": "surface roughness standards specifying surface roughness parameters"
+},
+{
+"i": 1,
+"a": "t10",
+"b": "t11",
+"a_name": "Elements of interchangeable system",
+"b_name": "Hole based and shaft based systems"
+},
+{
+"i": 2,
+"a": "t14",
+"b": "t16",
+"a_name": "General requirements of Go & No go gauging",
+"b_name": "Design of Go & No go gauges"
+},
+{
+"i": 3,
+"a": "t10",
+"b": "t13",
+"a_name": "Elements of interchangeable system",
+"b_name": "Types of fits"
+},
+{
+"i": 4,
+"a": "t91",
+"b": "t92",
+"a_name": "error coefficients",
+"b_name": "steady state analysis of different type of systems using step"
+},
+{
+"i": 5,
+"a": "t45",
+"b": "t48",
+"a_name": "Static characteristics",
+"b_name": "Static Sensitivity"
+},
+{
+"i": 6,
+"a": "t1",
+"b": "t4",
+"a_name": "Introduction to Metrology",
+"b_name": "Fundamental principles and definition"
+},
+{
+"i": 7,
+"a": "t73",
+"b": "t74",
+"a_name": "Flow Measurement",
+"b_name": "Bernoulli flowmeters"
+},
+{
+"i": 8,
+"a": "t49",
+"b": "t50",
+"a_name": "Accuracy",
+"b_name": "Static error"
+},
+{
+"i": 9,
+"a": "t85",
+"b": "t98",
+"a_name": "concept of transfer function",
+"b_name": "Stability analysis using Root locus"
+},
+{
+"i": 10,
+"a": "t73",
+"b": "t76",
+"a_name": "Flow Measurement",
+"b_name": "Magnetic flow meter"
+},
+{
+"i": 11,
+"a": "t91",
+"b": "t93",
+"a_name": "error coefficients",
+"b_name": "ramp and parabolic inputs"
+},
+{
+"i": 12,
+"a": "t73",
+"b": "t75",
+"a_name": "Flow Measurement",
+"b_name": "Ultrasonic Flowmeter"
+},
+{
+"i": 13,
+"a": "t22",
+"b": "t29",
+"a_name": "Surface texture measurement",
+"b_name": "Surface roughness measuring instruments"
+},
+{
+"i": 14,
+"a": "t20",
+"b": "t19",
+"a_name": "Optical flats",
+"b_name": "Flatness testing"
+},
+{
+"i": 15,
+"a": "t19",
+"b": "t20",
+"a_name": "Flatness testing",
+"b_name": "Optical flats"
+},
+{
+"i": 16,
+"a": "t85",
+"b": "t94",
+"a_name": "concept of transfer function",
+"b_name": "Stability analysis"
+},
+{
+"i": 17,
+"a": "t25",
+"b": "t29",
+"a_name": "surface roughness standards specifying surface roughness parameters",
+"b_name": "Surface roughness measuring instruments"
+},
+{
+"i": 18,
+"a": "t92",
+"b": "t93",
+"a_name": "steady state analysis of different type of systems using step",
+"b_name": "ramp and parabolic inputs"
+},
+{
+"i": 19,
+"a": "t10",
+"b": "t12",
+"a_name": "Elements of interchangeable system",
+"b_name": "Tolerance grades"
+},
+{
+"i": 20,
+"a": "t42",
+"b": "t43",
+"a_name": "types of inputs",
+"b_name": "Desired"
+},
+{
+"i": 21,
+"a": "t85",
+"b": "t99",
+"a_name": "concept of transfer function",
+"b_name": "Bode plot"
+},
+{
+"i": 22,
+"a": "t8",
+"b": "t12",
+"a_name": "Limits",
+"b_name": "Tolerance grades"
+},
+{
+"i": 23,
+"a": "t69",
+"b": "t71",
+"a_name": "Pressure Measurement",
+"b_name": "diaphragm"
+},
+{
+"i": 24,
+"a": "t41",
+"b": "t43",
+"a_name": "generalized measurement system",
+"b_name": "Desired"
+},
+{
+"i": 25,
+"a": "t90",
+"b": "t92",
+"a_name": "Steady-state error",
+"b_name": "steady state analysis of different type of systems using step"
+},
+{
+"i": 26,
+"a": "t8",
+"b": "t13",
+"a_name": "Limits",
+"b_name": "Types of fits"
+},
+{
+"i": 27,
+"a": "t85",
+"b": "t90",
+"a_name": "concept of transfer function",
+"b_name": "Steady-state error"
+},
+{
+"i": 28,
+"a": "t73",
+"b": "t77",
+"a_name": "Flow Measurement",
+"b_name": "rotameter"
+},
+{
+"i": 29,
+"a": "t85",
+"b": "t96",
+"a_name": "concept of transfer function",
+"b_name": "Routh criteria for stability"
+},
+{
+"i": 30,
+"a": "t87",
+"b": "t90",
+"a_name": "Transient and steady state analysis of first and second order system",
+"b_name": "Steady-state error"
+},
+{
+"i": 31,
+"a": "t81",
+"b": "t82",
+"a_name": "Introduction to control systems",
+"b_name": "Classification of control system"
+},
+{
+"i": 32,
+"a": "t81",
+"b": "t83",
+"a_name": "Introduction to control systems",
+"b_name": "Open loop and closed loop systems"
+},
+{
+"i": 33,
+"a": "t1",
+"b": "t2",
+"a_name": "Introduction to Metrology",
+"b_name": "Need for inspection"
+},
+{
+"i": 34,
+"a": "t69",
+"b": "t72",
+"a_name": "Pressure Measurement",
+"b_name": "bellows"
+},
+{
+"i": 35,
+"a": "t45",
+"b": "t51",
+"a_name": "Static characteristics",
+"b_name": "Precision"
+},
+{
+"i": 36,
+"a": "t8",
+"b": "t9",
+"a_name": "Limits",
+"b_name": "fits and tolerances of interchangeable manufacture"
+},
+{
+"i": 37,
+"a": "t45",
+"b": "t46",
+"a_name": "Static characteristics",
+"b_name": "Static calibration"
+},
+{
+"i": 38,
+"a": "t61",
+"b": "t64",
+"a_name": "Transducers for displacement",
+"b_name": "Nozzle Flapper Transducer"
+}
+]
+}

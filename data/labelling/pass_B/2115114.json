@@ -3,222 +3,207 @@
 {
 "a": "t1",
 "b": "t2",
-"why": "architecture follows warehouse intro"
+"why": "a is needed to understand b"
 },
 {
 "a": "t1",
 "b": "t3",
-"why": "data marts relate to warehouse"
-},
-{
-"a": "t1",
-"b": "t4",
-"why": "dimensional modeling for warehouse"
-},
-{
-"a": "t4",
-"b": "t5",
-"why": "schemas use dimensional modeling"
+"why": "a is needed to understand b"
 },
 {
 "a": "t5",
 "b": "t6",
-"why": "star is a schema"
+"why": "a is needed to understand b"
 },
 {
 "a": "t5",
 "b": "t7",
-"why": "snowflake is a schema"
+"why": "a is needed to understand b"
 },
 {
-"a": "t5",
-"b": "t8",
-"why": "fact table in schema"
+"a": "t6",
+"b": "t7",
+"why": "a is needed to understand b"
 },
 {
 "a": "t5",
 "b": "t9",
-"why": "constellation is a schema"
+"why": "a is needed to understand b"
 },
 {
-"a": "t1",
-"b": "t11",
-"why": "ETL loads warehouse"
+"a": "t6",
+"b": "t9",
+"why": "a is needed to understand b"
 },
 {
 "a": "t12",
 "b": "t13",
-"why": "OLAP operations need OLAP"
+"why": "a is needed to understand b"
 },
 {
 "a": "t13",
 "b": "t14",
-"why": "slice is OLAP operation"
+"why": "a is needed to understand b"
 },
 {
 "a": "t13",
 "b": "t15",
-"why": "dice is OLAP operation"
+"why": "a is needed to understand b"
 },
 {
 "a": "t13",
 "b": "t16",
-"why": "rollup is OLAP operation"
+"why": "a is needed to understand b"
 },
 {
 "a": "t13",
 "b": "t17",
-"why": "drilldown is OLAP operation"
-},
-{
-"a": "t20",
-"b": "t26",
-"why": "preprocessing is KDD step"
-},
-{
-"a": "t22",
-"b": "t23",
-"why": "attributes are explored"
+"why": "a is needed to understand b"
 },
 {
 "a": "t23",
 "b": "t24",
-"why": "statistics depend on attribute types"
-},
-{
-"a": "t26",
-"b": "t28",
-"why": "cleaning is preprocessing"
-},
-{
-"a": "t26",
-"b": "t29",
-"why": "integration is preprocessing"
-},
-{
-"a": "t26",
-"b": "t30",
-"why": "reduction is preprocessing"
-},
-{
-"a": "t26",
-"b": "t31",
-"why": "discretization is preprocessing"
+"why": "a is needed to understand b"
 },
 {
 "a": "t24",
 "b": "t27",
-"why": "summarization uses statistics"
+"why": "a is needed to understand b"
+},
+{
+"a": "t26",
+"b": "t28",
+"why": "a is needed to understand b"
+},
+{
+"a": "t26",
+"b": "t29",
+"why": "a is needed to understand b"
+},
+{
+"a": "t26",
+"b": "t30",
+"why": "a is needed to understand b"
+},
+{
+"a": "t26",
+"b": "t31",
+"why": "a is needed to understand b"
 },
 {
 "a": "t35",
 "b": "t36",
-"why": "confusion matrix evaluates models"
+"why": "a is needed to understand b"
 },
 {
 "a": "t36",
 "b": "t37",
-"why": "precision from confusion matrix"
+"why": "a is needed to understand b"
 },
 {
 "a": "t36",
 "b": "t38",
-"why": "F1 from precision recall"
+"why": "a is needed to understand b"
 },
 {
 "a": "t36",
 "b": "t39",
-"why": "specificity from confusion matrix"
+"why": "a is needed to understand b"
 },
 {
 "a": "t36",
 "b": "t40",
-"why": "ROC from confusion matrix rates"
+"why": "a is needed to understand b"
 },
 {
 "a": "t41",
 "b": "t42",
-"why": "holdout is evaluation method"
+"why": "a is needed to understand b"
 },
 {
 "a": "t41",
 "b": "t43",
-"why": "cross validation evaluates classifier"
+"why": "a is needed to understand b"
 },
 {
 "a": "t41",
 "b": "t44",
-"why": "bootstrap evaluates classifier"
+"why": "a is needed to understand b"
 },
 {
 "a": "t45",
 "b": "t46",
-"why": "clustering needs data types"
+"why": "a is needed to understand b"
 },
 {
 "a": "t45",
 "b": "t47",
-"why": "hierarchical clustering needs data types"
+"why": "a is needed to understand b"
+},
+{
+"a": "t45",
+"b": "t48",
+"why": "a is needed to understand b"
 },
 {
 "a": "t48",
 "b": "t49",
-"why": "DBSCAN is density-based"
+"why": "a is needed to understand b"
 },
 {
 "a": "t50",
 "b": "t51",
-"why": "market basket yields itemsets"
+"why": "a is needed to understand b"
 },
 {
 "a": "t51",
 "b": "t52",
-"why": "rules derive from itemsets"
+"why": "a is needed to understand b"
 },
 {
 "a": "t51",
 "b": "t53",
-"why": "Apriori mines frequent itemsets"
+"why": "a is needed to understand b"
 },
 {
 "a": "t53",
 "b": "t54",
-"why": "improvements modify Apriori"
-},
-{
-"a": "t51",
-"b": "t55",
-"why": "FP-tree stores frequent itemsets"
+"why": "a is needed to understand b"
 },
 {
 "a": "t55",
 "b": "t56",
-"why": "FP-growth uses FP-tree"
+"why": "a is needed to understand b"
 },
 {
 "a": "t52",
 "b": "t57",
-"why": "multilevel extends association rules"
+"why": "a is needed to understand b"
 },
 {
 "a": "t52",
 "b": "t58",
-"why": "multidimensional extends association rules"
+"why": "a is needed to understand b"
 },
 {
 "a": "t60",
 "b": "t61",
-"why": "content mining is web mining"
+"why": "a is needed to understand b"
 },
 {
 "a": "t60",
 "b": "t62",
-"why": "structure mining is web mining"
+"why": "a is needed to understand b"
 },
 {
 "a": "t60",
 "b": "t63",
-"why": "usage mining is web mining"
+"why": "a is needed to understand b"
+},
+{
+"a": "t20",
+"b": "t26",
+"why": "a is needed to understand b"
 }
 ]
 }

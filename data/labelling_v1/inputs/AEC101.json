@@ -1,0 +1,672 @@
+{
+"course": "AEC101",
+"title": "Professional Communication and Ethics",
+"modules": [
+{
+"index": 1,
+"name": "Fundamentals of Communication"
+},
+{
+"index": 2,
+"name": "Developing Basic Listening Skills"
+},
+{
+"index": 3,
+"name": "Developing Basic Speaking Skills"
+},
+{
+"index": 4,
+"name": "Developing Basic Reading Skills"
+},
+{
+"index": 5,
+"name": "Developing Basic Writing Skills"
+},
+{
+"index": 6,
+"name": "Ethical and Managerial Skills for Engineers"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Basic Concepts of Communication",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Postulates",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Process of Communication",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Stimulus",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Sender",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Encoding",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Message",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Medium",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Channel",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Receiver",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Decoding",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Feedback",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Methods of Communication",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Verbal (Written & Spoken)",
+"module": 1
+},
+{
+"id": "t15",
+"name": "Non-verbal cues perceived through the five senses (Visual, Auditory, Tactile, Olfactory, Gustatory)",
+"module": 1
+},
+{
+"id": "t16",
+"name": "Non-verbal cues transmitted cues through (The body, Voice, Space, Time, Silence)",
+"module": 1
+},
+{
+"id": "t17",
+"name": "Barriers to Communication",
+"module": 1
+},
+{
+"id": "t18",
+"name": "Mechanical",
+"module": 1
+},
+{
+"id": "t19",
+"name": "Physical",
+"module": 1
+},
+{
+"id": "t20",
+"name": "Semantic & Linguistic",
+"module": 1
+},
+{
+"id": "t21",
+"name": "Psychological",
+"module": 1
+},
+{
+"id": "t22",
+"name": "Socio-cultural",
+"module": 1
+},
+{
+"id": "t23",
+"name": "Organisational Communication",
+"module": 1
+},
+{
+"id": "t24",
+"name": "Formal (Upward, Downward, Horizontal)",
+"module": 1
+},
+{
+"id": "t25",
+"name": "Informal (Grapevine)",
+"module": 1
+},
+{
+"id": "t26",
+"name": "Concepts of Active Listening",
+"module": 2
+},
+{
+"id": "t27",
+"name": "Listening for Details",
+"module": 2
+},
+{
+"id": "t28",
+"name": "Listening for Gist",
+"module": 2
+},
+{
+"id": "t29",
+"name": "Listening for Inference",
+"module": 2
+},
+{
+"id": "t30",
+"name": "Enhancing Listening Proficiency Using Language Labs or on Open Source Platforms",
+"module": 2
+},
+{
+"id": "t31",
+"name": "Conversational Activities",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Monologues",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Introducing yourself",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Introducing others",
+"module": 3
+},
+{
+"id": "t35",
+"name": "One-minute impromptu speeches",
+"module": 3
+},
+{
+"id": "t36",
+"name": "Scaffolded story telling",
+"module": 3
+},
+{
+"id": "t37",
+"name": "Dialogues",
+"module": 3
+},
+{
+"id": "t38",
+"name": "Role plays on everyday interactions",
+"module": 3
+},
+{
+"id": "t39",
+"name": "Interviews (Find out if...)",
+"module": 3
+},
+{
+"id": "t40",
+"name": "Information Gap Activities",
+"module": 3
+},
+{
+"id": "t41",
+"name": "Picture descriptions and feedback",
+"module": 3
+},
+{
+"id": "t42",
+"name": "Situational conversations",
+"module": 3
+},
+{
+"id": "t43",
+"name": "Pronunciation",
+"module": 3
+},
+{
+"id": "t44",
+"name": "Stress & Rhythm",
+"module": 3
+},
+{
+"id": "t45",
+"name": "Intonation",
+"module": 3
+},
+{
+"id": "t46",
+"name": "Neutralisation of accent",
+"module": 3
+},
+{
+"id": "t47",
+"name": "Word stress",
+"module": 3
+},
+{
+"id": "t48",
+"name": "Rhythm & Pauses",
+"module": 3
+},
+{
+"id": "t49",
+"name": "Tonal variations/inflections",
+"module": 3
+},
+{
+"id": "t50",
+"name": "Verbal Aptitude",
+"module": 4
+},
+{
+"id": "t51",
+"name": "Root Words",
+"module": 4
+},
+{
+"id": "t52",
+"name": "Meanings",
+"module": 4
+},
+{
+"id": "t53",
+"name": "Word Forms",
+"module": 4
+},
+{
+"id": "t54",
+"name": "Synonyms",
+"module": 4
+},
+{
+"id": "t55",
+"name": "Antonyms",
+"module": 4
+},
+{
+"id": "t56",
+"name": "Collocations",
+"module": 4
+},
+{
+"id": "t57",
+"name": "Prefixes",
+"module": 4
+},
+{
+"id": "t58",
+"name": "Suffixes at a similar difficulty level of entrance tests like CAT/GRE/GMAT & proficiency tests like TOEFL/IELTS",
+"module": 4
+},
+{
+"id": "t59",
+"name": "Grammar",
+"module": 4
+},
+{
+"id": "t60",
+"name": "Identifying Common Errors (Subject-verb agreement, Articles",
+"module": 4
+},
+{
+"id": "t61",
+"name": "Prepositions, Misplaced modifiers and Punctuations) Redundancies",
+"module": 4
+},
+{
+"id": "t62",
+"name": "Idioms",
+"module": 4
+},
+{
+"id": "t63",
+"name": "Cliches at a similar difficulty level of entrance tests like CAT/GRE/GMAT & proficiency tests like TOEFL/IELTS",
+"module": 4
+},
+{
+"id": "t64",
+"name": "Techniques to Improve Reading Fluency and Comprehension",
+"module": 4
+},
+{
+"id": "t65",
+"name": "Intensive Reading",
+"module": 4
+},
+{
+"id": "t66",
+"name": "Extensive Reading",
+"module": 4
+},
+{
+"id": "t67",
+"name": "Skimming",
+"module": 4
+},
+{
+"id": "t68",
+"name": "Scanning",
+"module": 4
+},
+{
+"id": "t69",
+"name": "SQ5R Method (Survey, Question, Reading, Recording, Recall, Review and Revise)",
+"module": 4
+},
+{
+"id": "t70",
+"name": "Reading &Summarisation Skills",
+"module": 4
+},
+{
+"id": "t71",
+"name": "Summarising text to Graphic Organisers (GO) and visa-versa",
+"module": 4
+},
+{
+"id": "t72",
+"name": "Venn diagrams",
+"module": 4
+},
+{
+"id": "t73",
+"name": "Radial Diagrams (Mindmaps)",
+"module": 4
+},
+{
+"id": "t74",
+"name": "Tree Diagrams",
+"module": 4
+},
+{
+"id": "t75",
+"name": "Cyclic Diagrams",
+"module": 4
+},
+{
+"id": "t76",
+"name": "Flow Charts",
+"module": 4
+},
+{
+"id": "t77",
+"name": "Timelines",
+"module": 4
+},
+{
+"id": "t78",
+"name": "Matrix (Tables)",
+"module": 4
+},
+{
+"id": "t79",
+"name": "Pyramids",
+"module": 4
+},
+{
+"id": "t80",
+"name": "Summarising text in point form",
+"module": 4
+},
+{
+"id": "t81",
+"name": "Summarising text in one-sentence central idea",
+"module": 4
+},
+{
+"id": "t82",
+"name": "Coherence & Cohesion in Writing",
+"module": 5
+},
+{
+"id": "t83",
+"name": "Basic Units of Writing (Words, Sentences, Paragraphs)",
+"module": 5
+},
+{
+"id": "t84",
+"name": "Coherence (Structure of written pieces, CSI Order of Organisation)",
+"module": 5
+},
+{
+"id": "t85",
+"name": "Cohesive Devices",
+"module": 5
+},
+{
+"id": "t86",
+"name": "Structure of a Paragraph (Topic Sentence, Supporting Ideas, Concluding Sentence)",
+"module": 5
+},
+{
+"id": "t87",
+"name": "Seven Cs of Business Writing",
+"module": 5
+},
+{
+"id": "t88",
+"name": "Completeness",
+"module": 5
+},
+{
+"id": "t89",
+"name": "Conciseness",
+"module": 5
+},
+{
+"id": "t90",
+"name": "Consideration",
+"module": 5
+},
+{
+"id": "t91",
+"name": "Concreteness",
+"module": 5
+},
+{
+"id": "t92",
+"name": "Clarity",
+"module": 5
+},
+{
+"id": "t93",
+"name": "Courtesy",
+"module": 5
+},
+{
+"id": "t94",
+"name": "Correctness",
+"module": 5
+},
+{
+"id": "t95",
+"name": "Format & Types of Formal Letters",
+"module": 5
+},
+{
+"id": "t96",
+"name": "Parts of a Formal Letter in Complete Block Style",
+"module": 5
+},
+{
+"id": "t97",
+"name": "Request/Permission Letter",
+"module": 5
+},
+{
+"id": "t98",
+"name": "Claim and Adjustment Letter",
+"module": 5
+},
+{
+"id": "t99",
+"name": "Sales Letter",
+"module": 5
+},
+{
+"id": "t100",
+"name": "E-mails",
+"module": 5
+},
+{
+"id": "t101",
+"name": "Writing User Instructions",
+"module": 5
+},
+{
+"id": "t102",
+"name": "Styles of Instruction Presentation (Impersonal, Indirect, Direct, Imperative)",
+"module": 5
+},
+{
+"id": "t103",
+"name": "Describing general function/purpose of an object/process",
+"module": 5
+},
+{
+"id": "t104",
+"name": "Drawing labelled diagrams",
+"module": 5
+},
+{
+"id": "t105",
+"name": "Describing labelled parts",
+"module": 5
+},
+{
+"id": "t106",
+"name": "Writing Special Notices",
+"module": 5
+},
+{
+"id": "t107",
+"name": "Content Creation for Social Media and e- Commerce Platforms",
+"module": 5
+},
+{
+"id": "t108",
+"name": "Blogs",
+"module": 5
+},
+{
+"id": "t109",
+"name": "Poetry",
+"module": 5
+},
+{
+"id": "t110",
+"name": "Keynote speeches",
+"module": 5
+},
+{
+"id": "t111",
+"name": "Podcast titles",
+"module": 5
+},
+{
+"id": "t112",
+"name": "Landing pages",
+"module": 5
+},
+{
+"id": "t113",
+"name": "Social media posts",
+"module": 5
+},
+{
+"id": "t114",
+"name": "YouTube video description",
+"module": 5
+},
+{
+"id": "t115",
+"name": "Screenwriting/Script Writing (Ensure minimum 3 of these categories are covered in the form of competitions)",
+"module": 5
+},
+{
+"id": "t116",
+"name": "Team building",
+"module": 6
+},
+{
+"id": "t117",
+"name": "Five stages of Team",
+"module": 6
+},
+{
+"id": "t118",
+"name": "(Forming, Storming, Norming, Performing and Adjourning)",
+"module": 6
+},
+{
+"id": "t119",
+"name": "Goal setting",
+"module": 6
+},
+{
+"id": "t120",
+"name": "SMART goals",
+"module": 6
+},
+{
+"id": "t121",
+"name": "short term and long-term goals",
+"module": 6
+},
+{
+"id": "t122",
+"name": "Ethical Considerations for Professional Integrity",
+"module": 6
+},
+{
+"id": "t123",
+"name": "Fairness and Honesty",
+"module": 6
+},
+{
+"id": "t124",
+"name": "Difference between Values and Ethics",
+"module": 6
+},
+{
+"id": "t125",
+"name": "Ethical principles",
+"module": 6
+},
+{
+"id": "t126",
+"name": "Ethical use of AI Tools",
+"module": 6
+},
+{
+"id": "t127",
+"name": "Plagiarism and copyright infringement",
+"module": 6
+},
+{
+"id": "t128",
+"name": "Ethical-dilemma case studies",
+"module": 6
+}
+]
+}

@@ -1,0 +1,317 @@
+{
+"course": "23461131",
+"title": "Advance Web Technology",
+"modules": [
+{
+"index": 1,
+"name": "Typescript"
+},
+{
+"index": 2,
+"name": "AngularJS"
+},
+{
+"index": 3,
+"name": "Angular"
+},
+{
+"index": 4,
+"name": "Next.js"
+},
+{
+"index": 5,
+"name": "FastAPI"
+},
+{
+"index": 6,
+"name": "Search Engines and SEO"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Introduction to TypeScript including its internal architecture and environment setup",
+"module": 1
+},
+{
+"id": "t2",
+"name": "working with data types",
+"module": 1
+},
+{
+"id": "t3",
+"name": "variables",
+"module": 1
+},
+{
+"id": "t4",
+"name": "operators",
+"module": 1
+},
+{
+"id": "t5",
+"name": "implementing decision-making statements and loops",
+"module": 1
+},
+{
+"id": "t6",
+"name": "developing functions",
+"module": 1
+},
+{
+"id": "t7",
+"name": "creating classes and objects using object-oriented concepts",
+"module": 1
+},
+{
+"id": "t8",
+"name": "organizing code using TypeScript modules",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Introduction to AngularJS and its significance in modern web development",
+"module": 2
+},
+{
+"id": "t10",
+"name": "AngularJS modules",
+"module": 2
+},
+{
+"id": "t11",
+"name": "built-in and custom directives",
+"module": 2
+},
+{
+"id": "t12",
+"name": "expressions",
+"module": 2
+},
+{
+"id": "t13",
+"name": "data binding",
+"module": 2
+},
+{
+"id": "t14",
+"name": "filters",
+"module": 2
+},
+{
+"id": "t15",
+"name": "controllers",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Dependency injection and services",
+"module": 2
+},
+{
+"id": "t17",
+"name": "form validation",
+"module": 2
+},
+{
+"id": "t18",
+"name": "routing using ng-Route (including ng-view)",
+"module": 2
+},
+{
+"id": "t19",
+"name": "use of directives such as ng-repeat and ng-style",
+"module": 2
+},
+{
+"id": "t20",
+"name": "built-in helper functions",
+"module": 2
+},
+{
+"id": "t21",
+"name": "integration of AngularJS with TypeScript",
+"module": 2
+},
+{
+"id": "t22",
+"name": "Angular JS versus Angular",
+"module": 3
+},
+{
+"id": "t23",
+"name": "Angular architecture",
+"module": 3
+},
+{
+"id": "t24",
+"name": "components",
+"module": 3
+},
+{
+"id": "t25",
+"name": "modules",
+"module": 3
+},
+{
+"id": "t26",
+"name": "templates",
+"module": 3
+},
+{
+"id": "t27",
+"name": "directives",
+"module": 3
+},
+{
+"id": "t28",
+"name": "pipes",
+"module": 3
+},
+{
+"id": "t29",
+"name": "services with dependency injection",
+"module": 3
+},
+{
+"id": "t30",
+"name": "routing",
+"module": 3
+},
+{
+"id": "t31",
+"name": "forms",
+"module": 3
+},
+{
+"id": "t32",
+"name": "HTTP client with RxJS",
+"module": 3
+},
+{
+"id": "t33",
+"name": "basics of state management",
+"module": 3
+},
+{
+"id": "t34",
+"name": "testing",
+"module": 3
+},
+{
+"id": "t35",
+"name": "deployment",
+"module": 3
+},
+{
+"id": "t36",
+"name": "Introduction to Next.js & Setup",
+"module": 4
+},
+{
+"id": "t37",
+"name": "Next.js Basics and Built-In Components",
+"module": 4
+},
+{
+"id": "t38",
+"name": "Pages and Routing",
+"module": 4
+},
+{
+"id": "t39",
+"name": "Styling in Next.js",
+"module": 4
+},
+{
+"id": "t40",
+"name": "Data Fetching Methods",
+"module": 4
+},
+{
+"id": "t41",
+"name": "Optimizing Next.js Applications",
+"module": 4
+},
+{
+"id": "t42",
+"name": "State Management",
+"module": 4
+},
+{
+"id": "t43",
+"name": "Testing Next.js",
+"module": 4
+},
+{
+"id": "t44",
+"name": "API Routes",
+"module": 4
+},
+{
+"id": "t45",
+"name": "Securing App with Next Auth",
+"module": 4
+},
+{
+"id": "t46",
+"name": "Introduction to FastAPI",
+"module": 5
+},
+{
+"id": "t47",
+"name": "REST APIs with FastAPI",
+"module": 5
+},
+{
+"id": "t48",
+"name": "Working with Data and Files in FastAPI",
+"module": 5
+},
+{
+"id": "t49",
+"name": "Handling Request & Response Data in FastAPI",
+"module": 5
+},
+{
+"id": "t50",
+"name": "Database Integration in FastAPI using MongoDB",
+"module": 5
+},
+{
+"id": "t51",
+"name": "Architecture and working of search engines",
+"module": 6
+},
+{
+"id": "t52",
+"name": "search engine crawling",
+"module": 6
+},
+{
+"id": "t53",
+"name": "indexing",
+"module": 6
+},
+{
+"id": "t54",
+"name": "ranking mechanisms",
+"module": 6
+},
+{
+"id": "t55",
+"name": "on-page and off-page SEO techniques",
+"module": 6
+},
+{
+"id": "t56",
+"name": "website performance using SEO tools",
+"module": 6
+},
+{
+"id": "t57",
+"name": "Basic SEO strategies for web applications",
+"module": 6
+}
+]
+}

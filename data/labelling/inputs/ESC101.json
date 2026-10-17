@@ -45,226 +45,221 @@
 },
 {
 "id": "t4",
-"name": "Resultant of coplanar force system (Concurrent forces, parallel forces",
+"name": "Resultant of coplanar force system (Concurrent forces, parallel forces and general system of forces)",
 "module": 1
 },
 {
 "id": "t5",
-"name": "general system of forces)",
-"module": 1
-},
-{
-"id": "t6",
 "name": "Moment of force about a point",
 "module": 1
 },
 {
-"id": "t7",
+"id": "t6",
 "name": "Couples",
 "module": 1
 },
 {
-"id": "t8",
+"id": "t7",
 "name": "Varignon’s Theorem",
 "module": 1
 },
 {
-"id": "t9",
+"id": "t8",
 "name": "Resultant of Non-Coplanar (Space Force)",
 "module": 1
 },
 {
-"id": "t10",
+"id": "t9",
 "name": "Concurrent force system",
 "module": 1
 },
 {
-"id": "t11",
+"id": "t10",
 "name": "Centroids of plane laminas",
 "module": 2
 },
 {
-"id": "t12",
+"id": "t11",
 "name": "Plane lamina consisting of primitive geometrical shapes",
 "module": 2
 },
 {
-"id": "t13",
+"id": "t12",
 "name": "Equilibrium",
 "module": 3
 },
 {
-"id": "t14",
+"id": "t13",
 "name": "Conditions of equilibrium for concurrent forces",
 "module": 3
 },
 {
-"id": "t15",
+"id": "t14",
 "name": "parallel forces and general forces",
 "module": 3
 },
 {
-"id": "t16",
+"id": "t15",
 "name": "Equilibrium of rigid bodies",
 "module": 3
 },
 {
-"id": "t17",
+"id": "t16",
 "name": "free body diagrams",
 "module": 3
 },
 {
-"id": "t18",
+"id": "t17",
 "name": "Equilibrium of Beams",
 "module": 3
 },
 {
-"id": "t19",
+"id": "t18",
 "name": "Types of beams",
 "module": 3
 },
 {
-"id": "t20",
+"id": "t19",
 "name": "simple and compound beams",
 "module": 3
 },
 {
-"id": "t21",
+"id": "t20",
 "name": "type of supports and reaction",
 "module": 3
 },
 {
-"id": "t22",
+"id": "t21",
 "name": "Determination of reactions at supports for various types of loads on beams",
 "module": 3
 },
 {
-"id": "t23",
+"id": "t22",
 "name": "Friction",
 "module": 3
 },
 {
-"id": "t24",
+"id": "t23",
 "name": "Laws of friction",
 "module": 3
 },
 {
-"id": "t25",
+"id": "t24",
 "name": "Cone of friction. angle of repose",
 "module": 3
 },
 {
-"id": "t26",
+"id": "t25",
 "name": "angle of friction",
 "module": 3
 },
 {
-"id": "t27",
+"id": "t26",
 "name": "equilibrium of bodies on a horizontal and inclined plane",
 "module": 3
 },
 {
-"id": "t28",
+"id": "t27",
 "name": "Motion of particle with variable acceleration",
 "module": 4
 },
 {
-"id": "t29",
+"id": "t28",
 "name": "Motion along plane curved path. velocity",
 "module": 4
 },
 {
-"id": "t30",
+"id": "t29",
 "name": "acceleration in terms of rectangular components",
 "module": 4
 },
 {
-"id": "t31",
+"id": "t30",
 "name": "tangential and normal component of acceleration",
 "module": 4
 },
 {
-"id": "t32",
+"id": "t31",
 "name": "Introduction to general plane motion",
 "module": 4
 },
 {
-"id": "t33",
+"id": "t32",
 "name": "Force and Acceleration",
 "module": 5
 },
 {
-"id": "t34",
+"id": "t33",
 "name": "Introduction to basic concepts",
 "module": 5
 },
 {
-"id": "t35",
+"id": "t34",
 "name": "D’Alembert’s Principle",
 "module": 5
 },
 {
-"id": "t36",
+"id": "t35",
 "name": "concept of Inertia force",
 "module": 5
 },
 {
-"id": "t37",
+"id": "t36",
 "name": "Equations of dynamic equilibrium",
 "module": 5
 },
 {
-"id": "t38",
+"id": "t37",
 "name": "Principle of linear impulse and momentum",
 "module": 5
 },
 {
-"id": "t39",
+"id": "t38",
 "name": "Impact and collision",
 "module": 5
 },
 {
-"id": "t40",
+"id": "t39",
 "name": "Law of conservation of momentum",
 "module": 5
 },
 {
-"id": "t41",
+"id": "t40",
 "name": "Coefficient of Restitution",
 "module": 5
 },
 {
-"id": "t42",
+"id": "t41",
 "name": "Direct Central Impact and Oblique Central Impact",
 "module": 5
 },
 {
-"id": "t43",
+"id": "t42",
 "name": "Loss of Kinetic Energy in collision of inelastic bodies",
 "module": 5
 },
 {
-"id": "t44",
+"id": "t43",
 "name": "Fundamental of Robot Mechanics",
 "module": 6
 },
 {
-"id": "t45",
+"id": "t44",
 "name": "Degree of Freedom",
 "module": 6
 },
 {
-"id": "t46",
+"id": "t45",
 "name": "D-H Parameters",
 "module": 6
 },
 {
-"id": "t47",
+"id": "t46",
 "name": "robot kinematics (Forward)",
 "module": 6
 },
 {
-"id": "t48",
+"id": "t47",
 "name": "Homogeneous transformation (limited to 2 DOF Serial robot)",
 "module": 6
 }

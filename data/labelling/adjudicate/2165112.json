@@ -129,7 +129,7 @@
 },
 {
 "id": "t26",
-"name": "Formal logic- connectives",
+"name": "Formal logic-connectives",
 "module": 3
 },
 {
@@ -331,220 +331,108 @@
 "candidates": [
 {
 "i": 0,
-"a": "t28",
-"b": "t29",
-"a_name": "FOPL",
-"b_name": "Quantification"
+"a": "t55",
+"b": "t62",
+"a_name": "Back Propagation algorithm Un-Supervised Learning algorithms",
+"b_name": "Adaptive Neuro-Fuzzy Inference System (ANFIS)"
 },
 {
 "i": 1,
-"a": "t58",
-"b": "t59",
-"a_name": "Self Organizing Maps",
-"b_name": "Learning Vector Quantization"
+"a": "t22",
+"b": "t27",
+"a_name": "Knowledge Representation Systems",
+"b_name": "Predicate Logic"
 },
 {
 "i": 2,
-"a": "t33",
-"b": "t34",
-"a_name": "Handling Uncertain Knowledge",
-"b_name": "Random Variables"
+"a": "t23",
+"b": "t27",
+"a_name": "Propositional Logic (PL)",
+"b_name": "Predicate Logic"
 },
 {
 "i": 3,
-"a": "t57",
-"b": "t59",
-"a_name": "Winner take all",
-"b_name": "Learning Vector Quantization"
+"a": "t60",
+"b": "t62",
+"a_name": "Introduction to Hybrid Systems",
+"b_name": "Adaptive Neuro-Fuzzy Inference System (ANFIS)"
 },
 {
 "i": 4,
-"a": "t1",
-"b": "t3",
-"a_name": "Introduction to Artificial Intelligence",
-"b_name": "AI Perspectives"
+"a": "t11",
+"b": "t12",
+"a_name": "Problem as a state space search",
+"b_name": "Problem formulation"
 },
 {
 "i": 5,
-"a": "t27",
-"b": "t30",
-"a_name": "Predicate Logic",
-"b_name": "Inference rules in FOPL"
+"a": "t2",
+"b": "t3",
+"a_name": "Artificial Intelligence (AI)",
+"b_name": "AI Perspectives"
 },
 {
 "i": 6,
-"a": "t5",
-"b": "t9",
-"a_name": "present state of AI Introduction to Soft Computing",
-"b_name": "Concepts of Learning and Adaptation"
-},
-{
-"i": 7,
 "a": "t12",
 "b": "t11",
 "a_name": "Problem formulation",
 "b_name": "Problem as a state space search"
 },
 {
+"i": 7,
+"a": "t2",
+"b": "t4",
+"a_name": "Artificial Intelligence (AI)",
+"b_name": "Applications of AI"
+},
+{
 "i": 8,
-"a": "t5",
-"b": "t8",
-"a_name": "present state of AI Introduction to Soft Computing",
-"b_name": "Difference between Hard Computing and Soft Computing"
+"a": "t52",
+"b": "t62",
+"a_name": "Perceptron (Single Layer, Multi-layer)",
+"b_name": "Adaptive Neuro-Fuzzy Inference System (ANFIS)"
 },
 {
 "i": 9,
-"a": "t31",
-"b": "t32",
-"a_name": "Forward Chaining",
-"b_name": "Backward Chaining and Resolution in FOPL"
+"a": "t60",
+"b": "t61",
+"a_name": "Introduction to Hybrid Systems",
+"b_name": "Key applications of hybrid systems (industrial control, robotics, forecasting)"
 },
 {
 "i": 10,
-"a": "t9",
-"b": "t49",
-"a_name": "Concepts of Learning and Adaptation",
-"b_name": "Introduction to Neural Networks"
+"a": "t37",
+"b": "t42",
+"a_name": "Fuzzy Sets",
+"b_name": "Fuzzy Rules"
 },
 {
 "i": 11,
-"a": "t1",
-"b": "t2",
-"a_name": "Introduction to Artificial Intelligence",
-"b_name": "Artificial Intelligence (AI)"
+"a": "t37",
+"b": "t43",
+"a_name": "Fuzzy Sets",
+"b_name": "Fuzzy If-Then Rules"
 },
 {
 "i": 12,
-"a": "t17",
-"b": "t18",
-"a_name": "Greedy Best First Search",
-"b_name": "A* Search"
+"a": "t42",
+"b": "t43",
+"a_name": "Fuzzy Rules",
+"b_name": "Fuzzy If-Then Rules"
 },
 {
 "i": 13,
+"a": "t49",
+"b": "t51",
+"a_name": "Introduction to Neural Networks",
+"b_name": "McCulloch Pitt model Supervised Learning algorithms"
+},
+{
+"i": 14,
 "a": "t2",
 "b": "t9",
 "a_name": "Artificial Intelligence (AI)",
 "b_name": "Concepts of Learning and Adaptation"
-},
-{
-"i": 14,
-"a": "t56",
-"b": "t57",
-"a_name": "Hebbian Learning",
-"b_name": "Winner take all"
-},
-{
-"i": 15,
-"a": "t6",
-"b": "t8",
-"a_name": "Soft computing Constituents",
-"b_name": "Difference between Hard Computing and Soft Computing"
-},
-{
-"i": 16,
-"a": "t45",
-"b": "t47",
-"a_name": "Mamdani FIS",
-"b_name": "Mamdani and Sugeno FIS"
-},
-{
-"i": 17,
-"a": "t53",
-"b": "t52",
-"a_name": "Linear separability",
-"b_name": "Perceptron (Single Layer, Multi-layer)"
-},
-{
-"i": 18,
-"a": "t10",
-"b": "t12",
-"a_name": "State space representation",
-"b_name": "Problem formulation"
-},
-{
-"i": 19,
-"a": "t28",
-"b": "t30",
-"a_name": "FOPL",
-"b_name": "Inference rules in FOPL"
-},
-{
-"i": 20,
-"a": "t2",
-"b": "t3",
-"a_name": "Artificial Intelligence (AI)",
-"b_name": "AI Perspectives"
-},
-{
-"i": 21,
-"a": "t2",
-"b": "t5",
-"a_name": "Artificial Intelligence (AI)",
-"b_name": "present state of AI Introduction to Soft Computing"
-},
-{
-"i": 22,
-"a": "t60",
-"b": "t65",
-"a_name": "Introduction to Hybrid Systems",
-"b_name": "Neuro-Fuzzy models"
-},
-{
-"i": 23,
-"a": "t39",
-"b": "t44",
-"a_name": "Fuzzification and Defuzzification",
-"b_name": "Fuzzy Reasoning Fuzzy Inference System (FIS)"
-},
-{
-"i": 24,
-"a": "t33",
-"b": "t35",
-"a_name": "Handling Uncertain Knowledge",
-"b_name": "Prior and Posterior Probability"
-},
-{
-"i": 25,
-"a": "t37",
-"b": "t62",
-"a_name": "Fuzzy Sets",
-"b_name": "Adaptive Neuro-Fuzzy Inference System (ANFIS)"
-},
-{
-"i": 26,
-"a": "t43",
-"b": "t45",
-"a_name": "Fuzzy If-Then Rules",
-"b_name": "Mamdani FIS"
-},
-{
-"i": 27,
-"a": "t46",
-"b": "t47",
-"a_name": "Sugeno FIS",
-"b_name": "Mamdani and Sugeno FIS"
-},
-{
-"i": 28,
-"a": "t6",
-"b": "t7",
-"a_name": "Soft computing Constituents",
-"b_name": "Characteristics of Neuro Computing and Soft Computing"
-},
-{
-"i": 29,
-"a": "t5",
-"b": "t7",
-"a_name": "present state of AI Introduction to Soft Computing",
-"b_name": "Characteristics of Neuro Computing and Soft Computing"
-},
-{
-"i": 30,
-"a": "t27",
-"b": "t29",
-"a_name": "Predicate Logic",
-"b_name": "Quantification"
 }
 ]
 }

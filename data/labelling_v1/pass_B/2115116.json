@@ -1,0 +1,289 @@
+{
+"edges": [
+{
+"a": "t1",
+"b": "t2",
+"why": "web architecture rests on internet"
+},
+{
+"a": "t2",
+"b": "t3",
+"why": "clients/servers use HTTP"
+},
+{
+"a": "t3",
+"b": "t4",
+"why": "HTML5 builds on HTML"
+},
+{
+"a": "t3",
+"b": "t5",
+"why": "headings are HTML elements"
+},
+{
+"a": "t3",
+"b": "t9",
+"why": "links are HTML elements"
+},
+{
+"a": "t3",
+"b": "t11",
+"why": "tables are HTML elements"
+},
+{
+"a": "t3",
+"b": "t13",
+"why": "forms are HTML elements"
+},
+{
+"a": "t14",
+"b": "t15",
+"why": "pull requests need pushed code"
+},
+{
+"a": "t15",
+"b": "t16",
+"why": "collaboration via pull requests"
+},
+{
+"a": "t18",
+"b": "t19",
+"why": "operators act on typed variables"
+},
+{
+"a": "t19",
+"b": "t20",
+"why": "control flow uses variables"
+},
+{
+"a": "t20",
+"b": "t21",
+"why": "functions use control flow"
+},
+{
+"a": "t21",
+"b": "t22",
+"why": "classes extend OOP"
+},
+{
+"a": "t22",
+"b": "t23",
+"why": "constructors belong to classes"
+},
+{
+"a": "t22",
+"b": "t24",
+"why": "inheritance needs classes"
+},
+{
+"a": "t24",
+"b": "t25",
+"why": "interfaces follow inheritance"
+},
+{
+"a": "t22",
+"b": "t26",
+"why": "generics in classes"
+},
+{
+"a": "t18",
+"b": "t27",
+"why": "union types combine types"
+},
+{
+"a": "t18",
+"b": "t28",
+"why": "aliases name types"
+},
+{
+"a": "t18",
+"b": "t29",
+"why": "inference deduces types"
+},
+{
+"a": "t32",
+"b": "t34",
+"why": "binding uses expressions"
+},
+{
+"a": "t33",
+"b": "t35",
+"why": "controllers are in modules"
+},
+{
+"a": "t35",
+"b": "t36",
+"why": "services injected to controllers"
+},
+{
+"a": "t36",
+"b": "t37",
+"why": "$http is a service"
+},
+{
+"a": "t34",
+"b": "t39",
+"why": "forms use data binding"
+},
+{
+"a": "t34",
+"b": "t41",
+"why": "directives drive binding"
+},
+{
+"a": "t32",
+"b": "t42",
+"why": "filters apply in expressions"
+},
+{
+"a": "t44",
+"b": "t45",
+"why": "components use templates"
+},
+{
+"a": "t45",
+"b": "t46",
+"why": "components handle events"
+},
+{
+"a": "t45",
+"b": "t47",
+"why": "components render conditionally"
+},
+{
+"a": "t45",
+"b": "t48",
+"why": "components render lists"
+},
+{
+"a": "t45",
+"b": "t49",
+"why": "components host forms"
+},
+{
+"a": "t45",
+"b": "t50",
+"why": "router maps components"
+},
+{
+"a": "t45",
+"b": "t51",
+"why": "DI serves components"
+},
+{
+"a": "t45",
+"b": "t52",
+"why": "pipes used in templates"
+},
+{
+"a": "t45",
+"b": "t53",
+"why": "hooks are component lifecycle"
+},
+{
+"a": "t45",
+"b": "t54",
+"why": "components are styled"
+},
+{
+"a": "t56",
+"b": "t57",
+"why": "NoSQL context after MongoDB intro"
+},
+{
+"a": "t56",
+"b": "t58",
+"why": "user accounts in MongoDB"
+},
+{
+"a": "t58",
+"b": "t59",
+"why": "access control follows accounts"
+},
+{
+"a": "t56",
+"b": "t61",
+"why": "connect to MongoDB"
+},
+{
+"a": "t60",
+"b": "t61",
+"why": "driver needed to connect"
+},
+{
+"a": "t61",
+"b": "t62",
+"why": "access after connecting"
+},
+{
+"a": "t62",
+"b": "t63",
+"why": "manipulate documents after access"
+},
+{
+"a": "t65",
+"b": "t66",
+"why": "DTD links to XML"
+},
+{
+"a": "t66",
+"b": "t67",
+"why": "validate against linked DTD"
+},
+{
+"a": "t65",
+"b": "t68",
+"why": "DOM parser reads XML"
+},
+{
+"a": "t65",
+"b": "t69",
+"why": "XSLT transforms XML"
+},
+{
+"a": "t70",
+"b": "t71",
+"why": "get/post are $http methods"
+},
+{
+"a": "t65",
+"b": "t73",
+"why": "XML in REST"
+},
+{
+"a": "t74",
+"b": "t75",
+"why": "routing within Flask app"
+},
+{
+"a": "t75",
+"b": "t76",
+"why": "HTTP methods route-based"
+},
+{
+"a": "t75",
+"b": "t77",
+"why": "templates rendered by routes"
+},
+{
+"a": "t76",
+"b": "t78",
+"why": "cookies via request/response"
+},
+{
+"a": "t78",
+"b": "t79",
+"why": "sessions use cookies"
+},
+{
+"a": "t79",
+"b": "t80",
+"why": "flash messages use sessions"
+},
+{
+"a": "t76",
+"b": "t81",
+"why": "upload uses request object"
+}
+]
+}

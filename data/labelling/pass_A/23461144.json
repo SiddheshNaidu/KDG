@@ -1,0 +1,269 @@
+{
+"edges": [
+{
+"a": "t1",
+"b": "t3",
+"why": "definition before architecture"
+},
+{
+"a": "t1",
+"b": "t4",
+"why": "related fields need definition"
+},
+{
+"a": "t3",
+"b": "t13",
+"why": "working relies on architecture"
+},
+{
+"a": "t3",
+"b": "t9",
+"why": "hardware components of architecture"
+},
+{
+"a": "t11",
+"b": "t12",
+"why": "registration builds on depth cues"
+},
+{
+"a": "t10",
+"b": "t11",
+"why": "dimensionality before depth cues"
+},
+{
+"a": "t5",
+"b": "t6",
+"why": "algorithm follows MR architecture"
+},
+{
+"a": "t16",
+"b": "t17",
+"why": "tools follow software components"
+},
+{
+"a": "t19",
+"b": "t20",
+"why": "tracking is an AR technique"
+},
+{
+"a": "t20",
+"b": "t21",
+"why": "markerless extends marker tracking"
+},
+{
+"a": "t21",
+"b": "t22",
+"why": "mobile AR uses SLAM"
+},
+{
+"a": "t25",
+"b": "t18",
+"why": "interaction uses input modalities"
+},
+{
+"a": "t24",
+"b": "t18",
+"why": "interaction uses output modalities"
+},
+{
+"a": "t26",
+"b": "t18",
+"why": "tangible interfaces for interaction"
+},
+{
+"a": "t29",
+"b": "t30",
+"why": "multimodal includes haptic"
+},
+{
+"a": "t31",
+"b": "t32",
+"why": "authoring elements follow requirements"
+},
+{
+"a": "t32",
+"b": "t33",
+"why": "stand-alone is an authoring type"
+},
+{
+"a": "t32",
+"b": "t35",
+"why": "plug-in approach"
+},
+{
+"a": "t38",
+"b": "t39",
+"why": "adoption follows design"
+},
+{
+"a": "t41",
+"b": "t42",
+"why": "history before components"
+},
+{
+"a": "t42",
+"b": "t43",
+"why": "factors follow system design"
+},
+{
+"a": "t42",
+"b": "t44",
+"why": "types follow components"
+},
+{
+"a": "t44",
+"b": "t45",
+"why": "advantages follow types"
+},
+{
+"a": "t46",
+"b": "t49",
+"why": "examples of input devices"
+},
+{
+"a": "t47",
+"b": "t51",
+"why": "display needs rendering pipeline"
+},
+{
+"a": "t51",
+"b": "t53",
+"why": "OpenGL implements pipeline"
+},
+{
+"a": "t50",
+"b": "t52",
+"why": "haptic rendering follows feedback"
+},
+{
+"a": "t55",
+"b": "t56",
+"why": "visual representation"
+},
+{
+"a": "t55",
+"b": "t57",
+"why": "aural/haptic representation"
+},
+{
+"a": "t58",
+"b": "t59",
+"why": "visual rendering systems"
+},
+{
+"a": "t59",
+"b": "t60",
+"why": "methods under systems"
+},
+{
+"a": "t60",
+"b": "t61",
+"why": "geometric rendering method"
+},
+{
+"a": "t60",
+"b": "t62",
+"why": "non-geometric method"
+},
+{
+"a": "t61",
+"b": "t63",
+"why": "complex scenes need geometry rendering"
+},
+{
+"a": "t58",
+"b": "t65",
+"why": "aural rendering systems"
+},
+{
+"a": "t65",
+"b": "t66",
+"why": "complex sounds"
+},
+{
+"a": "t66",
+"b": "t67",
+"why": "hardware for sound"
+},
+{
+"a": "t58",
+"b": "t69",
+"why": "haptic rendering systems"
+},
+{
+"a": "t69",
+"b": "t70",
+"why": "methods"
+},
+{
+"a": "t70",
+"b": "t71",
+"why": "force displays use methods"
+},
+{
+"a": "t70",
+"b": "t72",
+"why": "techniques"
+},
+{
+"a": "t74",
+"b": "t75",
+"why": "MSAA is anti-aliasing"
+},
+{
+"a": "t76",
+"b": "t77",
+"why": "GPU supports real-time rendering"
+},
+{
+"a": "t78",
+"b": "t79",
+"why": "manipulation uses metaphors"
+},
+{
+"a": "t79",
+"b": "t80",
+"why": "properties of manipulation"
+},
+{
+"a": "t80",
+"b": "t81",
+"why": "operations follow properties"
+},
+{
+"a": "t82",
+"b": "t83",
+"why": "travel classes follow wayfinding"
+},
+{
+"a": "t83",
+"b": "t84",
+"why": "collaboration after shared experience"
+},
+{
+"a": "t86",
+"b": "t87",
+"why": "presence vs immersion"
+},
+{
+"a": "t88",
+"b": "t89",
+"why": "latency rule specific"
+},
+{
+"a": "t90",
+"b": "t91",
+"why": "backfire follows uncanny valley"
+},
+{
+"a": "t86",
+"b": "t100",
+"why": "cybersickness relates to immersion"
+},
+{
+"a": "t98",
+"b": "t99",
+"why": "privacy under ethics"
+}
+]
+}

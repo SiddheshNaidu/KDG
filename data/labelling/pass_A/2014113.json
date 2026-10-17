@@ -1,0 +1,239 @@
+{
+"edges": [
+{
+"a": "t6",
+"b": "t7",
+"why": "multitasking extends multiprogramming"
+},
+{
+"a": "t5",
+"b": "t10",
+"why": "system calls provide services"
+},
+{
+"a": "t11",
+"b": "t12",
+"why": "states of a process"
+},
+{
+"a": "t11",
+"b": "t14",
+"why": "PCB represents process"
+},
+{
+"a": "t14",
+"b": "t15",
+"why": "context switch saves PCB"
+},
+{
+"a": "t11",
+"b": "t13",
+"why": "operations on processes"
+},
+{
+"a": "t11",
+"b": "t16",
+"why": "threads relative to process"
+},
+{
+"a": "t16",
+"b": "t17",
+"why": "types of threads"
+},
+{
+"a": "t16",
+"b": "t18",
+"why": "models map threads"
+},
+{
+"a": "t11",
+"b": "t19",
+"why": "scheduling schedules processes"
+},
+{
+"a": "t19",
+"b": "t20",
+"why": "schedulers defined from scheduling"
+},
+{
+"a": "t19",
+"b": "t21",
+"why": "algorithms need scheduling concepts"
+},
+{
+"a": "t21",
+"b": "t22",
+"why": "specific algorithms"
+},
+{
+"a": "t11",
+"b": "t23",
+"why": "IPC among processes"
+},
+{
+"a": "t23",
+"b": "t24",
+"why": "race arises in concurrent access"
+},
+{
+"a": "t24",
+"b": "t25",
+"why": "critical section addresses races"
+},
+{
+"a": "t25",
+"b": "t26",
+"why": "Peterson solves critical section"
+},
+{
+"a": "t25",
+"b": "t28",
+"why": "semaphores solve critical section"
+},
+{
+"a": "t28",
+"b": "t29",
+"why": "semaphores applied to producer consumer"
+},
+{
+"a": "t31",
+"b": "t32",
+"why": "characterization uses system model"
+},
+{
+"a": "t32",
+"b": "t33",
+"why": "prevention negates deadlock conditions"
+},
+{
+"a": "t32",
+"b": "t34",
+"why": "avoidance uses deadlock characterization"
+},
+{
+"a": "t34",
+"b": "t35",
+"why": "bankers is avoidance algorithm"
+},
+{
+"a": "t32",
+"b": "t36",
+"why": "detection uses characterization"
+},
+{
+"a": "t37",
+"b": "t38",
+"why": "swapping is memory concept"
+},
+{
+"a": "t37",
+"b": "t39",
+"why": "allocation needs memory basics"
+},
+{
+"a": "t39",
+"b": "t40",
+"why": "paging is non-contiguous allocation"
+},
+{
+"a": "t40",
+"b": "t41",
+"why": "page table structure"
+},
+{
+"a": "t40",
+"b": "t43",
+"why": "TLB caches page table"
+},
+{
+"a": "t39",
+"b": "t42",
+"why": "segmentation as allocation scheme"
+},
+{
+"a": "t40",
+"b": "t44",
+"why": "virtual memory built on paging"
+},
+{
+"a": "t44",
+"b": "t45",
+"why": "demand paging in virtual memory"
+},
+{
+"a": "t45",
+"b": "t46",
+"why": "copy-on-write uses demand paging"
+},
+{
+"a": "t45",
+"b": "t47",
+"why": "replacement needed after demand paging"
+},
+{
+"a": "t47",
+"b": "t48",
+"why": "thrashing from page replacement"
+},
+{
+"a": "t50",
+"b": "t51",
+"why": "access methods of files"
+},
+{
+"a": "t50",
+"b": "t52",
+"why": "directories organize files"
+},
+{
+"a": "t50",
+"b": "t53",
+"why": "implementation of file system"
+},
+{
+"a": "t53",
+"b": "t54",
+"why": "allocation methods implement files"
+},
+{
+"a": "t55",
+"b": "t58",
+"why": "disk organization within mass storage"
+},
+{
+"a": "t58",
+"b": "t59",
+"why": "disk scheduling needs disk structure"
+},
+{
+"a": "t59",
+"b": "t60",
+"why": "FCFS is a disk scheduling algorithm"
+},
+{
+"a": "t59",
+"b": "t61",
+"why": "SSTF is a disk scheduling algorithm"
+},
+{
+"a": "t59",
+"b": "t62",
+"why": "SCAN is a disk scheduling algorithm"
+},
+{
+"a": "t62",
+"b": "t63",
+"why": "C-SCAN modifies SCAN"
+},
+{
+"a": "t62",
+"b": "t64",
+"why": "LOOK modifies SCAN"
+},
+{
+"a": "t64",
+"b": "t65",
+"why": "C-LOOK modifies LOOK"
+}
+]
+}

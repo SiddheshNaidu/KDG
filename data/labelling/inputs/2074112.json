@@ -1,0 +1,297 @@
+{
+"course": "2074112",
+"title": "Solid Fluid Mechanical Operations",
+"modules": [
+{
+"index": 1,
+"name": "Particle size"
+},
+{
+"index": 2,
+"name": "Size Reduction"
+},
+{
+"index": 3,
+"name": "Mixing"
+},
+{
+"index": 4,
+"name": "Fluidization and Filtration"
+},
+{
+"index": 5,
+"name": "Solid fluid separation"
+},
+{
+"index": 6,
+"name": "Storage and handling of solids"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Particle size measurement and distribution using sieve analysis",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Capacity and effectiveness of screen",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Screening equipment",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Vibrating screen",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Grizzlies and Trommels",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Size reduction of solids",
+"module": 2
+},
+{
+"id": "t7",
+"name": "Mechanism of size reduction and method of operation",
+"module": 2
+},
+{
+"id": "t8",
+"name": "Energy requirement for size reduction and crushing laws",
+"module": 2
+},
+{
+"id": "t9",
+"name": "Size reduction equipment",
+"module": 2
+},
+{
+"id": "t10",
+"name": "Jaw crusher",
+"module": 2
+},
+{
+"id": "t11",
+"name": "Hammer mill",
+"module": 2
+},
+{
+"id": "t12",
+"name": "Ball mill and Roll crusher",
+"module": 2
+},
+{
+"id": "t13",
+"name": "Solid mixing",
+"module": 3
+},
+{
+"id": "t14",
+"name": "Introduction to solid mixing",
+"module": 3
+},
+{
+"id": "t15",
+"name": "degree of mixing and rate of mixing",
+"module": 3
+},
+{
+"id": "t16",
+"name": "Mixing equipment for cohesive solids",
+"module": 3
+},
+{
+"id": "t17",
+"name": "Muller mixer and kneaders",
+"module": 3
+},
+{
+"id": "t18",
+"name": "Mixers for free flowing solids",
+"module": 3
+},
+{
+"id": "t19",
+"name": "Ribbon blender and internal screw mixer",
+"module": 3
+},
+{
+"id": "t20",
+"name": "Flow of a single fluid through a packed bed",
+"module": 4
+},
+{
+"id": "t21",
+"name": "Ergun’s equation",
+"module": 4
+},
+{
+"id": "t22",
+"name": "Fluidization",
+"module": 4
+},
+{
+"id": "t23",
+"name": "conditions for fluidization",
+"module": 4
+},
+{
+"id": "t24",
+"name": "Minimum fluidization velocity",
+"module": 4
+},
+{
+"id": "t25",
+"name": "Types of fluidization",
+"module": 4
+},
+{
+"id": "t26",
+"name": "Applications of fluidization",
+"module": 4
+},
+{
+"id": "t27",
+"name": "Filtration",
+"module": 4
+},
+{
+"id": "t28",
+"name": "Mechanism of filtration",
+"module": 4
+},
+{
+"id": "t29",
+"name": "Types of filtration",
+"module": 4
+},
+{
+"id": "t30",
+"name": "constant rate and constant pressure filtration",
+"module": 4
+},
+{
+"id": "t31",
+"name": "Filter aids",
+"module": 4
+},
+{
+"id": "t32",
+"name": "washing of filter cake",
+"module": 4
+},
+{
+"id": "t33",
+"name": "flow of filtrate through the cloth and cake combined",
+"module": 4
+},
+{
+"id": "t34",
+"name": "Filters",
+"module": 4
+},
+{
+"id": "t35",
+"name": "Rotary drum vacuum filter",
+"module": 4
+},
+{
+"id": "t36",
+"name": "plate and frame filter press",
+"module": 4
+},
+{
+"id": "t37",
+"name": "Sedimentation",
+"module": 5
+},
+{
+"id": "t38",
+"name": "Batch sedimentation",
+"module": 5
+},
+{
+"id": "t39",
+"name": "Kynch theory of sedimentation",
+"module": 5
+},
+{
+"id": "t40",
+"name": "Derivation of area and depth of thickener",
+"module": 5
+},
+{
+"id": "t41",
+"name": "Particle separation by flotation and elutriation",
+"module": 5
+},
+{
+"id": "t42",
+"name": "Gas solid separation equipment",
+"module": 5
+},
+{
+"id": "t43",
+"name": "Cyclone separator",
+"module": 5
+},
+{
+"id": "t44",
+"name": "fabric filter and electrostatic precipitator",
+"module": 5
+},
+{
+"id": "t45",
+"name": "Storage of solids",
+"module": 6
+},
+{
+"id": "t46",
+"name": "Properties of particulate masses",
+"module": 6
+},
+{
+"id": "t47",
+"name": "Pressure in bins and silos",
+"module": 6
+},
+{
+"id": "t48",
+"name": "Jansen’s equation",
+"module": 6
+},
+{
+"id": "t49",
+"name": "Conveying",
+"module": 6
+},
+{
+"id": "t50",
+"name": "solids",
+"module": 6
+},
+{
+"id": "t51",
+"name": "Belt conveyer",
+"module": 6
+},
+{
+"id": "t52",
+"name": "bucket conveyer",
+"module": 6
+},
+{
+"id": "t53",
+"name": "screw conveyer and pneumatic conveyer",
+"module": 6
+}
+]
+}

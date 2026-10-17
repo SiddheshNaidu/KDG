@@ -1,0 +1,35 @@
+model v5, served threshold 0.29 | its own held-out test (IT courses, 3:1 negatives): 0.8 F1, 0.8577 PR-AUC
+courses: {'2074113': ('Heat Transfer Operations', 60), '2073113': ('Process Calculation', 24), '2073114': ('Chemical Engineering The', 28), '2074112': ('Solid Fluid Mechanical O', 45), '2074111': ('Chemical Engineering The', 36)}
+
+PR-AUC over ALL ordered pairs (natural balance, base rate 0.022): 0.245
+baselines (directed P,R,F1): {'adjacent_in_module': (0.509, 0.43, 0.466), 'position_only_forward_window3': (0.333, 0.699, 0.451)}
+
+== production-like (forward pairs, direction by list order) ==
+thr   directedP  R    F1   | undirectedP  R    F1
+0.20   0.400  0.466  0.431  |  0.400  0.466  0.431   (pred 225, gold 193)
+0.29   0.391  0.456  0.421  |  0.391  0.456  0.421   (pred 225, gold 193)
+0.40   0.395  0.466  0.428  |  0.395  0.466  0.428   (pred 228, gold 193)
+0.50   0.390  0.451  0.418  |  0.390  0.451  0.418   (pred 223, gold 193)
+0.60   0.402  0.425  0.413  |  0.402  0.425  0.413   (pred 204, gold 193)
+0.70   0.348  0.321  0.334  |  0.348  0.321  0.334   (pred 178, gold 193)
+per course @served threshold (topics, gold, pred, directed PRF, undirected PRF, closure PRF):
+  2074113 Heat Transfer Operations    66  60  87  D=0.34  U=0.34  closure=0.20
+  2073113 Process Calculation         22  24  20  D=0.59  U=0.59  closure=0.49
+  2073114 Chemical Engineering Therm  25  28  26  D=0.48  U=0.48  closure=0.40
+  2074112 Solid Fluid Mechanical Ope  53  45  62  D=0.45  U=0.45  closure=0.16
+  2074111 Chemical Engineering Therm  27  36  30  D=0.39  U=0.39  closure=0.57
+
+== direction-aware ==
+thr   directedP  R    F1   | undirectedP  R    F1
+0.20   0.400  0.466  0.431  |  0.400  0.466  0.431   (pred 225, gold 193)
+0.29   0.391  0.456  0.421  |  0.391  0.456  0.421   (pred 225, gold 193)
+0.40   0.395  0.466  0.428  |  0.395  0.466  0.428   (pred 228, gold 193)
+0.50   0.390  0.451  0.418  |  0.390  0.451  0.418   (pred 223, gold 193)
+0.60   0.402  0.425  0.413  |  0.402  0.425  0.413   (pred 204, gold 193)
+0.70   0.348  0.321  0.334  |  0.348  0.321  0.334   (pred 178, gold 193)
+per course @served threshold (topics, gold, pred, directed PRF, undirected PRF, closure PRF):
+  2074113 Heat Transfer Operations    66  60  87  D=0.34  U=0.34  closure=0.20
+  2073113 Process Calculation         22  24  20  D=0.59  U=0.59  closure=0.49
+  2073114 Chemical Engineering Therm  25  28  26  D=0.48  U=0.48  closure=0.40
+  2074112 Solid Fluid Mechanical Ope  53  45  62  D=0.45  U=0.45  closure=0.16
+  2074111 Chemical Engineering Therm  27  36  30  D=0.39  U=0.39  closure=0.57

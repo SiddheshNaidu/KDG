@@ -1,0 +1,167 @@
+{
+"course": "2074111",
+"title": "Chemical Engineering Thermodynamics- II",
+"modules": [
+{
+"index": 1,
+"name": "Ideal and Non-Ideal Solutions"
+},
+{
+"index": 2,
+"name": "Properties of Solutions"
+},
+{
+"index": 3,
+"name": "Phase Equilibria"
+},
+{
+"index": 4,
+"name": "Vapour- Liquid Equilibria"
+},
+{
+"index": 5,
+"name": "Chemical Reaction Equilibria"
+},
+{
+"index": 6,
+"name": "Refrigeration"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Ideal solutions and mixtures",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Non-idealities of solutions and mixtures",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Partial molar properties",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Chemical potential",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Activity and activity coefficients",
+"module": 2
+},
+{
+"id": "t6",
+"name": "Gibbs-Duhem equation",
+"module": 2
+},
+{
+"id": "t7",
+"name": "Property changes of mixing",
+"module": 2
+},
+{
+"id": "t8",
+"name": "Excess properties",
+"module": 2
+},
+{
+"id": "t9",
+"name": "Concept of equilibrium between phases",
+"module": 3
+},
+{
+"id": "t10",
+"name": "Review of Raoult’s law and Henry’s law",
+"module": 3
+},
+{
+"id": "t11",
+"name": "Phase diagrams for binary solutions",
+"module": 3
+},
+{
+"id": "t12",
+"name": "Vapour-liquid equilibria in ideal and non-ideal solutions",
+"module": 4
+},
+{
+"id": "t13",
+"name": "Estimation of activity coefficients using Margules equations",
+"module": 4
+},
+{
+"id": "t14",
+"name": "van Laar equation and Wilson equation",
+"module": 4
+},
+{
+"id": "t15",
+"name": "Introduction to UNIQUAC equation and UNIFAC method",
+"module": 4
+},
+{
+"id": "t16",
+"name": "Consistency tests for VLE data",
+"module": 4
+},
+{
+"id": "t17",
+"name": "Representation of reaction stoichiometry",
+"module": 5
+},
+{
+"id": "t18",
+"name": "Concept of reaction equilibrium in single and multiple reactions",
+"module": 5
+},
+{
+"id": "t19",
+"name": "Estimation of standard Gibbs free energy change",
+"module": 5
+},
+{
+"id": "t20",
+"name": "equilibrium constant of a reaction",
+"module": 5
+},
+{
+"id": "t21",
+"name": "Estimation of degree of conversion and composition of reactor effluents for single and multiple reactions",
+"module": 5
+},
+{
+"id": "t22",
+"name": "Degrees of freedom for single and multiple reactions",
+"module": 5
+},
+{
+"id": "t23",
+"name": "Theory of Refrigeration",
+"module": 6
+},
+{
+"id": "t24",
+"name": "Vapour compression refrigeration system",
+"module": 6
+},
+{
+"id": "t25",
+"name": "Vapour absorption refrigeration system",
+"module": 6
+},
+{
+"id": "t26",
+"name": "Estimation of COP",
+"module": 6
+},
+{
+"id": "t27",
+"name": "refrigerant flow rate and power consumption",
+"module": 6
+}
+]
+}

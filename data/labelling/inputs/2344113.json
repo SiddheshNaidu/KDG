@@ -1,0 +1,462 @@
+{
+"course": "2344113",
+"title": "Computer Network & Network Design",
+"modules": [
+{
+"index": 1,
+"name": "Introduction to Computer Networks"
+},
+{
+"index": 2,
+"name": "Physical Layer"
+},
+{
+"index": 3,
+"name": "Data Link Layer"
+},
+{
+"index": 4,
+"name": "Network Layer"
+},
+{
+"index": 5,
+"name": "Transport Layer & Session Layer"
+},
+{
+"index": 6,
+"name": "Presentation Layer & Application Layer"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Communication Model",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Goals of Computer Communication Networks",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Types of Computer Communication Networks",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Network Topology",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Layered Architecture of Data Network",
+"module": 1
+},
+{
+"id": "t6",
+"name": "OSI Reference Model",
+"module": 1
+},
+{
+"id": "t7",
+"name": "TCP/IP Reference Model",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Internetworking and Network Devices",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Guided and Unguided Transmission Media",
+"module": 2
+},
+{
+"id": "t10",
+"name": "Switching",
+"module": 2
+},
+{
+"id": "t11",
+"name": "Circuit Switching",
+"module": 2
+},
+{
+"id": "t12",
+"name": "Message Switching",
+"module": 2
+},
+{
+"id": "t13",
+"name": "Datagram Packet Switching",
+"module": 2
+},
+{
+"id": "t14",
+"name": "Virtual-Circuit Packet Switching",
+"module": 2
+},
+{
+"id": "t15",
+"name": "Structure of a switch",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Space Division Switching",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Time Division Switching",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Packet Switch",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Data Link Control",
+"module": 3
+},
+{
+"id": "t20",
+"name": "Framing",
+"module": 3
+},
+{
+"id": "t21",
+"name": "Error Detection & Correction",
+"module": 3
+},
+{
+"id": "t22",
+"name": "basic concept",
+"module": 3
+},
+{
+"id": "t23",
+"name": "Linear Block Code",
+"module": 3
+},
+{
+"id": "t24",
+"name": "CRC code",
+"module": 3
+},
+{
+"id": "t25",
+"name": "Checksum (Simple Problems)",
+"module": 3
+},
+{
+"id": "t26",
+"name": "Flow Control",
+"module": 3
+},
+{
+"id": "t27",
+"name": "Stop-and-Wait Flow Control",
+"module": 3
+},
+{
+"id": "t28",
+"name": "Sliding Window Flow Control (Simple Problems)",
+"module": 3
+},
+{
+"id": "t29",
+"name": "Error Control",
+"module": 3
+},
+{
+"id": "t30",
+"name": "Stop-and-Wait ARQ",
+"module": 3
+},
+{
+"id": "t31",
+"name": "Go-Back-N ARQ",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Selective Reject ARQ (Simple Problems) Medium Access Control",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Scheduled Access (Reservation, Polling, Token Passing)",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Random Access (ALOHA, CSMA, CSMA/CD, CSMA/CA) (Simple Problems on throughput) Link Layer Addressing",
+"module": 3
+},
+{
+"id": "t35",
+"name": "MAC address and its types",
+"module": 3
+},
+{
+"id": "t36",
+"name": "ARP Ethernet Protocol",
+"module": 3
+},
+{
+"id": "t37",
+"name": "Standard Ethernet",
+"module": 3
+},
+{
+"id": "t38",
+"name": "Fast Ethernet (100 Mbps)",
+"module": 3
+},
+{
+"id": "t39",
+"name": "Gigabit Ethernet",
+"module": 3
+},
+{
+"id": "t40",
+"name": "10-Gigabit Ethernet",
+"module": 3
+},
+{
+"id": "t41",
+"name": "Data Transfer",
+"module": 4
+},
+{
+"id": "t42",
+"name": "Network Layer Services",
+"module": 4
+},
+{
+"id": "t43",
+"name": "IPv4 Addressing (Classful/Classless) (Simple Problems)",
+"module": 4
+},
+{
+"id": "t44",
+"name": "Subnetting & Supernetting (Simple Problems)",
+"module": 4
+},
+{
+"id": "t45",
+"name": "IPv4 Protocol",
+"module": 4
+},
+{
+"id": "t46",
+"name": "ICMP Protocol",
+"module": 4
+},
+{
+"id": "t47",
+"name": "IPv6 Addressing & Protocol",
+"module": 4
+},
+{
+"id": "t48",
+"name": "Transition from IPv4 to IPv6 Routing of Packets",
+"module": 4
+},
+{
+"id": "t49",
+"name": "Routing Protocols (RIP, OSPF, BGP) Network Design",
+"module": 4
+},
+{
+"id": "t50",
+"name": "Concept of VLAN",
+"module": 4
+},
+{
+"id": "t51",
+"name": "VPN",
+"module": 4
+},
+{
+"id": "t52",
+"name": "Case study on designing a network for an organization/ college",
+"module": 4
+},
+{
+"id": "t53",
+"name": "Transport Layer",
+"module": 5
+},
+{
+"id": "t54",
+"name": "Transport Layer Services",
+"module": 5
+},
+{
+"id": "t55",
+"name": "Port Number",
+"module": 5
+},
+{
+"id": "t56",
+"name": "Socket Address",
+"module": 5
+},
+{
+"id": "t57",
+"name": "Flow & Congestion Control at Transport Layer",
+"module": 5
+},
+{
+"id": "t58",
+"name": "Connectionless and Connection-Oriented Services",
+"module": 5
+},
+{
+"id": "t59",
+"name": "User Datagram Protocol (UDP)",
+"module": 5
+},
+{
+"id": "t60",
+"name": "User Datagram",
+"module": 5
+},
+{
+"id": "t61",
+"name": "UDP Services",
+"module": 5
+},
+{
+"id": "t62",
+"name": "UDP Applications (Simple Problems on UDP Header)",
+"module": 5
+},
+{
+"id": "t63",
+"name": "Transmission Control Protocol (TCP)",
+"module": 5
+},
+{
+"id": "t64",
+"name": "TCP Services",
+"module": 5
+},
+{
+"id": "t65",
+"name": "TCP Segment Format",
+"module": 5
+},
+{
+"id": "t66",
+"name": "TCP Timers (Simple Problems on TCP Header) Session Layer",
+"module": 5
+},
+{
+"id": "t67",
+"name": "Session Layer Design Issues",
+"module": 5
+},
+{
+"id": "t68",
+"name": "Remote Procedure Call (RPC) Protocol (Handshaking)",
+"module": 5
+},
+{
+"id": "t69",
+"name": "Presentation Layer",
+"module": 6
+},
+{
+"id": "t70",
+"name": "Compression",
+"module": 6
+},
+{
+"id": "t71",
+"name": "Basics of compression",
+"module": 6
+},
+{
+"id": "t72",
+"name": "Lossless and Lossy Compression",
+"module": 6
+},
+{
+"id": "t73",
+"name": "Compression Techniques",
+"module": 6
+},
+{
+"id": "t74",
+"name": "Huffman Code",
+"module": 6
+},
+{
+"id": "t75",
+"name": "LZW Code",
+"module": 6
+},
+{
+"id": "t76",
+"name": "Run Length Code (Simple Problems)",
+"module": 6
+},
+{
+"id": "t77",
+"name": "Image Compression",
+"module": 6
+},
+{
+"id": "t78",
+"name": "GIF",
+"module": 6
+},
+{
+"id": "t79",
+"name": "JPEG Application Layer",
+"module": 6
+},
+{
+"id": "t80",
+"name": "Client/Server Paradigm",
+"module": 6
+},
+{
+"id": "t81",
+"name": "Standard Applications",
+"module": 6
+},
+{
+"id": "t82",
+"name": "WWW",
+"module": 6
+},
+{
+"id": "t83",
+"name": "HTTP",
+"module": 6
+},
+{
+"id": "t84",
+"name": "FTP",
+"module": 6
+},
+{
+"id": "t85",
+"name": "Email",
+"module": 6
+},
+{
+"id": "t86",
+"name": "DNS",
+"module": 6
+}
+]
+}

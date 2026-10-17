@@ -1,0 +1,322 @@
+{
+"course": "BSC102_1f6a41",
+"title": "Applied Physics",
+"modules": [
+{
+"index": 1,
+"name": "Lasers"
+},
+{
+"index": 2,
+"name": "Fibre Optics"
+},
+{
+"index": 3,
+"name": "Interfenence In Thin Films"
+},
+{
+"index": 4,
+"name": "Electrodynamics"
+},
+{
+"index": 5,
+"name": "Quantum Physics"
+},
+{
+"index": 6,
+"name": "Basics Of Semiconductor Physics"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Lasers",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Spontaneous and stimulated emission",
+"module": 1
+},
+{
+"id": "t3",
+"name": "population inversion",
+"module": 1
+},
+{
+"id": "t4",
+"name": "pumping",
+"module": 1
+},
+{
+"id": "t5",
+"name": "active medium & active center",
+"module": 1
+},
+{
+"id": "t6",
+"name": "resonant cavity",
+"module": 1
+},
+{
+"id": "t7",
+"name": "coherence length and coherence time",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Characteristics of lasers",
+"module": 1
+},
+{
+"id": "t9",
+"name": "He-Ne laser",
+"module": 1
+},
+{
+"id": "t10",
+"name": "construction and working",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Fiber laser Construction and working Application",
+"module": 1
+},
+{
+"id": "t12",
+"name": "(i)Elementary knowledge of LiDAR(ii) Barcode reader (iii) Application of laser in metal work",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Optical fibers",
+"module": 2
+},
+{
+"id": "t14",
+"name": "Critical angle",
+"module": 2
+},
+{
+"id": "t15",
+"name": "acceptance angle",
+"module": 2
+},
+{
+"id": "t16",
+"name": "acceptance cone",
+"module": 2
+},
+{
+"id": "t17",
+"name": "numerical aperture",
+"module": 2
+},
+{
+"id": "t18",
+"name": "total internal reflection andpropagation of light",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Types of optical fibers",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Single mode & multimode",
+"module": 2
+},
+{
+"id": "t21",
+"name": "step index &graded index",
+"module": 2
+},
+{
+"id": "t22",
+"name": "attenuation",
+"module": 2
+},
+{
+"id": "t23",
+"name": "attenuation coefficient",
+"module": 2
+},
+{
+"id": "t24",
+"name": "factors affecting attenuation",
+"module": 2
+},
+{
+"id": "t25",
+"name": "Fibre Optic Communication System",
+"module": 2
+},
+{
+"id": "t26",
+"name": "Advantages of optical fiber communication",
+"module": 2
+},
+{
+"id": "t27",
+"name": "Interference in thin film of uniform thickness",
+"module": 3
+},
+{
+"id": "t28",
+"name": "conditions of maxima and minima for reflected system",
+"module": 3
+},
+{
+"id": "t29",
+"name": "Conditions for maxima and minima for wedge shaped film (qualitative)",
+"module": 3
+},
+{
+"id": "t30",
+"name": "engineering applications",
+"module": 3
+},
+{
+"id": "t31",
+"name": "Vector Calculus",
+"module": 4
+},
+{
+"id": "t32",
+"name": "Gradient",
+"module": 4
+},
+{
+"id": "t33",
+"name": "Divergence",
+"module": 4
+},
+{
+"id": "t34",
+"name": "Curl",
+"module": 4
+},
+{
+"id": "t35",
+"name": "Gauss’s law",
+"module": 4
+},
+{
+"id": "t36",
+"name": "Amperes’ circuital Law",
+"module": 4
+},
+{
+"id": "t37",
+"name": "Faraday’s law",
+"module": 4
+},
+{
+"id": "t38",
+"name": "Divergence theorem",
+"module": 4
+},
+{
+"id": "t39",
+"name": "Stokes theorem Maxwell’s equations in point form",
+"module": 4
+},
+{
+"id": "t40",
+"name": "Integral form and their significance(Cartesian coordinate only)",
+"module": 4
+},
+{
+"id": "t41",
+"name": "de Broglie hypothesis of matter waves",
+"module": 5
+},
+{
+"id": "t42",
+"name": "de Broglie wavelength for electron",
+"module": 5
+},
+{
+"id": "t43",
+"name": "Properties of matter waves",
+"module": 5
+},
+{
+"id": "t44",
+"name": "Wave function and probability density",
+"module": 5
+},
+{
+"id": "t45",
+"name": "mathematicalconditions for wave function",
+"module": 5
+},
+{
+"id": "t46",
+"name": "problems on de Broglie wavelength",
+"module": 5
+},
+{
+"id": "t47",
+"name": "Need and significance of Schrödinger’sequations",
+"module": 5
+},
+{
+"id": "t48",
+"name": "Schrödinger’s time independent and time dependent equations",
+"module": 5
+},
+{
+"id": "t49",
+"name": "Energy of a particle enclosed in a rigidbox",
+"module": 5
+},
+{
+"id": "t50",
+"name": "related numerical problems",
+"module": 5
+},
+{
+"id": "t51",
+"name": "Quantum mechanical tunneling",
+"module": 5
+},
+{
+"id": "t52",
+"name": "Principles of quantum computing",
+"module": 5
+},
+{
+"id": "t53",
+"name": "concept of Qubit",
+"module": 5
+},
+{
+"id": "t54",
+"name": "Direct and Indirect Band Gap Semiconductors",
+"module": 6
+},
+{
+"id": "t55",
+"name": "Electrical Conductivity of Semiconductors",
+"module": 6
+},
+{
+"id": "t56",
+"name": "Drift Velocity",
+"module": 6
+},
+{
+"id": "t57",
+"name": "Mobility and Conductivity in Conductors Fermi- Dirac distribution function",
+"module": 6
+},
+{
+"id": "t58",
+"name": "Position of Fermi Level in Intrinsic and Extrinsic Semiconductors",
+"module": 6
+}
+]
+}

@@ -1,0 +1,337 @@
+{
+"course": "23451143",
+"title": "UI/UX Design",
+"modules": [
+{
+"index": 1,
+"name": "Introduction to User Interface and UX Design"
+},
+{
+"index": 2,
+"name": "Understanding Human Factors and Interactive cognitive Aspects in UI/UX"
+},
+{
+"index": 3,
+"name": "User research Requirement Analysis Interpretation Design Translation"
+},
+{
+"index": 4,
+"name": "Interaction Design Process & Prototyping"
+},
+{
+"index": 5,
+"name": "Design Principles, Standards & Modern UI Trends"
+},
+{
+"index": 6,
+"name": "Evaluation Techniques & UX Metrics"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Introduction to UI/UX",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Evolution of UI",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Command line interface to Graphical User Interface to Touch Screen to Voice enabled App to Multimodal Interface",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Characteristics of Good and Bad Design",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Usability",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Learnability",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Accessibility",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Delight",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Overview of Interaction Design Lifecycle",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Importance of UI/UX in Product Development Lifecycle",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Role of UI/UX",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Understanding Problem Space",
+"module": 2
+},
+{
+"id": "t13",
+"name": "Human perception",
+"module": 2
+},
+{
+"id": "t14",
+"name": "attention",
+"module": 2
+},
+{
+"id": "t15",
+"name": "memory",
+"module": 2
+},
+{
+"id": "t16",
+"name": "cognition",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Layout and Grid System",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Conceptual Models",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Mental Models",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Emotional design and affective computing",
+"module": 2
+},
+{
+"id": "t21",
+"name": "social interaction",
+"module": 2
+},
+{
+"id": "t22",
+"name": "collaboration",
+"module": 2
+},
+{
+"id": "t23",
+"name": "persuasive design",
+"module": 2
+},
+{
+"id": "t24",
+"name": "Inclusive and accessible design principles",
+"module": 2
+},
+{
+"id": "t25",
+"name": "User research methods (Interviews, Survey, Observation, Personas etc) Competitive Analysis",
+"module": 3
+},
+{
+"id": "t26",
+"name": "User Centered Design",
+"module": 3
+},
+{
+"id": "t27",
+"name": "Task analysis and use cases",
+"module": 3
+},
+{
+"id": "t28",
+"name": "Translating requirements into design goals",
+"module": 3
+},
+{
+"id": "t29",
+"name": "Design thinking process (Empathize, Define, Ideate, Prototype, Test)",
+"module": 4
+},
+{
+"id": "t30",
+"name": "Information architecture and navigation design",
+"module": 4
+},
+{
+"id": "t31",
+"name": "Design System (Component Library, Auto Layout Concept) Prototyping",
+"module": 4
+},
+{
+"id": "t32",
+"name": "low- fidelity vs high-fidelity",
+"module": 4
+},
+{
+"id": "t33",
+"name": "Prototyping tools overview (Figma, Adobe XD, Sketch)",
+"module": 4
+},
+{
+"id": "t34",
+"name": "Micro interactions and feedback mechanisms",
+"module": 4
+},
+{
+"id": "t35",
+"name": "Design principles",
+"module": 5
+},
+{
+"id": "t36",
+"name": "Consistency",
+"module": 5
+},
+{
+"id": "t37",
+"name": "Feedback",
+"module": 5
+},
+{
+"id": "t38",
+"name": "Simplicity",
+"module": 5
+},
+{
+"id": "t39",
+"name": "Visibility",
+"module": 5
+},
+{
+"id": "t40",
+"name": "Usability heuristics (Nielsen’s Heuristics)",
+"module": 5
+},
+{
+"id": "t41",
+"name": "UI guidelines and standards",
+"module": 5
+},
+{
+"id": "t42",
+"name": "ISO/IEC usability standards and WCAG overview & guidelines",
+"module": 5
+},
+{
+"id": "t43",
+"name": "Responsive and adaptive design",
+"module": 5
+},
+{
+"id": "t44",
+"name": "Dark patterns and ethical UI design",
+"module": 5
+},
+{
+"id": "t45",
+"name": "Current trends",
+"module": 5
+},
+{
+"id": "t46",
+"name": "Dark mode",
+"module": 5
+},
+{
+"id": "t47",
+"name": "Neumorphism",
+"module": 5
+},
+{
+"id": "t48",
+"name": "Glassmorphism",
+"module": 5
+},
+{
+"id": "t49",
+"name": "Voice UI",
+"module": 5
+},
+{
+"id": "t50",
+"name": "Conversational UI",
+"module": 5
+},
+{
+"id": "t51",
+"name": "AI-assisted interfaces",
+"module": 5
+},
+{
+"id": "t52",
+"name": "UX Laws",
+"module": 5
+},
+{
+"id": "t53",
+"name": "Why and when to evaluate designs",
+"module": 6
+},
+{
+"id": "t54",
+"name": "Formative vs Summative evaluation",
+"module": 6
+},
+{
+"id": "t55",
+"name": "Usability testing methods",
+"module": 6
+},
+{
+"id": "t56",
+"name": "Heuristic evaluation and cognitive walkthrough",
+"module": 6
+},
+{
+"id": "t57",
+"name": "UX metrics",
+"module": 6
+},
+{
+"id": "t58",
+"name": "SUS",
+"module": 6
+},
+{
+"id": "t59",
+"name": "NPS",
+"module": 6
+},
+{
+"id": "t60",
+"name": "Task Success Rate",
+"module": 6
+},
+{
+"id": "t61",
+"name": "DECIDE Framework and case studies",
+"module": 6
+}
+]
+}

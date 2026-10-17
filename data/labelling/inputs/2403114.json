@@ -1,0 +1,337 @@
+{
+"course": "2403114",
+"title": "Material Science",
+"modules": [
+{
+"index": 1,
+"name": "Introduction to Crystals and Imperfections"
+},
+{
+"index": 2,
+"name": "Hot -Cold Working mechanisms"
+},
+{
+"index": 3,
+"name": "Crystallization & Phase Transformations"
+},
+{
+"index": 4,
+"name": "Iron-Iron carbide phase diagram"
+},
+{
+"index": 5,
+"name": "Heat treatment & Alloy Steel"
+},
+{
+"index": 6,
+"name": "Fracture & Failure Mechanism"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Classification of materials",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Introduction to engineering materials",
+"module": 1
+},
+{
+"id": "t3",
+"name": "significance of structure property correlations in all classes of engineering materials",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Concepts of crystals- Crystalline and Non-crystalline Materials Unit cell",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Crystal structures of metals",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Crystal systems",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Crystallographic planes and directions",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Crystal Defects",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Crystal Imperfections- definition",
+"module": 1
+},
+{
+"id": "t10",
+"name": "classification and significance of imperfections",
+"module": 1
+},
+{
+"id": "t11",
+"name": "point defects",
+"module": 1
+},
+{
+"id": "t12",
+"name": "line defects",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Surface defects and volume defects",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Importance of dislocations in deformation and its mechanisms",
+"module": 1
+},
+{
+"id": "t15",
+"name": "Critical resolved shear stress",
+"module": 1
+},
+{
+"id": "t16",
+"name": "Slip systems and deformability of FCC",
+"module": 1
+},
+{
+"id": "t17",
+"name": "BCC and HCP lattice systems",
+"module": 1
+},
+{
+"id": "t18",
+"name": "Concept of Recrystallization",
+"module": 2
+},
+{
+"id": "t19",
+"name": "effects and mechanism of cold work and hot work",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Need for Recrystallization Annealing",
+"module": 2
+},
+{
+"id": "t21",
+"name": "stages of recrystallization annealing and factors affecting",
+"module": 2
+},
+{
+"id": "t22",
+"name": "Nucleation-Homogeneous and Heterogeneous Nucleation and Growth",
+"module": 3
+},
+{
+"id": "t23",
+"name": "Solidification of metals and alloys",
+"module": 3
+},
+{
+"id": "t24",
+"name": "Cooling curves",
+"module": 3
+},
+{
+"id": "t25",
+"name": "Classification of Alloys based on phases",
+"module": 3
+},
+{
+"id": "t26",
+"name": "phase -diagrams Binary alloy phase diagrams",
+"module": 3
+},
+{
+"id": "t27",
+"name": "Isomorphous",
+"module": 3
+},
+{
+"id": "t28",
+"name": "Eutectics type I and II",
+"module": 3
+},
+{
+"id": "t29",
+"name": "Peritectic",
+"module": 3
+},
+{
+"id": "t30",
+"name": "Invariant reactions",
+"module": 4
+},
+{
+"id": "t31",
+"name": "microstructural changes of hypo and hyper-eutectoid steel",
+"module": 4
+},
+{
+"id": "t32",
+"name": "Solidification of different alloys from the Iron-Iron carbide diagram",
+"module": 4
+},
+{
+"id": "t33",
+"name": "TTT and CCT diagram-Hardenability and its tests",
+"module": 4
+},
+{
+"id": "t34",
+"name": "Graphitization in cast irons",
+"module": 4
+},
+{
+"id": "t35",
+"name": "Thorough treatments",
+"module": 5
+},
+{
+"id": "t36",
+"name": "Annealing and types",
+"module": 5
+},
+{
+"id": "t37",
+"name": "normalizing",
+"module": 5
+},
+{
+"id": "t38",
+"name": "hardening and tempering",
+"module": 5
+},
+{
+"id": "t39",
+"name": "Isothermal treatments austempering and martempering",
+"module": 5
+},
+{
+"id": "t40",
+"name": "Surface hardening processes",
+"module": 5
+},
+{
+"id": "t41",
+"name": "Carburizing",
+"module": 5
+},
+{
+"id": "t42",
+"name": "Nitriding",
+"module": 5
+},
+{
+"id": "t43",
+"name": "Cyaniding and Carbonitriding",
+"module": 5
+},
+{
+"id": "t44",
+"name": "induction and flame hardening",
+"module": 5
+},
+{
+"id": "t45",
+"name": "Alloy steels-Stainless steels",
+"module": 5
+},
+{
+"id": "t46",
+"name": "Tool steels",
+"module": 5
+},
+{
+"id": "t47",
+"name": "Maraging steels and Ausformed steels",
+"module": 5
+},
+{
+"id": "t48",
+"name": "Fracture of metals",
+"module": 6
+},
+{
+"id": "t49",
+"name": "Ductile Fracture",
+"module": 6
+},
+{
+"id": "t50",
+"name": "Brittle Fracture",
+"module": 6
+},
+{
+"id": "t51",
+"name": "Ductile to Brittle Transition Temperature (DBTT)",
+"module": 6
+},
+{
+"id": "t52",
+"name": "Griffith’s criteria and Orowan’s modification",
+"module": 6
+},
+{
+"id": "t53",
+"name": "Fatigue/Endurance limit of ferrous and non- ferrous metals",
+"module": 6
+},
+{
+"id": "t54",
+"name": "Fatigue test",
+"module": 6
+},
+{
+"id": "t55",
+"name": "S-N curves",
+"module": 6
+},
+{
+"id": "t56",
+"name": "factors affecting fatigue",
+"module": 6
+},
+{
+"id": "t57",
+"name": "structural changes accompanying fatigue",
+"module": 6
+},
+{
+"id": "t58",
+"name": "Creep",
+"module": 6
+},
+{
+"id": "t59",
+"name": "mechanism of creep",
+"module": 6
+},
+{
+"id": "t60",
+"name": "stages of creep and creep test",
+"module": 6
+},
+{
+"id": "t61",
+"name": "creep resistant materials",
+"module": 6
+}
+]
+}

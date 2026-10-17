@@ -1,0 +1,567 @@
+{
+"course": "2346111",
+"title": "Security and Blockchain Technology",
+"modules": [
+{
+"index": 1,
+"name": "Security Fundamentals and Cryptography"
+},
+{
+"index": 2,
+"name": "Authentication, access control and security governance"
+},
+{
+"index": 3,
+"name": "Foundations of Blockchain"
+},
+{
+"index": 4,
+"name": "Public and Private Blockchain Platforms"
+},
+{
+"index": 5,
+"name": "Smart Contracts development"
+},
+{
+"index": 6,
+"name": "Blockchain Security and Enterprise applications"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Fundamentals of Information Security",
+"module": 1
+},
+{
+"id": "t2",
+"name": "CIA Triad",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Threats",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Vulnerabilities",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Risk",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Introduction to cryptography",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Classical Encryption techniques (substitution and transposition cipher) Block cipher algorithms",
+"module": 1
+},
+{
+"id": "t8",
+"name": "AES",
+"module": 1
+},
+{
+"id": "t9",
+"name": "DES Hashing",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Hash functions",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Hashing Techniques (HMAC, CMAC, SHA256, and SHA512) Digital Signatures",
+"module": 1
+},
+{
+"id": "t12",
+"name": "RSA",
+"module": 1
+},
+{
+"id": "t13",
+"name": "DSS",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Digital Certificates",
+"module": 1
+},
+{
+"id": "t15",
+"name": "X.509 standard",
+"module": 1
+},
+{
+"id": "t16",
+"name": "Public Key Infrastructure",
+"module": 1
+},
+{
+"id": "t17",
+"name": "Authentication & Access Control",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Password management policies",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Password attacks (Brute Force, Dictionary)",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Authentication Mechanisms",
+"module": 2
+},
+{
+"id": "t21",
+"name": "Single Sign-on (KerberosV4 and V5)",
+"module": 2
+},
+{
+"id": "t22",
+"name": "Access Control Models (Bell-LaPadula, Biba)",
+"module": 2
+},
+{
+"id": "t23",
+"name": "Risk Management & Security Governance",
+"module": 2
+},
+{
+"id": "t24",
+"name": "Risk Identification",
+"module": 2
+},
+{
+"id": "t25",
+"name": "Assessment and Mitigation",
+"module": 2
+},
+{
+"id": "t26",
+"name": "Security Policies",
+"module": 2
+},
+{
+"id": "t27",
+"name": "Standards and Procedures (ISO 27001)",
+"module": 2
+},
+{
+"id": "t28",
+"name": "COBIT framework",
+"module": 2
+},
+{
+"id": "t29",
+"name": "Legal and Ethical aspects",
+"module": 2
+},
+{
+"id": "t30",
+"name": "IT Act 2000 and Amendments",
+"module": 2
+},
+{
+"id": "t31",
+"name": "Ethical and Privacy Issues",
+"module": 2
+},
+{
+"id": "t32",
+"name": "Definition and Evolution of Blockchain",
+"module": 3
+},
+{
+"id": "t33",
+"name": "DLT vs Blockchain",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Blockchain characteristics and key concepts",
+"module": 3
+},
+{
+"id": "t35",
+"name": "types of blockchain",
+"module": 3
+},
+{
+"id": "t36",
+"name": "Blockchain Limitations",
+"module": 3
+},
+{
+"id": "t37",
+"name": "Blockchain Trilemma",
+"module": 3
+},
+{
+"id": "t38",
+"name": "CAP Theorem",
+"module": 3
+},
+{
+"id": "t39",
+"name": "Blockchain architecture",
+"module": 3
+},
+{
+"id": "t40",
+"name": "Layers",
+"module": 3
+},
+{
+"id": "t41",
+"name": "components of a blockchain",
+"module": 3
+},
+{
+"id": "t42",
+"name": "Consensus algorithms (PoW, PoS, PoA)",
+"module": 3
+},
+{
+"id": "t43",
+"name": "Block structure",
+"module": 3
+},
+{
+"id": "t44",
+"name": "Block definition",
+"module": 3
+},
+{
+"id": "t45",
+"name": "header components",
+"module": 3
+},
+{
+"id": "t46",
+"name": "block hash and block height",
+"module": 3
+},
+{
+"id": "t47",
+"name": "Genesis block",
+"module": 3
+},
+{
+"id": "t48",
+"name": "Merkle tree",
+"module": 3
+},
+{
+"id": "t49",
+"name": "linking blocks in the Blockchain",
+"module": 3
+},
+{
+"id": "t50",
+"name": "Bitcoin Blockchain",
+"module": 4
+},
+{
+"id": "t51",
+"name": "brief evolution",
+"module": 4
+},
+{
+"id": "t52",
+"name": "architecture",
+"module": 4
+},
+{
+"id": "t53",
+"name": "Bitcoin mining",
+"module": 4
+},
+{
+"id": "t54",
+"name": "Proof of Work and Hashcash in Bitcoin",
+"module": 4
+},
+{
+"id": "t55",
+"name": "Block Propagation and Relay",
+"module": 4
+},
+{
+"id": "t56",
+"name": "Transaction structure and Bitcoin Script in the Bitcoin Network",
+"module": 4
+},
+{
+"id": "t57",
+"name": "Ethereum Blockchain",
+"module": 4
+},
+{
+"id": "t58",
+"name": "Smart contracts",
+"module": 4
+},
+{
+"id": "t59",
+"name": "Ethereum Virtual Machine (EVM)",
+"module": 4
+},
+{
+"id": "t60",
+"name": "Ethereum Classic",
+"module": 4
+},
+{
+"id": "t61",
+"name": "Ethereum components",
+"module": 4
+},
+{
+"id": "t62",
+"name": "Mining",
+"module": 4
+},
+{
+"id": "t63",
+"name": "transaction workflow",
+"module": 4
+},
+{
+"id": "t64",
+"name": "Hyperledger Blockchain",
+"module": 4
+},
+{
+"id": "t65",
+"name": "Hyperledger Ecosystem",
+"module": 4
+},
+{
+"id": "t66",
+"name": "Hyperledger Fabric architecture",
+"module": 4
+},
+{
+"id": "t67",
+"name": "components",
+"module": 4
+},
+{
+"id": "t68",
+"name": "pBFT and DPOS",
+"module": 4
+},
+{
+"id": "t69",
+"name": "Permissioned blockchain networks",
+"module": 4
+},
+{
+"id": "t70",
+"name": "Smart Contract",
+"module": 5
+},
+{
+"id": "t71",
+"name": "Definition and characteristics",
+"module": 5
+},
+{
+"id": "t72",
+"name": "types of smart contract",
+"module": 5
+},
+{
+"id": "t73",
+"name": "Smart contract lifecycle",
+"module": 5
+},
+{
+"id": "t74",
+"name": "Role and types of Oracles",
+"module": 5
+},
+{
+"id": "t75",
+"name": "Smart contract industry use cases",
+"module": 5
+},
+{
+"id": "t76",
+"name": "Opportunities and Risks",
+"module": 5
+},
+{
+"id": "t77",
+"name": "Smart Contract Deployment",
+"module": 5
+},
+{
+"id": "t78",
+"name": "Introduction to Truffle",
+"module": 5
+},
+{
+"id": "t79",
+"name": "Remix IDE",
+"module": 5
+},
+{
+"id": "t80",
+"name": "Ganache blockchain simulator and test networks for deployment",
+"module": 5
+},
+{
+"id": "t81",
+"name": "Solidity Programming",
+"module": 5
+},
+{
+"id": "t82",
+"name": "Development environment setup",
+"module": 5
+},
+{
+"id": "t83",
+"name": "basic programming concepts",
+"module": 5
+},
+{
+"id": "t84",
+"name": "program structure",
+"module": 5
+},
+{
+"id": "t85",
+"name": "variables and data types",
+"module": 5
+},
+{
+"id": "t86",
+"name": "functions and modifiers",
+"module": 5
+},
+{
+"id": "t87",
+"name": "Metamask (Ethereum Wallet) setup",
+"module": 5
+},
+{
+"id": "t88",
+"name": "deployment on test networks",
+"module": 5
+},
+{
+"id": "t89",
+"name": "Dapp integration",
+"module": 5
+},
+{
+"id": "t90",
+"name": "Security concepts",
+"module": 6
+},
+{
+"id": "t91",
+"name": "security attributes of Blockchain (CIAR)",
+"module": 6
+},
+{
+"id": "t92",
+"name": "Identity and access Management",
+"module": 6
+},
+{
+"id": "t93",
+"name": "authentication",
+"module": 6
+},
+{
+"id": "t94",
+"name": "Regulatory Compliance",
+"module": 6
+},
+{
+"id": "t95",
+"name": "Bribery attack",
+"module": 6
+},
+{
+"id": "t96",
+"name": "Collusion attack",
+"module": 6
+},
+{
+"id": "t97",
+"name": "Finney attack",
+"module": 6
+},
+{
+"id": "t98",
+"name": "51% attack",
+"module": 6
+},
+{
+"id": "t99",
+"name": "Vulnerabilities in a smart contracts and Dapps",
+"module": 6
+},
+{
+"id": "t100",
+"name": "secure coding practices",
+"module": 6
+},
+{
+"id": "t101",
+"name": "Wallet security mechanisms",
+"module": 6
+},
+{
+"id": "t102",
+"name": "Key Management strategies",
+"module": 6
+},
+{
+"id": "t103",
+"name": "Enterprise Blockchain Security and Use-cases",
+"module": 6
+},
+{
+"id": "t104",
+"name": "Financial services",
+"module": 6
+},
+{
+"id": "t105",
+"name": "Supply Chain management",
+"module": 6
+},
+{
+"id": "t106",
+"name": "Healthcare systems",
+"module": 6
+},
+{
+"id": "t107",
+"name": "E-Governance",
+"module": 6
+}
+]
+}

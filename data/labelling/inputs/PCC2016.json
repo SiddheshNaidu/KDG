@@ -1,0 +1,207 @@
+{
+"course": "PCC2016",
+"title": "Elements of Telecommunication",
+"modules": [
+{
+"index": 1,
+"name": "Analog Communication"
+},
+{
+"index": 2,
+"name": "Digital Communication"
+},
+{
+"index": 3,
+"name": "Computer Communication Network"
+},
+{
+"index": 4,
+"name": "Mobile Communication"
+},
+{
+"index": 5,
+"name": "Fiber Optical Communication"
+},
+{
+"index": 6,
+"name": "Satellite Communication"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Introduction to Communication Systems",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Analog & Digital Signal",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Need for Modulation and Demodulation",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Amplitude and Frequency Modulation and Demodulation",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Introduction to Digital Communication",
+"module": 2
+},
+{
+"id": "t6",
+"name": "Definition of sampling theorem",
+"module": 2
+},
+{
+"id": "t7",
+"name": "Pulse Code Modulation",
+"module": 2
+},
+{
+"id": "t8",
+"name": "Basics of ASK",
+"module": 2
+},
+{
+"id": "t9",
+"name": "FSK & PSK waveforms",
+"module": 2
+},
+{
+"id": "t10",
+"name": "Introduction to Computer Network",
+"module": 3
+},
+{
+"id": "t11",
+"name": "Network Topologies",
+"module": 3
+},
+{
+"id": "t12",
+"name": "TCP/IP and OSI Model",
+"module": 3
+},
+{
+"id": "t13",
+"name": "Data Communication and Transmission Media",
+"module": 3
+},
+{
+"id": "t14",
+"name": "Introduction to wireless communication:Mobile Radio Telephony",
+"module": 4
+},
+{
+"id": "t15",
+"name": "Types of mobile wireless services/systems",
+"module": 4
+},
+{
+"id": "t16",
+"name": "Cellular",
+"module": 4
+},
+{
+"id": "t17",
+"name": "Standard",
+"module": 4
+},
+{
+"id": "t18",
+"name": "Introduction to 2G",
+"module": 4
+},
+{
+"id": "t19",
+"name": "4G and 5G technologies",
+"module": 4
+},
+{
+"id": "t20",
+"name": "Introduction to Basics of Fiber Optic Communication",
+"module": 5
+},
+{
+"id": "t21",
+"name": "Historical Development",
+"module": 5
+},
+{
+"id": "t22",
+"name": "Reflection",
+"module": 5
+},
+{
+"id": "t23",
+"name": "Refraction",
+"module": 5
+},
+{
+"id": "t24",
+"name": "Dispersion",
+"module": 5
+},
+{
+"id": "t25",
+"name": "structure of Optical Fibers",
+"module": 5
+},
+{
+"id": "t26",
+"name": "Advantages & Disadvantages",
+"module": 5
+},
+{
+"id": "t27",
+"name": "Applications of Fiber Optics Communication",
+"module": 5
+},
+{
+"id": "t28",
+"name": "Introduction to Satellite Communication",
+"module": 6
+},
+{
+"id": "t29",
+"name": "types of satellites",
+"module": 6
+},
+{
+"id": "t30",
+"name": "Applications of satellite communication systems",
+"module": 6
+},
+{
+"id": "t31",
+"name": "Frequency bands used in satellite communication",
+"module": 6
+},
+{
+"id": "t32",
+"name": "C-band",
+"module": 6
+},
+{
+"id": "t33",
+"name": "Ku-band",
+"module": 6
+},
+{
+"id": "t34",
+"name": "Ka-band",
+"module": 6
+},
+{
+"id": "t35",
+"name": "Components of satellite communication systems",
+"module": 6
+}
+]
+}

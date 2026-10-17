@@ -1,0 +1,382 @@
+{
+"course": "2013112",
+"title": "Discrete Structures and Graph Theory",
+"modules": [
+{
+"index": 1,
+"name": "Crisp Set Theory and Logic"
+},
+{
+"index": 2,
+"name": "Mathematical Relations"
+},
+{
+"index": 3,
+"name": "Functions"
+},
+{
+"index": 4,
+"name": "Counting"
+},
+{
+"index": 5,
+"name": "Algebraic Structures"
+},
+{
+"index": 6,
+"name": "Graph Theory"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Set Theory",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Sets",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Subsets",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Universal and Empty Sets",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Set Operations",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Set Representation",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Laws of Set theory",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Logic",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Propositional Logic",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Predicate Logic",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Quantifiers (Universal and Existential)",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Types of Mathematical Proof",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Direct proof",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Proof by contradiction",
+"module": 1
+},
+{
+"id": "t15",
+"name": "Proof by deduction",
+"module": 1
+},
+{
+"id": "t16",
+"name": "Proof by cases",
+"module": 1
+},
+{
+"id": "t17",
+"name": "Proof by exhaustion",
+"module": 1
+},
+{
+"id": "t18",
+"name": "Proof by counterexample",
+"module": 1
+},
+{
+"id": "t19",
+"name": "Mathematical induction",
+"module": 1
+},
+{
+"id": "t20",
+"name": "Relations",
+"module": 2
+},
+{
+"id": "t21",
+"name": "Representation of Relations",
+"module": 2
+},
+{
+"id": "t22",
+"name": "Properties of Relations",
+"module": 2
+},
+{
+"id": "t23",
+"name": "Equivalence Relations",
+"module": 2
+},
+{
+"id": "t24",
+"name": "Equivalence Classes",
+"module": 2
+},
+{
+"id": "t25",
+"name": "Closures of Relations",
+"module": 2
+},
+{
+"id": "t26",
+"name": "Warshall’s algorithm",
+"module": 2
+},
+{
+"id": "t27",
+"name": "Posets and Lattice",
+"module": 2
+},
+{
+"id": "t28",
+"name": "Partial Order Relations",
+"module": 2
+},
+{
+"id": "t29",
+"name": "Poset",
+"module": 2
+},
+{
+"id": "t30",
+"name": "Hasse Diagram",
+"module": 2
+},
+{
+"id": "t31",
+"name": "Chain and Anti chains",
+"module": 2
+},
+{
+"id": "t32",
+"name": "Lattice",
+"module": 2
+},
+{
+"id": "t33",
+"name": "Types of Lattices",
+"module": 2
+},
+{
+"id": "t34",
+"name": "Sub lattice",
+"module": 2
+},
+{
+"id": "t35",
+"name": "Functions",
+"module": 3
+},
+{
+"id": "t36",
+"name": "Injective",
+"module": 3
+},
+{
+"id": "t37",
+"name": "Surjective",
+"module": 3
+},
+{
+"id": "t38",
+"name": "Bijective Functions",
+"module": 3
+},
+{
+"id": "t39",
+"name": "Composition",
+"module": 3
+},
+{
+"id": "t40",
+"name": "Inverse Functions",
+"module": 3
+},
+{
+"id": "t41",
+"name": "Real life applications of Functions",
+"module": 3
+},
+{
+"id": "t42",
+"name": "Pigeonhole Principle",
+"module": 4
+},
+{
+"id": "t43",
+"name": "Inclusion-Exclusion Principle",
+"module": 4
+},
+{
+"id": "t44",
+"name": "Recurrence relations",
+"module": 4
+},
+{
+"id": "t45",
+"name": "Solving recurrence relations",
+"module": 4
+},
+{
+"id": "t46",
+"name": "Algebraic structures with one binary operation",
+"module": 5
+},
+{
+"id": "t47",
+"name": "Semi group",
+"module": 5
+},
+{
+"id": "t48",
+"name": "Monoid",
+"module": 5
+},
+{
+"id": "t49",
+"name": "Groups",
+"module": 5
+},
+{
+"id": "t50",
+"name": "Subgroups",
+"module": 5
+},
+{
+"id": "t51",
+"name": "Abelian Group",
+"module": 5
+},
+{
+"id": "t52",
+"name": "Cyclic group",
+"module": 5
+},
+{
+"id": "t53",
+"name": "Algebraic structures with two binary operations",
+"module": 5
+},
+{
+"id": "t54",
+"name": "Ring",
+"module": 5
+},
+{
+"id": "t55",
+"name": "Types of graphs",
+"module": 6
+},
+{
+"id": "t56",
+"name": "Graph Representation",
+"module": 6
+},
+{
+"id": "t57",
+"name": "Sub graphs",
+"module": 6
+},
+{
+"id": "t58",
+"name": "Operations on Graphs",
+"module": 6
+},
+{
+"id": "t59",
+"name": "Walk",
+"module": 6
+},
+{
+"id": "t60",
+"name": "Path",
+"module": 6
+},
+{
+"id": "t61",
+"name": "Circuit",
+"module": 6
+},
+{
+"id": "t62",
+"name": "Connected Graphs",
+"module": 6
+},
+{
+"id": "t63",
+"name": "Disconnected Graph",
+"module": 6
+},
+{
+"id": "t64",
+"name": "Components",
+"module": 6
+},
+{
+"id": "t65",
+"name": "Homomorphism and Isomorphism of Graphs",
+"module": 6
+},
+{
+"id": "t66",
+"name": "Euler and Hamiltonian Graphs",
+"module": 6
+},
+{
+"id": "t67",
+"name": "Planar Graph",
+"module": 6
+},
+{
+"id": "t68",
+"name": "Cut Set",
+"module": 6
+},
+{
+"id": "t69",
+"name": "Cut Vertex",
+"module": 6
+},
+{
+"id": "t70",
+"name": "Real life applications of Graph Theory",
+"module": 6
+}
+]
+}

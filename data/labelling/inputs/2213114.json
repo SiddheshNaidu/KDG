@@ -1,0 +1,382 @@
+{
+"course": "2213114",
+"title": "Measurements and Measuring Instruments",
+"modules": [
+{
+"index": 1,
+"name": "Philosophy of Measurement"
+},
+{
+"index": 2,
+"name": "Analog Measurement of Electrical Quantities"
+},
+{
+"index": 3,
+"name": "AC-DC Bridges and Potentiometer"
+},
+{
+"index": 4,
+"name": "Measurement of Non-electrical Quantities"
+},
+{
+"index": 5,
+"name": "Digital Measurement of Electrical Quantities"
+},
+{
+"index": 6,
+"name": "Signal Conditioning and Advanced Measuring Instruments"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Introduction to measurement",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Methods of measurement",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Classification of instruments",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Types of errors in measurement",
+"module": 1
+},
+{
+"id": "t5",
+"name": "standardization and calibration of instruments",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Analog Instruments",
+"module": 2
+},
+{
+"id": "t7",
+"name": "Classifications of analog instruments",
+"module": 2
+},
+{
+"id": "t8",
+"name": "Introduction to operating",
+"module": 2
+},
+{
+"id": "t9",
+"name": "controlling and damping torque",
+"module": 2
+},
+{
+"id": "t10",
+"name": "Extension of range of ammeter and voltmeter",
+"module": 2
+},
+{
+"id": "t11",
+"name": "Electro- dynamometer type wattmeter",
+"module": 2
+},
+{
+"id": "t12",
+"name": "Electro-dynamometer type Power factor meter",
+"module": 2
+},
+{
+"id": "t13",
+"name": "Instrument Transformer",
+"module": 2
+},
+{
+"id": "t14",
+"name": "Current Transformer (CT)",
+"module": 2
+},
+{
+"id": "t15",
+"name": "Types of CT (measuring and protection)",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Potential Transformer (PT)",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Applications in the extension of instrument range",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Clamp on ammeter",
+"module": 2
+},
+{
+"id": "t19",
+"name": "High voltage potential transformer",
+"module": 2
+},
+{
+"id": "t20",
+"name": "AC",
+"module": 3
+},
+{
+"id": "t21",
+"name": "DC Bridges",
+"module": 3
+},
+{
+"id": "t22",
+"name": "Measurement of resistance",
+"module": 3
+},
+{
+"id": "t23",
+"name": "Wheatstone",
+"module": 3
+},
+{
+"id": "t24",
+"name": "Kelvins Double",
+"module": 3
+},
+{
+"id": "t25",
+"name": "Megger",
+"module": 3
+},
+{
+"id": "t26",
+"name": "earth resistance measurement by earth tester Measurement of inductance and capacitance",
+"module": 3
+},
+{
+"id": "t27",
+"name": "Maxwell’s bridge",
+"module": 3
+},
+{
+"id": "t28",
+"name": "Schering bridge",
+"module": 3
+},
+{
+"id": "t29",
+"name": "Potentiometer Applications",
+"module": 3
+},
+{
+"id": "t30",
+"name": "Calibration of ammeter",
+"module": 3
+},
+{
+"id": "t31",
+"name": "voltmeter and wattmeter using potentiometer",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Transducers",
+"module": 4
+},
+{
+"id": "t33",
+"name": "Resistive",
+"module": 4
+},
+{
+"id": "t34",
+"name": "capacitive & inductive transducers",
+"module": 4
+},
+{
+"id": "t35",
+"name": "Optical and digital transducers",
+"module": 4
+},
+{
+"id": "t36",
+"name": "Measurement of temperature",
+"module": 4
+},
+{
+"id": "t37",
+"name": "Thermocouple",
+"module": 4
+},
+{
+"id": "t38",
+"name": "Thermistor",
+"module": 4
+},
+{
+"id": "t39",
+"name": "Resistance Temperature Detector (RTD)",
+"module": 4
+},
+{
+"id": "t40",
+"name": "Measurement of displacement",
+"module": 4
+},
+{
+"id": "t41",
+"name": "Linear and angular displacement using potentiometer",
+"module": 4
+},
+{
+"id": "t42",
+"name": "LVDT",
+"module": 4
+},
+{
+"id": "t43",
+"name": "Measurement of pressure",
+"module": 4
+},
+{
+"id": "t44",
+"name": "Piezoelectric",
+"module": 4
+},
+{
+"id": "t45",
+"name": "strain-gauge",
+"module": 4
+},
+{
+"id": "t46",
+"name": "capacitive and inductive type",
+"module": 4
+},
+{
+"id": "t47",
+"name": "Measurement of speed",
+"module": 4
+},
+{
+"id": "t48",
+"name": "Inductive and Hall Effect sensor",
+"module": 4
+},
+{
+"id": "t49",
+"name": "Generalized Block diagram of digital instruments",
+"module": 5
+},
+{
+"id": "t50",
+"name": "comparison of digital over analog instruments",
+"module": 5
+},
+{
+"id": "t51",
+"name": "Resolution & sensitivity of digital meters",
+"module": 5
+},
+{
+"id": "t52",
+"name": "Digital voltmeter (Ramp type)",
+"module": 5
+},
+{
+"id": "t53",
+"name": "ammeter",
+"module": 5
+},
+{
+"id": "t54",
+"name": "multi-meter",
+"module": 5
+},
+{
+"id": "t55",
+"name": "Digital frequency meter",
+"module": 5
+},
+{
+"id": "t56",
+"name": "Digital Tachometer",
+"module": 5
+},
+{
+"id": "t57",
+"name": "Digital Megger",
+"module": 5
+},
+{
+"id": "t58",
+"name": "Digital Storage Oscilloscope",
+"module": 5
+},
+{
+"id": "t59",
+"name": "Current sensor (ACS712)",
+"module": 5
+},
+{
+"id": "t60",
+"name": "Voltage sensor (B25)",
+"module": 5
+},
+{
+"id": "t61",
+"name": "Basics of AC",
+"module": 6
+},
+{
+"id": "t62",
+"name": "DC signal conditioning circuits",
+"module": 6
+},
+{
+"id": "t63",
+"name": "Block diagram of Data Acquisition System",
+"module": 6
+},
+{
+"id": "t64",
+"name": "Basics of Power analyzer",
+"module": 6
+},
+{
+"id": "t65",
+"name": "harmonic analyzer",
+"module": 6
+},
+{
+"id": "t66",
+"name": "Signal generator",
+"module": 6
+},
+{
+"id": "t67",
+"name": "Q-meter",
+"module": 6
+},
+{
+"id": "t68",
+"name": "Introduction to Smart sensor",
+"module": 6
+},
+{
+"id": "t69",
+"name": "IoT Based Measuring Instrument",
+"module": 6
+},
+{
+"id": "t70",
+"name": "smart energy meter",
+"module": 6
+}
+]
+}

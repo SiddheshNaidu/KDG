@@ -1,0 +1,447 @@
+{
+"course": "2346112",
+"title": "Cloud Computing",
+"modules": [
+{
+"index": 1,
+"name": "Introduction to cloud computing"
+},
+{
+"index": 2,
+"name": "Virtualization & Containerization"
+},
+{
+"index": 3,
+"name": "Cloud Economics and Cost Management"
+},
+{
+"index": 4,
+"name": "Amazon Web Service Cloud Platform"
+},
+{
+"index": 5,
+"name": "Openstack Cloud platform & Serverless Computing"
+},
+{
+"index": 6,
+"name": "Cloud Security & Privacy"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Introduction to cloud computing",
+"module": 1
+},
+{
+"id": "t2",
+"name": "need for cloud computing and its components",
+"module": 1
+},
+{
+"id": "t3",
+"name": "cloud & other similar configurations",
+"module": 1
+},
+{
+"id": "t4",
+"name": "cloud types",
+"module": 1
+},
+{
+"id": "t5",
+"name": "NIST and Cloud Cube Model",
+"module": 1
+},
+{
+"id": "t6",
+"name": "characteristics of cloud computing",
+"module": 1
+},
+{
+"id": "t7",
+"name": "deployment models",
+"module": 1
+},
+{
+"id": "t8",
+"name": "service models",
+"module": 1
+},
+{
+"id": "t9",
+"name": "advantages and disadvantages of Cloud Computing",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Characteristics of virtualized environments",
+"module": 2
+},
+{
+"id": "t11",
+"name": "virtualization architecture and structure",
+"module": 2
+},
+{
+"id": "t12",
+"name": "implementation levels of virtualization",
+"module": 2
+},
+{
+"id": "t13",
+"name": "mechanisms of virtualization",
+"module": 2
+},
+{
+"id": "t14",
+"name": "advantages and limitations of virtualization",
+"module": 2
+},
+{
+"id": "t15",
+"name": "virtualization vs. cloud computing",
+"module": 2
+},
+{
+"id": "t16",
+"name": "fundamentals of containerization",
+"module": 2
+},
+{
+"id": "t17",
+"name": "container architecture",
+"module": 2
+},
+{
+"id": "t18",
+"name": "comparison between virtualization and containerization",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Measuring the Cloud's Value Early adopters and new applications",
+"module": 3
+},
+{
+"id": "t20",
+"name": "laws of cloud economics",
+"module": 3
+},
+{
+"id": "t21",
+"name": "Cloud computing obstacles",
+"module": 3
+},
+{
+"id": "t22",
+"name": "Behavioral factors relating to cloud adoption",
+"module": 3
+},
+{
+"id": "t23",
+"name": "Measuring cloud computing costs",
+"module": 3
+},
+{
+"id": "t24",
+"name": "Avoiding Capital Expenditures",
+"module": 3
+},
+{
+"id": "t25",
+"name": "Computing the Total Cost of Ownership",
+"module": 3
+},
+{
+"id": "t26",
+"name": "Specifying Service Level Agreements",
+"module": 3
+},
+{
+"id": "t27",
+"name": "Defining Licensing Models",
+"module": 3
+},
+{
+"id": "t28",
+"name": "Introduction to the AWS Cloud",
+"module": 4
+},
+{
+"id": "t29",
+"name": "AWS core services by categories",
+"module": 4
+},
+{
+"id": "t30",
+"name": "Compute Service",
+"module": 4
+},
+{
+"id": "t31",
+"name": "Introduction to EC2",
+"module": 4
+},
+{
+"id": "t32",
+"name": "EC2 Instances",
+"module": 4
+},
+{
+"id": "t33",
+"name": "EC2 Amazon Machine Images",
+"module": 4
+},
+{
+"id": "t34",
+"name": "Instance Types",
+"module": 4
+},
+{
+"id": "t35",
+"name": "Instance Lifecycle",
+"module": 4
+},
+{
+"id": "t36",
+"name": "Storage Service",
+"module": 4
+},
+{
+"id": "t37",
+"name": "Introducing S3",
+"module": 4
+},
+{
+"id": "t38",
+"name": "working with Buckets",
+"module": 4
+},
+{
+"id": "t39",
+"name": "setting bucket security",
+"module": 4
+},
+{
+"id": "t40",
+"name": "S3 event and notification",
+"module": 4
+},
+{
+"id": "t41",
+"name": "bucket properties",
+"module": 4
+},
+{
+"id": "t42",
+"name": "working with Elastic Block Store Volumes",
+"module": 4
+},
+{
+"id": "t43",
+"name": "Object Storage Vs Block Storage",
+"module": 4
+},
+{
+"id": "t44",
+"name": "Archives versus backups",
+"module": 4
+},
+{
+"id": "t45",
+"name": "Introduction to Glacier",
+"module": 4
+},
+{
+"id": "t46",
+"name": "Virtual Private Cloud",
+"module": 4
+},
+{
+"id": "t47",
+"name": "Subnet",
+"module": 4
+},
+{
+"id": "t48",
+"name": "Elastic Network Interfaces",
+"module": 4
+},
+{
+"id": "t49",
+"name": "Internet Gateways",
+"module": 4
+},
+{
+"id": "t50",
+"name": "Route Tables",
+"module": 4
+},
+{
+"id": "t51",
+"name": "Security Groups",
+"module": 4
+},
+{
+"id": "t52",
+"name": "CloudWatch:Introduction",
+"module": 4
+},
+{
+"id": "t53",
+"name": "CloudWatch Metrics",
+"module": 4
+},
+{
+"id": "t54",
+"name": "CloudWatch Alarms",
+"module": 4
+},
+{
+"id": "t55",
+"name": "Database as a Service",
+"module": 4
+},
+{
+"id": "t56",
+"name": "Introduction to Amazon Relational Database Service (RDS)",
+"module": 4
+},
+{
+"id": "t57",
+"name": "Database Engines",
+"module": 4
+},
+{
+"id": "t58",
+"name": "Database Instance Classes",
+"module": 4
+},
+{
+"id": "t59",
+"name": "Backup and Recovery",
+"module": 4
+},
+{
+"id": "t60",
+"name": "Non- relational (No-SQL) Databases",
+"module": 4
+},
+{
+"id": "t61",
+"name": "Types of Non- relational Databases",
+"module": 4
+},
+{
+"id": "t62",
+"name": "Introduction to DynamoDB",
+"module": 4
+},
+{
+"id": "t63",
+"name": "Partition and Hash Keys",
+"module": 4
+},
+{
+"id": "t64",
+"name": "AWS Billing",
+"module": 4
+},
+{
+"id": "t65",
+"name": "Pricing Models and Cloud Cost Optimization",
+"module": 4
+},
+{
+"id": "t66",
+"name": "Open source Cloud Platform",
+"module": 5
+},
+{
+"id": "t67",
+"name": "Introduction to Openstack cloud platform",
+"module": 5
+},
+{
+"id": "t68",
+"name": "Components and modes of Operations",
+"module": 5
+},
+{
+"id": "t69",
+"name": "Architecture of Openstack cloud platform",
+"module": 5
+},
+{
+"id": "t70",
+"name": "Mobile Cloud Computing",
+"module": 5
+},
+{
+"id": "t71",
+"name": "architecture",
+"module": 5
+},
+{
+"id": "t72",
+"name": "benefits and challenges of mobile cloud computing",
+"module": 5
+},
+{
+"id": "t73",
+"name": "Serverless Computing",
+"module": 5
+},
+{
+"id": "t74",
+"name": "Working with Serverless environment",
+"module": 5
+},
+{
+"id": "t75",
+"name": "Basics of serverless events and functions",
+"module": 5
+},
+{
+"id": "t76",
+"name": "AWS Lambda",
+"module": 5
+},
+{
+"id": "t77",
+"name": "Fog Computing",
+"module": 5
+},
+{
+"id": "t78",
+"name": "Infrastructure security",
+"module": 6
+},
+{
+"id": "t79",
+"name": "Data security and storage",
+"module": 6
+},
+{
+"id": "t80",
+"name": "Identity and access management",
+"module": 6
+},
+{
+"id": "t81",
+"name": "privacy",
+"module": 6
+},
+{
+"id": "t82",
+"name": "audit compliance",
+"module": 6
+},
+{
+"id": "t83",
+"name": "Network Security in Cloud",
+"module": 6
+}
+]
+}

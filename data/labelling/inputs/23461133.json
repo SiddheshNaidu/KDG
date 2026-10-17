@@ -1,0 +1,292 @@
+{
+"course": "23461133",
+"title": "GIS and Drone Technologies",
+"modules": [
+{
+"index": 1,
+"name": "Geographical Information System (GIS)"
+},
+{
+"index": 2,
+"name": "Spatial Data Handling & Database Management"
+},
+{
+"index": 3,
+"name": "Spatial Analysis & GIS Programming"
+},
+{
+"index": 4,
+"name": "Fundamentals of Drone Technology"
+},
+{
+"index": 5,
+"name": "Drone Data Processing & Remote Sensing"
+},
+{
+"index": 6,
+"name": "Integration of GIS, Drones & Emerging Technologies"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Introduction to GIS",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Components of GIS (Hardware, Software, Data, People, Methods)",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Historical Development of GIS",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Components of GIS",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Data",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Types of Data",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Spatial and Non- spatial",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Vector Data",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Point",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Line",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Polygon",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Raster Data",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Database Structures",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Vector and Raster Data Structures",
+"module": 1
+},
+{
+"id": "t15",
+"name": "Files",
+"module": 1
+},
+{
+"id": "t16",
+"name": "File Formats",
+"module": 1
+},
+{
+"id": "t17",
+"name": "Spatial Data Types",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Data Acquisition Methods (Satellite, Survey, Drone, GPS)",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Spatial Databases",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Introduction to Spatial DBMS",
+"module": 2
+},
+{
+"id": "t21",
+"name": "SQL for Spatial Data",
+"module": 2
+},
+{
+"id": "t22",
+"name": "Georeferencing & Digitization",
+"module": 2
+},
+{
+"id": "t23",
+"name": "Data Cleaning and Preprocessing",
+"module": 2
+},
+{
+"id": "t24",
+"name": "Spatial Analysis Concepts",
+"module": 3
+},
+{
+"id": "t25",
+"name": "Buffering",
+"module": 3
+},
+{
+"id": "t26",
+"name": "Overlay",
+"module": 3
+},
+{
+"id": "t27",
+"name": "Network Analysis",
+"module": 3
+},
+{
+"id": "t28",
+"name": "Thematic Mapping",
+"module": 3
+},
+{
+"id": "t29",
+"name": "Introduction to GIS using Python",
+"module": 3
+},
+{
+"id": "t30",
+"name": "Libraries",
+"module": 3
+},
+{
+"id": "t31",
+"name": "GeoPandas",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Shapely (concept level)",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Automation in GIS",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Introduction to UAV / Drone Technology",
+"module": 4
+},
+{
+"id": "t35",
+"name": "Types of Drones (Fixed Wing, Multi-rotor)",
+"module": 4
+},
+{
+"id": "t36",
+"name": "Drone Components (Frame, Motors, Propellers, Battery, Controller, GPS)",
+"module": 4
+},
+{
+"id": "t37",
+"name": "Flight Planning Concepts",
+"module": 4
+},
+{
+"id": "t38",
+"name": "Drone Regulations in India (DGCA basics)",
+"module": 4
+},
+{
+"id": "t39",
+"name": "Safety & Ethical considerations",
+"module": 4
+},
+{
+"id": "t40",
+"name": "Aerial Imaging Basics",
+"module": 5
+},
+{
+"id": "t41",
+"name": "Image Stitching (Photogrammetry concept)",
+"module": 5
+},
+{
+"id": "t42",
+"name": "Orthomosaic Creation",
+"module": 5
+},
+{
+"id": "t43",
+"name": "3D Mapping Basics",
+"module": 5
+},
+{
+"id": "t44",
+"name": "Remote Sensing Fundamentals",
+"module": 5
+},
+{
+"id": "t45",
+"name": "Satellite vs Drone Imaging",
+"module": 5
+},
+{
+"id": "t46",
+"name": "NDVI concept",
+"module": 5
+},
+{
+"id": "t47",
+"name": "IoT + GIS",
+"module": 6
+},
+{
+"id": "t48",
+"name": "AI/ML in Geospatial Analysis",
+"module": 6
+},
+{
+"id": "t49",
+"name": "Real- Time Mapping Systems",
+"module": 6
+},
+{
+"id": "t50",
+"name": "Smart Cities Case Studies",
+"module": 6
+},
+{
+"id": "t51",
+"name": "Web GIS",
+"module": 6
+},
+{
+"id": "t52",
+"name": "Future Trends in Geospatial Technology",
+"module": 6
+}
+]
+}

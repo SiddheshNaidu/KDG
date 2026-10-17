@@ -1,0 +1,357 @@
+{
+"course": "23461142",
+"title": "Natural Language Processing",
+"modules": [
+{
+"index": 1,
+"name": "Introduction to NLP"
+},
+{
+"index": 2,
+"name": "Text Processing"
+},
+{
+"index": 3,
+"name": "Computational Morphology"
+},
+{
+"index": 4,
+"name": "Syntax Analysis"
+},
+{
+"index": 5,
+"name": "Semantic Parsing and Lexical Semantics"
+},
+{
+"index": 6,
+"name": "Text Classification"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Introduction to Natural Language Processing (NLP) system",
+"module": 1
+},
+{
+"id": "t2",
+"name": "levels of NLP",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Knowledge in language processing",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Ambiguity in Natural language",
+"module": 1
+},
+{
+"id": "t5",
+"name": "stages in NLP",
+"module": 1
+},
+{
+"id": "t6",
+"name": "challenges of NLP",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Applications of NLP",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Word Tokenization and Segmentation",
+"module": 2
+},
+{
+"id": "t9",
+"name": "Lemmatization",
+"module": 2
+},
+{
+"id": "t10",
+"name": "Bag of words",
+"module": 2
+},
+{
+"id": "t11",
+"name": "N-gram language model",
+"module": 2
+},
+{
+"id": "t12",
+"name": "N-gram for spelling correction",
+"module": 2
+},
+{
+"id": "t13",
+"name": "Edit distance Dynamic Programming Approach",
+"module": 2
+},
+{
+"id": "t14",
+"name": "Weighted Edit Distance",
+"module": 2
+},
+{
+"id": "t15",
+"name": "Finding Dictionary Entries with Small Edit Distances",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Noisy Channel Model",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Non-word errors Real-word errors",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Evaluation of Language Models",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Morphological Processes",
+"module": 3
+},
+{
+"id": "t20",
+"name": "Morphological Analysis- Inflectional morphology & Derivational morphology",
+"module": 3
+},
+{
+"id": "t21",
+"name": "Regular expression",
+"module": 3
+},
+{
+"id": "t22",
+"name": "Finite State Automata",
+"module": 3
+},
+{
+"id": "t23",
+"name": "Finite State Transducer",
+"module": 3
+},
+{
+"id": "t24",
+"name": "Morphological parsing with FST",
+"module": 3
+},
+{
+"id": "t25",
+"name": "Lexicon free FST Porter stemmer",
+"module": 3
+},
+{
+"id": "t26",
+"name": "Two",
+"module": 3
+},
+{
+"id": "t27",
+"name": "level Morphology",
+"module": 3
+},
+{
+"id": "t28",
+"name": "Introduction to POS Tagging",
+"module": 4
+},
+{
+"id": "t29",
+"name": "Probabilistic Tagging",
+"module": 4
+},
+{
+"id": "t30",
+"name": "Markov Models",
+"module": 4
+},
+{
+"id": "t31",
+"name": "Hidden Markov Models (HMM) for POS Tagging",
+"module": 4
+},
+{
+"id": "t32",
+"name": "Conditional Random Fields (CRF)",
+"module": 4
+},
+{
+"id": "t33",
+"name": "Named Entities and Named Entity Tagging",
+"module": 4
+},
+{
+"id": "t34",
+"name": "Context-Free Grammars-Derivation",
+"module": 4
+},
+{
+"id": "t35",
+"name": "Words and Vectors",
+"module": 5
+},
+{
+"id": "t36",
+"name": "Term Frequency-Inverse Document Frequency (TFIDF)",
+"module": 5
+},
+{
+"id": "t37",
+"name": "Word2vec",
+"module": 5
+},
+{
+"id": "t38",
+"name": "Continuous Bag of Words",
+"module": 5
+},
+{
+"id": "t39",
+"name": "ELMO",
+"module": 5
+},
+{
+"id": "t40",
+"name": "GloVe Vector Visualizing Embedding's",
+"module": 5
+},
+{
+"id": "t41",
+"name": "Semantic properties of embedding's",
+"module": 5
+},
+{
+"id": "t42",
+"name": "Bias and Embedding's Evaluating Vector Models",
+"module": 5
+},
+{
+"id": "t43",
+"name": "Cosine for measuring similarity",
+"module": 5
+},
+{
+"id": "t44",
+"name": "Pointwise Mutual Information (PMI)",
+"module": 5
+},
+{
+"id": "t45",
+"name": "PPMI vector models",
+"module": 5
+},
+{
+"id": "t46",
+"name": "Word Senses -Relations Between Senses",
+"module": 5
+},
+{
+"id": "t47",
+"name": "WordNet",
+"module": 5
+},
+{
+"id": "t48",
+"name": "A Database of Lexical Relations",
+"module": 5
+},
+{
+"id": "t49",
+"name": "Word Sense Disambiguation Alternate WSD algorithms and Tasks",
+"module": 5
+},
+{
+"id": "t50",
+"name": "Constituency Parsing",
+"module": 5
+},
+{
+"id": "t51",
+"name": "Dependency Parsing",
+"module": 5
+},
+{
+"id": "t52",
+"name": "Discourse Coherence",
+"module": 5
+},
+{
+"id": "t53",
+"name": "Coherence Relation",
+"module": 5
+},
+{
+"id": "t54",
+"name": "Discourse Structure Parsing",
+"module": 5
+},
+{
+"id": "t55",
+"name": "Centering and Entity- Based Coherence",
+"module": 5
+},
+{
+"id": "t56",
+"name": "Global Coherence",
+"module": 5
+},
+{
+"id": "t57",
+"name": "Text classification definition and datasets",
+"module": 6
+},
+{
+"id": "t58",
+"name": "Generative text classifiers (Naïve Bayes) Discriminative text classifiers (Support Vector Machine)",
+"module": 6
+},
+{
+"id": "t59",
+"name": "Bag-of-words Generative Classifier",
+"module": 6
+},
+{
+"id": "t60",
+"name": "BOW Discriminative Model",
+"module": 6
+},
+{
+"id": "t61",
+"name": "Multi-class Classification",
+"module": 6
+},
+{
+"id": "t62",
+"name": "Softmax",
+"module": 6
+},
+{
+"id": "t63",
+"name": "Gradient Descent",
+"module": 6
+},
+{
+"id": "t64",
+"name": "Statistical significance testing",
+"module": 6
+},
+{
+"id": "t65",
+"name": "Dataset understanding and creation",
+"module": 6
+}
+]
+}

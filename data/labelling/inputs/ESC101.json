@@ -1,0 +1,272 @@
+{
+"course": "ESC101",
+"title": "Engineering Mechanics",
+"modules": [
+{
+"index": 1,
+"name": "System of Forces"
+},
+{
+"index": 2,
+"name": "Centroid"
+},
+{
+"index": 3,
+"name": "Equilibrium of Force system and Friction"
+},
+{
+"index": 4,
+"name": "Kinematics of particle and rigid bodies"
+},
+{
+"index": 5,
+"name": "Kinetics of particle"
+},
+{
+"index": 6,
+"name": "Introduction to Robot Kinematics"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Classification of force systems",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Principle of transmissibility",
+"module": 1
+},
+{
+"id": "t3",
+"name": "composition and resolution of forces",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Resultant of coplanar force system (Concurrent forces, parallel forces",
+"module": 1
+},
+{
+"id": "t5",
+"name": "general system of forces)",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Moment of force about a point",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Couples",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Varignon’s Theorem",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Resultant of Non-Coplanar (Space Force)",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Concurrent force system",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Centroids of plane laminas",
+"module": 2
+},
+{
+"id": "t12",
+"name": "Plane lamina consisting of primitive geometrical shapes",
+"module": 2
+},
+{
+"id": "t13",
+"name": "Equilibrium",
+"module": 3
+},
+{
+"id": "t14",
+"name": "Conditions of equilibrium for concurrent forces",
+"module": 3
+},
+{
+"id": "t15",
+"name": "parallel forces and general forces",
+"module": 3
+},
+{
+"id": "t16",
+"name": "Equilibrium of rigid bodies",
+"module": 3
+},
+{
+"id": "t17",
+"name": "free body diagrams",
+"module": 3
+},
+{
+"id": "t18",
+"name": "Equilibrium of Beams",
+"module": 3
+},
+{
+"id": "t19",
+"name": "Types of beams",
+"module": 3
+},
+{
+"id": "t20",
+"name": "simple and compound beams",
+"module": 3
+},
+{
+"id": "t21",
+"name": "type of supports and reaction",
+"module": 3
+},
+{
+"id": "t22",
+"name": "Determination of reactions at supports for various types of loads on beams",
+"module": 3
+},
+{
+"id": "t23",
+"name": "Friction",
+"module": 3
+},
+{
+"id": "t24",
+"name": "Laws of friction",
+"module": 3
+},
+{
+"id": "t25",
+"name": "Cone of friction. angle of repose",
+"module": 3
+},
+{
+"id": "t26",
+"name": "angle of friction",
+"module": 3
+},
+{
+"id": "t27",
+"name": "equilibrium of bodies on a horizontal and inclined plane",
+"module": 3
+},
+{
+"id": "t28",
+"name": "Motion of particle with variable acceleration",
+"module": 4
+},
+{
+"id": "t29",
+"name": "Motion along plane curved path. velocity",
+"module": 4
+},
+{
+"id": "t30",
+"name": "acceleration in terms of rectangular components",
+"module": 4
+},
+{
+"id": "t31",
+"name": "tangential and normal component of acceleration",
+"module": 4
+},
+{
+"id": "t32",
+"name": "Introduction to general plane motion",
+"module": 4
+},
+{
+"id": "t33",
+"name": "Force and Acceleration",
+"module": 5
+},
+{
+"id": "t34",
+"name": "Introduction to basic concepts",
+"module": 5
+},
+{
+"id": "t35",
+"name": "D’Alembert’s Principle",
+"module": 5
+},
+{
+"id": "t36",
+"name": "concept of Inertia force",
+"module": 5
+},
+{
+"id": "t37",
+"name": "Equations of dynamic equilibrium",
+"module": 5
+},
+{
+"id": "t38",
+"name": "Principle of linear impulse and momentum",
+"module": 5
+},
+{
+"id": "t39",
+"name": "Impact and collision",
+"module": 5
+},
+{
+"id": "t40",
+"name": "Law of conservation of momentum",
+"module": 5
+},
+{
+"id": "t41",
+"name": "Coefficient of Restitution",
+"module": 5
+},
+{
+"id": "t42",
+"name": "Direct Central Impact and Oblique Central Impact",
+"module": 5
+},
+{
+"id": "t43",
+"name": "Loss of Kinetic Energy in collision of inelastic bodies",
+"module": 5
+},
+{
+"id": "t44",
+"name": "Fundamental of Robot Mechanics",
+"module": 6
+},
+{
+"id": "t45",
+"name": "Degree of Freedom",
+"module": 6
+},
+{
+"id": "t46",
+"name": "D-H Parameters",
+"module": 6
+},
+{
+"id": "t47",
+"name": "robot kinematics (Forward)",
+"module": 6
+},
+{
+"id": "t48",
+"name": "Homogeneous transformation (limited to 2 DOF Serial robot)",
+"module": 6
+}
+]
+}

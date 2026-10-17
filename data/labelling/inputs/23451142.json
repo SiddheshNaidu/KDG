@@ -1,0 +1,512 @@
+{
+"course": "23451142",
+"title": "Advanced Database Technologies",
+"modules": [
+{
+"index": 1,
+"name": "Query Processing and Optimization"
+},
+{
+"index": 2,
+"name": "Advanced Database Systems"
+},
+{
+"index": 3,
+"name": "Distributed Databases"
+},
+{
+"index": 4,
+"name": "Data Warehousing, Dimensional Modelling and OLAP"
+},
+{
+"index": 5,
+"name": "ETL Process"
+},
+{
+"index": 6,
+"name": "NoSQL Databases"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Query processing in DBMS",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Steps of Query Processing",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Measures of Query Cost Selection Operation",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Sorting",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Join Operation",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Evaluation of Expressions",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Query Optimization Overview",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Goals of Query Optimization",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Approaches of Query Optimization",
+"module": 1
+},
+{
+"id": "t10",
+"name": "Transformations Approaches of Query Optimization",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Transformations of Relational Expression",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Estimating Statistics of Expression Results",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Choice of Evaluation Plans",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Object Oriented Databases",
+"module": 2
+},
+{
+"id": "t15",
+"name": "Need for Complex Data Types",
+"module": 2
+},
+{
+"id": "t16",
+"name": "Object-Oriented Data Model",
+"module": 2
+},
+{
+"id": "t17",
+"name": "Object-Oriented Languages",
+"module": 2
+},
+{
+"id": "t18",
+"name": "Spatial Databases",
+"module": 2
+},
+{
+"id": "t19",
+"name": "Spatial Data Types",
+"module": 2
+},
+{
+"id": "t20",
+"name": "Spatial Relationships",
+"module": 2
+},
+{
+"id": "t21",
+"name": "Spatial Data Structures",
+"module": 2
+},
+{
+"id": "t22",
+"name": "Temporal Databases",
+"module": 2
+},
+{
+"id": "t23",
+"name": "Active Databases",
+"module": 2
+},
+{
+"id": "t24",
+"name": "Deductive Databases",
+"module": 2
+},
+{
+"id": "t25",
+"name": "Mobile Databases",
+"module": 2
+},
+{
+"id": "t26",
+"name": "Location and Handoff Management",
+"module": 2
+},
+{
+"id": "t27",
+"name": "Mobile Transaction Models",
+"module": 2
+},
+{
+"id": "t28",
+"name": "Multimedia Databases",
+"module": 2
+},
+{
+"id": "t29",
+"name": "Distributed Data Processing",
+"module": 3
+},
+{
+"id": "t30",
+"name": "Distributed Database System",
+"module": 3
+},
+{
+"id": "t31",
+"name": "Architecture",
+"module": 3
+},
+{
+"id": "t32",
+"name": "Design Issues",
+"module": 3
+},
+{
+"id": "t33",
+"name": "Data Fragmentation",
+"module": 3
+},
+{
+"id": "t34",
+"name": "Allocation in distributed databases",
+"module": 3
+},
+{
+"id": "t35",
+"name": "Data Warehouse Defined",
+"module": 4
+},
+{
+"id": "t36",
+"name": "Features of a Data Warehouse",
+"module": 4
+},
+{
+"id": "t37",
+"name": "Data Warehouse Architecture- Enterprise or centralized",
+"module": 4
+},
+{
+"id": "t38",
+"name": "federated and multi tired architectures",
+"module": 4
+},
+{
+"id": "t39",
+"name": "Data Warehouse and Data Marts",
+"module": 4
+},
+{
+"id": "t40",
+"name": "Data Warehousing Design Strategies",
+"module": 4
+},
+{
+"id": "t41",
+"name": "Data Modeling",
+"module": 4
+},
+{
+"id": "t42",
+"name": "Dimensional Model",
+"module": 4
+},
+{
+"id": "t43",
+"name": "Star Schema",
+"module": 4
+},
+{
+"id": "t44",
+"name": "How Does a Query Execute? The Snowflake Schema",
+"module": 4
+},
+{
+"id": "t45",
+"name": "Fact Tables and Dimension Tables",
+"module": 4
+},
+{
+"id": "t46",
+"name": "Factless Fact Table",
+"module": 4
+},
+{
+"id": "t47",
+"name": "Updates To Dimension Tables",
+"module": 4
+},
+{
+"id": "t48",
+"name": "Primary Keys",
+"module": 4
+},
+{
+"id": "t49",
+"name": "Surrogate Keys & Foreign Keys",
+"module": 4
+},
+{
+"id": "t50",
+"name": "What is business intelligence",
+"module": 4
+},
+{
+"id": "t51",
+"name": "use of BI",
+"module": 4
+},
+{
+"id": "t52",
+"name": "Tools used in BI",
+"module": 4
+},
+{
+"id": "t53",
+"name": "Need for Online Analytical Processing",
+"module": 4
+},
+{
+"id": "t54",
+"name": "OLAP Operations in a cube",
+"module": 4
+},
+{
+"id": "t55",
+"name": "Roll-up",
+"module": 4
+},
+{
+"id": "t56",
+"name": "Drill-down",
+"module": 4
+},
+{
+"id": "t57",
+"name": "Slice",
+"module": 4
+},
+{
+"id": "t58",
+"name": "Dice",
+"module": 4
+},
+{
+"id": "t59",
+"name": "Pivot",
+"module": 4
+},
+{
+"id": "t60",
+"name": "OLAP Architectures",
+"module": 4
+},
+{
+"id": "t61",
+"name": "MOLAP",
+"module": 4
+},
+{
+"id": "t62",
+"name": "ROLAP",
+"module": 4
+},
+{
+"id": "t63",
+"name": "DOLAP and HOLAP",
+"module": 4
+},
+{
+"id": "t64",
+"name": "Challenges in ETL Functions",
+"module": 5
+},
+{
+"id": "t65",
+"name": "Data Extraction",
+"module": 5
+},
+{
+"id": "t66",
+"name": "Identification of Data Sources",
+"module": 5
+},
+{
+"id": "t67",
+"name": "Immediate Data Extraction",
+"module": 5
+},
+{
+"id": "t68",
+"name": "Deferred Data Extraction",
+"module": 5
+},
+{
+"id": "t69",
+"name": "Data Transformation",
+"module": 5
+},
+{
+"id": "t70",
+"name": "Tasks Involved in Data Transformation",
+"module": 5
+},
+{
+"id": "t71",
+"name": "Techniques of Data Loading",
+"module": 5
+},
+{
+"id": "t72",
+"name": "NoSQL",
+"module": 6
+},
+{
+"id": "t73",
+"name": "CAP theorem",
+"module": 6
+},
+{
+"id": "t74",
+"name": "BASE property",
+"module": 6
+},
+{
+"id": "t75",
+"name": "NoSQL data architecture patterns",
+"module": 6
+},
+{
+"id": "t76",
+"name": "Key-value stores",
+"module": 6
+},
+{
+"id": "t77",
+"name": "Graph stores",
+"module": 6
+},
+{
+"id": "t78",
+"name": "Column family stores",
+"module": 6
+},
+{
+"id": "t79",
+"name": "Document stores",
+"module": 6
+},
+{
+"id": "t80",
+"name": "MongoDB Operation",
+"module": 6
+},
+{
+"id": "t81",
+"name": "Insert",
+"module": 6
+},
+{
+"id": "t82",
+"name": "Update",
+"module": 6
+},
+{
+"id": "t83",
+"name": "Delete",
+"module": 6
+},
+{
+"id": "t84",
+"name": "Query",
+"module": 6
+},
+{
+"id": "t85",
+"name": "Indexing",
+"module": 6
+},
+{
+"id": "t86",
+"name": "Replication",
+"module": 6
+},
+{
+"id": "t87",
+"name": "Sharding",
+"module": 6
+},
+{
+"id": "t88",
+"name": "Deployment",
+"module": 6
+},
+{
+"id": "t89",
+"name": "Using MongoDB with PHP / JAVA",
+"module": 6
+},
+{
+"id": "t90",
+"name": "Advanced MongoDB Features",
+"module": 6
+},
+{
+"id": "t91",
+"name": "Cassandra",
+"module": 6
+},
+{
+"id": "t92",
+"name": "Data Model",
+"module": 6
+},
+{
+"id": "t93",
+"name": "Key Space",
+"module": 6
+},
+{
+"id": "t94",
+"name": "Table Operations",
+"module": 6
+},
+{
+"id": "t95",
+"name": "CRUD Operations",
+"module": 6
+},
+{
+"id": "t96",
+"name": "CQL",
+"module": 6
+}
+]
+}

@@ -1,0 +1,377 @@
+{
+"course": "BSC2031",
+"title": "Engineering Materials",
+"modules": [
+{
+"index": 1,
+"name": "Alloys"
+},
+{
+"index": 2,
+"name": "Ceramics"
+},
+{
+"index": 3,
+"name": "Composites"
+},
+{
+"index": 4,
+"name": "Plastics and Elastomers"
+},
+{
+"index": 5,
+"name": "Advanced Polymers"
+},
+{
+"index": 6,
+"name": "Nano materials"
+}
+],
+"topics": [
+{
+"id": "t1",
+"name": "Ferrous alloys",
+"module": 1
+},
+{
+"id": "t2",
+"name": "Plain-carbon steels",
+"module": 1
+},
+{
+"id": "t3",
+"name": "Heat and Shock resisting steels",
+"module": 1
+},
+{
+"id": "t4",
+"name": "Stainless steels",
+"module": 1
+},
+{
+"id": "t5",
+"name": "Effect of the alloying element- Ni",
+"module": 1
+},
+{
+"id": "t6",
+"name": "Cr",
+"module": 1
+},
+{
+"id": "t7",
+"name": "Co",
+"module": 1
+},
+{
+"id": "t8",
+"name": "Mn",
+"module": 1
+},
+{
+"id": "t9",
+"name": "Mo",
+"module": 1
+},
+{
+"id": "t10",
+"name": "W and V",
+"module": 1
+},
+{
+"id": "t11",
+"name": "Aluminium alloys",
+"module": 1
+},
+{
+"id": "t12",
+"name": "Composition",
+"module": 1
+},
+{
+"id": "t13",
+"name": "Duralumin",
+"module": 1
+},
+{
+"id": "t14",
+"name": "Magnalium",
+"module": 1
+},
+{
+"id": "t15",
+"name": "Copper alloys",
+"module": 1
+},
+{
+"id": "t16",
+"name": "Brass",
+"module": 1
+},
+{
+"id": "t17",
+"name": "Bronze",
+"module": 1
+},
+{
+"id": "t18",
+"name": "Gun metal and Nickel bronze",
+"module": 1
+},
+{
+"id": "t19",
+"name": "Alloys of Pb",
+"module": 1
+},
+{
+"id": "t20",
+"name": "Wood’s metal",
+"module": 1
+},
+{
+"id": "t21",
+"name": "Tinman’s solder",
+"module": 1
+},
+{
+"id": "t22",
+"name": "Numerical based on Composition",
+"module": 1
+},
+{
+"id": "t23",
+"name": "density and weight of an alloy",
+"module": 1
+},
+{
+"id": "t24",
+"name": "Introduction of Ceramics",
+"module": 2
+},
+{
+"id": "t25",
+"name": "properties and uses",
+"module": 2
+},
+{
+"id": "t26",
+"name": "Glass",
+"module": 2
+},
+{
+"id": "t27",
+"name": "Types with uses",
+"module": 2
+},
+{
+"id": "t28",
+"name": "Abrasives",
+"module": 2
+},
+{
+"id": "t29",
+"name": "Natural and Artificial Abrasives",
+"module": 2
+},
+{
+"id": "t30",
+"name": "Optical fibres",
+"module": 2
+},
+{
+"id": "t31",
+"name": "Components of optical transmission system",
+"module": 2
+},
+{
+"id": "t32",
+"name": "Advantages of optical fibre communication",
+"module": 2
+},
+{
+"id": "t33",
+"name": "Applications of glass-based fibre",
+"module": 2
+},
+{
+"id": "t34",
+"name": "Types of Composites",
+"module": 3
+},
+{
+"id": "t35",
+"name": "sub-types and Applications:",
+"module": 3
+},
+{
+"id": "t36",
+"name": "Fibre- reinforced composites",
+"module": 3
+},
+{
+"id": "t37",
+"name": "Layered-composites (Laminates)",
+"module": 3
+},
+{
+"id": "t38",
+"name": "Particulate- composites",
+"module": 3
+},
+{
+"id": "t39",
+"name": "Bio-composites",
+"module": 3
+},
+{
+"id": "t40",
+"name": "Classification and Applications",
+"module": 3
+},
+{
+"id": "t41",
+"name": "Introduction to Plastics",
+"module": 4
+},
+{
+"id": "t42",
+"name": "Thermoplastic and Thermosetting plastics",
+"module": 4
+},
+{
+"id": "t43",
+"name": "compounding of plastics",
+"module": 4
+},
+{
+"id": "t44",
+"name": "Application of Plastics",
+"module": 4
+},
+{
+"id": "t45",
+"name": "Numerical based on Degree of polymerisation",
+"module": 4
+},
+{
+"id": "t46",
+"name": "Density and mass",
+"module": 4
+},
+{
+"id": "t47",
+"name": "tensile strength of polymer",
+"module": 4
+},
+{
+"id": "t48",
+"name": "Introduction to elastomers",
+"module": 4
+},
+{
+"id": "t49",
+"name": "structural requirement of elastomer",
+"module": 4
+},
+{
+"id": "t50",
+"name": "natural rubber",
+"module": 4
+},
+{
+"id": "t51",
+"name": "processing of natural rubber",
+"module": 4
+},
+{
+"id": "t52",
+"name": "drawbacks",
+"module": 4
+},
+{
+"id": "t53",
+"name": "compounding of rubber",
+"module": 4
+},
+{
+"id": "t54",
+"name": "Synthesis of commercial polymers",
+"module": 4
+},
+{
+"id": "t55",
+"name": "Plastics",
+"module": 4
+},
+{
+"id": "t56",
+"name": "Preparation",
+"module": 4
+},
+{
+"id": "t57",
+"name": "properties and uses of Polymethyl Methacrylate (PMMA)",
+"module": 4
+},
+{
+"id": "t58",
+"name": "polytetrafluoroethylene (PTFE)",
+"module": 4
+},
+{
+"id": "t59",
+"name": "Elastomers",
+"module": 4
+},
+{
+"id": "t60",
+"name": "properties and uses of Polyurethane Rubber",
+"module": 4
+},
+{
+"id": "t61",
+"name": "Silicone rubber",
+"module": 4
+},
+{
+"id": "t62",
+"name": "Conducting polymers",
+"module": 5
+},
+{
+"id": "t63",
+"name": "Bio- polymers",
+"module": 5
+},
+{
+"id": "t64",
+"name": "Liquid crystal polymers",
+"module": 5
+},
+{
+"id": "t65",
+"name": "Intelligent (smart) polymers",
+"module": 5
+},
+{
+"id": "t66",
+"name": "Types of Nanostructured materials",
+"module": 6
+},
+{
+"id": "t67",
+"name": "Applications of Nanomaterials",
+"module": 6
+},
+{
+"id": "t68",
+"name": "Graphene",
+"module": 6
+},
+{
+"id": "t69",
+"name": "Types of Carbon Nanotubes (SWCNTs and MWCNTs)",
+"module": 6
+}
+]
+}

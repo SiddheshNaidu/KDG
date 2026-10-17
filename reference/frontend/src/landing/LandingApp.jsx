@@ -3,7 +3,7 @@ import { SampleRail, StepFan } from "./ScrollSections.jsx";
 import Results from "./Results.jsx";
 
 // The backend endpoint that reads a syllabus PDF and returns the map, order and missing prerequisites.
-const API_URL = import.meta.env.VITE_API_URL || import.meta.env.VITE_GEMINI_API_URL || "http://127.0.0.1:8000/api/v1/pipeline/analyze";
+const API_URL = import.meta.env.VITE_GEMINI_API_URL || "http://127.0.0.1:8000/api/v1/gemini/analyze";
 
 async function analyze(file, subject) {
   const form = new FormData();

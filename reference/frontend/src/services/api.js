@@ -157,19 +157,3 @@ export async function buildAndInfer(documentId, courseCode) {
   }
   return data;
 }
-
-export async function analyzeSyllabus(file, subject = null) {
-  const form = new FormData();
-  form.append("file", file);
-  if (subject) form.append("subject", subject);
-  const response = await fetch(`${API_BASE_URL}/pipeline/analyze`, {
-    method: "POST",
-    body: form,
-  });
-  const data = await response.json().catch(() => ({}));
-  if (!response.ok) {
-    throw new Error(data.detail || "Failed to analyze syllabus.");
-  }
-  return data;
-}
-

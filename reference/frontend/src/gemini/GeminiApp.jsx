@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import FlowGraph from "./FlowGraph.jsx";
 
-const API_URL = import.meta.env.VITE_API_URL || import.meta.env.VITE_GEMINI_API_URL || "http://127.0.0.1:8000/api/v1/pipeline/analyze";
+const API_URL = import.meta.env.VITE_GEMINI_API_URL || "http://127.0.0.1:8000/api/v1/gemini/analyze";
 
 async function analyze(file, subject) {
   const form = new FormData();

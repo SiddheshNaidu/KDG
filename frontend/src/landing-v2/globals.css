@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
+}
+
+/* Kitaabi theme: same palette as the landing page, usable as bg-brand-*, text-brand-*, etc. */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --font-sans: var(--font-rq-body), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-rq-display), ui-sans-serif, system-ui, sans-serif;
+  --font-hand: var(--font-rq-hand), cursive;
+
+  --color-brand-violet: #3b308f;
+  --color-brand-yellow: #ffd24a;
+  --color-brand-pale-yellow: #faed8f;
+  --color-brand-paper: #fffbe6;
+  --color-brand-magenta: #ff008c;
+  --color-brand-pink: #fd48f2;
+  --color-brand-pale-pink: #feb6fa;
+  --color-brand-soft-pink: #ffdbfd;
+  --color-brand-cyan: #1ce8ed;
+  --color-brand-pale-blue: #a4f6f8;
+  --color-brand-soft-blue: #ddfcfc;
+  --color-brand-orange: #f9a220;
+  --color-brand-pale-orange: #fbbe63;
+  --color-brand-green: #2de124;
+  --color-brand-pale-green: #69fe6f;
+  --color-brand-periwinkle: #9982de;
+  --color-brand-pale-periwinkle: #c2b4eb;
+  --color-brand-lilac: #ebe7f8;
+  --color-brand-wine: #670a2e;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* Offset "sticker" shadow used on cards and dialogs */
+.shadow-pop { box-shadow: 4px 6px 0 var(--color-brand-violet); }
+.shadow-pop-black { box-shadow: 3px 4px 0 #000; }
+
+/* AI answers and extracted text */
+.markdown { line-height: 1.55; overflow-wrap: anywhere; }
+.markdown > * + * { margin-top: 0.6em; }
+.markdown h1, .markdown h2, .markdown h3 { font-weight: 600; margin-top: 0.9em; }
+.markdown h1 { font-size: 1.15em; }
+.markdown h2 { font-size: 1.08em; }
+.markdown h3 { font-size: 1em; }
+.markdown ul { list-style: disc; padding-left: 1.25em; }
+.markdown ol { list-style: decimal; padding-left: 1.25em; }
+.markdown li + li { margin-top: 0.2em; }
+.markdown code { background: rgb(0 0 0 / 0.06); border-radius: 4px; padding: 0 4px; font-size: 0.9em; }
+.markdown pre { background: rgb(0 0 0 / 0.05); border-radius: 6px; padding: 8px; overflow-x: auto; }
+.markdown table { border-collapse: collapse; font-size: 0.92em; }
+.markdown th, .markdown td { border: 1px solid rgb(0 0 0 / 0.15); padding: 4px 8px; }
+.markdown strong { font-weight: 600; }
+.markdown .katex-display { overflow-x: auto; overflow-y: hidden; }

@@ -66,45 +66,42 @@ Traditional academic university syllabi—such as the **Mumbai University Nation
 
 ## 🏗️ How It Works: System Architecture
 
-The following diagram illustrates the complete end-to-end execution lifecycle of a syllabus analysis, designed to render clearly across desktop monitors and mobile devices.
+The following diagram illustrates the complete end-to-end execution lifecycle of a syllabus analysis, designed to render cleanly across desktop monitors and mobile devices on GitHub.
 
 ```mermaid
 flowchart TD
-    classDef io fill:#E8F0FE,stroke:#4285F4,stroke-width:2px,color:#174EA6;
-    classDef process fill:#F8F9FA,stroke:#5F6368,stroke-width:2px,color:#202124;
-    classDef gate fill:#FEF7E0,stroke:#F9AB00,stroke-width:2px,color:#B06000;
-    classDef engine fill:#E6F4EA,stroke:#34A853,stroke-width:2px,color:#137333;
-    classDef store fill:#F3E8FD,stroke:#A142F4,stroke-width:2px,color:#8430CE;
+    PDF[User Uploads Syllabus PDF] --> Hash[Compute SHA-256 Digest]
+    Hash --> Tables
 
-    PDF["📄 User Uploads Syllabus PDF"]:::io --> Hash["Compute SHA-256 Digest & Cache Check"]:::process
-    
-    subgraph S1["1. Deterministic Layout Parsing"]
-        Hash --> Tables["Extract Module Tables & Boundaries<br/>(PyMuPDF find_tables)"]:::process
-        Tables --> Normalize["Clean & Split Topic Strings<br/>(Remove COs, Hours & Markers)"]:::process
-        Normalize --> Tier["3-Tier Quality Gate<br/>(Traceability & Completeness Check)"]:::gate
+    subgraph S1 [1. Deterministic Layout Parsing]
+        Tables[Extract Module Tables<br/>PyMuPDF find_tables] --> Normalize[Clean and Split Topic Strings]
+        Normalize --> Tier[3-Tier Quality Gate<br/>Accepted / Review / Rejected]
     end
 
-    Tier -->|"Tier: Accepted / Review"| ExtractDone["Extracted Valid Topics & Metadata"]:::process
-    Tier -->|"Tier: Rejected / Malformed"| Fallback["Resilient Fallback Service<br/>(Schema-Constrained Normalization)"]:::process
+    Tier -->|Accepted or Review| ExtractDone[Extracted Topics and Metadata]
+    Tier -->|Rejected or Malformed| Fallback[Resilient Fallback Service]
     Fallback --> ExtractDone
 
-    subgraph S2["2. Calibrated Prerequisite Prediction"]
-        ExtractDone --> Embed["Semantic Dense Embeddings<br/>(all-MiniLM-L6-v2)"]:::process
-        Embed --> FeatureMatrix["Pairwise Feature Synthesis<br/>(Positions, Cosine Sim, Cross-Module)"]:::process
-        FeatureMatrix --> XGB["XGBoost Classification & Isotonic Calibration"]:::engine
-        XGB --> Bands["Confidence Categorization<br/>• Accepted: ≥ 0.20 (Blocks)<br/>• Uncertain: 0.10–0.20 (Dashed)"]:::gate
+    subgraph S2 [2. Calibrated Prerequisite Prediction]
+        Embed[Dense Semantic Embeddings<br/>all-MiniLM-L6-v2] --> Features[Pairwise Feature Synthesis]
+        Features --> XGB[XGBoost Classifier]
+        XGB --> Calib[Isotonic Probability Calibration]
+        Calib --> Bands[Confidence Banding<br/>Accepted: p >= 0.20<br/>Uncertain: 0.10 to 0.20]
     end
 
-    subgraph S3["3. Topological Graph Operations"]
-        Bands --> DAG["Cycle Elimination & Degree Filter<br/>(In-Degree ≤ 3, Out-Degree ≤ 6)"]:::engine
-        DAG --> Transitive["Transitive Reduction<br/>(Tag Redundant Shortcuts)"]:::engine
-        Transitive --> Kahn["Kahn's Topological Sort<br/>(Syllabus-Preserving Tie Breaking)"]:::engine
-        Kahn --> Analytics["Compute Bottlenecks & Assumed Background"]:::engine
+    ExtractDone --> Embed
+
+    subgraph S3 [3. Topological Graph Operations]
+        DAG[Cycle Elimination and Degree Caps<br/>In-Degree max 3, Out-Degree max 6] --> Transitive[Transitive Reduction]
+        Transitive --> Kahn[Kahns Topological Sort]
+        Kahn --> Analytics[Compute Bottlenecks and Background]
     end
 
-    Analytics --> Payload["Assemble Unified Analysis Payload"]:::io
-    Payload --> DiskStore[("Runtime Storage<br/>data/runtime/analyses/")]:::store
-    Payload --> Response["Interactive Graph UI & Mobile Client"]:::io
+    Bands --> DAG
+
+    Analytics --> Payload[Assemble Unified Analysis Payload]
+    Payload --> DiskStore[(Runtime Storage<br/>data/runtime/analyses)]
+    Payload --> Response[Interactive Graph UI and API Client]
 ```
 
 ---
@@ -131,29 +128,34 @@ Prerequisite classification solves the directed pair problem: *does understandin
 
 ```mermaid
 flowchart TD
-    classDef block fill:#F8F9FA,stroke:#5F6368,stroke-width:2px,color:#202124;
-    classDef accent fill:#E8F0FE,stroke:#4285F4,stroke-width:2px,color:#174EA6;
-    classDef score fill:#E6F4EA,stroke:#34A853,stroke-width:2px,color:#137333;
+    T1[Topic A: Bernoulli Equation] --> Pair[Directed Pair A, B]
+    T2[Topic B: Venturi Meter] --> Pair
 
-    T1["Topic A: 'Bernoulli Equation'"]:::block --> Pair["Directed Pair (A, B)"]:::accent
-    T2["Topic B: 'Venturi Meter'"]:::block --> Pair
+    Pair --> F1
+    Pair --> F2
+    Pair --> F3
+    Pair --> F4
 
-    subgraph Feat["Pairwise Feature Engineering (features_batch.py)"]
-        Pair --> F1["Semantic Cosine Similarity<br/>(384-dim all-MiniLM embeddings)"]:::block
-        Pair --> F2["Relative Positional Distance<br/>(Module Δ, Global Syllabus Offset)"]:::block
-        Pair --> F3["Module Header Contextual Similarity<br/>(Unit Title Embeddings)"]:::block
-        Pair --> F4["Lexical & Token Overlap Ratios"]:::block
+    subgraph Feat [Pairwise Feature Engineering]
+        F1[Semantic Cosine Similarity<br/>384-dim all-MiniLM embeddings]
+        F2[Relative Positional Distance<br/>Module Delta, Syllabus Offset]
+        F3[Module Header Contextual Similarity<br/>Unit Title Embeddings]
+        F4[Lexical and Token Overlap Ratios]
     end
 
-    Feat --> XGB["XGBoost Classifier<br/>(Trees, Max Depth = 4)"]:::score
-    XGB --> Raw["Raw Likelihood Score"]:::block
-    Raw --> Calib["Isotonic Calibrator<br/>(Empirical Probability Mapping)"]:::score
-    Calib --> Prob["Calibrated Confidence P(A → B)"]:::accent
+    F1 --> XGB[XGBoost Classifier<br/>Max Depth = 4]
+    F2 --> XGB
+    F3 --> XGB
+    F4 --> XGB
 
-    Prob --> Decision{"Thresholding"}:::block
-    Decision -->|"P ≥ 0.20"| Accepted["Accepted Edge<br/>(Enforces Prerequisite Gating)"]:::score
-    Decision -->|"0.10 ≤ P < 0.20"| Uncertain["Uncertain Edge<br/>(Rendered Dashed, Non-blocking)"]:::block
-    Decision -->|"P < 0.10"| Pruned["Discarded (No Edge)"]:::block
+    XGB --> Raw[Raw Likelihood Score]
+    Raw --> Calib[Isotonic Calibrator<br/>Monotonic Probability Mapping]
+    Calib --> Prob[Calibrated Confidence P]
+
+    Prob --> Decision{Thresholding}
+    Decision -->|P >= 0.20| Accepted[Accepted Edge<br/>Enforces Prerequisite Gating]
+    Decision -->|0.10 to 0.20| Uncertain[Uncertain Edge<br/>Rendered Dashed, Non-blocking]
+    Decision -->|Under 0.10| Pruned[Discarded No Edge]
 ```
 
 #### Prerequisite Pair Feature Vector
@@ -176,22 +178,18 @@ Raw tree ensemble outputs often suffer from uncalibrated distortion. An **Isoton
 
 ```mermaid
 flowchart TD
-    classDef startNode fill:#E8F0FE,stroke:#4285F4,stroke-width:2px,color:#174EA6;
-    classDef intermediate fill:#FFF2DF,stroke:#F2994A,stroke-width:2px,color:#9C4B00;
-    classDef locked fill:#F1F3F4,stroke:#9AA0A6,stroke-width:2px,color:#5F6368;
-
-    subgraph Level0["Level 0 (Start Nodes)"]
-        N1["Vector Algebra<br/>(In-Degree: 0)"]:::startNode
-        N2["Newton's Laws<br/>(In-Degree: 0)"]:::startNode
+    subgraph Level0 [Level 0: Start Nodes]
+        N1[Vector Algebra<br/>In-Degree: 0]
+        N2[Newtons Laws<br/>In-Degree: 0]
     end
 
-    subgraph Level1["Level 1 (Direct Dependents)"]
-        N3["Momentum Conservation<br/>(Level: 1)"]:::intermediate
-        N4["Kinematics in 2D<br/>(Level: 1)"]:::intermediate
+    subgraph Level1 [Level 1: Direct Dependents]
+        N3[Momentum Conservation<br/>Level: 1]
+        N4[Kinematics in 2D<br/>Level: 1]
     end
 
-    subgraph Level2["Level 2 (Advanced Topics)"]
-        N5["Rotational Dynamics<br/>(Level: 2)"]:::locked
+    subgraph Level2 [Level 2: Advanced Topics]
+        N5[Rotational Dynamics<br/>Level: 2]
     end
 
     N1 --> N4
@@ -227,16 +225,16 @@ The mastery engine maintains a clean, deterministic state machine per student an
 
 ```mermaid
 stateDiagram-v2
-    [*] --> Blocked: Initial State (Has Unmet Prerequisites)
-    [*] --> Ready: Initial State (In-Degree = 0 / Start Node)
+    [*] --> Blocked: Initial State (Has Prerequisites)
+    [*] --> Ready: Initial State (Start Node)
     
-    Blocked --> Ready: All Ancestor Prerequisites Mastered
-    Ready --> Mastered: Student Marks Concept as Mastered
+    Blocked --> Ready: Prerequisites Mastered
+    Ready --> Mastered: Mark Mastered
     
-    Ready --> Blocked: An Ancestor is Un-Mastered
-    Mastered --> Ready: Student Clears Mastery (Cascades Downstream)
+    Ready --> Blocked: Ancestor Un-Mastered
+    Mastered --> Ready: Un-Master (Cascades)
     
-    Blocked --> Mastered: Force Master ("I Already Know This & Ancestors")
+    Blocked --> Mastered: Force Master (Includes Ancestors)
 ```
 
 #### State Definitions

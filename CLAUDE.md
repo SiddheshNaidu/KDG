@@ -1,6 +1,6 @@
 # CLAUDE.md - rules for every AI session on KDG v2
 
-Project: upload an NEP-scheme Mumbai University syllabus PDF, extract Topics, predict prerequisite Edges with Confidence, show graph, plan, bottlenecks. Read `docs/PRD.md` first, `docs/glossary.md` for exact terms.
+Start with `PROJECT_STATUS.md` (file map, API wiring, model status). Project: upload an NEP-scheme Mumbai University syllabus PDF, extract Topics, predict prerequisite Edges with Confidence, show graph, plan, bottlenecks. Read `docs/PRD.md` first, `docs/glossary.md` for exact terms.
 
 ## Frozen paths (never edit)
 - `reference/` (copied old code; copy out of it, do not change it)
@@ -14,8 +14,8 @@ Before writing or changing any parser or regex: dump at most 60 raw PyMuPDF line
 Every factual claim cites a file path plus command output under `docs/evidence/`. Not observed means write UNKNOWN and add it to `docs/open_questions.md`. Do not rename glossary terms.
 
 ## Hard prohibitions
-- No git push, no force operations, no commits to `main`. Work on feature branches; the owner pushes or approves pushing.
-- No LLM or network calls during parsing or inference. LLM use is allowed only in the offline labelling task T021, with keys from environment variables, and only after the owner approves the run.
+- No force operations, no commits to `main`. Work on feature branches; push only when the owner asks.
+- No LLM or network calls in the parser or the edge model. Owner decision (2026-10-18): `app/services/fallback.py` (Gemini, key from env only) may be called by `app/services/pipeline.py` only where the parser or model fails, and API responses / UI text must never say which component produced a result.
 - No secrets in code, docs, or logs. A hardcoded Supabase service-role key was found in the old repo and redacted here; never reintroduce one. Run `python scripts/scan_secrets.py .` before committing once it exists.
 - Golden files stay `status: DRAFT - needs human sign-off` until a human changes it.
 

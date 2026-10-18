@@ -1,0 +1,30 @@
+training departments: {'Computer Sem 3/4': 5, 'Mechanical Sem 1/2': 1, 'E&TC Sem 1/2': 1, 'CSE (AI&ML) Sem 5/6': 3, 'Computer Sem 5/6': 6, 'Electrical Sem 3/4': 1, 'IT Sem 3/4': 3, 'IT Sem 5/6': 9}
+validation departments: {'Computer Sem 3/4': 1, 'E&TC Sem 1/2': 1, 'CSE (AI&ML) Sem 5/6': 1, 'Computer Sem 5/6': 2, 'IT Sem 3/4': 1, 'IT Sem 5/6': 2}
+
+model nep6 (threshold 0.2)
+department | courses | gold edges | P | R | F1 | baseline F1 | model - baseline
+Chemical Sem 3/4 | 6 | 201 | 0.396 | 0.527 | 0.452 | 0.429 | +0.023
+E&TC Sem 5/6 | 3 | 91 | 0.325 | 0.604 | 0.423 | 0.377 | +0.046
+Mechanical Sem 3/4 | 4 | 209 | 0.323 | 0.411 | 0.362 | 0.362 | -0.000
+Mechanical Sem 5/6 | 5 | 259 | 0.311 | 0.498 | 0.383 | 0.326 | +0.057
+ALL | 18 | 760 | 0.336 | 0.495 | 0.400 | 0.368 | +0.033
+
+per course: department | code | title | topics | gold | F1 | baseline F1
+Chemical Sem 3/4 | 2073112 | Fluid Flow Operations | 88 | 67 | 0.365 | 0.376
+Chemical Sem 3/4 | 2073113 | Process Calculation | 22 | 19 | 0.585 | 0.629
+Chemical Sem 3/4 | 2073114 | Chemical Engineering Thermodynamics- I | 24 | 22 | 0.6 | 0.45
+Chemical Sem 3/4 | 2074111 | Chemical Engineering Thermodynamics- I | 27 | 26 | 0.37 | 0.298
+Chemical Sem 3/4 | 2074112 | Solid Fluid Mechanical Operations | 51 | 27 | 0.474 | 0.444
+Chemical Sem 3/4 | 2074113 | Heat Transfer Operations | 66 | 40 | 0.467 | 0.48
+E&TC Sem 5/6 | PEC5012 | Data Structure & Algorithms | 53 | 42 | 0.517 | 0.449
+E&TC Sem 5/6 | PEC6012 | Analysis of Algorithm | 35 | 20 | 0.36 | 0.367
+E&TC Sem 5/6 | PEC6022 | Robotics | 67 | 29 | 0.333 | 0.311
+Mechanical Sem 3/4 | 2403113 | Thermodynamics | 106 | 89 | 0.301 | 0.328
+Mechanical Sem 3/4 | 2403114 | Material Science | 61 | 42 | 0.365 | 0.33
+Mechanical Sem 3/4 | 2404111 | Finite Element Analysis | 55 | 41 | 0.326 | 0.356
+Mechanical Sem 3/4 | 2404113 | Theory of Machines | 51 | 37 | 0.505 | 0.488
+Mechanical Sem 5/6 | 2405112 | Measurements and Control | 98 | 58 | 0.439 | 0.333
+Mechanical Sem 5/6 | 24051143 | PEC-1 - Machinery Diagnostics | 100 | 54 | 0.194 | 0.149
+Mechanical Sem 5/6 | 2406112 | Thermal Engineering | 66 | 53 | 0.564 | 0.531
+Mechanical Sem 5/6 | 24061131 | PEC-2 - Refrigeration & Air- Condition | 61 | 37 | 0.404 | 0.435
+Mechanical Sem 5/6 | 24061142 | PEC-3 - Internet of Things (IoT) | 85 | 57 | 0.364 | 0.265

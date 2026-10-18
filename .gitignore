@@ -8,3 +8,4 @@ dist/
 /docs/
 /data/runtime/
 .venv/
+/CLAUDE.md

@@ -129,12 +129,18 @@
 .rq .h-xs {
   font-family: var(--font-rq-display), Arial, sans-serif;
   font-weight: 800;
+  text-wrap: balance;
 }
 .rq .h-xxl { font-size: var(--fs-xxl); letter-spacing: -0.035em; line-height: 0.84; }
 .rq .h-l { font-size: var(--fs-l); letter-spacing: -0.03em; line-height: 0.86; }
 .rq .h-m { font-size: var(--fs-m); letter-spacing: -0.03em; line-height: 0.86; }
 .rq .h-s { font-size: var(--fs-s); letter-spacing: -0.02em; line-height: 0.92; }
 .rq .h-xs { font-size: var(--fs-xs); letter-spacing: -0.02em; line-height: 0.92; }
+.rq .p-large,
+.rq .p-regular,
+.rq .p-small {
+  text-wrap: pretty;
+}
 .rq .p-large { font-size: 2em; letter-spacing: -0.02em; line-height: 1.2; }
 .rq .p-regular { font-size: 1.5em; letter-spacing: -0.02em; line-height: 1.2; }
 .rq .p-small { font-size: 1.25em; letter-spacing: -0.02em; line-height: 1.2; }
@@ -560,31 +566,35 @@ html.rq-menu-open { overflow: hidden; }
   scale: 1.1;
 }
 .rq .hero__book { position: absolute; }
-.rq .hero__book--teal { left: 4.5em; top: -12em; }
-.rq .hero__book--blue { left: 77em; top: 21em; }
-.rq .hero__book--red { left: 21em; top: 58em; }
+/* Blue book: flagship hero centerpiece, fills the central right-hand area */
+.rq .hero__book--blue { left: 62em; top: 14em; z-index: 2; }
+/* Teal book: floating high in upper right, completely separated from text */
+.rq .hero__book--teal { left: 88em; top: 4em; z-index: 1; }
+/* Red book: floating in lower right, anchoring the trio */
+.rq .hero__book--red { left: 86em; top: 38em; z-index: 3; }
 .rq .hero__container { position: relative; z-index: 2; overflow: hidden; }
 .rq .hero__content {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 1em;
-  margin-left: -0.25em;
-  padding-top: 15em;
+  gap: 1.25em;
+  margin-left: 0;
+  padding-top: 14em;
 }
-.rq .hero__header { display: flex; flex-direction: column; gap: 2em; }
-.rq .hero__title { max-width: 6em; }
-.rq .hero__paragraph { max-width: 30.25ch; }
+.rq .hero__header { display: flex; flex-direction: column; gap: 1.5em; }
+.rq .hero__title { max-width: 8em; text-wrap: balance; }
+.rq .hero__paragraph { max-width: 34ch; text-wrap: pretty; }
+/* Handwritten sticker note: floats in the transition pocket between CTA and books */
 .rq .hero__text-outer {
   position: absolute;
-  right: 3.25em;
-  bottom: 15em;
-  z-index: 2;
-  transform: rotate(4deg);
+  left: 51em;
+  top: 42em;
+  z-index: 4;
+  transform: rotate(-3deg);
 }
-.rq .hero__text-wrap { opacity: 0.75; }
-.rq .hero__text { max-width: 9ch; text-align: center; }
+.rq .hero__text-wrap { opacity: 0.85; }
+.rq .hero__text { max-width: 22ch; text-align: center; }
 .rq .hero__logo-easter-egg {
   position: absolute;
   top: 0;
@@ -697,11 +707,11 @@ html.rq-menu-open { overflow: hidden; }
    Projects (book slider)
    ========================================================================== */
 .rq .books { position: relative; overflow: clip; }
-.rq .books__inner { padding-bottom: 7.8125em; }
+.rq .books__inner { padding-bottom: 4.5em; }
 .rq .books__header {
   position: relative;
-  padding-top: 13.75em;
-  padding-bottom: 7.5em;
+  padding-top: 8.5em;
+  padding-bottom: 3.5em;
   text-align: center;
 }
 .rq .books__header-content {
@@ -710,16 +720,16 @@ html.rq-menu-open { overflow: hidden; }
   align-items: center;
   gap: 2em;
 }
-.rq .books__title { max-width: 18ch; }
-.rq .books__paragraph { max-width: 34ch; }
+.rq .books__title { max-width: 22ch; text-wrap: balance; }
+.rq .books__paragraph { max-width: 44ch; text-wrap: pretty; }
 .rq .books__text-outer {
   position: absolute;
   top: 9.375em;
   left: 7.25em;
   transform: rotate(-10deg);
 }
-.rq .books__text-wrap { opacity: 0.75; }
-.rq .books__text { max-width: 12ch; text-align: center; }
+.rq .books__text-wrap { opacity: 0.85; }
+.rq .books__text { max-width: 24ch; text-align: center; }
 
 .rq .books-slider {
   position: relative;
@@ -732,7 +742,7 @@ html.rq-menu-open { overflow: hidden; }
 .rq .books-slider__list {
   display: flex;
   align-items: center;
-  padding: 6em 1em 5em;
+  padding: 3.5em 1em 2.5em;
   will-change: transform;
 }
 .rq .books-slider__list-item { flex: none; width: 26em; }
@@ -919,7 +929,7 @@ html.rq-menu-open { overflow: hidden; }
   padding-right: 2.5em;
   pointer-events: none;
 }
-.rq .books-slider__controls.home { padding-bottom: 5em; margin-top: 0; }
+.rq .books-slider__controls.home { padding-bottom: 2.5em; margin-top: 0; }
 .rq .books-slider__controls-button {
   display: inline-grid;
   width: 4.5em;
@@ -999,6 +1009,7 @@ html.rq-menu-open { overflow: hidden; }
 }
 .rq .flow__cta-logo { width: 5em; height: 5em; }
 .rq .flow__content { padding-top: 9em; padding-bottom: 7.5em; }
+.rq .flow__mobile-dots { display: none; }
 .rq .flow__list { display: flex; align-items: center; justify-content: center; position: relative; }
 .rq .flow__list-item { height: 100%; }
 .rq .flow__list-item:not(:first-child) { margin-left: -5em; }
@@ -1008,6 +1019,7 @@ html.rq-menu-open { overflow: hidden; }
   height: 37.5em;
   background: var(--card, var(--cyan));
   border-radius: 2em;
+  overflow: hidden;
 }
 .rq .flow__card-inner {
   display: flex;

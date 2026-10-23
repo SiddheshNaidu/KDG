@@ -68,21 +68,13 @@ export function Header() {
                   </Button>
                 </li>
               ))}
-              <li className="header__nav-list-item">
-                <ButtonAlt href="#upload">Upload your syllabus</ButtonAlt>
-              </li>
             </ul>
           </nav>
 
           <div className="header__sub">
             <ul className="header__sub-list">
               <li className="header__sub-list-item">
-                <span className="button button--static">
-                  <span className="button__bg" />
-                  <span className="button__inner">
-                    <span className="button__text">🗺️ Built for students</span>
-                  </span>
-                </span>
+                <ButtonAlt href="#upload">Upload your syllabus</ButtonAlt>
               </li>
             </ul>
           </div>

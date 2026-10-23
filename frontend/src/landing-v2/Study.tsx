@@ -17,22 +17,22 @@ export function Study() {
     const path = el.querySelector<SVGPathElement>("[data-tagline-curve-svg] path");
     if (reducedMotion() || !textPath || !path) return;
 
-    // Port of initTaglineCurve: the headline rides a curve and slides along it on scroll.
-    const pathLen = path.getTotalLength();
-    // start with the phrase just inside the curve, end with its last letter leaving on the left
-    const endOffset = () => -((textPath.getComputedTextLength() * 100) / pathLen) - 2;
+    // The headline rides the curve on scroll: fluid, perceptible wave surfing without clipping.
+    const isMobile = typeof window !== "undefined" && window.matchMedia("(max-width: 991px)").matches;
+    const startOffset = isMobile ? "64%" : "68%";
+    const endOffset = isMobile ? "34%" : "28%";
 
     gsap.fromTo(
       textPath,
-      { attr: { startOffset: "8%" } },
+      { attr: { startOffset } },
       {
-        attr: { startOffset: () => `${endOffset()}%` },
+        attr: { startOffset: endOffset },
         ease: "none",
         scrollTrigger: {
           trigger: el.querySelector("[data-tagline-curve]"),
-          start: "-40% bottom",
-          end: "60% top",
-          scrub: 0.5,
+          start: "top 95%",
+          end: "bottom 5%",
+          scrub: 0.6,
           invalidateOnRefresh: true,
         },
       },
@@ -57,8 +57,8 @@ export function Study() {
       <div className="tagline-curve" data-tagline-curve>
         <svg className="tagline-curve__svg" data-tagline-curve-svg viewBox="0 0 1920 560" aria-label="Track what you know, soon" role="img">
           <path id="rq-curve" d="M-160 470C420 520 960 440 1440 250S2060 20 2320 -20" fill="none" />
-          <text data-tagline-curve-text fontSize="170" className="tagline-curve__text">
-            <textPath id="textpath" href="#rq-curve" startOffset="4%">
+          <text data-tagline-curve-text className="tagline-curve__text">
+            <textPath id="textpath" href="#rq-curve" startOffset="50%" textAnchor="middle">
               Track what you know, soon
             </textPath>
           </text>

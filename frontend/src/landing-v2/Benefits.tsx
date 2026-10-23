@@ -6,11 +6,11 @@ import { gsap } from "./gsap";
 import { reducedMotion, useGsap } from "./useGsap";
 
 const LABELS = [
-  { text: "Study order", cls: "is--first", tone: "" },
-  { text: "Key topics", cls: "is--second", tone: "is--orange" },
-  { text: "Prerequisites", cls: "is--third", tone: "is--periwinkle" },
-  { text: "Topic maps", cls: "is--fourth", tone: "is--cyan" },
-  { text: "Start here", cls: "is--fifth", tone: "is--olive" },
+  { text: "Study order", desc: "Logical sequence", cls: "is--first", tone: "" },
+  { text: "Key topics", desc: "Unlocks the most", cls: "is--second", tone: "is--orange" },
+  { text: "Prerequisites", desc: "Hidden background", cls: "is--third", tone: "is--periwinkle" },
+  { text: "Topic maps", desc: "Interactive graph", cls: "is--fourth", tone: "is--cyan" },
+  { text: "Start here", desc: "Zero prereqs needed", cls: "is--fifth", tone: "is--olive" },
 ];
 
 export function Benefits() {
@@ -36,11 +36,11 @@ export function Benefits() {
 
     // momentum hover: pills get shoved by the pointer's velocity and coast back (InertiaPlugin)
     if (!window.matchMedia("(hover: hover) and (pointer: fine)").matches) return;
-    const xyMultiplier = 25;
-    const rotationMultiplier = 15;
-    const inertiaResistance = 160;
-    const clampXY = gsap.utils.clamp(-1080, 1080);
-    const clampRot = gsap.utils.clamp(-60, 60);
+    const xyMultiplier = 12;
+    const rotationMultiplier = 10;
+    const inertiaResistance = 220;
+    const clampXY = gsap.utils.clamp(-280, 280);
+    const clampRot = gsap.utils.clamp(-35, 35);
 
     const rootEl = el.querySelector<HTMLElement>("[data-momentum-hover]")!;
     let prevX = 0,
@@ -124,6 +124,7 @@ export function Benefits() {
               >
                 <div className={`benefits__label-inner ${l.tone}`} data-momentum-hover-target>
                   <span className="benefits__label-text h-l">{l.text}</span>
+                  <span className="benefits__label-desc">{l.desc}</span>
                 </div>
               </div>
             ))}

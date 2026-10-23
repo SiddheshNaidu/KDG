@@ -47,9 +47,12 @@ export function useSlider(
     let lastState = "";
     let initialised = false;
 
+    const isCenter = () => center || (typeof window !== "undefined" && window.matchMedia("(max-width: 991px)").matches);
+
     const measure = () => {
       ww = wrap.clientWidth;
-      if (center) {
+      const centering = isCenter();
+      if (centering) {
         snaps = items.map(
           (el) => ww / 2 - (el.offsetLeft + el.offsetWidth / 2),
         );
@@ -74,16 +77,16 @@ export function useSlider(
     };
 
     const nearestSnap = (v: number) =>
-      snaps.reduce((a, b) => (Math.abs(b - v) < Math.abs(a - v) ? b : a), snaps[0]);
+      snaps.reduce((a, b) => (Math.abs(b - v) < Math.abs(a - v) ? b : a), snaps[0] ?? 0);
 
     const settle = (extra = 0) => {
       let v = target + extra;
       v = Math.max(min, Math.min(max, v));
-      target = center ? nearestSnap(v) : v;
+      target = isCenter() ? nearestSnap(v) : v;
     };
 
     const step = (dir: 1 | -1) => {
-      if (center) {
+      if (isCenter()) {
         const i = snaps.indexOf(nearestSnap(target));
         const n = Math.max(0, Math.min(snaps.length - 1, i + dir));
         target = snaps[n];

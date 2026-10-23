@@ -109,6 +109,14 @@ export function Projects() {
       const b = BASE[i % BASE.length];
       el.style.setProperty("--tilt", `${(b.r + s * 3).toFixed(2)}deg`);
       el.style.setProperty("--lift", `${(b.y - Math.abs(s) * 1.1).toFixed(2)}em`);
+      if (typeof window !== "undefined" && window.matchMedia("(max-width: 991px)").matches) {
+        const dist = Math.abs(norm);
+        el.style.setProperty("--focus-opacity", `${Math.max(0.45, 1 - dist * 0.55).toFixed(2)}`);
+        el.style.setProperty("--focus-scale", `${Math.max(0.94, 1 - dist * 0.05).toFixed(2)}`);
+      } else {
+        el.style.setProperty("--focus-opacity", "1");
+        el.style.setProperty("--focus-scale", "1");
+      }
     },
   });
 

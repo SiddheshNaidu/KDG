@@ -39,8 +39,8 @@ export function Footer() {
             <div className="footer__top-nav">
               <LogoFull className="footer__logo" />
               <div className="footer__cta">
-                <ButtonAlt href="#upload">Upload your syllabus</ButtonAlt>
                 <Button href="#how-it-works">How it works</Button>
+                <Button href="#top">Back to top ↑</Button>
               </div>
               <ul className="footer__links">
                 <li><a className="footer__link" href="#projects"><span className="footer__bottom-text">Example maps</span></a></li>
